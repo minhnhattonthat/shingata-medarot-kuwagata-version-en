@@ -29,11 +29,29 @@ def scene_names():
     return names
 
 
+def text_ranges(rom):
+    """GBA address ranges holding the strings of ROM's build (its .strings.tsv), else the original text region."""
+    tsv = Path(rom).with_suffix(".strings.tsv")
+    ranges = ["8464000-8512000"]
+    if tsv.exists():
+        moved = [int(ln.split("\t")[1], 16) for ln in tsv.read_text(encoding="utf-8").splitlines()
+                 if int(ln.split("\t")[1], 16) >= 0x08800000]
+        if moved:
+            ranges.append(f"{min(moved):X}-{max(moved) + 0x200:X}")
+    return ",".join(ranges)
+
+
 def run(name, a):
     out = a.qa / name
     cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), str(a.rom), "--out", str(out),
            "--frames", "15000", "--timeout", "600", "--script", str(ROOT / "tools" / "debug" / "warp.lua"),
            "--var", f"SCENE='{name}'", "--var", "STOP=1"]
+    if a.probes:
+        # text coverage (every string's first-byte read, textcover.py) + who sets the alternate-font flag state+0x27
+        cmd += ["--script", str(Path(SKILL) / "scripts" / "lua" / "probes" / "textcover.lua"),
+                "--var", f"RANGES='{text_ranges(a.rom)}'",
+                "--script", str(Path(SKILL) / "scripts" / "lua" / "probes" / "watch.lua"),
+                "--var", "WATCH_LO=0x03000547"]
     if not a.no_states:
         state = (ROOT / "work" / "states" / f"{name}.mss").as_posix()
         cmd += ["--var", f"SAVE='{state}'"]
@@ -50,6 +68,8 @@ def main():
     ap.add_argument("--only")
     ap.add_argument("--jobs", type=int, default=4)
     ap.add_argument("--no-states", action="store_true")
+    ap.add_argument("--probes", action="store_true",
+                    help="log text reads (TEXT lines for textcover.py) and writes to state+0x27 (0x03000547)")
     ap.add_argument("--qa", type=Path, default=ROOT / "work" / "qa" / "scenes",
                     help="output dir (another ROM: keep the original's shots, e.g. work/qa/scenes_poison)")
     a = ap.parse_args()

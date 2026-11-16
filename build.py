@@ -64,6 +64,10 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(data)
     rombuild.write_log(report, out.with_suffix(".writes.txt"))
+    # id<TAB>GBA address of the string's first byte in this build, for textcover.py (emulator-qa.md §Text coverage)
+    out.with_suffix(".strings.tsv").write_text("".join(f"{off:06X}\t{0x08000000 + at:X}\n"
+                                                       for off, at in sorted(report.placed.items())),
+                                               encoding="utf-8", newline="\n")
     sha = hashlib.sha1(data).hexdigest()
     same = "identical to the original" if data == orig else f"{len(report.writes)} writes"
     print(f"{out.relative_to(ROOT)}: {len(data):#x} bytes, sha1 {sha}, {same}")

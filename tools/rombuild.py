@@ -35,6 +35,7 @@ class Report:
     moved: int = 0
     slots_repointed: int = 0
     writes: list = field(default_factory=list)  # (offset, orig bytes, new bytes, writer) for romdiff --writes
+    placed: dict = field(default_factory=dict)  # original string offset -> ROM offset the build's slots reach
 
 
 class Rom:
@@ -116,7 +117,9 @@ def text_stage(rom, entries, table, strings=None, relocate_all=False, poison=Fal
         report.strings += 1
         if not relocate_all and new == old:
             report.in_place += 1
+            report.placed[off] = off
             continue
+        report.placed[off] = free
         rom.write(free, new, f"text {off:07X}")
         for s in slots_of[off]:
             rom.write(s, struct.pack("<I", GBA + free), f"ptr {s:07X}->{off:07X}")

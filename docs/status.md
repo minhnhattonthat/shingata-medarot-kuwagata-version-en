@@ -2,7 +2,33 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: not started (phase 7 finished 2026-11-17).
+- **Phase:** 8. QA in the emulator: in progress (phase 7 review fixed; English scene proof with probes run).
+- **Phase 8 session 1 (2026-11-17):**
+  - Phase 7 review (`.harness/reviews/...-phase7.md`) fixed, all Important + Minors 1, 2, 4 (c1bca0c):
+    `{fa:FF}` info panes draw page 1 only (parts_shop_detail, `work/qa/pg_psd` vs `pg_psd2`), so 37 pane + 2 timed
+    battle lines refit to 2 lines; `lint.py page_problem` fails an added `{page}` in panes, timed lines and tables
+    whose JP never pages unless `data/windows.json` "page_tables" gives evidence (FC's A-wait is inside the runner,
+    0x0804123A -> 0x08041A28). Stub rule now: last line < 6 characters (author `{n}` too) fails; 270 lines
+    rebalanced by codex (`batches.py fixset s001-s003` = fix batch seeded with the live English, then
+    `merge --overwrite`). romcheck: out-of-range pointer writes only at known slots. FE names keep the JP's
+    leading/trailing blanks. Captain Oro -> Leader Oro (glossary Avoid).
+  - Open from the review: **Minor 3** (jp_left on the build: needs a jp_left .tbl without codes 52-78/A2-CF and a
+    slots file; wire into `tools/release.py` in phase 9); **Minor 5** (alt font flag): `prove.py --probes` now
+    watches writes to 0x03000547 (state+0x27) in every scene log (`pc=... addr=03000547 <value>`); so far only
+    value 0 seen (home_1f). Check all scene logs: `grep -h 03000547 work/qa/scenes_en/*/log.txt | sort -u`, then
+    record the result in docs/re/text.md. Verify page_tables entries 46D598/46E0F0 (robattle face lines) in a
+    battle tour.
+  - Text coverage wired: `build.py` writes `build/medarot_kuwagata_en.strings.tsv` (id, GBA address in this build);
+    `prove.py --probes` adds textcover.lua (ranges from that file) to each scene run. Report:
+    `python -X utf8 $SKILL/scripts/textcover.py work/qa/scenes_en build/medarot_kuwagata_en.strings.tsv --mask 0x1FFFFFF`.
+  - English proof `prove.py build/medarot_kuwagata_en.gba --no-states --qa work/qa/scenes_en --jobs 1 --probes`
+    (build sha1 of c1bca0c + strings.tsv) was **reaped for low memory again after 39 scenes**: rerun only the missing
+    ones (`--only a,b,..`: the scenes with no `work/qa/scenes_en/<scene>/arrived.png`), in the foreground, alone.
+    All 0x03000547 writes in those 39 logs store 0 (alt font never selected so far).
+  - **Next in phase 8:** finish the proof; `shotdiff.py work/qa/scenes/shots work/qa/scenes_en/shots`; qa_gate
+    manifest + visual-QA verdicts (fresh read-only pass, or `codex exec` read-only); textcover gaps -> new scenes or
+    `docs/text_unshown.tsv` waivers; inkbox on choice/centred boxes; graphics-text redraws (list under "Japanese
+    left" below).
 - **Phase 7 result (2026-11-17):** build green. `tools/check.py` exit 0: 32 tests, lint 0 errors (now also fails a
   wrapped page ending in a stub line < 24 px, and any reached string with Japanese but no `en`; exceptions go in
   `script/keep_jp.txt`, none needed), batch check 0 problems (control codes matched). `tools/romcheck.py` (and
