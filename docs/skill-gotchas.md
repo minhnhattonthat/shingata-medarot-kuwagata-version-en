@@ -13,3 +13,5 @@ One line per gotcha: the reference file it belongs in, then the fact.
   any map with no ROM patch. Writing the main-mode globals from the idle field reached every menu/minigame screen.
 - references/emulator-qa.md §Debug tool: "field idle" needs a player-control flag, not just the field substate: the
   intro left the substate idle while dialogue ran, and a warp there skipped half the intro.
+- references/platform-gba.md: Mesen 2.2.1 Lua write callbacks on 0x040000D4-DF (DMA3) never fired while a GBA game saved to EEPROM; find the saved RAM instead with a read trace of the save step (BIOS CpuSet pc 0xB8E read the whole block).
+- references/emulator-qa.md §Debug tool: a robattle started by writing the main mode crashed in RAM code the field's encounter path installs; trigger battles through the game's own encounter check (pin the step counter and walk) rather than the mode switch.

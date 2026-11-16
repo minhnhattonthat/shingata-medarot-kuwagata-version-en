@@ -17,11 +17,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     title, encyclopedia, credits); `tools/debug/prove.py` proves them all from a cold boot and writes
     `work/states/<scene>.mss`. RE helpers: `tools/re_stores.py`, `tools/re_scene_cases.py`, `tools/debug/explore_modes.py`.
 - **Next (phase 2, `references/emulator-qa.md` §Debug tool):**
-  1. **Party / inventory:** the player has no Medabot after the intro, so `robattle_intro` (mode 0 sub 6) dims and
-     stops, and the Medabot/medal/parts lists are empty. Find the party, medal and parts inventory in RAM (the save
-     screen 2/5 shows the counts; the Medabot list 0/3 reads them) and add a `FAST` option that fills them; then a
-     working `robattle` scene (random: 0x030051F5 = 0; story: 1 plus the opponent id) through to the attack messages,
-     win and loss.
+  1. **Party / inventory** (read `docs/re/debug.md` §Save block and §Robattle first: 2026-11-17 ruled out a lot).
+     The saved RAM is 0x030048B0-0x03005287, but the empty list screens read none of it and filling its zero
+     ranges changes nothing. Robattles must start from a real encounter (pin 0x030051F1=1, 0x030051F3=0x20, walk:
+     the raw mode write crashes in RAM code 0x03004220); that path reaches step 34 and goes black with no party.
+     Next: play the opening story with `play.py` (mash A + walk out of the house) until the game hands over the first
+     Medabot, saving a state just before; diff `ramdump.lua` dumps across that event (`ramsearch.py`), or trace the
+     event interpreter (0x08055B44 area) for the give-Medabot/part command. Then a `FAST` option that fills the
+     party, and a `robattle` scene from a real encounter through attacks, win and loss.
+     Probes made this session: `tools/lua/reads_in_mode.lua` (reads by mode/sub/step, pc/addr filters),
+     `fill.lua`, `pin.lua`, `modelog.lua` (mode changes, PCEVERY for hangs), `dma_eeprom.lua` (doesn't fire).
   2. **Story flags:** the nibble array at 0x030048B0 (+0, ~0x500 bytes; reader 0x08058260) and the event command
      interpreter around 0x08055B44 (command 0x20 = story robattle). Needed for chapter entries, the pre-credits
      ending (credits alone are 4/6) and the Start menu, which is locked in the early story (1 opens it anyway).

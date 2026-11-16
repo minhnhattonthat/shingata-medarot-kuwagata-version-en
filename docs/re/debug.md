@@ -32,6 +32,29 @@ Field idle (safe to warp) = mode 1, field substate 2 and 0x03004268 = 1 (set by 
 (encounters on), +0x944 bit 0 = 0, and the step counter +0x943 passes 0x10 and a random roll. Pin 0x030051F1
 (+0x941) to 0 for no encounters. Then the field calls scene switch case 0x21 (mode 0 sub 6).
 
+## Save block and inventory hunt (2026-11-17, unfinished)
+- **Saved RAM:** the save (mode 2 sub 5, "yes") CpuSets 0x030048B0-0x03005287 (0x9D8 bytes, the field-state block)
+  plus 0x03001D80-0x03001DCF and 0x03004260-0x03004267 (BIOS CpuSet pc 0xB8E; `work/qa/rsv3`). EEPROM save
+  (`EEPROM_V124`); Mesen Lua write hooks never fire on the DMA3 registers, so `tools/lua/dma_eeprom.lua` logs nothing.
+- **Not the inventory (when empty):** the medal list (0/4), Medabot setup (0/3), parts list (0/5) and shop buy list
+  (2/25) read no byte of the save block at all (`tools/lua/reads_in_mode.lua --var RLO=0x030048B0 --var RHI=0x03005290`).
+  Filling 0x03004A00-A9F, 0x03004AB0-DBF, 0x03004E40-51CF or 0x03000548-650 with 1 before opening them changes
+  nothing (`tools/lua/fill.lua`). So either the lists check a count elsewhere first, or the inventory is built
+  only when the story gives the first Medabot. Next try: diff RAM across the story event that hands over the first
+  Medabot/medal (find it with the event interpreter, below), or the "give part" event command.
+- UI objects live at 0x0202E000-0x0202F6FF (0x50/0x210-byte records) and task slots at 0x03000BE0 (0x40 each);
+  0x02020000-0x0202007F is a glyph-drawing buffer (0x08041600 ORs it into VRAM 0x06000280). Skip them in traces.
+
+## Robattle (mode 0 sub 6)
+- Steps 0..13 (intro, referee, formation), 32, 33 (fade: counter 0x030005AC to 8), 34, ... (`tools/lua/modelog.lua`).
+- Opponent table by map: 0x0846A7B0 + map*8, 2 bytes copied to 0x03000616 by 0x08012818.
+- **A raw mode write crashes** after the opponent's line: step 33 calls RAM code at 0x03004220 (via `bx r0`
+  0x0808B984 from 0x080023A4) that the field's encounter path sets up, and it jumps to 0x0FF336E0.
+- **A real encounter works:** on a field map pin 0x030051F1 = 1 (encounters on), 0x030051F3 = 0x20 (step
+  counter), 0x030051F5 = 0 and walk (`tools/lua/pin.lua`); mode 0 sub 6 starts by itself and reaches step 34, then
+  stays black with the CPU idle (pc 0x24, lr 0x080005DA): presumably no player Medabot. `robattle_intro` in
+  scenes.txt is still the raw write (good to the opponent's line only).
+
 ## Door warps
 - Table 0x084B6248: one u32 pointer per map id to 8-byte entries, 0xFF-terminated:
   `[tile x, tile y, dest map, dir (low 3 bits), ?, ?, dest tile x, dest tile y]`.
