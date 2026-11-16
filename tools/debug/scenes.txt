@@ -1,0 +1,42 @@
+# Scene list for tools/debug/warp.lua: name<TAB>{lua table}<TAB>what it shows
+# Keys: map,x,y,dir = field warp (tile coords); mode,sub,step,extra = main-mode switch (docs/re/debug.md);
+#       press="30 -;6 a" inputs after arrival; mash=N press A every N frames; hold=N frames before ARRIVED;
+#       poke={[addr]=byte} once, pin={[addr]=byte} every frame.
+# Every entry is proven from a cold boot by tools/debug/prove.py (shots in work/qa/scenes/<name>/final.png).
+# --- field
+home_2f	{map=2, x=5, y=5}	Ikki's room (start of the game)
+home_1f	{map=1, x=4, y=7}	home ground floor
+town	{map=0, x=10, y=17}	town (map 0)
+# --- field menu (mode 0) and Medawatch
+field_menu	{mode=0, sub=1}	Start menu over the field: Medarotch / items / help / save, money
+medawatch	{mode=0, sub=2}	Medawatch menu (Medarotter, medals, parts)
+medarot_list	{mode=0, sub=3}	Medabot setup (medal tree)
+medal_list	{mode=0, sub=4}	medal list
+parts_list	{mode=0, sub=5}	parts list (head page)
+robattle_intro	{mode=0, sub=6, extra={[0x030051F5]=0}, hold=240}	random robattle intro (referee, formation); no party yet
+# --- menus (mode 2)
+newgame_menu	{mode=2, sub=3}	New game / continue menu
+items	{mode=2, sub=4}	item list
+save	{mode=2, sub=5}	save screen (yes/no)
+name_entry	{mode=2, sub=6}	name entry keyboard
+sound_test	{mode=2, sub=7}	leftover test mode: BGM / SE
+save_corrupt	{mode=2, sub=9}	"save data is corrupted" notice
+game_over	{mode=2, sub=8}	game over
+town_map	{mode=2, sub=10}	town map with place names
+parts_shop	{mode=2, sub=11}	parts shop: buy / sell / leave
+parts_trade	{mode=2, sub=16}	parts trade (link)
+parts_shop_buy	{mode=2, sub=25}	parts shop buy list
+options	{mode=2, sub=31}	title menu options (robattle animation / messages)
+# --- events and minigames (mode 3)
+event_medal	{mode=3, sub=3}	opening event: Ikki and the dog find the medal
+road_race	{mode=3, sub=4}	Medaroad Race minigame
+corps_game	{mode=3, sub=5}	"select corps" board minigame
+medarot_weekly	{mode=3, sub=6}	Medarot Weekly TV studio
+# --- title side (mode 4)
+logos	{mode=4, sub=0, hold=60}	Imagineer logo
+opening	{mode=4, sub=1, hold=60}	opening animation
+title	{mode=4, sub=2}	title screen
+baseball	{mode=4, sub=3}	baseball minigame
+car_game	{mode=4, sub=4}	road / car minigame
+encyclopedia	{mode=4, sub=5}	encyclopedia (no entries yet)
+credits	{mode=4, sub=6, hold=300}	staff credits (sepia stills)
