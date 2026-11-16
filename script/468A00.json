@@ -1966,7 +1966,7 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "レンタメンテ{item}",
-   "en": "Lentament{item}",
+   "en": "Lentamente{item}",
    "status": "done",
    "notes": ""
   },
@@ -2458,7 +2458,7 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "アーケラルゴ{item}",
-   "en": "Arquelarg{item}",
+   "en": "Arquelargo{item}",
    "status": "done",
    "notes": ""
   },

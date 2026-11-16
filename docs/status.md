@@ -2,26 +2,21 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- Review fix pass (b017-b019): expanded Select Corps Headquarters in 4BD9ED and 4BDCCB;
-  both Important findings accepted, Minor findings untouched. `batches.py check b017 b018 b019`: all OK.
-
-- **Phase:** 6. Translate: in progress (2026-11-17, session 1 of phase 6). Pipeline: `tools/batches.py split`
-  made b001-b084 (`work/tl/bNNN.tsv`, identical JP+box batched once, merge copies to duplicates); translators and
-  reviewers run through `codex exec` (`tools/codex_tl.py`, `tools/tl_pipeline.py "b014 b015 b016" ...` =
-  translate -> pairs -> independent review `work/tl/review/<first>.review.md` -> fix pass -> check; status file
-  `work/tl/review/<first>.status` says READY to merge). The controller merges (`batches.py merge bNNN.. --overwrite`)
-  so lanes never write `script/` at once. **Merged (4109 of 8038 strings in `en`, check 0 problems, lint 0, build
-  smoke ok sha1 5a387ba0):** b001-b007 (names, unreviewed), fix01 (ていし -> Halt), b014-b025 (translated,
-  reviewed, fixed), and **merged but NOT yet reviewed:** b008 b009 b011 b012 b070-b081 b083 (run
-  `tl_pipeline.py` on them: it skips translation, reviews, fixes; then merge --overwrite).
-  **Not done:** b010 b013 b026-b028 b030-b069 b084 (no output yet); b029 (partial, 16 check problems) and b082
-  (1 problem): re-run tl_pipeline on their groups. Suggested groups: "b008 b009 b010" "b011 b012 b013"
-  "b026 b027 b028" "b029 b030 b031" ... "b068 b069" "b070 b071 b072" ... "b082 b083 b084".
-  **Memory:** on 2026-11-17 seven parallel lanes (7 codex sessions + Claude Code) got all background jobs killed
-  for low system memory. Run at most 2-3 lanes at once. Docs: `docs/translator-brief.md`, `docs/reviewer-brief.md`, `docs/synopsis.md` (two casts: Shingata's
+- **Phase:** 7. Insert, fit, check: not started (phase 6 finished 2026-11-17, session 2 of phase 6).
+- **Phase 6 result:** every batch b001-b084 translated, independently reviewed (codex reviewer, `docs/reviewer-
+  brief.md`) and fixed (`work/tl/review/<first>.review.md` + `.status` = READY for all 28 groups; fix logs
+  `work/tl/logs/*.fix.last.txt`: ~100 findings applied, 2 rejected: 25 capped part names now in glossary.md
+  "Capped part names", and Robo-robo vs the binding Rubberobo). Merged into `script/`: **7976 of 8038 strings in
+  `en`**; the 62 without are control-code-only strings plus 9 dead strings in `unused.json`. `batches.py check`
+  b001-b084 all OK, `tools/check.py` 0 problems, lint 0 errors/0 warnings. Glossary gained a homograph row
+  (なぞのベール, so ベール = veil isn't forced to Behr) and the capped-names table.
+  Build 2026-11-17: `build/medarot_kuwagata_en.gba` sha1 3b1bf93e..., 7936 strings moved, smoke ok, warp to
+  parts_shop shows English dialogue (`work/qa/warp_p6/final.png`; warp needs `--frames 4000` from a cold boot).
+  Pipeline (for re-translation or fixes): `tools/tl_pipeline.py "bNNN ..."` -> `batches.py merge .. --overwrite`.
+  **Memory:** run at most 3 codex lanes at once (7 lanes got everything killed); background shells left idle may be
+  reaped under memory pressure, so wait in the foreground.
+  Docs: `docs/translator-brief.md`, `docs/reviewer-brief.md`, `docs/synopsis.md` (two casts: Shingata's
   Gamma story in 50A9D8/4B50CC/46D598/46E0F0/510124; retained Medarot 2 Core Ikki story in the 4F tables).
-  Last build: 2026-11-17
-  `build/medarot_kuwagata_en.gba` from `script/`, sha1 573e980d... = the original (identity), smoke ok.
   Marker build `build/marker.gba` (`build.py --marker`; `--full` fills dialogue lines to 208 px): boots, 70/70
   scenes arrive (`work/qa/scenes_marker/shots`, `prove.py build/marker.gba --no-states --qa work/qa/scenes_marker`).
 - **Done:**
@@ -102,13 +97,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
       key `wait={..., stopmash=true, press=".."}`; new scenes robattle_menu, robattle_parts, robattle_detail,
       robattle_menutour, parts_owned, parts_owned_detail, parts_legs_detail (not yet in `work/states/`: run
       `prove.py --jobs 1 --only ...` when phase 8 needs their states).
-- **Next (phase 6, `references/translation.md`):**
-  1. Fill `glossary.md` (characters from 46E60C, Medabot names 468308, medals 465B8C, parts 468A00, places,
-     skill types / actions) using the official Medabots English names (D2), then dispatch translator agents in
-     batches by table (`script/<table>.json`, field `en`), budgets from `data/windows.json` and `tools/lint.py`.
-     Orca workers can't nest agents: translate in this session (or `codex exec`) and do the reviewer pass as a
-     fresh read-only pass. Battle pieces sharing a line (action + weapon kind) keep to ~70 px each.
-  2. Japanese left, all graphics (phase 8): parts-shop options (パーツを かう / うる / もどる), name-entry grid,
+- **Next (phase 7, `references/pipeline.md` §Checks):** build green with the full script: lint is already clean
+  and control codes match (batches check); still to do: `romdiff.py` against the original with the write log
+  (no writes outside allowed ranges), then `prove.py build/medarot_kuwagata_en.gba --no-states --qa
+  work/qa/scenes_en --jobs 1` and `shotdiff.py` vs `work/qa/scenes/shots` for overflow / garbled boxes.
+  Japanese left, all graphics (phase 8): parts-shop options (パーツを かう / うる / もどる), name-entry grid,
      money "円" glyph, menu tabs and headers (あたま etc. in the parts list), bottom hint lines, column headers.
      `jp_left.py --gba-ptrs` is noise here; the textmap coverage proof is the real check.
   Run **one emulator job at a time** (`--jobs 1`): other projects share this machine's memory.

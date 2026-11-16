@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{fa:FF}{fa:FF}{fa:FF}これを もっていると ロボトルから にげられるらしい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}{fa:FF}{fa:FF}Having this apparently lets you{n}run from a Robattle.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -23,8 +23,8 @@
    "bytes": 32,
    "tail_of": "50CA34",
    "jp": "{fa:FF}{fa:FF}これを もっていると ロボトルから にげられるらしい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}{fa:FF}Having this apparently lets you{n}run from a Robattle.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -36,8 +36,8 @@
    "bytes": 30,
    "tail_of": "50CA34",
    "jp": "{fa:FF}これを もっていると ロボトルから にげられるらしい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Having this apparently lets you{n}run from a Robattle.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -48,8 +48,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{fa:FF}ふくびきで ゲームをして ごうか しょうひんを{n}あてよう！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Play the raffle game to win fabulous prizes!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -60,8 +60,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{fa:FF}わたるくんが つくった ふつうの ルアー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}An ordinary lure made by Wataru-kun.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -72,8 +72,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{fa:FF}だれかに あげると いいことが あるかも！？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Give it to someone, and something good might happen!?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -84,8 +84,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{fa:FF}とても かわいい ひよこ{n}ピヨピヨ ないている{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A very cute chick. It's chirping away.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -96,8 +96,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{fa:FF}これで いけなかった ところへ いけるかも{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}This might let you reach places you couldn't get to before.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -108,8 +108,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{fa:FF}めがねが ひつような ひとって だれ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Who needs glasses?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -120,8 +120,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{fa:FF}おんがくの しきには これが かかせない！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A must-have for conducting music!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -132,8 +132,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{fa:FF}なんだか むずかしい ことが かいてある ほん{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A book about something pretty complicated.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -144,8 +144,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{fa:FF}すごく むずかしい ことが かいてある ほん{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A book about something really complicated.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -156,8 +156,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}むずかしすぎて なんだか わからない！{n}こういうのが すきなひとに わたそう！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}It's too complicated to understand!{page}Give it to someone who likes this stuff!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -168,8 +168,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{fa:FF}げんきな オスの くわがたむし{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A lively male Stag Beetle.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -180,8 +180,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{fa:FF}{fa:FF}メダロットのようで メダロットでない・・・{n}にせものだ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}{fa:FF}It looks like a Medabot, but it isn't... It's a fake!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -193,8 +193,8 @@
    "bytes": 32,
    "tail_of": "50CB80",
    "jp": "{fa:FF}メダロットのようで メダロットでない・・・{n}にせものだ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}It looks like a Medabot, but it isn't... It's a fake!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -205,8 +205,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{fa:FF}とても しんせんな さかな{n}はやく ソンチョーにわたさないと！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A very fresh fish. Better get it to the Chief soon!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -217,8 +217,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{fa:FF}とても きれいな いし{n}キラキラ している{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A very pretty stone. It's sparkling.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -229,8 +229,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}メダルのかたちをしているが なんだか ふるぼけている{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}It's shaped like a Medal, but looks rather old and worn.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -241,8 +241,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{fa:FF}やきものを やくのに てきしている{n}さいこうきゅうの つち{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Top-quality clay that's perfect for making pottery.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -253,8 +253,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}こういうものの かちは よく わからない・・・{n}ソンチョーならわかるかな？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}I'm not sure what something like this is worth...{page}Maybe the Chief would know?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -265,8 +265,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{fa:FF}これで ロボロボだんに へんしん できるぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}This lets you dress up as a Rubberobo Gang member!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -277,8 +277,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{fa:FF}ロボロボだんの ボスが うつっている しゃしん{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A photograph of the Rubberobo Gang's boss.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -289,8 +289,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{fa:FF}MーPKたいの メダルだ！ かっこいい！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}An M-PK Medal! Cool!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -301,8 +301,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}きんいろに かがやいている パーツ{n}とても きれいだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A part with a golden shine. It's very pretty.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -313,8 +313,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{fa:FF}おんぼろすぎて いまにも くずれそうだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}It's so worn out, it could fall apart any second.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -325,8 +325,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{fa:FF}アイリスが たいせつにしている けいたいでんわ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}The Cell Phone Iris treasures.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -337,8 +337,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{fa:FF}どんな ばしょへも これさえあれば ひとっとび！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}With this, you can fly anywhere in a flash!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -349,8 +349,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{fa:FF}これに のっていれば ロボトルを いどまれない らしい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Apparently, no one challenges you to a Robattle while riding this.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -361,8 +361,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{fa:FF}みずの まえで つかってみよう わたれるばしょがあるかも！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Try using it by the water. You might find a place to cross!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -373,8 +373,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}これで じぶんのいる ばしょが ひとめで わかる！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}This shows you where you are at a glance!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -385,8 +385,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{fa:FF}どこかへの にゅうじょうけんのようだが・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}It looks like an admission ticket for somewhere...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -397,8 +397,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{fa:FF}どこかに はいるための カードのようだ・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}It looks like a card for getting in somewhere...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -409,8 +409,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{fa:FF}ロボトルたいかいの さんか チケットのようだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Looks like an entry ticket{n}for a Robattle tournament.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -421,8 +421,8 @@
    "kind": "ff",
    "bytes": 10,
    "jp": "{fa:FF}？？？？？？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}??????{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -433,8 +433,8 @@
    "kind": "ff",
    "bytes": 10,
    "jp": "{fa:FF}？？？？？？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}??????{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -445,8 +445,8 @@
    "kind": "ff",
    "bytes": 10,
    "jp": "{fa:FF}？？？？？？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}??????{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -457,8 +457,8 @@
    "kind": "ff",
    "bytes": 10,
    "jp": "{fa:FF}？？？？？？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}??????{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -469,8 +469,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{fa:FF}サルが おんなのこから うばった メダル{n}はやく かえしてあげよう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}The Medal a Monkey stole from a girl. Better return it soon.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -481,8 +481,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "{fa:FF}アイテムはありません{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}You have no items.{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

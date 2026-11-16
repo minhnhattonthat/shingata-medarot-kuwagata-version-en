@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{fa:FF}「ベント・デル・マーレ」{n}{var:00}とゆかいな なかまたちの まち{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Vento del Mare\"{page}Home to {var:00} and a merry band of friends.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}「ビーチ・デル・ソル」{n}どうくつもある みなとまち{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Beach del Sol\"{n}A port town with a cave.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{fa:FF}「カラクリ・タウン」{n}メダロットけんきゅうじょが ある まち{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Karakuri Town\"{page}Home to the Medabot Research Institute.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{fa:FF}「こしかけむら」{n}やまおくに ある むら{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Koshikake Village\"{n}A village deep in the mountains.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}「こしかけやま」{n}こしかけおんせんに つうじている{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Mount Koshikake\"{n}Leads to Koshikake Hot Springs.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{fa:FF}「セントラルモール」{n}いろんな おみせがある しょうてんがい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Central Mall\"{page}A shopping district with all kinds of stores.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}「ラ・コリーナ」{n}メダロットカンパニーがある まち{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"La Collina\"{n}Home to the Medabot Company.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{fa:FF}「ヴォーグ・タウン」{n}こうきゅう じゅうたくがい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Vogue Town\"{n}An upscale residential district.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{fa:FF}「オセアノ・タワー」{n}MーPKたいの ほんぶが あるまち{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Oceano Tower\"{n}The town where M-PK HQ is located.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{fa:FF}「メダルはっくつきねんこうえん」{n}メダルがはっくつされているばしょ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Medal Excavation Memorial Park\"{page}A site where Medals are excavated.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{fa:FF}「ほうざんじんじゃ」{n}ゆいしょただしい じんじゃ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Hozan Shrine\"{n}A shrine with a distinguished history.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{fa:FF}「こんちゅうはくぶつかん」{n}こんちゅうのことなら ここ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Insect Museum\"{n}The place for all things insect.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{fa:FF}「しのびのさと」{n}なぞのベールにつつまれた しのびの むら{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Ninja Village\"{n}A ninja village shrouded in mystery.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{fa:FF}「サザンコロシアム」{n}ロボトルせかいたいかいの かいじょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Southern Colosseum\"{page}The venue for the World Robattle Tournament.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}「コスモドーム」{n}おおきな てんぼうだいが あるまち{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Cosmo Dome\"{page}A town with a large observation deck.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{fa:FF}「あかさかむら」{n}パパの こきょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Akasaka Village\"{n}Dad's hometown.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{fa:FF}「フォンタナいせき」{n}いつごろ できたかも わからない しんぴの いせき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Fontana Ruins\"{page}Mysterious ruins. Nobody even knows when they were built.{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

@@ -11,8 +11,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:005700}いらっしゃいませ！ いかがなさいますか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005700}Welcome! How may I help you?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -24,8 +24,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:005700}パーツの ぶいを えらんでください{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005700}Please choose a part location.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -37,8 +37,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:005700}パーツの ぶいを えらんでください{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005700}Please choose a part location.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -49,8 +49,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "セーブデータを すべて けします{n}よろしいですか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "All save data will be erased.{n}Are you sure?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -61,8 +61,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "セーブデータを けしています！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Erasing save data!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -73,8 +73,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "もういちど はじめから ゲームを プレイしてくださいね{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Please play the game again from the beginning.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -85,8 +85,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "セーブデータの しょうきょに しっぱいしました！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Failed to erase save data!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -97,8 +97,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "いじょうで よろしいでしょうか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Will that be all?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -109,8 +109,8 @@
    "kind": "ff",
    "bytes": 13,
    "jp": "いまは つかえません！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "You can't use that now!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -122,8 +122,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "ゲームデータを セーブしますか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Save your game data?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -134,8 +134,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "ただいま セーブちゅうです！{n}セーブちゅうは でんげんを きらないでくださいね！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Saving now! Please do not turn off the power while saving!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -146,8 +146,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "ゲームデータを セーブしました！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Game data saved!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -158,8 +158,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "ゲームデータの セーブに しっぱいしました！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Failed to save game data!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -170,8 +170,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:005700}なまえを へんこうしたい メダルは ありますか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005700}Is there a Medal you'd like to rename?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -182,8 +182,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:015700}へんこうには 100円 かかりますが よろしいですか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:015700}Renaming costs 100 yen. Is that all right?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -194,8 +194,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:005700}もうしわけありませんが おかねが たりません・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005700}I'm sorry, but you don't have enough money...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -206,8 +206,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "まちがって けしてしまわないように{n}ちゅういしてくださいね{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Be careful not to erase it by mistake.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -218,8 +218,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "あっ・・・！ 「{var:01}」メダルが・・・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Oh...! The \"{var:01}\" Medal...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -230,8 +230,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "あらたな すがたに へんかした！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "It changed into a new form!{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

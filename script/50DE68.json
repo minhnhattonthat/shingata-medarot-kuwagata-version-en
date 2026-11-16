@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "こんかいの レースかいじょうは{n}「{var:01}」です{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "This race will take place at \"{var:01}\".{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "ただいまより 「メダロードレース」を{n}かいさい いたしま〜す！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The Medaroad Race is about to begiiin!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "だい1のコース うえの だんは{n}{var:00}さん！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "On course 1, in the top lane, it's {var:00}-san!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "だい2のコース まんなかの だんは{n}{var:01}さん！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "On course 2, in the middle lane, it's {var:01}-san!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "だい3のコース したの だんは{n}{var:01}さん！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "On course 3, in the bottom lane, it's {var:01}-san!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 8,
    "jp": "がんばるよ！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "I'll do my best!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 82,
    "jp": "この 3めいで 「メダロードレース」を{n}あらそって いただきま〜す！{page}それでは レースかいしです！！{page}「A」ボタンを れんだ して おうえん してくださいね〜！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "These three will compete{n}in the Medaroad Race!{page}Now, let the race begin!!{page}Keep tapping the A Button{n}to cheer them on!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "こんかいの レースの ゆうしょうしゃは{n}{var:01}さんです{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The winner of this race is {var:01}-san!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "ざんねんでした〜 また ちょうせんしてね！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Too baaad! Try again sometime!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -122,8 +122,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "あたしのほうが ロボトルれきは ながいんだからね！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "I've been having Robattles longer than you, you know!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -136,8 +136,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "ボクハ ヒコウ メダロットダヨ{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "I'm a flying Medabot!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -148,8 +148,8 @@
    "kind": "ff",
    "bytes": 11,
    "jp": "ロボロボ ロボロボ{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Rubberobo! Rubberobo!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -161,8 +161,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "けちょんけちょんに いためつけて やるぜ！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "I'm gonna beat ya to a pulp!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -173,8 +173,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "おまえのふくを どろんこにしてやる！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "I'll get your clothes covered in mud!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -185,8 +185,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "あそんであげても いいわよぉ{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "I suppose I could play with yooou.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -197,8 +197,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "コウセイノウノ ボクニ キミガ カテルノ？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Can you beat a high-performance{n}machine like me?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -209,8 +209,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "ミズノ チカクジャナイト パワーガ デナイノヨネーッ{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "I just can't muster my power unless I'm near water!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -221,8 +221,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "ふふ わが ひっさつの おうぎ ビューティ・キッスを うけてみよ！！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Heh heh! Face my deadly secret technique, Beauty Kiss!!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -233,8 +233,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "ミーは アンタに かっちゃうのヨ{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Me, I'm going to beat you, yes!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -245,8 +245,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "きょうこそ けっちゃくを つけてやるぜ！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Today we're gonna settle this!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -257,8 +257,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "きょうはとくべつに わたしが おあいてしましょう！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Today, I'll give you the honor of facing me!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -269,8 +269,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "セイギのために たたかうであります！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "I fight for justice, sir!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {

@@ -11,8 +11,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{face:000E01}よし あの しょうねんに きめた！{n}・・・いいですよね？ はかせ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000E01}Right, I've chosen that boy! ...That's all right, isn't it, Professor?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -23,8 +23,8 @@
    "kind": "ff",
    "bytes": 147,
    "jp": "{face:000200}ねえ {var:00}{n}「おどろいけ」に いってみましょ！{page}{face:010000}「おどろいけ」？{page}{face:000200}ゆうれいって おどろいけに よく でるって ウワサよ！{page}ねえ まず おどろいけで{n}じょうほう あつめてみましょうよ！{page}{face:010004}おどろいけって いうと みぎのほうか{n}じゃ いってみようか{page}{face:000200}うん！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000200}Hey, {var:00}! Let's go to \"Odoro Pond\"!{page}{face:010000}\"Odoro Pond\"?{page}{face:000200}They say the ghost shows up at Odoro Pond a lot!{page}Come on, let's gather information{n}at Odoro Pond first!{page}{face:010004}Odoro Pond's off to the right, huh?{n}Let's go, then.{page}{face:000200}Yeah!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -35,8 +35,8 @@
    "kind": "ff",
    "bytes": 119,
    "jp": "{face:000205}ねえ {var:00}{n}つぎは 「おどろぬま」に いこ！{page}{face:010000}ここは もう いいの？{page}{face:000206}だって なにも でそうに ないんだもん！{page}{face:010004}アリカって ほんとに げんきだなぁ{page}{face:000200}なに？{page}{face:010004}なんでもないよ{n}じゃ いこっか{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000205}Hey, {var:00}! Let's go to \"Odoro Swamp\" next!{page}{face:010000}You're done here already?{page}{face:000206}Well, it doesn't look like anything's going to show up!{page}{face:010004}You sure have a lot of energy, Erika.{page}{face:000200}What?{page}{face:010004}Nothing! Let's go, then.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -47,8 +47,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:001600}ここからみる ロボトルは だいはくりょくだぜ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Robattles look awesome from up here!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -59,8 +59,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{face:001600}がっこうでもさ ロボトル つよけりゃ ヒーローだもんな！{n}つよくなりてー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}If you're good at Robattles, you're a hero at school, too!{page}I wanna get stronger!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -71,8 +71,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:001700}いやぁ Bブロックの ロボトルも すごいねぇ{page}がんばりたまえよ きみ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}My, the Block B Robattles are amazing, too!{page}Give it your best, lad!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -83,8 +83,8 @@
    "kind": "ff",
    "bytes": 61,
    "jp": "{face:001600}「ラピのぬいぐるみ」を すきなこに あげたら{n}こいが かなうってさ{page}おまえ もし もらったら ためして みろよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}They say if you give a \"Rapi Plush\" to the girl you like, she'll fall for you.{page}If you get one, give it a try!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -95,8 +95,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:001800}よく がんばったねぇ{n}えらいわねぇ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001800}You worked so hard, dear! I'm proud of you.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -107,8 +107,8 @@
    "kind": "ff",
    "bytes": 99,
    "jp": "{face:001600}おまえが ゆうしょう？ マジかよ！？{n}よ よしっ じゃあ ゆうしょうの きねんに{page}パーツの トレードしようぜ{n}おれ 「サン・ビーム」ほしんだけど{page}「ストンクラスター」と とっかえないか？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}You're the champ? For real!? A-all right! Let's celebrate your win{page}with a part trade! I want a \"Sun Beam\".{page}Wanna trade it for my \"Stone Cluster\"?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -119,8 +119,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{face:001600}ゆうしょうしたやつと トレードすると{n}えんぎが いいと おもったんだけどな{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}I figured trading with the champ would bring me good luck...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -131,8 +131,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:001600}おいおい{n}もって ないんじゃねーかよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Hey, come on! You don't even have one!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -143,8 +143,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:001600}おれと トレードした パーツ つかいものに{n}なってるのかぁ！？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Is that part I traded you doing you any good!?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -155,8 +155,8 @@
    "kind": "ff",
    "bytes": 79,
    "jp": "{face:000200}さぁ あんたは ロボトルたいかいの{n}こうはんせんに でるんでしょ？{page}ぐずぐずしてると はじまっちゃうわ{n}ロボトルたいかいじょうまで きょうそうよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000200}Come on! You're entering the second half{page}of the Robattle tournament, right?{page}It'll start without you if you dawdle! Race you to the Robattle tournament!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -167,8 +167,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:001600}おんなのこには まけてらんないな！{n}おれも ランクいり めざすぜ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Can't let the girls beat me! I'm aiming for the rankings, too!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -191,8 +191,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:000C03}つぎに まいりまーす！{n}エレベーターのなかに どうぞー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000C03}On to the next stooop! Please step into the elevator!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -203,8 +203,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:005100}つぎへ いくよォー{n}エレベーターに のってねーん！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005100}We're moving ooon! Hop in the elevator, okaay!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -215,8 +215,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:002500}またの ごりようを おまちして おります{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}We look forward to serving you again.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -227,8 +227,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:004F00}へぇー メダロッとうで たくさん ロボロボだんが{n}つかまったんだってな{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004F00}Huh! I hear they caught lots of Rubberobo Gang members{page}on Medabot Island.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -239,8 +239,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:005000}もぅ パパは いえにいると ごろごろ してるんだから{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005000}Honestly! All your dad does at home is laze around.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -251,8 +251,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{face:010000}しんぶんの みだしは{page}「メダロッとうの ロボロボだん いっせい たいほ！」{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}The newspaper headline reads...{page}\"Mass Arrest of Rubberobo Gang on Medabot Island!\"{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -263,8 +263,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:001600}がくえんちょうが メダロット がくえんに もってきて{n}いいってさ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}The headmaster said we can bring our Medabots to the academy!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -275,8 +275,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:002200}せいぎの ヒーローは コウジくんよ{n}ぜったい♥{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002200}Koji-kun is a true hero of justice. Absolutely!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -287,8 +287,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:001600}メダロットも ともだちも だいじに しなきゃな・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Gotta take good care of your Medabots AND your friends...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -299,8 +299,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{face:002200}メダロットは わるいことをする どうぐでは{n}ありませんのにね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002200}Medabots aren't tools for doing bad things, you know.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -311,8 +311,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:001700}じけんは ぶじ かいけつ！{n}いやぁ めでたいなぁ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}The case is safely resolved! Ah, what wonderful news!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -323,8 +323,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:002400}おかしいとは おもってたけど{n}がくえんちょうが にせものだったなんて！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002400}I thought something was odd, but the headmaster being an impostor!?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -335,8 +335,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:001800}じんせいって いろいろ あるわねぇ・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001800}Life is full of surprises, isn't it...?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -347,8 +347,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:001600}がくえんちょうが にせものだったって{n}ほんとかよ！？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Is it true the headmaster was a fake!?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -359,8 +359,8 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "{face:010004}あ！{n}きみって カルアちゃん？{page}{face:002200}あ {var:00}くん{n}その・・・ありがと♥{page}{face:010004}どういたしまして！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}Oh! Are you Kahlua-chan?{page}{face:002200}Oh, {var:00}-kun. Um... Thank you.{page}{face:010004}You're welcome!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -371,8 +371,8 @@
    "kind": "ff",
    "bytes": 91,
    "jp": "{face:001700}おとこのこがね{n}かえしに きたんだよ{page}こころから はんせいしてた みたいだし{n}こんかいのことは みずに ながして あげたよ{page}おなじ メダロットを あいする ものとしてね！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}A boy came to return it, you see.{page}He seemed truly sorry, so I decided to let bygones be bygones this time.{page}From one Medabot lover to another!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -383,8 +383,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:000600}いいきに なってんじゃ ないわよぉ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000600}Don't go getting too full of yourself!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -395,8 +395,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:000700}みてろよー おまえを ギャフンと いわせてやるからなー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000700}Just you wait! I'll take you down a peg!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -407,8 +407,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{face:000803}おせんたく おわった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000803}Laundry's done.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -419,8 +419,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:000200}さーてと！{n}とくダネ とくダネ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000200}All right, then! Time to find a scoop!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -443,8 +443,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{face:002500}ロボロボだんは やっぱり かしこく ないほうが{n}らしいわね！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}The Rubberobo Gang really are more themselves when they're stupid!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -455,8 +455,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{face:001700}かしこいロボロボだんの はなしって さいきん{n}きかないけど つかまった？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}I haven't heard about that clever Rubberobo Gang member lately.{page}Was he caught?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -467,8 +467,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{face:002300}ウワサじゃさー あの{n}かしこいロボロボだんって しょうがくせい だったってー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}So, I heard that clever Rubberobo Gang member was an elementary school kid!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -479,8 +479,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:010000}かわいい ハムスターだ{n}でも いまは もちきれないや{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}What a cute hamster! But I can't carry any more right now.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -491,8 +491,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:010000}ぼうえんレンズだ{n}でも いまは もちきれないや{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's a telephoto lens. But I can't carry any more right now.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -503,8 +503,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:010000}ぼくは かえらないぞ{n}セレクトたい！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}I'm not going home, Select Corps!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -515,8 +515,8 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:004000}でも たいちょう こどもたちは きっと ふあんな{n}きもちで わたしたちを まってますよぉ？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004000}But, Captain, surely those children are anxiously waiting for us to come?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -527,8 +527,8 @@
    "kind": "ff",
    "bytes": 74,
    "jp": "{face:003F03}うるさい！{n}おまえは だまって ワシに したがえば いいんじゃ！{page}{face:003F01}そうすれば テガラは むこうから やってくる！ {n}ぐわははは！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003F03}SILENCE! Keep your mouth shut{n}and follow my orders!{page}{face:003F01}Then the glory will come straight to us!{n}Gwahahaha!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -539,8 +539,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:004000}そっ そんなぁ！{n}たいちょう！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004000}B-but that's... Captain!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -551,8 +551,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:004000}ここを みはっていろとの たいちょうの{n}ごめいれいなので・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004000}The captain has ordered me to stand guard here, so...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -563,8 +563,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:002200}やっぱし セレクトたいって{n}なんにも してくれなかったね！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002200}Just as I thought! The Select Corps didn't do a thing for us!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -587,8 +587,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:010000}こんにちはー{n}{var:00}です{page}{face:001800}どうぞ おはいりください{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Hellooo! It's {var:00}.{page}{face:001800}Please, do come in.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -599,8 +599,8 @@
    "kind": "ff",
    "bytes": 54,
    "jp": "{face:000A00}いらっしゃいませ{n}{var:00}さま{page}ただいま おぼっちゃまは コウジさまの いえに{n}でかけて おられます{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000A00}Welcome, {var:00}-sama.{page}The young master is currently visiting Koji-sama's home.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -611,8 +611,8 @@
    "kind": "ff",
    "bytes": 92,
    "jp": "{face:001403}あ！ ごめんなさい{n}そのメダロットは まだ みちょうせいですわ！{page}すみませんが ほかの メダロットに していただけますか？{page}{face:010000}え？ そうなんですか{n}はい わかりました{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001403}Oh! I'm terribly sorry. That Medabot hasn't been adjusted yet!{page}Would you please choose a different Medabot?{page}{face:010000}Oh, really? Yes, of course.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -623,8 +623,8 @@
    "kind": "ff",
    "bytes": 74,
    "jp": "{face:002500}おめでとうございます！！{n}みごと ランキング1いを{page}かちとられた{n}{var:00}さまには{page}ちょうレアな こちらの けいひんを さしあげちゃいます！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}Congratulations!! You've won first place in the rankings!{page}For our splendid champion, {var:00}-sama...{page}We have this super-rare prize!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -635,8 +635,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{face:002500}おつかれさまでしたー！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}Thank you for all your hard work!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -647,8 +647,8 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{face:001101}やるじゃなぁい{n}でも わたしの パーツは あげられないの{page}か・わ・り・に！{n}これを あげるわ♥{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001101}Not bad at aaall! But I can't give you my parts.{page}In-ste-ad! I'll give you this!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -659,8 +659,8 @@
    "kind": "ff",
    "bytes": 63,
    "jp": "{face:000D01}ふはははは！{n}みごとだ ショウネン{page}だが わたしの パーツは わたすわけには いかぬ！{n}かわりに これをわたそう！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000D01}Fwahahaha! Splendid, young man!{page}But I cannot hand over my parts! Take this instead!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -671,8 +671,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:003602}・・・とったロボね！{n}みてたロボ かえすロボよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003602}...You took it, robo! I saw you, robo! Give it back, robo!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -683,8 +683,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{face:005000}パパなら おしごとに でかけたわよ{n}やっと いえのなかが かたづくわ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005000}Your dad's gone to work. Now I can finally tidy up the house.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -695,8 +695,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:010000}「アンノーンエッグ」だ{n}ちょうレアな メダロットだ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's \"Unknown Egg\"! A super-rare Medabot!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -707,8 +707,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:003901}なかなか やるのぅ{n}ふぉっふぉっふぉっ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003901}Not bad at all, my boy. Fohohoho!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -719,8 +719,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:003801}やりますわね まぁ{n}わたくしほどでは ありませんけど{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003801}You're rather good, dear. Though not as good as I am, of course.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -731,8 +731,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:004105}ブルーハワイは そんな へんなのじゃないもん！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004105}Blue Hawaii isn't some weirdo like that!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -743,8 +743,8 @@
    "kind": "ff",
    "bytes": 81,
    "jp": "{face:010000}どうして そうおもうの？{page}もしかして マルガリータ なにか かくしてない？{page}{face:004104}マ マルガリータは なにも かくしてないもん！{page}{face:010000}あやしいな{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}What makes you think that?{page}Margarita, are you hiding something?{page}{face:004104}M-Margarita isn't hiding anything!{page}{face:010000}Sounds fishy to me.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -755,8 +755,8 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{face:010000}じょおうアリの ぞうだ{n}もう さわるのは やめとこう{page}さわらぬ じょおうに たたりなしってね！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's a statue of the queen ant. I'd better leave it alone now.{page}Let sleeping queens lie, as they say!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -767,8 +767,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:003E00}たちいりきんしで あります！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003E00}Entry is strictly forbidden!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -779,8 +779,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{face:010000}そのまえに はんぶん かわいてる{n}ぼくの ふくに きがえてっと・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Before that, I'll change back into my own half-dry clothes...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -791,8 +791,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:004500}やれやれ・・・{n}まいりましたのぅ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004500}Dear me... What a predicament, eh?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -803,8 +803,8 @@
    "kind": "ff",
    "bytes": 70,
    "jp": "{face:010004}だいじょうぶ もう しんぱいないよ{n}ぼくが つれてかえったから{page}{face:004400}えっ！？{page}{face:010004}もう うみにまものは でないってこと！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}It's okay! No need to worry now. I brought it back with me.{page}{face:004400}What!?{page}{face:010004}That means no more monster in the sea!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -815,8 +815,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:004400}ああ ゆうしゃさま なんと おれいを いえばいいのか・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004400}Oh, brave hero! How can I ever thank you...?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -827,8 +827,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:004300}ゆうしゃさま まもの たおしたのか？{n}ゆうしゃさま やっぱり すごい！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004300}Hero beat monster? Hero really amazing!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -839,8 +839,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:004500}なんと！ ブルーハワイは{n}うみの かなたに さっていったとな？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004500}What's this? You say Blue Hawaii has departed across the sea?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -851,8 +851,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:001B00}ひだりうで「ウィング」は いるかい？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001B00}Want the \"Wing\" left arm?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -863,8 +863,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:001B00}きゃくぶ「ジェットエンジン」は いるかい？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001B00}Want the \"Jet Engine\" Legs?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -875,8 +875,8 @@
    "kind": "ff",
    "bytes": 79,
    "jp": "{face:001B00}「せんぼうきょう」の パーツなら ここに あるよ{page}1つ 10000円 するけどね{n}よければ うってあげよう{page}あたま「スコープヘッド」は いるかい？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001B00}I've got the \"Periscope\" parts here.{page}They're 10000 yen each. I'll sell them to you if you'd like.{page}Want the \"Scope Head\" head?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -887,8 +887,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:001B00}みぎうで「スコープハンド」は いるかい？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001B00}Want the \"Scope Hand\" right arm?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -899,8 +899,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:001B00}ひだりうで「スコープアーム」は いるかい？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001B00}Want the \"Scope Arm\" left arm?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -911,8 +911,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:001B00}きゃくぶ「スコープレッグ」は いるかい？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001B00}Want the \"Scope Leg\" Legs?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -923,8 +923,8 @@
    "kind": "ff",
    "bytes": 99,
    "jp": "{face:001800}はい ジュンマイでございます{page}{face:010000}{var:00}ですけど{n}カリンちゃんは・・・{page}{face:001800}おじょうさまは メダロッとうに{n}コウジさまと おでかけになりました{page}{face:010006}え！ そうですか{n}ど どうも{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001800}Hello, the Junmai residence.{page}{face:010000}It's {var:00}. Is Karin-chan...?{page}{face:001800}The young lady has gone to Medabot Island with Koji-sama.{page}{face:010006}Oh! I see. Th-thank you.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -935,8 +935,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:010000}・・・・・・るすみたいだ{n}コウジは いま いないみたいだ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}...Looks like nobody's home. Koji doesn't seem to be here now.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -947,8 +947,8 @@
    "kind": "ff",
    "bytes": 154,
    "jp": "{face:000A00}おぼっちゃまは メダロッとうへ でかけられました{page}{face:010006}えっ！？{n}その ひとりでですか？{page}{face:000A00}しょうたいじょうには こどもだけで くるよう{n}かかれていたので{page}{face:010000}ハチロウまで しょうたいされたのか・・・{page}{face:000A00}・・・どうかしましたか？{page}{face:010006}いえ べつに！{page}{face:000A00}{var:00}さま・・・？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000A00}The young master has gone to Medabot Island.{page}{face:010006}Huh!? Um, by himself?{page}{face:000A00}The invitation specified that only children were to attend.{page}{face:010000}So even Hachiro got invited...{page}{face:000A00}...Is something the matter?{page}{face:010006}No, nothing!{page}{face:000A00}{var:00}-sama...?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -959,8 +959,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{face:000A00}また おこしくださいませ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000A00}Please do visit us again.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -971,8 +971,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{face:010006}やっぱり カリンちゃんと コウジの{n}ところにも！ たいへんだ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010006}Karin-chan and Koji got them, too, just as I thought! This is bad!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -983,8 +983,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:004F00}いろんな じけんが おこるなぁ・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004F00}There's always some new trouble, huh...?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -995,8 +995,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:004F00}そうかぁ メダロッとうは たいへんだったんだな{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004F00}I see. Things were rough on Medabot Island, huh?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1007,8 +1007,8 @@
    "kind": "ff",
    "bytes": 94,
    "jp": "{face:010008}えっ しゃしん？{n}いつのまに！？{page}{face:010006}ききき きのせいだよ パパ{n}そんなこと あるわけ ないじゃない{page}{face:004F01}そうだよなー パパの こどもが そんなに{n}すごい わけがない！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010008}Huh? A photo? When did they take that!?{page}{face:010006}Y-you're imagining things, Dad!{n}There's no way that could be me!{page}{face:004F01}You're right! No kid of mine{n}could be that amazing!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1019,8 +1019,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:005001}そんなこと いばらないでよ パパ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005001}That's nothing to brag about, dear!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1031,8 +1031,8 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "{face:010004}しんぶんには ぼくたちの かつやくの きじが のってる！{n}なまえは でてないけどね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}There's an article about our heroics in the paper!{page}Our names aren't in it, though.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1043,8 +1043,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:010006}ヒカルさんと キララさんを おいて いけないよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010006}I can't leave Henry-san and Kirara-san behind!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1055,8 +1055,8 @@
    "kind": "ff",
    "bytes": 67,
    "jp": "{face:004F00}お？「しょうねんたちの かつやくにより じけんは{n}かいけつ」だって？{page}この しょうねんの しゃしん おまえに にてないか？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004F00}Oh? \"Children's Heroics Bring Case to a Close,\" it says?{page}Doesn't the boy in this photo look like you?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1067,8 +1067,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{face:000404}たのんだぜ カリンのこと{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000404}I'm counting on you to look after Karin.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1079,8 +1079,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:001800}おじょうさまは ただいま おでかけちゅうで ございます{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001800}The young lady is out at the moment.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1091,8 +1091,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{face:003E00}これからの われわれの かつやくを{n}こう ごきたいで あります！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003E00}Please look forward to our future accomplishments!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1103,8 +1103,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{face:003E00}じけん あるかぎり われわれは がんばりつづけるで {n}あります！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003E00}As long as trouble exists, we shall keep striving!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1115,8 +1115,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:001600}あーあ なくなっちゃった{page}{face:001700}しかたがない かえろう・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Aww, it's gone.{page}{face:001700}Nothing we can do. Let's go home...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1127,8 +1127,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{face:002400}あの はくいが スパイだったなんて！{page}だから はくいは しんよう できないのよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002400}That man in the white coat was a spy!{page}That's why you can't trust people in white coats!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1139,8 +1139,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:001700}むかしは よく{n}チャンバラごっこで あそんだよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}I used to play at sword fighting all the time.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1151,8 +1151,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{face:001900}けんげきは ええのぉ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001900}Ah, sword fights are grand, eh?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1163,8 +1163,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "{face:001600}チャンバラって かっこいいよな！{page}おれ メダロットにも チャンバラソード つけてんだ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Sword fighting's so cool!{page}I've even got a Chambara Sword on my Medabot!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1175,8 +1175,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "{face:002E00}や やられたぁ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}I-I am defeated!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1187,8 +1187,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:002700}みごと しのびを たおして みせよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002700}Show your prowess! Defeat the ninja!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1199,8 +1199,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{face:002700}そっちは でぐちじゃ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002700}That way lies the exit!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1211,8 +1211,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:001900}らりーとやらは わかいもんに まかせて{n}わしは いっぷくじゃ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001900}I'll leave this rally business to the young folk and take a breather!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1223,8 +1223,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:002E00}せっしゃ まだまだ ひとの やくに たてるで ござる！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}I can yet be of service to others, verily!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1235,8 +1235,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:002300}ここの あんみつ{n}さいっこー♥{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}The anmitsu here is the beeest!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1247,8 +1247,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:002300}こういう とこってさ{n}いがいと あなばよねー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}Places like this are hidden gems, you know?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1259,8 +1259,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{face:001800}ウチの めいぶつ 「しのびっく・あんみつ」は{n}おんなのこに だいにんきだよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001800}Our specialty, \"Shinobic Anmitsu\", is a big hit with the girls!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1271,8 +1271,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:001700}ここは おちつくね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}It's so peaceful here.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1283,8 +1283,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:002300}こういうとこ ぶらつくのも けっこー きもちいいよねー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}It's pretty nice just wandering around a place like this, huh?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1295,8 +1295,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:001600}おれ おおきくなったら にんじゃになろ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}I'm gonna be a ninja when I grow up!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1307,8 +1307,8 @@
    "kind": "ff",
    "bytes": 74,
    "jp": "{face:010002}もしかして！{n}ロボロボだん！？{page}{face:001700}ロボッ！？ せ せんせいは ロボロボじゃないロボ！{page}きゅうに よっ ようじを おもいだしたロボよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010002}Could you be... Rubberobo Gang!?{page}{face:001700}Robo!? Y-your sensei isn't a Rubberobo, robo!{page}I just r-remembered something I have to do, robo!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1319,8 +1319,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{face:010000}・・・あやしすぎる！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}...That's WAY too suspicious!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1331,8 +1331,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "{face:010000}このさきに みちは ないみたいだ{page}もう2どと あの いせきには いけないんだな{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Looks like there's no path ahead.{page}I guess I'll never be able to visit those ruins again.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1343,8 +1343,8 @@
    "kind": "ff",
    "bytes": 86,
    "jp": "{face:010008}あ！{n}そのパーツは パーツンラリーの！{page}{face:002800}えぇー キいてないわヨォー{page}{face:010000}ねえ そのパーツ ゆずってくれないかなぁ{page}{face:002800}ランボウしちゃ イヤーン！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010008}Oh! That part's from the Parts'n Rally!{page}{face:002800}Whaaat? Nobody told meee!{page}{face:010000}Hey, could you give me that part?{page}{face:002800}Don't get rough with meee!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1355,8 +1355,8 @@
    "kind": "ff",
    "bytes": 89,
    "jp": "{face:000404}・・・ふっ{page}{face:010000}な なんだよ コウジ？{n}きもちわるいなっ{page}{face:000404}カリンが おまえに あいたいんだと{n}いえに いってやれよな{page}たしかに つたえたからな{n}じゃーな！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000404}...Heh.{page}{face:010000}Wh-what, Koji? You're creeping me out!{page}{face:000404}Karin says she wants to see ya. Go visit her place.{page}There, I passed it on. See ya!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1367,8 +1367,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "{face:010000}・・・なんだろ？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}...What's that about?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1379,8 +1379,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:004500}では ちゅうおうの ゆかのうえに おすすみ くだされい{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004500}Now, kindly step onto the floor in the center.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1391,8 +1391,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:004500}かえりたくなったら いつでも こえを かけて くだされい{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004500}Whenever you wish to return, do let me know.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1403,8 +1403,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:004500}ちょう1000ねんの ときを こえ{n}ゆうしゃを もとの せかいへ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004500}Across more than a thousand years, return the hero to his own world!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1415,8 +1415,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:000304}{var:00}くん{n}こんにちわ{page}あそびに きて くださったんですか？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000304}Hello, {var:00}-kun.{page}Have you come to play with me?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1427,8 +1427,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:000404}なんだ？ {var:00}{n}あそびに きたのか？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000404}Hey, {var:00}. Here to hang out?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1439,8 +1439,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:000404}きがむいたら いつでも あそんでやるぜ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000404}I'll play with ya anytime,{n}if I feel like it!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1451,8 +1451,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{face:000702}なんだよっ！ おまえは{n}いま データちょうせい やってんだ じゃますんなよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000702}What do YOU want!? I'm adjusting my data! Don't get in my way!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1463,8 +1463,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:000702}・・・ったくっ！ データが くるっちまったじゃねーか！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000702}...Geez! Now you've messed up my data!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1475,8 +1475,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:000603}なぁにぃ？ あそんで ほしいわけぇ？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000603}Whaaat? You want me to play with you?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1487,8 +1487,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:000603}まぁ また あそんで あげても いいけどぉ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000603}Well, I suppose I could play with you agaaain.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1499,8 +1499,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:000803}ぼくの ひゃくめんそう みる？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000803}Want to see my funny faces?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1511,8 +1511,8 @@
    "kind": "ff",
    "bytes": 82,
    "jp": "{face:000800}・・・・{page}{face:000801}！{page}{face:000803}？{page}{face:000804}・・・・・・・{page}{face:000802}！！！！！！{page}{face:000805}！？！！！！！？{page}{face:000803}・・・どう？{page}{face:010005}うん まぁ・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000800}....{page}{face:000801}!{page}{face:000803}?{page}{face:000804}.......{page}{face:000802}!!!!!!{page}{face:000805}!?!!!!!?{page}{face:000803}...Well?{page}{face:010005}Yeah, well...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1523,8 +1523,8 @@
    "kind": "ff",
    "bytes": 54,
    "jp": "{face:010003}あーあ まけちゃった・・・{page}{face:004B00}また チョウセン するきが あるなら くるがよい！{n}ふはは！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010003}Aww, I lost...{page}{face:004B00}Return if you dare challenge me again! Fwahaha!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1535,8 +1535,8 @@
    "kind": "ff",
    "bytes": 54,
    "jp": "{face:010003}あーあ まけちゃった・・・{page}{face:004A00}ユーが マダ かてるナンテ カンガえてたら{n}また くるのネ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010003}Aww, I lost...{page}{face:004A00}If YOU still think you can win, come back again, yes!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1547,8 +1547,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{face:000400}つまらない しょうぶ しやがって！{page}やるきが あるんなら また くるんだな！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000400}What a lousy match!{page}Come back when you're ready to get serious!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1559,8 +1559,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:000304}では また{n}あそびましょうね！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000304}Well then, let's play again sometime!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1571,8 +1571,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:003E00}この はしごは ふるくなっていて きけんで あります{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003E00}This ladder has deteriorated and is unsafe!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1583,8 +1583,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:001800}このこは トマトジュースしか のまないから{n}びょうじゃくなのよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001800}This boy only drinks tomato juice.{n}That's why he's so sickly.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1595,8 +1595,8 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "{face:000B00}かーちゃん トマトジュース くれよぉ{page}{face:001800}あんた のんだ そばから{n}すぐ はいてるじゃないのっ！！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000B00}Mooom-chan, gimme some tomato juice.{page}{face:001800}You throw it right back up as soon as you drink it!!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1607,8 +1607,8 @@
    "kind": "ff",
    "bytes": 58,
    "jp": "{face:001600}きゃくぶパーツの きどうが たかいと{n}こうげきを よけやすいんだよな{page}これ メダロットの キホンだよね！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Higher Mobility on your Legs part makes attacks easier to dodge.{page}That's basic Medabot knowledge, right?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1619,8 +1619,8 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "{face:001600}きゃくぶパーツの すいしんがたかいと{n}わなを かいじょしやすいんだ{page}これ メダロットの キホンだよね！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Higher Propulsion on your Legs part makes traps easier to disarm.{page}That's basic Medabot knowledge, right?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1631,8 +1631,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:010008}こ これは・・・{n}まぼろしの「はてな」メダル！？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010008}Th-this is... The elusive \"?\" Medal!?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1643,8 +1643,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:010008}こ これは・・・{n}まぼろしの「ねこ」メダル！？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010008}Th-this is... The elusive \"Cat\" Medal!?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1655,8 +1655,8 @@
    "kind": "ff",
    "bytes": 77,
    "jp": "{face:010004}「セーラーメイツ」だ・・・{n}アリカが もっているのは これの かいりょうがたの{page}「セーラーマルチ」だ{n}これって けっこう にんき あるんだよね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}It's \"Sailor-Mates\"... Erika has its upgraded model,{page}\"Sailor-Multi\". This one's pretty popular, you know.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1667,8 +1667,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "{face:010008}こ これは・・・{n}まぼろしの「ムーンドラゴン」！？{page}これってもう うって ないんだよね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010008}Th-this is... The elusive \"Moon Dragon\"!?{page}They don't sell this anymore!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1679,8 +1679,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "{face:010008}こ これは・・・{n}まぼろしの「ハニワゴーレム」！？{page}これってもう うって ないんだよね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010008}Th-this is... The elusive \"Haniwa Golem\"!?{page}They don't sell this anymore!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1691,8 +1691,8 @@
    "kind": "ff",
    "bytes": 61,
    "jp": "{face:010008}こ これは・・・{n}まぼろしの「ベティベア」！？{page}むかしの クマがたメダロットって{n}ちいさくて ぬいぐるみみたい{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010008}Th-this is... The elusive \"Betty Bear\"!?{page}Old Bear-type Medabots are so small, they're like stuffed toys!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1703,8 +1703,8 @@
    "kind": "ff",
    "bytes": 85,
    "jp": "{face:001600}ここだけの はなしさ・・・{page}ロボトルでは あいての パーツを おおく こわしたほうが{n}もってない パーツを ゲットしやすいんだぜ！{page}きづかねーよなぁ！ ふつう{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Just between us...{page}The more of your opponent's parts you destroy in a Robattle,{page}the easier it is to get parts you don't have yet!{page}You'd never guess that normally, huh?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1715,8 +1715,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:001900}わしの おとなりにおる せんせいは いつから{n}ここに おるのかの？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001900}How long has that sensei next to me been here, I wonder?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1727,8 +1727,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:002200}アリカちゃんに きいたわよ セレクトたい だいかつやく！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002200}Erika-chan told me! The Select Corps did a wonderful job!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1739,8 +1739,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:002200}アリカちゃんに はやく つぎの しんぶん{n}かくように いっといてよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002200}Tell Erika-chan to hurry up{n}and write the next newspaper, okay?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1751,8 +1751,8 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "{face:002500}メダロッとうは えいぎょうを さいかいしたのよ{page}こどもは フリーパスだから たのしんできてね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}Medabot Island has reopened!{page}Children get a free pass, so go and have fun!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1763,8 +1763,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:001600}ボクは あいてが おんなのこでも てをぬかないぞー！！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}I won't go easy on my opponent, even if she's a girl!!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1775,8 +1775,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "{face:003E00}かんぶは つかまったで ありますが{n}ロボロボは なかなか クジョ できないで あります{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003E00}The executives have been captured, but the Rubberobo are hard to eradicate!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1787,8 +1787,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:002300}たいかいがぁー おわったとたんー{n}さみしくなったわよねぇ ココぉー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}The moment the tournament ended, this place got sooo lonely, huh?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1799,8 +1799,8 @@
    "kind": "ff",
    "bytes": 96,
    "jp": "{face:005100}あのねェ あたまパーツはねェ ぜんぶねェ{n}じゅうてんとねェ ほうねつがねェ おんなじでねェ{page}しかもねェ けっこう はやいんだヨォ{n}これって メダロットの ジョウシキって やつだネェ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005100}You knooow, all head parts have the same charge and cooldown times.{page}And they're pretty faaast, too! That's common Medabot knowledge, riiight?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1811,8 +1811,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:001600}まじょのミルキーは{n}どこに いったのかなぁ・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}I wonder where Milky the witch went...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1823,8 +1823,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:002200}きっと ミルキーは まじょのくにへ かえったのよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002200}I'm sure Milky went back to the witches' country.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1835,8 +1835,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{face:002200}この おしろのちかに こどもを とじこめる{n}へやがあったって{page}ほんとぅ！？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002200}They say there was a room under this castle where children were locked up.{page}Is that really true!?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1847,8 +1847,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{face:001600}あくの ロボロボぐんだんって{n}ほんとに ロボロボだんだったんだね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}So the evil Rubberobo army really was the Rubberobo Gang, huh?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1859,8 +1859,8 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:001600}おれ むかしのメダロットが ほしいんだけどさぁ{page}どうやったら てにはいるか しらないかぁ？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}I really want an old Medabot.{page}Any idea how I could get one?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1871,8 +1871,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{face:002F00}ケガを したヒトを なおすのが{n}わたしたちの おシゴトなのヨ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002F00}Our job is to care for people who get hurt, you know.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1883,8 +1883,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:001700}せいとたちに どーしても ロボトルで かてないのだよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}No matter what I do, I can't beat my students at Robattles!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1895,8 +1895,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:001700}メダロットは おくが ふかいねぇ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}There's a lot to Medabots, isn't there?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1907,8 +1907,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:005200}グルゥォォォオオアァァァァ！！{n}ユ・ル・サ・ン！！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005200}GRRRRROOOOAAAARRR!!{n}I WILL NOT FORGIVE YOU!!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1919,8 +1919,8 @@
    "kind": "ff",
    "bytes": 58,
    "jp": "{face:000301}たのしかったですわ！{page}{face:000304}とちゅうで これを みつけたんです{n}ロボトルの おれいに もらってください{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000301}That was such fun!{page}{face:000304}I found this along the way. Please take it as thanks for the Robattle.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1931,8 +1931,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:000303}そうですか・・・{n}ざんねんです・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000303}I see... What a shame...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1943,8 +1943,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:000905}ふっ・・・{var:00}くん{n}ボクと あそんで ほしいんだね？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000905}Heh... {var:00}-kun. You want me to play with you, don't you?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1955,8 +1955,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:000905}ふっ・・・{n}すなおじゃ ないね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000905}Heh... You can't be honest with yourself, can you?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1967,8 +1967,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:000905}キミが のぞむなら また あそんで あげるサ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000905}If you wish, I shall play with you again.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1979,8 +1979,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:002400}アリカと なかよく してやってね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002400}Do be a good friend to Erika, won't you?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1991,8 +1991,8 @@
    "kind": "ff",
    "bytes": 62,
    "jp": "{face:000200}あんたに かてば あたしも ゆうめいじん・・・{page}つぎの こうないしんぶんには{n}あたしが いちめんで のるのよっ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000200}If I beat you, I'll be famous, too...{page}I'll be on the front page of the next school paper!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2003,8 +2003,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{face:000200}なぁーんてね！ てへっ♥{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000200}Just kidding! Hehe!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2015,8 +2015,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:000B00}・・・なーに みてんだよー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000B00}...Whatcha staring at?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2027,8 +2027,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:000B00}そんなに みつめられたらよぉ・・・{page}{face:000B01}かはぁっ♥♥{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000B00}If you keep staring at me like that...{page}{face:000B01}Haaack!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2039,8 +2039,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:001600}がむしゃらで あいてを ねらえる パーツは ないのかな？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Aren't there any parts that let you aim at an opponent with Berserk?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2051,8 +2051,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{face:002E00}オウ {var:00} ゲンキか？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}Hey, {var:00}! Doing good?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2063,8 +2063,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:001700}これからも コウジのやつと なかよく してやってくれ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}Keep being a good friend to Koji, will you?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2075,8 +2075,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:002400}これからも コウジを よろしくね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002400}Do keep looking after Koji, dear.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2087,8 +2087,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:010000}オイルかんには「オイルデラックス」って かいてる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}The oil can says \"Oil Deluxe\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2099,8 +2099,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:001B00}スパイなんかに なると ロクなじんせい おくれないよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001B00}Become a spy and you won't have much of a life, you know.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2111,8 +2111,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:002E00}メダロットGは ぜんぶ クリアしたか？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}Have you cleared all of Medabots G?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2123,8 +2123,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:002E00}おまえ すごいヤツだな・・・{n}これ とっとけよ オレのキモチだ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}You're somethin' else... Here, take this. A little token from me.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2135,8 +2135,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:002E00}まっ そりゃそーだよな！！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}Well, yeah, I figured!!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2147,8 +2147,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:010005}こんな かっこう みられたくない{n}もし みられたら・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010005}I don't want anyone seeing me dressed like this. If they did...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2159,8 +2159,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:004F01}おかえり {var:00}{n}ピクニックは たのしかったかい？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004F01}Welcome home, {var:00}! Did you enjoy the picnic?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2171,8 +2171,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:000C03}はーい わたしは おなじみの つうしんギャル でーす！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000C03}Hiii! It's your familiar Link Girl!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2183,8 +2183,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:010000}ハチロウが おっこちた あなだ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's the hole Hachiro fell down.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2195,8 +2195,8 @@
    "kind": "ff",
    "bytes": 165,
    "jp": "{face:000400}ところでさ アリカちゃんも きになるだろうが{page}さきに カリンのいえに  いって くれないか？{page}{face:010000}え？ どうして？{page}{face:000400}さっき カリンの おやじさんが{n}おれたちに はなしが あるって{page}わざわざ いいに きたんだ{page}なんか おやじさんの かお しんけん だったしさ{page}{face:010000}あ うん わかった{page}{face:000404}たのんだぜ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000400}By the way, I know you're worried about Erika-chan,{page}but could ya visit Karin's place first?{page}{face:010000}Huh? Why?{page}{face:000400}Karin's dad said he wanted to talk to us.{page}He came all the way over to tell me earlier.{page}And he looked pretty serious.{page}{face:010000}Oh, okay. Got it.{page}{face:000404}I'm counting on ya!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2207,8 +2207,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{face:010000}・・・？ なんだろ？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}...? What's that about?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2219,8 +2219,8 @@
    "kind": "ff",
    "bytes": 60,
    "jp": "{face:010000}アリカも いないみたいだし{n}ボナパルトのぞうを しらべにいくか{page}{face:010005}まったく どこいったんだよ{n}アリカー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Erika doesn't seem to be here, either.{n}I'll go check the Bonaparte Statue.{page}{face:010005}Geez, where did you go, Erika?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2231,8 +2231,8 @@
    "kind": "ff",
    "bytes": 114,
    "jp": "{face:010005}えっとぉー ぼくは アリカを さがしてたんだけど・・・{page}なんだか また べつのことに{n}まきこまれちゃった みたいだな{page}{face:010000}こうなったら とことん いくか！{n}それにしても・・・{page}{face:010005}こんどは・・・げすいどうかぁ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010005}Umm... I was looking for Erika, but...{page}Looks like I've gotten dragged into something else again.{page}{face:010000}Well, I'll see it through to the end! Still...{page}{face:010005}This time... it's the sewers, huh?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2243,8 +2243,8 @@
    "kind": "ff",
    "bytes": 184,
    "jp": "{face:003E00}さいきん こどもが よく ゆくえふめいに{n}なるで あります{page}えきまえ ふきんで こどもが きえるという じょうほうを{n}キャッチしたで あります{page}{face:010008}こどもが きえる！？{page}{face:010000}あのー そういうことを おんなのこが ききに{n}きませんでした？{page}{face:003E00}きたで あります！{page}その おんなのこは えきまえに いったで あります！{page}{face:010000}やっぱり アリカだ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003E00}Children have been going missing frequently of late!{page}We have received reports of children disappearing near the station!{page}{face:010008}Children are disappearing!?{page}{face:010000}Um... Did a girl come here asking about that?{page}{face:003E00}She certainly did!{page}That girl headed for the station!{page}{face:010000}It WAS Erika!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2255,8 +2255,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{face:003600}どこへ いくロボか？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003600}Where are you going, robo?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2267,8 +2267,8 @@
    "kind": "ff",
    "bytes": 78,
    "jp": "{face:003803}うーん バッグがー くつがー{page}{face:003603}うーん ゆるしてーロボ{page}{face:010000}まだ うなされてるよ{page}ま そのうち きがつくだろうし{n}とうぶん ほっとこう{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003803}Mmm... My bags... My shoes...{page}{face:003603}Mmm... Forgive me, robo...{page}{face:010000}They're still having nightmares.{page}Well, they'll wake up eventually.{n}I'll leave them alone for now.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2279,8 +2279,8 @@
    "kind": "ff",
    "bytes": 56,
    "jp": "{face:002300}ねえーぇ しってたぁー？ さくてきを あげると{page}てきに あたえる ダメージが おおきくなるんだってぇ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}Heeey, did you knooow?{n}If you raise your Search,{page}you'll do more damage to enemies!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2291,8 +2291,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{face:002800}「オイルデラックス」は{n}「ヘベレケスペシャル」より ウマイ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002800}\"Oil Deluxe\" tastes better than \"Meta-Evil Special\"!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2303,8 +2303,8 @@
    "kind": "ff",
    "bytes": 119,
    "jp": "{face:002800}ありがとー{page}{face:00FF00}{face:002800}ありがとー ゆうしゃさま！{page}{face:010007}たのむから{n}「ゆうしゃさま」は やめて{page}{face:002800}では わたしたちは フユーンに もどります{page}{var:00}さん いつでも{n}あそびにきてくださいね！{page}{face:00FF00}{face:002800}またねー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002800}Thank yooou!{page}{face:00FF00}{face:002800}Thank you, great hero!{page}{face:010007}Please, stop calling me \"great hero.\"{page}{face:002800}Well, we will return to Fuyun now.{page}{var:00}-san, please come visit whenever you like!{page}{face:00FF00}{face:002800}See youuu!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2315,8 +2315,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:001700}みちとの そうぐうだ！{n}いやぁ えいが みたいだねぇ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}A close encounter! Ah, just like the movies!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2327,8 +2327,8 @@
    "kind": "ff",
    "bytes": 50,
    "jp": "{face:002400}あんなのが あたまのうえに あったら ひが{n}あたらないから ふとんが ほせないじゃない！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002400}With that thing overhead blocking the sun, I can't air out my bedding!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2339,8 +2339,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:001700}それで あの へんな えんばんは{n}なんだったんだ？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}So, what was that strange{n}flying saucer, anyway?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2351,8 +2351,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:002400}あたまの うえから へんなものが きえて まちが{n}あかるく なったわ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002400}Now that strange thing overhead is gone, the town's bright again!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2363,8 +2363,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:001700}ああ！ ロマンが！{n}ついらくしてしまったなんて！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}Ah, the wonder of it all! To think it crashed!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2375,8 +2375,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "{face:010000}ごちゃごちゃと いろんなものが おかれている{page}リードせんとか アルミホイルとか{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}There's all sorts of stuff lying around in a jumble.{page}Wire, aluminum foil...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2387,8 +2387,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "{face:010004}・・・あ！ これを つかえば{n}レモンでんちが つくれそうだ！{page}・・・よし！ できたぞ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}...Oh! I could use this stuff to make a lemon battery!{page}...All right! It's done!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2399,8 +2399,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:000D03}なにかが はじまろうとしている・・・！！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000D03}Something is about to begin...!!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2411,8 +2411,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:000702}・・・せいかいだ{page}とりあえず おまえ もどってこいよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000702}...Correct.{page}For now, just get back here.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2423,8 +2423,8 @@
    "kind": "ff",
    "bytes": 177,
    "jp": "{face:010001}ナエさん{n}ありがとう ございました！{page}{face:001401}どういたしまして！{page}{face:001402}それと・・・{var:00}くん{n}よろしければ となりの へやから{page}メダルを 1つ もっていってください{page}{face:010008}え！？ いいんですか？{page}{face:010000}でも・・・{page}{face:001402}かまいませんわ{page}わたくしには これぐらいの ことしか できませんから{page}・・・がんばって くださいね{page}{face:010004}はい！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010001}Natalie-san, thank you very much!{page}{face:001401}You're quite welcome!{page}{face:001402}And... {var:00}-kun, if you'd like,{page}please take one Medal from the next room.{page}{face:010008}Huh!? Are you sure?{page}{face:010000}But...{page}{face:001402}It's quite all right.{page}This is about all I can do for you.{page}...Please do your best.{page}{face:010004}I will!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2435,8 +2435,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:005100}アー！ なんで そっちにいるのサー！{n}まっ いいカァ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005100}Aaah! Why are you over theere!?{n}Oh, well, whatever.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2447,8 +2447,8 @@
    "kind": "ff",
    "bytes": 82,
    "jp": "{face:003E00}つかまえた ロボロボたちが みんな{n}だつごくしてしまったで あります！{page}よって いま たいいんたちは おおあわてで つかまえに{n}いっているで あります！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003E00}Every Rubberobo we captured has escaped from prison!{page}All our officers are now scrambling to recapture them!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2459,8 +2459,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "{face:003702}おぼえてろー！！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003702}You'll pay for this!!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2471,8 +2471,8 @@
    "kind": "ff",
    "bytes": 171,
    "jp": "{face:002400}アリカなら メダロッとうから しょうたいけんが きたって{n}よろこんで でてったわよ{page}{face:010000}たいへんだ！ やっぱり アリカも よびだされたんだ！{page}{face:002400}でも おかしいわねぇ{n}メダロッとうは おやすみだって きいたのに{page}{face:010006}しんぱいしないで おばさん{n}アリカは ぼくが つれもどすから！{page}{face:002400}え？ ああ アリカをよろしくね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002400}Erika was thrilled to get an invitation to Medabot Island. She just left.{page}{face:010000}Oh no! They lured Erika there, too, just as I thought!{page}{face:002400}But how odd... I heard Medabot Island was closed.{page}{face:010006}Don't worry, ma'am! I'll bring Erika back!{page}{face:002400}Huh? Oh, do take care of Erika.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2483,8 +2483,8 @@
    "kind": "ff",
    "bytes": 68,
    "jp": "{face:001700}ざいこを せいりしてたら ロボロボが でてきたんだ{page}たいじして くれるなら そうこで みつけた パーツは{n}もってって いいよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}Some Rubberobo turned up{n}while I was sorting the stock.{page}If you get rid of them, you can keep{n}any parts you find in the storeroom.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2495,8 +2495,8 @@
    "kind": "ff",
    "bytes": 82,
    "jp": "{face:001402}{var:00}くんの{n}ゆうしょうを いのって メダルを 1つ プレゼントします{page}となりの へやから もっていってください{page}{face:010001}わーい！{n}ありがとうございます！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001402}I'm giving you a Medal for luck, {var:00}-kun. I hope you win!{page}Please take one from the next room.{page}{face:010001}Yaaay! Thank you very much!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2507,8 +2507,8 @@
    "kind": "ff",
    "bytes": 165,
    "jp": "{face:001300}・・・ん？ おまえさん なにを もっとるんじゃ？{page}{face:010000}あ これですか？{n}さびたパーツを ひろったんです{page}・・・なおると おもいますか？{page}{face:001302}なに かんたんじゃ！{n}こんなもんは わしの とくせいスプレーを{page}シューッと かければ・・・{page}{face:001302}・・・ほれ かんせいじゃ！{page}{face:010001}わーい！{n}ありがとうございまーす！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001300}...Hmm? What's that you've got there,{n}my boy?{page}{face:010000}Oh, this? I found some rusty parts.{page}...Do you think they can be fixed?{page}{face:001302}Why, that's simple!{n}With my special spray, all it takes is...{page}One little spritz...{page}{face:001302}...There! All done, eh?{page}{face:010001}Yaaay! Thank you so much!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2519,8 +2519,8 @@
    "kind": "ff",
    "bytes": 60,
    "jp": "{face:004400}ごしんたいが なにものかに ぬすまれて しまったのです{page}なにか わるいことが おこらねば よいのですが・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004400}Someone has stolen our sacred relic.{page}I only hope nothing terrible comes of this...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2531,8 +2531,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "{face:004400}それは ごしんたい！{n}よかった ぶじだったのですね！{page}さあ それを もとの ばしょに！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004400}The sacred relic! Thank goodness, it is unharmed!{page}Now, return it to its rightful place!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2543,8 +2543,8 @@
    "kind": "ff",
    "bytes": 123,
    "jp": "{face:004400}なんと おれいを いって よいのか・・・{page}ごしんたいの ちからを つかうことは いまでは{n}きんじられています{page}ですが ほんの すこしだけなら・・・{page}ゆうしゃさま あなたの メダルを 1つ{n}かしていただけますか？{page}{face:010000}え？ あ はい{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004400}How can I ever thank you...?{page}Using the sacred relic's power is forbidden nowadays.{page}But if it is only a little...{page}Brave hero, may I borrow one of your Medals?{page}{face:010000}Huh? Oh, sure.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2555,8 +2555,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{face:004400}メダルを おかえしします{page}{face:010008}あれ！？ メダルが ふえてる？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004400}Here is your Medal back.{page}{face:010008}Huh!? I've got more Medals now?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2567,8 +2567,8 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{face:004400}ごしんたいは つよい ちからを もちますゆえ{n}こうして このばしょに ふうじられて いるのです{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004400}The sacred relic has great power. That is why it is sealed here in this place.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2579,8 +2579,8 @@
    "kind": "ff",
    "bytes": 166,
    "jp": "{face:000603}あらぁ {var:00}{n}いーもの もってるじゃなぁい？{page}{face:010000}え？ これ？{page}{face:000601}そぉ それ！{page}その「レモンパック」よぉ{n}パックって おはだに いいのよねぇ{page}{face:010005}・・・・・ふーん{n}まぁ ほしいんだったら あげるけど？{page}{face:000603}ただで もらうとぉ{n}カツアゲした みたいだからぁ{page}あたしの パーツと こうかんして あげるわねぇ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000603}Ohhh, {var:00}! You've got something niiice there, don't you?{page}{face:010000}Huh? This?{page}{face:000601}Yeees, that!{page}That \"Lemon Pack\"! Face packs are sooo good for your skin.{page}{face:010005}...Huh. Well, if you want it, you can have it.{page}{face:000603}If I took it for free, it'd look like I was shaking you dooown.{page}So I'll trade you my part for it.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2591,8 +2591,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{face:010000}1かいに いこうかな？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Go to the first floor?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2603,8 +2603,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{face:010000}2かいに いこうかな？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Go to the second floor?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2615,8 +2615,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{face:010000}3かいに いこうかな？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Go to the third floor?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2639,8 +2639,8 @@
    "kind": "ff",
    "bytes": 66,
    "jp": "{face:001700}もっていないじゃないかっ！{n}「カワムラー」さまの サインッ！{page}もっていたら 5000円で{n}かっても よかったのにナァッ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}You don't have it! The great \"Kawamuraa\"-sama's autograph!{page}If you had it, I might've bought it for 5000 yen!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2651,8 +2651,8 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "{face:002500}ジェットコースター「スピリット」へ ようこそ！{page}では おくの のりばから どうぞー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}Welcome to the \"Spirit\" roller coaster!{page}Please board from the platform at the back!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2663,8 +2663,8 @@
    "kind": "ff",
    "bytes": 105,
    "jp": "{face:002500}メダロッとうに ようこそ！{page}ただいま メダロッとうは しょうがくせい いかの{n}おこさまに かぎり{page}ゲームセンターいがいの アトラクションが フリーパスと{n}なっております{page}たのしんできて くださいね！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}Welcome to Medabot Island!{page}Right now, children of elementary school age and younger{page}get free admission to every attraction except the arcade.{page}Enjoy your visit!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2675,8 +2675,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:002500}パーツンラリーの パーツじょうほうを ききますか？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}Would you like information{n}on the Parts'n Rally parts?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2687,8 +2687,8 @@
    "kind": "ff",
    "bytes": 91,
    "jp": "{face:002500}てんしがた メダロット ワンダエンジェルの{page}あたまパーツ チェラブボディ{n}みぎうでパーツ チェラブハンド{page}ひだりうでパーツ チェラブアーム{n}きゃくぶパーツ チェラブレッグ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}For the angel-type Medabot, Wonder Angel:{page}Head part: Cherub Body{n}Right arm part: Cherub Hand{page}Left arm part: Cherub Arm{n}Legs part: Cherub Leg{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2699,8 +2699,8 @@
    "kind": "ff",
    "bytes": 88,
    "jp": "{face:002500}シャコがた メダロット ゴッドエンペラーの{page}あたまパーツ デスブレイク{n}みぎうでパーツ デスミサイル{page}ひだりうでパーツ デスレーザー{n}きゃくぶパーツ デスクローラー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}For the mantis shrimp-type Medabot,{n}God Emperor:{page}Head part: Death Break{n}Right arm part: Death Missile{page}Left arm part: Death Laser{n}Legs part: Death Crawler{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2711,8 +2711,8 @@
    "kind": "ff",
    "bytes": 97,
    "jp": "{face:002500}あくまがた メダロット ベルゼルガの{page}あたまパーツ ヘルメット{n}みぎうでパーツ ヘルマイト{page}ひだりうでパーツ ヘルシング{n}きゃくぶパーツ ヘルカオス{page}・・・いじょうの 12パーツです{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}For the devil-type Medabot, Belzelga:{page}Head part: Hellmet{n}Right arm part: Hellmight{page}Left arm part: Hellsing{n}Legs part: Hellchaos{page}...Those are all twelve parts.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2723,8 +2723,8 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:001201}あら {var:00}くん{n}いらっしゃい{page}メダロット2コア クリアおめでとう！{page}おいわいに これを キミに{n}プ・レ・ゼ・ン・ト！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001201}Oh, {var:00}-kun! Welcome!{page}Congratulations on clearing Medabots 2 Core!{page}To celebrate, here's a pre-sent for you!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2735,8 +2735,8 @@
    "kind": "ff",
    "bytes": 181,
    "jp": "{face:010000}あの きになってたんですけど{n}キララさんと ヒカルさんって・・・{page}{face:001201}ヒカルと あたしは おさななじみなの{page}メダロットはかせとも しょうがくせいの ころから{n}しりあいなのよ{page}{face:010004}へえ そうだったんですか！{page}{face:001201}なんだかね キミを みてると{n}むかしの ヒカルを おもいだすのよねー{page}あいつに まけないよう がんばんなさいよ！{page}{face:010001}はい！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Um, I've been wondering... Kirara-san, you and Henry-san...{page}{face:001201}Henry and I are childhood friends.{page}I've known Dr. Aki, the Medabot Professor, since elementary school, too.{page}{face:010004}Oh, really!{page}{face:001201}You know, seeing you reminds me of Henry back then.{page}Keep at it! Don't let him outdo you!{page}{face:010001}Yes, ma'am!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2747,8 +2747,8 @@
    "kind": "ff",
    "bytes": 104,
    "jp": "{face:000E01}やあ {var:00}くん{n}いらっしゃい{page}{face:010004}こんにちは ヒカルさん{n}ゴッドエンペラーに やられた きずは{page}もう いいんですか？{page}{face:000E01}ごしんぱい むよう！{n}そんなに やわじゃないよ{page}{face:010001}よかった！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000E01}Hi, {var:00}-kun. Welcome!{page}{face:010004}Hello, Henry-san. Have your wounds from God Emperor{page}healed up already?{page}{face:000E01}No need to worry! I'm tougher than that.{page}{face:010001}What a relief!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2759,8 +2759,8 @@
    "kind": "ff",
    "bytes": 145,
    "jp": "{face:010006}あ あのっ・・・ヒカルさんって{n}7ねんまえの じけんを かいけつ したっていう・・・{page}{face:000E01}そんな むかしのこと わすれたよ{n}まっ 1つだけ いえるのは むかしの ぼくは{page}きみと おなじ メダロットが だいすきな しょうがくせい{n}だったって ことかな{page}{face:010004}ヒカルさん・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010006}U-um... Henry-san, are you the one who solved that incident seven years ago...?{page}{face:000E01}I've forgotten all that old stuff. Well, one thing I can say is,{page}back then, I was an elementary school kid who loved Medabots, just like you.{page}{face:010004}Henry-san...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2771,8 +2771,8 @@
    "kind": "ff",
    "bytes": 55,
    "jp": "{face:010004}ヒカルさんって もう{n}レトルトさんに ならないんですか？{page}{face:000E01}いやぁ ははは{n}てれるなぁ・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}Henry-san, aren't you going to be Retort-san anymore?{page}{face:000E01}Oh, hahaha! You're embarrassing me...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2783,8 +2783,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:002300}ダメロットってさー{n}もってると プレミアもんなんだってぇー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}Sooo, if you've got a Meda-dud,{n}I hear it's worth a lot!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2795,8 +2795,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:002300}あー それそれ！{n}ねー うってくんない？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}Ohhh, that's it!{n}Heeey, won't you sell it to me?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2807,8 +2807,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:002300}ちょっとこれぇ なんか かわいくなーい！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}Hey, this thing isn't cuuute at all!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2819,8 +2819,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:002300}まっ いーけどぉ？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}Well, whateverrr?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2831,8 +2831,8 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:003400}おかねが たりないロボか？{n}・・・まあ いいロボ{page}あそこまでなら タダで はこんでやるロボ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003400}Not enough money, robo? ...Oh, all right, robo.{page}I'll take you that far for free, robo!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2843,8 +2843,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:002000}じょうきゃくは きみで さいごだ{n}はやめに たのむよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002000}You're the last passenger. Hurry along, please.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2855,8 +2855,8 @@
    "kind": "ff",
    "bytes": 50,
    "jp": "{face:004F01}パーツンラリー ゆうしょうした そうじゃないか やったな！{n}さすがは パパの むすこだ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004F01}I hear you won the Parts'n Rally! Well done!{page}That's my boy!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2867,8 +2867,8 @@
    "kind": "ff",
    "bytes": 76,
    "jp": "{face:010000}こんにちはー{n}{var:00}ですけど・・・{page}{face:001800}ただいま しつじと おぼっちゃまは るすにしております{n}また おこしくださいませ{page}{face:010000}あ はい{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Hellooo! It's {var:00}...{page}{face:001800}The butler and the young master are both out at present.{page}Please call again.{page}{face:010000}Oh, okay.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2879,8 +2879,8 @@
    "kind": "ff",
    "bytes": 59,
    "jp": "{face:001B00}ナエさんに・・・あんな{n}ぶざまな すがたを みられて{page}しまうなんて・・・うっうっ{page}{face:010005}・・・・・うーむ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001B00}To think Natalie-san... saw me in such a pathetic state...{page}Oh... Sob, sob...{page}{face:010005}...Hmm.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2891,8 +2891,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:001800}いらっしゃいませ{n}{var:00}さま{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001800}Welcome, {var:00}-sama.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2903,8 +2903,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{face:001700}んん？ きみは・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}Hmm? You're...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2915,8 +2915,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:010008}しっ しつれいしましたっ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010008}S-sorry to bother you!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2927,8 +2927,8 @@
    "kind": "ff",
    "bytes": 62,
    "jp": "{face:003500}ココに イルと まいにち みずあびが できて イイワァ{page}・・・ア！ しらないヒトに コエ かけちゃった ハズカシ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003500}It's so lovely here! I can bathe every day.{page}...Oh! I spoke to a stranger. How embarrassing!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2939,8 +2939,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:010004}あー おもしろかった！{page}{face:010000}もう へとへとだ{n}そろそろ ねようかな{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}Ahh, that was fun!{page}{face:010000}I'm worn out. Maybe it's time for bed.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2951,8 +2951,8 @@
    "kind": "ff",
    "bytes": 106,
    "jp": "{face:004400}しょうじょうクリアパーツって みかたの{n}マイナスしょうじょうを かいじょする だけじゃなくて{page}そうびしている メダロットを マイナスしょうじょうに{n}まったく かからなくするんですね{page}しりませんでしたわ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004400}Status Clear parts don't just remove negative status effects from allies.{page}The Medabot equipped with them{n}is immune to those effects, too.{page}My, I had no idea.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2963,8 +2963,8 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "{face:004300}ロボトルで メダロット はしるとき{n}おれも いっしょに はしる！{page}ゆうしゃさまも はしるか？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004300}When Medabots run in Robattles, I run with them!{page}You run too, hero?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2975,8 +2975,8 @@
    "kind": "ff",
    "bytes": 103,
    "jp": "{face:010004}メダロットって うちゅうじんが もって きたんだよねぇ{page}{face:004400}ふふっ ひとが そらに いけるように なったら{n}ロボトルできるかも♥{page}{face:010004}うちゅうかぁ・・・{n}まだ みらいの はなしなんだろな{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}Aliens brought Medabots here, right?{page}{face:004400}Hee hee! Once people can travel to the stars, perhaps we can Robattle there!{page}{face:010004}Space, huh... I guess that's still a long way off.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2987,8 +2987,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:004500}ゆうしゃさま{n}ひめさまを よろしくですじゃ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004500}Do look after the princess, brave hero, won't you?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2999,8 +2999,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:004400}コーダインの うみは へいわ そのものですわ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004400}The seas of Kodine are so perfectly peaceful!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3011,8 +3011,8 @@
    "kind": "ff",
    "bytes": 81,
    "jp": "{face:010000}ん？ なにか かみが はいってるぞ？{page}「せんぼうきょうの パーツが たりなくなった かたは{page}ここから おもち ください」{n}・・・だって しんせつだなぁ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Hm? There's a piece of paper inside.{page}\"If you run out of periscope parts,{page}please take some from here.\" ...That's nice of them!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3023,8 +3023,8 @@
    "kind": "ff",
    "bytes": 58,
    "jp": "{face:005100}ボクのぬいぐるみ とってたら{n}「いぬのきぐるみ」なんか とれちゃったヨォ{page}いらないから キミに あげる！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005100}I was trying to win a plush of myself,{n}but I got a \"Dog Costume\" instead!{page}I don't need it, so you can have it!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3035,8 +3035,8 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "{face:010000}せんぼうきょうの パーツが はいってる みたいだけど{n}いまは もってるから いいや{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Looks like there are periscope parts inside,{page}but I've already got some. I'm good.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3047,8 +3047,8 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "{face:005B00}ぱぅーぷー{page}{face:010008}なんだ あれ！？{n}メダロットの あかちゃん！？{page}{face:005B00}ぱぅぷ ぱーーー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005B00}Pauu-poo!{page}{face:010008}What's that!? A baby Medabot!?{page}{face:005B00}Pau-pu paaaa!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3059,8 +3059,8 @@
    "kind": "ff",
    "bytes": 65,
    "jp": "{face:010005}このちかで ゴッドエンペラーのほかに{n}あんな やつまで つくられてたなんて・・・{page}ぱぅぷ ぱーーー{n}あ うつっちゃった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010005}They were making things like that down here, along with God Emperor...{page}Pau-pu paaaa! Oh, it's catching.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3071,8 +3071,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:002500}いらっしゃいませー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}Welcooome!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3083,8 +3083,8 @@
    "kind": "ff",
    "bytes": 103,
    "jp": "{face:001700}みちばたで とつぜん ロボトルを いどまれることが{n}あるだろう？{page}ロボトルしたくなければ ロボロボメダルで{n}にげることもできる{page}それに こまめに いえに はいれば{n}メダロッターが あらわれないぞ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}People sometimes spring a Robattle on you in the street, right?{page}If you don't want to Robattle, you can escape with a Rubberobo Medal.{page}And if you pop into houses often, Medafighters won't appear.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3095,8 +3095,8 @@
    "kind": "ff",
    "bytes": 68,
    "jp": "{face:002400}これだけ メダロットが たくさん いる せかいに いると{page}メダロットの いない せかいなんて{n}そうぞう できなく なるわね！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002400}When you live in a world with this many Medabots,{page}you just can't imagine a world without them, you know!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3107,8 +3107,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{face:002F00}てんとうパーツが つかえるのは{n}じょせいメダロットだけなのよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002F00}Only female Medabots can use Knockdown parts, you know.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3119,8 +3119,8 @@
    "kind": "ff",
    "bytes": 54,
    "jp": "{face:002400}メダルの ターゲットって{page}かくとうには まったく かんけいないのね{n}・・・そんなものなのかしら？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002400}A Medal's Target{page}has nothing to do with melee attacks. ...I wonder why that is?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3131,8 +3131,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "{face:001700}かのじょは いるかい？{page}すきなこには やさしくしないと ふられちゃうよ きっと{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}Do you have a girlfriend?{page}You'd better be nice to the girl you like, or she'll dump you for sure.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3143,8 +3143,8 @@
    "kind": "ff",
    "bytes": 66,
    "jp": "{face:001600}メダロットくみたて がめんで スタートボタンを{n}おしていくと パーツが ぜんぶ いっきに かわって{page}なかなか べんりだぜ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001600}Keep pressing START{n}on the Medabot assembly screen,{page}and all the parts change at once.{n}Pretty handy, huh?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3155,8 +3155,8 @@
    "kind": "ff",
    "bytes": 67,
    "jp": "{face:002300}こうげきするときに ねらったパーツが こわれていたら{n}なにもしないでしょ{page}・・・でも{n}そこが メダロットらしいのよねーっ♥{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002300}When the part they aim at is already broken, they don't do anything, right?{page}...But that's what makes a Medabot a Medabot, you knooow!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3167,8 +3167,8 @@
    "kind": "ff",
    "bytes": 81,
    "jp": "{face:001800}あんた ここでの きゃくぶは しゃりょうパーツだよ！{page}なんたって スピードは たいせつだろ？{n}へたな パーツも かずうちゃ あたるって いうじゃないか{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001800}Hey, Wheeled parts are the Legs to use here!{page}Speed's what counts, right? Even lousy parts will hit if you attack enough!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3179,8 +3179,8 @@
    "kind": "ff",
    "bytes": 103,
    "jp": "{face:002800}マップに あわせて きゃくぶパーツを かえることが{n}ヒツヨウだけど タイプべつに ニガテな コウドウも{page}あるから チュウイしてネ{page}ボクは うつのは トクイだけど なぐったりするのは{n}うまくないな{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002800}You need to change your Legs parts{n}to suit the map.{page}But watch out! Each type has actions{n}it's bad at, too.{page}I'm good at shooting,{n}but I'm not much good at punching.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3191,8 +3191,8 @@
    "kind": "ff",
    "bytes": 68,
    "jp": "{face:002E00}そとに いるのと なかに いるのじゃ{n}せんとうフィールドが ちがうだろ？{page}なかの ほうが スピードのさが ハゲシイんだってさ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}The battle terrain's different indoors and outdoors, right?{page}I hear the speed differences are a lot bigger indoors.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3203,8 +3203,8 @@
    "kind": "ff",
    "bytes": 80,
    "jp": "{face:003200}イリョクが たかいパーツを つかうと スピードが{n}おそくなるのだヨ{page}スピードが はやいパーツを つかうと いりょくが{n}ひくくなるのだヨ{page}ウーン・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003200}Using high-power parts slows you down, you see.{page}Using high-speed parts lowers your power, you see.{page}Hmm...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3215,8 +3215,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:002200}はやく しゅくだい おわらせて メダロットのアニメ{n}みたーい！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002200}I wanna finish my homework so I can watch the Medabot cartoon!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3227,8 +3227,8 @@
    "kind": "ff",
    "bytes": 59,
    "jp": "{face:002F00}メダフォースを ためてると そのアイダに まけちゃうの{page}すばやく メダフォースを ためるパーツが ホシイの{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002F00}I lose while I'm still charging up my Medaforce!{page}I want parts that let me charge Medaforce quickly.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3239,8 +3239,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{face:001700}ロボトルしてると やるきを うたがいたくなる{n}メダロットが いる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}Some Medabots make you wonder if they're even trying in a Robattle.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3251,8 +3251,8 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:002E00}ウォッっと ビックリしたァ！！{page}どっから はいって くるんだよ ヒジョウシキな{n}ヤツだなァ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}Whoa! You scared me!!{page}Where'd you come in from!? Haven't you got any manners?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3263,8 +3263,8 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "{face:002E00}オイオイ ダメダメ{n}そっから でちゃあ{page}ちゃんと でてきた ばしょから かえんな！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}Hey, hey! You can't go out that way!{page}Go back the way you came in!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3275,8 +3275,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{face:002E00}カンケーねーけど{n}メダロットの アニメも ちゃんと みろよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}This has nothin' to do with that, but watch the Medabot cartoon, too!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3287,8 +3287,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{face:001900}わしは ロボットの まんがより まんざいの ほうが{n}このみじゃがのー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001900}I'd rather watch a comedy duo than a robot cartoon, myself, eh?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3299,8 +3299,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:010000}いうまでも ないけど トイレの ドアだ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Goes without saying, but it's the bathroom door.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3311,8 +3311,8 @@
    "kind": "ff",
    "bytes": 266,
    "jp": "{face:001500}おう みちに まよっちまっただぜ！{n}ここは どこだぜ？{page}{face:010000}？{page}{face:001500}おっ？ おまえは だれだぜ？{n}チョンマゲなんかして オシャレな やつだぜ！{page}{face:010007}・・・・・・・・・{page}{face:001500}でも あんまり にあってないだぜ！{page}{face:010003}・・・・・・・・・{page}{face:001500}！！{n}おまえ メダロッチ もってるだぜ！{page}いま オレの カンタロスは しゅうりちゅうで{n}メダロットはかせに あずけてるだぜ！{page}でも かわりに はかせから かりてる パーツが あるだぜ！{n}だから・・・・・{page}オレと ロボトろ〜ぜっ！！{page}{face:010001}あの〜〜〜・・・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001500}Yo, I'm lost! Where the heck am I?{page}{face:010000}?{page}{face:001500}Oh? Who're you? That's a stylish topknot you've got!{page}{face:010007}...{page}{face:001500}Doesn't really suit ya, though!{page}{face:010003}...{page}{face:001500}!! You've got a Medawatch!{page}My Kantaros is with Dr. Aki, the Medabot Professor, for repairs right now!{page}But I've got some parts the doc lent me instead! So...{page}Let's Robattle!!{page}{face:010001}Ummm...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3323,8 +3323,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{face:001500}うっしゃーーー{n}ロボトリまくりィーーーっ！{page}{face:010001}あの〜〜〜・・・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001500}All riiight! Robattle till ya drop!{page}{face:010001}Ummm...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3335,8 +3335,8 @@
    "kind": "ff",
    "bytes": 59,
    "jp": "{face:004F01}やあ {var:00}{n}たまには パパとも ロボトル しようじゃないか{page}{face:010008}えっ！？{n}パパも ロボトル するの！？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004F01}Hey, {var:00}. How about a Robattle with your dad for a change?{page}{face:010008}Huh!? You Robattle too, Dad!?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3347,8 +3347,8 @@
    "kind": "ff",
    "bytes": 62,
    "jp": "{face:004F01}たのしかったな {var:00}！{page}だが ワケあって ロボロボメダルは あげられんぞ！{n}わはははははっ{page}{face:010001}・・・・・？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004F01}That was fun, {var:00}!{page}But for certain reasons,{n}I can't give you a Rubberobo Medal!{page}Wahahaha!{page}{face:010001}...?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3359,8 +3359,8 @@
    "kind": "ff",
    "bytes": 177,
    "jp": "{face:005000}あら {var:00}{n}ちょうど よかったわ{page}{face:010004}なあに ママ？{page}{face:005000}ミルキーっていう まじょみたいな カッコした{n}おんなのこから メダロットを あずかっちゃったのよ{page}{face:010008}えっ なんで！？{page}{face:005000}よく わかんないけど せっかくだし{n}ママも ロボトルっていうの やってみようかしら{page}{face:010008}えっ なんで！？{n}しかも それって ミルキーの・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005000}Oh, {var:00}! Perfect timing.{page}{face:010004}What is it, Mom?{page}{face:005000}A girl named Milky,{n}dressed like a witch,{page}left a Medabot with me, dear.{page}{face:010008}Huh? Why!?{page}{face:005000}I'm not sure, but since it's here,{n}perhaps I'll try this Robattle thing.{page}{face:010008}Huh? Why!? Besides, that's Milky's...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3371,8 +3371,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:005000}あら けっこう たのしいわね{n}{var:00} また やりましょうね ロボトル{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005000}My, that's quite fun! Let's have another Robattle sometime, {var:00}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3383,8 +3383,8 @@
    "kind": "ff",
    "bytes": 83,
    "jp": "{face:005000}よく わからないと おもってたけど{n}メダロットのこと なんとなく わかってきたわ・・・{page}{face:005001}{var:00}！{n}ママと しょうぶよっ！！{page}{face:010008}えっ なんで！？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005000}I thought I didn't understand, but I'm starting to get how Medabots work...{page}{face:005001}{var:00}! Come battle your mother!!{page}{face:010008}Huh? Why!?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3395,8 +3395,8 @@
    "kind": "ff",
    "bytes": 91,
    "jp": "{face:005000}やっぱり ママ もう ロボトルやめる{page}{face:010008}はやっ！{page}{face:005000}だって よく わかんないもの{page}{face:010008}やっぱり！？{page}{face:010004}・・・・・・・・・{n}でも たのしかったね ママ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005000}Actually, I'm giving up Robattles, dear.{page}{face:010008}That was fast!{page}{face:005000}Well, I just don't understand them.{page}{face:010008}So you don't after all!?{page}{face:010004}...Still, that was fun, Mom.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3407,8 +3407,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:005800}いそがしいんだから こんなところを{n}うろうろ されると こまるんだよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005800}I'm busy! I can't have you wandering around here!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3419,8 +3419,8 @@
    "kind": "ff",
    "bytes": 116,
    "jp": "{face:005800}あ〜 いそがしい いそがしい！{page}{face:010004}いそがしいのにも かかわらず{n}ロボトル してくれて ありがとう おじさん{page}{face:005800}おやおや ヒニクかい？{n}こりゃあ イッポン とられたなあ はっはっはっ{page}{face:010004}おじゃましました！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005800}Ahh, so busy, so busy!{page}{face:010004}Thank you for having a Robattle with me when you're so busy, sir.{page}{face:005800}Oh my, was that sarcasm? You got me there! Hahaha!{page}{face:010004}Thanks for having me!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3431,8 +3431,8 @@
    "kind": "ff",
    "bytes": 163,
    "jp": "{face:010004}ソルティ いいこに してたか？{page}{face:000500}わんわぅー♥{page}{face:010000}わう？ わんわうぁ〜わうん？{page}{face:000500}わん！{page}{face:010005}わぅ〜わんわぅ・・・{page}{face:000500}わぉうわん！{page}{face:010008}わん！ うぉ〜うわぅ わうわん！{page}{face:010001}・・・って ホントは ぜんぜん わかんないんだけどね{page}{face:000500}ぐるるるるるるるる{n}わうっ！ わうわうっ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}Salty, have you been a good boy?{page}{face:000500}Woof, woooof!{page}{face:010000}Woof? Woof-wooo, woof?{page}{face:000500}Woof!{page}{face:010005}Wooo, woof-woof...{page}{face:000500}Woo-woof!{page}{face:010008}Woof! Wooo-woof, woof-woof!{page}{face:010001}...Actually, I don't understand a word of it.{page}{face:000500}Grrrrrrrr! Woof! Woof-woof!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3443,8 +3443,8 @@
    "kind": "ff",
    "bytes": 85,
    "jp": "{face:000500}くぅ〜〜〜〜〜ん{page}{face:010001}からかって ごめんよ ソルティ{page}{face:010008}って ソルティが ロボトルを！？{n}なんで！？{page}{face:000500}・・・・・{page}{face:010000}・・・・・・・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000500}Whiiiiine...{page}{face:010001}Sorry for teasing you, Salty.{page}{face:010008}Wait, Salty's having a Robattle!? How!?{page}{face:000500}...{page}{face:010000}...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3455,8 +3455,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "{face:010004}ソルティ いいこだね{n}きぶんは ノリノリかい？{page}{face:000500}わうん！ わうわぅ〜♥{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}Good boy, Salty. Feeling all fired up?{page}{face:000500}Woof! Woof-woooo!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3467,8 +3467,8 @@
    "kind": "ff",
    "bytes": 179,
    "jp": "{face:002800}あっ {var:00}さん{n}ようこそ いらっしゃいました{page}{face:010004}やあ ウォッカ げんきかい？{page}{face:002800}おかげさまで まいにちが とても たのしいですよ{n}ほら はなばたけの はなたちも げんきそうでしょ？{page}{face:010004}うんうん へいわで いいねえ{n}それより ウォッカ ぼくと ロボトル しない？{page}{face:002800}ええ もちろん よろこんで！{n}でも てかげんは なしですよ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002800}Oh, {var:00}-san. Welcome!{page}{face:010004}Hi, Vodka. How are you?{page}{face:002800}Very well, thank you.{n}Every day is such a delight.{page}Look, even the flowers in the garden{n}seem to be doing well, don't they?{page}{face:010004}Yeah, it's nice and peaceful.{n}Say, Vodka, want to Robattle with me?{page}{face:002800}Of course! I'd be delighted.{n}But no holding back!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3479,8 +3479,8 @@
    "kind": "ff",
    "bytes": 96,
    "jp": "{face:002800}とても たのしかったですね！{n}やっぱり {var:00}さんは てごわいです{page}{face:010004}ウォッカこそ！{n}ありがとうね ウォッカ{page}{face:002800}どういたしまして{n}どうぞ ゆっくりと くつろいでくださいね{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002800}That was great fun!{page}You're as formidable as ever,{n}{var:00}-san.{page}{face:010004}So are you, Vodka! Thanks, Vodka.{page}{face:002800}You're most welcome.{n}Please make yourself at home.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3491,8 +3491,8 @@
    "kind": "ff",
    "bytes": 105,
    "jp": "{face:000C03}あ〜ら {var:00}くん{n}よるの ミルキーの へやに ようこそ♥{page}{face:010000}「よるの」？{page}{face:000C01}ほっとんどの イベントを クリアしちゃった ア・ナ・タ・に{n}ミルキーから ささやかな プレゼントを おくるわ♥{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000C03}Well, hellooo, {var:00}-kun!{n}Welcome to Milky's room at night!{page}{face:010000}\"At night\"?{page}{face:000C01}You've cleared almost every event!{page}So Milky has a little present{n}just for Y-O-U!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3503,8 +3503,8 @@
    "kind": "ff",
    "bytes": 131,
    "jp": "{face:010001}ほんとに？{page}{face:000C01}それは・・・だれも けいけんしたことのない{n}スペシャルロボトル！！{page}{face:000C00}この ショックに あなたは たえられるか！？{page}{face:000C01}さあ もりあがってきたわよ{n}はたして その スペシャルロボトルの しょうたいとは！？{page}{face:010001}まだ？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010001}Really?{page}{face:000C01}It's... a special Robattle{n}like no one has ever experienced!!{page}{face:000C00}Can you withstand the shock!?{page}{face:000C01}Now things are heating up!{page}Just what could this special{n}Robattle be!?{page}{face:010001}Are we there yet?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3515,8 +3515,8 @@
    "kind": "ff",
    "bytes": 158,
    "jp": "{face:000C02}んもうっ！ せっかち なんだからあ！{n}そんなんじゃあ おんなのこに きらわれちゃうわよ！{page}{face:000C00}まあ いいわ{page}{face:000C03}その スペシャルロボトルの ために ミライから{n}スペシャルメダロッターを まほうで よびだしてあげる！{page}{face:000C01}カムカムコイテヤルーニコイシマース{n}テンテンサンサンミルミルミルキー！！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000C02}Oh, honestly! So impatient!{page}Girls won't like you if you{n}keep that up, you know!{page}{face:000C00}Oh, all right.{page}{face:000C03}For this special Robattle,{n}I'll use magic to summon{page}a special Medafighter{n}from the future!{page}{face:000C01}Come, come, love so true!{n}Ten-ten, san-san, Mil-Mil-Milky!!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3527,8 +3527,8 @@
    "kind": "ff",
    "bytes": 126,
    "jp": "{face:006100}ばぁ〜〜〜ぶぅ〜〜〜{page}{face:010008}だれっ！？{page}{face:006100}オレは コイ・・・・・{n}そ・・・そんなことは いいじゃないか！{page}ミライの くにから やってきたとだけ いっておこう{page}{face:010008}ミライだって！？ ほんとうに！？{page}{face:006100}しょうぶだっ！ {var:00}！！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006100}Baaaaboooo!{page}{face:010008}Who's that!?{page}{face:006100}I'm Koi...{n}Th-that's not important!{page}Let's just say I've come{n}from the land of the future.{page}{face:010008}The future!? Really!?{page}{face:006100}Let's battle, {var:00}!!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3539,8 +3539,8 @@
    "kind": "ff",
    "bytes": 356,
    "jp": "{face:006100}ふふふ・・・たのしかったよ{n}{var:00}{page}{face:010004}ぼくも たのしかった！{n}ねえ きみの なまえを おしえてよ{page}{face:006100}オレは コイ・・・・・{n}そ・・・そんなことは いいじゃないか！{page}ミライの くにから やってきたとだけ いっておこう{page}{face:010005}デジャヴ？{page}{face:006100}きょうつうてんは あるだろ{page}オレも {var:00}も{n}メダロットが だいすきだ{page}そして オレも {var:00}も{n}さいこうの メダロッターだ！！{page}それだけで いいじゃないか！{page}{face:010001}うん！ そうだね！！{page}{face:006100}ありがとう {var:00}！{n}オレは ミライに かえるよ{page}{face:010004}うん！ ありがとう！{n}また いっしょに ロボトル できたら いいね！{page}{face:000C03}そろそろ いいかしら おふたりさん？{page}{face:000C01}バクバクコイテヤルーニコイシテール{n}テンテンサンサンミルミルミルキー！！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006100}Heh heh... That was fun,{n}{var:00}.{page}{face:010004}I had fun, too!{n}Hey, tell me your name.{page}{face:006100}I'm Koi...{n}Th-that's not important!{page}Let's just say I've come{n}from the land of the future.{page}{face:010005}Deja vu?{page}{face:006100}We've got something in common, right?{page}You and I both love Medabots,{n}{var:00}.{page}And you and I are both{n}top Medafighters, {var:00}!!{page}Isn't that all we need?{page}{face:010001}Yeah! You're right!!{page}{face:006100}Thanks, {var:00}!{n}I'm heading back to the future.{page}{face:010004}Yeah! Thanks!{n}I hope we can Robattle again!{page}{face:000C03}Are you two about done?{page}{face:000C01}Back, back, I'm in love with you!{n}Ten-ten, san-san, Mil-Mil-Milky!!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3551,8 +3551,8 @@
    "kind": "ff",
    "bytes": 233,
    "jp": "{face:000C03}たのしんでもらえたかしら？{n}{var:00}くん{page}そろそろ わたしも かえるわね{page}{face:010000}え？ どこに？{page}{face:000C00}それにしても あのマスク なかなか イケてたわね{n}こんど ヒカルちゃんに かぶらせてみようかしら・・・{page}{face:010000}えっ なになに？{page}{face:000C03}いえ なんでもないのよ{n}たんなる わたしの シュミの はなしよ！{page}じゃあ {var:00}くん{n}きをつけて かえってね{page}これからも かぞくと なかまを たいせつにね！{page}{face:010001}はい！{page}{face:000C01}メダトルロボトルミルミルミルキー！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000C03}Did you enjoy yourself,{n}{var:00}-kun?{page}It's about time I went back, too.{page}{face:010000}Huh? Where to?{page}{face:000C00}That mask was rather stylish, though.{page}Perhaps I'll have Henry-chan{n}try it on sometime...{page}{face:010000}Huh? What was that?{page}{face:000C03}Oh, nothing at all!{n}Just my personal taste, that's all!{page}Well, {var:00}-kun,{n}have a safe trip home.{page}Always cherish your family{n}and friends!{page}{face:010001}I will!{page}{face:000C01}Medattle, Robattle, Mil-Mil-Milky!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

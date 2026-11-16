@@ -358,4 +358,40 @@ and an Avoid spelling fails.
 | ロボロボメダルについて | Rubberobo Medals | | tutorial topic | |
 <!-- END GENERATED -->
 ## Decisions from earlier batches
-- (none yet)
+- ベール is also the plain word "veil": なぞのベール (veil of mystery, 50D015) is not the part Behr. The row below
+  masks it so the check doesn't demand "Behr".
+
+| JP | EN | max | notes | Avoid |
+|---|---|---|---|---|
+| なぞのベール | mystery | | idiom "shrouded in a veil of mystery", not the part Behr | |
+
+## Capped part names (10-byte name buffer; full form in notes)
+The b001 review asked for the full names; they don't fit the measured 10-byte cap, so these short forms stand.
+
+| JP | EN | max | notes | Avoid |
+|---|---|---|---|---|
+| フォイデノンモル | Foinonmor | 10 | cap; full Foidenonmor | |
+| グラフュノンモル | Grafnonmor | 10 | cap; full Grafyunonmor | |
+| タテコントラリ | Tatecontra | 10 | cap; full Tatecontrali | |
+| ディレクシッケル | Direcsichl | 10 | cap; full Direcsichel | |
+| アビディマリーナ | Abimarina | 10 | cap; full Abidimarina | |
+| アンガベコレト | Angabecol | 10 | cap; full Angabecoleto | |
+| アンガデコレト | Angadecol | 10 | cap; full Angadecoleto | |
+| モデロリスタット | Modelstat | 10 | cap; full Modeloristatt | |
+| レットティグレ | Rettigre | 10 | cap; full Retto Tigre | |
+| ニストロティグレ | Nistigre | 10 | cap; full Nistro Tigre | |
+| ジャメットベーノ | Jambeno | 10 | cap; full Jametto Beno | |
+| ペテロケミセルト | Petrocerto | 10 | cap; full Petrokemicerto | |
+| ペテロケミエスク | Petroesq | 10 | cap; full Petrokemiesque | |
+| デセントベスタ | Desentbes | 10 | cap; full Desento Besta | |
+| リンハデバシロ | Linhbacil | 10 | cap; full Linha de Bacilo | |
+| アルマエスピーノ | Armespino | 10 | cap; full Arma Espino | |
+| ソンプロフェット | Sonprofet | 10 | cap; full Sonprofetto | |
+| ソンプロビッサ | Sonprovis | 10 | cap; full Sonprovissa | |
+| カンバナデスコ | Cambandes | 10 | cap; full Cambana Desco | |
+| ラビダラルガ | Vidalarga | 10 | cap; full La Vida Larga | |
+| ラマノデグラ | Manodegra | 10 | cap; full La Mano Degra | |
+| ラマノイグラン | Manoigran | 10 | cap; full La Mano Igran | |
+| ラコララルガ | Colalarga | 10 | cap; full La Cola Larga | |
+| エルカンポネーバ | Camponeva | 10 | cap; full El Campo Neva | |
+| ルミネセンス | Luminesce | 10 | cap; full Luminescence | |

@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:005E00}つうしんネットに ようこそ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Welcome to the Link Network!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:005E00}つうしんを はじめますか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Start a link session?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "つうしんまえに ゲームデータを セーブします{n}よろしいですか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Your game data will be saved before linking. Is that okay?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "ただいま セーブちゅうです！{n}セーブちゅうは でんげんを きらないでくださいね！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Saving now! Please do not turn off the power while saving!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "つうしんネットに せつぞくします！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Connecting to the Link Network!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "つうしんネットの せつぞくに しっぱいしました！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Failed to connect to the Link Network!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:005E00}えっ！？ つうしん しないの？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Huh!? You're not going to link up?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:005E00}じゃあ つうしん したくなった ときは{n}また ここに きてね！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Then come back here whenever you feel like linking up!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:005E00}おともだちと きがるに ロボトル！{n}パーツの とりあいは ナシよ♥{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Have a friendly Robattle with a friend! No parts are at stake!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:005E00}おともだちと パーツを かけて しんけんロボトル！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Have a serious Robattle with a friend, with parts on the line!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:005E00}おともだちと パーツを こうかんよ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Trade parts with a friend!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:005E00}おともだちに メダルを あげちゃうよ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Give a Medal to a friend!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:005E00}つうしんを やめるときは かならず ここからね！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Always use this option to end your link session!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "くみあがった メダロットが 2たいいじょう ないと{n}しんけんロボトルは できません！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "You need at least two assembled Medabots to enter a serious Robattle!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "データてんそう エラー！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Data transfer error!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 61,
    "jp": "{face:005E00}ここでは つうしんケーブルを つかって おともだちと{n}ロボトル・パーツこうかん・メダルを あげたり できます！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Here, you can use a link cable to Robattle with friends,{page}trade parts, and give them Medals!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "でも メダロットが すくないうちは やらないでね！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "But wait until you have more Medabots before you try it!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "うわがきしますが よろしいですか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Overwrite the data?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "パーツトレード スタート！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Starting part trade!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:005E00}あたまパーツ「{var:01}」を てにいれた！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Got the Head part \"{var:01}\"!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:005E00}みぎうでパーツ「{var:01}」を てにいれた！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Got the Right Arm part \"{var:01}\"!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:005E00}ひだりうでパーツ「{var:01}」を てにいれた！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Got the Left Arm part \"{var:01}\"!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:005E00}きゃくぶパーツ「{var:01}」を てにいれた！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Got the Legs part \"{var:01}\"!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "あいてが メダルを えらんでいます{n}なにを もらえるか たのしみだね！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Your friend is choosing a Medal.{n}What will you get? How exciting!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "メダルを てんそうします！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Transferring the Medal!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:005E00}「{var:01}」メダルを もらいました！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Received the \"{var:01}\" Medal!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:005E00}「{var:01}」メダルを あげちゃいました！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Gave away the \"{var:01}\" Medal!{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

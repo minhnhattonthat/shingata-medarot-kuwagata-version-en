@@ -274,7 +274,7 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "「きんせつ」が たかい きゃくぶパーツは かくとうなどの きんせつこうどうのパーツと くみあわせると いいんだ{end:04}",
-   "en": "Legs parts with high \"Melee\" work well with parts for close-range actions,{page}such as physical attacks.{end:04}",
+   "en": "Legs parts with high \"Melee\" work well with parts for close-range actions,{page}such as Melee attacks.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "「えんかく」が たかい きゃくぶパーツは しゃげきなどの えんかくこうどうのパーツと くみあわせると いいんだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Legs parts with high \"Ranged\" work well with parts for long-range actions,{page}such as shooting attacks.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "ff",
    "bytes": 56,
    "jp": "ロボトルのあいてや ちけいによって きゃくぶを かえるときは この2つのすうちを よーくみて きめるといいよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "When changing Legs to suit your Robattle opponent or the terrain,{page}look closely at these two stats before you decide.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{face:003300}メダルの 「じゅくれんど」は ロボトルで パーツをつかうと あがっていくんだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003300}A Medal's \"Mastery\" increases when you use parts in a Robattle.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "ff",
    "bytes": 60,
    "jp": "こうげきが あたらなくても 「じゅくれんど」は あがっていくから どんどんつかって 「じゅくれんど」をあげるといいよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"Mastery\" goes up even when an attack misses.{page}So keep using parts to raise your \"Mastery\"!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "「じゅくれんど」が あがると こうげきが かいひされにくくなるんだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Higher \"Mastery\" makes your attacks harder to dodge.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "ff",
    "bytes": 56,
    "jp": "「さくてき」とくみあわせれば あいてが 「いんぺい」パーツをつかっていても あたるかのうせいが たかくなるよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Combine it with \"Scout\", and you'll be more likely to hit,{page}even if your opponent uses \"Stealth\" parts.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "メダルの 「のうりょく」を かんがえながら どの「じゅくれんど」をあげるか かんがえれば じょうきゅうしゃだ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Think about your Medal's abilities when deciding which \"Mastery\" to raise.{page}That's how the experts do it!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "{face:000D00}ロボトルするときに 「ちけい」を かんがえた きゃくぶパーツを しよう しておるかの？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000D00}Do you choose Legs parts to suit the terrain when you Robattle, my boy?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "その「ちけい」が にがてな きゃくぶパーツを そうびしていると スピードが おそくなるから ちゅういするんじゃ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Mind you, equipping Legs parts unsuited to the terrain will slow you down.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "「そうげん」・「しんりん」がとくいな じゅんばんで きゃくぶパーツをならべると{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "For \"Grassland\" and \"Forest\", the order of Legs parts from best to worst is...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "「にきゃく」・「ふゆう」・「ひこう・たきゃく・せんしゃ{n}・せんすい」・「しゃりょう」じゃ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"Bipedal\", \"Hover\",{page}\"Flight, Multi-Leg, Tank, Aquatic\",{page}then \"Wheeled\", you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "「 」のなかは おなじ えいきょうど じゃぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Types within the same quotes are affected equally, you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "「まちなか」・「しつない」がとくいな じゅんばんで きゃくぶパーツをならべると{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "For \"City\" and \"Indoors\", the order of Legs parts from best to worst is...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "「しゃりょう」・「ふゆう・にきゃく」・「ひこう・せんしゃ{n}・せんすい」・「たきゃく」じゃ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"Wheeled\", \"Hover, Bipedal\",{page}\"Flight, Tank, Aquatic\",{page}then \"Multi-Leg\", you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "「 」のなかは おなじ えいきょうど じゃぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Types within the same quotes are affected equally, you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "「かいがん」・「すいちゅう」がとくいな じゅんばんで きゃくぶパーツをならべると{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "For \"Coast\" and \"Underwater\", the order of Legs parts from best to worst is...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "「せんすい」・「ふゆう」・「たきゃく・せんしゃ」{n}・「ひこう・にきゃく・しゃりょう」じゃ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"Aquatic\", \"Hover\", \"Multi-Leg, Tank\",{page}then \"Flight, Bipedal, Wheeled\", you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "「 」のなかは おなじ えいきょうど じゃぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Types within the same quotes are affected equally, you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "「こうや」・「さばく」がとくいな じゅんばんで きゃくぶパーツをならべると{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "For \"Wilderness\" and \"Desert\",{page}the order of Legs parts from best to worst is...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "「ひこう」・「ふゆう・しゃりょう」・「たきゃく・せんしゃ」{n}・「にきゃく・せんすい」じゃ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"Flight\", \"Hover, Wheeled\",{page}\"Multi-Leg, Tank\",{page}then \"Bipedal, Aquatic\", you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "「 」のなかは おなじ えいきょうど じゃぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Types within the same quotes are affected equally, you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "「いわば」・「けいこく」がとくいな じゅんばんで きゃくぶパーツをならべると{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "For \"Rockland\" and \"Canyon\", the order of Legs parts from best to worst is...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "「たきゃく」・「ふゆう・にきゃく」・「ひこう・せんしゃ{n}・せんすい」・「しゃりょう」じゃ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"Multi-Leg\", \"Hover, Bipedal\",{page}\"Flight, Tank, Aquatic\",{page}then \"Wheeled\", you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "「 」のなかは おなじ えいきょうど じゃぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Types within the same quotes are affected equally, you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "「サイバー」は どの きゃくぶパーツも 「ちけい」のえいきょうを うけないのじゃ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "On \"Cyber\" terrain, no Legs parts are affected by the terrain, you see.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "「ちけい」を かんがえた きゃくぶパーツを そうびして さいきょうの メダロッターを めざすのじゃ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Equip Legs parts to suit the terrain,{page}and aim to be the best Medafighter, my boy!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:001701}ぼうず みぎうでパーツと ひだりうでパーツには 「じゅうてん」と「ほうねつ」っていう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001701}Kid, Right Arm and Left Arm parts have stats called \"Charge\" and \"Cooldown\".{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "すうちが あるってことは もう しってるな？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "You already knew that, right?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "ff",
    "bytes": 50,
    "jp": "「じゅうてん」が 「ひくい」 パーツをつかうと パーツをつかうまでの スピードが はやくなるのさ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Use a part with low \"Charge\", and it'll take less time to use that part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "「ほうねつ」が 「ひくい」 パーツをつかうと パーツをつかってから つぎの こうどうに うつるまでの{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Use a part with low \"Cooldown\", and the time between using it{page}and starting your next action...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -646,8 +646,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "スピードが はやくなる・・・ まあ かんたんに いっちまえば こういうことだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "...gets shorter. Well, here's a simple way to put it.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -658,8 +658,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "「じゅうてん」が 「ひくい」と・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "When \"Charge\" is low...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -670,8 +670,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "ここまでの スピードが はやくなるのさ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "You get to this point faster.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -682,8 +682,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "「ほうねつ」が 「ひくい」と・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "When \"Cooldown\" is low...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,8 +694,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "ここまでの スピードが はやくなるのさ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "You get to this point faster.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -706,8 +706,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "「じゅうてん」と「ほうねつ」を よ〜くみて パーツをえらびなよ ぼうず{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Take a good look at \"Charge\" and \"Cooldown\" when choosing parts, kid.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -718,8 +718,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:001C00}しのびは はやさと きびんさが いのちで ござる！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001C00}A ninja's life depends on speed and agility, indeed!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -730,8 +730,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "メダロットも 「すいしん」と「きどう」が いのちで ござるよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "So too does a Medabot depend on \"Propulsion\" and \"Mobility\"!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -742,8 +742,8 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "きゃくぶパーツの「すいしん」が たかいと 「じゅうてん」と「ほうねつ」が ひくくなるでござる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "High \"Propulsion\" in Legs parts lowers \"Charge\" and \"Cooldown\", indeed!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -754,8 +754,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "つまり スピードアップ ということでござるな！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "In other words, greater speed, indeed!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -766,8 +766,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "「すいしん」が たかいと 「がむしゃら」の いりょくが アップするでござる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "High \"Propulsion\" also boosts the power of \"Berserk\", indeed!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -778,8 +778,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "さらに なんと 「トラップ」の かいじょりつも あがるでござるよ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "And what's more, it raises your chance{n}of disarming traps, indeed!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -790,8 +790,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "「すいしん」は ロボトルの ゆくえを さゆうするでござるよ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"Propulsion\" can decide the course of a Robattle, indeed!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -802,8 +802,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "きゃくぶパーツの「きどう」が たかいと あいての こうげきを かいひ しやすくなるでござるよ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "High \"Mobility\" in Legs parts makes it easier to evade enemy attacks, indeed!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -814,8 +814,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "つまり あいての こうげきを よけまくることができる というわけでござるな！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "In other words, you can dodge your opponent's attacks{page}again and again, indeed!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -826,8 +826,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "「いんぺい」と くみあわせると もう だれにも ふれられないこと うけあいでござる！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Combine it with \"Stealth\", and I assure you, no one will be able to touch you!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -838,8 +838,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "「すいしん」と「きどう」を しっかり かんがえて パーツを えらんで くだされ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "I ask that you carefully consider \"Propulsion\" and \"Mobility\"{page}when choosing your parts!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -850,8 +850,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:001E00}しのびに にんじゅつの おうぎが あるように{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001E00}Just as ninjas have secret ninja arts...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -862,8 +862,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "メダロットにも 「メダフォース」っていう おうぎが あるのよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Medabots have a secret art called \"Medaforce\", you know.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -874,8 +874,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "「メダフォース」は メダルのレベルが いっていいじょう あがると おぼえるわ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "A Medal learns \"Medaforce\" when its level reaches a certain point.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -886,8 +886,8 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "ロボトルちゅうに メダフォースメーターがいっぱいになると 「メダフォース」 をつかえるのよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Once the Medaforce meter fills during a Robattle, you can use \"Medaforce\".{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -898,8 +898,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "「メダフォース」は ぜったいに よけられることがないから{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"Medaforce\" can never be dodged, so...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -910,8 +910,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "いっぱつ ぎゃくてんをねらって ここぞっていうときに つかうといいわよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Use it at just the right moment to turn the tables in one shot!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -922,8 +922,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:003E00}わたしって なんでも らくをするのが すきなの{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003E00}I like to take the easy way with everything, you know.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -934,8 +934,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "ロボトルでも 「オート」コマンドで メダロットに ロボトルを おまかせ するのよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Even in Robattles, I use \"Auto\" and leave the Robattle to my Medabot.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -946,8 +946,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "「オート」にしたときに メダロットに どういうふうに こうどうしてもらうかは{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "To decide how your Medabot should act when you select \"Auto\"...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -958,8 +958,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "メダロッチの メダルー「ローテーション」で せってい できるの{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Go to Medal, then \"Rotation\" on your Medawatch to set it up.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -970,8 +970,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "「H」マークは あたまパーツをつかうっていう いみよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The \"H\" mark means to use the Head part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -982,8 +982,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "「L」マークは ひだりうでパーツ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The \"L\" mark is for the Left Arm part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -994,8 +994,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "「R」マークは みぎうでパーツ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The \"R\" mark is for the Right Arm part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1006,8 +1006,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "「MF」マークは メダフォースを ためる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The \"MF\" mark means to charge Medaforce.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1018,8 +1018,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「？」は かってに こうどうするっていう いみよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"?\" means it chooses its own action.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1030,8 +1030,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "「MF1〜3」マークは メダフォース1〜3 を つかうっていうことなの{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"MF1\" through \"MF3\" mean to use Medaforce 1 through 3.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1042,8 +1042,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "8ばんめ まで こうどうしたら 1ばんめのこうどうに もどるのよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "After action 8, it goes back to action 1, you see?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1054,8 +1054,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "ローテーションポイントを せっていすれば 1ばんめじゃなくて すきなところにもどすことも{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "If you set a Rotation point, you can make it return to any spot you like{page}instead of action 1...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1066,8 +1066,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "できるのよ たとえば これだったら 8ばんめのあと 3ばんめに もどるの{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "...just like that. Here, for example,{page}it goes back to action 3 after action 8.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1078,8 +1078,8 @@
    "kind": "ff",
    "bytes": 50,
    "jp": "しかも パーツがこわれていたら かってに ほかのパーツを つかってくれるのよ？ べんりでしょ！？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "And if a part is broken, it'll use another part on its own!{page}Handy, isn't it!?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1090,8 +1090,8 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "ロボトルちゅうに Bボタンを おしっぱなしにしていれば いつでも 「オート」をかいじょ できるから{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "You can turn \"Auto\" off anytime by holding the B Button during a Robattle.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1102,8 +1102,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "ボウヤも たまには らくを してみたら どう？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Why don't you take it easy once in a while too, little boy?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1114,8 +1114,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:004400}{var:00}ちゃんに いいこと おしえてあげる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004400}I'll tell you something good, {var:00}-chan.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1126,8 +1126,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "このゲームの タイトルがめんで 「スタートボタン」を おすと ゲームがはじまるけれども{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Pressing the Start Button{n}on this game's title screen{page}starts the game, but...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1138,8 +1138,8 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "このときに「セレクトボタン」をおしながら{n}「スタートボタン」をおすと{page}「テストモード」に はいれるの{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "If you hold the Select Button while pressing the Start Button,{page}you can enter \"Test Mode\".{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1150,8 +1150,8 @@
    "kind": "ff",
    "bytes": 56,
    "jp": "このゲームにつかわれている おとを ぜんぶ きくことができるから{page}おんがくを ききたければ ためしてみなさい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "You can listen to every sound{n}used in this game.{page}Give it a try if you'd like{n}to listen to the music.{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "「{var:01}」を {var:02}コ てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Obtained \"{var:01}\"{n}x{var:02}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "「{var:01}」が {var:02}コ なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Lost \"{var:01}\"{n}x{var:02}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "あたまパーツ{n}「{var:01}」を {var:02}コ てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Obtained Head part{page}\"{var:01}\"{n}x{var:02}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "みぎうでパーツ{n}「{var:01}」を {var:02}コ てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Obtained Right Arm part{page}\"{var:01}\"{n}x{var:02}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "ひだりうでパーツ{n}「{var:01}」を {var:02}コ てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Obtained Left Arm part{page}\"{var:01}\"{n}x{var:02}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "きゃくぶパーツ{n}「{var:01}」を {var:02}コ てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Obtained Legs part{page}\"{var:01}\"{n}x{var:02}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "あたまパーツ{n}「{var:01}」が {var:02}コ なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Lost Head part{page}\"{var:01}\"{n}x{var:02}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "みぎうでパーツ{n}「{var:01}」が {var:02}コ なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Lost Right Arm part{page}\"{var:01}\"{n}x{var:02}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "ひだりうでパーツ{n}「{var:01}」が {var:02}コ なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Lost Left Arm part{page}\"{var:01}\"{n}x{var:02}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "きゃくぶパーツ{n}「{var:01}」が {var:02}コ なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Lost Legs part{page}\"{var:01}\"{n}x{var:02}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "「{var:01}」メダルを{n}てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Obtained the \"{var:01}\" Medal!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "これいじょう もてない！{n}ティンペットをあきらめた！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Can't carry any more!{n}Gave up the Tinpet!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "おとこがたの ティンペットをてにいれた！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Obtained a male Tinpet!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "おんながたの ティンペットをてにいれた！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Obtained a female Tinpet!{end:00}",
+   "status": "done",
    "notes": ""
   }
  ]

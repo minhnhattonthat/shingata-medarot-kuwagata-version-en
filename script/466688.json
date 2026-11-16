@@ -178,7 +178,7 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ぜんたいていし{item}",
-   "en": "Freeze All{item}",
+   "en": "Halt All{item}",
    "status": "done",
    "notes": ""
   },
@@ -190,7 +190,7 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ていしむこう{item}",
-   "en": "Nullify Freeze{item}",
+   "en": "Nullify Halt{item}",
    "status": "done",
    "notes": ""
   },
