@@ -40,7 +40,7 @@ the `adds r0,#n; strh r0,[rX,#0xc]` in each handler):
 |---|---|---|---|
 | F7 n | 1 | 0x0804121C -> 0x08041BFC (+2) | unknown; not seen in the script so far |
 | F8 | 0 | 0x08041290 (+1) | unknown, reads state+0x27 (the alt-width-table flag) |
-| F9 n | 1 | 0x080411D0 -> 0x0804170C, jump table on n (0-4) | insert variable: F9 00 = player name (verified in-game), F9 01 = item/medal/number |
+| F9 n | 1 | 0x080411D0 -> 0x0804170C, jump table on n (0-4) | insert variable (jump table 0x08041748): F9 00 = player name at 0x03001D54 (verified in-game); F9 01-04 = 20-byte piece buffers 0x030005C6 / DA / EE / 0x03000602, filled by strcpy 0x08040A4C / 0x08043294 with item, part, weapon-kind, attack, part-slot names (battle lines like うつこうどう レーザー!) |
 | FA n | 1 | 0x08041208 -> 0x08041B64 (+2) | battle messages (`メダフォースを ためた！ FA 50`): wait n frames (guess) |
 | FB a b c | 3 | 0x08041234 -> 0x08041310 (+4, reads p+1..p+3) | speaker / portrait: `FB 01 00 00` = player side, `FB 00 0B 00` = mother |
 | FC | 0 | 0x0804123A (+1) | new page (wait for A, clear box) |
@@ -87,7 +87,14 @@ the English glyphs (rows y5-y12 of en_glyphs.txt, colour 1 -> 0; g j p q y redra
 recompresses it past 8 MiB and repoints the 29 words. Item-list names: **19+ bytes corrupt VRAM**, 18 are fine.
 `tools/debug/namefields.py SCENE` prints each sprite name field's x range from a savestate.
 
-**Second renderer: tile-map names (verified by disassembly, screens not yet identified).** List fields (items,
+**Resolved (2026-11-17, session 3):** 0x08062ABC and the width sum 0x08062A88 (called from 0x080630B6, 0x08063ADE)
+are link-cable code: their functions sit in the pointer table 0x0850C604-0x0850C61C right after the link ID strings
+"SHINMEDA Ver.KWG" / "SHINMEDA BULLETS" (0x50C5E0). The one link screen the debug tool reaches, `parts_trade`, centres
+the part name with 0x08062A88; a 10-byte stress name `WgjpqyMMk!` (build.py --set 4683F8=...) draws whole, centred and
+in the redrawn English charset (work/qa/wg/trade_z.png), so it shares the names_stage charset and needs no work.
+A name without its FE terminator runs on into the next string. The notes below are the pre-session reading.
+
+**Second renderer: tile-map names (verified by disassembly).** List fields (items,
 medals, parts, Medabot names in menus, shop rows) are not drawn by the VWF. 0x08062ABC writes BG map entries: for each
 byte of an FE string it takes code-1 and splits it by 26 (0x0808BC18 / 0x0808BBA0 = div/mod) into a charset tile
 row/column, so each character is one fixed 8 px cell from a charset already in VRAM (BG base from REG 0x0400000A).

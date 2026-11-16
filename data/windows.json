@@ -1,8 +1,8 @@
 {
   "about": "Width-gate budgets per box variant (pipeline.md §Width gate). px = widest text in pixels (width table 0x4645B8 advances), bytes = hard byte cap, lines = lines per page. status: measured (with shot/evidence) or guess. Tables map script/<table>.json to a variant; a string shown on several screens takes the smallest budget. Rulers: build.py --marker --full turns every FE name into its id + W/M (8 px each) up to the variant's byte cap. Checked by tools/lint.py (in tools/check.py).",
   "vars": {
-    "00": 80, "01": 80, "default": 80,
-    "about": "{var:00} = player name: the warp state shows a 10-cell name buffer (work/qa/scenes/home_1f), so 10 x 8 px until name entry is redrawn; {var:01} = item/medal/number: longest item name budget (guess)"
+    "00": 80, "01": 100, "02": 100, "03": 100, "04": 100, "default": 100,
+    "about": "{var:00} = player name (F9 00 reads 0x03001D54, 0x0804170C): 10-cell buffer, so 10 x 8 px until name entry is redrawn. {var:01}-{var:04} read the 20-byte piece buffers 0x030005C6/DA/EE/0x03000602 (jump table 0x08041748), which the code fills with item, part, weapon-kind, attack and part-slot names (strcpy 0x08040A4C / 0x08043294): the widest piece allowed is the var_piece budget (100 px), so lines are linted with each var at that width"
   },
   "variants": {
     "dialogue": {
@@ -38,11 +38,21 @@
     },
     "name_box_10": {
       "px": 79, "bytes": 10, "status": "measured",
-      "evidence": "10-byte rulers (66-68 px) drawn whole in ~80 px boxes: medal name (robattle_prep), skill type + action (parts_shop_detail blue boxes x=8..88), opponent name and terrain (robattle_intro/robattle_win info box), work/qa/scenes_mfull + work/qa/psd.png, work/qa/mfull_pick2.png; 10 bytes x 8 px = 80 is the cap's own limit"
+      "evidence": "10-byte rulers (66-68 px) drawn whole in ~80 px boxes: medal name (robattle_prep), skill type + action (parts_shop_detail blue boxes x=8..88), opponent name and terrain (robattle_intro/robattle_win info box), leg type (parts_legs_detail, the skill-type box: work/qa/wg/three2.png),work/qa/scenes_mfull + work/qa/psd.png, work/qa/mfull_pick2.png; 10 bytes x 8 px = 80 is the cap's own limit"
     },
-    "names_default": {
-      "px": 79, "bytes": 10, "status": "guess",
-      "notes": "FE tables not yet seen on their own screens: smallest measured field (Medabot name box) until measured"
+    "battle_menu": {
+      "px": 68, "bytes": 10, "status": "measured",
+      "evidence": "robattle_menutour (scenes.txt; work/qa/wg/tc_sheet.png): all 6 entries cycle through the one blue box at the bottom right; 10-byte rulers (68 px advance, ink x=166..231) fill it to its inner edge x=232 (work/qa/wg/bm_z.png)"
+    },
+    "battle_status_box": {
+      "px": 80, "bytes": 10, "status": "measured",
+      "evidence": "robattle_parts (command menu > parts): the teal box under the H/R/L picker shows a 46F0BC entry; the 10-byte ruler (68 px) is centred in an 85 px inner area x=77..161 (work/qa/wg/bp_z.png)",
+      "notes": "the same table is also copied into message pieces (0x08017E5A -> 0x030005C6), which allow more; the box is the smaller budget"
+    },
+    "var_piece": {
+      "px": 100, "bytes": 19, "status": "measured",
+      "evidence": "code: the table's entries are strcpy'd (0x08040A4C / 0x08043294) into the F9 n piece buffers at 0x030005C6 + 20*n (0x0801D8F6, 0x08021582, 0x08025C10 part slots; 0x0801EC4E weapon kinds; 0x08017E8C attack names; 0x0800F60C model codes), so 19 bytes + terminator before the next buffer. On screen: the original's battle line 'うつこうどう レーザー!' (work/qa/wg/atkjp_msg.png, robattle_attack f6320) = action piece + weapon-kind piece in the 208 px battle box; the marker build draws a 10-byte piece ruler inline whole (work/qa/wg/three3.png)",
+      "notes": "px is a share of the 208 px battle line, not a box edge: two pieces (2 x 100) leave no room for the connector, so keep pieces that share a line short (action + weapon kind ~ 70 px each). Lines containing {var:01}-{var:04} are linted with each var at 100 px"
     }
   },
   "tables": {
@@ -54,8 +64,9 @@
     "4702F0": "battle_message", "46706C": "battle_message", "466D78": "battle_message", "46725C": "battle_message",
     "465B8C": "name_box_10", "465C84": "name_box_10", "466374": "name_box_10", "46A744": "name_box_10",
     "46E60C": "name_box_10",
-    "466688": "names_default", "469450": "names_default", "46A508": "names_default", "46A6F0": "names_default",
-    "46EDA0": "names_default", "46F0BC": "names_default", "470B08": "names_default",
+    "46A6F0": "name_box_10",
+    "46EDA0": "battle_menu", "46F0BC": "battle_status_box",
+    "466688": "var_piece", "469450": "var_piece", "46A508": "var_piece", "470B08": "var_piece",
     "*ff": "dialogue"
   }
 }

@@ -38,12 +38,17 @@ Field idle (safe to warp) = mode 1, field substate 2 and 0x03004268 = 1 (set by 
 | 0x03000BE0 | **medals**: 30 records of 0x40 bytes; byte 0 = medal index \| 0x80 when owned \| 0x40 when set in a Medabot, byte 1 = name index (0x080097D8 reads +0 bit 7, names via 0x08465B8C[+1]). The Kuwagata medal is record 0 |
 | 0x03001790 | **Medabots**: 9 records of 8 bytes: status (0 none, 1 new, 3 built), gender, medal (0x1F none), head / right arm / left arm / legs part ids (0x3C+gender = none), slot. Created by 0x080437DC; event 0x1D2 leaves `03 00 00 15 15 15 15 00` |
 | 0x03001D80 | **items**: 40 records of 2 bytes, [0x80 \| id, count] (0x0804381C finds, 0x0804385C adds) |
+| 0x03001D54 | **player name** (F9 00, read up to a byte > F7 by 0x0804170C). The cold boot's A-mash leaves ガンマアアアアアアア; `warp.lua` pokes `PNAME` (default AA5C5C5AFE = "Ikki" in en.tbl codes; `PNAME=''` keeps the game's) |
 | 0x03003DF0 | **parts**: + type*0x78 + id*2, 4 types x 60 parts; byte 0 = count owned (the list shows it mod 100), byte 1 = the "(n)" figure. Poking counts makes them show in the parts list (0x080436B8 reads, 0x080436E0 adds, 0x08043714 removes) |
 Event commands that give things (per-frame table 0x0847B618): `10 id n type` part, `11 n` medal (0x08043300), `13 id n`
 item (0x080438BC), `14 ..` take part, `35 g` new Medabot (gender g). Event 0x1CB pc 2 (`11 00`) gives the first
 medal, event 0x1D2 pc 8 (after its condition `1D 03 07 55`) builds the first Medabot and gives parts 0x15 of all
 4 types. `warp.lua` runs both through the game's own interpreter (scene key `events`, below).
 The old "task slots at 0x03000BE0" guess was wrong: that is the medal list.
+Scene key `wait={..., stopmash=true, press="n btn;.."}` stops the A-mash and presses keys once the wait holds:
+`robattle_menu`, `robattle_parts`, `robattle_menutour` open the robattle command menu (radial; right cycles the
+6 entries in the bottom-right box, A on パーツ opens the H/R/L picker with the teal status box).
+`parts_owned`, `parts_owned_detail`, `parts_legs_detail` poke parts 0-3 of heads (and legs) and open their details.
 
 ## Money, shops, ending (session 5, verified)
 - **Money:** u32 at **0x03001D50** (the Start menu reads it at 0x08002A38 and prints it with 0x0804270C(dst, value),

@@ -1,7 +1,7 @@
 """Map tour: warp to every map id from a field state and take one shot each (area banners, signs, map graphics).
 
 usage: python -X utf8 tools/debug/maptour.py [--from 0 --to 140] [--jobs 2] [--state work/states/home_2f.mss]
-       [--hold 90] [ROM]
+       [--hold 90] [--qa work/qa/maps_marker] [ROM]
 Each map is its own run of warp.lua (MAP=n, X/Y = the first door entry of that map that leads in, else 5,5) from
 the state. Shots: work/qa/maps/m<nnn>/arrived.png (+ f<frame>.png every 30 frames for the banner);
 sheet: work/qa/maps/sheet*.png. Exit 1 if any map run did not log ARRIVED.
@@ -38,7 +38,7 @@ def arrivals(rom, nmaps=141):
 
 
 def run(m, xy, a):
-    out = ROOT / "work" / "qa" / "maps" / f"m{m:03d}"
+    out = Path(a.qa) / f"m{m:03d}"
     x, y = xy
     cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), str(a.rom), "--out", str(out),
            "--state-in", str(Path(a.state).resolve()), "--frames", "900", "--timeout", "300", "--shot-every", "30",
@@ -59,7 +59,10 @@ def main():
     ap.add_argument("--jobs", type=int, default=2)
     ap.add_argument("--hold", type=int, default=90)
     ap.add_argument("--state", default=str(ROOT / "work" / "states" / "home_2f.mss"))
+    ap.add_argument("--qa", default=str(ROOT / "work" / "qa" / "maps"),
+                    help="output dir (another ROM: keep the original's shots apart, e.g. work/qa/maps_marker)")
     a = ap.parse_args()
+    qa = Path(a.qa)
     dest = arrivals(Path(a.rom).read_bytes())
     maps = list(range(a.lo, a.hi + 1))
     with ThreadPoolExecutor(a.jobs) as ex:
@@ -71,13 +74,13 @@ def main():
     shots = []
     for m, ok, _ in res:  # one file per map, named so the sheet labels each tile with its map id
         if ok:
-            dst = ROOT / "work" / "qa" / "maps" / "shots" / f"m{m:03d}.png"
+            dst = qa / "shots" / f"m{m:03d}.png"
             dst.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(ROOT / "work" / "qa" / "maps" / f"m{m:03d}" / "arrived.png", dst)
+            shutil.copyfile(qa / f"m{m:03d}" / "arrived.png", dst)
             shots.append(str(dst))
     if shots:
         subprocess.run([sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "sheet.py"), *shots,
-                        "--out", str(ROOT / "work" / "qa" / "maps" / "sheet.png")])
+                        "--out", str(qa / "sheet.png")])
     print(f"{len(res) - bad}/{len(res)} maps arrived")
     sys.exit(1 if bad else 0)
 

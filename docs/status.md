@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build in progress (phases 1-4 done; menu-name sprites solved, width gate
-  mostly measured, lint in check.py). Last build: 2026-11-17
+- **Phase:** 6. Translate: ready to start (phases 1-5 done; phase 5 finished 2026-11-17: every window variant
+  measured, lint 0 warnings, marker map tour clean). Last build: 2026-11-17
   `build/medarot_kuwagata_en.gba` from `script/`, sha1 573e980d... = the original (identity), smoke ok.
   Marker build `build/marker.gba` (`build.py --marker`; `--full` fills dialogue lines to 208 px): boots, 70/70
   scenes arrive (`work/qa/scenes_marker/shots`, `prove.py build/marker.gba --no-states --qa work/qa/scenes_marker`).
@@ -69,29 +69,32 @@ Updated at the end of every session. Keep it to what the next session needs; his
     labels. The robattle_intro info box squiggle is the name sliding in (same in the original).
     New tools: `tools/unpack_blocks.py OUTDIR` (every LZ77/Le block, for vramfind.py), `tools/debug/namefields.py
     SCENE..` (sprite name fields' x ranges from a savestate).
-- **Next (phase 5, `references/pipeline.md` §Marker, `references/platform-gba.md`):**
-  1. **Remaining renderers:** the BG tile-map renderer 0x08062ABC (code-1 split by 26) is not yet tied to a screen
-     (none of the 18 scenes zoomed this session showed garbage from it; the party_parts suspect was a graphic):
-     look through `work/qa/scenes_m3/sheet*.png` (full 70-scene marker tour, 70/70 arrived) for garbage or kana
-     in name fields; for one, dump VRAM (`emu.py --script $SKILL/scripts/lua/probes/ppudump.lua`), read the BG maps
-     and `vramfind.py DUMP work/blocks --tile 32` (after `tools/unpack_blocks.py work/blocks`), then redraw that
-     charset like `names_stage`. Also the other `width[]` users (literals of 0x084645B8 at 0x0804228C-0x08042704,
-     0x08063198, 0x08063B50). Lists that are empty in the scenes (medal_list, party_parts, parts_list) need a
-     scene with owned medals/parts to show names (poke RAM: medals 0x03000BE0, parts 0x03003DF0).
-  1b. Width gate leftovers (`names_default`, still guess 79 px/10 B): attack names 466688 (battle-message piece;
-     its combined line with the message must fit 208), model codes 469450, weapon kinds 46A508, leg types 46A6F0,
-     battle menu 46EDA0, battle status 46F0BC, 470B08. Find each on a screen in `build/marker_full.gba` (rulers),
-     e.g. party_parts / parts_list with owned parts (poke 0x03003DF0), robattle command phase (`robattle`), and
-     record it. Then lint warnings for guessed variants go away. Run **one emulator job at a time**
-     (`prove.py --jobs 1 --only a,b`): other projects' tours share this machine and a 2-job full tour was killed
-     for low memory this session.
-  2. Japanese left: the parts-shop options (パーツを かう / うる / もどる: `findtext.py` finds "パーツを かう" only
-     inside dialogue at 0x4C0C45/0x50705D, so the menu is probably graphics: confirm by a shot), name-entry grid,
-     money "円" glyph, menu tabs (graphics G-rows, phase 8). `jp_left.py --gba-ptrs` is all noise (5529 runs of
-     random bytes outside the text region): the textmap coverage proof is the real check.
-  3. Debug tool: the warp leaves the player-name buffer uninitialised (shows ガンマアアアアアアア in home_1f, in the
-     original too): poke a name in `warp.lua` so dialogue QA shows a realistic {var:00}.
-  4. Map tour (`maptour.py --jobs 1`) on the marker build for signs / NPC text ids; then phase 5 is done.
+  **Phase 5 finished (2026-11-17, session 3):**
+    - Width gate complete: `names_default` is gone. 46EDA0 = `battle_menu` (68 px/10 B, the bottom-right box of
+      the robattle command menu), 46F0BC = `battle_status_box` (80/10, the teal box in the parts picker), 46A6F0 leg
+      types = `name_box_10` (parts_legs_detail). 466688 attack names, 469450 model codes, 46A508 weapon kinds and
+      470B08 part slots = `var_piece` (19 bytes, 100 px): code strcpy's them into the F9 01-04 piece buffers
+      (0x030005C6 + 20*n) for battle lines such as うつこうどう レーザー!. `{var:01}`-`{var:04}` are linted at 100 px.
+      `lint.py`: 0 warnings (no guessed variant left). Evidence shots in `work/qa/wg/`.
+    - The tile-map renderer 0x08062ABC is link-cable code; the parts-trade name draws in the English charset,
+      centred, 10 bytes whole (docs/re/text.md §Font, "Resolved").
+    - Marker map tour (`maptour.py build/marker.gba --jobs 1 --qa work/qa/maps_marker`, new `--qa`): 141/141 arrive;
+      vs the original (`shotdiff.py work/qa/maps/shots work/qa/maps_marker/shots`) only maps 1, 17, 21 differ by
+      text (arrival dialogue shows ids), the rest are animation timing. No Japanese text left on any map.
+    - `warp.lua`: player name poked at 0x03001D54 (`PNAME`, default "Ikki"), so {var:00} looks real in QA; scene
+      key `wait={..., stopmash=true, press=".."}`; new scenes robattle_menu, robattle_parts, robattle_detail,
+      robattle_menutour, parts_owned, parts_owned_detail, parts_legs_detail (not yet in `work/states/`: run
+      `prove.py --jobs 1 --only ...` when phase 8 needs their states).
+- **Next (phase 6, `references/translation.md`):**
+  1. Fill `glossary.md` (characters from 46E60C, Medabot names 468308, medals 465B8C, parts 468A00, places,
+     skill types / actions) using the official Medabots English names (D2), then dispatch translator agents in
+     batches by table (`script/<table>.json`, field `en`), budgets from `data/windows.json` and `tools/lint.py`.
+     Orca workers can't nest agents: translate in this session (or `codex exec`) and do the reviewer pass as a
+     fresh read-only pass. Battle pieces sharing a line (action + weapon kind) keep to ~70 px each.
+  2. Japanese left, all graphics (phase 8): parts-shop options (パーツを かう / うる / もどる), name-entry grid,
+     money "円" glyph, menu tabs and headers (あたま etc. in the parts list), bottom hint lines, column headers.
+     `jp_left.py --gba-ptrs` is noise here; the textmap coverage proof is the real check.
+  Run **one emulator job at a time** (`--jobs 1`): other projects share this machine's memory.
 - **Debug-tool gaps (not blocking; grow the list when phase 8 needs them):**
   1. Story robattles start from NPC talk (dispatcher near 0x08055B44, action 0x20 -> scene switch case 0x20); who
      writes the team id +0x942 per NPC is not traced. Scenes set the team id directly, which gives the same screens.

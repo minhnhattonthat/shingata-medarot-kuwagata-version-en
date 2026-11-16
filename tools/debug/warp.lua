@@ -6,6 +6,7 @@
 --   RAWMODE=n [RAWSUB= RAWSTEP= RAWEXTRA={[addr]=byte}]   ad-hoc main-mode switch
 --   EVENT=n [EVPC=pc]  start story event n (0..687, work/re/events.txt) on the start map, A mashed; HOLD= frames
 --   HOLD=n           frames to keep running after arrival before logging ARRIVED (default 120)
+--   PNAME='hex'      player name bytes poked at 0x03001D54 on arrival (default AA5C5C5AFE = "Ikki"; '' = keep)
 --   NOENC=1          no random robattles; AFTER_MASH=n press A every n frames after arrival
 --   STOP=1 [SAVE='abs.mss']   end the run at ARRIVED (after saving a state): tools/debug/prove.py
 -- Scene key events={{ev, pc}, ...} runs those field events first (WARP.event), e.g. the story's first medal
@@ -93,6 +94,11 @@ end
 
 -- Writes applied every frame from arrival on (god mode style pins): spec.pin = {[addr]=byte}
 local function apply(s)
+  -- Player name (F9 00 reads 0x03001D54 up to a byte > F7, 0x0804170C): the cold boot's A-mash through name
+  -- entry leaves ガンマアアアアアアア. Default "Ikki" in en.tbl codes; PNAME='hex' overrides, PNAME='' keeps it.
+  local pname = PNAME or "AA5C5C5AFE"
+  local i = 0
+  for h in pname:gmatch("%x%x") do wr(0x03001D54 + i, tonumber(h, 16)); i = i + 1 end
   for a, v in pairs(s.poke or {}) do -- poke={[addr]=byte or "hex bytes"}
     if type(v) == "string" then
       local i = 0
@@ -143,7 +149,12 @@ L.on_frame(function(f)
     -- spec.wait = {mode=, sub=, step=}: arrival counts from the first frame those hold (step = at least)
     local w = spec.wait
     if (not w.mode or rd32(MODE) == w.mode) and (not w.sub or rd32(SUBM) == w.sub)
-      and (not w.step or rd32(STEP) >= w.step) then WARP.waited = true; at = f end
+      and (not w.step or rd32(STEP) >= w.step) then
+      WARP.waited = true; at = f
+      if w.stopmash then MASH = 0 end -- wait={..., stopmash=true}: leave the next menu open (robattle commands)
+      if w.press then for step in w.press:gmatch("[^;]+") do -- wait={..., press="n btn;.."}: keys once waited
+        local n, b = step:match("^%s*(%d+)%s+(%S+)%s*$"); L.press(b, tonumber(n)) end end
+    end
   elseif phase == "arrive" and not WARP.pending and L.route_done() and f - at >= (spec.hold or HOLD or 120) then
     -- spec.expect = {[addr]=byte, ...} (and expect_mode/expect_sub): the RAM that proves the scene; a mismatch
     -- logs NOTARRIVED instead, so prove.py fails rather than saving a state of the wrong screen.
