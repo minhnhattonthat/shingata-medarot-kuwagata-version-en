@@ -2,7 +2,28 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics redraw pipeline + pilot done; rest of `docs/graphics-todo.md` next).
+- **Phase:** 8. QA in the emulator: in progress (graphics redraws: 9 screens done in session 4; rest of `docs/graphics-todo.md` next).
+- **Phase 8 session 4 (2026-11-17): graphics redraws, batch 1.**
+  - **Done, each verified English in a cold-boot `prove.py --no-states` shot on the English build** (`work/qa/gfx2..gfx5`):
+    town_map, sound_test, save (labels; not yes/no), parts_trade, save_corrupt (message), items, parts_shop menu,
+    type picker, list/sell/confirm headers + hints + column headers. 40 labels in `gfx/labels.json`, `gfx.py check` 0.
+  - **`tools/screenfind.py SCENE`**: dumps the original's VRAM from `work/states/SCENE.mss` (once, `work/gfx/s_SCENE/`),
+    prints per BG the tile blocks (tile0) and map blocks (`+10`, 30 or 32 wide), sprites; renders `bgN.png` (zoom 2,
+    8-px grid) and copies the palette for `gfx.py preview`. `--grid BG X Y W H` prints colour indices (read the
+    label's fill/outline rows from it). `--warp --rom build/...` = the same on a cold-boot warp of a build.
+    Maps whose entries are relative (tiles loaded at a fixed base, e.g. shop lists at 355) don't match: search a
+    row with the base subtracted (done by hand for lz_735630).
+  - `gfx.py`: maps with a 16-byte header use its width (30-wide 240-px maps); fonts: `font/en_label_6.txt` (6-px caps
+    + `×`, style `label6`: fill 1/2, outline 3), the dialogue font `en_glyphs` (style `msg_white`: fill 15, half 8),
+    style `header_yellow` (the 16-px screen headers: fill 2/3/4, outline 15, halo 1; same indices on every header).
+    **`fixed_tiles`** {block: [every map using it]}: new tiles go into tiles only the Japanese labels used, the block
+    keeps its size. Needed where the game puts tiles with hard-coded numbers right after the block (items page
+    digits "1/1" broke when tiles were appended). Elsewhere appending was verified safe (le_7239FC follows the
+    decompressed size). Check each screen's digits/cursors in the shot after a redraw.
+  - **Next:** yes/no window (findings in graphics-todo.md, save + shop confirm), then options (label6 now exists),
+    medawatch / medal_list / medarot_list / parts_list / field_help / parts detail (char base 0, Le blocks: block
+    mode like field_menu; screenfind finds no LZ maps there, use vramblocks/declog), name_entry, robattle_intro
+    (le_570D84 at BG1 tile 512), minigames, title つづきから. Then pair sheets + verdicts for all redrawn scenes.
 - **Phase 8 session 3 (2026-11-17): graphics pipeline + pilot.**
   - **`tools/gfx.py`** + **`gfx/labels.json`**: the build (`rombuild.build` -> `gfx_stage`, after `names_stage`)
     redraws labels, recompresses past 8 MiB and repoints every literal-pool word of the block (`ptrs` /

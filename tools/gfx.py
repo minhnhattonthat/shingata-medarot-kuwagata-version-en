@@ -216,38 +216,84 @@ def screen_blocks(rom, spec):
             blocks[off] = [codec, raw, bytearray(raw)]
         return blocks[off][2], at
 
+    groups = {}  # (tiles, map, tile0) -> labels: each map is rendered once from the original tiles, then painted
     for label in spec["labels"]:
-        if "map" not in label:
-            continue
-        tiles, _ = get(label["tiles"])
-        mp, at = get(label["map"])
-        tile0 = label.get("tile0", 0)
+        if "map" in label:
+            bx, by, bw, bh = label["box"]
+            if bx % 8 or by % 8 or bw % 8 or bh % 8:
+                raise ValueError(f"{label['id']}: a screen label's box must be on the 8-px cell grid")
+            groups.setdefault((label["tiles"], label["map"], label.get("tile0", 0)), []).append(label)
+    grids = {}
+    for (tsrc, msrc, tile0), labels in groups.items():
+        tiles, _ = get(tsrc)
+        mp, at = get(msrc)
         g = render_screen(tiles, mp, at, tile0)
-        paint(g, label, spec["styles"])
+        for label in labels:
+            paint(g, label, spec["styles"])
+        grids[(tsrc, msrc, tile0)] = g
+    free = fixed_free(rom, spec, groups, get)
+    for (tsrc, msrc, tile0), labels in groups.items():
+        tiles, _ = get(tsrc)
+        mp, at = get(msrc)
+        g = grids[(tsrc, msrc, tile0)]
+        pool = free.get(_src(tsrc)[1])
         have = {}
         for t in range(len(tiles) // 32 - 1, -1, -1):
-            have[bytes(tiles[t * 32:t * 32 + 32])] = t
-        bx, by, bw, bh = label["box"]
-        if bx % 8 or by % 8 or bw % 8 or bh % 8:
-            raise ValueError(f"{label['id']}: a screen label's box must be on the 8-px cell grid")
-        for cy in range(by // 8, (by + bh) // 8):
-            for cx in range(bx // 8, (bx + bw) // 8):
-                cell = [g[cy * 8 + y][cx * 8:cx * 8 + 8] for y in range(8)]
-                tb = from_grid(cell, 1, 1)
-                p = at + 2 * (cy * map_width(mp, at) + cx)
-                e = struct.unpack_from("<H", mp, p)[0]
-                t = have.get(tb)
-                if t is None:
-                    t = len(tiles) // 32
-                    tiles += tb
-                    have[tb] = t
-                if tile0 + t > 1023:
-                    raise ValueError(f"{label['id']}: tile block full (tile {tile0 + t})")
-                new_e = (e & 0xF000) | (tile0 + t)
-                if (e & 0x3FF) - tile0 == t and not e & 0xC00:
-                    new_e = e
-                struct.pack_into("<H", mp, p, new_e)
+            if pool is None or t not in pool["all"]:
+                have[bytes(tiles[t * 32:t * 32 + 32])] = t
+        have.update(pool["made"] if pool else {})
+        for label in labels:
+            bx, by, bw, bh = label["box"]
+            for cy in range(by // 8, (by + bh) // 8):
+                for cx in range(bx // 8, (bx + bw) // 8):
+                    cell = [g[cy * 8 + y][cx * 8:cx * 8 + 8] for y in range(8)]
+                    tb = from_grid(cell, 1, 1)
+                    p = at + 2 * (cy * map_width(mp, at) + cx)
+                    e = struct.unpack_from("<H", mp, p)[0]
+                    t = have.get(tb)
+                    if t is None:
+                        if pool is not None:  # fixed-size block: overwrite a tile only the Japanese labels used
+                            if not pool["left"]:
+                                raise ValueError(f"{label['id']}: no freed tile left in fixed block {tsrc}")
+                            t = pool["left"].pop(0)
+                            tiles[t * 32:t * 32 + 32] = tb
+                            pool["made"][tb] = t
+                        else:
+                            t = len(tiles) // 32
+                            tiles += tb
+                        have[tb] = t
+                    if tile0 + t > 1023:
+                        raise ValueError(f"{label['id']}: tile block full (tile {tile0 + t})")
+                    new_e = (e & 0xF000) | (tile0 + t)
+                    if (e & 0x3FF) - tile0 == t and not e & 0xC00:
+                        new_e = e
+                    struct.pack_into("<H", mp, p, new_e)
     return blocks
+
+
+def fixed_free(rom, spec, groups, get):
+    """Tile pools of the blocks in spec["fixed_tiles"] ({block: [every map source that uses it]}): blocks whose size
+    must not change (the game puts tiles with hard-coded numbers right after them). A tile is free when every
+    reference to it, in all those maps, lies inside a label box. {block offset: {"all", "left", "made"}}"""
+    out = {}
+    for blk, maps in spec.get("fixed_tiles", {}).items():
+        boff = int(blk, 16)
+        inside, outside = set(), set()
+        for msrc in maps:
+            codec, moff, at = _src(msrc)
+            mp, _ = CODECS[codec].decompress(rom, moff)
+            w = map_width(mp, at)
+            rows = min(32, (len(mp) - at) // (2 * w))
+            boxes = [lb["box"] for (ts, ms, _), lbs in groups.items() if ms == msrc and _src(ts)[1] == boff
+                     for lb in lbs]
+            for cy in range(rows):
+                for cx in range(w):
+                    t = struct.unpack_from("<H", mp, at + 2 * (cy * w + cx))[0] & 1023
+                    hit = any(bx <= cx * 8 < bx + bw and by <= cy * 8 < by + bh for bx, by, bw, bh in boxes)
+                    (inside if hit else outside).add(t)
+        cand = sorted(inside - outside - {0})
+        out[boff] = {"all": set(cand), "left": list(cand), "made": {}}
+    return out
 
 
 def screen_problems(rom, spec, blocks):
@@ -267,6 +313,19 @@ def screen_problems(rom, spec, blocks):
                and not any(bx <= x < bx + bw and by <= y < by + bh for bx, by, bw, bh in rects)]
         if bad:
             out.append(f"{labels[0]['id']}..: {len(bad)} pixels changed outside the boxes, first {bad[0]}")
+    for blk, maps in spec.get("fixed_tiles", {}).items():  # maps with no label of their own must render unchanged
+        toff = int(blk, 16)
+        if toff not in blocks:
+            continue
+        for msrc in maps:
+            if any(m == msrc for _, m, _ in boxes):
+                continue
+            codec, moff, at = _src(msrc)
+            mp, _ = CODECS[codec].decompress(rom, moff)
+            if render_screen(blocks[toff][1], mp, at, 0) != render_screen(blocks[toff][2], mp, at, 0):
+                out.append(f"{msrc}: changed by the labels drawn over fixed tile block {blk}")
+        if len(blocks[toff][2]) != len(blocks[toff][1]):
+            out.append(f"fixed tile block {blk} changed size")
     return out
 
 
