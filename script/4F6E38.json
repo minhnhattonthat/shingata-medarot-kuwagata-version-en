@@ -412,8 +412,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{face:010000}はこのなかは からっぽだ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}The box is empty.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -928,8 +928,8 @@
    "kind": "ff",
    "bytes": 10,
    "jp": "{face:010000}ここは？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Where am I?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

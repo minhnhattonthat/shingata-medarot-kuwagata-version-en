@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「てんとう」によって こうどうを わすれた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Knockdown made it forget its action!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "こうどうパーツは こわれていた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The action part was broken!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "こうどうパーツは 「しようふのう」で{n}つかえなかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Disable prevented use of the action part!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "そうびパーツです！ しようできません！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "This is an equipment part! It cannot be used!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "あたまパーツの しようかいすうが なかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The head part had no uses left!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "そせいさせる メダロットが いなかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "There was no Medabot to revive!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "ねらったメダロットは きのうていし していた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The targeted Medabot had shut down!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "ねらったパーツは ふっかつさせることが{n}できない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The targeted part cannot be restored!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "ねらったパーツは こわれていた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The targeted part was broken!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "トラップを かいじょした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Dispel removed the trap!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "「かくとうトラップ」に かかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Caught in a Melee Trap!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "「しゃげきトラップ」に かかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Caught in a Shooting Trap!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "「こうげきクリア」に かかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Caught by Attack Clear!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "「こうげきトラップ」に かかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Caught in an Attack Trap!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{var:01}パーツに {var:02}ダメージ！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The {var:01} part took {var:02} damage!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{var:01}パーツが こわれた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The {var:01} part broke!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{var:01}！ きのうていし！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{var:01}! Shut down!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "「こうげきクリア」で こうげきが{n}うちけされた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Attack Clear canceled the attack!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{var:01}が えんごに はいった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{var:01} moved in to cover!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "{var:01}こうどう {var:02}！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{var:01} action: {var:02}!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "「サクリファイス」の はんどうで {var:01}パーツが{n}こわれた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Sacrifice's recoil broke the {var:01} part!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "「デストロイ」は うしろむきの あいてにしか{n}こうかがない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Destroy only works on foes facing away!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "こうどうに しっぱいした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The action failed!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "あいての こうげきから みかたをえんごする！ {fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Covering allies from enemy attacks!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "チームぜんたいの 「さくてき」アップ！{n}こうげきが あたりやすくなった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The team's Scout went up! Attacks are more likely to hit!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "「いんぺい」アップ！{n}こうげきを よけやすくなった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Stealth went up! Attacks are easier to dodge!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "「かくとうトラップ」を セット！{n}「なぐる」・「がむしゃら」こうげきに ダメージ！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Melee Trap set! Damages Strike and Berserk attackers!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "「しゃげきトラップ」を セット！{n}「うつ」・「ねらいうち」こうげきに ダメージ！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Shooting Trap set! Damages Shoot and Snipe attackers!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "「こうげきクリア」を セット！{n}こうげきを むこうにする！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Attack Clear set! Nullify incoming attacks!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "「クロスこうげき」を セット！{n}「クロスファイア」で こうげき！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Cross Attack set! Attack with Crossfire!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "「クロスこうげき」が セットされていない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Cross Attack has not been set!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "マイナスしょうじょうを クリア！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Negative status effects cleared!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "かいじょする トラップがなかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "There was no trap to Dispel!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "トラップを かいじょした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Dispel removed the trap!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "ねらったパーツは ダメージをうけていない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The targeted part had no damage!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "ねらったパーツは こわれていない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The targeted part was not broken!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "{var:01}は そせいした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{var:01} was revived!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "「けいぞくかいふく」を セット！{n}いどうちゅうに ダメージかいふく！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Sustained Recover set! Repairs damage while moving!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "「はんげき」のたいせいを とった！{n}つよいこうげきを はじきかえす！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Ready to Counter! Reflects strong attacks!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "きゅうそくチャージ！{n}いっしゅんで チャージかんりょう！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Rapid Charge! Charging completed instantly!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "スピードアップ！ いどうスピードを はやくした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Speed up! Movement speed increased!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "あいてのスピードを きゅうしゅうした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Absorbed the foe's speed!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "てんとうした！ こうどうをわすれた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Knockdown! Forgot its action!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{var:01}は {var:02}に へんかした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{var:01} changed into {var:02}!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "「しようふのう」の しょうじょう！{n}{var:01}パーツが つかえない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Disable!{n}{var:01} part Unusable!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "「かいひふのう」の しょうじょう！{n}かいひすることが できない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Disable Evasion inflicted! Cannot dodge!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "「ぼうぎょふのう」の しょうじょう！{n}ぼうぎょすることが できない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Disable Defense inflicted! Cannot defend!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "「こんらん」のしょうじょう！{n}こうげきあいてが さだまらない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Confusion inflicted!{n}Cannot pick an attack target!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "うばいとる あたまパーツの かいすうが なかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "There were no head part uses to steal!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -646,8 +646,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "あたまパーツの かいすうを {var:01}うばった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Stole head part uses: {var:01}!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -658,8 +658,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "メダフォースの はつどうに しっぱい！{n}まだ そのメダフォースは おぼえていない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Medaforce failed to activate!{page}That Medaforce is Not Known yet!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -670,8 +670,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "メダフォースの はつどうに しっぱい！{n}メダフォースりょうが たりなかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Medaforce failed to activate!{n}Not enough Medaforce!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -682,8 +682,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "メダフォースはつどう！ {var:01}！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Medaforce activated! {var:01}!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,8 +694,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "しょうじょうクリアパーツに よって ぼうがいされた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Blocked by a status-clearing part!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -706,8 +706,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "チームぜんたいに ダメージ！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team took damage!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -718,8 +718,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "チームぜんたいの ダメージをかいふく！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Repaired the whole team's damage!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -730,8 +730,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "チームぜんたいの パーツをふっかつ！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Restored the whole team's parts!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -742,8 +742,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "チームぜんたいの きゃくぶ「すいしん」が あがった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team's Legs gained Propulsion!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -754,8 +754,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "チームぜんたいの きゃくぶ「きどう」が あがった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team's Legs gained Mobility!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -766,8 +766,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "チームぜんたいの きゃくぶ「ぼうぎょ」が あがった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team's Legs gained Defense!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -778,8 +778,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "チームぜんたいの きゃくぶ「きんせつ」が あがった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team's Legs gained Close Range!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -790,8 +790,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "チームぜんたいの きゃくぶ「えんかく」が あがった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team's Legs gained Long Range!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -802,8 +802,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "チームぜんたいが てんとう！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Knockdown hit the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -814,8 +814,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "うしろむきの すべてのメダロットに はかいこうか！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Destroy affects all Medabots facing away!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -826,8 +826,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "こうげきの いりょくが あがった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Attack power went up!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -838,8 +838,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "ぼうぎょりょくが あがった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Defense went up!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -850,8 +850,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "チームぜんたいに 「へんどう」のしょうじょう！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Shift inflicted on the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -862,8 +862,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "チームぜんたいに 「そくばく」のしょうじょう！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Bind inflicted on the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -874,8 +874,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "チームぜんたいに 「けいぞく」のしょうじょう！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Sustained inflicted on the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -886,8 +886,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "チームぜんたいに 「ていし」のしょうじょう！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Halt inflicted on the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -898,8 +898,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "すべてのパーツを「こうがくか」！{n}こうげきいりょく 2ばい！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Beam Shift on all parts! Attack power doubled!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -910,8 +910,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "すべてのパーツを「かやくか」！{n}ぜったいヒットと かんつうこうか！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Explosive Shift on all parts! Attacks always hit and pierce!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -922,8 +922,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "すべてのパーツを「じゅうりょくか」！{n}こうげきのせいこうちが 2ばい！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Gravity Shift on all parts! Attack success doubled!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -934,8 +934,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "「ひこう」メダロットに マイナスしょうじょうセット！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Negative status effects set on Flight Medabots!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -946,8 +946,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "「せんすい」メダロットに マイナスしょうじょうセット！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Negative status effects set on Aquatic Medabots!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -958,8 +958,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "このきたいで えんごにはいると ときどき はんげきする！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "This unit sometimes uses Counter when covering allies!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -970,8 +970,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "「こうげきトラップ」を セット！{n}すべてのこうげきに ダメージ！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Attack Trap set! Damages all attackers!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -982,8 +982,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "せっちいりょくアップ！{n}せっちこうどうが つよくなった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Trap Power Up! Set actions grew stronger!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -994,8 +994,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "チームぜんたいに 「けいぞくかいふく」セット！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Sustained Recover set on the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1006,8 +1006,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "チームぜんたいの マイナスしょうじょうを かいじょ！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Dispel cleared the whole team's negative status effects!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1018,8 +1018,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "チームぜんたいの あたまパーツの しようかいすうを{n}アップした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Increased the whole team's head part uses!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1030,8 +1030,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "チームぜんたいが 「へんどう」しょうじょうに{n}かからなくなった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team is now immune to Shift!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1042,8 +1042,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "チームぜんたいが 「そくばく」しょうじょうに{n}かからなくなった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team is now immune to Bind!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1054,8 +1054,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "チームぜんたいが 「けいぞく」しょうじょうに{n}かからなくなった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team is now immune to Sustained!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1066,8 +1066,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "チームぜんたいが 「ていし」しょうじょうに{n}かからなくなった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team is now immune to Halt!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1078,8 +1078,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "チームぜんたいを スピードアップ！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Sped up the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1090,8 +1090,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "チームぜんたいを いっしゅんで じゅんびかんりょう！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The whole team finished preparing instantly!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1102,8 +1102,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "あいての「さくてき」を さげ{n}みかたの「さくてき」を あげた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Lowered the enemy's Scout and raised allies' Scout!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1114,8 +1114,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "あいての「いんぺい」を さげ{n}みかたの「いんぺい」を あげた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Lowered the enemy's Stealth and raised allies' Stealth!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1126,8 +1126,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "チームぜんたいに 「こんらん」の しょうじょうを{n}セット！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Confusion inflicted on the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1138,8 +1138,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "チームぜんたいに 「しようふのう」の しょうじょうを{n}セット！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Disable inflicted on the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1150,8 +1150,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "チームぜんたいに 「かいひふのう」の しょうじょうを{n}セット！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Disable Evasion inflicted on the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1162,8 +1162,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "チームぜんたいに 「ぼうぎょふのう」の しょうじょうを{n}セット！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Disable Defense inflicted on the whole team!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1174,8 +1174,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "「こうがく」こうげきを きゅうしゅうする！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Absorbs Beam attacks!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1186,8 +1186,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "「かやく」こうげきを きゅうしゅうする！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Absorbs Explosive attacks!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1198,8 +1198,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「じゅうりょく」こうげきを きゅしゅうする！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Absorbs Gravity attacks!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1210,8 +1210,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "トラップむこう！ トラップに かからなくなった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify Trap! Now immune to traps!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1222,8 +1222,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "チームぜんたいを 「ほうねつ」じょうたいにした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Sent the whole team into cooldown!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1234,8 +1234,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "「はんげき」・「えんご」のたいせいを{n}とっているパーツを はかい！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Destroy parts poised to Counter or cover!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1246,8 +1246,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "うばいとった メダフォースで ダメージ！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Dealt damage with stolen Medaforce!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1258,8 +1258,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "メダフォースの たまるりょうが ふえた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Increased the amount of Medaforce gained!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1270,8 +1270,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "チームぜんたいの きゃくぶパーツを はかい！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Destroy the whole team's Legs parts!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1282,8 +1282,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「はんげき」・「えんご」に かからなくなった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Now bypasses Counter and cover!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1294,8 +1294,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{var:01}パーツ 「{var:02}」を てにいれた！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Got the {var:01} part \"{var:02}\"!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1306,8 +1306,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{var:01}パーツ 「{var:02}」を うばわれた！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "The {var:01} part \"{var:02}\" was stolen!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1318,8 +1318,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{var:01}の けいけんちを てにいれた！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Gained {var:01} experience!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1330,8 +1330,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:000003}ロボトルに まけてしまった！{end:03}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000003}I lost the Robattle!{end:03}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1342,8 +1342,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:000008}あっ！ くまれたメダロットが 1たいもない！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000008}Oh! I don't have a single assembled Medabot!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1354,8 +1354,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "かいじょする しょうじょうが なかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "There was no status effect to Dispel!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1366,8 +1366,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "トラップを きょうかした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Strengthened the trap!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1378,8 +1378,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "メダフォースせいぎょ！{n}メダフォースが つかえなくなった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Medaforce Control! Medaforce can no longer be used!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1390,8 +1390,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "メダフォースせいぎょ！{n}メダフォースが つかえるようになった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Medaforce Control! Medaforce can now be used!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1402,8 +1402,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "きゅうしゅうする メダフォースが なかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "There was no Medaforce to absorb!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1414,8 +1414,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "メダフォースを きゅうしゅうした！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Absorbed Medaforce!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1426,8 +1426,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "ロボロボメダルを てにいれた！{end:03}",
-   "en": "",
-   "status": "new",
+   "en": "Got a Rubberobo Medal!{end:03}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1438,8 +1438,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{var:01}メダルの レベルが あがった！{end:03}",
-   "en": "",
-   "status": "new",
+   "en": "The {var:01} Medal leveled up!{end:03}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1450,8 +1450,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{var:01}メダルは メダフォース「{var:02}」を おぼえた！{end:03}",
-   "en": "",
-   "status": "new",
+   "en": "The {var:01} Medal learned Medaforce \"{var:02}\"!{end:03}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1462,8 +1462,8 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "メダフォースの はつどうに しっぱい！{n}メダフォースせいぎょに よって つかえなかった！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Medaforce failed to activate!{page}Medaforce Control prevented its use!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1474,8 +1474,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ122{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 122{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1486,8 +1486,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ123{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 123{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1498,8 +1498,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ124{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 124{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1510,8 +1510,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ125{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 125{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1522,8 +1522,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ126{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 126{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1534,8 +1534,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ127{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 127{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1546,8 +1546,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ128{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 128{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1558,8 +1558,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ129{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 129{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1570,8 +1570,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ130{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 130{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1582,8 +1582,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ131{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 131{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1594,8 +1594,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ132{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 132{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1606,8 +1606,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ133{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 133{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1618,8 +1618,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ134{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 134{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1630,8 +1630,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ135{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 135{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1642,8 +1642,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ136{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 136{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1654,8 +1654,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ137{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 137{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1666,8 +1666,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ138{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 138{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1678,8 +1678,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ139{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 139{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1690,8 +1690,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ140{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 140{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1702,8 +1702,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ141{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 141{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1714,8 +1714,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ142{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 142{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1726,8 +1726,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ143{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 143{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1738,8 +1738,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ144{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 144{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1750,8 +1750,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ145{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 145{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1762,8 +1762,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ146{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 146{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1774,8 +1774,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ147{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 147{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1786,8 +1786,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ148{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 148{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1798,8 +1798,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ149{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 149{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1810,8 +1810,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ150{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 150{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1822,8 +1822,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ151{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 151{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1834,8 +1834,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ152{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 152{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1846,8 +1846,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ153{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 153{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1858,8 +1858,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ154{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 154{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1870,8 +1870,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ155{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 155{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1882,8 +1882,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ156{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 156{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1894,8 +1894,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ157{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 157{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1906,8 +1906,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ158{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 158{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1918,8 +1918,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ159{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 159{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1930,8 +1930,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ160{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 160{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1942,8 +1942,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ161{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 161{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1954,8 +1954,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ162{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 162{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1966,8 +1966,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ163{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 163{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1978,8 +1978,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ164{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 164{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1990,8 +1990,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ165{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 165{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2002,8 +2002,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ166{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 166{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2014,8 +2014,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ167{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 167{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2026,8 +2026,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ168{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 168{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2038,8 +2038,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ169{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 169{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2050,8 +2050,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ170{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 170{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2062,8 +2062,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ171{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 171{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2074,8 +2074,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ172{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 172{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2086,8 +2086,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ173{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 173{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2098,8 +2098,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ174{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 174{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2110,8 +2110,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "メッセージ175{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Message 175{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

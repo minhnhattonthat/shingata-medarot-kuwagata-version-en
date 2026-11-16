@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 10,
    "jp": "{face:010008}わあっ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010008}Waaah!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

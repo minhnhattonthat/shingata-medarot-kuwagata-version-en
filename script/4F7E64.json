@@ -431,8 +431,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:002400}アリカったら ちっとも じっとして ないんだから{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002400}That Erika never sits still for a moment!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

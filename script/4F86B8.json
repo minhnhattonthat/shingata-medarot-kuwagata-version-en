@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "これいじょう もてない！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Can't carry any more!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{var:00}は{n}「{var:01}」を もってない{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{var:00} doesn't have{n}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 13,
    "jp": "「{var:01}」が なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Lost \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "このパーツは{n}これいじょう もてません{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "You can't carry any more of this part.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "あたまパーツ{n}「{var:01}」を てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Got the head part{n}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "みぎうでパーツ{n}「{var:01}」を てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Got the right arm part{n}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "ひだりうでパーツ{n}「{var:01}」を てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Got the left arm part{n}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "きゃくぶパーツ{n}「{var:01}」を てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Got the Legs part{n}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{var:00}は あたまパーツ{n}「{var:01}」を もってない{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{var:00} doesn't have the head part{page}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{var:00}は みぎうでパーツ{n}「{var:01}」を もってない{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{var:00} doesn't have the right arm part{page}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{var:00}は ひだりうでパーツ{n}「{var:01}」を もってない{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{var:00} doesn't have the left arm part{page}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{var:00}は きゃくぶパーツ{n}「{var:01}」を もってない{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{var:00} doesn't have the Legs part{page}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "あたまパーツ{n}「{var:01}」が なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Lost the head part{n}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "みぎうでパーツ{n}「{var:01}」が なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Lost the right arm part{n}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "ひだりうでパーツ{n}「{var:01}」が なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Lost the left arm part{n}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "きゃくぶパーツ{n}「{var:01}」が なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Lost the Legs part{n}\"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{var:00}は{n}{var:01}円を てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{var:00} got{n}{var:01} yen.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "ff",
    "bytes": 11,
    "jp": "{var:01}円 なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{var:01} yen lost.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "このメダルは すでに もっている{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "You already have this Medal.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

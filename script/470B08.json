@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "あたま{item}",
-   "en": "",
-   "status": "new",
+   "en": "Head{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "みぎうで{item}",
-   "en": "",
-   "status": "new",
+   "en": "Right Arm{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ひだりうで{item}",
-   "en": "",
-   "status": "new",
+   "en": "Left Arm{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "きゃくぶ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Legs{item}",
+   "status": "done",
    "notes": ""
   }
  ]

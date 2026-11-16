@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 11,
    "jp": "メダロットってなに？{item}",
-   "en": "",
-   "status": "new",
+   "en": "What's a Medabot?{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 15,
    "jp": "パーツの「せいこう」について{item}",
-   "en": "",
-   "status": "new",
+   "en": "Part Success{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 12,
    "jp": "ロボロボメダルについて{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rubberobo Medals{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 16,
    "jp": "メダルとパーツの「あいしょう」{item}",
-   "en": "",
-   "status": "new",
+   "en": "MedalPart Affinity{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 18,
    "jp": "「きんせつ」と「えんかく」について{item}",
-   "en": "",
-   "status": "new",
+   "en": "Melee & Ranged{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 17,
    "jp": "メダルの「じゅくれんど」について{item}",
-   "en": "",
-   "status": "new",
+   "en": "Medal Mastery{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 18,
    "jp": "きゃくぶパーツと「ちけい」について{item}",
-   "en": "",
-   "status": "new",
+   "en": "Legs Parts/Terrain{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 19,
    "jp": "「じゅうてん」と「ほうねつ」について{item}",
-   "en": "",
-   "status": "new",
+   "en": "Charge & Cooldown{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 17,
    "jp": "「すいしん」と「きどう」について{item}",
-   "en": "",
-   "status": "new",
+   "en": "Speed & Mobility{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 13,
    "jp": "「メダフォース」について{item}",
-   "en": "",
-   "status": "new",
+   "en": "Medaforce{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 14,
    "jp": "「ローテーション」について{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rotation{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 13,
    "jp": "「テストモード」について{item}",
-   "en": "",
-   "status": "new",
+   "en": "Test Mode{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "？？？？？？？？{item}",
-   "en": "",
-   "status": "new",
+   "en": "????????{item}",
+   "status": "done",
    "notes": ""
   }
  ]

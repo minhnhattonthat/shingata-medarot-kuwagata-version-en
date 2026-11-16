@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "パーツ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Parts{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "メダフォース{item}",
-   "en": "",
-   "status": "new",
+   "en": "Medaforce{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "しょうさい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Details{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ターゲット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Target{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ローテーション{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rotation{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "オート{item}",
-   "en": "",
-   "status": "new",
+   "en": "Auto{item}",
+   "status": "done",
    "notes": ""
   }
  ]

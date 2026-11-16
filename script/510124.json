@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:001700}ぼうず メダロットってーのはな かんじょうや いしを{n}もった おともだち ロボットのことだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}Kid, a Medabot is a robot friend with feelings and a will of its own.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "これが 「ティンペット」だ メダロットの 「ほねぐみ」 だな{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "This is a \"Tinpet\". It's a Medabot's frame.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "まず 「あたまパーツ」だ こいつは きょうりょくだが{n}かいすうせいげんが あるから ちゅういするんだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "First, the \"Head part\". It's powerful, but watch out.{page}You can only use it a limited number of times.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "つぎに 「ひだりうでパーツ」だ こいつは きょうりょくだが{n}みぎうでより スピードが おそいぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Next, the \"Left Arm part\". It's powerful, but slower than the Right Arm.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "つぎに 「みぎうでパーツ」だ こいつは いりょくは ひくいが{n}スピードが はやいから つかいやすいぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Next, the \"Right Arm part\". It's weak, but fast and easy to use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "つぎに 「きゃくぶパーツ」だ ロボトルする ばしょに{n}あわせて つかいわけたほうが いいぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Next, the \"Legs part\". Switch it out to suit your Robattle location.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 56,
    "jp": "さいごに 「メダル」だ こいつが ないと メダロットが{n}うごかないのさ いわば メダロットの 「ずのう」だな{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Last, the \"Medal\". Without it, a Medabot won't move.{page}You could call it the Medabot's brain.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "これだけ そろっていれば ロボトルが できるのさ{n}よ〜く おぼえておきな ぼうず{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "With all these, you're ready for a Robattle. Remember that, kid.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{face:002100}パーツの 「せいこう」が たかければ こうげきが あたりやすく なるんだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002100}The higher a part's \"Success\", the more likely its attacks are to hit.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "「せいこう」はパーツによって きまっているけど ロボトルちゅうは 「さくてき」で すうちが あがるんだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "\"Success\" is determined by the part, but \"Scout\" raises it during a Robattle.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "パーツによっては 「せいこう」に かんけいなく ぜったいに こうげきが ヒットするものもあるよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Some parts always hit, no matter what their \"Success\" is.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 54,
    "jp": "{face:001800}ロボロボだんを ロボトルで たいじ すると ロボロボメダルを てにいれることが できるであります{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001800}Defeat the Rubberobo Gang in a Robattle{page}to obtain Rubberobo Medals, sir!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "ロボロボメダルを つかえば ロボトルの ちょうせんを ことわることが できるであります{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Use a Rubberobo Medal to turn down a Robattle challenge, sir!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 49,
    "jp": "ただし じぶんから はなしかけて ロボトルを したばあいは ことわることが できないであります{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "However, if you start a Robattle by talking to someone yourself,{page}you cannot turn it down, sir!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "ロボロボメダルを つかうには ちょうせんを うけたときに スタートボタンを おせば よいであります{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "To use a Rubberobo Medal, press the Start Button when challenged, sir!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{face:000204}ロボトルするときに メダルとパーツの 「あいしょう」とか かんがえてる？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000204}When you Robattle, do you consider{page}the \"affinity\" between your Medals and parts?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "メダルとパーツの ぞくせいが おなじなら メダロットは パワーアップするって しってた？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Did you know your Medabot gets stronger{page}if its Medal and parts share an attribute?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 54,
    "jp": "メダロッチで メダロットのくみたてがめんを みると 「あいしょう」が あっているか かくにんできるのよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "You can check whether their \"affinity\" matches{page}on the Medabot assembly screen on your Medawatch, you know.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "「あいしょう」があっていると こんなふうに パーツの のうりょくに すうじが たされるの{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "When the \"affinity\" matches,{page}numbers are added to the part's stats like this.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "でも 「あいしょう」があっていないと こんなふうに パワーアップ していないことが わかるわ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "But when the \"affinity\" doesn't match, you can see there's no boost, like this.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "いろいろ くみかえて じぶんなりの くみあわせを ためしてみてね？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Try switching things around and finding your own combinations, okay?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 56,
    "jp": "{face:003300}きゃくぶパーツの 「きんせつ」と 「えんかく」のすうちを かんがえて パーツを くみかえているかね？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003300}Do you consider the \"Melee\" and \"Ranged\" stats of Legs parts{page}when you change your parts around?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "「きんせつ」が たかい きゃくぶパーツは かくとうなどの きんせつこうどうのパーツと くみあわせると いいんだ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Legs parts with high \"Melee\" work well with parts for close-range actions,{page}such as physical attacks.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {

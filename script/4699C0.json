@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "このあたいが 0になると パーツが きのうていしし しようふのうになる{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "When this reaches 0, the part breaks{n}and becomes unusable.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "こうどうの せいこうしやすさの きほんとなる{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The base chance of an action{n}succeeding.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "こうどうの いりょくの きほんとなる また かんつうこうかのある パーツには マークがつく{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The base power of an action.{page}Parts with a piercing effect{n}also have a symbol.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "パーツの しようかいすうを あらわす{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The number of times a part can be used.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "こうどうせんたくから こうどうじっこうまでの ウェイトじかんの きほんとなる{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The base wait time from choosing{n}an action to performing it.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "こうどうじっこうから こうどうせんたくまでの ウェイトじかんの きほんとなる{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The base wait time from performing{n}an action to choosing the next one.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 71,
    "jp": "じゅうてん・ほうねつの スピードをはやくする また「がむしゃら」こうどうの いりょくちアップと トラップかいじょりつを じょうしょうさせる{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Speeds up charging and cooldown.{page}Also raises Berserk action power{n}and the chance of clearing traps.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "こうげきからの かいひしやすさの きほんとなる{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The base chance of evading attacks.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "こうげきからの ぼうぎょこうどうしやすさの きほんとなる{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The base chance of using Defense{n}against attacks.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "「なぐる」「がむしゃら」「まもる」「なおす」こうどうの せいこうしやすさに えいきょうする{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Affects the success of Strike, Berserk,{n}Protect and Repair actions.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "「うつ」「ねらいうち」「おうえん」「ぼうがい」こうどうの せいこうしやすさに えいきょうする{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Affects the success of Shoot, Snipe,{n}Support and Jamming actions.{end:02}",
+   "status": "done",
    "notes": ""
   }
  ]

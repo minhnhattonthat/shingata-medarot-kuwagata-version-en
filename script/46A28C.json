@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{fa:FF}ソード {n}スピードの はやい かくとうこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Sword{n}A fast Melee attack.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{fa:FF}ハンマー {n}スピードの はやい かくとうこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Hammer{n}A fast Melee attack.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{fa:FF}ライフル {n}スピードの はやい しゃげきこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Rifle{n}A fast Shooting attack.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}ガトリング {n}スピードの はやい しゃげきこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Gatling{n}A fast Shooting attack.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{fa:FF}レーザー {n}いりょくが 2ばいになる しゃげきこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Laser{n}A Shooting attack with double power.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}ビーム {n}いりょくが 2ばいになる しゃげきこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Beam{n}A Shooting attack with double power.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}ミサイル {n}ぜったいヒットとかんつうこうかのあるしゃげきこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Missile{page}A Shooting attack that always hits and pierces.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}ナパーム {n}ぜったいヒットとかんつうこうかのあるしゃげきこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Napalm{page}A Shooting attack that always hits and pierces.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{fa:FF}ブレイク {n}せいこうが 2ばいになる しゃげきこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Break{n}A Shooting attack with double success.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}プレス {n}せいこうが 2ばいになる しゃげきこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Press{n}A Shooting attack with double success.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{fa:FF}かくとうトラップ {n}かくとうこうげきに ダメージをあたえる トラップ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Melee Trap{n}A trap that damages Melee attackers.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{fa:FF}しゃげきトラップ {n}しゃげきこうげきに ダメージをあたえる トラップ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Shooting Trap{n}A trap that damages Shooting attackers.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}こうげきクリア {n}こうげきを むこうにする トラップ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Attack Clear{n}A trap that nullifies attacks.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{fa:FF}バグ 〜しょうじょうをつける〜{n}こうどうの せいこうを さげる かくとうこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Bug - Applies a status.{page}A Melee attack that lowers action success.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{fa:FF}ウィルス 〜しょうじょうをつける〜{n}こうどうの せいこうを さげる かくとうこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Virus - Applies a status.{page}A Melee attack that lowers action success.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}サンダー 〜しょうじょうをつける〜{n}うごきを ストップさせる かくとうこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Thunder - Applies a status.{page}A Melee attack that stops movement.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}フリーズ 〜しょうじょうをつける〜{n}うごきを ストップさせる かくとうこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Freeze - Applies a status.{page}A Melee attack that stops movement.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}ウェーブ 〜しょうじょうをつける〜{n}スピードを おそくする かくとうこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Wave - Applies a status.{page}A Melee attack that reduces speed.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}ホールド 〜しょうじょうをつける〜{n}スピードを おそくする かくとうこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Hold - Applies a status.{page}A Melee attack that reduces speed.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{fa:FF}ファイヤー 〜しょうじょうをつける〜{n}けいぞくダメージを あたえる かくとうこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Fire - Applies a status.{page}A Melee attack that deals Sustained damage.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{fa:FF}メルト 〜しょうじょうをつける〜{n}けいぞくダメージを あたえる かくとうこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Melt - Applies a status.{page}A Melee attack that deals Sustained damage.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}トラップクリア {n}トラップに かからない ／ トラップを はかい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Trap Clear{n}Avoid traps / Destroy traps.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{fa:FF}しょうじょうクリア {n}しょうじょうに かからない ／ しょうじょうを クリアする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Status Clear{n}Prevent status effects / Clear them.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}フォースせいぎょ {n}すべての メダロットの メダフォースを つかえなくする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Force Control{page}Stops all Medabots from using Medaforce.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}こうがくむこう 〜そうびパーツ〜{n}「レーザー」・「ビーム」を むこうにする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Nullify Beam - Equipped part.{page}Nullifies Laser and Beam.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}かやくむこう 〜そうびパーツ〜{n}「ミサイル」・「ナパーム」を むこうにする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Nullify Explosive - Equipped part.{page}Nullifies Missile and Napalm.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}じゅうりょくむこう 〜そうびパーツ〜{n}「ブレイク」・「プレス」を むこうにする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Nullify Gravity - Equipped part.{page}Nullifies Break and Press.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}ぼうぎょ 〜えんご〜{n}みかたへの こうげきを ふせぐ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Defense - Cover.{n}Blocks attacks on allies.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{fa:FF}かんぜんぼうぎょ 〜えんご〜{n}みかたへの こうげきを むこうにする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Perfect Defense - Cover.{n}Nullifies attacks on allies.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{fa:FF}みまんぼうぎょ 〜えんご〜{n}みかたへの よわいこうげきを むこうにする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Threshold Defense - Cover.{n}Nullifies weak attacks on allies.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{fa:FF}かいふく {n}ダメージを うけたパーツを かいふくする {end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Recover{n}Restores damaged parts.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}けいぞくかいふく 〜しょうじょうをつける〜{n}いどうちゅうも ダメージかいふく{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Sustained Recover - Applies a status.{page}Restores damage even while moving.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{fa:FF}ふっかつ {n}きのうていしパーツを ふっかつさせる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Revive{n}Restores broken parts.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}そせい {n}きのうていしメダロットを ふっかつさせる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Resurrect{n}Revive disabled Medabots.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}アンチエア {n}「ひこうメダロット」に だいダメージ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Anti-Air{n}Deals heavy damage to Flight Medabots.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}アンチシー {n}「せんすいメダロット」に だいダメージ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Anti-Water{page}Deals heavy damage to Aquatic Medabots.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}さくてき {n}みかたの こうげきを あたりやすくする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Scout{n}Makes allied attacks more likely to hit.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{fa:FF}いんぺい {n}こうげきを よけやすくする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Stealth{n}Makes attacks easier to evade.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}ほじょチャージ 〜しょうじょうをつける〜{n}みかたの スピードを はやくする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Charge Support - Applies a status.{page}Increases allies' speed.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{fa:FF}きゅうそくチャージ {n}じゅうてん・ほうねつを いっしゅんで おわらせる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Rapid Charge{n}Instantly finishes charging and cooldown.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{fa:FF}じょうじチャージ 〜そうびパーツ〜{n}スピードが はやくなる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Constant Charge - Equipped part.{n}Increases speed.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{fa:FF}チャージドレイン 〜しょうじょうをつける〜{n}あいての スピードをうばい じぶんの スピードをあげる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Charge Drain - Applies a status.{page}Steals the enemy's speed to raise your own.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{fa:FF}てんとう {n}あたまパーツにダメージ ／ こうどうを わすれさせる {end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Knockdown{page}Damages the head part / Makes the target forget its action.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}しようふのう 〜しょうじょうをつける〜{n}パーツを つかえなくする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Disable - Applies a status.{n}Makes parts unusable.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{fa:FF}こんらん 〜しょうじょうをつける〜{n}こうげきあいてを きめられなくする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Confusion - Applies a status.{page}Prevents the target from choosing{n}whom to attack.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}かいすうドレイン {n}あいてから あたまパーツの しようかいすうを うばいとる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Use Drain{n}Steals head part uses from the enemy.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{fa:FF}かいひふのう 〜しょうじょうをつける〜{n}かいひを できなくする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Disable Evasion - Applies a status.{n}Prevents evasion.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{fa:FF}ぼうぎょふのう 〜しょうじょうをつける〜{n}ぼうぎょを できなくする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Disable Defense - Applies a status.{n}Prevents Defense.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{fa:FF}デストロイ 〜トラップ・えんご・はんげきをむこう〜{n}あいてが うしろむきなら パーツをはかい {end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Destroy - Nullifies traps, Cover and Counter.{page}Destroys a part if the enemy is facing away.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "ff",
    "bytes": 50,
    "jp": "{fa:FF}サクリファイス 〜トラップ・えんご・はんげきをむこう〜{n}パーツを ぎせいにして だいダメージ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Sacrifice - Nullifies traps, Cover and Counter.{page}Sacrifices a part to deal heavy damage.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{fa:FF}フォースドレイン {n}あいてから メダフォースを うばいとる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Force Drain{n}Steals Medaforce from the enemy.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}クロスセット 〜セットとファイアでペア〜{n}「クロスこうげき」を セットする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Cross Set - Pairs with Crossfire.{page}Sets up a Cross Attack.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{fa:FF}クロスファイア 〜セットとファイアでペア〜{n}「クロスこうげき」で あいてに だいダメージ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Crossfire - Pairs with Cross Set.{page}Deals heavy damage with a Cross Attack.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -646,8 +646,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{fa:FF}きょうか 〜そうびパーツ〜{n}こうげきの せいこうと いりょくを あげる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Enhance - Equipped part.{n}Raises attack success and power.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -658,8 +658,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{fa:FF}はんげき {n}つよいこうげきを はじきかえす{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Counter{n}Reflects strong attacks.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -670,8 +670,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{fa:FF}へんか {n}ランダムで ほかのパーツに へんかする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Change{n}Changes into another part at random.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -682,8 +682,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}へんか／ぼうがい {n}ランダムで 「ぼうがいパーツ」に へんかする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Change/Jamming{n}Changes into a random Jamming part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,8 +694,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}へんか／こうげき {n}ランダムで 「こうげきパーツ」に へんかする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Change/Attack{n}Changes into a random attack part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -706,8 +706,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}へんか／ぼうぎょ {n}ランダムで 「ぼうぎょパーツ」に へんかする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Change/Defense{n}Changes into a random Defense part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -718,8 +718,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}へんか／かいふく {n}ランダムで 「かいふくパーツ」に へんかする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Change/Recover{n}Changes into a random Recover part.{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

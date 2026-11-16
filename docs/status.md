@@ -2,8 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: ready to start (phases 1-5 done; phase 5 finished 2026-11-17: every window variant
-  measured, lint 0 warnings, marker map tour clean). Last build: 2026-11-17
+- Review fix pass (b017-b019): expanded Select Corps Headquarters in 4BD9ED and 4BDCCB;
+  both Important findings accepted, Minor findings untouched. `batches.py check b017 b018 b019`: all OK.
+
+- **Phase:** 6. Translate: in progress (2026-11-17, session 1 of phase 6). Pipeline: `tools/batches.py split`
+  made b001-b084 (`work/tl/bNNN.tsv`, identical JP+box batched once, merge copies to duplicates); translators and
+  reviewers run through `codex exec` (`tools/codex_tl.py`, `tools/tl_pipeline.py "b014 b015 b016" ...` =
+  translate -> pairs -> independent review `work/tl/review/<first>.review.md` -> fix pass -> check; status file
+  `work/tl/review/<first>.status` says READY to merge). The controller merges (`batches.py merge bNNN.. --overwrite`)
+  so lanes never write `script/` at once. **Merged (4109 of 8038 strings in `en`, check 0 problems, lint 0, build
+  smoke ok sha1 5a387ba0):** b001-b007 (names, unreviewed), fix01 (ていし -> Halt), b014-b025 (translated,
+  reviewed, fixed), and **merged but NOT yet reviewed:** b008 b009 b011 b012 b070-b081 b083 (run
+  `tl_pipeline.py` on them: it skips translation, reviews, fixes; then merge --overwrite).
+  **Not done:** b010 b013 b026-b028 b030-b069 b084 (no output yet); b029 (partial, 16 check problems) and b082
+  (1 problem): re-run tl_pipeline on their groups. Suggested groups: "b008 b009 b010" "b011 b012 b013"
+  "b026 b027 b028" "b029 b030 b031" ... "b068 b069" "b070 b071 b072" ... "b082 b083 b084".
+  **Memory:** on 2026-11-17 seven parallel lanes (7 codex sessions + Claude Code) got all background jobs killed
+  for low system memory. Run at most 2-3 lanes at once. Docs: `docs/translator-brief.md`, `docs/reviewer-brief.md`, `docs/synopsis.md` (two casts: Shingata's
+  Gamma story in 50A9D8/4B50CC/46D598/46E0F0/510124; retained Medarot 2 Core Ikki story in the 4F tables).
+  Last build: 2026-11-17
   `build/medarot_kuwagata_en.gba` from `script/`, sha1 573e980d... = the original (identity), smoke ok.
   Marker build `build/marker.gba` (`build.py --marker`; `--full` fills dialogue lines to 208 px): boots, 70/70
   scenes arrive (`work/qa/scenes_marker/shots`, `prove.py build/marker.gba --no-states --qa work/qa/scenes_marker`).

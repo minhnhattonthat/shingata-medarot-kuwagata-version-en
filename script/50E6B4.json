@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 214,
    "jp": "あらっ？ あたらしい おてつだいさんね？{page}いやっ！ オレは みちにまよった・・・{page}そんなことは いいから こっちにいらして？{page}シフォンちゃん とっても かわいい{n}メダロットを かったのよ？{page}「そんなこと」 って・・・{n}だから オレは みちにまよった・・・{page}そんなに えんりょしなくても だいじょうぶよ？ シフォンちゃんの かわいい メダロット みるでしょ？{page}ぐっ！ こいつ オレのはなし まったく きいてねー！ まいったな〜{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Oh? You must be the new servant!{page}No! I just got lost...{page}Never mind that. Come over here, won't you?{page}Chiffon-chan bought a very cute Medabot, you know!{page}\"Never mind\"...? I told you, I'm lost...{page}You needn't be so shy. You want to see Chiffon-chan's cute Medabot, don't you?{page}Gah! She's not listening to a word I say! What am I gonna do...?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 187,
    "jp": "きみっ！ どきたまえっ！{page}ドンッ！{page}いてっ！{page}きみのような しょみんが ボクを さしおいて たいかいにでるなんて ありえないことだよ？{page}きみのような しょみんは ボクの かれいなロボトルを ぶたいの したから ゆびをくわえて みることが しごとじゃないか{page}そこで じっとしていたまえ きみの でばんは ないから{page}そこまで いわれると いいかえす きにも ならねーな・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "You there! Out of my way!{page}BAM!{page}Ow!{page}A commoner like you entering the tournament ahead of me? Unthinkable!{page}A commoner's job is to watch my elegant Robattles from below the stage,{page}and wish he could be up there with me.{page}Stay right there. There won't be a turn for you.{page}After all that, I don't even feel like talking back...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 258,
    "jp": "つっ つよいロボ！ おまえ すごいやつロボな〜{page}いやっ・・・ それほどでもないぜ・・・ロボ{n}それじゃ オレは これで・・・{page}ま〜つロボよ〜 ヒーローは だんじょうから みんなに アピール するロボよ〜{page}ん？ おまえ どこかで あったロボか？ もっと かおを よ〜く み〜せるロボよ〜{page}いやっ！ きっときのせいだぜ・・・ロボ{page}オレは はずかしがりやだから{n}アピールは えんりょしとくぜ・・・ロボ{page}うっ！ きゅうに はらが いたくなってきたぜロボッ！ じゃあ オレは これで！ さよならロボ！{page}へんな やつロボ・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Y-you're strong, robo! You're amazing, robo!{page}Nah... I'm not that great... robo.{page}Well, I'll be going now...{page}Waaait, robo! A hero has to show off to everyone from the stage, robo!{page}Hmm? Have we met somewhere, robo?{page}Let me get a gooood look at your face, robo!{page}No! You must be imagining it... robo.{page}I'm shy, so I'll pass on showing off... robo.{page}Urk! My stomach suddenly hurts, robo! Well, I'm off! Bye, robo!{page}What a weird guy, robo...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 112,
    "jp": "とうとう このひが きたぜ！ ロボトルのせかいいちを きめる ロボトルせかいたいかいだっ！{page}このたいかいで ゆうしょうすれば おんなのこから だいせいえん まちがいなしだな！{page}もえてきた〜 よーっっっし！ やってやるぜ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "The day is finally here! The World Robattle Tournament!{page}Time to decide who's the best in the world!{page}If I win this tournament, the girls will be cheering like crazy for sure!{page}I'm fired up now! All riiight! Let's do this!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 255,
    "jp": "きみが われわれの メダルあつめを じゃまばかりするから こうなるのだよ{page}これいじょう われわれの じゃまを しないというなら このこは はなしてあげましょう{page}{var:00} こいつの いいなりに なっちゃ だめよ！{page}もし したがわないなら ふふふふふっ{page}きゃぁー！{page}やめろ！ アイリスに てをだすなぁっ！{page}ハッハッハッハッハッ だれにも わたしの いだいな りそうじつげんの じゃまは させんぞ！{page}そっ！ そのくちょうは！ ロボロボだんの・・・ボス！{page}ぐっ！ そっ そんなやつは しらん！{n}さあっ どうするんだね？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "This is what happens when you keep interfering with our Medal collecting.{page}If you promise to stop interfering with us, I'll let this girl go.{page}{var:00}, don't do what he says!{page}And if you refuse... Heh heh heh heh...{page}Aaaah!{page}Stop! Keep your hands off Iris!{page}Ha ha ha ha ha! No one will stop me from bringing my grand vision to life!{page}Th-that way of talking! You're the Rubberobo Gang's... boss!{page}Gah! I-I don't know anyone like that! Well? What's your answer?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 110,
    "jp": "キラキラキラ・・・ ヴォン・・・{page}なんだ？ これはゆめか？{page}コノ メダルノ ポテンシャルハ・・・ カレナラ モシカシテ・・・{page}なんだ？ なにを いってるんだ？ おまえだれだ！{page}まてっ まだ はなしは おわってね〜ぞ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Twinkle, twinkle... Vwoom...{page}What's this? Am I dreaming?{page}This Medal's potential... Perhaps he could...{page}What? What are you talking about? Who are you!?{page}Wait! I'm not done talking to you!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 121,
    "jp": "グオォォォォォォー データインプット オン・・・ コノヨノ スベテヲ ハカイスル・・・{page}デュオカイザーかっ？ いや もっと きょうあくな いやな かんじがするっ！{page}こいつがそとにでたら みんなが あぶない・・・{page}ここで くいとめてやるっ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Graaaar! Data input... On... I will destroy everything in this world...{page}Duo Kaiser? No, this feels even more vicious and horrible!{page}If this thing gets outside, everyone will be in danger...{page}I'll stop it right here!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 188,
    "jp": "{var:00} つよくなったね{page}あたしね {var:00}に いいたかったことがあるの{page}いつもは こんなこと めんとむかって いえないけど・・・{page}あたし・・・ あたしね {var:00}のこと・・・{page}あ〜〜っ やっぱり いえないっ！{n}{var:00}！ ちょっとむこう むいて！{page}ん？ なんだ？ これでいいのか？{page}チュッ・・・ 「{var:00}・・・ せかいを すくってくれて ありがとっ」{page}えっ？ いまのって もしかして・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "You've gotten strong, {var:00}.{page}There's something I've wanted to tell you, {var:00}.{page}Usually, I can't say this kind of thing to your face...{page}I... I, well... About you, {var:00}...{page}Aaah! I just can't say it!{page}{var:00}! Turn around for a second!{page}Huh? What? Like this?{page}Smooch... \"{var:00}... Thanks for saving the world.\"{page}Huh? Was that just... Could it be...?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 214,
    "jp": "あっ {var:00}さん やくそく おぼえていてくださったんですね{page}ユマリさんとの やくそくを オレが わすれるわけ ないじゃないですか{page}{var:00}さんっ・・・{page}ホシが とても きれいですね・・・{page}いや ユマリさんほどじゃないですよ ホントに{page}{var:00}さん おじょうずですね おせじでも うれしいです{page}{var:00}さん これからも わたしと あそんでいただいて よろしいですか？{page}もちろんっ！ じゃあ この まんてんの ほしの したで やくそくするよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Oh, {var:00}-san!{n}You remembered our promise.{page}How could I forget a promise to you,{n}Yumari-san?{page}{var:00}-san...{page}The stars are so beautiful...{page}Not as beautiful as you, Yumari-san.{n}Really.{page}You're quite the charmer,{n}{var:00}-san.{page}Even if you're just flattering me,{n}I'm happy.{page}{var:00}-san, would you keep{n}spending time with me?{page}Of course! Then I promise, right here{n}under this sky full of stars!{end:00}",
+   "status": "done",
    "notes": ""
   }
  ]

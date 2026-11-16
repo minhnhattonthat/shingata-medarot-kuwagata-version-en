@@ -2788,8 +2788,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:003600}ロボロボ ロボロボ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003600}Rubberobo! Rubberobo!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

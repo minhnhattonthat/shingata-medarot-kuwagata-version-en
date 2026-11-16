@@ -273,20 +273,28 @@ and an Avoid spelling fails.
 ## Game names (generated from the translated name tables; edit the tables, then re-run)
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
+| MーPKメダル | M-PK Medal | | item | |
+| おぼえていない | Not Known | | status | |
 | かいすうドレイン | Use Drain | | weapon kind | |
 | かいひふのう | Disable Evasion | | weapon kind | |
 | かくとうトラップ | Melee Trap | | weapon kind | |
+| かぜのつばさ | Wind Wings | | item | |
 | かやくか | Explosive Shift | | attack | |
 | かやくむこう | Nullify Explosive | | weapon kind | |
 | かんぜんぼうぎょ | Perfect Defense | | weapon kind | |
+| きゃくぶパーツと「ちけい」について | Legs Parts/Terrain | | tutorial topic | |
 | きゅうそくチャージ | Rapid Charge | | weapon kind | |
 | きょうか | Enhance | | weapon kind | |
+| くわがたむし | Stag Beetle | | item | |
 | けいぞくかいふく | Sustained Recover | | weapon kind | |
+| けいたいでんわ | Cell Phone | | item | |
 | こうがくか | Beam Shift | | attack | |
 | こうがくむこう | Nullify Beam | | weapon kind | |
 | こうげきクリア | Attack Clear | | weapon kind | |
 | こうげきトラップ | Attack Trap | | attack | |
+| こわれている | Broken | | status | |
 | こんらん | Confusion | | weapon kind | |
+| しのびチケット | Ninja Ticket | | item | |
 | しゃげきトラップ | Shooting Trap | | weapon kind | |
 | しょうじょうクリア | Status Clear | | weapon kind | |
 | しようふのう | Disable | | weapon kind | |
@@ -294,13 +302,16 @@ and an Avoid spelling fails.
 | じゅうりょくむこう | Nullify Gravity | | weapon kind | |
 | じょうじチャージ | Constant Charge | | weapon kind | |
 | せっちいりょくアップ | Trap Power Up | | attack | |
+| せんぼうきょう | Periscope | | item | |
 | そせい | Resurrect | | weapon kind | |
+| つかえない | Unusable | | status | |
 | てんとう | Knockdown | | weapon kind | |
 | へんか | Change | | weapon kind | |
 | へんか／かいふく | Change/Recover | | weapon kind | |
 | へんか／こうげき | Change/Attack | | weapon kind | |
 | へんか／ぼうがい | Change/Jamming | | weapon kind | |
 | へんか／ぼうぎょ | Change/Defense | | weapon kind | |
+| ほしのかけら | Star Fragment | | item | |
 | ほじょチャージ | Charge Support | | weapon kind | |
 | ぼうぎょふのう | Disable Defense | | weapon kind | |
 | みまんぼうぎょ | Threshold Defense | | weapon kind | |
@@ -314,6 +325,8 @@ and an Avoid spelling fails.
 | サクリファイス | Sacrifice | | weapon kind | |
 | サンダー | Thunder | | weapon kind | |
 | ソード | Sword | | weapon kind | |
+| タウンマップ | Town Map | | item | |
+| ダメロット | Meda-dud | | item | |
 | チャージドレイン | Charge Drain | | weapon kind | |
 | ツビーベル | Zwiebel | | part | |
 | デストロイ | Destroy | | weapon kind | |
@@ -321,6 +334,7 @@ and an Avoid spelling fails.
 | トラップクリア | Trap Clear | | weapon kind | |
 | ナパーム | Napalm | | weapon kind | |
 | ハンマー | Hammer | | weapon kind | |
+| パーツの「せいこう」について | Part Success | | tutorial topic | |
 | ビーム | Beam | | weapon kind | |
 | ファイヤー | Fire | | weapon kind | |
 | フォースせいぎょ | Force Control | | weapon kind | |
@@ -332,10 +346,16 @@ and an Avoid spelling fails.
 | ホールド | Hold | | weapon kind | |
 | マッターシェン | Mattaschen | | part | |
 | ミサイル | Missile | | weapon kind | |
+| ミニハンドル | Mini Wheel | | item | |
+| メダルの「じゅくれんど」について | Medal Mastery | | tutorial topic | |
+| メダルもどき | Fake Medal | | item | |
+| メダロットってなに？ | What's a Medabot? | | tutorial topic | |
 | メルト | Melt | | weapon kind | |
 | ライフル | Rifle | | weapon kind | |
 | レーザー | Laser | | weapon kind | |
+| ロボロボカード | Rubberobo Card | | item | |
+| ロボロボメダル | Rubberobo Medal | | item | |
+| ロボロボメダルについて | Rubberobo Medals | | tutorial topic | |
 <!-- END GENERATED -->
-
 ## Decisions from earlier batches
 - (none yet)

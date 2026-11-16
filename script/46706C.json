@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 8,
    "jp": "てきぜんたい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "All Enemies{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 7,
    "jp": "てき1たい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "One Enemy{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "みかたぜんたい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "All Allies{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 5,
    "jp": "じぶん{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Self{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 8,
    "jp": "こうかはんい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Effect Range{end:02}",
+   "status": "done",
    "notes": ""
   }
  ]

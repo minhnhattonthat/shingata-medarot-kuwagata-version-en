@@ -1871,8 +1871,8 @@
    "kind": "ff",
    "bytes": 11,
    "jp": "{face:003603}ロボーッ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003603}Robooo!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -3047,8 +3047,8 @@
    "kind": "ff",
    "bytes": 13,
    "jp": "{face:010002}よし いけっ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010002}All right, go!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

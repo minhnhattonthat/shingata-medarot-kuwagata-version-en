@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:010000}おまえらロボトルでかたづけてやるぜ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}I'll take you guys down in a Robattle!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:010100}おまえらロボトルでかたづけてやるぜ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010100}I'll take you guys down in a Robattle!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:000200}ぜったい まけない からね！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000200}I'm not losing, you hear!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:000300}あんたにまけるわけ ないでしょ！？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000300}As if I'd ever lose to you!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:000400}だいじな テストですから てかげん なしですよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000400}This is an important test, so please don't hold back, all right?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "{face:000500}きみのような しょみんは ぼくと ロボトル できるだけで{n}しあわせなことだよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000500}A commoner like you should feel fortunate{page}just to Robattle me, you know?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{face:000600}シフォンちゃんの メダロットは かわいいだけじゃ{n}ないですわ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000600}Chiffon-chan's Medabots aren't just cute, you know.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:000702}けちょんけちょんに いためつけて やるぜ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000702}I'm gonna beat you to a pulp!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{face:000800}こわいなら にげてもいいんだぜ？ ほんとにいまなら{n}にげてもいいんだぜ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000800}You can run if you're scared, ya know?{page}Seriously, you can still run, ya know?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "{face:000902}ムガ〜ッ！！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000902}Graaah!!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "{face:000A00}パパは おまえと ロボトルするのが ゆめだったんだ{n}さあっ かかってきなさい！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000A00}Dad's always dreamed of having a Robattle with you.{page}Now, come at me!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{face:000B00}ロボトルばっかり してないで たまには べんきょうも{n}するのよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000B00}You can't spend all your time on Robattles. Study once in a while, too!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 10,
    "jp": "{face:000C00}ワウッ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000C00}Woof?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:000D00}メダロットのことなら なんでもしっている この わしを{n}たおせるかな？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000D00}Think you can beat me, eh? I know everything about Medabots!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:000E00}ワヒだって メダロットくらい もってるぞい！{n}まだまだ わかいもんには まけんわい！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000E00}Even I've got Medabots, I'll have ye know!{page}I'm not losing to you youngsters yet!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:000F00}いっときましゅけど あたちは つよいでしゅよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000F00}I'll have you know, I'm vewy stwong!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:001002}ないたって ゆるして あげないでしゅよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001002}Even if you cwy, I won't go easy on you!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:001100}えっ？ あんたが アタシとロボトル！？{n}ちょ〜ウケるんだけど！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001100}Huh? You wanna Robattle ME!?{page}That's, like, totally hilarious!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:001202}なんか ちょ〜 むかつくんだけど！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001202}This is, like, so annoying!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:001300}あなた みのほどを わきまえたほうが よくってよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001300}You really ought to know your place, dear.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{face:001401}あなた ワタクシの ほんとのちからをみたくって？{n}ティータイムのまえに かたづけてあげますわ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001401}Would you care to see my true power?{page}I'll finish you off before teatime, dear!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:001500}わたしに さからおうとは・・・ おろかな しょうねんだ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001500}You dare defy me... What a foolish boy!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:001602}むねを かりるつもりで きなさい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001602}Come, let me show you how it's done.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:001700}わけーときは がむしゃらなぐらいが ちょうどいいって{n}ことさ・・・わかるか？ ボウズ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001700}When you're young, bein' reckless{n}is just right... Get me, kid?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:001800}PKとは ピースキーピングの りゃくであります！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001800}PK stands for Peacekeeping, sir!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:001A00}おまえの メダロットを よこすロボよ〜！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001A00}Hand over your Medabot, robo!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:001C00}ふふふ・・・せっしゃの うごきを みきれるで ござるかな？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001C00}Heh heh heh... Can you follow my movements, young one?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:001E00}わたしの にんぽうは いちげきひっさつよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001E00}My ninja arts finish you in one strike, you know.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:002100}ぼくの メダロット はっきりいって つよいよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002100}To be honest, my Medabot's strong.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {

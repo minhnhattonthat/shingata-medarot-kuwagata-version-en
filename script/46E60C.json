@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "アズル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Azul{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "アズル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Azul{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ロジョ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rojo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ロジョ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rojo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ロボロボだんボス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rubberobo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "オーロたいちょう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Capt. Oro{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ひよこうり{item}",
-   "en": "",
-   "status": "new",
+   "en": "Chick Man{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "MーPKたいいん{item}",
-   "en": "",
-   "status": "new",
+   "en": "M-PK Agent{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ロボロボだんいん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rubberobo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "にんじゃ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ninja{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "くのいち{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kunoichi{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "おとこのこ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Boy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "おんなのこ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Girl{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "サーファー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Surfer{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "じいさん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Old Man{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ようちえんじ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Youngster{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "じょしこうせい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Schoolgirl{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "おばさん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Woman{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "がんこおやじ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Old Grump{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "かんこうきゃく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tourist{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "はくい{item}",
-   "en": "",
-   "status": "new",
+   "en": "White Coat{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "むらびと{item}",
-   "en": "",
-   "status": "new",
+   "en": "Villager{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "りょうし{item}",
-   "en": "",
-   "status": "new",
+   "en": "Fisherman{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "げんばのひと{item}",
-   "en": "",
-   "status": "new",
+   "en": "Worker{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "はっくついん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Excavator{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "はぐれメダロット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Medabot{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "はぐれメダロット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Medabot{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "バニーさん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bunny-san{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ブリレッツ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Brilletz{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "テラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Terra{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ラシオネ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Racione{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ビオラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Viola{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "コテツ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kotetsu{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "モレア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Morea{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "こうちょう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Principal{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ほけんのせんせい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nurse{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -646,8 +646,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "としょのせんせい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Librarian{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -658,8 +658,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "おんがくのせんせい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Music Prof{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -670,8 +670,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "たいいくのせんせい{item}",
-   "en": "",
-   "status": "new",
+   "en": "PE Teacher{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -682,8 +682,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "りかのせんせい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sci. Prof{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,8 +694,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "オオカミおとこ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Wolf Man{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -706,8 +706,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "デュオカイザー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Duo Kaiser{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -730,8 +730,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ゆきだるま{item}",
-   "en": "",
-   "status": "new",
+   "en": "Snowman{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -742,8 +742,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "こまいぬ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Komainu{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -754,8 +754,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "タコメダ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Octomed{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -766,8 +766,8 @@
    "kind": "fe",
    "bytes": 2,
    "jp": "？{item}",
-   "en": "",
-   "status": "new",
+   "en": "?{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -778,8 +778,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ホリウチー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Horiuchi{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -790,8 +790,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "てんいん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Clerk{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -802,8 +802,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "てんいん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Clerk{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -826,8 +826,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "けんきゅういん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Researcher{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -838,8 +838,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "せんにん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Hermit{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -850,8 +850,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ばあさん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Old Woman{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -862,8 +862,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "OL{item}",
-   "en": "",
-   "status": "new",
+   "en": "Office Gal{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -874,8 +874,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "うけつけじょう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Reception{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -886,8 +886,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "コンパニオン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Hostess{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -898,8 +898,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "おてつだいさん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Maid{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -910,8 +910,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "アテンダント{item}",
-   "en": "",
-   "status": "new",
+   "en": "Attendant{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -922,8 +922,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "レフリー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Referee{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -934,8 +934,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "キンタロウ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kintaro{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1126,8 +1126,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "グレイ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Grey{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1174,8 +1174,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "サメ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Shark{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1186,8 +1186,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "ウシ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cow{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1198,8 +1198,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "シルエット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Silhouette{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1234,8 +1234,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "シルエット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Silhouette{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1426,8 +1426,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ロボロボだんいん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rubberobo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1438,8 +1438,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "じょしこうせい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Schoolgirl{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1450,8 +1450,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "はくい{item}",
-   "en": "",
-   "status": "new",
+   "en": "White Coat{item}",
+   "status": "done",
    "notes": ""
   }
  ]

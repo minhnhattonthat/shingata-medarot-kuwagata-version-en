@@ -1162,8 +1162,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "{face:010000}やめておこう{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Better not.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

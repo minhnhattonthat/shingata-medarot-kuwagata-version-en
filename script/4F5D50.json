@@ -2788,8 +2788,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{face:010000}はこのなかは からっぽだ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}The box is empty.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

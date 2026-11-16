@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 55,
    "jp": "いちばん ちかいてきに こうげきする{n}こうどうご ぼうぎょ できなくなる{page}ひかくてき クリティカルしやすい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Attacks the nearest enemy. You cannot use Defense after acting.{page}Fairly likely to land a critical hit.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "いちばん ちかいてきに こうげきする{n}こうどうご ぼうぎょも かいひも できなくなる{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Attacks the nearest enemy.{page}You cannot use Defense or evade after acting.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "こうげきのなかで ゆいいつ こうどうごのペナルティーがない こうげき{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The only attack with no penalty{n}after acting.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "こうげきのなかで もっとも クリティカルしやすい{n}こうどうご かいひが できなくなる{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The attack most likely to score{n}a critical hit.{page}You cannot evade after acting.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "みかたメダロットを えんごしたり トラップを しかけたりする{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Covers allied Medabots or sets traps.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "みかたメダロットの ダメージを かいふくしたり{n}きのうていしパーツを ふっかつさせたりする{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Helps allied Medabots Recover damage{n}or Revive broken parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "みかたメダロットの こうどうを ほじょする{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Assists allied Medabots' actions.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "てきメダロットの こうどうを ぼうがいする{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Uses Jamming to disrupt enemy{n}Medabots' actions.{end:02}",
+   "status": "done",
    "notes": ""
   }
  ]

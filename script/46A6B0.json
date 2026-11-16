@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{fa:FF}「こうや」・「さばく」の フィールドが とくい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Excels in Wilderness and Desert fields.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{fa:FF}どのフィールドも そこそこ とくい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Does fairly well on any field.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{fa:FF}「いわば」・「けいこく」の フィールドが とくい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Excels in Rockland and Canyon fields.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}「そうげん」・「しんりん」の フィールドが とくい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Excels in Grassland and Forest fields.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}「まちなか」・「しつない」の フィールドが とくい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Excels in City and Indoors fields.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{fa:FF}ちけいに えいきょうされない{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Unaffected by terrain.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}「かいがん」・「すいちゅう」の フィールドが とくい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Excels in Coast and Underwater fields.{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

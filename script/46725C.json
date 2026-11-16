@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{fa:FF}ランダムに こうどうする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Acts at random.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{fa:FF}あたまパーツを しようする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Uses the head part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{fa:FF}みぎうでパーツを しようする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Uses the right arm part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{fa:FF}ひだりうでパーツを しようする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Uses the left arm part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{fa:FF}メダフォースを ためる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Charges Medaforce.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{fa:FF}メダフォース1を しようする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Uses Medaforce 1.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{fa:FF}メダフォース2を しようする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Uses Medaforce 2.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{fa:FF}メダフォース3を しようする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Uses Medaforce 3.{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

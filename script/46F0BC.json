@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "こわれている{item}",
-   "en": "",
-   "status": "new",
+   "en": "Broken{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "つかえない{item}",
-   "en": "",
-   "status": "new",
+   "en": "Unusable{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "かいすうゼロ{item}",
-   "en": "",
-   "status": "new",
+   "en": "No Uses{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "MFため{item}",
-   "en": "",
-   "status": "new",
+   "en": "MF Charge{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "MFぶそく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Low MF{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "おぼえていない{item}",
-   "en": "",
-   "status": "new",
+   "en": "Not Known{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ06{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 06{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ07{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 07{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ08{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 08{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ09{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 09{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ0A{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 0A{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ0B{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 0B{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ0C{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 0C{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ0D{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 0D{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ0E{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 0E{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ0F{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 0F{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ10{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 10{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ11{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 11{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ12{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 12{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ13{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 13{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ14{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 14{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ15{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 15{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ16{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 16{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ17{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 17{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ18{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 18{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ19{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 19{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ1A{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 1A{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ1B{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 1B{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ1C{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 1C{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ1D{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 1D{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ1E{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 1E{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ1F{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 1F{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ20{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 20{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ21{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 21{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ22{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 22{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ23{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 23{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ24{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 24{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ25{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 25{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ26{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 26{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ27{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 27{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ28{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 28{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ29{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 29{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ2A{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 2A{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ2B{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 2B{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ2C{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 2C{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ2D{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 2D{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ2E{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 2E{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ2F{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 2F{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ30{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 30{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ31{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 31{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ32{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 32{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ33{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 33{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ34{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 34{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -646,8 +646,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ35{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 35{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -658,8 +658,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ36{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 36{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -670,8 +670,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ37{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 37{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -682,8 +682,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ38{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 38{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,8 +694,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ39{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 39{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -706,8 +706,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ3A{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 3A{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -718,8 +718,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ3B{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 3B{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -730,8 +730,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ3C{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 3C{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -742,8 +742,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ3D{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 3D{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -754,8 +754,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ3E{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 3E{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -766,8 +766,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ3F{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 3F{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -778,8 +778,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ40{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 40{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -790,8 +790,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ41{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 41{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -802,8 +802,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ42{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 42{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -814,8 +814,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ43{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 43{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -826,8 +826,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ44{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 44{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -838,8 +838,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ45{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 45{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -850,8 +850,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ46{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 46{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -862,8 +862,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ47{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 47{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -874,8 +874,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ48{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 48{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -886,8 +886,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ49{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 49{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -898,8 +898,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ4A{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 4A{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -910,8 +910,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ4B{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 4B{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -922,8 +922,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ4C{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 4C{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -934,8 +934,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ4D{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 4D{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -946,8 +946,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ4E{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 4E{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -958,8 +958,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ4F{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 4F{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -970,8 +970,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ50{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 50{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -982,8 +982,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ51{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 51{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -994,8 +994,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ52{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 52{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1006,8 +1006,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ53{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 53{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1018,8 +1018,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ54{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 54{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1030,8 +1030,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ55{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 55{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1042,8 +1042,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ56{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 56{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1054,8 +1054,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ57{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 57{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1066,8 +1066,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ58{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 58{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1078,8 +1078,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ59{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 59{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1090,8 +1090,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ5A{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 5A{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1102,8 +1102,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ5B{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 5B{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1114,8 +1114,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ5C{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 5C{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1126,8 +1126,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ5D{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 5D{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1138,8 +1138,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ5E{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 5E{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1150,8 +1150,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ5F{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 5F{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1162,8 +1162,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ60{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 60{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1174,8 +1174,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ61{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 61{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1186,8 +1186,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ62{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 62{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1198,8 +1198,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ63{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 63{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1210,8 +1210,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ64{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 64{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1222,8 +1222,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ65{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 65{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1234,8 +1234,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ66{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 66{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1246,8 +1246,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ67{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 67{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1258,8 +1258,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ68{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 68{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1270,8 +1270,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ69{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 69{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1282,8 +1282,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ6A{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 6A{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1294,8 +1294,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ6B{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 6B{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1306,8 +1306,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ6C{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 6C{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1318,8 +1318,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ6D{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 6D{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1330,8 +1330,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ6E{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 6E{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1342,8 +1342,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ6F{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 6F{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1354,8 +1354,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ70{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 70{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1366,8 +1366,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ71{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 71{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1378,8 +1378,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ72{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 72{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1390,8 +1390,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ73{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 73{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1402,8 +1402,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ74{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 74{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1414,8 +1414,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ75{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 75{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1426,8 +1426,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ76{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 76{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1438,8 +1438,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ77{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 77{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1450,8 +1450,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ78{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 78{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1462,8 +1462,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ79{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 79{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1474,8 +1474,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ7A{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 7A{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1486,8 +1486,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ7B{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 7B{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1498,8 +1498,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ7C{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 7C{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1510,8 +1510,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ7D{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 7D{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1522,8 +1522,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ7E{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 7E{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1534,8 +1534,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "データ7F{item}",
-   "en": "",
-   "status": "new",
+   "en": "Data 7F{item}",
+   "status": "done",
    "notes": ""
   }
  ]

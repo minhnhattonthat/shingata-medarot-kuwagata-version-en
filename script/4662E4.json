@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「かくとう」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Melee attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「しゃげき」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Shooting attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「こうがく」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Beam attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「かやく」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Explosive attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "「じゅうりょく」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Gravity attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「せっち」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Trap attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「へんどう」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Shift attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「ていし」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Halt attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「そくばく」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Bind attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「けいぞく」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Sustained attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「かいじょ」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Dispel attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「むこう」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Nullify attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「ぼうぎょ」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Defense attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「かいふく」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Recover attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「ふっかつ」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Revive attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「たいくう」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Anti-Air attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「たいすい」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Anti-Water attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「さくてき」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Scout attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「いんぺい」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Stealth attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「じかん」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Time attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「ぼうがい」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Jamming attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「はかい」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Destroy attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「さいせい」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Regenerate attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「れんけい」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Teamwork attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「はんげき」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Counter attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「へんか」ぞくせいの メダルと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Change attribute Medals.{end:02}",
+   "status": "done",
    "notes": ""
   }
  ]

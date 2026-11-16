@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "つうしんチェックちゅう！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Checking connection!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {

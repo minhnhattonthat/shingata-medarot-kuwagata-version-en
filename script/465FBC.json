@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「かくとう」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Melee attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「しゃげき」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Shooting attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「こうがく」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Beam attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「かやく」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Explosive attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "「じゅうりょく」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Gravity attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「せっち」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Trap attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「へんどう」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Shift attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「ていし」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Halt attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「そくばく」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Bind attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「けいぞく」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Sustained attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「かいじょ」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Dispel attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「むこう」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Nullify attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「ぼうぎょ」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Defense attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「かいふく」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Recover attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「ふっかつ」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Revive attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「たいくう」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Anti-Air attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「たいすい」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Anti-Water attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「さくてき」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Scout attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「いんぺい」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Stealth attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「じかん」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Time attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「ぼうがい」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Jamming attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「はかい」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Destroy attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「さいせい」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Regenerate attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「れんけい」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Teamwork attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "「はんげき」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Counter attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "「へんか」ぞくせいの パーツと あいしょうがよい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Compatible with Change attribute parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "あいしょうのよい パーツはない{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "No compatible parts.{end:02}",
+   "status": "done",
    "notes": ""
   }
  ]

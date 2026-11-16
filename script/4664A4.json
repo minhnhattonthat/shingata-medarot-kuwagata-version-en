@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "「なぐる」こうどうパーツを そうびしている メダロットをねらう{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Targets Medabots equipped with Strike action parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "「がむしゃら」こうどうパーツを そうびしている メダロットをねらう{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Targets Medabots equipped with{n}Berserk action parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "「うつ」こうどうパーツを そうびしている メダロットをねらう{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Targets Medabots equipped with Shoot action parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "「ねらいうち」こうどうパーツを そうびしている メダロットをねらう{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Targets Medabots equipped with Snipe action parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "「まもる」こうどうパーツを そうびしている メダロットをねらう{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Targets Medabots equipped with{n}Protect action parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "「なおす」こうどうパーツを そうびしている メダロットをねらう{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Targets Medabots equipped with Repair action parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "「おうえん」こうどうパーツを そうびしている メダロットをねらう{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Targets Medabots equipped with{n}Support action parts.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "「ぼうがい」こうどうパーツを そうびしている メダロットをねらう{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Targets Medabots equipped with{n}Jamming action parts.{end:02}",
+   "status": "done",
    "notes": ""
   }
  ]

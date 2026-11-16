@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ロボロボメダル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rubberobo Medal{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ふくびきけん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Raffle Ticket{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "わたるくんルアー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Wataru-kun Lure{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "てづくりルアー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Handmade Lure{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "あおいひよこ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Blue Chick{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "なふだ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Name Tag{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ふつうのメガネ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Plain Glasses{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "しきぼう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Baton{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "むずかしいほん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Hard Book{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "めちゃムズのほん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Very Hard Book{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ちょームズのほん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Super Hard Book{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "くわがたむし{item}",
-   "en": "",
-   "status": "new",
+   "en": "Stag Beetle{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ダメロット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Meda-dud{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "しんせんなさかな{item}",
-   "en": "",
-   "status": "new",
+   "en": "Fresh Fish{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ほしのかけら{item}",
-   "en": "",
-   "status": "new",
+   "en": "Star Fragment{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "メダルもどき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Fake Medal{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "やまのつち{item}",
-   "en": "",
-   "status": "new",
+   "en": "Mountain Soil{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "せともの{item}",
-   "en": "",
-   "status": "new",
+   "en": "Pottery{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ロボロボのふく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rubberobo Suit{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ボスのしゃしん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Boss Photo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "MーPKメダル{item}",
-   "en": "",
-   "status": "new",
+   "en": "M-PK Medal{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "きんぴかパーツ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Golden Parts{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "おんぼろパーツ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Worn-out Parts{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "けいたいでんわ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cell Phone{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "かぜのつばさ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Wind Wings{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ミニハンドル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Mini Wheel{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "せんぼうきょう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Periscope{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "タウンマップ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Town Map{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "しのびチケット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ninja Ticket{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ロボロボカード{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rubberobo Card{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ロボロボバッチ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rubberobo Pin{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "パスワード1ーず{item}",
-   "en": "",
-   "status": "new",
+   "en": "Password 1-Zu{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "パスワード2ーい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Password 2-I{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "パスワード3ーけ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Password 3-Ke{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "パスワード4ーん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Password 4-N{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "おんなのこメダル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Girl Medal{item}",
+   "status": "done",
    "notes": ""
   }
  ]

@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{fa:FF}すべてのパーツに ダメージをあたえる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Deals damage to all parts.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{fa:FF}1パーツに ダメージをあたえる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Deals damage to one part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{fa:FF}しゃげきパーツの すべてのいりょくをつかって こうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Attacks using the full power of all Shooting parts.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{fa:FF}じぶんのダメージぶん あいてにダメージをあたえる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Deals damage equal to the damage you have taken.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{fa:FF}すべてのパーツに 「こうがく」こうか{n}こうげきいりょくが 2ばいになる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Gives all parts the Beam effect.{n}Doubles attack power.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{fa:FF}こうがくこうげきを きゅうしゅうして ダメージかいふく{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Absorbs Beam attacks to Recover damage.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}すべてのパーツに 「かやく」こうか{n}ぜったいヒットと かんつうこうかをえる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Gives all parts the Explosive effect.{page}Attacks always hit and gain piercing.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}かやくこうげきを きゅうしゅうして ダメージかいふく{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Absorbs Explosive attacks to Recover damage.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}すべてのパーツに 「じゅうりょく」こうか{n}こうげきせいこうが 2ばいになる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Gives all parts the Gravity effect.{n}Doubles attack success.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{fa:FF}じゅうりょくこうげきを きゅうしゅうして ダメージかいふく{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Absorbs Gravity attacks to Recover damage.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}すべてのこうげきに ダメージをあたえる トラップ{n}つかうたびに じょうしょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A trap that damages all attacks.{n}Grows stronger with each use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{fa:FF}トラップに かからなくなる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Prevents traps from affecting you.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{fa:FF}「へんどう」のしょうじょうを つける{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Applies the Shift status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{fa:FF}「へんどう」のしょうじょうに かからなくなる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Prevents the Shift status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{fa:FF}「ていし」のしょうじょうを つける{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Applies the Halt status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{fa:FF}「ていし」のしょうじょうに かからなくなる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Prevents the Halt status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{fa:FF}「そくばく」のしょうじょうを つける{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Applies the Bind status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{fa:FF}「そくばく」のしょうじょうに かからなくなる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Prevents the Bind status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{fa:FF}「けいぞく」のしょうじょうを つける{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Applies the Sustained status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{fa:FF}「けいぞく」のしょうじょうに かからなくなる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Prevents the Sustained status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}あいてにダメージをあたえ そのダメージぶん じぶんをかいふくする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Damages the enemy, then lets you Recover the same amount.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{fa:FF}しょうじょうを かいじょする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Dispel status effects.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{fa:FF}あたまパーツのかいすうを アップする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Increases head part uses.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{fa:FF}あいてを ほうねつじょうたいにする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Forces the enemy into cooldown.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}あいてからの こうげきダメージを げんしょうさせる{n}つかうたびに じょうしょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Reduces damage from enemy attacks.{n}Grows stronger with each use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{fa:FF}こうげきいりょくを あげる{n}つかうたびに じょうしょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Raises attack power.{n}Grows stronger with each use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{fa:FF}ダメージをうけたパーツを かいふくする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Makes damaged parts Recover.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}じぶんのそうこうを はんげんし へらしたぶん あいてにダメージを あたえる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Halves your armor and deals damage equal to the amount lost.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{fa:FF}きのうていしパーツを ふっかつさせる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Revive broken parts.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{fa:FF}みかたの きのうていしパーツのかずで ダメージがアップする こうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}An attack that deals more damage for each broken part on your team.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}ひこうメダロットに ランダムで しょうじょうをつける{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Applies a random status to Flight Medabots.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}きゃくぶのうりょく「すいしん」を アップさせる{n}つかうたびに じょうしょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Raises the Legs' Propulsion stat.{n}Grows stronger with each use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{fa:FF}せんすいメダロットに ランダムで しょうじょうをつける{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Applies a random status to Aquatic Medabots.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{fa:FF}きゃくぶのうりょく「きどう」を アップさせる{n}つかうたびに じょうしょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Raises the Legs' Mobility stat.{n}Grows stronger with each use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{fa:FF}あいての「さくてき」をさげ みかたの「さくてき」をあげる{n}つかうたびに じょうしょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Lowers enemy Scout and raises ally Scout.{page}Grows stronger with each use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}きゃくぶのうりょく「きんせつ」を アップさせる{n}つかうたびに じょうしょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Raises the Legs' Close-Range stat.{n}Grows stronger with each use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{fa:FF}あいての「いんぺい」をさげ みかたの「いんぺい」をあげる{n}つかうたびに じょうしょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Lowers enemy Stealth and raises ally Stealth.{page}Grows stronger with each use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}きゃくぶのうりょく「えんかく」を アップさせる{n}つかうたびに じょうしょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Raises the Legs' Long-Range stat.{n}Grows stronger with each use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{fa:FF}「ほじょチャージ」のしょうじょうを つける{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Applies the Charge Support status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{fa:FF}てんとうさせて あたまパーツに ダメージと こうどうを わすれさせる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Knocks the target down, damages its head part and makes it forget its action.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{fa:FF}「こんらん」のしょうじょうを つける{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Applies the Confusion status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{fa:FF}「しようふのう」のしょうじょうを つける{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Applies the Disable status.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{fa:FF}うしろむきのあいてに デストロイこうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A Destroy attack against an enemy facing away.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{fa:FF}「はんげき」・「えんご」のたいせいを とっているパーツを はかいする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Destroy parts in a Counter or Cover stance.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{fa:FF}メダフォースを0にし へらしたぶんのダメージを あたえる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Reduces Medaforce to 0 and deals damage equal to the amount lost.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{fa:FF}メダフォースのたまるりょうが 2ばいになる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Doubles the amount of Medaforce gained.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{fa:FF}トラップのいりょくが あがる{n}つかうたびに じょうしょう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Raises trap power.{n}Grows stronger with each use.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{fa:FF}きゃくぶパーツを はかいする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Destroy Legs parts.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{fa:FF}えんごにはいると ときどきはんげきする{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Sometimes performs a Counter when covering an ally.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{fa:FF}「はんげき」・「えんご」に かからなくなる{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Prevents Counter and Cover from affecting you.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{fa:FF}サイコロのめで いりょくが へんかする こうげき{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}An attack whose power changes with a dice roll.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}じぶんと おなじきゃくぶのメダロットに だいダメージ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Deals heavy damage to Medabots with the same Legs type as you.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{fa:FF}データなし{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}No Data{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

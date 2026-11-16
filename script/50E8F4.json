@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:012500}みなさん こんにちは〜！！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:012500}Hellooo, everyone!!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "{face:003000}こんにちは〜！！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003000}Hellooo!!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:012500}「しゅうかんメダロット」の じかんが やってきました〜！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:012500}It's time for \"Medabot Weekly\"!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:002E00}ねえねえ こんしゅうは なに？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}Hey, hey! What's this week's topic?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{face:012500}あせらないでっ こんしゅうはね{n}「メダロットの くみたてこうざ」よ！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:012500}Don't rush me! This week, it's \"How to Assemble a Medabot\"!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:003000}えっ？ ボクたちの くみたてかた？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003000}Huh? How to assemble us?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:012500}じゃあ しらない きみも しってる きみも{n}おねえさんと いっしょに べんきょうしましょ！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:012500}Whether you know how or not,{n}come learn along with your big sister!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:002800}それじゃあ はじまり はじまりぃ〜！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002800}Then let's get staaarted!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 58,
    "jp": "{face:002500}ここに あるのは メダロットのほねぐみ おなじみティンペット{page}それじゃあ パーツそうちゃくいってみよ〜！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}Here's that familiar Tinpet, the frame of a Medabot.{page}Now, let's attach those parts!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "あたまは「アンテナ」！{n}かくれた てきも バッチリ みつけだす！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The Head is \"Antenna\"! It spots even hidden enemies!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "みぎうでは「チャンバラソード」！{n}すばやく きる！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The Right Arm is \"Chanbara Sword\"! A swift slash!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "ひだりうでは「ピコペコハンマー」！{n}ひっさつの いちげき！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The Left Arm is \"Pikopeko Hammer\"! A deadly blow!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "きゃくぶは「タタッカー」！{n}かろやかな あしさばき！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The Legs are \"Tatacker\"! Light on its feet!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "そして・・・しあげはこれよ！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "And... here's the finishing touch!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "メダルで うごくロボットだから メダロット！ ね？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "A robot powered by a Medal, so it's a Medabot! See?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:012500}これからも 「しゅうかんメダロット」を よろしくね！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:012500}Keep tuning in to \"Medabot Weekly\"!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:002E00}えっ！？ もう おわり！？{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}Huh!? It's over already!?{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{face:012500}それじゃ バイバ〜イ！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "{face:012500}Well then, bye-byeee!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:002800}また らいしゅ〜！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002800}See you next weeeek!{end:00}",
+   "status": "done",
    "notes": ""
   }
  ]

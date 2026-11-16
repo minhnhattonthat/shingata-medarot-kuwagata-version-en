@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{fa:FF}メダロットってなに？{n}ひよこうりのおじさんが おしえてくれたぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}What's a Medabot?{page}The chick seller taught me about them.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}パーツパラメーターにある 「せいこう」について おとこのこが おしえてくれたぞ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A boy explained \"Success\", one of a part's stats.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}ロボロボメダルは ロボトルを かいひするときに やくにたつらしい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Rubberobo Medals are apparently{n}useful for avoiding Robattles.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}メダルとパーツの 「あいしょう」が いっちすると パワーアップ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Matching the \"affinity\" of Medals and parts makes them stronger?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{fa:FF}きゃくぶパーツの 「きんせつ」と 「えんかく」は どういう いみ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}What do \"Melee\" and \"Ranged\" mean on Legs parts?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{fa:FF}「じゅくれんど」を あげると ロボトルでは かなり ゆうり らしい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Apparently, raising \"Mastery\" gives you a big advantage in Robattles.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{fa:FF}「ちけい」によって きゃくぶパーツをかえておくと ロボトルが ゆうりになるらしい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Changing Legs parts to suit the terrain apparently helps in Robattles.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}「じゅうてん」と「ほうねつ」は パーツをつかう スピードに かんけいするらしい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}\"Charge\" and \"Cooldown\" apparently affect how quickly you can use a part.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{fa:FF}きゃくぶパーツの 「すいしん」と「きどう」は どういう いみ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}What do \"Propulsion\" and \"Mobility\"{n}mean on Legs parts?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{fa:FF}ロボトルで すさまじい いりょくを はっきする 「メダフォース」とは？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}What is \"Medaforce\", the tremendous power used in Robattles?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}メダルの「ローテーション」をせっていしておくと じどうでロボトルが できる！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Set a Medal's \"Rotation\" to Robattle automatically!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{fa:FF}タイトルがめんで あるそうさをすると・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Enter a certain command on the title screen, and...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{fa:FF}まだ じょうほう を てに いれていない・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}No information obtained yet...{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

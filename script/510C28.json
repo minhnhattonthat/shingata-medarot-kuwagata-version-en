@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 15,
    "jp": "エグゼクティブプロデューサー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Executive Producer{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 11,
    "jp": "チーフプロデューサー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Chief Producer{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 11,
    "jp": "キャラクターデザイン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Character Design{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ゲームデザイン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Game Design{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 11,
    "jp": "セールスマネージャー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sales Manager{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 12,
    "jp": "プロモーションスタッフ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Promotion Staff{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 13,
    "jp": "ディレクター・プログラム{item}",
-   "en": "",
-   "status": "new",
+   "en": "Director & Coding{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "プログラム{item}",
-   "en": "",
-   "status": "new",
+   "en": "Programming{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 15,
    "jp": "イベント・バトルディレクター{item}",
-   "en": "",
-   "status": "new",
+   "en": "Event/Battle Dir.{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "グラフィック{item}",
-   "en": "",
-   "status": "new",
+   "en": "Graphics{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "サウンド{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sound{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "スペシャルサンクス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Special Thanks{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "プロデューサー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Producer{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "IMAGINEER{item}",
-   "en": "",
-   "status": "new",
+   "en": "IMAGINEER{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "かみくら たかゆき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Takayuki Kamikura{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "すみおか かずのり{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kazunori Sumioka{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "きたざわ なおき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Naoki Kitazawa{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "HRS{item}",
-   "en": "",
-   "status": "new",
+   "en": "HRS{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ホリウチー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Horiuchi{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -646,8 +646,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "おおのぎ よしひろ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Yoshihiro Onogi{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -658,8 +658,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "もりた ゆう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Yu Morita{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -670,8 +670,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "わだ あきら{item}",
-   "en": "",
-   "status": "new",
+   "en": "Akira Wada{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -682,8 +682,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "たいぼく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Taiboku{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,8 +694,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "KIT{item}",
-   "en": "",
-   "status": "new",
+   "en": "KIT{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -706,8 +706,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "たにぃ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tanii{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -718,8 +718,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "46まさむね{item}",
-   "en": "",
-   "status": "new",
+   "en": "46 Masamune{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -730,8 +730,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ぽんすけ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ponsuke{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -742,8 +742,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ねこまおう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nekomaou{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -754,8 +754,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ニイオ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Niio{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -766,8 +766,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "イカ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ika{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -778,8 +778,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "みこ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Miko{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -790,8 +790,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "MIKKY{item}",
-   "en": "",
-   "status": "new",
+   "en": "MIKKY{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -814,8 +814,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ミニさと{item}",
-   "en": "",
-   "status": "new",
+   "en": "Minisato{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -826,8 +826,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "もりはら のりゆき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Noriyuki Morihara{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -838,8 +838,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ABA{item}",
-   "en": "",
-   "status": "new",
+   "en": "ABA{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -850,8 +850,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "まつだ たかし{item}",
-   "en": "",
-   "status": "new",
+   "en": "Takashi Matsuda{item}",
+   "status": "done",
    "notes": ""
   },
   {

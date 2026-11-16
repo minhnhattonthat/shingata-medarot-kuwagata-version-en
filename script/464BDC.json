@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 13,
    "jp": "{face:010001}A{page}{face:000101}A{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010001}A{page}{face:000101}A{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010008}YES{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010008}YES{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:000108}YES{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000108}YES{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 8,
    "jp": "{face:000108}NO{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000108}NO{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}じゅうじボタン さゆうで メダルへんこう{n}Lボタン Rボタンで がめんへんこう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Left/Right: Change Medal{n}L/R: Change Screen{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}じゅうじボタン じょうげで カーソルいどう{n}Aボタンで せつめい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Up/Down: Move Cursor{n}A: Description{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "パーツや メダルの ぶんるい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The category of parts and Medals.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "メダルが ねらう メダロットの パーツじゅくれんど{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The part Mastery of the Medabots this Medal targets.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "パーツと メダルの ぞくせいを あわせると このすうちぶん せいこうちが アップする{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Matching the part and Medal attributes raises success by this amount.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "こうどうの しゅるい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The type of action.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "しょうひする メダフォースりょう{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The amount of Medaforce consumed.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 7,
    "jp": "データなし{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "No Data{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{fa:FF}Aボタンで ローテーションせってい{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}A: Set Rotation{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 63,
    "jp": "オートロボトルのときの メダルのこうどうせってい{page}せっていした こうどうが こうかてきでないばあいは べつのこうどうをとる{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Sets the Medal's actions in an Auto Robattle.{page}If a set action is ineffective, it will take another action.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "こうどうを くりかえすポイントの せってい{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Sets the point to repeat actions from.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{fa:FF}じゅうじボタン さゆうで こうどうを くりかえすポイントを せっていしてください{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Press Left/Right to set the point to repeat actions from.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "{fa:FF}じゅうじボタン さゆうで ページきりかえ{n}Lボタン Rボタンで パーツぶいへんこう{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{fa:FF}Left/Right: Change Page{n}L/R: Change Part Section{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "きんせつパーツ{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Close-range parts{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "えんかくパーツ{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Long-range parts{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "きゃくぶタイプの しきべつマーク{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "The symbol identifying the Legs type.{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "ロボロボメダルを つかいますか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Use a Rubberobo Medal?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "ロボトルを かいひした！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Avoided the Robattle!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "くまれたメダロットが 1たいもありません！{n}メダロットを くみたててください{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "You have no assembled Medabots!{page}Please assemble a Medabot.{end:00}",
+   "status": "done",
    "notes": ""
   }
  ]

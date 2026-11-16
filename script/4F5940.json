@@ -982,8 +982,8 @@
    "kind": "ff",
    "bytes": 11,
    "jp": "{face:003603}ロボーッ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003603}Robooo!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1858,8 +1858,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:003603}ロボー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003603}Robooo!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1906,8 +1906,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:003603}ロボー{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003603}Robooo!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2422,8 +2422,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{face:010000}はこのなかは からっぽだ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}The box is empty.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
