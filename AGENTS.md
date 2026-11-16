@@ -3,7 +3,8 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `<SKILL_DIR>/SKILL.md`; `$SKILL` = the directory holding its SKILL.md, printed by `python tools/skill.py`). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 build.py` -> build/medarot_kuwagata_en.gba (checks the dump against `rom.sha1` first; written in phase 3)
+- Build:    `python -X utf8 build.py` -> build/medarot_kuwagata_en.gba (checks the dump against `rom.sha1` first; byte-identical to the original until text goes in). `--relocate-all [--poison]`: every script string moved past 8 MiB (old copies overwritten with ア) to test the pointer writer
+- Compare shots: `python -X utf8 tools/shotdiff.py work/qa/scenes/shots work/qa/scenes_<x>/shots --out work/qa/shotdiff` (after `prove.py ROM --no-states --qa work/qa/scenes_<x>`)
 - Check:    `python -X utf8 tools/check.py` (tests + lint; the pre-commit hook runs this; hooks path: `git config core.hooksPath tools/hooks`)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/medarot_kuwagata_en.gba --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/medarot_kuwagata_en.gba --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.txt`, RAM map `docs/re/debug.md`; never ask the user to play to a scene)

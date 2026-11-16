@@ -33,6 +33,19 @@ def test_lz77_roundtrip(off):
     assert lz77.decompress(lz77.compress(raw))[0] == raw
 
 
+@need_rom
+@pytest.mark.slow
+@pytest.mark.parametrize("codec", [lz77, le], ids=["lz77", "le"])
+def test_every_block_roundtrips(codec):
+    """Phase 3: every pointed-to graphics block survives decompress -> compress -> decompress (~10 min)."""
+    data = ROM.read_bytes()
+    blocks = codec.scan(data)
+    assert len(blocks) > 1400
+    bad = [off for off in blocks
+           if codec.decompress(codec.compress(raw := codec.decompress(data, off)[0]))[0] != raw]
+    assert not bad, [hex(o) for o in bad[:10]]
+
+
 def test_le_synthetic():
     raw = bytes(range(40)) * 3 + b"\x00" * 70 + b"abcabcabc"
     assert le.decompress(le.compress(raw))[0] == raw

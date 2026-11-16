@@ -1,6 +1,6 @@
 """Prove every scene of tools/debug/scenes.txt from a cold boot and regenerate work/states/<scene>.mss.
 
-usage: python -X utf8 tools/debug/prove.py [ROM] [--only a,b] [--jobs 4] [--no-states]
+usage: python -X utf8 tools/debug/prove.py [ROM] [--only a,b] [--jobs 4] [--no-states] [--qa DIR]
 Each scene is its own cold-boot run of warp.lua (new game, intro, then the scene). A scene passes when its log
 has "ARRIVED". Shots: work/qa/scenes/<scene>/arrived.png, copied to work/qa/scenes/shots/<scene>.png; sheet of all
 proven scenes: work/qa/scenes/sheet*.png. Exit 1 on any failure.
@@ -30,7 +30,7 @@ def scene_names():
 
 
 def run(name, a):
-    out = ROOT / "work" / "qa" / "scenes" / name
+    out = a.qa / name
     cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), str(a.rom), "--out", str(out),
            "--frames", "15000", "--timeout", "600", "--script", str(ROOT / "tools" / "debug" / "warp.lua"),
            "--var", f"SCENE='{name}'", "--var", "STOP=1"]
@@ -50,6 +50,8 @@ def main():
     ap.add_argument("--only")
     ap.add_argument("--jobs", type=int, default=4)
     ap.add_argument("--no-states", action="store_true")
+    ap.add_argument("--qa", type=Path, default=ROOT / "work" / "qa" / "scenes",
+                    help="output dir (another ROM: keep the original's shots, e.g. work/qa/scenes_poison)")
     a = ap.parse_args()
     names = a.only.split(",") if a.only else scene_names()
     (ROOT / "work" / "states").mkdir(parents=True, exist_ok=True)
@@ -60,16 +62,16 @@ def main():
         print(f"{'ok  ' if ok else 'FAIL'} {name:16s} {info.strip()}")
         bad += not ok
     # one named copy per scene, so the sheet labels tiles by scene and an --only run keeps the others on it
-    shot_dir = ROOT / "work" / "qa" / "scenes" / "shots"
+    shot_dir = a.qa / "shots"
     shot_dir.mkdir(parents=True, exist_ok=True)
     for n, ok, _ in res:
         if ok:
-            shutil.copyfile(ROOT / "work" / "qa" / "scenes" / n / "arrived.png", shot_dir / f"{n}.png")
+            shutil.copyfile(a.qa / n / "arrived.png", shot_dir / f"{n}.png")
     names = set(scene_names())
     shots = [str(p) for p in sorted(shot_dir.glob("*.png")) if p.stem in names]
     if shots:
         subprocess.run([sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "sheet.py"), *shots,
-                        "--out", str(ROOT / "work" / "qa" / "scenes" / "sheet.png")])
+                        "--out", str(a.qa / "sheet.png")])
     print(f"{len(res) - bad}/{len(res)} scenes arrived")
     sys.exit(1 if bad else 0)
 

@@ -18,8 +18,10 @@
 
 ## Compression
 - **BIOS LZ77 0x10**: `tools/lz77.py` (decompress, greedy VRAM-safe compress, `scan`). Roundtrip of
-  decompress -> compress -> decompress is exact on sampled blocks (**verified** for 0x0ACBD8, 0x60ECC0, 0x60ED58; make
-  it a test in phase 3). The BIOS LZ77 routine (PC 0x0B8E/0x0C18) reads 0x511D14-0x551718 during the intro.
+  decompress -> compress -> decompress is exact on sampled blocks (**verified** for 0x0ACBD8, 0x60ECC0, 0x60ED58), and on
+  **all 1457 blocks** for both codecs (`pytest -m slow tests/test_codecs.py`, ~4 min, passed 2026-11-17). Our
+  compressors don't reproduce the original packed bytes (11 of 25 sampled LZ77 blocks differ), so the build keeps
+  every original block and recompresses only an edited asset. The BIOS LZ77 routine (PC 0x0B8E/0x0C18) reads 0x511D14-0x551718 during the intro.
 - **"Le" format** (game's own; **verified**): `tools/le.py`. Entry 0x080009DC checks `L` `e`, then calls 0x08000A2C
   (byte writes) or 0x08000B34 (destination in VRAM, halfword writes), same format. Header: "Le" + 24-bit LE size +
   1 unused byte; data at +6. Each flag byte = four 2-bit commands, low bits first: 0 = u16 w, copy (w>>12)+3 bytes

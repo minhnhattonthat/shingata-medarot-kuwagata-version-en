@@ -121,6 +121,39 @@ types (**verified** as reads; the exact draw routine entry is still to be pinned
 
 The menu words みぎうで, セーブ, アイテム, メダロッチ appear only inside this region, so menus probably share the table.
 
+### Tables used by the build (phase 3; `tools/texttables.py`)
+
+Rule, run on the original ROM: a run of >= 3 aligned pointers inside 0x464000-0x512000 whose targets (minus the
+ones landing inside a >= 3 pointer run: unused slots) are all strings that end at `FF xx` or `FE` (whichever comes
+first), decode with no unknown byte, and don't overlap a pointer run. **61 tables, 8986 slots, 8029 strings**; the
+first, middle and last string of every table were read by eye (2026-11-17). Excluded by hand (`EXCLUDE`), data that
+decodes as kana by chance:
+
+| Run | Why |
+|---|---|
+| 0x465764 | 14-byte records, `FE 00` separated (`06 01 00 06 01 01 ...`) |
+| 0x47AEAC | same record kind (`08 02 00 08 02 01 ... FE 00`) |
+| 0x478958 | u16 records with stray FE |
+| 0x510F0C | 3-byte commands, FF-separated (`02 00 00 02 00 01 ...`) |
+| 0x4B0BAC | `ケエヤ` + `アアアアイイイイ...` records |
+| 0x4B7168 | 16 one-katakana entries ending `FF FF` (ギ, グ, ゾ...): unclear, left for phase 4 |
+
+Rejected by the rule (unknown bytes, or the "string" runs through a pointer table): 0x464598, 0x46702C, 0x46C8B4
+(teams), 0x470854, 0x477CC8, 0x478164, 0x47A99C, 0x47DF80 (map event lists), 0x47E658, 0x48198C, 0x481CD0,
+0x4A2E9C, 0x4ABB2C, 0x4B221C, 0x4B6248 (per-map entries), 0x4F83BC, 0x4FC358 (event
+scripts), 0x50DA8C, 0x510A04. Phase 4 decides each of these (some, like 0x4A2E9C with 101 FE names, hold text).
+
+**Code literals** (pseudo-table addr 0): 4 literal-pool words in 0x000000-0x0C5000 hold a table string's exact start
+(0x660AC, 0x6634C, 0x66350 -> strings of 0x50D0B4/0x50D2D0; 0x6B118). The first run of the poison build showed the
+parts shop clerk's greeting as ア: 0x660AC -> 0x50D0F8. Words there that point mid-string (0x8ACC4, 0x8BA08, 0x8BB10,
+0x8BCC4) are Thumb opcodes, not pointers; the 90-odd hits above 0x200000 are sound/graphics bytes.
+
+**Verified (2026-11-17)** by `build.py --relocate-all --poison`: every one of the 8029 strings copied past 8 MiB, all
+8990 slots repointed, the old copies overwritten with ア (control codes kept); all 70 debug scenes arrive from a cold
+boot and `tools/shotdiff.py` against the original ROM's shots leaves no ア run (49 identical; the other 21 differ
+only in animated backgrounds, fades and sprites, checked zoomed). Any ア run in a scene is a reference outside these
+tables; phase 4's text coverage (`textcover.py`) covers the strings the 70 scenes don't show.
+
 ### Not found yet (phase 2/4 must locate)
 
 - ~~Robot model, part and medal names~~: found, see §Name lists (FE-terminated). ヘッドシザース/メタルビートル are the

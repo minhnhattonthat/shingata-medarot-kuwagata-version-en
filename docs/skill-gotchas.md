@@ -30,3 +30,8 @@ One line per gotcha: the reference file it belongs in, then the fact.
 - references/emulator-qa.md §Debug tool: a value shown on screen (money) was found fastest by write-hooking the
   screen's text buffer, reading the number-to-text routine's caller, then the ldr just before the call; full-RAM
   read traces of the menu showed only the already-formatted string.
+- references/pipeline.md §Identity: for an in-place-read script (GBA, no compression), a byte-identical build is
+  trivial; a "relocate every string + overwrite the old copies with one visible glyph" stress build, toured with the
+  debug tool, proved the pointer writer and found a code literal pointer the table sweep missed (parts shop clerk).
+- references/emulator-qa.md: comparing warp-scene shots of two builds pixel by pixel over-reports: half the scenes
+  differed only in animated backgrounds / fades (arrival frame shifts), so diffs need a zoomed look, not a threshold.

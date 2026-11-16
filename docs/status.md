@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 3. Identity build next (phases 1 and 2 done). Last build: none yet.
+- **Phase:** 4. Extract next (phases 1-3 done). Last build: 2026-11-17 `build/medarot_kuwagata_en.gba`, sha1
+  573e980d... = the original (identity), smoke ok.
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/` (+ GBA BIOS), guard hook proven (canary blocked), pre-commit runs
     `tools/check.py` and rejects a failing test, `rom.sha1` pinned, boot route reaches the title menu.
@@ -23,8 +24,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/debug/maptour.py --jobs 2`: all 141 map ids warped and shot (`work/qa/maps/sheet*.png`).
     RAM: money u32 0x03001D50, shop id 0x03001D3C, encyclopedia bits 0x03004260-67, medals 0x03000BE0, Medabots
     0x03001790, items 0x03001D80, parts 0x03003DF0, team id +0x942 / story flag +0x945.
-- **Next (phase 3, `references/pipeline.md` §Identity):** unpack then repack with no edits; the rebuilt ROM must be
-  byte-identical to the original, as a test. Write `build.py` (the AGENTS.md command) around it.
+  - Phase 3 identity build: `build.py` -> `tools/rombuild.py` (text stage: every string of the 61 text tables +
+    4 code literals found by `tools/texttables.py`, 8029 strings / 8990 slots, decoded and re-encoded through
+    `tbl/jp.tbl`; unchanged strings stay, changed ones move past 8 MiB and get repointed; graphics blocks kept as the
+    original bytes). Default build is byte-identical (`tests/test_identity.py`, in the pre-commit check). Pointer
+    writer proven by `build.py --relocate-all --poison` (all strings moved, old copies -> ア): romdiff with the write
+    log clean, smoke ok, 70/70 scenes arrive, no ア left after adding the code literals (docs/re/text.md §Tables used
+    by the build). LZ77 + Le: every block (1457 + 1564) roundtrips (`pytest -m slow tests/test_codecs.py`).
+    `prove.py --qa DIR` keeps another ROM's shots apart; `tools/shotdiff.py` compares two shot dirs.
+- **Next (phase 4, `references/pipeline.md` §Extract):** dump the strings into `script/*.json` (id, slots, jp, en,
+  max...) from `texttables.find_tables`, then decide the runs it rejects (docs/re/text.md lists them: 0x4A2E9C has
+  ~100 FE names, 0x4B7168 one-katakana entries, 0x4B6248, 0x47DF80...). Roundtrip test over every string, and a
+  coverage test of 0x464000-0x512000 (every byte is a string, a table, or a listed data range). Then have
+  `rombuild.text_stage` take its strings from `script/` instead of the ROM. Text read by unknown references shows up
+  as ア in the poison build: run it over the scenes again whenever the text set changes.
 - **Debug-tool gaps (not blocking; grow the list when phase 8 needs them):**
   1. Story robattles start from NPC talk (dispatcher near 0x08055B44, action 0x20 -> scene switch case 0x20); who
      writes the team id +0x942 per NPC is not traced. Scenes set the team id directly, which gives the same screens.
