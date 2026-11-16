@@ -4786,8 +4786,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:010000}じゅずが たくさん はいってる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Lots of prayer beads in here.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4798,8 +4798,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:010000}すいしょうだまが はいってる これで たましいを よぶのかな？{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}There's a crystal ball in here. Is this what they use to call spirits?{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4810,8 +4810,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:010000}なんだかわからねーけど おふだが たくさん はいってる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dunno what they're for, but there are lots of paper charms in here.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4822,8 +4822,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:010000}ほんが はいってる・・・「ザ！ いたこ しゅぎょう」{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}There's a book in here... \"Spirit Medium Training!\"{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4834,8 +4834,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:010004}せいざの せつめいが ながれてる・・・きれいだな{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010004}They're explaining the constellations...{n}So pretty.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4846,8 +4846,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:010000}「ほしと わくせい」か・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}\"Stars and Planets,\" huh...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4858,8 +4858,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:010000}「ロマンチックな よるの すすめ」か・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}\"A Guide to Romantic Nights,\" huh...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4870,8 +4870,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:010000}「メダロットは うちゅうからの おくりもの」か・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}\"Medabots: A Gift from Space,\" huh...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4882,8 +4882,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:010000}「メダルと ほしの かんけい」か・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}\"The Link Between Medals and Stars,\" huh...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4894,8 +4894,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:010000}「こうかな てんたいぼうえんきょう ずかん」か・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}\"An Illustrated Guide to Expensive Telescopes,\" huh...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4906,8 +4906,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:010001}「はるかな わくせい」だって！ おもしろそうだな{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010001}\"Distant Planets\"! Sounds fun.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4918,8 +4918,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:010000}「ほしの あかるさと きょりの かんけい」か・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}\"How a Star's Brightness Relates to Its Distance,\" huh...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4930,8 +4930,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:010000}「プラネタリウムを ごじたくで！」か・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}\"A Planetarium in Your Own Home!\" Huh...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4942,8 +4942,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:010000}「コスモドーム おみやげじてん」か・・・{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}\"Cosmo Dome Souvenir Guide,\" huh...{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4954,8 +4954,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:010001}すごく とおくの ほしが みえる！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010001}I can see stars really far away!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -4966,8 +4966,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:010000}ぼうえんきょうの がぞうが うつしだされてる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's showing images from the telescope.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -5242,8 +5242,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:010000}たかそうな びんに なんかはいってる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Something's in that expensive-looking bottle.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -5254,8 +5254,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:010000}たかそうな びんに なんかはいってる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Something's in that expensive-looking bottle.{end:00}",
+   "status": "done",
    "notes": ""
   }
  ]

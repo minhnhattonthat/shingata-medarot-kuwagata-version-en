@@ -3466,8 +3466,8 @@
    "kind": "ff",
    "bytes": 10,
    "jp": "{face:000208}きゃっ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000208}Eek!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "{face:010001}Xこんにちは{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010001}X Hello.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "Xこれいじょう もてない！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Can't carry any more!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "X「{var:01}」を {var:02}コ てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Got \"{var:01}\" x{var:02}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "X{var:00}は{n}X「{var:01}」を もってない{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X {var:00}{n}X doesn't have \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "X「{var:01}」が {var:02}コ なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost \"{var:01}\" x{var:02}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "X「{var:01}」が なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "Xこのパーツは これいじょう もてません{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X You can't carry any more of this part.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "Xあたまパーツ{n}X「{var:01}」を {var:02}コ てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Got head part{page}X \"{var:01}\" x{var:02}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "Xみぎうでパーツ{n}X「{var:01}」を {var:02}コ てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Got right arm part{page}X \"{var:01}\" x{var:02}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "Xひだりうでパーツ{n}X「{var:01}」を {var:02}コ てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Got left arm part{page}X \"{var:01}\" x{var:02}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "XきゃくぶパーツX「{var:01}」を {var:02}コ てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Got Legs part{page}X \"{var:01}\" x{var:02}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "X{var:00}は{n}X「{var:01}」を もってない{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X {var:00}{n}X doesn't have \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "X{var:00}は みぎうでパーツ{n}X「{var:01}」を もってない{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X {var:00} lacks right arm part{page}X \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "X{var:00}は ひだりうでパーツ{n}X「{var:01}」を もってない{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X {var:00} lacks left arm part{page}X \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "X{var:00}は きゃくぶパーツ{n}X「{var:01}」を もってない{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X {var:00} lacks Legs part{page}X \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "Xあたまパーツ{n}X「{var:01}」が {var:02}コ なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost head part{page}X \"{var:01}\" x{var:02}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "Xみぎうでパーツ{n}X「{var:01}」が {var:02}コ なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost right arm part{page}X \"{var:01}\" x{var:02}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "Xひだりうでパーツ{n}X「{var:01}」が {var:02}コ なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost left arm part{page}X \"{var:01}\" x{var:02}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "Xきゃくぶパーツ{n}X「{var:01}」が {var:02}コ なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost Legs part{page}X \"{var:01}\" x{var:02}.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "Xあたまパーツ{n}X「{var:01}」が なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost head part{n}X \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "Xみぎうでパーツ{n}X「{var:01}」が なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost right arm part{n}X \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "Xひだりうでパーツ{n}X「{var:01}」が なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost left arm part{n}X \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "Xきゃくぶパーツ{n}X「{var:01}」が なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost Legs part{n}X \"{var:01}\".{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "X{var:00}は{n}X{var:01}0円を てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X {var:00}{n}X got {var:01}0 yen.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "ff",
    "bytes": 13,
    "jp": "X{var:01}0円 なくなった{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Lost {var:01}0 yen.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "Xこのメダルは すでに もっている{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X You already have this Medal.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "X「{var:01}」メダルを てにいれた{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Got the \"{var:01}\" Medal.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -335,8 +335,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "Xあっ！ これいじょう もてないや！{n}Xティンペットをあきらめた！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Oh! I can't carry any more!{n}X Gave up the Tinpet!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -347,8 +347,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "Xおとこの ティンペットをてにいれた！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Got a male Tinpet!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -359,8 +359,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "Xおんなの ティンペットをてにいれた！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Got a female Tinpet!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -468,8 +468,8 @@
    "kind": "ff",
    "bytes": 13,
    "jp": "いまは つかえません！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "You can't use that now!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -480,8 +480,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "ここでは つかえません！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "You can't use that here!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -492,8 +492,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "メダロット「{var:01}」が{n}くみたてられてないよ！{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Medabot \"{var:01}\" hasn't been assembled!{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -504,8 +504,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "あたまパーツ「{var:01}」{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Head part \"{var:01}\"{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -516,8 +516,8 @@
    "kind": "ff",
    "bytes": 13,
    "jp": "みぎうでパーツ「{var:02}」{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Right arm part \"{var:02}\"{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -528,8 +528,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "ひだりうでパーツ「{var:03}」{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Left arm part \"{var:03}\"{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -540,8 +540,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "きゃくぶパーツ「{var:04}」{page}{end:02}",
-   "en": "",
-   "status": "new",
+   "en": "Legs part \"{var:04}\"{end:02}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -552,8 +552,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "メダロット「{var:01}」が{n}かんせいだよ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Medabot \"{var:01}\" is complete!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -668,8 +668,8 @@
    "kind": "ff",
    "bytes": 110,
    "jp": "{face:010000}Xかおえ 00{page}{face:010001}Xかおえ 01{page}{face:010002}Xかおえ 02{page}{face:010003}Xかおえ 03{page}{face:010004}Xかおえ 04{page}{face:010005}Xかおえ 05{page}{face:010006}Xかおえ 06{page}{face:010007}Xかおえ 07{page}{face:010008}Xかおえ 08{page}{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}X Portrait 00{page}{face:010001}X Portrait 01{page}{face:010002}X Portrait 02{page}{face:010003}X Portrait 03{page}{face:010004}X Portrait 04{page}{face:010005}X Portrait 05{page}{face:010006}X Portrait 06{page}{face:010007}X Portrait 07{page}{face:010008}X Portrait 08{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -680,8 +680,8 @@
    "kind": "ff",
    "bytes": 8,
    "jp": "Xいちまいえ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "X Full-screen picture{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -692,8 +692,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:000200}Xひらきっぱなし しゅうりょう{face:00FF00}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000200}X End with window left open{face:00FF00}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -704,8 +704,8 @@
    "kind": "ff",
    "bytes": 10,
    "jp": "{face:000201}X OK{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000201}X OK{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -716,8 +716,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:000201}Xはい か いいえ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000201}X Yes or No{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -728,8 +728,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:000201}Xはい{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000201}X Yes{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -740,8 +740,8 @@
    "kind": "ff",
    "bytes": 10,
    "jp": "{face:000201}Xいいえ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000201}X No{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

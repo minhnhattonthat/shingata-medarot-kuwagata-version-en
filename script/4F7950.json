@@ -2440,8 +2440,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:010000}カギが かかってる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's locked.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2740,8 +2740,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:003601}ロボロボ ロボロボ{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003601}Rubberobo! Rubberobo!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2860,8 +2860,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:001400}よろしいですか？ はじめます{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001400}Are you ready? Let's begin.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

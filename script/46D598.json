@@ -82,7 +82,7 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{face:000600}シフォンちゃんの メダロットは かわいいだけじゃ{n}ないですわ{end:04}",
-   "en": "{face:000600}Chiffon-chan's Medabots aren't just cute, you know.{end:04}",
+   "en": "{face:000600}Chiffon-chan's Medabots are more than merely cute, you know.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -322,7 +322,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:001C00}ふふふ・・・せっしゃの うごきを みきれるで ござるかな？{end:04}",
-   "en": "{face:001C00}Heh heh heh... Can you follow my movements, young one?{end:04}",
+   "en": "{face:001C00}Heh heh heh...{page}Can you follow this humble ninja's movements?{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -358,8 +358,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:002200}あたしだって ロボトルくらい できるわよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002200}Even I can handle a Robattle, you know!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:002500}きょうは い〜い なみに のれそうだぜ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002500}I'm gonna ride a sweet wave today!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:002600}そこらへんの じいさんと いっしょにするでないぞ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002600}Don't lump me in with any old geezer, eh?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:002900}あたちは ただのようちえんじじゃ ないでしゅよ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002900}I'm no owdinary kindergartner, y'know!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:002A00}さいきんの じょしこうせいは メダロットも すごいのよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002A00}High school girls have amazing{n}Medabots these days, you know!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:002D00}かいものがえりの おばさんは こわいんだよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002D00}A lady on her way home from shopping is a fearsome thing, dear!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:002E00}コラーッ！ あいさつぐらい せんかっ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002E00}HEY! Can't you at least say hello!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:003000}かんこうに きても ロボトルは やめられん！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003000}Even sightseeing can't keep me from a Robattle!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:003300}データどおりなら そこで あたまパーツ しよう か・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003300}If the data's right, you'll use your head part there...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:003400}おらが このむら いちばんの め〜だろったーだ〜{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003400}I'm the best Medafighter in this here village!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:003600}ワシの ロボトルは うみのように ふかいぞ〜？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003600}My Robattles run as deep as the sea, lad!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:003800}おとこは かおじゃねえ！ ちからだ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003800}A man's not about looks! It's strength!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:003A00}ゴッドハンドと よばれる ぼくに かてるかな？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003A00}They call me God Hand. Think you can beat me?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:003C00}コウセイノウノ ボクニ キミガ カテルノ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003C00}Can you defeat a high-performance machine like me?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:003D00}ロボトルシステム キドウ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003D00}Robattle system activated!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:003E00}ワタシが いいこと おしえて あ・げ・る♥{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003E00}I'll teach you something niiice, darling.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:003F00}フランスジンハ ケシテ オフランストハ イワナ〜イ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003F00}We French never call France \"Honorable Fraaance\"!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:004000}ダイチノ チカラ ヲ ミセテアゲルネ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004000}I'll show you the power of the earth!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:004100}ボクノ シジハ セイカクダヨ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004100}My commands are precise, you know.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:004200}ミーハ ユーニ カッチャウヨ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004200}Me is gonna beat you!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:004300}ロボトルでも しようかの〜 んん？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004300}How about a Robattle, then? Hmm?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:004400}どれどれ どのくらい おおきくなったか みせてもらおうかねぇ〜{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004400}Well, now... Let me see how much you've grown, dear.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:004500}わたしも むかしは ロボトルのおに とよばれたもんだよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004500}Back in my day, they called me the Robattle Demon.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:004600}あんまり ロボトルは とくいでは ないんだけど・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004600}I'm not very good at Robattles, though...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -646,8 +646,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:004700}うわ〜！ わたしの めがね めがね！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004700}Aaah! My glasses! My glasses!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -658,8 +658,8 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:004800}しきぼうと パーツを いれかえるなんて！ ゆるしませんよ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004800}A part in place of my baton!{page}I won't stand for this!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -670,8 +670,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:004900}ロボトルは きそたいりょくが ひつようだ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004900}Robattles take basic physical fitness!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -682,8 +682,8 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{face:004A00}メダロットのきそを りかい したければ{n}りかを べんきょうしたまえ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004A00}If you want to understand Medabot basics, you must study science!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,8 +694,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:004B00}ウッ ウォ〜〜ン！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004B00}A-Awoooo!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -706,8 +706,8 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:004C00}チ・ジョ・ウ・ノ・ス・ベ・テ・ヲ・ハ・カ・イ・ス・ル{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004C00}DE-STROY-EV-ERY-THING-ON-EARTH.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -718,8 +718,8 @@
    "kind": "ff",
    "bytes": 18,
    "jp": "{face:004D00}シリコダマ よこせ〜〜！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004D00}Hand over your shirikodamaaa!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -730,8 +730,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:004E00}ムズカシイ ホンヲ ヨコシナサイ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004E00}Give me difficult books!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -742,8 +742,8 @@
    "kind": "ff",
    "bytes": 13,
    "jp": "{face:004F00}グガガガガガ〜{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:004F00}Grrrrrrr!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -754,8 +754,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:005000}タコツボに してやるタコ〜！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005000}I'll make you an octopus pot, octo!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -766,8 +766,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:005100}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005100}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -778,8 +778,8 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:005200}え〜マージッすか？ やーるんすか？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005200}Whaaat? Seriously? We're doing this?{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -790,8 +790,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:005400}いらっしゃいませ〜{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005400}Welcooome!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -802,8 +802,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:005500}ほんじつの ヒレカツは やわらかいですよ〜！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005500}Today's pork fillet cutlets are nice and tender!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -814,8 +814,8 @@
    "kind": "ff",
    "bytes": 12,
    "jp": "{face:005600}ウキキーッ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005600}Ook eek eek!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -826,8 +826,8 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:005700}けんきゅうひとすじ 20ねん！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005700}Twenty years devoted to research!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -838,8 +838,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:005800}せんにんは かすみをくって いきているんじゃ・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005800}We sages live on mist, you see...{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -850,8 +850,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:005900}おじいさんの わかいころに そっくりじゃ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005900}You're just like Grandpa in his youth, eh!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -862,8 +862,8 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:005A00}ロボトルしても ざんぎょうだい でないのよ！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005A00}I don't get overtime pay for Robattles, you know!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -874,8 +874,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:005B00}おねえさんも うけつけてる だけじゃないのよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005B00}There's more to me than working reception, you know!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -886,8 +886,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:005C00}わたしだって ロボトル したいのよ〜！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005C00}I wanna have a Robattle toooo!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -898,8 +898,8 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:005D00}ロボトルの おてつだいを させてもらいますよ？{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005D00}Allow me to help with your Robattle.{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -910,8 +910,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:005E00}みなさま〜 ロボトルが はじまりま〜す{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005E00}Ladies and gentlemen, the Robattle is about to begiiin!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -922,8 +922,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:005F00}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005F00}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -934,8 +934,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:006000}マサカリノ イリョクヲ ミセテヤル〜！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}I'll show you the power of my axe!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -946,8 +946,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006100}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006100}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -958,8 +958,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -970,8 +970,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -982,8 +982,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -994,8 +994,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1006,8 +1006,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1018,8 +1018,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1030,8 +1030,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1042,8 +1042,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1054,8 +1054,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1066,8 +1066,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1078,8 +1078,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1090,8 +1090,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:010000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1102,8 +1102,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:001604}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001604}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1114,8 +1114,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:005100}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005100}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1126,8 +1126,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:005100}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005100}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1138,8 +1138,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006100}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006100}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1150,8 +1150,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:000301}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000301}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1162,8 +1162,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:000F01}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000F01}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1174,8 +1174,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:001101}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001101}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1186,8 +1186,8 @@
    "kind": "ff",
    "bytes": 11,
    "jp": "{face:006200}ンモ〜〜！{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006200}Moooo!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1198,8 +1198,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:005300}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005300}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1210,8 +1210,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:005300}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005300}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1222,8 +1222,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1234,8 +1234,8 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:005300}さあ ロボトルかいし！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:005300}Now, Robattle begin!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1246,8 +1246,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1258,8 +1258,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1270,8 +1270,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1282,8 +1282,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1294,8 +1294,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1306,8 +1306,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1318,8 +1318,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1330,8 +1330,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1342,8 +1342,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1354,8 +1354,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1366,8 +1366,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1378,8 +1378,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1390,8 +1390,8 @@
    "kind": "ff",
    "bytes": 9,
    "jp": "{face:006000}ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:006000}Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1402,8 +1402,8 @@
    "kind": "ff",
    "bytes": 5,
    "jp": "ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1414,8 +1414,8 @@
    "kind": "ff",
    "bytes": 5,
    "jp": "ダミー{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1426,8 +1426,8 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:001B00}あたまに メダルを うめこんでやるロボよ〜{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:001B00}I'll embed a Medal in your head, robo!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1438,8 +1438,8 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:002B00}じょしこうせいを あまくみると いたいめ みるわよ{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:002B00}Underestimate a high school girl and you'll regret it!{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1450,8 +1450,8 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:003200}たまには いきぬきに ロボトルも いいかな・・・{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "{face:003200}Maybe a Robattle would make a nice break now and then...{end:04}",
+   "status": "done",
    "notes": ""
   }
  ]

@@ -10,8 +10,8 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "これいじょう メダフォースは たまらない！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Can't store any more Medaforce!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "メダフォースを ためた！{fa:50}{end:04}",
-   "en": "",
-   "status": "new",
+   "en": "Charged Medaforce!{fa:50}{end:04}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "リーダー きのうていし！{n}しょうしゃ {var:01}！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Leader disabled!{n}Winner: {var:01}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "じかんぎれです！{n}しょうしゃ {var:01}！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "Time's up!{n}Winner: {var:01}!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,7 +694,7 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "しょうじょうクリアパーツに よって ぼうがいされた！{fa:50}{end:04}",
-   "en": "Blocked by a status-clearing part!{fa:50}{end:04}",
+   "en": "Blocked by a Status Clear part!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },

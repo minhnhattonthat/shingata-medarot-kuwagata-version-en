@@ -179,8 +179,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{face:010000}おかねが たりないや{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}I don't have enough money.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -575,8 +575,8 @@
    "kind": "ff",
    "bytes": 14,
    "jp": "{face:000403}ここを あけろ！{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:000403}Open up!{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2627,8 +2627,8 @@
    "kind": "ff",
    "bytes": 16,
    "jp": "{face:010000}やっぱり やめとこう{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}On second thought, I'll pass.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

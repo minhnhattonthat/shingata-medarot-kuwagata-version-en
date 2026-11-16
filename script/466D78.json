@@ -130,7 +130,7 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}すべてのこうげきに ダメージをあたえる トラップ{n}つかうたびに じょうしょう{end:04}",
-   "en": "{fa:FF}A trap that damages all attacks.{n}Grows stronger with each use.{end:04}",
+   "en": "{fa:FF}A trap that damages attackers.{n}Grows stronger with each use.{end:04}",
    "status": "done",
    "notes": ""
   },

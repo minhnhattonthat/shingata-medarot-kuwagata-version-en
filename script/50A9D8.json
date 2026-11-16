@@ -886,7 +886,7 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:000E01}おお これじゃこれじゃ{n}さけのさかなが ほしかったんじゃ{end:00}",
-   "en": "{face:000E01}Oh, that's it! Just what I wanted to go with my drink!{end:00}",
+   "en": "{face:000E01}Ah, aye! This is it, this is it!{page}Just what this old fellow wanted{n}with his drink!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1282,7 +1282,7 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:004000}ミーはショック！！{end:00}",
-   "en": "{face:004000}I'm shocked!!{end:00}",
+   "en": "{face:004000}Me? In shock!!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1294,7 +1294,7 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{face:004100}ボクノ ナハ ラシオネ{n}マタイツカ マミエルコトモ アルダロウ・・・{end:00}",
-   "en": "{face:004100}MY NAME IS RASIONE. PERHAPS WE SHALL MEET AGAIN SOMEDAY...{end:00}",
+   "en": "{face:004100}MY NAME IS RACIONE. PERHAPS WE SHALL MEET AGAIN SOMEDAY...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2314,7 +2314,7 @@
    "kind": "ff",
    "bytes": 113,
    "jp": "{face:000A00}パ パパは うれしいぞ{n}こんな りっぱになって{page}{face:010001}パパ やめてよ{n}はずかしいじゃないか{page}{face:005F00}ゆうしょうしゃの {n}{var:00}くんには{page}MーPKたい たいちょう{n}オーロとのラストバトルに{page}ちょうせんして もらいます{end:00}",
-   "en": "{face:000A00}Y-your dad's so proud!{n}You've grown into such a fine young man!{page}{face:010001}Dad, stop it! You're embarrassing me!{page}{face:005F00}Our champion, {var:00}-kun,{page}will now take on Captain Oro of the M-PK force{page}in one last battle!{end:00}",
+   "en": "{face:000A00}Y-your dad's so proud!{n}You've grown into such a fine young man!{page}{face:010001}Dad, stop it! You're embarrassing me!{page}{face:005F00}Our champion, {var:00}-kun,{page}will now take on Leader Oro{n}of the M-PK force{page}in one last battle!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2446,7 +2446,7 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:010006}あっ ラ・マスカーラ！？{page}それに オーロたいちょう？{page}{face:000303}{var:00}！！{page}たすけて・・・{page}{face:001605}ふははははっ こい！{end:00}",
-   "en": "{face:010006}Oh! La Mascara!?{page}And Captain Oro?{page}{face:000303}{var:00}!!{page}Help me...{page}{face:001605}Bwahahaha! Come along!{end:00}",
+   "en": "{face:010006}Oh! La Mascara!?{page}And Leader Oro?{page}{face:000303}{var:00}!!{page}Help me...{page}{face:001605}Bwahahaha! Come along!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2698,7 +2698,7 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:003F00}ミーは ヨーロッパ ダイヒョウの{n}ブリレッツ イウネ{page}ユーは ミーの ファン カイ？{end:00}",
-   "en": "{face:003F00}My name is Brilletz, Europe's representative.{page}Are you a fan of mine?{end:00}",
+   "en": "{face:003F00}Me, I'm Brilletz.{n}Europe's representative, yes!{page}You a fan of mine?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3250,7 +3250,7 @@
    "kind": "ff",
    "bytes": 363,
    "jp": "{face:000401}あなたは・・・ もしかして{n}{var:00}くんですか？{page}{face:010007}・・・わぁ〜 きれいなひとだなぁ・・・{page}{face:000401}{var:00}くん？{page}{face:010007}・・・アイリスなんかとちがって・・・{n}・・・とっても やさしそうだし・・・{page}{face:000400}{var:00}くん{n}わたしの かおに なにかついてます？{page}{face:010006}へっ？ {n}いっ いや なっ なにもっ{page}{face:010007}き きれいだなって {n}み みとれてたわけじゃ{page}{face:000403}クスクスッ{n}おもしろいこね♥ {page}{face:000400}わたしは メダロットはかせの{n}まごで ユマリといいます{page}パーツの せっけいを{n}てつだってるんです{page}{face:010006}あっ オレは{n}{var:00}っていいます{page}{face:000403}クスクスッ♥ {n}おじいさまが いってたとおりのこね{page}{face:010006}・・・なんて いわれてたんだろう・・・{page}{face:000401}よかったら パーツのテストに{n}つきあってくださいませんか？{end:04}",
-   "en": "{face:000401}Are you... {var:00}-kun, by any chance?{page}{face:010007}...Wow... She's so pretty...{page}{face:000401}{var:00}-kun?{page}{face:010007}...And she looks so kind... Nothing like Iris...{page}{face:000400}{var:00}-kun, is there something on my face?{page}{face:010006}Huh? N-no! N-nothing!{page}{face:010007}I-I wasn't staring because you're p-pretty or anything...{page}{face:000403}Hee hee! You're a funny boy.{page}{face:000400}I'm Yumari, the Medabot professor's granddaughter.{page}I help design parts.{page}{face:010006}Oh, I'm {var:00}.{page}{face:000403}Hee hee! You're just as Grandfather described.{page}{face:010006}...What did he say about me...?{page}{face:000401}Would you be willing to help me test some parts?{end:04}",
+   "en": "{face:000401}Are you... {var:00}-kun, by any chance?{page}{face:010007}...Wow... She's so pretty...{page}{face:000401}{var:00}-kun?{page}{face:010007}...Nothing like Iris...{n}...And she looks so kind...{page}{face:000400}{var:00}-kun, is there something on my face?{page}{face:010006}Huh? N-no! N-nothing!{page}{face:010007}I-I wasn't staring because you're p-pretty or anything...{page}{face:000403}Hee hee! You're a funny boy.{page}{face:000400}I'm Yumari, granddaughter of{n}Dr. Aki, the Medabot professor.{page}I help design parts.{page}{face:010006}Oh, I'm {var:00}.{page}{face:000403}Hee hee! You're just as Grandfather described.{page}{face:010006}...What did he say about me...?{page}{face:000401}Would you be willing to help me test some parts?{end:04}",
    "status": "done",
    "notes": ""
   },

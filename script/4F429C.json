@@ -982,8 +982,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:010000}カギが かかってる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's locked.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -994,8 +994,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:010000}カギが かかってる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's locked.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1942,8 +1942,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:010000}カギが かかってる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's locked.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1978,8 +1978,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:010000}カギが かかってる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's locked.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2338,8 +2338,8 @@
    "kind": "ff",
    "bytes": 15,
    "jp": "{face:010000}カギが かかってる{end:00}",
-   "en": "",
-   "status": "new",
+   "en": "{face:010000}It's locked.{end:00}",
+   "status": "done",
    "notes": ""
   },
   {

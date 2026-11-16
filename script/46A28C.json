@@ -382,7 +382,7 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}けいぞくかいふく 〜しょうじょうをつける〜{n}いどうちゅうも ダメージかいふく{end:04}",
-   "en": "{fa:FF}Sustained Recover - Applies a status.{page}Restores damage even while moving.{end:04}",
+   "en": "{fa:FF}Sustained Recover - Applies a status.{page}Heals damage even while moving.{end:04}",
    "status": "done",
    "notes": ""
   },
