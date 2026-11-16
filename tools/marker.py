@@ -6,7 +6,7 @@ Each line (text between the string start, {n}, {page} and the end) keeps its con
 become filler as wide as the Japanese line was (8 px per kana), and the first run of the string starts with the
 string id, so every box on screen names the string behind it. --full fills every line of an FF string to the
 dialogue wrap limit (208 px) instead: the width test for dialogue boxes. FE strings (name lists) get the id and
-filler only up to the Japanese width.
+filler only up to the Japanese width; with --full they become a ruler, the id then W/M (8 px each) to 18 bytes.
 """
 import re
 import sys
@@ -17,6 +17,7 @@ import font as fontmod  # noqa: E402
 
 PANGRAM = "The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. "
 WRAP = 208
+RULER_BYTES = 18  # item list: 19+ bytes corrupt VRAM (data/windows.json)
 LINE_BREAKS = {"n", "page"}
 TOKEN = re.compile(r"(\{\w+(?::[0-9A-Fa-f]*)?\})")
 
@@ -45,6 +46,9 @@ def fill(start, budget, w, words=PANGRAM):
 def marker_text(sid, jp, kind, full=False, w=None):
     """The marker for one string (jp: its decoded text with {controls})."""
     w = w or widths()
+    if full and kind == "fe" and jp.endswith("{item}") and "{" not in jp[:-6]:
+        # ruler: the id, then W/M (8 px each) up to the 18-byte list cap; the last visible letter gives the field width
+        return (sid + "WMWMWMWMWMWMWMWMWM")[:RULER_BYTES] + "{item}"
     parts = TOKEN.split(jp)
     # group text runs into lines
     lines, cur = [], []
