@@ -37,8 +37,8 @@ def pointer_slots(orig):
     gfx/labels.json redraws."""
     import gfx
     slots = set(font.FONT_REFS) | set(font.names_refs(orig))
-    for label in gfx.load_spec()["labels"]:
-        slots.update(gfx.refs(orig, int(label["off"], 16)))
+    for off in gfx.block_offsets():
+        slots.update(gfx.refs(orig, off))
     for path in (ROOT / "script").glob("*.json"):
         for e in json.loads(path.read_text(encoding="utf-8"))["strings"]:
             slots.update(int(s, 16) for s in e["slots"])

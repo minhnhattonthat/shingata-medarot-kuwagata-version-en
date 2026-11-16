@@ -1,8 +1,10 @@
 {
   "styles": {
     "menu_pink": {"font": "en_label_9", "top": 3, "spacing": 1, "fill": [[0, 5], [3, 6], [6, 7]], "outline": 15, "halo": 1,
-                  "halo_on": [0]}
+                  "halo_on": [0]},
+    "title_menu": {"font": "en_label_9", "spacing": 1, "fill": [[0, 6], [1, 2], [4, 3], [7, 4]], "outline": 1}
   },
+  "screen_ptrs": {"72AC64": 1, "72BF8C": 1},
   "labels": [
     {"id": "field_menu.medawatch", "scene": "field_menu", "pal": 15, "codec": "le", "off": "54C27C", "cols": 12,
      "ptrs": 2, "box": [16, 0, 80, 16],
@@ -21,6 +23,12 @@
      "erase": [{"rect": [16, 0, 80, 10], "index": 0}, {"rect": [16, 10, 79, 6], "copy_col": 95}],
      "text": [{"s": "SAVE", "x": 19, "style": "menu_pink"}]},
     {"id": "money.yen", "scene": "field_menu", "pal": 31, "codec": "le", "off": "56C920", "cols": 11,
-     "ptrs": 2, "box": [0, 0, 8, 8], "text": [], "names_tiles": {"0": "C5"}}
+     "ptrs": 2, "box": [0, 0, 8, 8], "text": [], "names_tiles": {"0": "C5"}},
+    {"id": "title.new_game", "scene": "newgame_menu", "pal": 2, "tiles": "lz:72AC64", "map": "lz:72BF8C+10",
+     "box": [88, 32, 64, 16], "erase": [{"rect": [88, 32, 64, 16], "index": 0}],
+     "text": [{"s": "NEW GAME", "x": "center", "y": 35, "style": "title_menu"}]},
+    {"id": "title.options", "scene": "newgame_menu", "pal": 4, "tiles": "lz:72AC64", "map": "lz:72BF8C+10",
+     "box": [88, 56, 64, 16], "erase": [{"rect": [88, 56, 64, 16], "index": 0}],
+     "text": [{"s": "OPTIONS", "x": "center", "y": 59, "style": "title_menu"}]}
   ]
 }

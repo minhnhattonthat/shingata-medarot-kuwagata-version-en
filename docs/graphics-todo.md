@@ -8,12 +8,12 @@ its block with `vramfind.py` over the scene shot (`work/qa/scenes_en/shots/<scen
 
 | Scene(s) | Japanese left |
 |---|---|
-| title, newgame_menu | logo 真型 メダロット (keep as logo or add an English subtitle: ruling needed, non-blocking), はじめから / つづきから / オプション |
-| options | ロボトルじかん, ながい / ふつう / みじかい, ロボトルメッセージ, あり / なし |
+| title, newgame_menu | logo 真型 メダロット (keep as logo or add an English subtitle: ruling needed, non-blocking), つづきから (not seen yet: needs a save; probably elsewhere in lz_72AC64). **Done:** はじめから -> NEW GAME, オプション -> OPTIONS (screen labels on tiles lz_72AC64 + map lz_72BF8C+10) |
+| options (same screen, BG0 rows 11-17 of map lz_72BF8C+10) | ロボトルじかん, ながい / ふつう / みじかい, ロボトルメッセージ, あり / なし: the rows are 8 px tall (6-px fill + outline 3, fill 1 / 2): needs a 6-px font first |
 | save_corrupt | whole box: もうしわけありません / セーブデータが こわれました / もういちど はじめから あそんでくださいね |
 | sound_test (test mode) | テストモード, BGMをきく, SEをきく, もどる |
 | name_entry | ネームエントリー, なまえを10もじいないで にゅうりょくしてください, カタカナ / ひらがな / えいすうじ, すすむ / もどる / けってい, the kana grid (needs an English letter grid: input codes too) |
-| field_menu | メダロッチ, アイテム, せつめい, セーブ, money 円 |
+| field_menu | **Done** (pilot): MEDAWATCH / ITEMS / HELP / SAVE (Le 54C27C/54C420/54C5A0/54C72C), money 円 -> ¥ (Le 56C920 tile 0; names charset C5 too). Other screens with a money box may load their own 円 copy: check |
 | items, items_owned | アイテム header, …アイテムをつかう, …ならびかえ |
 | field_help (encyclopedia) | せつめい heading |
 | medawatch | メダロット / メダル / パーツ, カーソルでせんたく, けってい, もどる |

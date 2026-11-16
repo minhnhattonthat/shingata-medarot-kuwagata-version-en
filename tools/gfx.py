@@ -100,14 +100,8 @@ def load_spec(path=SPEC):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
-def compose(rom, label, styles):
-    """(original raw, new raw) for one label entry."""
-    mod = CODECS[label["codec"]]
-    off = int(label["off"], 16)
-    raw, _ = mod.decompress(rom, off)
-    cols = label["cols"]
-    g = to_grid(raw, cols)
-    h, w = len(g), len(g[0])
+def paint(g, label, styles):
+    """Erase and draw one label's text into the index grid g (absolute pixel coordinates)."""
     for e in label.get("erase", []):
         x0, y0, ew, eh = e["rect"]
         for y in range(y0, y0 + eh):
@@ -138,6 +132,15 @@ def compose(rom, label, styles):
             if isinstance(idx, list):  # [[first row offset, index], ..] from the text's top row down
                 idx = [i for r, i in idx if y - y0 >= r][-1]
             g[y][x] = idx
+
+
+def compose(rom, label, styles):
+    """(original raw, new raw) for a block label (the block is the image, `cols` tiles wide)."""
+    mod = CODECS[label["codec"]]
+    raw, _ = mod.decompress(rom, int(label["off"], 16))
+    cols = label["cols"]
+    g = to_grid(raw, cols)
+    paint(g, label, styles)
     new = bytearray(from_grid(g, cols, len(raw) // 32))
     if label.get("names_tiles"):  # {"tile index": "names-charset code"}: copy that 8x8 English glyph (tools/font.py)
         import font
@@ -155,6 +158,98 @@ def outside_box_changes(orig, new, label):
             if a[y][x] != b[y][x] and not (bx <= x < bx + bw and by <= y < by + bh)]
 
 
+def _src(s):
+    """"lz:72BF8C+10" -> (codec, block offset, byte offset inside the block)."""
+    codec, rest = s.split(":")
+    off, _, at = rest.partition("+")
+    return codec, int(off, 16), int(at or "0", 16)
+
+
+def render_screen(tiles, mp, at, tile0):
+    """256x256 index grid of a 32x32 text-BG map (entries at mp[at:]) over a tile block; tile = entry - tile0."""
+    g = [[0] * 256 for _ in range(256)]
+    for cy in range(32):
+        for cx in range(32):
+            e = struct.unpack_from("<H", mp, at + 2 * (cy * 32 + cx))[0]
+            t = (e & 1023) - tile0
+            if not 0 <= t < len(tiles) // 32:
+                continue
+            for y in range(8):
+                sy = 7 - y if e & 0x800 else y
+                for x in range(8):
+                    sx = 7 - x if e & 0x400 else x
+                    b = tiles[t * 32 + sy * 4 + sx // 2]
+                    g[cy * 8 + y][cx * 8 + x] = (b >> 4) if sx & 1 else (b & 15)
+    return g
+
+
+def screen_blocks(rom, spec):
+    """Apply every screen label (one with "map"): {block offset: [codec, original raw, new raw]}. Each changed cell
+    of a label's box gets a tile of its own appended to the tile block (or an identical existing one) and its map
+    entry is pointed at it, palette kept, flips cleared; tiles other screens use are never edited in place."""
+    blocks = {}
+
+    def get(src):
+        codec, off, at = _src(src)
+        if off not in blocks:
+            raw, _ = CODECS[codec].decompress(rom, off)
+            blocks[off] = [codec, raw, bytearray(raw)]
+        return blocks[off][2], at
+
+    for label in spec["labels"]:
+        if "map" not in label:
+            continue
+        tiles, _ = get(label["tiles"])
+        mp, at = get(label["map"])
+        tile0 = label.get("tile0", 0)
+        g = render_screen(tiles, mp, at, tile0)
+        paint(g, label, spec["styles"])
+        have = {}
+        for t in range(len(tiles) // 32 - 1, -1, -1):
+            have[bytes(tiles[t * 32:t * 32 + 32])] = t
+        bx, by, bw, bh = label["box"]
+        if bx % 8 or by % 8 or bw % 8 or bh % 8:
+            raise ValueError(f"{label['id']}: a screen label's box must be on the 8-px cell grid")
+        for cy in range(by // 8, (by + bh) // 8):
+            for cx in range(bx // 8, (bx + bw) // 8):
+                cell = [g[cy * 8 + y][cx * 8:cx * 8 + 8] for y in range(8)]
+                tb = from_grid(cell, 1, 1)
+                p = at + 2 * (cy * 32 + cx)
+                e = struct.unpack_from("<H", mp, p)[0]
+                t = have.get(tb)
+                if t is None:
+                    t = len(tiles) // 32
+                    tiles += tb
+                    have[tb] = t
+                if tile0 + t > 1023:
+                    raise ValueError(f"{label['id']}: tile block full (tile {tile0 + t})")
+                new_e = (e & 0xF000) | (tile0 + t)
+                if (e & 0x3FF) - tile0 == t and not e & 0xC00:
+                    new_e = e
+                struct.pack_into("<H", mp, p, new_e)
+    return blocks
+
+
+def screen_problems(rom, spec, blocks):
+    """Pixels changed outside every box drawn on the same map."""
+    out = []
+    boxes = {}
+    for label in spec["labels"]:
+        if "map" in label:
+            boxes.setdefault((label["tiles"], label["map"], label.get("tile0", 0)), []).append(label)
+    for (tsrc, msrc, tile0), labels in boxes.items():
+        _, toff, _ = _src(tsrc)
+        _, moff, at = _src(msrc)
+        a = render_screen(blocks[toff][1], blocks[moff][1], at, tile0)
+        b = render_screen(blocks[toff][2], blocks[moff][2], at, tile0)
+        rects = [lb["box"] for lb in labels]
+        bad = [(x, y) for y in range(256) for x in range(256) if a[y][x] != b[y][x]
+               and not any(bx <= x < bx + bw and by <= y < by + bh for bx, by, bw, bh in rects)]
+        if bad:
+            out.append(f"{labels[0]['id']}..: {len(bad)} pixels changed outside the boxes, first {bad[0]}")
+    return out
+
+
 def refs(data, off):
     want = struct.pack("<I", 0x08000000 + off)
     return [p for p in range(0, min(len(data), 0x800000) - 3, 4) if data[p:p + 4] == want]
@@ -163,20 +258,38 @@ def refs(data, off):
 def gfx_stage(rom, free, spec=None):
     """Write every label of gfx/labels.json past `free` and repoint it. Returns the new end."""
     spec = load_spec() if spec is None else spec
+    out = []  # (name, codec, block offset, new raw, expected pointer count)
     for label in spec["labels"]:
+        if "map" in label:
+            continue
         _, new = compose(rom.orig, label, spec["styles"])
-        mod = CODECS[label["codec"]]
-        off = int(label["off"], 16)
-        ptrs = refs(rom.orig, off)
-        if len(ptrs) != label["ptrs"]:
-            raise ValueError(f"{label['id']}: {len(ptrs)} pointers to {off:06X}, spec says {label['ptrs']}")
-        packed = mod.compress(new)
+        out.append((label["id"], label["codec"], int(label["off"], 16), new, label["ptrs"]))
+    ptrs = spec.get("screen_ptrs", {})
+    for off, (codec, _, new) in screen_blocks(rom.orig, spec).items():
+        out.append((f"screen {off:06X}", codec, off, bytes(new), ptrs.get(f"{off:06X}")))
+    for name, codec, off, new, want in out:
+        found = refs(rom.orig, off)
+        if len(found) != want:
+            raise ValueError(f"{name}: {len(found)} pointers to {off:06X}, spec says {want}")
+        packed = CODECS[codec].compress(new)
         free = (free + 3) & ~3
-        rom.write(free, packed, f"gfx {label['id']}")
-        for p in ptrs:
-            rom.write(p, struct.pack("<I", 0x08000000 + free), f"gfx ptr {label['id']} {p:06X}")
+        rom.write(free, packed, f"gfx {name}")
+        for p in found:
+            rom.write(p, struct.pack("<I", 0x08000000 + free), f"gfx ptr {name} {p:06X}")
         free += len(packed)
     return free
+
+
+def block_offsets(spec=None):
+    """Every ROM block gfx/labels.json replaces (for romcheck's pointer slots)."""
+    spec = load_spec() if spec is None else spec
+    offs = set()
+    for label in spec["labels"]:
+        if "map" in label:
+            offs |= {_src(label["tiles"])[1], _src(label["map"])[1]}
+        else:
+            offs.add(int(label["off"], 16))
+    return offs
 
 
 def check(spec=None, rom=None):
@@ -184,7 +297,21 @@ def check(spec=None, rom=None):
     spec = load_spec() if spec is None else spec
     rom = ROM.read_bytes() if rom is None else rom
     problems = []
+    try:
+        blocks = screen_blocks(rom, spec)
+        problems += screen_problems(rom, spec, blocks)
+        for off, (codec, _, new) in blocks.items():
+            mod = CODECS[codec]
+            if mod.decompress(mod.compress(bytes(new)), 0)[0] != new:
+                problems.append(f"screen {off:06X}: compress roundtrip differs")
+            n, want = len(refs(rom, off)), spec.get("screen_ptrs", {}).get(f"{off:06X}")
+            if n != want:
+                problems.append(f"screen {off:06X}: {n} pointers, screen_ptrs says {want}")
+    except ValueError as e:
+        problems.append(str(e))
     for label in spec["labels"]:
+        if "map" in label:
+            continue
         try:
             orig, new = compose(rom, label, spec["styles"])
         except ValueError as e:
@@ -207,10 +334,21 @@ def preview(outdir, only=None, zoom=4):
     spec, rom = load_spec(), ROM.read_bytes()
     out = Path(outdir)
     out.mkdir(parents=True, exist_ok=True)
+    blocks = None
     for label in spec["labels"]:
         if only and label["id"] not in only:
             continue
-        orig, new = compose(rom, label, spec["styles"])
+        if "map" in label:
+            if blocks is None:
+                blocks = screen_blocks(rom, spec)
+            _, toff, _ = _src(label["tiles"])
+            _, moff, at = _src(label["map"])
+            bx, by, bw, bh = label["box"]
+            grids = [[row[bx:bx + bw] for row in render_screen(blocks[toff][i], blocks[moff][i], at,
+                                                              label.get("tile0", 0))[by:by + bh]] for i in (1, 2)]
+        else:
+            orig, new = compose(rom, label, spec["styles"])
+            grids = [to_grid(orig, label["cols"]), to_grid(new, label["cols"])]
         pal = [(i * 17, i * 17, i * 17) for i in range(16)]
         pfile = ROOT / "work" / "gfx" / "pal" / f"{label.get('scene', '')}.pal.bin"
         if pfile.exists():
@@ -221,8 +359,7 @@ def preview(outdir, only=None, zoom=4):
                 c = struct.unpack_from("<H", pd, base + 2 * i)[0]
                 pal.append(((c & 31) * 8, (c >> 5 & 31) * 8, (c >> 10 & 31) * 8))
         imgs = []
-        for raw in (orig, new):
-            g = to_grid(raw, label["cols"])
+        for g in grids:
             im = Image.new("RGB", (len(g[0]), len(g)))
             im.putdata([pal[v] for row in g for v in row])
             imgs.append(im.resize((im.width * zoom, im.height * zoom), Image.NEAREST))

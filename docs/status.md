@@ -2,7 +2,32 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (scene proof 77/77 done, visual QA run, event tour for textcover; graphics redraws next).
+- **Phase:** 8. QA in the emulator: in progress (graphics redraw pipeline + pilot done; rest of `docs/graphics-todo.md` next).
+- **Phase 8 session 3 (2026-11-17): graphics pipeline + pilot.**
+  - **`tools/gfx.py`** + **`gfx/labels.json`**: the build (`rombuild.build` -> `gfx_stage`, after `names_stage`)
+    redraws labels, recompresses past 8 MiB and repoints every literal-pool word of the block (`ptrs` /
+    `screen_ptrs` = expected count; romcheck accepts those slots via `gfx.block_offsets()`). Two modes:
+    *block* (the block is the image: `codec/off/cols`, erase rects with `index` or `copy_col`, text items) and
+    *screen* (`tiles`+`map` sources like `lz:72BF8C+10`, box on the 8-px grid: paint on the rendered map, each changed
+    cell gets a new/identical tile appended to the tile block and its map entry repointed, palette kept).
+    Styles: font, `top`, `spacing`, `fill` gradient `[[row, index]..]`, `outline`, `halo` (+`halo_on`).
+    `names_tiles` copies a names-charset glyph into a tile. `gfx.py check` (in tests/test_gfx.py): box fit, no pixel
+    changed outside the boxes, codec roundtrip, pointer counts. `gfx.py preview OUT [--only ids]`: JP over EN, zoomed
+    (palette from `work/gfx/pal/<scene>.pal.bin`).
+  - Font `font/en_label_9.txt`: hand-drawn bold 9-px capitals, digits, `!?.-:'/` (MIT, add to docs/fonts.md next).
+    ¥ added to `font/en_names_8x8.txt` as code C5 (円) for money boxes (`font.names_tiles` takes charset-only codes).
+  - **Done, verified by cold-boot warp on the English build:** field_menu MEDAWATCH/ITEMS/HELP/SAVE + ¥
+    (`work/qa/gfx_fm`), title menu NEW GAME / OPTIONS (`work/qa/gfx_title`). Build sha1 70980946..., romcheck 0.
+  - **How to find a screen's source (fast):** `emu.py ORIG --state-in work/states/<scene>.mss --frames 30 --script
+    $SKILL/scripts/lua/probes/ppudump.lua`, then `python tools/vramblocks.py <dump>.vram.bin` (blocks whole in VRAM,
+    by address), BG registers from the `.io.bin` (BGxCNT at 0x08), map entries -> tile numbers; maps are LZ77 blocks
+    with a 0x10 header (search a map row in work/blocks). When a label isn't whole in VRAM:
+    `tools/lua/vramwho.lua --var ADDR=0x0600xxxx` (writes with r0-r14: the Le writer's r12/r5 = source) or
+    `tools/lua/declog.lua` (Le calls with src/dst). G12 "battle labels" in docs/re/graphics.md were the field menu.
+  - **Next:** a 6-px label font for the 8-px rows (options panel, small headers), then the rest of
+    `docs/graphics-todo.md` one screen at a time (save, name_entry, medawatch, lists, shops, parts detail, minigames,
+    save_corrupt, sound_test); after each batch re-run prove.py for the scenes, rebuild pair sheets, new verdicts.
+    Still open from session 2: credits role buffer bug, textcover gaps, inkbox on choice/centred boxes.
 - **Phase 8 session 2 (2026-11-17):**
   - English scene proof finished: **77/77 arrive** (`work/qa/scenes_en/shots`, all copied; `prove.py` now copies
     each shot as it arrives). `shotdiff.py work/qa/scenes/shots work/qa/scenes_en/shots`: 7 identical, the rest
