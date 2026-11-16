@@ -2,9 +2,26 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: not started (phase 6 finished 2026-11-17, session 2 of phase 6).
+- **Phase:** 8. QA in the emulator: not started (phase 7 finished 2026-11-17).
+- **Phase 7 result (2026-11-17):** build green. `tools/check.py` exit 0: 32 tests, lint 0 errors (now also fails a
+  wrapped page ending in a stub line < 24 px, and any reached string with Japanese but no `en`; exceptions go in
+  `script/keep_jp.txt`, none needed), batch check 0 problems (control codes matched). `tools/romcheck.py` (and
+  `tests/test_build.py`, a fresh in-memory build): romdiff with the write log, 16841 writes, 0 problems; writes only
+  in `data/allowed_ranges.txt` (text region, past 8 MiB) or 0x08 pointer words; every translated slot reaches its
+  English. 226 stub lines rebalanced by a codex fit pass (`work/tl/stubfit_*.txt`). Build sha1 583ec02b..., smoke
+  ok. Scene proof on the English build (`prove.py build/medarot_kuwagata_en.gba --no-states --qa
+  work/qa/scenes_en --jobs 1`) was **reaped for low memory after 13/70 scenes** (shots in `work/qa/scenes_en/<scene>/`,
+  home_1f dialogue clean); rerun it first in phase 8, alone on the machine, then `shotdiff.py work/qa/scenes/shots
+  work/qa/scenes_en/shots`.
+- **Phase 6 review fixes (.harness review of 2a392e9, all Important items):** capped part names now the closest
+  10-byte form (D11: widening ruled out); メダロットしゃ = Medabot Company (glossary row, 10 lines fixed); Gang Boss
+  label, Music Tchr / Sci. Tchr (cap), credits "Events & Battles" (D12); every Minor in `docs/polish.md` (one line
+  each, release gate needs them ticked); reviews and fix logs in `docs/reviews/` (`tools/collect_reviews.py`).
+  `tools/rereview.py` sent every group's fixed lines to a read-only reviewer: **all 28 groups Approved**
+  (`work/tl/review/*.status` = "READY: re-review approved"; b032 needed glossary exception for the 4CDB37 chant).
+  `tl_pipeline.py` now ends with rereview; `batches.py merge --overwrite` also updates earlier copies.
 - **Phase 6 result:** every batch b001-b084 translated, independently reviewed (codex reviewer, `docs/reviewer-
-  brief.md`) and fixed (`work/tl/review/<first>.review.md` + `.status` = READY for all 28 groups; fix logs
+  brief.md`) and fixed (`work/tl/review/<first>.review.md`; fix logs
   `work/tl/logs/*.fix.last.txt`: ~100 findings applied, 2 rejected: 25 capped part names now in glossary.md
   "Capped part names", and Robo-robo vs the binding Rubberobo). Merged into `script/`: **7976 of 8038 strings in
   `en`**; the 62 without are control-code-only strings plus 9 dead strings in `unused.json`. `batches.py check`
@@ -97,10 +114,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
       key `wait={..., stopmash=true, press=".."}`; new scenes robattle_menu, robattle_parts, robattle_detail,
       robattle_menutour, parts_owned, parts_owned_detail, parts_legs_detail (not yet in `work/states/`: run
       `prove.py --jobs 1 --only ...` when phase 8 needs their states).
-- **Next (phase 7, `references/pipeline.md` §Checks):** build green with the full script: lint is already clean
-  and control codes match (batches check); still to do: `romdiff.py` against the original with the write log
-  (no writes outside allowed ranges), then `prove.py build/medarot_kuwagata_en.gba --no-states --qa
-  work/qa/scenes_en --jobs 1` and `shotdiff.py` vs `work/qa/scenes/shots` for overflow / garbled boxes.
+- **Next (phase 8, `references/emulator-qa.md`, `references/graphics.md`):** rerun the English scene proof (above,
+  13/70 done) and `shotdiff.py` vs `work/qa/scenes/shots` for overflow / garbled boxes; route tours with sheets and
+  visual-QA verdicts (`qa_gate.py`); textcover; graphics redraws. Phase 9 needs `docs/polish.md` ticked (incl. the
+  Oro Captain/Leader drift found in phase 7) and `docs/style-reference.md` before the story pass (D13).
   Japanese left, all graphics (phase 8): parts-shop options (パーツを かう / うる / もどる), name-entry grid,
      money "円" glyph, menu tabs and headers (あたま etc. in the parts list), bottom hint lines, column headers.
      `jp_left.py --gba-ptrs` is noise here; the textmap coverage proof is the real check.
