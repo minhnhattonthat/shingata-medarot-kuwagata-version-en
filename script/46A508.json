@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ソード{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sword{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ハンマー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Hammer{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ライフル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rifle{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ガトリング{item}",
-   "en": "",
-   "status": "new",
+   "en": "Gatling{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "レーザー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Laser{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ビーム{item}",
-   "en": "",
-   "status": "new",
+   "en": "Beam{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ミサイル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Missile{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ナパーム{item}",
-   "en": "",
-   "status": "new",
+   "en": "Napalm{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ブレイク{item}",
-   "en": "",
-   "status": "new",
+   "en": "Break{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "プレス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Press{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "かくとうトラップ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Melee Trap{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "しゃげきトラップ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Shooting Trap{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "こうげきクリア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Attack Clear{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "バグ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bug{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ウィルス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Virus{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "サンダー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Thunder{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "フリーズ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Freeze{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ウェーブ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Wave{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ホールド{item}",
-   "en": "",
-   "status": "new",
+   "en": "Hold{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ファイヤー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Fire{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "メルト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Melt{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "トラップクリア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Trap Clear{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "しょうじょうクリア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Status Clear{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "フォースせいぎょ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Force Control{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "こうがくむこう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify Beam{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "かやくむこう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify Explosive{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "じゅうりょくむこう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify Gravity{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ぼうぎょ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Defense{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "かんぜんぼうぎょ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Perfect Defense{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "みまんぼうぎょ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Threshold Defense{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "かいふく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Recover{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "けいぞくかいふく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sustained Recover{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ふっかつ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Revive{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "そせい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Resurrect{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "アンチエア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Anti-Air{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "アンチシー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Anti-Water{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "さくてき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Scout{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "いんぺい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Stealth{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ほじょチャージ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Charge Support{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "きゅうそくチャージ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rapid Charge{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "じょうじチャージ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Constant Charge{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "チャージドレイン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Charge Drain{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "てんとう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Knockdown{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "しようふのう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Disable{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "こんらん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Confusion{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "かいすうドレイン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Use Drain{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "かいひふのう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Disable Evasion{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ぼうぎょふのう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Disable Defense{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "デストロイ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Destroy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "サクリファイス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sacrifice{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "フォースドレイン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Force Drain{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "クロスセット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cross Set{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "クロスファイア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Crossfire{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -646,8 +646,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "きょうか{item}",
-   "en": "",
-   "status": "new",
+   "en": "Enhance{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -658,8 +658,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "はんげき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Counter{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -670,8 +670,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "へんか{item}",
-   "en": "",
-   "status": "new",
+   "en": "Change{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -682,8 +682,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "へんか／ぼうがい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Change/Jamming{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,8 +694,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "へんか／こうげき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Change/Attack{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -706,8 +706,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "へんか／ぼうぎょ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Change/Defense{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -718,8 +718,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "へんか／かいふく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Change/Recover{item}",
+   "status": "done",
    "notes": ""
   }
  ]

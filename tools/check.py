@@ -14,4 +14,6 @@ if __name__ == "__main__":
     rc = subprocess.call(args, cwd=ROOT)
     # width-gate lint of the English script (tools/lint.py, budgets in data/windows.json)
     lint_rc = subprocess.call([sys.executable, "-X", "utf8", str(ROOT / "tools" / "lint.py"), "-q"], cwd=ROOT)
-    sys.exit(rc or lint_rc)
+    # translation rules on every shipped English line (tools/batches.py: codes, glyphs, glossary, honorifics)
+    tl_rc = subprocess.call([sys.executable, "-X", "utf8", str(ROOT / "tools" / "batches.py"), "check"], cwd=ROOT)
+    sys.exit(rc or lint_rc or tl_rc)

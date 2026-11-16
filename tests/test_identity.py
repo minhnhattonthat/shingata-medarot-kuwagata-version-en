@@ -31,7 +31,7 @@ def tables(orig):
 
 @need_rom
 def test_identity_build(orig):
-    data, report = rombuild.build(orig)
+    data, report = rombuild.build(orig, lang="jp", font=False)  # the Japanese script, whatever English exists
     assert report.strings > 7000 and report.moved == 0
     assert data == orig
 
@@ -56,7 +56,7 @@ def test_tables_known(tables):
 
 @need_rom
 def test_relocate_all_reaches_same_bytes(orig, tables):
-    data, report = rombuild.build(orig, relocate_all=True)
+    data, report = rombuild.build(orig, relocate_all=True, lang="jp", font=False)
     assert report.in_place == 0 and len(data) <= rombuild.MAX_SIZE
     for tt in tables:
         for slot in tt.slots:
@@ -76,7 +76,7 @@ def test_edited_string_moves_and_repoints(orig, tables):
     t = Table.load(ROOT / "tbl" / "jp.tbl")
     off = tables[0].targets[0]
     new = t.encode("ABC{end:00}")
-    data, report = rombuild.build(orig, strings={off: new})
+    data, report = rombuild.build(orig, strings={off: new}, lang="jp", font=False)
     assert report.moved == 1
     for tt in tables:
         for slot in tt.slots:

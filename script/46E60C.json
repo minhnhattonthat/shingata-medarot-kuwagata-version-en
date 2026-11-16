@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ガンマ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Gamma{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "アイリス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Iris{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ラ・マスカーラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "La Mascara{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ユマリ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Yumari{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "リューキ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ryuki{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "シフォン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Chiffon{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "マスキー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Masky{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ピョロリ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Pyorori{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ボヨヨ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Boyoyo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "マンソン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Manson{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "マミーア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Mamia{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "カムイ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kamui{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "メダロットはかせ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dr. Aki{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ソンチョー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Chief{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "アマリロ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Amarillo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "アマリロ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Amarillo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -718,8 +718,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "カッパ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kappa{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -814,8 +814,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "サル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Monkey{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -946,8 +946,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "マーメイド{item}",
-   "en": "",
-   "status": "new",
+   "en": "Mermaid{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -958,8 +958,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -970,8 +970,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -982,8 +982,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -994,8 +994,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1006,8 +1006,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1018,8 +1018,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1030,8 +1030,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1042,8 +1042,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1054,8 +1054,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1066,8 +1066,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1078,8 +1078,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1090,8 +1090,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1102,8 +1102,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1114,8 +1114,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1138,8 +1138,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1150,8 +1150,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1162,8 +1162,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1210,8 +1210,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1222,8 +1222,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1246,8 +1246,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1258,8 +1258,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1270,8 +1270,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1282,8 +1282,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1294,8 +1294,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1306,8 +1306,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1318,8 +1318,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1330,8 +1330,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1342,8 +1342,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1354,8 +1354,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1366,8 +1366,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1378,8 +1378,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1390,8 +1390,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1402,8 +1402,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1414,8 +1414,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ダミー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dummy{item}",
+   "status": "done",
    "notes": ""
   },
   {

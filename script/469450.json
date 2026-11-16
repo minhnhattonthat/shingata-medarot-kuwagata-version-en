@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ANGー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "ANG-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ANGー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "ANG-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ANGー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "ANG-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ANGー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "ANG-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BEEー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "BEE-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BEEー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "BEE-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BEEー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "BEE-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BEEー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "BEE-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ROSー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "ROS-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ROSー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "ROS-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ROSー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "ROS-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ROSー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "ROS-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PHXー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "PHX-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PHXー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "PHX-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PHXー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "PHX-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PHXー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "PHX-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PLNー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "PLN-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PLNー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "PLN-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PLNー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "PLN-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PLNー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "PLN-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PERー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "PER-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PERー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "PER-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PERー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "PER-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PERー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "PER-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BATー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAT-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BATー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAT-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BATー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAT-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BATー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAT-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BALー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAL-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BALー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAL-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BALー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAL-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BALー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAL-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PASー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "PAS-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PASー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "PAS-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PASー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "PAS-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PASー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "PAS-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "WCHー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "WCH-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "WCHー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "WCH-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "WCHー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "WCH-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "WCHー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "WCH-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FARー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "FAR-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FARー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "FAR-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FARー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "FAR-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FARー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "FAR-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "DRGー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "DRG-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "DRGー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "DRG-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "DRGー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "DRG-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "DRGー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "DRG-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RATー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAT-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RATー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAT-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RATー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAT-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RATー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAT-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "WEAー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "WEA-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -646,8 +646,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "WEAー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "WEA-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -658,8 +658,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "WEAー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "WEA-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -670,8 +670,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "WEAー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "WEA-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -682,8 +682,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PREー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "PRE-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,8 +694,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PREー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "PRE-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -706,8 +706,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PREー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "PRE-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -718,8 +718,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PREー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "PRE-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -730,8 +730,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RAGー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAG-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -742,8 +742,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RAGー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAG-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -754,8 +754,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RAGー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAG-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -766,8 +766,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RAGー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAG-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -778,8 +778,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SCRー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "SCR-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -790,8 +790,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SCRー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "SCR-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -802,8 +802,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SCRー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "SCR-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -814,8 +814,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SCRー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "SCR-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -826,8 +826,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "CLAー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "CLA-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -838,8 +838,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "CLAー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "CLA-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -850,8 +850,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "CLAー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "CLA-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -862,8 +862,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "CLAー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "CLA-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -874,8 +874,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "COWー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "COW-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -886,8 +886,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "COWー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "COW-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -898,8 +898,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "COWー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "COW-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -910,8 +910,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "COWー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "COW-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -922,8 +922,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FLWー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "FLW-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -934,8 +934,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FLWー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "FLW-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -946,8 +946,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FLWー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "FLW-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -958,8 +958,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FLWー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "FLW-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -970,8 +970,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KHWー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "KHW-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -982,8 +982,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KHWー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "KHW-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -994,8 +994,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KHWー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "KHW-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1006,8 +1006,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KHWー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "KHW-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1018,8 +1018,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KWGー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "KWG-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1030,8 +1030,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KWGー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "KWG-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1042,8 +1042,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KWGー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "KWG-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1054,8 +1054,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KWGー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "KWG-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1066,8 +1066,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KBTー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "KBT-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1078,8 +1078,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KBTー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "KBT-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1090,8 +1090,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KBTー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "KBT-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1102,8 +1102,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KBTー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "KBT-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1114,8 +1114,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "NINー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "NIN-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1126,8 +1126,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "NINー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "NIN-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1138,8 +1138,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "NINー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "NIN-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1150,8 +1150,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "NINー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "NIN-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1162,8 +1162,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "VALー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "VAL-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1174,8 +1174,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "VALー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "VAL-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1186,8 +1186,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "VALー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "VAL-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1198,8 +1198,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "VALー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "VAL-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1210,8 +1210,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KINー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "KIN-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1222,8 +1222,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KINー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "KIN-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1234,8 +1234,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KINー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "KIN-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1246,8 +1246,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KINー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "KIN-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1258,8 +1258,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RBTー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "RBT-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1270,8 +1270,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RBTー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "RBT-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1282,8 +1282,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RBTー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "RBT-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1294,8 +1294,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RBTー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "RBT-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1306,8 +1306,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SAMー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAM-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1318,8 +1318,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SAMー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAM-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1330,8 +1330,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SAMー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAM-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1342,8 +1342,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SAMー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAM-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1354,8 +1354,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "DOGー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "DOG-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1366,8 +1366,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "DOGー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "DOG-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1378,8 +1378,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "DOGー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "DOG-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1390,8 +1390,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "DOGー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "DOG-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1402,8 +1402,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BANー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAN-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1414,8 +1414,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BANー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAN-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1426,8 +1426,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BANー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAN-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1438,8 +1438,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BANー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "BAN-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1450,8 +1450,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KNIー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "KNI-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1462,8 +1462,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KNIー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "KNI-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1474,8 +1474,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KNIー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "KNI-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1486,8 +1486,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KNIー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "KNI-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1498,8 +1498,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MONー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "MON-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1510,8 +1510,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MONー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "MON-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1522,8 +1522,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MONー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "MON-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1534,8 +1534,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MONー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "MON-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1546,8 +1546,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SLRー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "SLR-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1558,8 +1558,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SLRー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "SLR-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1570,8 +1570,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SLRー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "SLR-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1582,8 +1582,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SLRー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "SLR-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1594,8 +1594,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TRXー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "TRX-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1606,8 +1606,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TRXー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "TRX-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1618,8 +1618,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TRXー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "TRX-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1630,8 +1630,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TRXー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "TRX-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1642,8 +1642,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "STGー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "STG-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1654,8 +1654,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "STGー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "STG-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1666,8 +1666,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "STGー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "STG-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1678,8 +1678,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "STGー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "STG-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1690,8 +1690,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "CATー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "CAT-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1702,8 +1702,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "CATー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "CAT-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1714,8 +1714,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "CATー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "CAT-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1726,8 +1726,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "CATー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "CAT-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1738,8 +1738,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FAMー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "FAM-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1750,8 +1750,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FAMー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "FAM-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1762,8 +1762,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FAMー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "FAM-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1774,8 +1774,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FAMー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "FAM-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1786,8 +1786,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MEDー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "MED-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1798,8 +1798,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MEDー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "MED-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1810,8 +1810,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MEDー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "MED-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1822,8 +1822,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MEDー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "MED-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1834,8 +1834,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KLNー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "KLN-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1846,8 +1846,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KLNー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "KLN-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1858,8 +1858,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KLNー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "KLN-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1870,8 +1870,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KLNー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "KLN-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1882,8 +1882,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "GDSー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "GDS-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1894,8 +1894,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "GDSー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "GDS-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1906,8 +1906,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "GDSー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "GDS-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1918,8 +1918,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "GDSー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "GDS-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1930,8 +1930,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ALMー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "ALM-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1942,8 +1942,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ALMー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "ALM-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1954,8 +1954,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ALMー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "ALM-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1966,8 +1966,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ALMー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "ALM-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1978,8 +1978,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TODー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "TOD-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1990,8 +1990,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TODー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "TOD-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2002,8 +2002,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TODー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "TOD-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2014,8 +2014,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TODー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "TOD-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2026,8 +2026,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SABー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAB-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2038,8 +2038,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SABー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAB-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2050,8 +2050,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SABー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAB-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2062,8 +2062,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SABー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAB-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2074,8 +2074,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RAYー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAY-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2086,8 +2086,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RAYー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAY-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2098,8 +2098,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RAYー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAY-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2110,8 +2110,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "RAYー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "RAY-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2122,8 +2122,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "NAIー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "NAI-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2134,8 +2134,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "NAIー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "NAI-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2146,8 +2146,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "NAIー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "NAI-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2158,8 +2158,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "NAIー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "NAI-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2170,8 +2170,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BMTー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "BMT-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2182,8 +2182,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BMTー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "BMT-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2194,8 +2194,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BMTー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "BMT-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2206,8 +2206,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BMTー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "BMT-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2218,8 +2218,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PIEー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "PIE-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2230,8 +2230,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PIEー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "PIE-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2242,8 +2242,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PIEー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "PIE-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2254,8 +2254,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PIEー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "PIE-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2266,8 +2266,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MAGー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "MAG-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2278,8 +2278,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MAGー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "MAG-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2290,8 +2290,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MAGー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "MAG-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2302,8 +2302,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MAGー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "MAG-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2314,8 +2314,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "EGTー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "EGT-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2326,8 +2326,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "EGTー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "EGT-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2338,8 +2338,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "EGTー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "EGT-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2350,8 +2350,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "EGTー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "EGT-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2362,8 +2362,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TURー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "TUR-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2374,8 +2374,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TURー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "TUR-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2386,8 +2386,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TURー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "TUR-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2398,8 +2398,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "TURー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "TUR-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2410,8 +2410,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ELFー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "ELF-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2422,8 +2422,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ELFー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "ELF-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2434,8 +2434,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ELFー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "ELF-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2446,8 +2446,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ELFー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "ELF-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2458,8 +2458,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BRAー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "BRA-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2470,8 +2470,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BRAー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "BRA-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2482,8 +2482,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BRAー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "BRA-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2494,8 +2494,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "BRAー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "BRA-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2506,8 +2506,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MOGー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "MOG-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2518,8 +2518,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MOGー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "MOG-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2530,8 +2530,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MOGー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "MOG-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2542,8 +2542,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MOGー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "MOG-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2554,8 +2554,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SNWー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "SNW-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2566,8 +2566,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SNWー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "SNW-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2578,8 +2578,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SNWー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "SNW-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2590,8 +2590,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SNWー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "SNW-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2602,8 +2602,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FLGー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "FLG-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2614,8 +2614,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FLGー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "FLG-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2626,8 +2626,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FLGー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "FLG-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2638,8 +2638,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FLGー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "FLG-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2650,8 +2650,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SAKー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAK-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2662,8 +2662,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SAKー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAK-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2674,8 +2674,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SAKー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAK-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2686,8 +2686,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "SAKー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "SAK-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2698,8 +2698,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PENー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "PEN-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2710,8 +2710,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PENー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "PEN-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2722,8 +2722,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PENー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "PEN-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2734,8 +2734,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "PENー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "PEN-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2746,8 +2746,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KAPー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "KAP-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2758,8 +2758,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KAPー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "KAP-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2770,8 +2770,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KAPー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "KAP-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2782,8 +2782,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "KAPー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "KAP-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2794,8 +2794,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MARー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "MAR-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2806,8 +2806,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MARー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "MAR-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2818,8 +2818,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MARー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "MAR-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2830,8 +2830,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "MARー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "MAR-04{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2842,8 +2842,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FFYー01{item}",
-   "en": "",
-   "status": "new",
+   "en": "FFY-01{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2854,8 +2854,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FFYー02{item}",
-   "en": "",
-   "status": "new",
+   "en": "FFY-02{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2866,8 +2866,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FFYー03{item}",
-   "en": "",
-   "status": "new",
+   "en": "FFY-03{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2878,8 +2878,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "FFYー04{item}",
-   "en": "",
-   "status": "new",
+   "en": "FFY-04{item}",
+   "status": "done",
    "notes": ""
   }
  ]

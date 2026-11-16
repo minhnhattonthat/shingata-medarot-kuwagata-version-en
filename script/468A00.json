@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "バギュー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bagyu{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ドロイテ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Droite{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "アイラガーチ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Airagachi{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ジャンベサーレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Jambesare{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "トラブルバギュ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Trublbagyu{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ラシェ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rache{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "アビデハニ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Abidehani{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "カウプス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kaupus{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "タッテジェント{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tattegent{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ブラドロジェント{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bradrogent{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ブラゴージェント{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bragogent{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ジャンベジェント{item}",
-   "en": "",
-   "status": "new",
+   "en": "Jambegent{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ターテノンモル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tatenonmor{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "フォイデノンモル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Foinonmor{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "グラフュノンモル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Grafnonmor{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "アルティノンモル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Altinonmor{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ポスデパイロ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Posdepairo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "レビデコント{item}",
-   "en": "",
-   "status": "new",
+   "en": "Revidecont{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "インジェクテ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Injecte{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "アイラデラク{item}",
-   "en": "",
-   "status": "new",
+   "en": "Airadelac{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ルオー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ruo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ブロスフェルム{item}",
-   "en": "",
-   "status": "new",
+   "en": "Brosferme{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "コフュー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kofyu{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "フェイトボラー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Fatevola{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "タテコントラリ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tatecontra{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "オスブラド{item}",
-   "en": "",
-   "status": "new",
+   "en": "Osbrad{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ガートブラド{item}",
-   "en": "",
-   "status": "new",
+   "en": "Gatbrad{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "グラーベ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Grave{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "オバート{item}",
-   "en": "",
-   "status": "new",
+   "en": "Obart{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "アルギレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Argile{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ラポーセラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Raposera{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ポースライン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Porcelain{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "エトランジ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Etrange{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ピアーレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Piare{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ピアッレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Piarre{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "インコニュー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Inconnu{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "マジキュ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Magique{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "イモーラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Imora{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ヤモーラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Yamora{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "レザッド{item}",
-   "en": "",
-   "status": "new",
+   "en": "Lezard{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "エンメルベレー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Enmervere{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ラーベ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rabe{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "レーベ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rebe{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "トランジトリ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Transitori{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "カラックインパ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Caracimpa{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "パランデラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Parandera{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "デラルネッサ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Delarness{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "リッデュドラゴ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ridudrago{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ナッグート{item}",
-   "en": "",
-   "status": "new",
+   "en": "Naggut{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "バジルス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bacillus{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "バクテリー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bakterie{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "アンルーヒッジ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Unruhig{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -634,8 +634,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "スカーデル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Skadel{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -646,8 +646,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "デットゴット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dettgott{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -658,8 +658,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "トーフェル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Teufel{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -670,8 +670,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "フョーレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Fyore{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -682,8 +682,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "トローネン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Thronen{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -694,8 +694,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "リンクシッケル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Linksichel{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -706,8 +706,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ディレクシッケル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Direcsichl{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -718,8 +718,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "パラジット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Parasit{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -730,8 +730,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ファーレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Falle{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -742,8 +742,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ファデン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Faden{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -754,8 +754,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ナスト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nast{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -766,8 +766,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ゾーハ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Zoha{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -778,8 +778,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ジフト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Gift{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -790,8 +790,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "トドリージフ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Todligif{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -802,8 +802,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "マヒテージャルツ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Mahtejarz{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -814,8 +814,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "デットテーレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Detttele{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -826,8 +826,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ワイチ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Weich{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -838,8 +838,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ソーグナップ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Saugnap{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -850,8 +850,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "レイジグ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Reizig{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -862,8 +862,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "アヒト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Acht{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -874,8 +874,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "トラジバッフェ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tragwaffe{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -886,8 +886,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "シューバルト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Schubalt{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -898,8 +898,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ロータマンテル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rotmantel{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -910,8 +910,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "フィアハッフ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Vierhuf{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -922,8 +922,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "マッターシェン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Mattaschen{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -934,8 +934,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "リテージノッペ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ritenoppe{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -946,8 +946,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "リンクスノッペ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Linksnoppe{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -958,8 +958,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ツビーベル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Zwiebel{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -970,8 +970,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ベール{item}",
-   "en": "",
-   "status": "new",
+   "en": "Behr{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -982,8 +982,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ハント{item}",
-   "en": "",
-   "status": "new",
+   "en": "Hand{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -994,8 +994,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "フィッシャー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Fischer{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1006,8 +1006,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ストリークス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Strix{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1018,8 +1018,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "グリッフシン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Griffsin{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1030,8 +1030,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "シェッフェル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Scheffel{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1042,8 +1042,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ボイフゲン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Beugen{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1054,8 +1054,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "シューネル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Schnell{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1066,8 +1066,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "マシュト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Macht{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1078,8 +1078,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "フェーンジ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Fange{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1090,8 +1090,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "アンバーグル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Anbergl{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1102,8 +1102,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "マッシブ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Massiv{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1114,8 +1114,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ずきん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Hood{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1126,8 +1126,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "くない{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kunai{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1138,8 +1138,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "にんじゃとう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ninjato{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1150,8 +1150,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "しのびあし{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sneakstep{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1162,8 +1162,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "エルモ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Elmo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1174,8 +1174,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "アペンデース{item}",
-   "en": "",
-   "status": "new",
+   "en": "Appendese{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1186,8 +1186,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "プロテーガ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Protega{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1198,8 +1198,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "グエルサンテ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Guersante{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1210,8 +1210,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "カペリロッシ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Capelrossi{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1222,8 +1222,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "アシコレッタ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Asicoretta{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1234,8 +1234,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "アシニスト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Asinist{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1246,8 +1246,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ディバリカ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Divarica{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1258,8 +1258,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "オレチョランゴ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Oreclango{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1270,8 +1270,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "バシオフレコ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Baciofreco{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1282,8 +1282,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "バシデコルポ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bacicolpo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1294,8 +1294,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "サルティガンバ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Saltigamba{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1306,8 +1306,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "さむらいのいのち{item}",
-   "en": "",
-   "status": "new",
+   "en": "BushiSoul{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1318,8 +1318,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "わきざし{item}",
-   "en": "",
-   "status": "new",
+   "en": "Wakizashi{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1330,8 +1330,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "にほんとう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Katana{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1342,8 +1342,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "すりあし{item}",
-   "en": "",
-   "status": "new",
+   "en": "Slide Step{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1354,8 +1354,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "センデオッド{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sendeod{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1366,8 +1366,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "マコデカ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Macodeca{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1378,8 +1378,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "マシデカ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Macideca{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1390,8 +1390,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "カルシガム{item}",
-   "en": "",
-   "status": "new",
+   "en": "Calcigam{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1402,8 +1402,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "カッポー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cappo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1414,8 +1414,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "エラギッチ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Eragitch{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1426,8 +1426,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "コラッジオ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Coraggio{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1438,8 +1438,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "デレンゴ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Derengo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1450,8 +1450,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "むらさきずきん{item}",
-   "en": "",
-   "status": "new",
+   "en": "PurpleHood{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1462,8 +1462,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "まきびし{item}",
-   "en": "",
-   "status": "new",
+   "en": "Caltrops{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1474,8 +1474,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "かやくでっぽう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Matchlock{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1486,8 +1486,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "さしあし{item}",
-   "en": "",
-   "status": "new",
+   "en": "Soft Step{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1498,8 +1498,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "チョデモン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Chodemon{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1510,8 +1510,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "カッペ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cappe{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1522,8 +1522,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "プレセダーノ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Precedano{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1534,8 +1534,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "バコルタ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bacolta{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1546,8 +1546,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ディナストロ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dinastro{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1558,8 +1558,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "アビディマリーナ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Abimarina{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1570,8 +1570,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "トラグリア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Traglia{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1582,8 +1582,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ナートソックス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Natosocks{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1594,8 +1594,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ディッカル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Diccal{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1606,8 +1606,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "アンガベコレト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Angabecol{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1618,8 +1618,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "アンガデコレト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Angadecol{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1630,8 +1630,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "バスペッサ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Baspessa{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1642,8 +1642,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "モデロリスタット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Modelstat{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1654,8 +1654,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "レットティグレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rettigre{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1666,8 +1666,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ニストロティグレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nistigre{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1678,8 +1678,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ラガンティグレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ragantigre{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1690,8 +1690,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "シアクート{item}",
-   "en": "",
-   "status": "new",
+   "en": "Siacuto{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1702,8 +1702,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "エレトリッタ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Elettrita{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1714,8 +1714,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "オンダエレト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ondaelet{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1726,8 +1726,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "シレンチオ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Silencio{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1738,8 +1738,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "アリメンド{item}",
-   "en": "",
-   "status": "new",
+   "en": "Alimendo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1750,8 +1750,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "インジェコ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ingeco{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1762,8 +1762,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ジャメットベーノ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Jambeno{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1774,8 +1774,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "オペラケオ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Operacheo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1786,8 +1786,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "サーペンテ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Serpente{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1798,8 +1798,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ペテロケミセルト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Petrocerto{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1810,8 +1810,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ペテロケミエスク{item}",
-   "en": "",
-   "status": "new",
+   "en": "Petroesq{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1822,8 +1822,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ペルーナフェア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Perunafea{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1834,8 +1834,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ジャッバ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Jabba{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1846,8 +1846,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ディレグランデ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Diregrand{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1858,8 +1858,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "エルダグランデ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Eldagrand{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1870,8 +1870,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "デセントベスタ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Desentbes{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1882,8 +1882,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ミラーグル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Milagre{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1894,8 +1894,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ビークアンド{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bicuand{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1906,8 +1906,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "プレディカ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Predica{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1918,8 +1918,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "パルナデアス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Parnadeas{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1930,8 +1930,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "エンボルタ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Envolta{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1942,8 +1942,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ポルテカオセル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Portcaocel{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1954,8 +1954,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ポルテカオスク{item}",
-   "en": "",
-   "status": "new",
+   "en": "Portcaosc{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1966,8 +1966,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "レンタメンテ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Lentament{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1978,8 +1978,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "コグメロベーノ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cogumveno{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -1990,8 +1990,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "エスポーロ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Esporo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2002,8 +2002,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "バシーロ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bacilo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2014,8 +2014,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "リンハデバシロ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Linhbacil{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2026,8 +2026,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ベルーデ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Verde{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2038,8 +2038,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "エスピーノ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Espino{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2050,8 +2050,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "アルマエスピーノ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Armespino{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2062,8 +2062,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "セルバ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Selva{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2074,8 +2074,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "エゴレノバ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Egorenova{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2086,8 +2086,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "テソラセント{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tesocento{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2098,8 +2098,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "テソラダス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tesoradas{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2110,8 +2110,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "マルタペルナ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Maltaperna{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2122,8 +2122,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ペサデロ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Pesadelo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2134,8 +2134,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ソンプロフェット{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sonprofet{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2146,8 +2146,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ソンプロビッサ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sonprovis{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2158,8 +2158,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "デセスペル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Desesper{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2170,8 +2170,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "カンデバタル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Candebatal{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2182,8 +2182,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ゲリル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Geril{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2194,8 +2194,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ユニデ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Unide{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2206,8 +2206,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "タンケ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tanque{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2218,8 +2218,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "パルハチョ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Palhacho{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2230,8 +2230,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "カーナバル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Carnaval{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2242,8 +2242,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "フェスタ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Festa{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2254,8 +2254,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "クエダエンデ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Quedaende{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2266,8 +2266,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "カンバナデスコ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cambandes{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2278,8 +2278,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "マジア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Magia{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2290,8 +2290,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "カーナ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cana{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2302,8 +2302,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "バッソーラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Vassoura{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2314,8 +2314,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ペルガンタ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Pergunta{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2326,8 +2326,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "プロテシオン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Protecion{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2338,8 +2338,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ベスティア{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bestia{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2350,8 +2350,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "セシエンタ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sesienta{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2362,8 +2362,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "テラノス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Terranos{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2374,8 +2374,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "メガトル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Megator{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2386,8 +2386,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ギガント{item}",
-   "en": "",
-   "status": "new",
+   "en": "Gigante{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2398,8 +2398,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ラビダラルガ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Vidalarga{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2410,8 +2410,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ラ・ナルラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "La Narla{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2422,8 +2422,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ラマノデグラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Manodegra{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2434,8 +2434,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ラマノイグラン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Manoigran{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2446,8 +2446,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ラピアグラン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Lapiagran{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2458,8 +2458,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "アーケラルゴ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Arquelarg{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2470,8 +2470,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "プランタコム{item}",
-   "en": "",
-   "status": "new",
+   "en": "Plantacom{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2482,8 +2482,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "マキシマ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Maxima{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2494,8 +2494,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ラコララルガ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Colalarga{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2506,8 +2506,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "グロコエルカ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Grocoerca{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2518,8 +2518,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "バエルアンダー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Baelander{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2530,8 +2530,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ゾーナデクス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Zonadex{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2542,8 +2542,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "プログレッソ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Progresso{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2554,8 +2554,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ニエーベ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nieve{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2566,8 +2566,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ヒエーロ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Hielo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2578,8 +2578,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "トレルニーベ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Trelnieve{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2590,8 +2590,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "エルカンポネーバ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Camponeva{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2602,8 +2602,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "リモーソ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Limoso{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2614,8 +2614,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "トランスパー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Transpar{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2626,8 +2626,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "エルカランテ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Elcalante{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2638,8 +2638,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "アゾーンテ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Azonte{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2650,8 +2650,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ナバージャ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Navaja{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2662,8 +2662,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "アルバロトス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Albarotos{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2674,8 +2674,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "アトロッツ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Atroz{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2686,8 +2686,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "アラスレッタ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Alasretta{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2698,8 +2698,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "コントラフリオ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Contrafrio{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2710,8 +2710,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "プルマスチョ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Plumascho{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2722,8 +2722,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "プルマスダス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Plumasdas{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2734,8 +2734,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "トッタリング{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tottering{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2746,8 +2746,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "プラト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Plato{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2758,8 +2758,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ウェッブ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Web{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2770,8 +2770,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "アルコレ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Alcore{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2782,8 +2782,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "カスカーラ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cascara{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2794,8 +2794,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "キュアボイス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cure Voice{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2806,8 +2806,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "マルカデルコ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Marcadelco{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2818,8 +2818,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ティポデルコ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tipodelco{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2830,8 +2830,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ペーズ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Pez{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2842,8 +2842,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ラグレガン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Lagregan{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2854,8 +2854,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "シャワー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Shower{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2866,8 +2866,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "フレスコ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Fresco{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -2878,8 +2878,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ルミネセンス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Luminesce{item}",
+   "status": "done",
    "notes": ""
   }
  ]

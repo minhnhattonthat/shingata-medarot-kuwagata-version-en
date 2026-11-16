@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "なぐる{item}",
-   "en": "",
-   "status": "new",
+   "en": "Strike{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "がむしゃら{item}",
-   "en": "",
-   "status": "new",
+   "en": "Berserk{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "うつ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Shoot{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ねらいうち{item}",
-   "en": "",
-   "status": "new",
+   "en": "Snipe{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "まもる{item}",
-   "en": "",
-   "status": "new",
+   "en": "Protect{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "なおす{item}",
-   "en": "",
-   "status": "new",
+   "en": "Repair{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "おうえん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Support{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ぼうがい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Jamming{item}",
+   "status": "done",
    "notes": ""
   }
  ]

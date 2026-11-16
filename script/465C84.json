@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "かくとう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Melee{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "しゃげき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Shooting{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "こうがく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Beam{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "かやく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Explosive{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "じゅうりょく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Gravity{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "せっち{item}",
-   "en": "",
-   "status": "new",
+   "en": "Trap{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "へんどう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Shift{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ていし{item}",
-   "en": "",
-   "status": "new",
+   "en": "Halt{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "そくばく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bind{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "けいぞく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sustained{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "かいじょ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dispel{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "むこう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ぼうぎょ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Defense{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "かいふく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Recover{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ふっかつ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Revive{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "たいくう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Anti-Air{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "たいすい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Anti-Water{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "さくてき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Scout{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "いんぺい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Stealth{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "じかん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Time{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ぼうがい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Jamming{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "はかい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Destroy{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "さいせい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Regenerate{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "れんけい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Teamwork{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "はんげき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Counter{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "へんか{item}",
-   "en": "",
-   "status": "new",
+   "en": "Change{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "なし{item}",
-   "en": "",
-   "status": "new",
+   "en": "None{item}",
+   "status": "done",
    "notes": ""
   }
  ]

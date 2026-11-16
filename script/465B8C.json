@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "クワガタ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kuwagata{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "カブト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kabuto{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "トータス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Tortoise{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "クラゲ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Jellyfish{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "クマ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bear{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "クモ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Spider{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "へ・ビー{item}",
-   "en": "",
-   "status": "new",
+   "en": "He-Bee{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "クイーン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Queen{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "クラーケン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kraken{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "フェニックス{item}",
-   "en": "",
-   "status": "new",
+   "en": "Phoenix{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "ユニコーン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Unicorn{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ゴースト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ghost{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ナイト{item}",
-   "en": "",
-   "status": "new",
+   "en": "Knight{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "マーメイド{item}",
-   "en": "",
-   "status": "new",
+   "en": "Mermaid{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ペンギン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Penguin{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "コウモリ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bat{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "カッパ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Kappa{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ネズミ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Mouse{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "カメレオン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Chameleon{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ウサギ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rabbit{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "サル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Monkey{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "デビル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Devil{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "エンジェル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Angel{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "ドラゴン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dragon{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "しのび{item}",
-   "en": "",
-   "status": "new",
+   "en": "Ninja{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "エイリアン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Alien{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "fe",
    "bytes": 3,
    "jp": "ネコ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cat{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "オオカミ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Wolf{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "セルヴォ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cervo{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "ビート{item}",
-   "en": "",
-   "status": "new",
+   "en": "Beat{item}",
+   "status": "done",
    "notes": ""
   }
  ]

@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "たていっせん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Vertical Slash{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "よこいっせん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Horizontal Slash{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "いっせいしゃげき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Firing Volley{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ダメージだま{item}",
-   "en": "",
-   "status": "new",
+   "en": "Damage Ball{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "こうがくか{item}",
-   "en": "",
-   "status": "new",
+   "en": "Beam Shift{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "こうがくドレイン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Beam Drain{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "かやくか{item}",
-   "en": "",
-   "status": "new",
+   "en": "Explosive Shift{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "かやくドレイン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Explosive Drain{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "じゅうりょくか{item}",
-   "en": "",
-   "status": "new",
+   "en": "Gravity Shift{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 11,
    "jp": "じゅうりょくドレイン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Gravity Drain{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "こうげきトラップ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Attack Trap{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -142,8 +142,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "トラップむこう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify Trap{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -154,8 +154,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ぜんたいへんどう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Shift All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -166,8 +166,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "へんどうむこう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify Shift{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -178,8 +178,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ぜんたいていし{item}",
-   "en": "",
-   "status": "new",
+   "en": "Freeze All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -190,8 +190,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "ていしむこう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify Freeze{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -202,8 +202,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ぜんたいそくばく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Bind All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -214,8 +214,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "そくばくむこう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify Bind{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -226,8 +226,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ぜんたいけいぞく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sustained All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -238,8 +238,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "けいぞくむこう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify Sustained{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -250,8 +250,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "せいめいドレイン{item}",
-   "en": "",
-   "status": "new",
+   "en": "Life Drain{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -262,8 +262,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ぜんたいかいじょ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dispel All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -274,8 +274,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "かいすうぞうか{item}",
-   "en": "",
-   "status": "new",
+   "en": "Uses Up{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -286,8 +286,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ぜんたいほうねつ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cool All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -298,8 +298,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "てっぺきぼうぎょ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Iron Defense{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -310,8 +310,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "いりょくぞうか{item}",
-   "en": "",
-   "status": "new",
+   "en": "Power Up{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -322,8 +322,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ぜんたいかいふく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Recover All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -334,8 +334,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "はんげんこうげき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Halving Attack{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -346,8 +346,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ぜんたいふっかつ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Revive All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -358,8 +358,8 @@
    "kind": "fe",
    "bytes": 11,
    "jp": "きのうていしこうげき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Shutdown Attack{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -370,8 +370,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "エアしょうじょう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Air Status{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -382,8 +382,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "すいしんアップ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Propulsion Up{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -394,8 +394,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "シーしょうじょう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Sea Status{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -406,8 +406,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "きどうアップ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Mobility Up{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -418,8 +418,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "さくてきぜんかい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Full Scout{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -430,8 +430,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "きんせつアップ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Close Range Up{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -442,8 +442,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "いんぺいぜんかい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Full Stealth{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -454,8 +454,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "えんかくアップ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Long Range Up{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -466,8 +466,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "ぜんたいじゅうてん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Charge All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -478,8 +478,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ぜんたいてんとう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Topple All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -490,8 +490,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ぜんたいこんらん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Confuse All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -502,8 +502,8 @@
    "kind": "fe",
    "bytes": 11,
    "jp": "ぜんたいしようふのう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Disable All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -514,8 +514,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "ぜんたいデストロイ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Destroy All{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -526,8 +526,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "たいせいはかい{item}",
-   "en": "",
-   "status": "new",
+   "en": "Destroy Resistance{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -538,8 +538,8 @@
    "kind": "fe",
    "bytes": 11,
    "jp": "メダフォースぼうそう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Medaforce Rampage{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -550,8 +550,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "メダフォースダブル{item}",
-   "en": "",
-   "status": "new",
+   "en": "Medaforce Double{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -562,8 +562,8 @@
    "kind": "fe",
    "bytes": 11,
    "jp": "せっちいりょくアップ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Trap Power Up{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -574,8 +574,8 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "きゃくぶクラッシュ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Legs Crash{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -586,8 +586,8 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "えんごはんげき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Support Counter{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -598,8 +598,8 @@
    "kind": "fe",
    "bytes": 7,
    "jp": "かまえむこう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Nullify Stance{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -610,8 +610,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "サイコロこうげき{item}",
-   "en": "",
-   "status": "new",
+   "en": "Dice Attack{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -622,8 +622,8 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "タイプクラッシュ{item}",
-   "en": "",
-   "status": "new",
+   "en": "Type Crash{item}",
+   "status": "done",
    "notes": ""
   }
  ]

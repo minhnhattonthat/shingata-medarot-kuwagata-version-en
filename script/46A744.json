@@ -10,8 +10,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "こうや{item}",
-   "en": "",
-   "status": "new",
+   "en": "Wilderness{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -22,8 +22,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "さばく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Desert{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -34,8 +34,8 @@
    "kind": "fe",
    "bytes": 4,
    "jp": "いわば{item}",
-   "en": "",
-   "status": "new",
+   "en": "Rockland{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -46,8 +46,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "けいこく{item}",
-   "en": "",
-   "status": "new",
+   "en": "Canyon{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -58,8 +58,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "そうげん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Grassland{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -70,8 +70,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "しんりん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Forest{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -82,8 +82,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "まちなか{item}",
-   "en": "",
-   "status": "new",
+   "en": "City{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -94,8 +94,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "しつない{item}",
-   "en": "",
-   "status": "new",
+   "en": "Indoors{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -106,8 +106,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "かいがん{item}",
-   "en": "",
-   "status": "new",
+   "en": "Coast{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -118,8 +118,8 @@
    "kind": "fe",
    "bytes": 6,
    "jp": "すいちゅう{item}",
-   "en": "",
-   "status": "new",
+   "en": "Underwater{item}",
+   "status": "done",
    "notes": ""
   },
   {
@@ -130,8 +130,8 @@
    "kind": "fe",
    "bytes": 5,
    "jp": "サイバー{item}",
-   "en": "",
-   "status": "new",
+   "en": "Cyber{item}",
+   "status": "done",
    "notes": ""
   }
  ]
