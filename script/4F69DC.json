@@ -274,7 +274,7 @@
    "kind": "ff",
    "bytes": 74,
    "jp": "{face:002A00}やぁ！ デートは どうだったかい？{page}ボクたちとの ロボトル サイコーだっただろ？{page}おんなのこは そとで まってるよ{n}また きておくれよ！{end:00}",
-   "en": "{face:002A00}Hi! How was your date?{page}Wasn't that Robattle with us the best?{page}The girl's waiting outside. Come back soon!{end:00}",
+   "en": "{face:002A00}Hi! How was your date?{page}Wasn't that Robattle with us the best?{page}The girl's waiting outside.{n}Come back soon!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -802,7 +802,7 @@
    "kind": "ff",
    "bytes": 192,
    "jp": "{face:003C00}おぬしは みかけによらず つよいようじゃな{page}{face:010000}あ！ あなたは ヘベレケはかせ{n}・・・でしたっけ？{page}{face:003C00}そのとおり！ ワシが ヘベレケじゃ！{page}{face:010004}はかせってことは メダロットに くわしいんですよね！{page}{face:003C00}もちろんじゃ！{page}みたところ おぬしも そうとうの メダロットずきの{n}ようじゃが？{page}{face:010001}はいっ！{page}{face:003C00}では ここは1つ ワシとロボトルしてみんか？{end:00}",
-   "en": "{face:003C00}You're stronger than you look, my boy.{page}{face:010000}Oh! You're Dr. Meta-Evil... Was that your name?{page}{face:003C00}Indeed! I am Meta-Evil!{page}{face:010004}So you're a doctor? You must know a lot about Medabots!{page}{face:003C00}Of course, my boy!{page}From the look of you, you're quite a Medabot fan yourself, eh?{page}{face:010001}Yes, sir!{page}{face:003C00}Then how about a Robattle with me?{end:00}",
+   "en": "{face:003C00}You're stronger than you look, my boy.{page}{face:010000}Oh! You're Dr. Meta-Evil...{n}Was that your name?{page}{face:003C00}Indeed! I am Meta-Evil!{page}{face:010004}So you're a doctor? You must know a lot about Medabots!{page}{face:003C00}Of course, my boy!{page}From the look of you, you're quite a Medabot fan yourself, eh?{page}{face:010001}Yes, sir!{page}{face:003C00}Then how about a Robattle with me?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1234,7 +1234,7 @@
    "kind": "ff",
    "bytes": 84,
    "jp": "{face:000C01}まよいのもりを ぬけたら しゅくだいも ガッコウもない{page}ゆめの せかい ミルキーランドよ！{page}{face:000C03}では ミルキーランドを いっしゅうしてきて くださいね！{end:00}",
-   "en": "{face:000C01}Past the Lost Woods is a place with no homework and no school...{page}The dream world of Milky Land!{page}{face:000C03}Now, go all the way around Milky Land, okay?{end:00}",
+   "en": "{face:000C01}Past the Lost Woods is a place with no homework and no school...{page}The dream world of Milky Land!{page}{face:000C03}Now, go all the way around{n}Milky Land, okay?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1342,7 +1342,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:005100}ねえ ねえ むこうまで ボクと きょうそうしない？{end:02}",
-   "en": "{face:005100}Hey, hey! Wanna race me to the other side?{end:02}",
+   "en": "{face:005100}Hey, hey! Wanna race{n}me to the other side?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -1474,7 +1474,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:002200}やっぱり おとこのこって ロボトルのほうが いいわけ？{end:00}",
-   "en": "{face:002200}So boys really do prefer Robattles, huh?{end:00}",
+   "en": "{face:002200}So boys really do prefer{n}Robattles, huh?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1570,7 +1570,7 @@
    "kind": "ff",
    "bytes": 76,
    "jp": "{face:010000}え？ ぼく？{page}{face:000200}{var:00}{n}がんばって！{page}{face:000C01}じゃあキミ！ わたしの まほうで ゆうしゃに へんしんよ！{n}メダトルロボトルミルミルキー！{end:00}",
-   "en": "{face:010000}Huh? Me?{page}{face:000200}{var:00}! You can do it!{page}{face:000C01}You there! My magic will turn you into a hero!{page}Medattle Robattle Mil-Milky!{end:00}",
+   "en": "{face:010000}Huh? Me?{page}{face:000200}{var:00}! You can do it!{page}{face:000C01}You there! My magic{n}will turn you into a hero!{page}Medattle Robattle Mil-Milky!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1594,7 +1594,7 @@
    "kind": "ff",
    "bytes": 99,
    "jp": "{face:000C01}じゃ がんばって ゆうしゃくん！{n}わたしたちは あんぜんになったら あとを{page}ついていくから！{page}{face:010005}なんだよ それー{page}{face:000200}あたしも つきあってあげるわよ{n}・・・ついてく だけだけど{end:00}",
-   "en": "{face:000C01}Good luck, hero-kun! We'll follow once it's safe!{page}{face:010005}What's THAT supposed to mean?{page}{face:000200}I'll come along with you.{n}...Just follow you, though.{end:00}",
+   "en": "{face:000C01}Good luck, hero-kun!{n}We'll follow once it's safe!{page}{face:010005}What's THAT supposed to mean?{page}{face:000200}I'll come along with you.{n}...Just follow you, though.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1799,7 +1799,7 @@
    "kind": "ff",
    "bytes": 70,
    "jp": "{face:003601}フ・・・フッフ{n}オレは あくのロボロボぐんだん{page}その5ロボ{n}おまえが どーしてもと いうのなら あいてをしてやっても{page}いいロボよ{end:00}",
-   "en": "{face:003601}Heh... Heh heh... I'm No. 5 of the evil Rubberobo Army, robo.{page}If you insist, I guess I could fight you, robo.{end:00}",
+   "en": "{face:003601}Heh... Heh heh... I'm No. 5 of the evil Rubberobo Army, robo.{page}If you insist, I guess{n}I could fight you, robo.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2615,7 +2615,7 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:002A00}ワルグチ いったのは そのくちロボか？{page}{face:010005}ぼくじゃないって！{end:00}",
-   "en": "{face:002A00}So you're the one with the big mouth, robo?{page}{face:010005}It wasn't me!{end:00}",
+   "en": "{face:002A00}So you're the one{n}with the big mouth, robo?{page}{face:010005}It wasn't me!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2987,7 +2987,7 @@
    "kind": "ff",
    "bytes": 182,
    "jp": "{face:000204}ごきげん いかが？{n}メダロッとうは どうだった？{page}{face:010004}アリカ ありがとう つれてきてくれて{n}きて よかったよ{page}{face:000204}そっか{page}{face:010004}はやく パパとママに あいたいなぁ{n}はなしたいこと いっぱいあるんだ{page}パパやママの こどものときの はなしも ききたいな{n}やっぱり いえって いいよね{page}{face:000204}{var:00}{page}{face:010000}ん？{page}{face:000201}あたしも きて よかった！{end:00}",
-   "en": "{face:000204}How are you feeling? How was Medabot Island?{page}{face:010004}Erika, thanks for bringing me. I'm glad I came.{page}{face:000204}You are?{page}{face:010004}I can't wait to see Mom and Dad. I have so much to tell them!{page}I want to hear about when they were kids, too. Home really is nice.{page}{face:000204}{var:00}...{page}{face:010000}Hm?{page}{face:000201}I'm glad I came, too!{end:00}",
+   "en": "{face:000204}How are you feeling? How was Medabot Island?{page}{face:010004}Erika, thanks for bringing me.{n}I'm glad I came.{page}{face:000204}You are?{page}{face:010004}I can't wait to see Mom and Dad. I have so much to tell them!{page}I want to hear about when they were kids, too. Home really is nice.{page}{face:000204}{var:00}...{page}{face:010000}Hm?{page}{face:000201}I'm glad I came, too!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3131,7 +3131,7 @@
    "kind": "ff",
    "bytes": 204,
    "jp": "{face:005000}おかえり {var:00}{page}{face:010004}ただいま パパ ママ{page}{face:005000}アマザケさんの いえから れんらくが あったのよ{page}メダロッとうに つれていって もらってたんですってね{page}ごめんなさいね {var:00}{n}つらい おもい させちゃったわね{page}{face:004F00}{var:00} すまなかったね{n}パパも あやまるよ{page}こんどは きっと・・・{page}{face:010004}そのことなら もう いいんだ{page}パパと ママにも たいせつな ようじが あるもんね{page}{face:005000}{var:00}・・・{end:00}",
-   "en": "{face:005000}Welcome home, {var:00}!{page}{face:010004}I'm home, Mom, Dad!{page}{face:005000}We heard from the Amazakes.{page}They took you to Medabot Island, didn't they?{page}I'm sorry, {var:00}. We made you feel so lonely, didn't we?{page}{face:004F00}I'm sorry too, {var:00}. Dad owes you an apology.{page}Next time, I promise...{page}{face:010004}It's okay now.{page}You and Mom have important things to do, too.{page}{face:005000}{var:00}...{end:00}",
+   "en": "{face:005000}Welcome home, {var:00}!{page}{face:010004}I'm home, Mom, Dad!{page}{face:005000}We heard from the Amazakes.{page}They took you to{n}Medabot Island, didn't they?{page}I'm sorry, {var:00}. We made you feel so lonely, didn't we?{page}{face:004F00}I'm sorry too, {var:00}. Dad owes you an apology.{page}Next time, I promise...{page}{face:010004}It's okay now.{page}You and Mom have important things to do, too.{page}{face:005000}{var:00}...{end:00}",
    "status": "done",
    "notes": ""
   },

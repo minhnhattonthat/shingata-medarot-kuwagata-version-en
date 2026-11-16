@@ -58,7 +58,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:005E00}ざんねん！ ハズレです{n}パーツを ゲットできなかった！{end:00}",
-   "en": "{face:005E00}Too bad! You missed! You didn't win a part!{end:00}",
+   "en": "{face:005E00}Too bad! You missed!{n}You didn't win a part!{end:00}",
    "status": "done",
    "notes": ""
   },

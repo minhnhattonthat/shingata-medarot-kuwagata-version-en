@@ -13,6 +13,7 @@ Warnings (not failures): translated strings whose variant is still a guess, and 
 --all also lints the marker text (tools/marker.py) instead of `en`, a self-test of the lint and the budgets.
 """
 import argparse
+import functools
 import json
 import re
 import sys
@@ -48,12 +49,20 @@ def name_px(text, w):
     return sum(w.get(c, 8) for c in plain), bad
 
 
-def wrap_pages(text, budget, w, var_px):
-    """Simulate the engine's word wrap: [[line px, ...] per page], unknown characters."""
-    pages, lines, pen, bad = [], [], 0, set()
+VAR_TEXT = "{var}"  # a variable in a wrapped line's text (a name: never a stub)
+
+
+def wrap_lines(text, budget, w, var_px):
+    """Simulate the engine's word wrap: [[(line px, line text), ...] per page], unknown characters."""
+    pages, lines, pen, cur, bad = [], [], 0, "", set()
 
     def word_px(word):
         return sum(w.get(c, 8) for c in word)
+
+    def newline():
+        nonlocal pen, cur
+        lines.append((pen, cur))
+        pen, cur = 0, ""
 
     for part in TOKEN.split(text):
         if not part:
@@ -61,19 +70,18 @@ def wrap_pages(text, budget, w, var_px):
         if part.startswith("{"):
             name = token_name(part)
             if name == "n":
-                lines.append(pen)
-                pen = 0
+                newline()
             elif name in ("page", "end"):
-                lines.append(pen)
+                newline()
                 pages.append(lines)
-                lines, pen = [], 0
+                lines = []
             elif name == "var":
                 arg = part[1:-1].split(":")[1]
                 width = var_px.get(arg.upper(), var_px.get("default", 64))
                 if pen and pen + width > budget:
-                    lines.append(pen)
-                    pen = 0
+                    newline()
                 pen += width
+                cur += VAR_TEXT
             continue
         for word in re.split(r"( )", part):
             if not word:
@@ -81,30 +89,84 @@ def wrap_pages(text, budget, w, var_px):
             bad.update(c for c in word if c not in w)
             wp = word_px(word)
             if word != " " and pen and pen + wp > budget:
-                lines.append(pen)
-                pen = 0
+                newline()
             pen += wp
+            cur += word
     if pen or lines:
-        lines.append(pen)
+        newline()
         pages.append(lines)
     return pages, sorted(bad)
 
 
+def wrap_pages(text, budget, w, var_px):
+    """Simulate the engine's word wrap: [[line px, ...] per page], unknown characters."""
+    pages, bad = wrap_lines(text, budget, w, var_px)
+    return [[px for px, _ in page] for page in pages], bad
+
+
+STUB_CHARS = 6  # a last line shorter than this ("kid!", "team!") reads as an orphan (SKILL.md phase 7)
+
+
+def is_stub(line):
+    """A wrapped line too short to stand alone: under STUB_CHARS characters, no variable (a name), some letter.
+    A line of only punctuation ('...', '!?') is a deliberate beat, not a stub."""
+    line = line.strip()
+    if VAR_TEXT in line or not any(c.isalnum() for c in line):
+        return False
+    return len(line) < STUB_CHARS
+
+
 def stub_page(text, budget, w, var_px):
-    """1-based number of the first page the engine's wrap (no {n} of the author's) ends in a line under STUB_PX."""
-    for i, page in enumerate(re.split(r"\{page\}", text)):
-        if "{n}" in page:
-            continue
-        lines = wrap_pages(page, budget, w, var_px)[0]
-        if lines and len(lines[0]) >= 2 and 0 < lines[0][-1] < STUB_PX:
+    """1-based number of the first page (of 2+ lines, the engine's wrap and the author's {n}) ending in a stub."""
+    for i, page in enumerate(wrap_lines(text, budget, w, var_px)[0]):
+        if len(page) >= 2 and is_stub(page[-1][1]):
             return i + 1
     return 0
 
 
-def lint(entries, win, w, stubs=True):
-    """(errors, warnings) for [(table, entry, text)]. stubs=False skips the stub-line rule (marker text)."""
+def blanks(s):
+    """(leading, trailing) space counts (pipeline.md §Checks: padded FE fields and columns keep the JP's)."""
+    return len(s) - len(s.lstrip(" 　")), len(s) - len(s.rstrip(" 　"))
+
+
+PANE = re.compile(r"^\{fa:FF\}")  # info panes (part / Medaforce / town-map descriptions) draw at once, one page
+TIMED = re.compile(r"\{fa:[0-9A-Fa-f]{2}\}\{end:[0-9A-Fa-f]{2}\}$")  # battle lines that close on a timer
+
+
+def page_problem(table, e, text, win, page_tables):
+    """Why an added {page} (FC) is wrong here, or None. The JP's own {page}s are always fine.
+    A {fa:FF} pane shows only page 1 (parts_shop_detail, work/qa/pg_psd); a timed battle line never pages in the
+    JP. Elsewhere a table whose JP never pages needs windows.json "page_tables" (table -> evidence that FC pages)."""
+    jp = e.get("jp", "")
+    if "{page}" not in text or "{page}" in jp:
+        return None
+    if PANE.match(jp):
+        return "{page} in a one-page info pane (only page 1 is shown): fit it in 2 lines"
+    if TIMED.search(jp):
+        return "{page} in a timed battle line (the JP never pages there): fit it in 2 lines"
+    if table not in page_tables and table not in win.get("page_tables", {}):
+        return "{page} in a table whose JP never pages: prove FC pages there (windows.json page_tables) or fit it"
+    return None
+
+
+@functools.lru_cache(maxsize=None)
+def jp_page_tables(root=SCRIPT):
+    """Tables with at least one JP {page}: FC is proven to page on their screens."""
+    out = set()
+    for path in Path(root).glob("*.json"):
+        d = json.loads(path.read_text(encoding="utf-8"))
+        if any("{page}" in e["jp"] for e in d["strings"]):
+            out.add(d.get("table"))
+    return out
+
+
+def lint(entries, win, w, stubs=True, page_tables=None):
+    """(errors, warnings) for [(table, entry, text)]. stubs=False skips the stub-line rule (marker text).
+    page_tables: tables whose JP pages (default: read from script/)."""
     errors, warnings, guessed = [], [], {}
     var_px = win.get("vars", {})
+    if page_tables is None:
+        page_tables = jp_page_tables()
     for table, e, text in entries:
         vname, v = variant_for(win, table, e["kind"])
         where = f"{e['id']} ({table}, {vname})"
@@ -114,6 +176,11 @@ def lint(entries, win, w, stubs=True):
         if v.get("status") != "measured":
             guessed[vname] = guessed.get(vname, 0) + 1
         if e["kind"] == "fe":
+            jp = TOKEN.sub("", e.get("jp", ""))
+            en = TOKEN.sub("", text)
+            if stubs and jp and (blanks(jp) != blanks(en)):
+                errors.append(f"{where}: leading/trailing blanks {blanks(en)} differ from the JP's {blanks(jp)} "
+                              f"(padded field or column): {text!r}")
             width, bad = name_px(text, w)
             if width > v["px"]:
                 errors.append(f"{where}: {width} px > {v['px']}: {text}")
@@ -131,6 +198,8 @@ def lint(entries, win, w, stubs=True):
                 if over:
                     errors.append(f"{where}: one word wider than {v['px']} px: {text}")
                     break
+            if stubs and (why := page_problem(table, e, text, win, page_tables)):
+                errors.append(f"{where}: {why}: {text}")
             if stubs and (n := stub_page(text, v["px"], w, var_px)):
                 errors.append(f"{where}: page {n} wraps to a stub last line (rebalance with {{n}} or rephrase): {text}")
         if bad:

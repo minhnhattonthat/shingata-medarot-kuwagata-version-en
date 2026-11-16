@@ -10,7 +10,7 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{fa:FF}「ベント・デル・マーレ」{n}{var:00}とゆかいな なかまたちの まち{end:04}",
-   "en": "{fa:FF}\"Vento del Mare\"{page}Home to {var:00} and a merry band of friends.{end:04}",
+   "en": "{fa:FF}\"Vento del Mare\"{n}Home to {var:00} and merry pals.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -34,7 +34,7 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{fa:FF}「カラクリ・タウン」{n}メダロットけんきゅうじょが ある まち{end:04}",
-   "en": "{fa:FF}\"Karakuri Town\"{page}Home to the Medabot Research Institute.{end:04}",
+   "en": "{fa:FF}\"Karakuri Town\"{n}Home to the Medabot Research Institute.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -70,7 +70,7 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{fa:FF}「セントラルモール」{n}いろんな おみせがある しょうてんがい{end:04}",
-   "en": "{fa:FF}\"Central Mall\"{page}A shopping district with all kinds of stores.{end:04}",
+   "en": "{fa:FF}\"Central Mall\"{n}A shopping district full of stores.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -118,7 +118,7 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{fa:FF}「メダルはっくつきねんこうえん」{n}メダルがはっくつされているばしょ{end:04}",
-   "en": "{fa:FF}\"Medal Excavation Memorial Park\"{page}A site where Medals are excavated.{end:04}",
+   "en": "{fa:FF}\"Medal Excavation Memorial Park\"{n}A site where Medals are excavated.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -166,7 +166,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{fa:FF}「サザンコロシアム」{n}ロボトルせかいたいかいの かいじょう{end:04}",
-   "en": "{fa:FF}\"Southern Colosseum\"{page}The venue for the World Robattle Tournament.{end:04}",
+   "en": "{fa:FF}\"Southern Colosseum\"{n}Site of the World Robattle Tournament.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -178,7 +178,7 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}「コスモドーム」{n}おおきな てんぼうだいが あるまち{end:04}",
-   "en": "{fa:FF}\"Cosmo Dome\"{page}A town with a large observation deck.{end:04}",
+   "en": "{fa:FF}\"Cosmo Dome\"{n}A town with a large observation deck.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -202,7 +202,7 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{fa:FF}「フォンタナいせき」{n}いつごろ できたかも わからない しんぴの いせき{end:04}",
-   "en": "{fa:FF}\"Fontana Ruins\"{page}Mysterious ruins. Nobody even knows when they were built.{end:04}",
+   "en": "{fa:FF}\"Fontana Ruins\"{n}Mysterious ruins. Their age is unknown.{end:04}",
    "status": "done",
    "notes": ""
   }

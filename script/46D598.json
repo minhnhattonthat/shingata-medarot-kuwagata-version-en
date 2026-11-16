@@ -178,7 +178,7 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:000E00}ワヒだって メダロットくらい もってるぞい！{n}まだまだ わかいもんには まけんわい！{end:04}",
-   "en": "{face:000E00}Even I've got Medabots, I'll have ye know!{page}I'm not losing to you youngsters yet!{end:04}",
+   "en": "{face:000E00}Even I've got Medabots,{n}I'll have ye know!{page}I'm not losing to you youngsters yet!{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -238,7 +238,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:001300}あなた みのほどを わきまえたほうが よくってよ？{end:04}",
-   "en": "{face:001300}You really ought to know your place, dear.{end:04}",
+   "en": "{face:001300}You really ought to know{n}your place, dear.{end:04}",
    "status": "done",
    "notes": ""
   },

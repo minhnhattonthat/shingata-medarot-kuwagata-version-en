@@ -202,7 +202,7 @@
    "kind": "ff",
    "bytes": 59,
    "jp": "{face:005000}あら たいへんっ！{page}「おくさま ショッピング」が はじまる じかんだわっ！{page}{var:00}{n}おへやで テレビみせてね{end:00}",
-   "en": "{face:005000}Oh, goodness!{page}It's time for 'Housewives' Shopping'!{page}{var:00}, let me watch TV in your room.{end:00}",
+   "en": "{face:005000}Oh, goodness!{page}It's time for 'Housewives' Shopping'!{page}{var:00}, let me{n}watch TV in your room.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -310,7 +310,7 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:002200}あなたも あのパーツを かいにきたのねっ！？{end:00}",
-   "en": "{face:002200}You came to buy that part too, didn't you!?{end:00}",
+   "en": "{face:002200}You came to buy that part{n}too, didn't you!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1006,7 +1006,7 @@
    "kind": "ff",
    "bytes": 184,
    "jp": "{face:001B00}いや ごくろう ごくろう{n}{var:00}くん{page}きみは いだいなる わたしのために パーツを{n}あつめてくれたわけだよ{page}{face:000408}なにものだ！？{page}{face:001B01}ふっ ふふふふっ{n}わたしの なまえは シラタマ{page}このゲームの 「ドン」とも いうべき そんざいよ{page}このゲームを うんだ わたしは カミのような ものなのだ！{page}もう きみに ようはない{page}さあ！{n}カミの さばきを うけよ！{end:00}",
-   "en": "{face:001B00}Well done, well done,{n}{var:00}-kun.{page}You have gathered the parts for my glorious self!{page}{face:000408}Who the heck are you!?{page}{face:001B01}Heh... Heh heh heh! My name is Shiratama.{page}You might call me the \"boss\" of this game.{page}I created this game! I am as a god!{page}I have no further use for you.{page}Now! Face divine judgment!{end:00}",
+   "en": "{face:001B00}Well done, well done,{n}{var:00}-kun.{page}You have gathered the parts for my glorious self!{page}{face:000408}Who the heck are you!?{page}{face:001B01}Heh... Heh heh heh! My name is Shiratama.{page}You might call me{n}the \"boss\" of this game.{page}I created this game! I am as a god!{page}I have no further use for you.{page}Now! Face divine judgment!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1294,7 +1294,7 @@
    "kind": "ff",
    "bytes": 132,
    "jp": "{face:010000}すごく きたない もじで ヒントが かいてある{page}「つぶれた こうじょうの まんなかに 1つ かくしてある」{page}{face:010008}「こうじょう」って もしかして さいしょに ロボロボだんを{n}たおした こうじょうのことかな？{page}{face:010005}・・・でも きたない もじだなぁ？{end:00}",
-   "en": "{face:010000}There's a hint in really messy handwriting.{page}\"One is hidden in the middle{n}of the ruined factory.\"{page}{face:010008}By \"factory,\" do they mean the one{page}where we first beat the Rubberobo Gang?{page}{face:010005}...Boy, this handwriting is awful!{end:00}",
+   "en": "{face:010000}There's a hint in really messy handwriting.{page}\"One is hidden in the middle{n}of the ruined factory.\"{page}{face:010008}By \"factory,\" do they mean the one{page}where we first beat{n}the Rubberobo Gang?{page}{face:010005}...Boy, this handwriting is awful!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1318,7 +1318,7 @@
    "kind": "ff",
    "bytes": 66,
    "jp": "{face:010000}ヒントが かいてある{page}「メダロッターが しゅうごう」{page}{face:010005}メダロッターが あつまるといえば{n}ビックリサイトの こと？{end:00}",
-   "en": "{face:010000}There's a hint here.{page}\"Medafighters assemble.\"{page}{face:010005}Where Medafighters gather... Surprise Site?{end:00}",
+   "en": "{face:010000}There's a hint here.{page}\"Medafighters assemble.\"{page}{face:010005}Where Medafighters gather...{n}Surprise Site?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1774,7 +1774,7 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:004500}もとの せかいに かえられ ますかの？{end:02}",
-   "en": "{face:004500}Will you be returning to your own world, then?{end:02}",
+   "en": "{face:004500}Will you be returning{n}to your own world, then?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -1810,7 +1810,7 @@
    "kind": "ff",
    "bytes": 203,
    "jp": "{face:010008}なんだよ キクヒメ{page}ひとの じゃま しないで ちゃんと じぶんで さがせよ！{page}{face:000603}ふふん そのパーツを かけてぇ{n}あたしたちと しょうぶよぉ{page}{face:010002}おまえら また 3たい1かよ！{n}かてる じしんは あるけど{page}{face:000602}あーら すっかり イヤなこに なっちゃったみたいねぇ{page}でも こんかいの あたしたちは ちょっと ちがうわよぉ{page}{face:000701}いま はやりの メダロードレースで しょうぶだぜっ！！{end:00}",
-   "en": "{face:010008}What do you want, Samantha?{page}Quit getting in my way and find your own parts!{page}{face:000603}Heh heh! Put that part on the line and face us!{page}{face:010002}Three against one again?{page}I know I can win, but...{page}{face:000602}Myyy, haven't you become a nasty little brat?{page}But we're a little different this time, you know!{page}{face:000701}We're settling this with the latest craze!{page}A Medaroad Race!{end:00}",
+   "en": "{face:010008}What do you want, Samantha?{page}Quit getting in my way and find your own parts!{page}{face:000603}Heh heh! Put that part on the line and face us!{page}{face:010002}Three against one again?{page}I know I can win, but...{page}{face:000602}Myyy, haven't you become{n}a nasty little brat?{page}But we're a little different{n}this time, you know!{page}{face:000701}We're settling this with the latest craze!{page}A Medaroad Race!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1882,7 +1882,7 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{face:000703}いいパーツ もってるじゃねーか{page}とおりたかったら あねごの はなしを きくんだな{end:00}",
-   "en": "{face:000703}Those are some nice parts you've got.{page}Wanna get through? Then listen to the boss.{end:00}",
+   "en": "{face:000703}Those are some nice parts you've got.{page}Wanna get through?{n}Then listen to the boss.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1894,7 +1894,7 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{face:000803}いいパンツ もってるじゃねーか{page}とおりたかったら あねごの はなしを きくんだな{end:00}",
-   "en": "{face:000803}Those are some nice pants you've got.{page}Wanna get through? Then listen to the boss.{end:00}",
+   "en": "{face:000803}Those are some nice pants you've got.{page}Wanna get through?{n}Then listen to the boss.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1978,7 +1978,7 @@
    "kind": "ff",
    "bytes": 197,
    "jp": "{face:010004}うん よろしくって{page}{face:001A00}そうかい そうかい{page}{face:010000}ところで パーツンラリーのこと なんだけど{page}{face:001A00}ああ そんなものもあったね パーツを{n}あずかってるんだった{page}{face:010000}じゃあ・・・{page}{face:001A00}うちのこが パーツを オモチャにして そとで{n}あそんでるはずだよ{page}そうさね・・・うちのこから パーツを とることが{n}できたなら それは あげても いいさね{page}{face:010001}ほんと？{n}わかった！{end:00}",
-   "en": "{face:010004}Yes! She sends her love.{page}{face:001A00}Is that so? Good, good.{page}{face:010000}By the way, about the Parts'n Rally...{page}{face:001A00}Oh, that thing. Yes, I was looking after a part.{page}{face:010000}Then...{page}{face:001A00}One of my little ones should be outside, playing with that part as a toy.{page}Let's see... If you can get the part from my little one, you can keep it.{page}{face:010001}Really? All right!{end:00}",
+   "en": "{face:010004}Yes! She sends her love.{page}{face:001A00}Is that so? Good, good.{page}{face:010000}By the way, about the Parts'n Rally...{page}{face:001A00}Oh, that thing.{n}Yes, I was looking after a part.{page}{face:010000}Then...{page}{face:001A00}One of my little ones should be outside, playing with that part as a toy.{page}Let's see... If you can get the part from my little one, you can keep it.{page}{face:010001}Really? All right!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2014,7 +2014,7 @@
    "kind": "ff",
    "bytes": 152,
    "jp": "{face:002400}あらっ {var:00}くん{n}バッグの くちが ひらいているわ{page}はい なおしてあげる{n}・・・あら？{page}そのきもの どうしたの？{page}{face:010000}カンちゃんに もらったんですけど やっぱり{n}ナツコさんって・・・{page}{face:002400}おばあちゃんのこと しってるの？{page}{face:010004}はい カンちゃんには おどろやまの いえで あいました{end:00}",
-   "en": "{face:002400}Oh, {var:00}-kun! Your bag is open.{page}Here, I'll close it for you. ...Oh?{page}Where did you get that kimono?{page}{face:010000}Kan-chan gave it to me. So, Natsuko-san, you really are...{page}{face:002400}You know my grandmother?{page}{face:010004}Yes. I met Kan-chan at her house on Odoro Mountain.{end:00}",
+   "en": "{face:002400}Oh, {var:00}-kun!{n}Your bag is open.{page}Here, I'll close it for you. ...Oh?{page}Where did you get that kimono?{page}{face:010000}Kan-chan gave it to me. So, Natsuko-san, you really are...{page}{face:002400}You know my grandmother?{page}{face:010004}Yes. I met Kan-chan at her house on Odoro Mountain.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2242,7 +2242,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:001500}おう みちに まよっちまっただぜ！{n}ここは どこだぜ？{end:00}",
-   "en": "{face:001500}Hey, I got myself lost! Where the heck am I?{end:00}",
+   "en": "{face:001500}Hey, I got myself lost!{n}Where the heck am I?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2386,7 +2386,7 @@
    "kind": "ff",
    "bytes": 105,
    "jp": "{face:010008}アリカ！{page}{face:000202}あたしにだって さんかする しかくは あるはずよ！{page}{face:004E00}おっと ニューチャレンジャーの とうじょうです！{page}ダークホースとなるか！{page}では あらためて メダロードレース ファイト！{end:00}",
-   "en": "{face:010008}Erika!{page}{face:000202}I have every right to enter too, you know!{page}{face:004E00}Oh! A new challenger arrives!{page}Could she be our dark horse?{page}Once again! Medaroad Race... Go!{end:00}",
+   "en": "{face:010008}Erika!{page}{face:000202}I have every right{n}to enter too, you know!{page}{face:004E00}Oh! A new challenger arrives!{page}Could she be our dark horse?{page}Once again! Medaroad Race... Go!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2758,7 +2758,7 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "{face:002600}いやーん ちょっと はりきり すぎちゃったかしらぁ？{page}うふっ でも たのしかったわ{n}ちゅっ♥{end:00}",
-   "en": "{face:002600}Oh, dear! Did I get a little too carried away?{page}Hee hee! Still, that was fun. Mwah!{end:00}",
+   "en": "{face:002600}Oh, dear!{n}Did I get a little too carried away?{page}Hee hee! Still, that was fun. Mwah!{end:00}",
    "status": "done",
    "notes": ""
   },

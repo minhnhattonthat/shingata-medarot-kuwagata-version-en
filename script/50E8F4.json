@@ -154,7 +154,7 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "きゃくぶは「タタッカー」！{n}かろやかな あしさばき！{end:02}",
-   "en": "The Legs are \"Tatacker\"! Light on its feet!{end:02}",
+   "en": "The Legs are \"Tatacker\"!{n}Light on its feet!{end:02}",
    "status": "done",
    "notes": ""
   },

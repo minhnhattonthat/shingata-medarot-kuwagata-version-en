@@ -34,7 +34,7 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:002200}カリンちゃん？{page}1かいの おんがくしつに はいっていくのを みたわ{end:00}",
-   "en": "{face:002200}Karin-chan?{page}I saw her go into the first-floor music room.{end:00}",
+   "en": "{face:002200}Karin-chan?{page}I saw her go into{n}the first-floor music room.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -202,7 +202,7 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:002200}カリンちゃん？ わかったわよ いえばいいんでしょっ？{page}カリンちゃんなら となりの じぶんの きょうしつに{n}いるよっ！{end:00}",
-   "en": "{face:002200}Karin-chan? Fine! I'll tell you, okay!?{page}Karin-chan's in her own classroom next door!{end:00}",
+   "en": "{face:002200}Karin-chan? Fine! I'll tell you, okay!?{page}Karin-chan's in her own{n}classroom next door!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1138,7 +1138,7 @@
    "kind": "ff",
    "bytes": 111,
    "jp": "{face:010000}そんな・・・{n}いきなり ロボトルしなくたって{page}{face:002800}カワリに 「ストンクラスター」って いう カッコイー{n}あたまパーツを モってきてくれたら{page}あげてもいいワァ どう？{page}{face:010000}こうかんか！{n}うん わかったよ！{end:00}",
-   "en": "{face:010000}Come on... We don't have to Robattle over it.{page}{face:002800}If you bring me that cool head part called \"Stone Cluster\" instead...{page}I could give it to you. How about it, dear?{page}{face:010000}A trade! Yeah, okay!{end:00}",
+   "en": "{face:010000}Come on... We don't have to Robattle over it.{page}{face:002800}If you bring me that cool head part called \"Stone Cluster\" instead...{page}I could give it to you.{n}How about it, dear?{page}{face:010000}A trade! Yeah, okay!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1942,7 +1942,7 @@
    "kind": "ff",
    "bytes": 176,
    "jp": "{face:001E00}おみごと！{n}おそれいったで ござる{page}ん？ なにか いいたいことが ござるのかな？{page}{face:010000}ロボロボだんが はいりこんで わるさしている{n}みたいなんですけど{page}{face:001E00}それなのだが・・・{n}じつは こまったことがござっての{page}ぬしに わたすはずの パーツを あずかって{n}おったのじゃが{page}「ロボロボ！」と いうやからに{n}ぬすまれてしまったので ござる{end:00}",
-   "en": "{face:001E00}Splendid! I am humbled indeed.{page}Hmm? Is there something you wish to say?{page}{face:010000}It looks like the Rubberobo Gang sneaked in and is causing trouble.{page}{face:001E00}About that... There is a problem, you see.{page}I was holding the part I was meant to give you...{page}But some rogues crying \"Rubberobo!\" stole it!{end:00}",
+   "en": "{face:001E00}Splendid! I am humbled indeed.{page}Hmm? Is there something{n}you wish to say?{page}{face:010000}It looks like the Rubberobo Gang sneaked in and is causing trouble.{page}{face:001E00}About that... There is a problem, you see.{page}I was holding the part I was meant to give you...{page}But some rogues crying \"Rubberobo!\" stole it!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2914,7 +2914,7 @@
    "kind": "ff",
    "bytes": 65,
    "jp": "{face:010000}コウジ・・・と ロボロボだん！？{page}{face:000402}タダぐいしようったって そうはいかないぞ！{page}{face:003603}まだ たべてないロボよ！{end:00}",
-   "en": "{face:010000}Koji... and the Rubberobo Gang!?{page}{face:000402}You're not getting away with eating for free!{page}{face:003603}I haven't even eaten yet, robo!{end:00}",
+   "en": "{face:010000}Koji... and the Rubberobo Gang!?{page}{face:000402}You're not getting away{n}with eating for free!{page}{face:003603}I haven't even eaten yet, robo!{end:00}",
    "status": "done",
    "notes": ""
   },

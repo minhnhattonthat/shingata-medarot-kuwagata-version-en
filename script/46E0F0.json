@@ -142,7 +142,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:000B01}あら？ ロボトルって けっこう おもしろいのね{end:04}",
-   "en": "{face:000B01}Oh? Robattles are rather fun, aren't they?{end:04}",
+   "en": "{face:000B01}Oh? Robattles are rather fun,{n}aren't they?{end:04}",
    "status": "done",
    "notes": ""
   },

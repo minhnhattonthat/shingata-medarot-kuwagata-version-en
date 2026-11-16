@@ -58,7 +58,7 @@ and an Avoid spelling fails.
 | アマリロ | Amarillo | | | |
 | アズル | Azul | | | |
 | ロジョ | Rojo | | | |
-| オーロ | Oro | | オーロたいちょう = Leader Oro (cap) | |
+| オーロ | Oro | | オーロたいちょう = Leader Oro (cap) | Captain Oro |
 | マルガリータ | Margarita | | cocktail-named | |
 | ウォッカ | Vodka | | | |
 | ブルーハワイ | Blue Hawaii | | | |

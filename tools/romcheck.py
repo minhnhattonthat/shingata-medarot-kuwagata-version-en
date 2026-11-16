@@ -4,16 +4,19 @@
 
 1. romdiff.check with the write log and no free ranges: every changed byte has a logged write, each write's
    original bytes are what the clean ROM holds, nothing overwrote or overlapped a write.
-2. Every write lies inside data/allowed_ranges.txt, or is one aligned 4-byte pointer word (old and new 0x08xxxxxx).
+2. Every write lies inside data/allowed_ranges.txt, or is a 4-byte pointer word (old and new 0x08xxxxxx) at one
+   of the known slots (pointer_slots: font and names-charset literals, script string slots).
 3. Every pointer slot of a string with English points at that string's encoded bytes (no table skipped).
 Exit 0 when all hold. tests/test_build.py runs the same checks on a fresh in-memory build.
 """
+import json
 import struct
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import font  # noqa: E402
 import romdiff  # noqa: E402
 
 ROM = ROOT / "rom" / "Shingata Medarot - Kuwagata Version (Japan).gba"
@@ -28,15 +31,28 @@ def allowed_ranges():
     return out
 
 
+def pointer_slots(orig):
+    """The only pointer words the build may rewrite outside the ranges: the font's 9 literals, the names charset's
+    literals, and every string slot of script/ (the code literals among them)."""
+    slots = set(font.FONT_REFS) | set(font.names_refs(orig))
+    for path in (ROOT / "script").glob("*.json"):
+        for e in json.loads(path.read_text(encoding="utf-8"))["strings"]:
+            slots.update(int(s, 16) for s in e["slots"])
+    return slots
+
+
 def problems(orig, data, writes):
     """writes: [(offset, orig bytes, new bytes, writer)]. Returns a list of error lines."""
     errs, _ = romdiff.check(orig, data, set(), writes)
     ranges = allowed_ranges()
+    slots = None
     for off, old, new, by in writes:
         end = off + len(new) - 1
         if any(lo <= off and end <= hi for lo, hi in ranges):
             continue
-        is_ptr = len(new) == 4 and off % 4 == 0 and old[3] == 0x08 and new[3] == 0x08
+        if slots is None:
+            slots = pointer_slots(orig)
+        is_ptr = len(new) == 4 and off in slots and old[3] == 0x08 and new[3] == 0x08
         if not is_ptr:
             errs.append(f"0x{off:06X}: {by} writes {len(new)} bytes outside the allowed ranges")
     return errs

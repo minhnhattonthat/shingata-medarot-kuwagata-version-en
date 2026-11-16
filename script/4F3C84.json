@@ -230,7 +230,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:001B00}ここでは メダロットの テストバトルを したりするんだ{end:00}",
-   "en": "{face:001B00}We do things like Medabot test battles here.{end:00}",
+   "en": "{face:001B00}We do things like{n}Medabot test battles here.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -422,7 +422,7 @@
    "kind": "ff",
    "bytes": 168,
    "jp": "{face:010004}ナエさん こんにちは！{page}{face:001402}こんにちは {n}{var:00}くん{page}{face:010001}ほら！ メダロッチです！{page}{face:001401}メダロットを てにいれたんですね{page}では おいわいに プレゼントを さしあげます{page}となりの へやにある メダルの なかから{n}ひとつ すきなものを えらんでください{page}{face:010001}えっ！ いいんですか？{n}わぁい ありがとうございますっ！{end:00}",
-   "en": "{face:010004}Hello, Natalie-san!{page}{face:001402}Hello, {var:00}-kun.{page}{face:010001}Look! It's my Medawatch!{page}{face:001401}So you've gotten a Medabot.{page}Then let me give you a present to celebrate.{page}Please choose any Medal you like from the room next door.{page}{face:010001}Huh!? Are you sure? Yay! Thank you so much!{end:00}",
+   "en": "{face:010004}Hello, Natalie-san!{page}{face:001402}Hello, {var:00}-kun.{page}{face:010001}Look! It's my Medawatch!{page}{face:001401}So you've gotten a Medabot.{page}Then let me give you a present{n}to celebrate.{page}Please choose any Medal you like from the room next door.{page}{face:010001}Huh!? Are you sure?{n}Yay! Thank you so much!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -614,7 +614,7 @@
    "kind": "ff",
    "bytes": 59,
    "jp": "{face:010006}ここは ぼくの いえじゃない！{n}はやく いえに かえらなきゃ{page}「しゅうかんメダロット」が はじまっちゃう！{end:00}",
-   "en": "{face:010006}This isn't my house! I have to get home fast!{page}\"Weekly Medabot\" is about to start!{end:00}",
+   "en": "{face:010006}This isn't my house!{n}I have to get home fast!{page}\"Weekly Medabot\" is about to start!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -626,7 +626,7 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{face:002400}このさきは おどろやまよ{page}おどろやまは キケンな ばしょだから{n}ひとりで いっちゃ いけないわ{end:00}",
-   "en": "{face:002400}Odoro Mountain is up ahead.{page}It's dangerous there, so don't go alone, dear.{end:00}",
+   "en": "{face:002400}Odoro Mountain is up ahead.{page}It's dangerous there,{n}so don't go alone, dear.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -662,7 +662,7 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{face:005400}うちのこ まいにち ロボトルばかり{n}べんきょうしなくて こまるわ{end:00}",
-   "en": "{face:005400}My child does nothing but Robattle every day!{page}It's a struggle to get any studying done.{end:00}",
+   "en": "{face:005400}My child does nothing{n}but Robattle every day!{page}It's a struggle{n}to get any studying done.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1238,7 +1238,7 @@
    "kind": "ff",
    "bytes": 96,
    "jp": "{face:010005}あの ぼくは・・・{page}{face:000E01}どれどれ いくら もってるんだ？{n}5000円？{page}よし！ おおまけに まけて{n}4980円で フルセット！{page}{face:000E01}やったね！{n}ティンペットも つけちゃうよ{end:00}",
-   "en": "{face:010005}Um, I just...{page}{face:000E01}Let's see, how much have you got? 5000 yen?{page}All right! I'll give you a huge discount! 4980 yen for the full set!{page}{face:000E01}Lucky you! I'll even throw in a Tinpet.{end:00}",
+   "en": "{face:010005}Um, I just...{page}{face:000E01}Let's see,{n}how much have you got? 5000 yen?{page}All right! I'll give you a huge discount! 4980 yen for the full set!{page}{face:000E01}Lucky you! I'll even throw in a Tinpet.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1250,7 +1250,7 @@
    "kind": "ff",
    "bytes": 111,
    "jp": "{face:000E01}これでキミも メダロッターだ{n}そうだ なまえを きいておこう{page}ぼくは ヒカル{n}キミは？{page}{face:010000}{var:00}・・・ですけど{page}{face:000E01}{var:00}くんか{n}いいなまえだな{page}{face:000E01}さあ キミも ロボトルの せかいに とびだすんだ！{end:00}",
-   "en": "{face:000E01}Now you're a Medafighter too! Oh, I should ask your name.{page}I'm Henry. And you?{page}{face:010000}{var:00}... sir.{page}{face:000E01}{var:00}-kun, huh? That's a nice name.{page}{face:000E01}Now, off you go into the world of Robattles!{end:00}",
+   "en": "{face:000E01}Now you're a Medafighter too! Oh, I should ask your name.{page}I'm Henry. And you?{page}{face:010000}{var:00}... sir.{page}{face:000E01}{var:00}-kun, huh?{n}That's a nice name.{page}{face:000E01}Now, off you go{n}into the world of Robattles!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3122,7 +3122,7 @@
    "kind": "ff",
    "bytes": 69,
    "jp": "{face:010004}ずいぶん れいぎただしい こだな となりまちの こかな？{page}あんなに かわいいこなら このまちで{n}うわさになってる はずだもんな{end:00}",
-   "en": "{face:010004}She's so polite. Is she from the next town?{page}If a girl that cute lived here, everyone would be talking about her.{end:00}",
+   "en": "{face:010004}She's so polite.{n}Is she from the next town?{page}If a girl that cute lived here, everyone would be talking about her.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3158,7 +3158,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:000200}もう あるくの おそいんだから！{n}となりまちの メダロッター きてるよ{end:00}",
-   "en": "{face:000200}You walk so slowly!{page}The Medafighter from the next town is here.{end:00}",
+   "en": "{face:000200}You walk so slowly!{page}The Medafighter{n}from the next town is here.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3566,7 +3566,7 @@
    "kind": "ff",
    "bytes": 125,
    "jp": "{face:000202}ぜいっ ぜいっ{page}な なにやってんのよ{n}はやく おっかけなさいよ！{page}{face:002200}キャアッ！{page}{face:000200}あの おおきな たてものの ほうで{n}さけびごえが きこえたわ！{page}また じけんね{n}こうしちゃ いられないわ！{page}{var:00}{n}あんたも はやく くるのよ！！{end:00}",
-   "en": "{face:000202}Huff... puff...{page}Wh-what are you doing? Hurry up and chase it!{page}{face:002200}Eeeek!{page}{face:000200}I heard a scream over by that big building!{page}Another incident! We can't stand around here!{page}{var:00}, hurry up and come along!!{end:00}",
+   "en": "{face:000202}Huff... puff...{page}Wh-what are you doing?{n}Hurry up and chase it!{page}{face:002200}Eeeek!{page}{face:000200}I heard a scream{n}over by that big building!{page}Another incident!{n}We can't stand around here!{page}{var:00}, hurry up and come along!!{end:00}",
    "status": "done",
    "notes": ""
   },

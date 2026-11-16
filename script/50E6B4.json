@@ -34,7 +34,7 @@
    "kind": "ff",
    "bytes": 214,
    "jp": "あらっ？ あたらしい おてつだいさんね？{page}いやっ！ オレは みちにまよった・・・{page}そんなことは いいから こっちにいらして？{page}シフォンちゃん とっても かわいい{n}メダロットを かったのよ？{page}「そんなこと」 って・・・{n}だから オレは みちにまよった・・・{page}そんなに えんりょしなくても だいじょうぶよ？ シフォンちゃんの かわいい メダロット みるでしょ？{page}ぐっ！ こいつ オレのはなし まったく きいてねー！ まいったな〜{end:00}",
-   "en": "Oh? You must be the new servant!{page}No! I just got lost...{page}Never mind that. Come over here, won't you?{page}Chiffon-chan bought a very cute Medabot, you know!{page}\"Never mind\"...? I told you, I'm lost...{page}You needn't be so shy. You want to see Chiffon-chan's cute Medabot, don't you?{page}Gah! She's not listening to a word I say! What am I gonna do...?{end:00}",
+   "en": "Oh? You must be the new servant!{page}No! I just got lost...{page}Never mind that.{n}Come over here, won't you?{page}Chiffon-chan bought a very cute Medabot, you know!{page}\"Never mind\"...? I told you, I'm lost...{page}You needn't be so shy. You want to see Chiffon-chan's cute Medabot, don't you?{page}Gah! She's not listening to a word I say! What am I gonna do...?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -58,7 +58,7 @@
    "kind": "ff",
    "bytes": 258,
    "jp": "つっ つよいロボ！ おまえ すごいやつロボな〜{page}いやっ・・・ それほどでもないぜ・・・ロボ{n}それじゃ オレは これで・・・{page}ま〜つロボよ〜 ヒーローは だんじょうから みんなに アピール するロボよ〜{page}ん？ おまえ どこかで あったロボか？ もっと かおを よ〜く み〜せるロボよ〜{page}いやっ！ きっときのせいだぜ・・・ロボ{page}オレは はずかしがりやだから{n}アピールは えんりょしとくぜ・・・ロボ{page}うっ！ きゅうに はらが いたくなってきたぜロボッ！ じゃあ オレは これで！ さよならロボ！{page}へんな やつロボ・・・{end:00}",
-   "en": "Y-you're strong, robo! You're amazing, robo!{page}Nah... I'm not that great... robo.{page}Well, I'll be going now...{page}Waaait, robo! A hero has to show off to everyone from the stage, robo!{page}Hmm? Have we met somewhere, robo?{page}Let me get a gooood look at your face, robo!{page}No! You must be imagining it... robo.{page}I'm shy, so I'll pass on showing off... robo.{page}Urk! My stomach suddenly hurts, robo! Well, I'm off! Bye, robo!{page}What a weird guy, robo...{end:00}",
+   "en": "Y-you're strong, robo!{n}You're amazing, robo!{page}Nah... I'm not that great... robo.{page}Well, I'll be going now...{page}Waaait, robo! A hero has to show off to everyone from the stage, robo!{page}Hmm? Have we met somewhere, robo?{page}Let me get a gooood look{n}at your face, robo!{page}No! You must be imagining it... robo.{page}I'm shy, so I'll pass{n}on showing off... robo.{page}Urk! My stomach suddenly hurts, robo! Well, I'm off! Bye, robo!{page}What a weird guy, robo...{end:00}",
    "status": "done",
    "notes": ""
   },

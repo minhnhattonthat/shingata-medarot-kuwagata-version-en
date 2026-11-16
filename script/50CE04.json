@@ -156,7 +156,7 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}むずかしすぎて なんだか わからない！{n}こういうのが すきなひとに わたそう！{end:04}",
-   "en": "{fa:FF}It's too complicated to understand!{page}Give it to someone who likes this stuff!{end:04}",
+   "en": "{fa:FF}It's too complicated to understand!{n}Give it to someone who likes this stuff!{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -253,7 +253,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}こういうものの かちは よく わからない・・・{n}ソンチョーならわかるかな？{end:04}",
-   "en": "{fa:FF}I'm not sure what something like this is worth...{page}Maybe the Chief would know?{end:04}",
+   "en": "{fa:FF}What could something like this be worth...{n}Maybe the Chief would know?{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -277,7 +277,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{fa:FF}ロボロボだんの ボスが うつっている しゃしん{end:04}",
-   "en": "{fa:FF}A photograph of the Rubberobo Gang's boss.{end:04}",
+   "en": "{fa:FF}A photograph of{n}the Rubberobo Gang's boss.{end:04}",
    "status": "done",
    "notes": ""
   },

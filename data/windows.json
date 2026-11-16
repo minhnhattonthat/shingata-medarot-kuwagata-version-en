@@ -55,6 +55,15 @@
       "notes": "px is a share of the 208 px battle line, not a box edge: two pieces (2 x 100) leave no room for the connector, so keep pieces that share a line short (action + weapon kind ~ 70 px each). Lines containing {var:01}-{var:04} are linted with each var at 100 px"
     }
   },
+  "page_tables": {
+    "about": "tables whose JP never uses {page} (FC) but where an English {page} is allowed (tools/lint.py page_problem). FC's wait for A is inside the text runner (0x0804123A calls 0x08041A28 and keeps the read offset until it returns 1), so a box the runner ticks until {end} with A as the advance key pages. One-shot {fa:FF} panes (parts_shop_detail: only page 1 drawn, work/qa/pg_psd/final.png) and timed battle lines are never allowed",
+    "4B50CC": "Gamma-story field dialogue with {face}: the same field box as 50A9D8/4F tables, whose JP pages",
+    "4F86B8": "'got part' field messages: twin of 4B7654, whose JP pages (464BDC-style system box)",
+    "50D614": "link-cable desk NPC with {face}: field dialogue box",
+    "46D598": "robattle opponent lines with {face}, closed by {end:04} after A: the runner's FC wait applies (check in the phase 8 battle tours)",
+    "46E0F0": "robattle win/loss lines with {face}, closed by {end:04} after A (check in the phase 8 battle tours)",
+    "4699C0": "parts-detail stat help ({end:02}): the JP 4698E0 alone wraps to 3 lines, and the sibling help table 4671B0 pages in the JP"
+  },
   "tables": {
     "50C998": "item_list_name",
     "468A00": "shop_part_name",

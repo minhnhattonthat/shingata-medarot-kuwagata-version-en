@@ -82,7 +82,7 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}ミサイル {n}ぜったいヒットとかんつうこうかのあるしゃげきこうげき{end:04}",
-   "en": "{fa:FF}Missile{page}A Shooting attack that always hits and pierces.{end:04}",
+   "en": "{fa:FF}Missile{n}A sure-hit, piercing Shooting attack.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -94,7 +94,7 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{fa:FF}ナパーム {n}ぜったいヒットとかんつうこうかのあるしゃげきこうげき{end:04}",
-   "en": "{fa:FF}Napalm{page}A Shooting attack that always hits and pierces.{end:04}",
+   "en": "{fa:FF}Napalm{n}A sure-hit, piercing Shooting attack.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -166,7 +166,7 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{fa:FF}バグ 〜しょうじょうをつける〜{n}こうどうの せいこうを さげる かくとうこうげき{end:04}",
-   "en": "{fa:FF}Bug - Applies a status.{page}A Melee attack that lowers action success.{end:04}",
+   "en": "{fa:FF}Bug - Applies a status.{n}A Melee attack lowering action success.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -178,7 +178,7 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{fa:FF}ウィルス 〜しょうじょうをつける〜{n}こうどうの せいこうを さげる かくとうこうげき{end:04}",
-   "en": "{fa:FF}Virus - Applies a status.{page}A Melee attack that lowers action success.{end:04}",
+   "en": "{fa:FF}Virus - Applies a status.{n}A Melee attack lowering action success.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -190,7 +190,7 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}サンダー 〜しょうじょうをつける〜{n}うごきを ストップさせる かくとうこうげき{end:04}",
-   "en": "{fa:FF}Thunder - Applies a status.{page}A Melee attack that stops movement.{end:04}",
+   "en": "{fa:FF}Thunder - Applies a status.{n}A Melee attack that stops movement.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -202,7 +202,7 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}フリーズ 〜しょうじょうをつける〜{n}うごきを ストップさせる かくとうこうげき{end:04}",
-   "en": "{fa:FF}Freeze - Applies a status.{page}A Melee attack that stops movement.{end:04}",
+   "en": "{fa:FF}Freeze - Applies a status.{n}A Melee attack that stops movement.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -214,7 +214,7 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}ウェーブ 〜しょうじょうをつける〜{n}スピードを おそくする かくとうこうげき{end:04}",
-   "en": "{fa:FF}Wave - Applies a status.{page}A Melee attack that reduces speed.{end:04}",
+   "en": "{fa:FF}Wave - Applies a status.{n}A Melee attack that reduces speed.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -226,7 +226,7 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}ホールド 〜しょうじょうをつける〜{n}スピードを おそくする かくとうこうげき{end:04}",
-   "en": "{fa:FF}Hold - Applies a status.{page}A Melee attack that reduces speed.{end:04}",
+   "en": "{fa:FF}Hold - Applies a status.{n}A Melee attack that reduces speed.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -238,7 +238,7 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{fa:FF}ファイヤー 〜しょうじょうをつける〜{n}けいぞくダメージを あたえる かくとうこうげき{end:04}",
-   "en": "{fa:FF}Fire - Applies a status.{page}A Melee attack that deals Sustained damage.{end:04}",
+   "en": "{fa:FF}Fire - Applies a status.{n}A Melee attack with Sustained damage.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -250,7 +250,7 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{fa:FF}メルト 〜しょうじょうをつける〜{n}けいぞくダメージを あたえる かくとうこうげき{end:04}",
-   "en": "{fa:FF}Melt - Applies a status.{page}A Melee attack that deals Sustained damage.{end:04}",
+   "en": "{fa:FF}Melt - Applies a status.{n}A Melee attack with Sustained damage.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -286,7 +286,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}フォースせいぎょ {n}すべての メダロットの メダフォースを つかえなくする{end:04}",
-   "en": "{fa:FF}Force Control{page}Stops all Medabots from using Medaforce.{end:04}",
+   "en": "{fa:FF}Force Control{n}Stops every Medabot using Medaforce.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -298,7 +298,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}こうがくむこう 〜そうびパーツ〜{n}「レーザー」・「ビーム」を むこうにする{end:04}",
-   "en": "{fa:FF}Nullify Beam - Equipped part.{page}Nullifies Laser and Beam.{end:04}",
+   "en": "{fa:FF}Nullify Beam - Equipped part.{n}Nullifies Laser and Beam.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -310,7 +310,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}かやくむこう 〜そうびパーツ〜{n}「ミサイル」・「ナパーム」を むこうにする{end:04}",
-   "en": "{fa:FF}Nullify Explosive - Equipped part.{page}Nullifies Missile and Napalm.{end:04}",
+   "en": "{fa:FF}Nullify Explosive - Equipped part.{n}Nullifies Missile and Napalm.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -322,7 +322,7 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{fa:FF}じゅうりょくむこう 〜そうびパーツ〜{n}「ブレイク」・「プレス」を むこうにする{end:04}",
-   "en": "{fa:FF}Nullify Gravity - Equipped part.{page}Nullifies Break and Press.{end:04}",
+   "en": "{fa:FF}Nullify Gravity - Equipped part.{n}Nullifies Break and Press.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -382,7 +382,7 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{fa:FF}けいぞくかいふく 〜しょうじょうをつける〜{n}いどうちゅうも ダメージかいふく{end:04}",
-   "en": "{fa:FF}Sustained Recover - Applies a status.{page}Heals damage even while moving.{end:04}",
+   "en": "{fa:FF}Sustained Recover - Applies a status.{n}Heals damage even while moving.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -430,7 +430,7 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}アンチシー {n}「せんすいメダロット」に だいダメージ{end:04}",
-   "en": "{fa:FF}Anti-Water{page}Deals heavy damage to Aquatic Medabots.{end:04}",
+   "en": "{fa:FF}Anti-Water{n}Heavy damage to Aquatic Medabots.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -466,7 +466,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}ほじょチャージ 〜しょうじょうをつける〜{n}みかたの スピードを はやくする{end:04}",
-   "en": "{fa:FF}Charge Support - Applies a status.{page}Increases allies' speed.{end:04}",
+   "en": "{fa:FF}Charge Support - Applies a status.{n}Increases allies' speed.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -502,7 +502,7 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{fa:FF}チャージドレイン 〜しょうじょうをつける〜{n}あいての スピードをうばい じぶんの スピードをあげる{end:04}",
-   "en": "{fa:FF}Charge Drain - Applies a status.{page}Steals the enemy's speed{n}to raise your own.{end:04}",
+   "en": "{fa:FF}Charge Drain - Applies a status.{n}Steals enemy speed to raise your own.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -514,7 +514,7 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{fa:FF}てんとう {n}あたまパーツにダメージ ／ こうどうを わすれさせる {end:04}",
-   "en": "{fa:FF}Knockdown{page}Damages the head part / Makes the target forget its action.{end:04}",
+   "en": "{fa:FF}Knockdown - Damages the head part.{n}Makes the target forget its action.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -538,7 +538,7 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{fa:FF}こんらん 〜しょうじょうをつける〜{n}こうげきあいてを きめられなくする{end:04}",
-   "en": "{fa:FF}Confusion - Applies a status.{page}Prevents the target from choosing{n}whom to attack.{end:04}",
+   "en": "{fa:FF}Confusion - Applies a status.{n}The target can't choose whom to attack.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -586,7 +586,7 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{fa:FF}デストロイ 〜トラップ・えんご・はんげきをむこう〜{n}あいてが うしろむきなら パーツをはかい {end:04}",
-   "en": "{fa:FF}Destroy - Nullifies traps, Cover and Counter.{page}Destroys a part if the enemy is facing away.{end:04}",
+   "en": "{fa:FF}Destroy - Nullifies trap/Cover/Counter.{n}Breaks a part if the enemy faces away.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -598,7 +598,7 @@
    "kind": "ff",
    "bytes": 50,
    "jp": "{fa:FF}サクリファイス 〜トラップ・えんご・はんげきをむこう〜{n}パーツを ぎせいにして だいダメージ{end:04}",
-   "en": "{fa:FF}Sacrifice - Nullifies traps, Cover and Counter.{page}Sacrifices a part to deal heavy damage.{end:04}",
+   "en": "{fa:FF}Sacrifice - Nullifies trap/Cover/Counter.{n}Sacrifices a part to deal heavy damage.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -622,7 +622,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}クロスセット 〜セットとファイアでペア〜{n}「クロスこうげき」を セットする{end:04}",
-   "en": "{fa:FF}Cross Set - Pairs with Crossfire.{page}Sets up a Cross Attack.{end:04}",
+   "en": "{fa:FF}Cross Set - Pairs with Crossfire.{n}Sets up a Cross Attack.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -634,7 +634,7 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{fa:FF}クロスファイア 〜セットとファイアでペア〜{n}「クロスこうげき」で あいてに だいダメージ{end:04}",
-   "en": "{fa:FF}Crossfire - Pairs with Cross Set.{page}Deals heavy damage with a Cross Attack.{end:04}",
+   "en": "{fa:FF}Crossfire - Pairs with Cross Set.{n}Deals heavy damage with a Cross Attack.{end:04}",
    "status": "done",
    "notes": ""
   },

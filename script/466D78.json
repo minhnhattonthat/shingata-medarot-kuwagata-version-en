@@ -82,7 +82,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{fa:FF}すべてのパーツに 「かやく」こうか{n}ぜったいヒットと かんつうこうかをえる{end:04}",
-   "en": "{fa:FF}Gives all parts the Explosive effect.{page}Attacks always hit and gain piercing.{end:04}",
+   "en": "{fa:FF}Gives all parts the Explosive effect.{n}Attacks always hit and gain piercing.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -418,7 +418,7 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{fa:FF}あいての「さくてき」をさげ みかたの「さくてき」をあげる{n}つかうたびに じょうしょう{end:04}",
-   "en": "{fa:FF}Lowers enemy Scout and raises ally Scout.{page}Grows stronger with each use.{end:04}",
+   "en": "{fa:FF}Lowers enemy Scout, raises ally Scout.{n}Grows stronger with each use.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -442,7 +442,7 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{fa:FF}あいての「いんぺい」をさげ みかたの「いんぺい」をあげる{n}つかうたびに じょうしょう{end:04}",
-   "en": "{fa:FF}Lowers enemy Stealth and raises ally Stealth.{page}Grows stronger with each use.{end:04}",
+   "en": "{fa:FF}Lowers enemy Stealth, ups ally Stealth.{n}Grows stronger with each use.{end:04}",
    "status": "done",
    "notes": ""
   },

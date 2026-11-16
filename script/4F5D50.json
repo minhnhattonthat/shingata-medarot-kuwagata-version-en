@@ -46,7 +46,7 @@
    "kind": "ff",
    "bytes": 72,
    "jp": "{face:010007}おんなじ ふく だから みため かわんないけど・・・{page}{face:010000}ところで ママの いってた デートって なんのことだろ？{page}きいてみよう{end:00}",
-   "en": "{face:010007}It's the same outfit, so I don't look any different...{page}{face:010000}Anyway, what was Mom saying about a date?{page}I'll ask her.{end:00}",
+   "en": "{face:010007}It's the same outfit, so I don't look any different...{page}{face:010000}Anyway, what{n}was Mom saying about a date?{page}I'll ask her.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -58,7 +58,7 @@
    "kind": "ff",
    "bytes": 180,
    "jp": "{face:005000}きがえたんなら はやく いってらっしゃい{page}ボナパルトのぞうの まえで まちあわせ なんでしょ？{page}{face:010000}ねえ まってよ ママ{n}デートって なんのことなの？{page}ぼく だれとも そんな やくそくした おぼえないよ？{page}{face:005000}ママに かくすつもり？{n}てれること ないじゃない{page}おんなのこを またせちゃ ダメよ{n}はやく ボナパルトのぞうの まえに いきなさい{end:00}",
-   "en": "{face:005000}If you've changed, hurry along.{page}You're meeting in front of the{n}Bonaparte Statue, aren't you?{page}{face:010000}Hey, wait, Mom! What do you mean, a date?{page}I don't remember making plans like that with anyone!{page}{face:005000}Trying to hide it from your own mother? There's no need to be shy.{page}You mustn't keep a girl waiting! Hurry to the Bonaparte Statue.{end:00}",
+   "en": "{face:005000}If you've changed, hurry along.{page}You're meeting in front of the{n}Bonaparte Statue, aren't you?{page}{face:010000}Hey, wait, Mom!{n}What do you mean, a date?{page}I don't remember making plans like that with anyone!{page}{face:005000}Trying to hide it from your own mother? There's no need to be shy.{page}You mustn't keep a girl waiting! Hurry to the Bonaparte Statue.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -118,7 +118,7 @@
    "kind": "ff",
    "bytes": 99,
    "jp": "{face:010000}だれかが ぼくのなまえを つかって アリカに てがみを{n}おくった？{page}{face:010005}なんのために？ うーーむ{n}カリンちゃんは だいじょうぶかな？{page}{face:010000}カリンちゃんの いえにも いってみよう！{end:00}",
-   "en": "{face:010000}Someone sent Erika a letter using my name?{page}{face:010005}What for? Hmm... I wonder if Karin-chan's okay.{page}{face:010000}I'll go to Karin-chan's house, too!{end:00}",
+   "en": "{face:010000}Someone sent Erika{n}a letter using my name?{page}{face:010005}What for? Hmm...{n}I wonder if Karin-chan's okay.{page}{face:010000}I'll go to Karin-chan's house, too!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -474,7 +474,7 @@
    "kind": "ff",
    "bytes": 139,
    "jp": "{face:000400}おまえ・・・{page}{face:000405}ちっ わかったよ すきにしろっ！{page}{face:000402}だがな ぜったいに カリンを たすけだすと やくそくしろ！{page}もし やくそくを やぶったら！{page}{face:010002}わかってる！{page}ぼくは ぜったいに カリンちゃんを たすける！{page}{face:000403}わすれんなよ！ その ことば！！{end:00}",
-   "en": "{face:000400}You...{page}{face:000405}Tch. Fine. Do what you want!{page}{face:000402}But you've gotta promise me you'll save Karin!{page}If you break that promise...!{page}{face:010002}I know!{page}I'm going to save Karin-chan, no matter what!{page}{face:000403}Don't you forget what you just said!!{end:00}",
+   "en": "{face:000400}You...{page}{face:000405}Tch. Fine. Do what you want!{page}{face:000402}But you've gotta promise me you'll save Karin!{page}If you break that promise...!{page}{face:010002}I know!{page}I'm going to save Karin-chan,{n}no matter what!{page}{face:000403}Don't you forget what you just said!!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -776,7 +776,7 @@
    "kind": "ff",
    "bytes": 169,
    "jp": "{face:000400}やれやれ まったく なんだったんだよ ヤツらは{page}とつぜん ふってきやがって！{page}{face:010000}ヘベレケはかせの しわざかな{n}やっぱり{page}{face:000400}ひとさわがせな じーさんだ{page}おまえは とっとと メダロットけんきゅうじょにでも{n}いって あのじーさんを ぶちのめす ほうほうを{page}しらべてこい！{page}ここは おまえなしでも おれが なんとかするぜ！{end:00}",
-   "en": "{face:000400}Sheesh! What the heck was with those guys?{page}Falling outta nowhere like that!{page}{face:010000}I guess Dr. Meta-Evil's{n}behind it after all.{page}{face:000400}That old geezer's nothing but trouble.{page}Hurry to the Medabot Research Institute or somewhere...{page}And find out how to beat that geezer!{page}I can handle things here without you!{end:00}",
+   "en": "{face:000400}Sheesh!{n}What the heck was with those guys?{page}Falling outta nowhere like that!{page}{face:010000}I guess Dr. Meta-Evil's{n}behind it after all.{page}{face:000400}That old geezer's nothing but trouble.{page}Hurry to the Medabot Research Institute or somewhere...{page}And find out how to beat that geezer!{page}I can handle things here without you!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -993,7 +993,7 @@
    "kind": "ff",
    "bytes": 188,
    "jp": "{face:001300}おお {var:00} きおったか{page}{face:010006}あのっ！ たいへん なんです！！{page}ヘベレケはかせって いう おじいさんに ともだちが {n}さらわれたんです！{page}ぼく たすけに いけないんですけど いかなきゃっ！{page}{face:001304}おちつかんかい {var:00}！！{page}{face:001300}つまり おまえさんは ヘベレケの やつめを{n}こらしめて こようと いうんじゃな{page}{face:010008}ヘベレケはかせのこと しってるんですか！？{end:00}",
-   "en": "{face:001300}Ah, {var:00}. You've come, eh?{page}{face:010006}Um! It's terrible!!{page}An old man called Dr. Meta-Evil{n}kidnapped my friends!{page}I can't get to them, but I've got to save them!{page}{face:001304}Calm down, {var:00}!!{page}{face:001300}So you intend to go teach that scoundrel Meta-Evil a lesson, eh?{page}{face:010008}You know Dr. Meta-Evil!?{end:00}",
+   "en": "{face:001300}Ah, {var:00}. You've come, eh?{page}{face:010006}Um! It's terrible!!{page}An old man called Dr. Meta-Evil{n}kidnapped my friends!{page}I can't get to them,{n}but I've got to save them!{page}{face:001304}Calm down, {var:00}!!{page}{face:001300}So you intend to go teach that scoundrel Meta-Evil a lesson, eh?{page}{face:010008}You know Dr. Meta-Evil!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1053,7 +1053,7 @@
    "kind": "ff",
    "bytes": 54,
    "jp": "{face:001402}それと わたくしからの きもちです{page}メダルケースの なかから メダルを1つ{n}もっていってください{end:00}",
-   "en": "{face:001402}And here is a little something from me.{page}Please take one Medal from the Medal case.{end:00}",
+   "en": "{face:001402}And here is a little something from me.{page}Please take one Medal{n}from the Medal case.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1425,7 +1425,7 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "{face:002800}すみませんね ここで ヒトを みかけるのが{n}めずらしいもので{end:00}",
-   "en": "{face:002800}My apologies. We so rarely see people here.{end:00}",
+   "en": "{face:002800}My apologies.{n}We so rarely see people here.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1834,7 +1834,7 @@
    "kind": "ff",
    "bytes": 154,
    "jp": "{face:010008}えっ？ いくって どこへ？{page}{face:002800}{var:00}さん{n}あなた・・・は ここにいてください{page}チジョウはいま キケンでしょうから{page}あと フユーンに のこっている メダロット・・・たちには{n}はなしかけないで・・・{page}{face:010008}ウォッカ だいじょうぶ？{n}ようすが へんだよ！{page}{face:002800}ウウッ・・・{n}あなたの ためです{end:00}",
-   "en": "{face:010008}Huh? Go where?{page}{face:002800}{var:00}-san... You... must stay here.{page}It must be dangerous down on the ground now.{page}And please... don't speak to the other Medabots... left on Fuyun...{page}{face:010008}Vodka, are you all right? You're acting strange!{page}{face:002800}Ugh... It's for your own good.{end:00}",
+   "en": "{face:010008}Huh? Go where?{page}{face:002800}{var:00}-san...{n}You... must stay here.{page}It must be dangerous down on the ground now.{page}And please... don't speak to the other Medabots... left on Fuyun...{page}{face:010008}Vodka, are you all right? You're acting strange!{page}{face:002800}Ugh... It's for your own good.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2268,7 +2268,7 @@
    "kind": "ff",
    "bytes": 164,
    "jp": "{face:003C01}ワシが ようがあるのは おぬしと{n}したしい {var:00}じゃ！{page}おぬしを エサに おびきだし やつめを{n}けっちょんけっちょんに たたきのめして やるのじゃ！{page}{face:000208}なっ なんで {var:00}を{n}あんたが やっつけんの？{page}いったい なにを たくらんでるのよ！{n}だいいち こんなところまで{page}どうやって {var:00}を{n}おびきよせる つもり！？{end:00}",
-   "en": "{face:003C01}It is your dear friend {var:00} I want!{page}I'll use you as bait to lure him here,{n}then beat him to a pulp!{page}{face:000208}Wh-why would you want to beat up{n}{var:00}?{page}Just what are you plotting!?{n}And how do you even plan...{page}To lure {var:00} all the way up here!?{end:00}",
+   "en": "{face:003C01}It is your dear friend{n}{var:00} I want!{page}I'll use you as bait to lure him here,{n}then beat him to a pulp!{page}{face:000208}Wh-why would you want to beat up{n}{var:00}?{page}Just what are you plotting!?{n}And how do you even plan...{page}To lure {var:00} all the way up here!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2368,7 +2368,7 @@
    "kind": "ff",
    "bytes": 163,
    "jp": "{face:003C01}ワシが ようがあるのは おぬしと{n}したしい {var:00}じゃ！{page}おぬしを エサに おびきだし やつめを{n}けっちょんけっちょんに たたきのめして やるのじゃ！{page}{face:000303}どうして {var:00}くんに{n}ひどいことを しようとするのです？{page}それは なんのためですか？{n}それに {var:00}くんは{page}どうやって ここまで やってくると いうのですか？{end:00}",
-   "en": "{face:003C01}It is your dear friend {var:00} I want!{page}I'll use you as bait to lure him here,{n}then beat him to a pulp!{page}{face:000303}Why would you do something so cruel{n}to {var:00}-kun?{page}What purpose would that serve?{n}And how would {var:00}-kun...{page}Make his way all the way up here?{end:00}",
+   "en": "{face:003C01}It is your dear friend{n}{var:00} I want!{page}I'll use you as bait to lure him here,{n}then beat him to a pulp!{page}{face:000303}Why would you do something so cruel{n}to {var:00}-kun?{page}What purpose would that serve?{n}And how would {var:00}-kun...{page}Make his way all the way up here?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2440,7 +2440,7 @@
    "kind": "ff",
    "bytes": 135,
    "jp": "{face:003C01}ワシが ようがあるのは おぬしらと{n}したしい {var:00}じゃ！{page}どっちが より したしいのか わからなかったが{n}りょうほう さらっておけば どっちか せいかいじゃろう！{page}おぬしらを エサに おびきだし やつめを{n}けっちょんけっちょんに たたきのめして やるのじゃ！{end:00}",
-   "en": "{face:003C01}It is your dear friend {var:00} I want!{page}I wasn't sure which of you{n}was closer to him.{page}But kidnap both,{n}and one must be right, eh!{page}I'll use you as bait to lure him here,{n}then beat him to a pulp!{end:00}",
+   "en": "{face:003C01}It is your dear friend{n}{var:00} I want!{page}I wasn't sure which of you{n}was closer to him.{page}But kidnap both,{n}and one must be right, eh!{page}I'll use you as bait to lure him here,{n}then beat him to a pulp!{end:00}",
    "status": "done",
    "notes": ""
   },

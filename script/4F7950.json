@@ -22,7 +22,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:002800}ワタシが ここで やることは あまり ないんですよ{end:00}",
-   "en": "{face:002800}There really isn't much for me to do here.{end:00}",
+   "en": "{face:002800}There really isn't much{n}for me to do here.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -290,7 +290,7 @@
    "kind": "ff",
    "bytes": 101,
    "jp": "{face:010004}カリンちゃん ぶじでよかった{page}{face:000304}{var:00}くんこそ{n}ぶじで よかったですわ{page}{face:010004}どこも いたまない？{n}たいちょうは だいじょうぶ？{page}{face:000304}ええ だいじょうぶですわ{n}ありがとうございます{end:00}",
-   "en": "{face:010004}Karin-chan, I'm glad you're safe.{page}{face:000304}And I'm so glad you're safe, {var:00}-kun.{page}{face:010004}Does anything hurt? Are you feeling okay?{page}{face:000304}Yes, I'm quite all right. Thank you very much.{end:00}",
+   "en": "{face:010004}Karin-chan, I'm glad you're safe.{page}{face:000304}And I'm so glad you're safe, {var:00}-kun.{page}{face:010004}Does anything hurt?{n}Are you feeling okay?{page}{face:000304}Yes, I'm quite all right.{n}Thank you very much.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -326,7 +326,7 @@
    "kind": "ff",
    "bytes": 199,
    "jp": "{face:002800}ヘベレケはかせの いきさきは どうりょくしつです{page}{face:010000}どうりょくしつ？{page}{face:002800}はい フユーンの しんぞうぶぶんです{n}いま そこに つうじるみちは とざされていますが{page}わたしが カギを あずかっています{page}ですから わたしが あけておきます{page}{var:00}さんは はやく{n}はかせを おってください！{page}{face:010000}ありがとう でも どうして そんなことを してくれるの？{page}はかせに うらぎられたから？{end:00}",
-   "en": "{face:002800}Dr. Meta-Evil is heading to the engine room.{page}{face:010000}The engine room?{page}{face:002800}Yes, the heart of Fuyun. The way there is currently locked...{page}But I have been entrusted with the key.{page}So I will unlock it for you.{page}Please hurry after the doctor, {var:00}-san!{page}{face:010000}Thanks. But why are you doing all this for me?{page}Because the doctor betrayed you?{end:00}",
+   "en": "{face:002800}Dr. Meta-Evil is heading{n}to the engine room.{page}{face:010000}The engine room?{page}{face:002800}Yes, the heart of Fuyun. The way there is currently locked...{page}But I have been entrusted with the key.{page}So I will unlock it for you.{page}Please hurry after the doctor, {var:00}-san!{page}{face:010000}Thanks. But why are you doing all this for me?{page}Because the doctor betrayed you?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -412,7 +412,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:010000}このさきに ヘベレケはかせが！{n}よし いくぞ！{page}{face:000400}おーい {var:00}！{end:00}",
-   "en": "{face:010000}Dr. Meta-Evil is just ahead! Okay, here goes!{page}{face:000400}Heeey, {var:00}!{end:00}",
+   "en": "{face:010000}Dr. Meta-Evil is just ahead!{n}Okay, here goes!{page}{face:000400}Heeey, {var:00}!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -424,7 +424,7 @@
    "kind": "ff",
    "bytes": 219,
    "jp": "{face:010008}コウジ！？{n}なっ！ どうして ここにっ！？{page}{face:000404}メダロットはかせから かりた 「かぜのつばさ」で{n}おいかけてきたぜ{page}おまえひとりじゃ たよりないからな！{page}{face:010008}そっ・・・{n}それで どうやって ここが？{page}{face:000404}しょうきで のこってた ひこうがたの メダロットにきいた{n}たしか ウォッカとか いったっけ？{page}{face:010000}ウォッカが？{page}{face:000400}んなこた いいや！{n}とにかく いこうぜ！{page}この おくに ヘベレケはかせが いるんだろ？{end:00}",
-   "en": "{face:010008}Koji!? Wh-what are you doing here!?{page}{face:000404}I borrowed the \"Wind Wings\" from Dr. Aki and flew after ya.{page}Can't count on you to do this alone!{page}{face:010008}Wha... But how did you find this place?{page}{face:000404}I asked a flying Medabot that was still sane.{page}Think his name was Vodka or something?{page}{face:010000}Vodka told you?{page}{face:000400}Never mind that! Let's get going!{page}Dr. Meta-Evil's in there, right?{end:00}",
+   "en": "{face:010008}Koji!? Wh-what are you doing here!?{page}{face:000404}I borrowed the \"Wind Wings\" from Dr. Aki and flew after ya.{page}Can't count on you to do this alone!{page}{face:010008}Wha... But how did you find this place?{page}{face:000404}I asked a flying Medabot{n}that was still sane.{page}Think his name was Vodka or something?{page}{face:010000}Vodka told you?{page}{face:000400}Never mind that! Let's get going!{page}Dr. Meta-Evil's in there, right?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -629,7 +629,7 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:000403}よし わかった！{n}じゃあ おれは はかせを おうぜ！{end:00}",
-   "en": "{face:000403}All right, got it! I'll go after the doctor, then!{end:00}",
+   "en": "{face:000403}All right, got it!{n}I'll go after the doctor, then!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -821,7 +821,7 @@
    "kind": "ff",
    "bytes": 150,
    "jp": "{face:003C04}なんじゃ！？ おまえら{n}ちじょうせいあつは どうなった？{page}{face:002800}チジョウセイアツ？ なんのことです？{page}ワタシタチ しらないあいだに チジョウに{n}おりていたみたいで あわてて かえってきたんですよ{page}{face:003C04}なんじゃと！？{page}{face:003C03}むぅ やはりオイルが たらなんだか{page}{face:010004}・・・そうだ！{end:00}",
-   "en": "{face:003C04}What!? You lot! What happened to conquering the surface!?{page}{face:002800}Conquering the surface? What do you mean?{page}It seems we went down to the surface without even realizing it.{page}So we hurried back!{page}{face:003C04}What did you say!?{page}{face:003C03}Hmm. Not enough oil after all, eh?{page}{face:010004}...That's it!{end:00}",
+   "en": "{face:003C04}What!? You lot! What happened to conquering the surface!?{page}{face:002800}Conquering the surface?{n}What do you mean?{page}It seems we went down to the surface without even realizing it.{page}So we hurried back!{page}{face:003C04}What did you say!?{page}{face:003C03}Hmm. Not enough oil after all, eh?{page}{face:010004}...That's it!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1199,7 +1199,7 @@
    "kind": "ff",
    "bytes": 125,
    "jp": "{face:000303}そんなこと できるんでしょうか{n}{var:00}くん{page}{face:010004}できるさ！ しんぱいしないで{n}まってて カリンちゃん{page}だいじょうぶ ぼくをしんじて！{page}{face:000301}はい！ わたし しんじます！{n}あなたが だいじょうぶだって いったら{page}だいじょうぶなんだって！{end:00}",
-   "en": "{face:000303}Can you really do that, {var:00}-kun?{page}{face:010004}I can! Don't worry. Just wait, Karin-chan.{page}It'll be okay. Believe in me!{page}{face:000301}Yes! I do believe in you!{n}If you say it will be all right...{page}Then I know it will be!{end:00}",
+   "en": "{face:000303}Can you really do that,{n}{var:00}-kun?{page}{face:010004}I can! Don't worry. Just wait, Karin-chan.{page}It'll be okay. Believe in me!{page}{face:000301}Yes! I do believe in you!{n}If you say it will be all right...{page}Then I know it will be!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1452,7 +1452,7 @@
    "kind": "ff",
    "bytes": 116,
    "jp": "{face:000208}なにいってんの！？{page}そんなこと あたしに できるわけ ないじゃない！{page}{face:010006}おねがいだよ アリカ{n}じかんが ないんだ{page}そうしないと みんな たすからないんだ！{page}{face:000205}わ わかったわ やってみる{n}やるしか ないのよね！{end:00}",
-   "en": "{face:000208}What are you talking about!?{page}There's no way I can do something like that!{page}{face:010006}Please, Erika! We're running out of time!{page}If we don't do this, nobody will survive!{page}{face:000205}A-all right. I'll try. We don't have a choice, do we!{end:00}",
+   "en": "{face:000208}What are you talking about!?{page}There's no way I can do{n}something like that!{page}{face:010006}Please, Erika! We're running out of time!{page}If we don't do this, nobody will survive!{page}{face:000205}A-all right. I'll try. We don't have a choice, do we!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1514,7 +1514,7 @@
    "kind": "ff",
    "bytes": 161,
    "jp": "{face:010000}ふたりとも きょうりょくしてくれ！{n}このままだと フユーンが おみくじまちに{page}ついらくするんだ{n}だから てをかしてほしい！{page}{face:000208}そんな！ どうして！？{page}{face:000308}なにが あったんですか！？{page}{face:010000}くわしいせつめいは あとだ{n}とにかくいまは そうじゅうせきについて{page}きどうしゅうせいを てつだってほしいんだ！{end:00}",
-   "en": "{face:010000}I need both of you to help! At this rate, Fuyun will...{page}Crash into Omikuji Town! Please give us a hand!{page}{face:000208}No! How did that happen!?{page}{face:000308}What happened!?{page}{face:010000}I'll explain later. For now, please take the controls...{page}And help us correct our course!{end:00}",
+   "en": "{face:010000}I need both of you to help! At this rate, Fuyun will...{page}Crash into Omikuji Town!{n}Please give us a hand!{page}{face:000208}No! How did that happen!?{page}{face:000308}What happened!?{page}{face:010000}I'll explain later. For now, please take the controls...{page}And help us correct our course!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1588,7 +1588,7 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:010000}これであとは ぼくが そろえば たりるはずだ{page}いそいで そうじゅうしつに もどろう！{end:00}",
-   "en": "{face:010000}Now there should be enough of us once I join them.{page}I'd better hurry back to the control room!{end:00}",
+   "en": "{face:010000}Now there should be enough of us once I join them.{page}I'd better hurry back{n}to the control room!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1624,7 +1624,7 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:010000}これであとは ぼくが そろえば たりるはずだ{page}いそいで そうじゅうしつに もどろう！{end:00}",
-   "en": "{face:010000}Now there should be enough of us once I join them.{page}I'd better hurry back to the control room!{end:00}",
+   "en": "{face:010000}Now there should be enough of us once I join them.{page}I'd better hurry back{n}to the control room!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1684,7 +1684,7 @@
    "kind": "ff",
    "bytes": 159,
    "jp": "{face:002800}ネエ！ ミンナは どうなったの？{n}たすけてくれた？{page}{face:010000}みんなは だいじょうぶ{n}それより いま フユーンが たいへんなんだ！{page}きみも ちからをかしてほしい！{page}{face:002800}どうしたの？ ネエ{n}どうしたの？{page}{face:010006}はなしは あと！{n}とにかく そうじゅうしつにいって！{page}そしたら わかるから！{page}{face:002800}ウ ウン{end:00}",
-   "en": "{face:002800}Hey! What happened to everyone? Did you save them?{page}{face:010000}Everyone's okay. But now Fuyun is in big trouble!{page}I need your help, too!{page}{face:002800}What happened? Hey, what happened?{page}{face:010006}I'll explain later! Just go to the control room!{page}You'll understand when you get there!{page}{face:002800}O-okay.{end:00}",
+   "en": "{face:002800}Hey! What happened to everyone? Did you save them?{page}{face:010000}Everyone's okay. But now Fuyun is in big trouble!{page}I need your help, too!{page}{face:002800}What happened? Hey, what happened?{page}{face:010006}I'll explain later!{n}Just go to the control room!{page}You'll understand when you get there!{page}{face:002800}O-okay.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1696,7 +1696,7 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:010000}これであとは ぼくが そろえば たりるはずだ{page}いそいで そうじゅうしつに もどろう！{end:00}",
-   "en": "{face:010000}Now there should be enough of us once I join them.{page}I'd better hurry back to the control room!{end:00}",
+   "en": "{face:010000}Now there should be enough of us once I join them.{page}I'd better hurry back{n}to the control room!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1960,7 +1960,7 @@
    "kind": "ff",
    "bytes": 185,
    "jp": "{face:002E00}カラフルせんたい{n}セレクトスリー さんじょう！！{page}{face:010005}きになってたんだけどさぁ・・・{page}なんで セレクトブルーなのに あおくないんだよ？{page}{face:003200}2ばんめは 「ブルー」と そうばが きまっているのだ！{n}そんなコトも しらんのか！？{page}{face:010005}だれが きめたんだよ そんなこと{n}・・・・・・まぁ いいや{page}{face:010000}でも こいつらが ここにいる ということは・・・{end:00}",
-   "en": "{face:002E00}The Colorful Squadron,{n}Select Three, has arrived!!{page}{face:010005}I've been wondering...{page}Why aren't you blue if you're Select Blue?{page}{face:003200}The second member is always \"Blue\"! Don't you even know that!?{page}{face:010005}Who decided that? ...Oh, whatever.{page}{face:010000}But if these guys are here, that means...{end:00}",
+   "en": "{face:002E00}The Colorful Squadron,{n}Select Three, has arrived!!{page}{face:010005}I've been wondering...{page}Why aren't you blue{n}if you're Select Blue?{page}{face:003200}The second member is always \"Blue\"! Don't you even know that!?{page}{face:010005}Who decided that? ...Oh, whatever.{page}{face:010000}But if these guys are here, that means...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2104,7 +2104,7 @@
    "kind": "ff",
    "bytes": 113,
    "jp": "{face:010004}ウォッカ！ それにみんな よくがんばったね！{page}みんな すごいよ！{page}{face:002800}それも みんな{n}{var:00}さんが{page}わたしたちを ゆうきづけて くださったからこそです{page}おかげで わたしたちは フユーンを うしなわずに{n}すみました{end:00}",
-   "en": "{face:010004}Vodka! Everyone! You all did a great job!{page}You're amazing!{page}{face:002800}It is all thanks to you, {var:00}-san.{page}You gave us the courage to try.{page}Thanks to you, we did not lose Fuyun.{end:00}",
+   "en": "{face:010004}Vodka! Everyone! You all did a great job!{page}You're amazing!{page}{face:002800}It is all thanks to you,{n}{var:00}-san.{page}You gave us the courage to try.{page}Thanks to you, we did not lose Fuyun.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2776,7 +2776,7 @@
    "kind": "ff",
    "bytes": 119,
    "jp": "{face:003801}かんねんしなさいな{n}3たい1じゃ かちめはなくてよ{page}{face:010006}そういう もんだいじゃなくて！{n}こんなとこで ロボトルしたら・・・{page}{face:003801}あーら いまさらないても ゆるして あげませんことよ{page}もんどう むようで いきますことよ！{end:00}",
-   "en": "{face:003801}Do give up, dear. You haven't a chance, three against one.{page}{face:010006}That's not the point! If we Robattle in a place like this...{page}{face:003801}Oh, crying won't earn you any mercy now, dear.{page}Enough talk! Here we come!{end:00}",
+   "en": "{face:003801}Do give up, dear. You haven't a chance, three against one.{page}{face:010006}That's not the point! If we Robattle in a place like this...{page}{face:003801}Oh, crying won't earn you{n}any mercy now, dear.{page}Enough talk! Here we come!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2836,7 +2836,7 @@
    "kind": "ff",
    "bytes": 98,
    "jp": "{face:003603}いやロボよ なんだか{n}いやなよかんが してるロボ{page}{face:003802}おじけづくなんて なさけないですことよ！{page}いいですわ それなら このわたくしが あいてでしてよ！{page}{face:010006}だから やめろって！{end:00}",
-   "en": "{face:003603}No way, robo! I've got a bad feeling about this, robo!{page}{face:003802}How shameful, losing your nerve like that!{page}Very well. Then I shall{n}be your opponent myself!{page}{face:010006}I said, stop it!{end:00}",
+   "en": "{face:003603}No way, robo! I've got a bad feeling about this, robo!{page}{face:003802}How shameful,{n}losing your nerve like that!{page}Very well. Then I shall{n}be your opponent myself!{page}{face:010006}I said, stop it!{end:00}",
    "status": "done",
    "notes": ""
   },

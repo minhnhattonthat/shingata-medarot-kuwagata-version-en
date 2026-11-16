@@ -598,7 +598,7 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:004600}たなのなかは さわらないでね？{end:00}",
-   "en": "{face:004600}Don't touch anything in the cabinet, okay?{end:00}",
+   "en": "{face:004600}Don't touch anything{n}in the cabinet, okay?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -610,7 +610,7 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:004600}たなのなかは さわらないでね？{end:00}",
-   "en": "{face:004600}Don't touch anything in the cabinet, okay?{end:00}",
+   "en": "{face:004600}Don't touch anything{n}in the cabinet, okay?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1642,7 +1642,7 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:010000}みたこともない パーツが ならんでる{end:00}",
-   "en": "{face:010000}Parts I've never seen before lined up here.{end:00}",
+   "en": "{face:010000}Parts I've never seen before{n}lined up here.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3694,7 +3694,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:010100}ロボロボだんの マスコットにんぎょうが ならんでる{end:00}",
-   "en": "{face:010100}Rubberobo Gang mascot dolls lined up here.{end:00}",
+   "en": "{face:010100}Rubberobo Gang{n}mascot dolls lined up here.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3706,7 +3706,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:010100}ロボロボだんの マスコットにんぎょうが ならんでる{end:00}",
-   "en": "{face:010100}Rubberobo Gang mascot dolls lined up here.{end:00}",
+   "en": "{face:010100}Rubberobo Gang{n}mascot dolls lined up here.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -4366,7 +4366,7 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:010000}みたこともない パーツが ならんでる{end:00}",
-   "en": "{face:010000}Parts I've never seen before lined up here.{end:00}",
+   "en": "{face:010000}Parts I've never seen before{n}lined up here.{end:00}",
    "status": "done",
    "notes": ""
   },

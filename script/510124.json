@@ -970,7 +970,7 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "「H」マークは あたまパーツをつかうっていう いみよ{end:04}",
-   "en": "The \"H\" mark means to use the Head part.{end:04}",
+   "en": "The \"H\" mark means{n}to use the Head part.{end:04}",
    "status": "done",
    "notes": ""
   },

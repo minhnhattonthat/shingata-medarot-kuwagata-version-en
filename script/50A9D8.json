@@ -250,7 +250,7 @@
    "kind": "ff",
    "bytes": 117,
    "jp": "{face:001800}{var:00}くん おてがらであります{page}{face:010007}へへー{page}{face:001800}オーロたいちょうから{n}ロボロボだんたいじの ごほうびとして{page}おんなのこティンペットを{n}あずかっております{page}どうぞ おうけとりください{page}{face:010007}あ ありがとうございます！{end:00}",
-   "en": "{face:001800}Excellent work, {var:00}-kun!{page}{face:010007}Heh heh!{page}{face:001800}Captain Oro entrusted me{n}with your reward{page}for defeating the Rubberobo Gang:{n}a female Tinpet.{page}Please accept it.{page}{face:010007}Oh, thank you very much!{end:00}",
+   "en": "{face:001800}Excellent work, {var:00}-kun!{page}{face:010007}Heh heh!{page}{face:001800}Leader Oro entrusted me{n}with your reward{page}for defeating the Rubberobo Gang:{n}a female Tinpet.{page}Please accept it.{page}{face:010007}Oh, thank you very much!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -970,7 +970,7 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "まいにち あついからのう{n}ここで すずんでいるのじゃ{end:00}",
-   "en": "It's hot every day, eh? I'm cooling off here.{end:00}",
+   "en": "It's hot every day, eh?{n}I'm cooling off here.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1066,7 +1066,7 @@
    "kind": "ff",
    "bytes": 155,
    "jp": "ロボトルほんたいかいを{n}かいさい いたします{page}こんかいは わがまちの{n}56チームに くわえて{page}がいこくから 8にんの{n}しょうたいせんしゅを{page}まねいております{page}さあ わがまちの{n}ゆうしゅうな メダロッターたちは{page}なみいるきょうごうを{n}うちまかせるのでしょうか？{page}それでは だい1かいせん{n}ロボトルファイトッ！{end:00}",
-   "en": "The main Robattle tournament is now open!{page}This time, joining our town's 56 teams,{page}we have eight guest competitors from abroad!{page}Can our town's talented Medafighters{page}defeat this formidable field of rivals?{page}Now, round one! Robattle, fight!{end:00}",
+   "en": "The main Robattle{n}tournament is now open!{page}This time, joining our town's 56 teams,{page}we have eight guest competitors from abroad!{page}Can our town's talented Medafighters{page}defeat this formidable field of rivals?{page}Now, round one! Robattle, fight!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1078,7 +1078,7 @@
    "kind": "ff",
    "bytes": 155,
    "jp": "ロボトルほんたいかいを{n}かいさい いたします{page}こんかいは わがまちの{n}56チームに くわえて{page}がいこくから 8にんの{n}しょうたいせんしゅを{page}まねいております{page}さあ わがまちの{n}ゆうしゅうな メダロッターたちは{page}なみいるきょうごうを{n}うちまかせるのでしょうか？{page}それでは だい1かいせん{n}ロボトルファイトッ！{end:00}",
-   "en": "The main Robattle tournament is now open!{page}This time, joining our town's 56 teams,{page}we have eight guest competitors from abroad!{page}Can our town's talented Medafighters{page}defeat this formidable field of rivals?{page}Now, round one! Robattle, fight!{end:00}",
+   "en": "The main Robattle{n}tournament is now open!{page}This time, joining our town's 56 teams,{page}we have eight guest competitors from abroad!{page}Can our town's talented Medafighters{page}defeat this formidable field of rivals?{page}Now, round one! Robattle, fight!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1090,7 +1090,7 @@
    "kind": "ff",
    "bytes": 155,
    "jp": "ロボトルほんたいかいを{n}かいさい いたします{page}こんかいは わがまちの{n}56チームに くわえて{page}がいこくから 8にんの{n}しょうたいせんしゅを{page}まねいております{page}さあ わがまちの{n}ゆうしゅうな メダロッターたちは{page}なみいるきょうごうを{n}うちまかせるのでしょうか？{page}それでは だい1かいせん{n}ロボトルファイトッ！{end:00}",
-   "en": "The main Robattle tournament is now open!{page}This time, joining our town's 56 teams,{page}we have eight guest competitors from abroad!{page}Can our town's talented Medafighters{page}defeat this formidable field of rivals?{page}Now, round one! Robattle, fight!{end:00}",
+   "en": "The main Robattle{n}tournament is now open!{page}This time, joining our town's 56 teams,{page}we have eight guest competitors from abroad!{page}Can our town's talented Medafighters{page}defeat this formidable field of rivals?{page}Now, round one! Robattle, fight!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1102,7 +1102,7 @@
    "kind": "ff",
    "bytes": 207,
    "jp": "{face:005F00}ロボトルほんたいかいを{n}かいさい いたします{page}こんかいは わがまちの{n}56チームに くわえて{page}がいこくから 8にんの{n}しょうたいせんしゅを{page}まねいております{page}さあ わがまちの{n}ゆうしゅうな メダロッターたちは{page}なみいるきょうごうを{n}うちまかせるのでしょうか？{page}さあ だい1かいせんから{n}おおものが とうじょうします{page}ぜんねんど ヨーロッパチャンピオン{n}ブリレッツさんです{page}それでは ロボトルファイトッ！{end:00}",
-   "en": "{face:005F00}The main Robattle tournament is now open!{page}This time, joining our town's 56 teams,{page}we have eight guest competitors from abroad!{page}Can our town's talented Medafighters{page}defeat this formidable field of rivals?{page}We're starting round one with a big name!{page}Last year's European champion, Brilletz-san!{page}Now then, Robattle, fight!{end:00}",
+   "en": "{face:005F00}The main Robattle{n}tournament is now open!{page}This time, joining our town's 56 teams,{page}we have eight guest competitors from abroad!{page}Can our town's talented Medafighters{page}defeat this formidable field of rivals?{page}We're starting round one with a big name!{page}Last year's European champion, Brilletz-san!{page}Now then, Robattle, fight!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1534,7 +1534,7 @@
    "kind": "ff",
    "bytes": 131,
    "jp": "{face:002100}「なぐる」をつかうと{n}ぼうぎょが できなくなるんだ{page}そのときは だれかが かわって{n}ぼうぎょしなくちゃ いけないよ{page}それに 「がむしゃら」のときは{n}あいてのこうげきを かわすことも{page}ぼうぎょすることも できないから{n}すぐにあたまを ねらわれちゃうんだ{end:00}",
-   "en": "{face:002100}When you use Strike, you can't defend afterward.{page}Someone else has to defend for you then.{page}And when you use Berserk, you can't dodge or defend against attacks,{page}so your head becomes an easy target.{end:00}",
+   "en": "{face:002100}When you use Strike, you can't defend afterward.{page}Someone else has to{n}defend for you then.{page}And when you use Berserk, you can't dodge or defend against attacks,{page}so your head becomes an easy target.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2626,7 +2626,7 @@
    "kind": "ff",
    "bytes": 312,
    "jp": "{face:001600}きみが われわれの じゃまばかり{n}するからだよ{page}{face:010002}いつ オレが MーPKたいの{n}じゃまをした！？{page}{face:001600}まだ わからんか{page}ワタシの いだいなる りそうを{n}じつげんするためには {page}たいりょうのメダルが {n}ひつよう なのだよ{page}{face:010006}そっ そのくちょうは{n}ロボロボだんのボス！{page}{face:001600}これいじょう われわれの{n}じゃまをしない というなら{page}このむすめを はなしてやってもいい{page}{face:000303}だめよっ {var:00}{n}こいつの いいなりになっちゃ！{page}{face:001600}もし したがわないなら{n}ふふふふふっ{page}{face:000305}きゃぁー！{page}{face:010002}アイリスに てをだすなぁっ！！{page}{face:001601}ハッハッハッハッハ{page}おまえに {n}せんたくの よちはないのだよ！{end:00}",
-   "en": "{face:001600}Because you keep getting in our way.{page}{face:010002}When did I ever get in the M-PK force's way!?{page}{face:001600}Still don't understand?{page}To bring my grand vision to life,{page}I need vast quantities of Medals.{page}{face:010006}Th-that way of talking... The Rubberobo Gang's boss!{page}{face:001600}If you agree to stop interfering with us,{page}I may let this girl go.{page}{face:000303}No, {var:00}! Don't do what he says!{page}{face:001600}If you refuse to obey... Heh heh heh heh.{page}{face:000305}Aaaah!{page}{face:010002}Keep your hands off Iris!!{page}{face:001601}Ha ha ha ha ha!{page}You have no choice in the matter!{end:00}",
+   "en": "{face:001600}Because you keep getting in our way.{page}{face:010002}When did I ever get{n}in the M-PK force's way!?{page}{face:001600}Still don't understand?{page}To bring my grand vision to life,{page}I need vast quantities of Medals.{page}{face:010006}Th-that way of talking... The Rubberobo Gang's boss!{page}{face:001600}If you agree to stop interfering with us,{page}I may let this girl go.{page}{face:000303}No, {var:00}!{n}Don't do what he says!{page}{face:001600}If you refuse to obey... Heh heh heh heh.{page}{face:000305}Aaaah!{page}{face:010002}Keep your hands off Iris!!{page}{face:001601}Ha ha ha ha ha!{page}You have no choice in the matter!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2758,7 +2758,7 @@
    "kind": "ff",
    "bytes": 63,
    "jp": "{face:002100}さいきん ロボロボだんが{n}わるさをして あるいてるんだ{page}それを やっつけるために{n}MーPKたいが つくられたんだよ{end:00}",
-   "en": "{face:002100}The Rubberobo Gang has been going around causing trouble lately.{page}The M-PK force was formed to defeat them.{end:00}",
+   "en": "{face:002100}The Rubberobo Gang has been going around causing trouble lately.{page}The M-PK force was{n}formed to defeat them.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3454,7 +3454,7 @@
    "kind": "ff",
    "bytes": 74,
    "jp": "{face:004900}あしたから いよいよ なつやすみだ！{n}せんせいも うれしいぞ！{page}それでは せんせいから{n}なつやすみの しゅくだいの{page}おまけを あげよう！{end:00}",
-   "en": "{face:004900}Summer vacation finally starts tomorrow! Even Sensei is excited!{page}So, from your teacher, here's a little bonus{page}to go with your summer homework!{end:00}",
+   "en": "{face:004900}Summer vacation finally starts tomorrow! Even Sensei is excited!{page}So, from your teacher,{n}here's a little bonus{page}to go with your summer homework!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3514,7 +3514,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:000D02}なに？ うちゅうじんに{n}なおしてもらっただと？{end:00}",
-   "en": "{face:000D02}What? Aliens repaired it for you, you say?{end:00}",
+   "en": "{face:000D02}What? Aliens repaired it{n}for you, you say?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3526,7 +3526,7 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:000D00}メダルは ぜんぶ そろったか？{end:00}",
-   "en": "{face:000D00}Have you collected all the Medals, my boy?{end:00}",
+   "en": "{face:000D00}Have you collected{n}all the Medals, my boy?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -4294,7 +4294,7 @@
    "kind": "ff",
    "bytes": 187,
    "jp": "{face:005100}キケン・・・{n}モウスグ アレガ メザメル{page}{face:010006}あれ？ あれって なに？{page}{face:005100}ソウダ トメナケレバ{page}{face:010006}とめるって なにを？{page}{face:005100}キット・・・コノショウネンハ{page}ソウ・・・ワタシタチガ マイタ{n}タネヲ カリトッテ クレルモノ{page}{face:010006}ねえ きみたちはだれ？{n}なにを いってるの？{page}{face:005100}ワタシタチハ ミマモルモノ{n}ソシテキミハ ワタシタチノ キボウ{end:00}",
-   "en": "{face:005100}DANGER... IT WILL AWAKEN SOON.{page}{face:010006}It? What's \"it\"?{page}{face:005100}YES. IT MUST BE STOPPED.{page}{face:010006}Stop what?{page}{face:005100}SURELY... THIS BOY IS...{page}YES... THE ONE WHO WILL REAP WHAT WE HAVE SOWN.{page}{face:010006}Hey, who are you? What are you talking about?{page}{face:005100}WE ARE THE WATCHERS. AND YOU ARE OUR HOPE.{end:00}",
+   "en": "{face:005100}DANGER... IT WILL AWAKEN SOON.{page}{face:010006}It? What's \"it\"?{page}{face:005100}YES. IT MUST BE STOPPED.{page}{face:010006}Stop what?{page}{face:005100}SURELY... THIS BOY IS...{page}YES... THE ONE WHO WILL REAP WHAT WE HAVE SOWN.{page}{face:010006}Hey, who are you? What are you talking about?{page}{face:005100}WE ARE THE WATCHERS.{n}AND YOU ARE OUR HOPE.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -4462,7 +4462,7 @@
    "kind": "ff",
    "bytes": 602,
    "jp": "{face:001103}わっ マジ {n}なんで アンタが ここにいんのよ{page}{face:010002}オレが どこにいようと かってだろ{page}それより また なにか{n}わるさをたくらんでるな！{page}{face:001102}うわっ ちょ〜 さいあくぅ〜{page}ひとの かおをみるなり {n}「わるさたくらんでるだろ」なんて{page}{face:010006}うっ{n}じゃあ わるさは してないのか？{page}{face:001102}とうぜんじゃん！{page}{face:001100}アタシは うちゅうじんの ために{n}メダルを あつめるという{page}すうこうな しめいを {n}はたしてんだよ{page}わるさなんて してないわよ {page}{face:010003}そっ そうか{n}わりぃ かんちがい だった{page}{face:001101}ふふん {n}わかれば いいのよ わかれば♥{page}{face:010003}ところで メダルはどうやって{n}あつめてるんだ？{page}コンビニにも うってないだろ？{page}{face:001101}そうなのよね{page}ぶっちゃけ うってても おこづかい{n}すくないから かえない けど〜{page}{face:010003}じゃあ どうやって {n}あつめてるんだ？{page}{face:001100}え〜と {page}はっくつげんば から ぬすんだりぃ{page}ひとが もってるの うばったりぃ{page}{face:001101}そうやって あつめてるわよ{page}{face:010002}・・・ぜんぶ わるさじゃ ねぇか！！{page}{face:001103}エ〜〜ッ！ {n}でも うってないから しかたないじゃん{page}{face:010002}うってても かえないって{n}いま いってたよな！{page}{face:001103}うわっ こんどは{n}あげあし とりだ{page}{face:001102}マジ ムカツクやつ〜！{page}こうなったら{n}みんな コイツを やっつけちゃって！{end:00}",
-   "en": "{face:001103}Whoa, seriously? What are YOU doing here?{page}{face:010002}I can go wherever I want.{page}More importantly, you're plotting something rotten again!{page}{face:001102}Ugh, you're, like, the wooorst!{page}You take one look at me and go, \"You're plotting something rotten!\"{page}{face:010006}Uh... So you're not up to anything bad?{page}{face:001102}Of course not!{page}{face:001100}I'm collecting Medals for the aliens!{page}It's a noble mission, you know.{page}I'm not doing anything bad!{page}{face:010003}O-oh. Sorry, I got the wrong idea.{page}{face:001101}Heheh. As long as you get it now!{page}{face:010003}By the way, how do you collect the Medals?{page}They don't sell them at convenience stores, right?{page}{face:001101}I know, right?{page}Honestly, even if they did, my allowance is too tiny to buy anyyy.{page}{face:010003}Then how do you collect them?{page}{face:001100}Ummm...{page}I steal them from dig sites...{page}Or snatch them from people...{page}{face:001101}That's how I collect them!{page}{face:010002}...That's ALL bad stuff!!{page}{face:001103}Whaaat!? But nobody sells them! What else can I do?{page}{face:010002}You just said you couldn't afford them even if they did!{page}{face:001103}Ugh! Now you're picking apart everything I say!{page}{face:001102}You're sooo annoying!{page}That's it! Everyone, get him!{end:00}",
+   "en": "{face:001103}Whoa, seriously?{n}What are YOU doing here?{page}{face:010002}I can go wherever I want.{page}More importantly, you're plotting something rotten again!{page}{face:001102}Ugh, you're, like, the wooorst!{page}You take one look at me and go, \"You're plotting something rotten!\"{page}{face:010006}Uh... So you're not up to anything bad?{page}{face:001102}Of course not!{page}{face:001100}I'm collecting Medals for the aliens!{page}It's a noble mission, you know.{page}I'm not doing anything bad!{page}{face:010003}O-oh. Sorry, I got the wrong idea.{page}{face:001101}Heheh. As long as you get it now!{page}{face:010003}By the way, how do you collect the Medals?{page}They don't sell them at convenience stores, right?{page}{face:001101}I know, right?{page}Honestly, even if they did, my allowance is too tiny to buy anyyy.{page}{face:010003}Then how do you collect them?{page}{face:001100}Ummm...{page}I steal them from dig sites...{page}Or snatch them from people...{page}{face:001101}That's how I collect them!{page}{face:010002}...That's ALL bad stuff!!{page}{face:001103}Whaaat!? But nobody sells them! What else can I do?{page}{face:010002}You just said you couldn't afford them even if they did!{page}{face:001103}Ugh! Now you're picking apart everything I say!{page}{face:001102}You're sooo annoying!{page}That's it! Everyone, get him!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -4498,7 +4498,7 @@
    "kind": "ff",
    "bytes": 110,
    "jp": "{face:001500}ロボロボだんに さからうとは{n}ばかなやつ！{page}わたしの すうこうなる {n}しめいを りかいできないとは！{page}{face:010008}エッ ひょっとして{n}あれって ロボロボだんの ボスか？{page}こんな ばしょで{n}でてきて いいのかよ？ {end:00}",
-   "en": "{face:001500}You fool! You dare defy the Rubberobo Gang!{page}You cannot comprehend my noble mission!{page}{face:010008}Huh? Is that the Rubberobo Gang's boss?{page}Is he supposed to show up in a place like this?{end:00}",
+   "en": "{face:001500}You fool! You dare defy{n}the Rubberobo Gang!{page}You cannot comprehend my noble mission!{page}{face:010008}Huh? Is that{n}the Rubberobo Gang's boss?{page}Is he supposed to show up in a place like this?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -4510,7 +4510,7 @@
    "kind": "ff",
    "bytes": 278,
    "jp": "{face:001600}まてぃ！{n}そこまでだ！{page}MーPKたい たいちょうオーロ{n}ただいま さんじょう！{page}ロボロボだんめっ かくごしろっ{page}{face:010008}うわっ こんどは {n}オーロたいちょうだ{page}{face:010006}すごい ロボロボだんのボスと {n}いっきうちだ {page}いったい どっちがかつんだ？{page}{face:001500}グハハハハ{n}きさまが オーロたいちょうか {page}{face:001600}そうだ！{page}{face:001500}MーPKたい たいちょうと いえど{page}わたしの まえでは{n}ただの おろかものに すぎぬ{page}じゅんばんに あいて してやるわ！{page}いくぞ ロボトルだ！{page}{face:010006}えっ じゅんばんって？{page}{face:010008}うわっ なんで{n}こっちにくるんだよ〜{end:00}",
-   "en": "{face:001600}Halt! That's far enough!{page}Captain Oro of M-PK has arrived!{page}Prepare yourselves, Rubberobo Gang!{page}{face:010008}Whoa! Now Captain Oro's here!{page}{face:010006}Awesome! A duel with the Rubberobo Gang's boss!{page}Who's gonna win?{page}{face:001500}Gwahahaha! So you're Captain Oro!{page}{face:001600}That's right!{page}{face:001500}You may be the captain of M-PK...{page}But before me, you are nothing more than a fool!{page}I'll take you on one at a time!{page}Here goes! Robattle!{page}{face:010006}Huh? One at a time?{page}{face:010008}Whoa! Why are you coming at meee!?{end:00}",
+   "en": "{face:001600}Halt! That's far enough!{page}Leader Oro of M-PK has arrived!{page}Prepare yourselves, Rubberobo Gang!{page}{face:010008}Whoa! Now Leader Oro's here!{page}{face:010006}Awesome! A duel with the Rubberobo Gang's boss!{page}Who's gonna win?{page}{face:001500}Gwahahaha! So you're Leader Oro!{page}{face:001600}That's right!{page}{face:001500}You may be the leader of M-PK...{page}But before me, you are nothing more than a fool!{page}I'll take you on one at a time!{page}Here goes! Robattle!{page}{face:010006}Huh? One at a time?{page}{face:010008}Whoa! Why are you coming at meee!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -4522,7 +4522,7 @@
    "kind": "ff",
    "bytes": 56,
    "jp": "{face:001601}しょうねんよ {n}すごいじゃないか{page}ロボロボだんのボスを たおすなんて{page}{face:010007}いや〜{n}それほどでも〜{end:00}",
-   "en": "{face:001601}My boy, that was impressive!{page}You defeated the Rubberobo Gang's boss!{page}{face:010007}Aw, it wasn't that big a deal...{end:00}",
+   "en": "{face:001601}My boy, that was impressive!{page}You defeated the{n}Rubberobo Gang's boss!{page}{face:010007}Aw, it wasn't that big a deal...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -6658,7 +6658,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:000D01}どうじゃ 「ちけい」は{n}マスター したか？{end:00}",
-   "en": "{face:000D01}Well, have you mastered \"Terrain,\" my boy?{end:00}",
+   "en": "{face:000D01}Well, have you mastered{n}\"Terrain,\" my boy?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -7018,7 +7018,7 @@
    "kind": "ff",
    "bytes": 135,
    "jp": "{face:001701}ひよこって かわいいよな{page}ぼうず カムイは げんきか{page}{face:010000}うん げんきだぜ！{n}すこし あつそうだけど{page}{face:001701}そいつは いけねぇな{n}ひよこは あつさによわいからよ{page}{face:010004}でもカムイは なつげに{n}はえかわったから だいじょうぶさ{page}{face:001702}な なつげ ！？{end:00}",
-   "en": "{face:001701}Chicks sure are cute, huh?{page}How's Kamui doin', kid?{page}{face:010000}He's great! Looks a little hot, though.{page}{face:001701}That's no good. Chicks can't take the heat.{page}{face:010004}But Kamui's got his summer coat now, so he's fine.{page}{face:001702}S-summer coat!?{end:00}",
+   "en": "{face:001701}Chicks sure are cute, huh?{page}How's Kamui doin', kid?{page}{face:010000}He's great! Looks a little hot, though.{page}{face:001701}That's no good.{n}Chicks can't take the heat.{page}{face:010004}But Kamui's got his summer coat now, so he's fine.{page}{face:001702}S-summer coat!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -7138,7 +7138,7 @@
    "kind": "ff",
    "bytes": 398,
    "jp": "{face:001701}ひよこは いつか ニワトリになる・・{page}{face:001700}ひよこが ニワトリになったのか・・・{n}ニワトリが ひよこをうんだのか・・・{page}{face:010000}おじさんさ なに ブツブツいってんだよ ？{page}{face:001700}だから ロボロボだんが MーPKたいに・・・！？{page}{face:001702}・・・・・おおっ！{page}{face:010000}ロボロボだんと MーPKたいが{n}どうしたんだ？{page}{face:001702}あー それはだなぁ{n}・・・・・・・{page}・・・・・・・{page}{face:001700}・・・・・・！ そうそう {page}{face:010004}？{page}{face:001700}きょうも ロボロボだんが{page}{face:010004}うんっ？{page}{face:001700}MーPKたいに {page}{face:010004}うんうん{page}{face:001700}おいかけられてたなぁ と ・・・{page}{face:010000}・・・それだけ？{page}{face:001702}そうだ {n}だから きょうも へいわ だなぁ {page}と いっていたのさ{page}{face:010000}う〜ん？？？{page}なんか へんだけど{n}まっ いいや そんじゃねぇ{page}{face:001701}・・・ ふっ なんとか ごまかせたな ・・・{end:00}",
-   "en": "{face:001701}A chick grows up into a chicken...{page}{face:001700}Did the chick become a chicken...? Or did the chicken hatch a chick...?{page}{face:010000}Hey, mister, what are you muttering about?{page}{face:001700}So the Rubberobo Gang became M-PK...!?{page}{face:001702}...Whoa!{page}{face:010000}What about the Rubberobo Gang and M-PK?{page}{face:001702}Uh, well, ya see...{page}...{page}{face:001700}...! Right, right!{page}{face:010004}?{page}{face:001700}Today, the Rubberobo Gang...{page}{face:010004}Yeah?{page}{face:001700}Well, M-PK...{page}{face:010004}Uh-huh?{page}{face:001700}Was chasing 'em again. That's all...{page}{face:010000}...That's it?{page}{face:001702}Right! So it's another peaceful day...{page}That's what I was sayin'.{page}{face:010000}Hmm???{page}Something's fishy, but whatever. See ya!{page}{face:001701}...Heh. Managed to talk my way{n}outta that one...{end:00}",
+   "en": "{face:001701}A chick grows up into a chicken...{page}{face:001700}Did the chick become a chicken...? Or did the chicken hatch a chick...?{page}{face:010000}Hey, mister, what are you muttering about?{page}{face:001700}So the Rubberobo Gang became M-PK...!?{page}{face:001702}...Whoa!{page}{face:010000}What about the{n}Rubberobo Gang and M-PK?{page}{face:001702}Uh, well, ya see...{page}...{page}{face:001700}...! Right, right!{page}{face:010004}?{page}{face:001700}Today, the Rubberobo Gang...{page}{face:010004}Yeah?{page}{face:001700}Well, M-PK...{page}{face:010004}Uh-huh?{page}{face:001700}Was chasing 'em again. That's all...{page}{face:010000}...That's it?{page}{face:001702}Right! So it's another peaceful day...{page}That's what I was sayin'.{page}{face:010000}Hmm???{page}Something's fishy, but whatever. See ya!{page}{face:001701}...Heh. Managed to talk my way{n}outta that one...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -7438,7 +7438,7 @@
    "kind": "ff",
    "bytes": 521,
    "jp": "{face:000202}ばかっ！{page}メダロットはじめたばかりのくせに{n}いきなり あんなむちゃしちゃダメじゃない{page}メダロットが かわいそうでしょ！{page}{face:010006}あれっ？{page}・・・あこがれの まなざしで オレを・・・{n}・・・みてるんじゃ・・・{page}{face:000202}{var:00}！{n}ちゃんと きいてる！？{page}{face:010006}はいっ！！{page}{face:000200}あんた メダルとパーツの{n}あいしょうとか しってる？{page}メダルとパーツの {n}ぞくせいが おなじなら {page}メダロットは パワーアップ！ {n}・・・ってしってた？{page}{face:010006}えっ いや・・・{page}{face:000205}それにね メダルにだって{n}こころが あるのよ{page}かんがえて そだてないと{n}ダメなこに なっちゃうんだから！{page}{face:010003}・・わるい{page}{face:000204}まあ いいわ ゆるしてあげる{page}{face:000200}それから くわしいことは{n}あんたの メダロッチに おくっといてあげるから{page}{face:000204}それと・・・{page}{face:010003}なんだよ{page}{face:000204}・・・ありがと♥{page}いちおう {n}たすけてくれたみたいだから{page}{face:010000}えっ？ {n}{face:010007}あっ あんなの らくしょうよ{page}オレの じつりょくは {n}あんなもんじゃないからよ{page}{face:000206}も〜 すぐちょうしに のるんだから{page}{face:000200}ばかなこと いってないで{n}もっと うでを みがきなさいよ{end:00}",
-   "en": "{face:000202}Idiot!{page}You just started with Medabots! You can't rush into something so reckless!{page}Think of your poor Medabot!{page}{face:010006}Huh?{page}...Isn't she supposed to be gazing at me with admiration...?{page}{face:000202}{var:00}!{n}Are you listening!?{page}{face:010006}Yes, ma'am!!{page}{face:000200}Do you know about affinity between Medals and parts?{page}If the Medal and parts have the same attribute...{page}Your Medabot powers up! ...Did you know that?{page}{face:010006}Uh, no...{page}{face:000205}And Medals have hearts too, you know.{page}If you don't raise them with care, they'll turn out badly!{page}{face:010003}...Sorry.{page}{face:000204}Well, all right. I'll forgive you.{page}{face:000200}I'll send the details to your Medawatch.{page}{face:000204}And...{page}{face:010003}What?{page}{face:000204}...Thanks.{page}I guess you did sort of save me.{page}{face:010000}Huh?{n}{face:010007}Oh, that was a piece of cake!{page}You ain't seen what I can really do!{page}{face:000206}Honestly! It goes straight to your head!{page}{face:000200}Quit talking nonsense and work on your skills!{end:00}",
+   "en": "{face:000202}Idiot!{page}You just started with Medabots! You can't rush into something so reckless!{page}Think of your poor Medabot!{page}{face:010006}Huh?{page}...Isn't she supposed to be gazing at me with admiration...?{page}{face:000202}{var:00}!{n}Are you listening!?{page}{face:010006}Yes, ma'am!!{page}{face:000200}Do you know about affinity between Medals and parts?{page}If the Medal and parts have the same attribute...{page}Your Medabot powers up!{n}...Did you know that?{page}{face:010006}Uh, no...{page}{face:000205}And Medals have hearts too, you know.{page}If you don't raise them with care, they'll turn out badly!{page}{face:010003}...Sorry.{page}{face:000204}Well, all right. I'll forgive you.{page}{face:000200}I'll send the details to your Medawatch.{page}{face:000204}And...{page}{face:010003}What?{page}{face:000204}...Thanks.{page}I guess you did sort of save me.{page}{face:010000}Huh?{n}{face:010007}Oh, that was a piece of cake!{page}You ain't seen what I can really do!{page}{face:000206}Honestly! It goes straight to your head!{page}{face:000200}Quit talking nonsense and work on your skills!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -7964,7 +7964,7 @@
    "kind": "ff",
    "bytes": 638,
    "jp": "{face:010000}こうえんに メダルが おちてたぜ{page}{face:001800}おお おちていたメダルを{n}とどけてくれたのですか{page}MーPKたいへの きょうりょく {n}かんしゃします！{page}{face:010007}へへー{page}{face:001800}それでは あずからせて もらうであります{page}{face:006400}・・・ {page}{face:001800}んっ なんでありますか？{page}{face:010004}なにも いってないよ{page}{face:001801}そっ そうでありますか{page}{face:006400}・・・ コノ ショウネンカラ {n}・・・ チカラヲ カンジル {page}{face:001801}・・・・・・・・・{page}{face:006400}・・・ コノ ショウネント ナラ・・・・・{page}{face:001801}・・・・・・・・・{page}{face:006400}・・・ ショウネンヨ トモニ{n}・・・ ト・・モ・・ニ・・・・・{page}{face:001801}・・・・・・・・・{n}・・・・・・・・・・・・・{page}{face:010006}チョッ チョット{n}MーPKたいの おじさん！{page}{face:001801}・・・・・・・・・{page}{face:001800}はっ！？ ど どうしたで ありますか{page}{face:010006}い いや おじさんこそ{n}だいじょうぶ？{page}{face:001800}だ だいじょうぶ であります！{page}{face:010004}じゃあ このメダルを・・・{page}{face:001800}そのメダルは キミのものであります{page}{face:010006}えっ？{page}{face:001800}そのメダルは キミを きにいっているので{n}キミのもので あります{page}{face:010006}く くれるってんなら {n}もらっておくけど ほんとに いいの？{page}{face:001800}ごきょうりょく {n}ありがとうございました！{page}{face:010005}・・・メダルがオレを きにいってるって・・・{n}・・・そんな ものなのかな？・・・{page}・・・よし パパにきいてみよう・・・{end:00}",
-   "en": "{face:010000}I found a Medal in the park.{page}{face:001800}Oh! You've brought in a lost Medal?{page}Thank you for cooperating with M-PK!{page}{face:010007}Hehe!{page}{face:001800}Then we shall take custody of it!{page}{face:006400}...{page}{face:001800}Hm? What was that?{page}{face:010004}I didn't say anything.{page}{face:001801}I-is that so?{page}{face:006400}...FROM THIS BOY...{n}...I SENSE POWER...{page}{face:001801}...{page}{face:006400}...WITH THIS BOY, I COULD...{page}{face:001801}...{page}{face:006400}...BOY, TOGETHER...{n}...TO...GE...THER...{page}{face:001801}...{n}...{page}{face:010006}H-hey, Mister M-PK!{page}{face:001801}...{page}{face:001800}Huh!? W-what seems to be the matter?{page}{face:010006}N-no, I should ask you that! Are you okay?{page}{face:001800}I-I am perfectly fine!{page}{face:010004}Then, this Medal...{page}{face:001800}That Medal belongs to you!{page}{face:010006}Huh?{page}{face:001800}That Medal has taken a liking to you, so it belongs to you!{page}{face:010006}I-I'll take it if you're giving it to me, but are you sure?{page}{face:001800}Thank you for your cooperation!{page}{face:010005}...The Medal likes me...?{n}...Is that how it works...?{page}...All right, I'll ask Dad...{end:00}",
+   "en": "{face:010000}I found a Medal in the park.{page}{face:001800}Oh! You've brought in a lost Medal?{page}Thank you for cooperating with M-PK!{page}{face:010007}Hehe!{page}{face:001800}Then we shall take custody of it!{page}{face:006400}...{page}{face:001800}Hm? What was that?{page}{face:010004}I didn't say anything.{page}{face:001801}I-is that so?{page}{face:006400}...FROM THIS BOY...{n}...I SENSE POWER...{page}{face:001801}...{page}{face:006400}...WITH THIS BOY, I COULD...{page}{face:001801}...{page}{face:006400}...BOY, TOGETHER...{n}...TO...GE...THER...{page}{face:001801}...{n}...{page}{face:010006}H-hey, Mister M-PK!{page}{face:001801}...{page}{face:001800}Huh!? W-what seems to be the matter?{page}{face:010006}N-no, I should ask you that!{n}Are you okay?{page}{face:001800}I-I am perfectly fine!{page}{face:010004}Then, this Medal...{page}{face:001800}That Medal belongs to you!{page}{face:010006}Huh?{page}{face:001800}That Medal has taken a liking to you, so it belongs to you!{page}{face:010006}I-I'll take it if you're giving it to me, but are you sure?{page}{face:001800}Thank you for your cooperation!{page}{face:010005}...The Medal likes me...?{n}...Is that how it works...?{page}...All right, I'll ask Dad...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -8975,7 +8975,7 @@
    "kind": "ff",
    "bytes": 71,
    "jp": "{face:004600}わたしも メダロットもってるのよ{n}だってあれ かわいいんだもの♥{page}わたしのは かいふくタイプなのよ{n}いつか おあいて してくれる？{end:00}",
-   "en": "{face:004600}I have a Medabot too. They're just so cute!{page}Mine's a Recover type. Would you battle me sometime?{end:00}",
+   "en": "{face:004600}I have a Medabot too.{n}They're just so cute!{page}Mine's a Recover type. Would you battle me sometime?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -9443,7 +9443,7 @@
    "kind": "ff",
    "bytes": 233,
    "jp": "{face:000700}まえのせきの ふたりは{n}リューキと シフォン{page}つうしょう おかねもちコンビね{page}うしろのふたりは ピョロリと ボヨヨ{n}いつも わるさをしているワルガキよ{page}あなた アイリスと おさななじみ{n}なんですって？{page}もうチューは した？{n}・・・って{page}なんで あたしが こんなこと{n}せつめいしなくちゃなんないのよ！{page}この マスキーさまに むかって{n}いいどきょうじゃない！{page}あんたなんか ボヨヨと ピョロリを{n}つかって こてんぱんに{page}のしちゃうことだって{n}できるんだからね{end:00}",
-   "en": "{face:000700}The two up front are Ryuki and Chiffon.{page}Better known as the rich duo.{page}The two in back are Pyorori and Boyoyo. They're always up to no good.{page}I hear you and Iris are childhood friends?{page}Kissed her yet? ...Wait.{page}Why the heck am I explaining all this to you?!{page}You've got some nerve making ME, the great Masky, do this!{page}I could have Boyoyo and Pyorori beat you to a pulp, you know!{end:00}",
+   "en": "{face:000700}The two up front are Ryuki and Chiffon.{page}Better known as the rich duo.{page}The two in back are Pyorori and Boyoyo. They're always up to no good.{page}I hear you and Iris are childhood friends?{page}Kissed her yet? ...Wait.{page}Why the heck am I explaining{n}all this to you?!{page}You've got some nerve making ME, the great Masky, do this!{page}I could have Boyoyo and Pyorori beat you to a pulp, you know!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -9707,7 +9707,7 @@
    "kind": "ff",
    "bytes": 79,
    "jp": "{face:004700}わたしも ロボトルを やってるが{page}あんまり たおすとか{n}こわすのって すきじゃないんだよ{page}だから わたしの メダロットは{n}ぼうがいタイプ なんだよ{end:00}",
-   "en": "{face:004700}I Robattle as well.{page}But I don't much care for defeating or destroying things.{page}That's why my Medabot is a Jamming type.{end:00}",
+   "en": "{face:004700}I Robattle as well.{page}But I don't much care for defeating or destroying things.{page}That's why my Medabot{n}is a Jamming type.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -9827,7 +9827,7 @@
    "kind": "ff",
    "bytes": 59,
    "jp": "{face:002200}せんせいなら きょうしつに いるわよ{page}りかのせんせいなら りかしつ{page}おんがくのせんせいなら{n}おんがくしつね{end:00}",
-   "en": "{face:002200}Sensei's in the classroom.{page}The science teacher's in the science room.{page}And the music teacher's in the music room.{end:00}",
+   "en": "{face:002200}Sensei's in the classroom.{page}The science teacher's{n}in the science room.{page}And the music teacher's{n}in the music room.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -9839,7 +9839,7 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "こうちょうせんせいって{n}こわいかお してるよね{end:00}",
-   "en": "The principal sure has a scary face, huh?{end:00}",
+   "en": "The principal sure{n}has a scary face, huh?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -9851,7 +9851,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:002100}こうちょうせんせいって{n}こわいかお してるよね{end:00}",
-   "en": "{face:002100}The principal sure has a scary face, huh?{end:00}",
+   "en": "{face:002100}The principal sure{n}has a scary face, huh?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -10151,7 +10151,7 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:002000}かえったら はなび やるんだ{end:00}",
-   "en": "{face:002000}I'm gonna set off fireworks when I get home.{end:00}",
+   "en": "{face:002000}I'm gonna set off fireworks{n}when I get home.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -10319,7 +10319,7 @@
    "kind": "ff",
    "bytes": 74,
    "jp": "{face:005300}きょうは おもいっきり{n}ロボトルするロボ！{page}{face:005300}ロボトルたいかいも ひさしぶりロボ{page}うでが なるロボ{page}{face:010006}あの はなしかたは！？{end:00}",
-   "en": "{face:005300}I'm gonna Robattle my heart out today, robo!{page}{face:005300}It's been ages since my last Robattle tournament, robo!{page}I'm itching for action, robo!{page}{face:010006}That way of talking...!{end:00}",
+   "en": "{face:005300}I'm gonna Robattle{n}my heart out today, robo!{page}{face:005300}It's been ages since my last Robattle tournament, robo!{page}I'm itching for action, robo!{page}{face:010006}That way of talking...!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -10631,7 +10631,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:001A00}そんな ジョークに ひっかかると{n}おもったロボか？{end:00}",
-   "en": "{face:001A00}You think I'd fall for a joke like that, robo?{end:00}",
+   "en": "{face:001A00}You think I'd fall{n}for a joke like that, robo?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -11351,7 +11351,7 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:010006}あしもとに なにか おちている{end:00}",
-   "en": "{face:010006}There's something on the ground at my feet.{end:00}",
+   "en": "{face:010006}There's something{n}on the ground at my feet.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -11459,7 +11459,7 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:001800}でも なんで こんなしかけが{n}あるんだろう？{end:00}",
-   "en": "{face:001800}But why does it have a mechanism like this?{end:00}",
+   "en": "{face:001800}But why does it have{n}a mechanism like this?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -11903,7 +11903,7 @@
    "kind": "ff",
    "bytes": 174,
    "jp": "{face:005700}わたしたちは ここで MーPKメダルを{n}つくらされているの{page}{face:010006}MーPKメダルを！？{page}{face:005700}あれは きけんなメダルよ{page}あるでんぱを うけると{n}ぼうそうする しかけが くみこまれているの{page}{face:010002}くそっ！ やっぱりMーPKメダルが{n}げんいん だったのか{page}{face:005700}もう こんなことするのは たえられない{n}わたしは にげさせてもらうわ！{end:00}",
-   "en": "{face:005700}They're forcing us to make M-PK Medals here.{page}{face:010006}M-PK Medals?!{page}{face:005700}Those Medals are dangerous.{page}They have a built-in mechanism that makes them go berserk{page}when they receive a certain radio signal.{page}{face:010002}Darn it! So M-PK Medals were the cause after all!{page}{face:005700}I can't bear doing this anymore! I'm getting out of here!{end:00}",
+   "en": "{face:005700}They're forcing us{n}to make M-PK Medals here.{page}{face:010006}M-PK Medals?!{page}{face:005700}Those Medals are dangerous.{page}They have a built-in mechanism that makes them go berserk{page}when they receive a certain radio signal.{page}{face:010002}Darn it! So M-PK Medals were the cause after all!{page}{face:005700}I can't bear doing this anymore! I'm getting out of here!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -12059,7 +12059,7 @@
    "kind": "ff",
    "bytes": 119,
    "jp": "{face:000800}ボヨヨ おまえ ほんとうに それしか{n}いわないな{page}{face:000900}ないな・・・{page}{face:000804}・・・・・・・・・{page}{face:001402}う うるさい こどもたちだわねっ！{n}みなさん やっちゃってください！{page}{face:001401}あら？{n}また ワタクシひとりですの・・・{end:00}",
-   "en": "{face:000800}Boyoyo, you really never say anything else, do ya?{page}{face:000900}Do ya...{page}{face:000804}.........{page}{face:001402}S-such noisy children! Everyone, get them!{page}{face:001401}Oh? Am I all alone again...?{end:00}",
+   "en": "{face:000800}Boyoyo, you really never say anything else, do ya?{page}{face:000900}Do ya...{page}{face:000804}.........{page}{face:001402}S-such noisy children!{n}Everyone, get them!{page}{face:001401}Oh? Am I all alone again...?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -12864,7 +12864,7 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:001E00}ありがとう おぬしは{n}さとのおんじんだ{end:00}",
-   "en": "{face:001E00}Thank you, my boy. Our village is in your debt.{end:00}",
+   "en": "{face:001E00}Thank you, my boy.{n}Our village is in your debt.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -13884,7 +13884,7 @@
    "kind": "ff",
    "bytes": 135,
    "jp": "{face:002100}Bボタンをおすと{n}メインメニューが ひらくんだ{page}メダロッチは{n}メダロットの じょうほう{page}アイテムは{n}もっている アイテムが みれる{page}せつめいは おしえてもらわないと{n}みれないけど メダロットのせつめいだ{page}セーブは これまでの{n}ゲームないようを きろくできるぞ{end:00}",
-   "en": "{face:002100}Press the B Button to open the main menu.{page}Medawatch shows you information about your Medabots.{page}Items lets you see the items you have.{page}Help explains Medabots, but you can't view it until someone teaches you.{page}Save records your progress in the game.{end:00}",
+   "en": "{face:002100}Press the B Button{n}to open the main menu.{page}Medawatch shows you information about your Medabots.{page}Items lets you see the items you have.{page}Help explains Medabots, but you can't view it until someone teaches you.{page}Save records your progress in the game.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -14064,7 +14064,7 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:001A00}ぜったいに ここはとおせないロボ{end:00}",
-   "en": "{face:001A00}There's no way I'm letting you through, robo!{end:00}",
+   "en": "{face:001A00}There's no way{n}I'm letting you through, robo!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -14100,7 +14100,7 @@
    "kind": "ff",
    "bytes": 301,
    "jp": "{face:010000}えっと・・・ だれだっけ？{page}{face:000502}キミの えいえんのライバル{n}リューキだ！！{page}{face:010006}え えいえんの ライバル？？{n}そ そうだっけ！？{page}{face:000500}まっ それはそうとして{n}トーナメントのせつめいをしてやろう{page}ロボトルのトーナメントは{n}「ちょうないたいかい」{page}「ちくたいかい」{n}「ほんたいかい」の{page}ぜんぶで3かいあるんだ{page}1つのたいかいを かちすすめば{page}つぎのたいかいに {n}すすめるようになっている{page}{face:000501}これだけ せつめいしてやれば{n}さすがのキミでも りかい できただろう{page}{face:010002}くそっ あいかわらず{n}むかつむやつだな！{page}{face:000501}まずは おてほんがわりに{n}ぼくのたたかいを みておくといい{end:00}",
-   "en": "{face:010000}Um... Who were you again?{page}{face:000502}Ryuki, your eternal rival!!{page}{face:010006}E-eternal rival?? S-since when!?{page}{face:000500}Well, never mind that. I'll explain the tournaments to you.{page}There are three Robattle{n}tournaments in all:{page}the Neighborhood Tournament,{page}the District Tournament, and the Main Tournament.{page}Win your way through one tournament,{page}and you'll be able to advance to the next.{page}{face:000501}After all that explanation, surely even you can understand.{page}{face:010002}Grr! You're as annoying as ever!{page}{face:000501}First, you should watch my battle. Let it serve as an example.{end:00}",
+   "en": "{face:010000}Um... Who were you again?{page}{face:000502}Ryuki, your eternal rival!!{page}{face:010006}E-eternal rival?? S-since when!?{page}{face:000500}Well, never mind that. I'll explain the tournaments to you.{page}There are three Robattle{n}tournaments in all:{page}the Neighborhood Tournament,{page}the District Tournament, and the Main Tournament.{page}Win your way through one tournament,{page}and you'll be able{n}to advance to the next.{page}{face:000501}After all that explanation, surely even you can understand.{page}{face:010002}Grr! You're as annoying as ever!{page}{face:000501}First, you should watch my battle. Let it serve as an example.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -14112,7 +14112,7 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:005F00}さぁ オーロたいちょうとの {n}ラストバトルです {page}{var:00}くん{n}じゅんびは いいですか？{end:04}",
-   "en": "{face:005F00}Now for the last battle{n}against Captain Oro!{page}{var:00}-kun, are you ready?{end:04}",
+   "en": "{face:005F00}Now for the last battle{n}against Leader Oro!{page}{var:00}-kun, are you ready?{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -14184,7 +14184,7 @@
    "kind": "ff",
    "bytes": 55,
    "jp": "{face:001801}まさか ロボロボだんの ボスが{n}オーロたいちょう だったなんて・・・{page}もう なにも しんじられない{end:00}",
-   "en": "{face:001801}Who would have thought Captain Oro{n}was the Rubberobo Gang's boss...?{page}I don't know what to believe anymore.{end:00}",
+   "en": "{face:001801}Who would have thought Leader Oro{n}was the Rubberobo Gang's boss...?{page}I don't know what to believe anymore.{end:00}",
    "status": "done",
    "notes": ""
   },

@@ -82,7 +82,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "こうどうパーツは 「しようふのう」で{n}つかえなかった！{fa:50}{end:04}",
-   "en": "Disable prevented use of the action part!{fa:50}{end:04}",
+   "en": "Disable prevented use{n}of the action part!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -94,7 +94,7 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "そうびパーツです！ しようできません！{fa:50}{end:04}",
-   "en": "This is an equipment part! It cannot be used!{fa:50}{end:04}",
+   "en": "This is an equipment part!{n}It cannot be used!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -658,7 +658,7 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "メダフォースの はつどうに しっぱい！{n}まだ そのメダフォースは おぼえていない！{fa:50}{end:04}",
-   "en": "Medaforce failed to activate!{page}That Medaforce is Not Known yet!{fa:50}{end:04}",
+   "en": "Medaforce failed to activate!{n}That Medaforce is Not Known yet!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -814,7 +814,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "うしろむきの すべてのメダロットに はかいこうか！{fa:50}{end:04}",
-   "en": "Destroy affects all Medabots facing away!{fa:50}{end:04}",
+   "en": "Destroy affects{n}all Medabots facing away!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -994,7 +994,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "チームぜんたいに 「けいぞくかいふく」セット！{fa:50}{end:04}",
-   "en": "Sustained Recover set on the whole team!{fa:50}{end:04}",
+   "en": "Sustained Recover{n}set on the whole team!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -1018,7 +1018,7 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "チームぜんたいの あたまパーツの しようかいすうを{n}アップした！{fa:50}{end:04}",
-   "en": "Increased the whole team's head part uses!{fa:50}{end:04}",
+   "en": "Increased the whole team's{n}head part uses!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -1150,7 +1150,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "チームぜんたいに 「かいひふのう」の しょうじょうを{n}セット！{fa:50}{end:04}",
-   "en": "Disable Evasion inflicted on the whole team!{fa:50}{end:04}",
+   "en": "Disable Evasion{n}inflicted on the whole team!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -1162,7 +1162,7 @@
    "kind": "ff",
    "bytes": 36,
    "jp": "チームぜんたいに 「ぼうぎょふのう」の しょうじょうを{n}セット！{fa:50}{end:04}",
-   "en": "Disable Defense inflicted on the whole team!{fa:50}{end:04}",
+   "en": "Disable Defense{n}inflicted on the whole team!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -1462,7 +1462,7 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "メダフォースの はつどうに しっぱい！{n}メダフォースせいぎょに よって つかえなかった！{fa:50}{end:04}",
-   "en": "Medaforce failed to activate!{page}Medaforce Control prevented its use!{fa:50}{end:04}",
+   "en": "Medaforce failed to activate!{n}Medaforce Control prevented its use!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },

@@ -58,7 +58,7 @@
    "kind": "ff",
    "bytes": 96,
    "jp": "{face:010000}あたまの うえの ほうが キラキラ ひかってる{page}なんとかして ここから かえれないかな？{page}そういえば おちてくるまえに ぼくと{n}いっしょにいたヤツら どうなったのかな？{page}・・・ん？{end:00}",
-   "en": "{face:010000}Something's sparkling overhead.{page}Isn't there some way to get back from here?{page}Come to think of it, what happened to the guys I was with before I fell?{page}...Hm?{end:00}",
+   "en": "{face:010000}Something's sparkling overhead.{page}Isn't there some way{n}to get back from here?{page}Come to think of it, what happened to the guys I was with before I fell?{page}...Hm?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -82,7 +82,7 @@
    "kind": "ff",
    "bytes": 167,
    "jp": "{face:003603}うーん ひどいめに あったロボ{page}{face:003600}なんだ ここはロボ？{page}{face:003801}おほほ ここが はかせの いってた{n}「こだいいせき」ですわね{page}わたくしが みつけたんですもの{n}あとは なんとかって いしさえ てにいれれば{page}ごほうびは わたくしの ものですわ{page}{face:003603}スルメさまー{n}われわれも ごほうび ほしいロボー{page}{face:003802}おだまり！{end:00}",
-   "en": "{face:003603}Ugh, that was awful, robo!{page}{face:003600}What is this place, robo?{page}{face:003801}Ohoho! These must be the{n}\"ancient ruins\" the doctor mentioned.{page}I found them, so once I get that stone, whatever it was called...{page}The reward shall be all mine!{page}{face:003603}Shrimplips-sama! We want a reward too, robo!{page}{face:003802}Silence!{end:00}",
+   "en": "{face:003603}Ugh, that was awful, robo!{page}{face:003600}What is this place, robo?{page}{face:003801}Ohoho! These must be the{n}\"ancient ruins\" the doctor mentioned.{page}I found them, so once I get that stone, whatever it was called...{page}The reward shall be all mine!{page}{face:003603}Shrimplips-sama!{n}We want a reward too, robo!{page}{face:003802}Silence!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -142,7 +142,7 @@
    "kind": "ff",
    "bytes": 95,
    "jp": "{face:003600}でも みたことない メダロットロボ{n}きっと レアメダロットに ちがいないロボ！{page}{face:003800}ふーん こんな みすぼらしい ものがねえ・・・{page}{face:010006}あっ！{n}へたに さわっちゃ・・・！{end:00}",
-   "en": "{face:003600}But I've never seen a Medabot like it, robo!{page}It must be a rare Medabot, robo!{page}{face:003800}Hmm. This shabby little thing...?{page}{face:010006}Ah! Don't just touch it...!{end:00}",
+   "en": "{face:003600}But I've never seen{n}a Medabot like it, robo!{page}It must be a rare Medabot, robo!{page}{face:003800}Hmm. This shabby little thing...?{page}{face:010006}Ah! Don't just touch it...!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -898,7 +898,7 @@
    "kind": "ff",
    "bytes": 231,
    "jp": "{face:010000}あの・・・{page}{face:004500}フユーンストーンの ちからで しんでんを{n}あわで おおって かいていに しずんだ あとも{page}そのままの すがたで のこす・・・{n}ゆうしゃさまの じだいまで{page}ここは のこって おったのですな{n}だからこそ ゆうしゃさまは あらわれたのですからな{page}さあ それでは だいしんかんの なにかけて{n}ゆうしゃさまを もとの せかいに おおくりしますぞ{page}{face:010000}あの ぼくの ほかにも ロボロボって やつらが・・・{page}{face:003801}おーっほほほほほほほほ！{end:00}",
-   "en": "{face:010000}Um...{page}{face:004500}The Fuyun Stone's power surrounds the temple with a bubble,{page}preserving it even after it sinks to the sea floor...{page}So it survived all the way to your era, O hero.{page}That is how you were able to appear here, after all.{page}Now, upon my name as high priest, I shall return you to your own world!{page}{face:010000}Um, besides me, there are those Rubberobo guys...{page}{face:003801}Ohohohohohohoho!{end:00}",
+   "en": "{face:010000}Um...{page}{face:004500}The Fuyun Stone's power surrounds the temple with a bubble,{page}preserving it even after it sinks to the sea floor...{page}So it survived all the way{n}to your era, O hero.{page}That is how you were able to appear here, after all.{page}Now, upon my name as high priest, I shall return you to your own world!{page}{face:010000}Um, besides me, there are those Rubberobo guys...{page}{face:003801}Ohohohohohohoho!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1366,7 +1366,7 @@
    "kind": "ff",
    "bytes": 123,
    "jp": "{face:003603}スルメさまー どうして われわれは うみの なかに{n}いるロボ？{page}びしょぬれロボよ{page}{face:00FF00}{face:003603}スルメさまー おなかすいたロボー{page}{face:003802}ガマンなさい！{n}ごほうびが まっていますことよ！{page}もんくを いわずに さっさと およぎなさい！{end:00}",
-   "en": "{face:003603}Shrimplips-sama! Why are we in the sea, robo?{page}We're soaking wet, robo!{page}{face:00FF00}{face:003603}Shrimplips-sama! I'm hungry, robo!{page}{face:003802}Bear with it! A reward awaits us!{page}Stop complaining and get swimming!{end:00}",
+   "en": "{face:003603}Shrimplips-sama!{n}Why are we in the sea, robo?{page}We're soaking wet, robo!{page}{face:00FF00}{face:003603}Shrimplips-sama! I'm hungry, robo!{page}{face:003802}Bear with it! A reward awaits us!{page}Stop complaining and get swimming!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1426,7 +1426,7 @@
    "kind": "ff",
    "bytes": 178,
    "jp": "{face:010000}あれ？ マルガリータ{page}おへやで おべんきょうじゃ なかったの？{page}{face:004100}マルガリータ おべんきょう きらい！{page}じいやは おねむに なっちゃったし{n}おへやから でてきたの！{page}だって ごしんたい みてたほうが たのしいんだもん{page}{face:010000}ごしんたいって？{page}{face:004103}「ふゆーんすとーん」だよ！{n}ゆうしゃさまも みる？{page}{face:010008}えっ フユーンストーン！？{end:00}",
-   "en": "{face:010000}Huh? Margarita?{page}Weren't you studying in your room?{page}{face:004100}Margarita hates studying!{page}Jiiya got sleepy, so I came out of my room!{page}Looking at the sacred relic is more fun, anyway!{page}{face:010000}The sacred relic?{page}{face:004103}The \"Fuyun Stone\"! Wanna see it too, hero?{page}{face:010008}Huh? The Fuyun Stone!?{end:00}",
+   "en": "{face:010000}Huh? Margarita?{page}Weren't you studying in your room?{page}{face:004100}Margarita hates studying!{page}Jiiya got sleepy,{n}so I came out of my room!{page}Looking at the sacred relic is more fun, anyway!{page}{face:010000}The sacred relic?{page}{face:004103}The \"Fuyun Stone\"!{n}Wanna see it too, hero?{page}{face:010008}Huh? The Fuyun Stone!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2062,7 +2062,7 @@
    "kind": "ff",
    "bytes": 151,
    "jp": "{face:004100}いって どうするの？{page}{face:010000}ほんとうの まものを やっつけるんだ{page}{face:004102}ダメよ プース・カフェは まもの じゃないんだから！{page}{face:010000}だからって このまま ほうって おくわけにも{n}いかないだろ？{page}{face:004102}ゆうしゃさまったら マルガリータに いじわるばっかり！{page}ゆうしゃさまの ばかっ！！{end:00}",
-   "en": "{face:004100}What would you do over there?{page}{face:010000}Defeat the real monster.{page}{face:004102}No! Pousse Cafe isn't a monster!{page}{face:010000}But we can't just leave things like this, can we?{page}{face:004102}You're always being mean to Margarita, hero!{page}You're a big dummy!!{end:00}",
+   "en": "{face:004100}What would you do over there?{page}{face:010000}Defeat the real monster.{page}{face:004102}No! Pousse Cafe isn't a monster!{page}{face:010000}But we can't just leave things like this, can we?{page}{face:004102}You're always being mean{n}to Margarita, hero!{page}You're a big dummy!!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2110,7 +2110,7 @@
    "kind": "ff",
    "bytes": 187,
    "jp": "{face:010000}なんで きばこの なか なんかに いたんだよ？{page}ほかの やつらは？{page}{face:003603}われわれは ここを ねじろに していたロボ{page}きばこに かくれてないと ばけものに おそわれて{n}たべられるロボ{page}{face:010000}なんだって？ じゃあ{n}うみに きばこを うかべたのは おまえらか{page}{face:003600}はんぶんは カモフラージュロボ{page}どこに われわれの なかまが はいっているか{n}わからないロボよ{end:00}",
-   "en": "{face:010000}Why were you inside a wooden crate?{page}Where are the others?{page}{face:003603}We were using this place as our base, robo!{page}If we don't hide in crates, the monsters will attack and eat us, robo!{page}{face:010000}What? Then you're the ones who put all those crates in the sea?{page}{face:003600}Half of them are camouflage, robo!{page}You can't tell which ones have our comrades inside, robo!{end:00}",
+   "en": "{face:010000}Why were you inside a wooden crate?{page}Where are the others?{page}{face:003603}We were using this place{n}as our base, robo!{page}If we don't hide in crates, the monsters will attack and eat us, robo!{page}{face:010000}What? Then you're the ones who put all those crates in the sea?{page}{face:003600}Half of them are camouflage, robo!{page}You can't tell which ones have our comrades inside, robo!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2134,7 +2134,7 @@
    "kind": "ff",
    "bytes": 121,
    "jp": "{face:003603}かえりたいロボ{n}もう こんなところは いやロボ{page}ろうやで まっていれば もとの せかいに{n}かえれるロボか？{page}{face:010004}もちろんさ！{n}おまえたちを まとめて かえしてやるよ！{page}{face:003601}ほんとロボね！{n}じゃあ しんじて まってるロボよ！{end:00}",
-   "en": "{face:003603}I do, robo! I've had enough of this place,{n}robo!{page}If I wait in jail, can I go back to our world, robo?{page}{face:010004}Of course! I'll take all of you back together!{page}{face:003601}You mean it, robo? Then I'll trust you and wait, robo!{end:00}",
+   "en": "{face:003603}I do, robo! I've had{n}enough of this place, robo!{page}If I wait in jail, can I go back to our world, robo?{page}{face:010004}Of course! I'll take all of you back together!{page}{face:003601}You mean it, robo? Then I'll trust you and wait, robo!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2206,7 +2206,7 @@
    "kind": "ff",
    "bytes": 139,
    "jp": "{face:003603}ばけものに おそわれて びっくりしたロボ{page}あしが たくさん あったロボよ{n}もう こんなとこ いやロボよ{page}{face:010000}おまえも まちの ろうやで まってるんだ{page}ちゃんと もとの せかいに つれて かえってやるから！{page}{face:003601}ほんとうロボね！{n}うそだったら ゆるさないロボ！{end:00}",
-   "en": "{face:003603}A monster attacked me! What a fright, robo!{page}It had lots of legs, robo! I hate this place, robo!{page}{face:010000}You go wait in the town jail, too.{page}I'll make sure you get back to our world!{page}{face:003601}You mean it, robo? If you're lying, I won't{n}forgive you, robo!{end:00}",
+   "en": "{face:003603}A monster attacked me!{n}What a fright, robo!{page}It had lots of legs, robo! I hate this place, robo!{page}{face:010000}You go wait in the town jail, too.{page}I'll make sure you get back to our world!{page}{face:003601}You mean it, robo? If you're lying, I won't{n}forgive you, robo!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2278,7 +2278,7 @@
    "kind": "ff",
    "bytes": 214,
    "jp": "{face:010002}おまえら なにやってんだよっ！！{page}{face:003603}この おんなのこが いうことを きいてくれなくて{n}こまってるロボ{page}{face:010000}いうこと？{page}{face:003603}そうロボよ ブルーハワイが{n}おんなのこの いけにえを さがしているロボ{page}{face:010008}いけにえだって！？{page}{face:010002}それで おまえたちは じぶんたちが たすかりたくて{n}マルガリータを いけにえに しようと してるのか！{page}{face:003603}ちょ ちょっと まつロボ！{n}はなしを さいごまで きくロボ！{end:00}",
-   "en": "{face:010002}What do you think you're doing!?{page}{face:003603}This girl won't do what we say, robo! We don't know what to do, robo!{page}{face:010000}What you say?{page}{face:003603}That's right, robo! Blue Hawaii is looking for a girl to sacrifice, robo!{page}{face:010008}A sacrifice!?{page}{face:010002}So you're trying to sacrifice Margarita just to save your own skins!{page}{face:003603}W-wait, robo! Let us finish explaining, robo!{end:00}",
+   "en": "{face:010002}What do you think you're doing!?{page}{face:003603}This girl won't do what we say, robo! We don't know what to do, robo!{page}{face:010000}What you say?{page}{face:003603}That's right, robo! Blue Hawaii is looking for a girl to sacrifice, robo!{page}{face:010008}A sacrifice!?{page}{face:010002}So you're trying to sacrifice Margarita just to save your own skins!{page}{face:003603}W-wait, robo!{n}Let us finish explaining, robo!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2458,7 +2458,7 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "{face:003603}びっくりしたロボ うでが たくさんある{n}ばけものだったロボ{page}もう たくさんロボ かえるロボよ{end:00}",
-   "en": "{face:003603}What a fright, robo! That monster had lots of arms, robo!{page}I've had enough, robo! I'm going home, robo!{end:00}",
+   "en": "{face:003603}What a fright, robo! That monster had lots of arms, robo!{page}I've had enough, robo!{n}I'm going home, robo!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2566,7 +2566,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:002800}バイバイ プース・カフェちゃん{n}シアワセに なってネ！{end:00}",
-   "en": "{face:002800}Bye-bye, Pousse Cafe-chan! Be happy, okay?{end:00}",
+   "en": "{face:002800}Bye-bye, Pousse Cafe-chan!{n}Be happy, okay?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2902,7 +2902,7 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:004400}ゆうしゃさま{n}おつとめ ごくろうさまです{end:00}",
-   "en": "{face:004400}Noble hero, thank you for your hard work.{end:00}",
+   "en": "{face:004400}Noble hero, thank you{n}for your hard work.{end:00}",
    "status": "done",
    "notes": ""
   },

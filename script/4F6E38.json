@@ -424,7 +424,7 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:004103}あっ ゆうしゃさまだ！{n}ねえ ねえ ゆうしゃさま{page}マルガリータに かったらね いーもの あげる！{page}{face:010000}え ええ？{end:00}",
-   "en": "{face:004103}Oh, it's the great hero! Hey, hey, great hero!{page}If you beat Margarita, I'll give you something nice!{page}{face:010000}H-huh?{end:00}",
+   "en": "{face:004103}Oh, it's the great hero!{n}Hey, hey, great hero!{page}If you beat Margarita, I'll give you something nice!{page}{face:010000}H-huh?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -484,7 +484,7 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "{face:003600}はなを とるロボ・・・{n}たくさん とるロボ・・・{page}{face:010002}でたな ロボロボだん！{n}そこを うごくなよ！{end:00}",
-   "en": "{face:003600}Picking flowers, robo... Picking lots of flowers, robo...{page}{face:010002}There you are, Rubberobo Gang! Don't move!{end:00}",
+   "en": "{face:003600}Picking flowers, robo... Picking lots of flowers, robo...{page}{face:010002}There you are,{n}Rubberobo Gang! Don't move!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -496,7 +496,7 @@
    "kind": "ff",
    "bytes": 72,
    "jp": "{face:010000}マルガリータ こいつだよ{n}ブルーハワイの いちみって{page}{face:004102}ちがうもん こんなのじゃないもん{page}{face:010005}ちがうって いわれても・・・{end:00}",
-   "en": "{face:010000}Margarita, this is one of Blue Hawaii's gang.{page}{face:004102}No, it's not! They don't look like that!{page}{face:010005}Well, even if you say that...{end:00}",
+   "en": "{face:010000}Margarita, this is{n}one of Blue Hawaii's gang.{page}{face:004102}No, it's not! They don't look like that!{page}{face:010005}Well, even if you say that...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -616,7 +616,7 @@
    "kind": "ff",
    "bytes": 102,
    "jp": "{face:010000}こんなところに いたのか{n}どうしたんだよ プース・カフェ{page}マルガリータに あいたくないのか？{page}{face:004200}ボク しんパイ{page}まるがりーたニ あえテモ またスグ はなれバナレに{n}されちゃウ カモ・・・{end:00}",
-   "en": "{face:010000}So here you are. What's wrong, Pousse Cafe?{page}Don't you want to see Margarita?{page}{face:004200}I'm... worried.{page}Even if I see Margarita...{page}They might split us up. Again...{n}Right away...{end:00}",
+   "en": "{face:010000}So here you are.{n}What's wrong, Pousse Cafe?{page}Don't you want to see Margarita?{page}{face:004200}I'm... worried.{page}Even if I see Margarita...{page}They might split us up. Again...{n}Right away...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -748,7 +748,7 @@
    "kind": "ff",
    "bytes": 70,
    "jp": "{face:003604}あーっロボ！{n}なんでこんな ところにいるロボ？{page}{face:010002}それは こっちのセリフだ！{page}まものの しょうたいは ロボロボだんだな！？{end:00}",
-   "en": "{face:003604}Aaah, robo! What are you doing here, robo?{page}{face:010002}That's my line!{page}So the monsters are really the Rubberobo Gang!?{end:00}",
+   "en": "{face:003604}Aaah, robo!{n}What are you doing here, robo?{page}{face:010002}That's my line!{page}So the monsters are really the Rubberobo Gang!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -976,7 +976,7 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "{face:010000}おまえが プース・カフェだな！{page}{face:004200}みつカッタからニハ ただデハ すまさナイ！{end:00}",
-   "en": "{face:010000}You're Pousse Cafe, aren't you!{page}{face:004200}You found me! Now... you won't get off easy!{end:00}",
+   "en": "{face:010000}You're Pousse Cafe, aren't you!{page}{face:004200}You found me!{n}Now... you won't get off easy!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1600,7 +1600,7 @@
    "kind": "ff",
    "bytes": 55,
    "jp": "{face:010000}ケガしてる じゃないか{n}かわいそうだよ{page}らんぼうは よくないよ{page}{face:004000}そうですよぉ たいちょうー{end:00}",
-   "en": "{face:010000}They're already hurt. I feel sorry for them.{page}You shouldn't be so rough.{page}{face:004000}He's riiight, Captain...{end:00}",
+   "en": "{face:010000}They're already hurt.{n}I feel sorry for them.{page}You shouldn't be so rough.{page}{face:004000}He's riiight, Captain...{end:00}",
    "status": "done",
    "notes": ""
   },

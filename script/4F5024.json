@@ -394,7 +394,7 @@
    "kind": "ff",
    "bytes": 109,
    "jp": "{face:010001}ナエさん{n}ありがとう ございました！{page}{face:001401}こちらこそ きちょうな データを{n}とらせてもらいましたから おあいこです{page}{page}{face:001402}それでは わたしは データの ぶんせきを しますので{n}しごとに もどりますね{end:00}",
-   "en": "{face:010001}Thank you very much, Natalie-san!{page}{face:001401}You gave me valuable data too, so we're even.{page}{face:001402}Now, I have some data to analyze, so I'd better get back to work.{end:00}",
+   "en": "{face:010001}Thank you very much, Natalie-san!{page}{face:001401}You gave me valuable data too,{n}so we're even.{page}{face:001402}Now, I have some data to analyze, so I'd better get back to work.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -574,7 +574,7 @@
    "kind": "ff",
    "bytes": 70,
    "jp": "{face:001600}すごく ロボトルのつよい ロボロボだんに{n}メダロットを とられたんだ{page}だから セレクトたいに とりかえしてって {n}たのんでるんだ{end:00}",
-   "en": "{face:001600}A Rubberobo Gang member who's really good at Robattles stole my Medabot.{page}So I'm asking the Select Corps to get it back.{end:00}",
+   "en": "{face:001600}A Rubberobo Gang member who's really good at Robattles stole my Medabot.{page}So I'm asking the Select Corps{n}to get it back.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -670,7 +670,7 @@
    "kind": "ff",
    "bytes": 66,
    "jp": "{face:010008}みたことのない メダロットだ！{n}タマゴみたいな かたちをしてる したの プレートには{page}「アンノーンエッグ」って かいてる{end:00}",
-   "en": "{face:010008}I've never seen this Medabot before! It's shaped like an egg.{page}The plate underneath says \"Unknown Egg.\"{end:00}",
+   "en": "{face:010008}I've never seen this Medabot before! It's shaped like an egg.{page}The plate underneath{n}says \"Unknown Egg.\"{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -694,7 +694,7 @@
    "kind": "ff",
    "bytes": 186,
    "jp": "{face:002500}いらっしゃいませ{page}メダリンクでは せかいの メダロッターと{n}ひかりかいせんで ロボトルができます{page}じょういに ランクインすると メダロッターズより{n}とくてんが つきますので がんばってくださいね{page}メンバーになると じどうてきに あちらのたんまつに{n}じぶんの ランクが セットされます{page}では メンバーとうろく いたします{n}おてを ハイシャク{page}{face:00FF00}・・・・・！{end:00}",
-   "en": "{face:002500}Welcome!{page}Medalink lets you Robattle{n}Medafighters worldwide{page}over fiber-optic connections.{page}Reach the top ranks and you'll receive benefits from Medafighters,{page}so do your best!{page}Once you become a member, your rank is automatically{page}set on that terminal over there.{page}Now, I'll register you. May I have your hand?{page}{face:00FF00}.....!{end:00}",
+   "en": "{face:002500}Welcome!{page}Medalink lets you Robattle{n}Medafighters worldwide{page}over fiber-optic connections.{page}Reach the top ranks and you'll receive benefits from Medafighters,{page}so do your best!{page}Once you become a member, your rank is automatically{page}set on that terminal over there.{page}Now, I'll register you.{n}May I have your hand?{page}{face:00FF00}.....!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1210,7 +1210,7 @@
    "kind": "ff",
    "bytes": 84,
    "jp": "{face:000200}あのぉ じけんの しゅざいなんです{page}さいきん まちを あらしてるって ロボロボだんに ついて{n}なにか しってたら おしえてください{page}{face:001700}そうだねぇ・・・{end:00}",
-   "en": "{face:000200}Excuse me, I'm covering the incident.{page}Please tell me anything you know about{page}the Rubberobo Gang's recent attacks in town.{page}{face:001700}Well, let's see...{end:00}",
+   "en": "{face:000200}Excuse me, I'm covering the incident.{page}Please tell me anything you know about{page}the Rubberobo Gang's recent{n}attacks in town.{page}{face:001700}Well, let's see...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1450,7 +1450,7 @@
    "kind": "ff",
    "bytes": 129,
    "jp": "{face:002400}はい どちらさまでしょうか？{page}{face:010000}{var:00}っていいます{n}コウジくんは いますか？{page}{face:002400}まあ！ コウジの おともだち？{page}ごめんなさいね いまコウジは でかけているの{page}ぜひまた いらしてくださいね{page}{face:010000}コウジのヤツ{n}カリンちゃんの いえかな？{end:00}",
-   "en": "{face:002400}Yes? Who is calling, please?{page}{face:010000}My name's {var:00}. Is Koji-kun home?{page}{face:002400}Oh! Are you a friend of Koji's?{page}I'm sorry, dear. Koji is out right now.{page}Please do come by again.{page}{face:010000}That Koji... Is he at Karin-chan's house?{end:00}",
+   "en": "{face:002400}Yes? Who is calling, please?{page}{face:010000}My name's {var:00}.{n}Is Koji-kun home?{page}{face:002400}Oh! Are you a friend of Koji's?{page}I'm sorry, dear. Koji is out right now.{page}Please do come by again.{page}{face:010000}That Koji... Is he at Karin-chan's house?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1594,7 +1594,7 @@
    "kind": "ff",
    "bytes": 79,
    "jp": "{face:010000}{var:00}って いいます{n}コウジくんは いますか？{page}{face:002400}あら あなたが コウジのおともだち？{page}どうぞ おはいりになって ドアは あけて おきますから{end:00}",
-   "en": "{face:010000}My name's {var:00}. Is Koji-kun home?{page}{face:002400}Oh, so you're Koji's friend?{page}Please come in, dear. I'll leave the door unlocked.{end:00}",
+   "en": "{face:010000}My name's {var:00}.{n}Is Koji-kun home?{page}{face:002400}Oh, so you're Koji's friend?{page}Please come in, dear. I'll leave the door unlocked.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1822,7 +1822,7 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:002200}わたくし ブロードウェイを めざして おりますの{end:00}",
-   "en": "{face:002200}I aspire to perform on Broadway, you know.{end:00}",
+   "en": "{face:002200}I aspire to perform{n}on Broadway, you know.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2038,7 +2038,7 @@
    "kind": "ff",
    "bytes": 55,
    "jp": "{face:001600}かわいいこの しゃしんは たかく うれるんだぜ！{page}{face:010005}・・・どこかで きいたような セリフだな{end:00}",
-   "en": "{face:001600}Photos of cute girls sell for a lot, you know!{page}{face:010005}...I feel like I've heard that somewhere before.{end:00}",
+   "en": "{face:001600}Photos of cute girls{n}sell for a lot, you know!{page}{face:010005}...I feel like I've heard that{n}somewhere before.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2074,7 +2074,7 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:002200}ふたりの せかいを じゃましないでよ{end:00}",
-   "en": "{face:002200}Don't intrude on our little world, you know.{end:00}",
+   "en": "{face:002200}Don't intrude on{n}our little world, you know.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2614,7 +2614,7 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{face:001B00}パーツが なくなったら メダロットけんきゅうじょで{n}はくいの おじさんに うって もらうといい{end:00}",
-   "en": "{face:001B00}If you lose any parts, go to the Medabot Research Institute.{page}The man in the white coat can sell you some.{end:00}",
+   "en": "{face:001B00}If you lose any parts, go to the Medabot Research Institute.{page}The man in the white coat{n}can sell you some.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2650,7 +2650,7 @@
    "kind": "ff",
    "bytes": 174,
    "jp": "{face:000208}{var:00}！？{n}あーっ！ どういうことよ！{page}なんで あんたは はいれてるのよ！{n}ずっるーい！{page}{face:010000}アリカ なにやってんの？{page}{face:000202}みて わかんないの？{n}ここで あしどめ くらってるのよ！{page}{face:010000}ふうん それで ききこみは すすんだ？{page}{face:000202}ふうんって・・・ともかく かしこいロボロボだんが{n}つかってる メダロットが はんめいしたわよ{end:00}",
-   "en": "{face:000208}{var:00}!? Hey! What's the big idea?!{page}How come YOU got in?! No faaair!{page}{face:010000}Erika, what are you doing?{page}{face:000202}Can't you tell? They're keeping me stuck here!{page}{face:010000}Huh. So, how's your investigation going?{page}{face:000202}\"Huh,\" he says... Anyway, I found out which Medabot{page}that clever Rubberobo Gang member uses.{end:00}",
+   "en": "{face:000208}{var:00}!? Hey! What's the big idea?!{page}How come YOU got in?! No faaair!{page}{face:010000}Erika, what are you doing?{page}{face:000202}Can't you tell?{n}They're keeping me stuck here!{page}{face:010000}Huh. So, how's your investigation going?{page}{face:000202}\"Huh,\" he says... Anyway, I found out which Medabot{page}that clever Rubberobo Gang{n}member uses.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2782,7 +2782,7 @@
    "kind": "ff",
    "bytes": 61,
    "jp": "{face:010002}おいってばっ！{page}{face:003601}じゃましないで ほしいロボ{n}いま いいとこロボよ{page}かわいいこは いじめたく なるロボよ{end:00}",
-   "en": "{face:010002}I said, hey!{page}{face:003601}Don't bother me, robo! It's just getting good, robo!{page}Cute girls make me want to tease them, robo!{end:00}",
+   "en": "{face:010002}I said, hey!{page}{face:003601}Don't bother me, robo! It's just getting good, robo!{page}Cute girls make me want{n}to tease them, robo!{end:00}",
    "status": "done",
    "notes": ""
   },

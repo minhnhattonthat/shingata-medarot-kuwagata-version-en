@@ -1055,7 +1055,7 @@
    "kind": "ff",
    "bytes": 67,
    "jp": "{face:004F00}お？「しょうねんたちの かつやくにより じけんは{n}かいけつ」だって？{page}この しょうねんの しゃしん おまえに にてないか？{end:00}",
-   "en": "{face:004F00}Oh? \"Children's Heroics Bring Case to a Close,\" it says?{page}Doesn't the boy in this photo look like you?{end:00}",
+   "en": "{face:004F00}Oh? \"Children's Heroics Bring Case to a Close,\" it says?{page}Doesn't the boy in this photo{n}look like you?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1247,7 +1247,7 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:002300}こういう とこってさ{n}いがいと あなばよねー{end:00}",
-   "en": "{face:002300}Places like this are hidden gems, you know?{end:00}",
+   "en": "{face:002300}Places like this are{n}hidden gems, you know?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1307,7 +1307,7 @@
    "kind": "ff",
    "bytes": 74,
    "jp": "{face:010002}もしかして！{n}ロボロボだん！？{page}{face:001700}ロボッ！？ せ せんせいは ロボロボじゃないロボ！{page}きゅうに よっ ようじを おもいだしたロボよ{end:00}",
-   "en": "{face:010002}Could you be... Rubberobo Gang!?{page}{face:001700}Robo!? Y-your sensei isn't a Rubberobo, robo!{page}I just r-remembered something I have to do, robo!{end:00}",
+   "en": "{face:010002}Could you be... Rubberobo Gang!?{page}{face:001700}Robo!? Y-your sensei{n}isn't a Rubberobo, robo!{page}I just r-remembered something I have to do, robo!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1391,7 +1391,7 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:004500}かえりたくなったら いつでも こえを かけて くだされい{end:00}",
-   "en": "{face:004500}Whenever you wish to return, do let me know.{end:00}",
+   "en": "{face:004500}Whenever you wish to return,{n}do let me know.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2063,7 +2063,7 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:001700}これからも コウジのやつと なかよく してやってくれ{end:00}",
-   "en": "{face:001700}Keep being a good friend to Koji, will you?{end:00}",
+   "en": "{face:001700}Keep being a good friend{n}to Koji, will you?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2243,7 +2243,7 @@
    "kind": "ff",
    "bytes": 184,
    "jp": "{face:003E00}さいきん こどもが よく ゆくえふめいに{n}なるで あります{page}えきまえ ふきんで こどもが きえるという じょうほうを{n}キャッチしたで あります{page}{face:010008}こどもが きえる！？{page}{face:010000}あのー そういうことを おんなのこが ききに{n}きませんでした？{page}{face:003E00}きたで あります！{page}その おんなのこは えきまえに いったで あります！{page}{face:010000}やっぱり アリカだ！{end:00}",
-   "en": "{face:003E00}Children have been going missing frequently of late!{page}We have received reports of children disappearing near the station!{page}{face:010008}Children are disappearing!?{page}{face:010000}Um... Did a girl come here asking about that?{page}{face:003E00}She certainly did!{page}That girl headed for the station!{page}{face:010000}It WAS Erika!{end:00}",
+   "en": "{face:003E00}Children have been going missing frequently of late!{page}We have received reports of children disappearing near the station!{page}{face:010008}Children are disappearing!?{page}{face:010000}Um... Did a girl come here{n}asking about that?{page}{face:003E00}She certainly did!{page}That girl headed for the station!{page}{face:010000}It WAS Erika!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2423,7 +2423,7 @@
    "kind": "ff",
    "bytes": 177,
    "jp": "{face:010001}ナエさん{n}ありがとう ございました！{page}{face:001401}どういたしまして！{page}{face:001402}それと・・・{var:00}くん{n}よろしければ となりの へやから{page}メダルを 1つ もっていってください{page}{face:010008}え！？ いいんですか？{page}{face:010000}でも・・・{page}{face:001402}かまいませんわ{page}わたくしには これぐらいの ことしか できませんから{page}・・・がんばって くださいね{page}{face:010004}はい！{end:00}",
-   "en": "{face:010001}Natalie-san, thank you very much!{page}{face:001401}You're quite welcome!{page}{face:001402}And... {var:00}-kun, if you'd like,{page}please take one Medal from the next room.{page}{face:010008}Huh!? Are you sure?{page}{face:010000}But...{page}{face:001402}It's quite all right.{page}This is about all I can do for you.{page}...Please do your best.{page}{face:010004}I will!{end:00}",
+   "en": "{face:010001}Natalie-san, thank you very much!{page}{face:001401}You're quite welcome!{page}{face:001402}And... {var:00}-kun, if you'd like,{page}please take one Medal{n}from the next room.{page}{face:010008}Huh!? Are you sure?{page}{face:010000}But...{page}{face:001402}It's quite all right.{page}This is about all I can do for you.{page}...Please do your best.{page}{face:010004}I will!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2651,7 +2651,7 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "{face:002500}ジェットコースター「スピリット」へ ようこそ！{page}では おくの のりばから どうぞー{end:00}",
-   "en": "{face:002500}Welcome to the \"Spirit\" roller coaster!{page}Please board from the platform at the back!{end:00}",
+   "en": "{face:002500}Welcome to the \"Spirit\" roller coaster!{page}Please board from{n}the platform at the back!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2723,7 +2723,7 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:001201}あら {var:00}くん{n}いらっしゃい{page}メダロット2コア クリアおめでとう！{page}おいわいに これを キミに{n}プ・レ・ゼ・ン・ト！{end:00}",
-   "en": "{face:001201}Oh, {var:00}-kun! Welcome!{page}Congratulations on clearing Medabots 2 Core!{page}To celebrate, here's a pre-sent for you!{end:00}",
+   "en": "{face:001201}Oh, {var:00}-kun! Welcome!{page}Congratulations on{n}clearing Medabots 2 Core!{page}To celebrate, here's a pre-sent for you!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2831,7 +2831,7 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:003400}おかねが たりないロボか？{n}・・・まあ いいロボ{page}あそこまでなら タダで はこんでやるロボ{end:00}",
-   "en": "{face:003400}Not enough money, robo? ...Oh, all right, robo.{page}I'll take you that far for free, robo!{end:00}",
+   "en": "{face:003400}Not enough money, robo?{n}...Oh, all right, robo.{page}I'll take you that far for free, robo!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2855,7 +2855,7 @@
    "kind": "ff",
    "bytes": 50,
    "jp": "{face:004F01}パーツンラリー ゆうしょうした そうじゃないか やったな！{n}さすがは パパの むすこだ！{end:00}",
-   "en": "{face:004F01}I hear you won the Parts'n Rally! Well done!{page}That's my boy!{end:00}",
+   "en": "{face:004F01}I hear you won{n}the Parts'n Rally! Well done!{page}That's my boy!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3167,7 +3167,7 @@
    "kind": "ff",
    "bytes": 81,
    "jp": "{face:001800}あんた ここでの きゃくぶは しゃりょうパーツだよ！{page}なんたって スピードは たいせつだろ？{n}へたな パーツも かずうちゃ あたるって いうじゃないか{end:00}",
-   "en": "{face:001800}Hey, Wheeled parts are the Legs to use here!{page}Speed's what counts, right? Even lousy parts will hit if you attack enough!{end:00}",
+   "en": "{face:001800}Hey, Wheeled parts{n}are the Legs to use here!{page}Speed's what counts, right? Even lousy parts will hit if you attack enough!{end:00}",
    "status": "done",
    "notes": ""
   },

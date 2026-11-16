@@ -10,7 +10,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{fa:FF}メダロットってなに？{n}ひよこうりのおじさんが おしえてくれたぞ{end:04}",
-   "en": "{fa:FF}What's a Medabot?{page}The chick seller taught me about them.{end:04}",
+   "en": "{fa:FF}What's a Medabot?{n}The chick seller taught me about them.{end:04}",
    "status": "done",
    "notes": ""
   },

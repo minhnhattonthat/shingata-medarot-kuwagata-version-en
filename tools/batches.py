@@ -4,6 +4,7 @@
     python -X utf8 tools/batches.py check [bNNN ...]      a batch's .out.tsv; with no batch, all shipped English
     python -X utf8 tools/batches.py merge bNNN ... [--overwrite]   check, then write the English into script/
     python -X utf8 tools/batches.py fit ID "English"      dry-run one line against its box (width, pages, codes)
+    python -X utf8 tools/batches.py fixset NAME ID ...    fix batch of shipped lines: NAME.tsv + NAME.out.tsv = current en
     python -X utf8 tools/batches.py terms [bNNN ...]      rewrite build/terms_<batch>.txt from the current glossary
 
 Copied from the skill's assets/batches.py; ADAPTER fitted to this game (script/<table>.json "strings", {codes},
@@ -273,6 +274,21 @@ def merge(new, overwrite):
     print(f"merged: {changed} entries changed")
 
 
+def fixset(name, ids):
+    """A fix batch for shipped English: work/tl/<name>.tsv (batch rows) and <name>.out.tsv seeded with the current
+    English, so a fit pass edits the live text (never a stale bNNN.out.tsv); merge it back with --overwrite."""
+    ents = index()
+    for path in (TL / f"{name}.tsv", TL / f"{name}.out.tsv"):
+        if path.exists():
+            sys.exit(f"{path} already exists")
+    rows = [ents[i] for i in ids]
+    (TL / f"{name}.tsv").write_text("".join(f"{e['id']}\t{e.get('speaker', '')}\t{form(e)}\t{limit_label(e)}\t{e['jp']}\n"
+                                            for e in rows), encoding="utf-8", newline="\n")
+    (TL / f"{name}.out.tsv").write_text("".join(f"{e['id']}\t{e['en']}\n" for e in rows), encoding="utf-8", newline="\n")
+    write_terms(name, glossary())
+    print(f"{name}: {len(rows)} entries")
+
+
 def fit(eid, en):
     e = index()[eid]
     name, v = variant(e)
@@ -299,6 +315,8 @@ def main(argv):
         return split(size, tables)
     if cmd == "fit":
         return fit(args[0], args[1])
+    if cmd == "fixset":
+        return fixset(args[0], args[1:])
     if cmd == "terms":
         terms = glossary()
         for name in args or [p.stem for p in existing()]:
