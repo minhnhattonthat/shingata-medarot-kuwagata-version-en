@@ -140,6 +140,9 @@ def names_tiles(glyphs=None, overrides=None):
         if code not in overrides and any(v != 1 for v in rows[TOP + 8]):
             raise ValueError(f"names charset: {code:02X} has ink below y12; draw it in {NAMES_FILE.name}")
         out[code] = names_tile(overrides.get(code, (None, None, rows))[2])
+    for code, (_, _, rows) in overrides.items():  # charset-only glyphs, e.g. C5 円 -> ¥ in money boxes
+        if code not in out:
+            out[code] = names_tile(rows)
     return out
 
 

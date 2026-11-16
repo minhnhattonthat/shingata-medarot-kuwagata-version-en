@@ -159,7 +159,9 @@ def build(orig, strings=None, relocate_all=False, poison=False, lang="en", scrip
         font = bool(strings) or has_lang(lang, script)
     if font:
         end = fontmod.font_stage(rom, max(FREE_START, len(rom.buf)))
-        fontmod.names_stage(rom, end)
+        end = fontmod.names_stage(rom, end)
+        import gfx
+        gfx.gfx_stage(rom, end)
     report = text_stage(rom, load_script(lang, script), table, strings, relocate_all, poison)
     report.writes = rom.writes
     return rom.finish(), report

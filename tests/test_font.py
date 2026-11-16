@@ -66,10 +66,12 @@ def test_names_stage_writes():
     end = font.names_stage(rom, rombuild.FREE_START + 1)
     start = rombuild.FREE_START + 4
     raw, stop = le.decompress(bytes(rom.buf), start)
-    assert stop == end
+    assert stop <= end <= (stop + 3) & ~3  # the packer pads to a 4-byte boundary
     old, _ = le.decompress(orig, font.NAMES)
     tiles = font.names_tiles()
-    assert set(tiles) == set(font.load_glyphs())
+    extra = set(font.load_glyphs(font.NAMES_FILE)) - set(font.load_glyphs())
+    assert extra == {0xC5}  # 円 -> ¥ (money boxes)
+    assert set(tiles) == set(font.load_glyphs()) | extra
     for code in range(1, font.NAMES_CODES + 1):
         want = tiles.get(code, old[(code - 1) * 32:code * 32])
         assert raw[(code - 1) * 32:code * 32] == want, f"{code:02X}"
