@@ -27,3 +27,6 @@ One line per gotcha: the reference file it belongs in, then the fact.
   hook logging lr, then read the caller; that found the medal list in two runs.
 - references/emulator-qa.md §Debug tool: deep battle screens arrive at varying frames; a scene key that waits on
   the game's mode/sub/step (warp.lua `wait=`) proves them reliably where a fixed hold did not.
+- references/emulator-qa.md §Debug tool: a value shown on screen (money) was found fastest by write-hooking the
+  screen's text buffer, reading the number-to-text routine's caller, then the ldr just before the call; full-RAM
+  read traces of the menu showed only the already-formatted string.

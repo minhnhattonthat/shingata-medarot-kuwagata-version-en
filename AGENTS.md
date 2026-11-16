@@ -7,7 +7,8 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Check:    `python -X utf8 tools/check.py` (tests + lint; the pre-commit hook runs this; hooks path: `git config core.hooksPath tools/hooks`)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/medarot_kuwagata_en.gba --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/medarot_kuwagata_en.gba --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.txt`, RAM map `docs/re/debug.md`; never ask the user to play to a scene)
-- Prove/regen states: `python -X utf8 tools/debug/prove.py` (every scene from a cold boot -> `work/states/<scene>.mss`, sheet `work/qa/scenes/sheet.png`)
+- Prove/regen states: `python -X utf8 tools/debug/prove.py --jobs 2` (every scene from a cold boot -> `work/states/<scene>.mss`, sheet `work/qa/scenes/sheet.png`; ~560 MB per job). Ad hoc: `--var MAP=n`, `--var EVENT=0x1D2` (any story event), `--var RAWMODE=n --var RAWSUB=n`
+- Map tour: `python -X utf8 tools/debug/maptour.py --jobs 2` (one shot per map id 0-140 -> `work/qa/maps/sheet*.png`)
 - Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 

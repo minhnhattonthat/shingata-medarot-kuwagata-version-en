@@ -4,11 +4,13 @@
 --   SCENE='name'     an entry of tools/debug/scenes.txt (SCENES='abs path' overrides the file)
 --   MAP=n [X= Y= DIR=]                       ad-hoc field warp (tile coords)
 --   RAWMODE=n [RAWSUB= RAWSTEP= RAWEXTRA={[addr]=byte}]   ad-hoc main-mode switch
+--   EVENT=n [EVPC=pc]  start story event n (0..687, work/re/events.txt) on the start map, A mashed; HOLD= frames
 --   HOLD=n           frames to keep running after arrival before logging ARRIVED (default 120)
 --   NOENC=1          no random robattles; AFTER_MASH=n press A every n frames after arrival
 --   STOP=1 [SAVE='abs.mss']   end the run at ARRIVED (after saving a state): tools/debug/prove.py
 -- Scene key events={{ev, pc}, ...} runs those field events first (WARP.event), e.g. the story's first medal
--- and first Medabot; then the rest of the scene applies. Key wait={mode=,sub=,step=} delays arrival (and the
+-- and first Medabot; then the rest of the scene applies. Key run={ev, pc} starts one event as the scene's own
+-- trigger (no wait for its end: pair it with wait=). Key wait={mode=,sub=,step=} delays arrival (and the
 -- hold count) until main mode/sub/step reach those values (step: at least), for screens deep inside a robattle.
 -- Without --state-in the script boots cold: new game, mash A through the intro until the field is idle,
 -- then applies the scene. With --state-in it waits for the field to be idle (or applies at once for NOW=1).
@@ -83,16 +85,24 @@ if SCENE then
   spec = assert(scenes[SCENE], "unknown SCENE " .. tostring(SCENE))
 elseif MAP then
   spec = { map = MAP, x = X, y = Y, dir = DIR }
+elseif EVENT then -- any story event, its text mashed through (the map stays the start map: actors may be missing)
+  spec = { run = { EVENT, EVPC or 0 }, mash = 30 }
 elseif RAWMODE then
   spec = { mode = RAWMODE, sub = RAWSUB, step = RAWSTEP, extra = RAWEXTRA }
 end
 
 -- Writes applied every frame from arrival on (god mode style pins): spec.pin = {[addr]=byte}
 local function apply(s)
-  for a, v in pairs(s.poke or {}) do wr(a, v) end
+  for a, v in pairs(s.poke or {}) do -- poke={[addr]=byte or "hex bytes"}
+    if type(v) == "string" then
+      local i = 0
+      for h in v:gmatch("%x%x") do wr(a + i, tonumber(h, 16)); i = i + 1 end
+    else wr(a, v) end
+  end
   MASH = s.mash or AFTER_MASH or 0 -- keep pressing A every N frames after arrival (cutscenes)
   if s.map then WARP.go(s.map, s.x, s.y, s.dir)
-  elseif s.mode then WARP.switch(s.mode, s.sub, s.step, s.extra) end
+  elseif s.mode then WARP.switch(s.mode, s.sub, s.step, s.extra)
+  elseif s.run then WARP.event(s.run[1], s.run[2]) end -- run={ev,pc}: start an event, arrive via wait=
   if s.press then for step in s.press:gmatch("[^;]+") do
     local n, b = step:match("^%s*(%d+)%s+(%S+)%s*$"); L.press(b, tonumber(n)) end end
 end

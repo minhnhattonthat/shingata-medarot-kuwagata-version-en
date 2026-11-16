@@ -9,7 +9,8 @@ home_2f	{map=2, x=5, y=5}	Ikki's room (start of the game)
 home_1f	{map=1, x=4, y=7}	home ground floor
 town	{map=0, x=10, y=17}	town (map 0)
 # --- field menu (mode 0) and Medawatch
-field_menu	{mode=0, sub=1}	Start menu over the field: Medarotch / items / help / save, money
+field_menu	{mode=0, sub=1, extra={[0x03001D50]=0x39,[0x03001D51]=0x30}}	Start menu over the field: Medarotch / items / help / save, money (12345)
+field_help	{mode=0, sub=1, press="60 -;6 down;20 -;6 down;20 -;6 a;60 -", hold=200}	Start menu > help (せつめい): topic list, none unlocked yet ("?????")
 medawatch	{mode=0, sub=2}	Medawatch menu (Medarotter, medals, parts)
 medarot_list	{mode=0, sub=3}	Medabot setup (medal tree)
 medal_list	{mode=0, sub=4}	medal list
@@ -24,9 +25,15 @@ robattle	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x
 robattle_attack	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, wait={mode=0,sub=9}, hold=90}	robattle: attack animation close-up
 robattle_win	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, pin={[0x03000715]=0x2D,[0x03000716]=0x1C,[0x03000717]=0x22,[0x03000718]=0x20,[0x03000719]=0x18}, wait={mode=0,sub=6,step=48}, hold=30}	robattle won (our armor pinned at full, docs/re/debug.md §Robattle): result line
 robattle_loss	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, wait={mode=0,sub=6,step=48}, hold=30}	robattle lost (one weak Medabot vs team 1): result line, then game over
+robattle_random	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=0,[0x03004DC6]=30}, mash=20, wait={mode=0,sub=7}, hold=40, expect={[0x030051F5]=0}}	random encounter: the game's own team roll for map 30 (beach), command phase
+# --- three Medabots: medal records 1-2 (0x03000C20/0x03000C60, copies of the Kuwagata medal), Medabots 1-2
+#     (0x03001798/0x030017A0) built from parts 1 and 2 of each type (counts poked at 0x03003DF0 + type*0x78 + id*2)
+party3_setup	{events={{0x1CB,2},{0x1D2,8}}, poke={[0x03000C20]="C1016400000002040000 0E29513301010101 0101FEFEFEFE0000 0000000000000000 0A0A000006000600",[0x03000C60]="C2026400000002040000 0E29513301010101 0101FEFEFEFE0000 0000000000000000 0A0A000006000600",[0x03001798]="0300010101010101",[0x030017A0]="0301020202020202",[0x03003DF2]="01000100",[0x03003E6A]="01000100",[0x03003EE2]="01000100",[0x03003F5A]="01000100"}, mode=0, sub=3, hold=90, expect={[0x03001798]=3,[0x030017A0]=3}}	Medabot setup with three Medabots
+robattle_party3	{events={{0x1CB,2},{0x1D2,8}}, poke={[0x03000C20]="C1016400000002040000 0E29513301010101 0101FEFEFEFE0000 0000000000000000 0A0A000006000600",[0x03000C60]="C2026400000002040000 0E29513301010101 0101FEFEFEFE0000 0000000000000000 0A0A000006000600",[0x03001798]="0300010101010101",[0x030017A0]="0301020202020202",[0x03003DF2]="01000100",[0x03003E6A]="01000100",[0x03003EE2]="01000100",[0x03003F5A]="01000100"}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, wait={mode=0,sub=7}, hold=40}	story robattle (team 1) with a full party of three, command phase
 # --- menus (mode 2)
 newgame_menu	{mode=2, sub=3}	New game / continue menu
-items	{mode=2, sub=4}	item list
+items	{mode=2, sub=4}	item list (empty)
+items_owned	{mode=2, sub=4, extra={[0x03001D80]=0x81,[0x03001D81]=3,[0x03001D82]=0x82,[0x03001D83]=1,[0x03001D84]=0x83,[0x03001D85]=2,[0x03001D86]=0x84,[0x03001D87]=1}, hold=120}	item list with items 1-4 poked in (0x03001D80: [0x80|id, count]) and the first one's description
 save	{mode=2, sub=5}	save screen (yes/no)
 name_entry	{mode=2, sub=6}	name entry keyboard
 sound_test	{mode=2, sub=7}	leftover test mode: BGM / SE
@@ -35,7 +42,16 @@ game_over	{mode=2, sub=8}	game over
 town_map	{mode=2, sub=10}	town map with place names
 parts_shop	{mode=2, sub=11}	parts shop: buy / sell / leave
 parts_trade	{mode=2, sub=16}	parts trade (link)
-parts_shop_buy	{mode=2, sub=25}	parts shop buy list
+parts_shop_buy	{mode=2, sub=25}	parts shop buy list (shop id 0: empty)
+# --- parts shops with stock: shop id 0x03001D3C (1 or 2), money u32 0x03001D50 (12345 here)
+parts_shop_1	{mode=2, sub=11, extra={[0x03001D50]=0x39,[0x03001D51]=0x30,[0x03001D3C]=1}, hold=90}	shop 1: clerk, buy / sell / leave, money
+parts_shop_type	{mode=2, sub=11, extra={[0x03001D50]=0x39,[0x03001D51]=0x30,[0x03001D3C]=1}, press="90 -;6 a;60 -;6 a", hold=200}	shop 1: part type picker (head / arms / legs)
+parts_shop_list1	{mode=2, sub=11, extra={[0x03001D50]=0x39,[0x03001D51]=0x30,[0x03001D3C]=1}, press="90 -;6 a;60 -;6 a", hold=320}	shop 1: head parts for sale
+parts_shop_list2	{mode=2, sub=11, extra={[0x03001D50]=0x39,[0x03001D51]=0x30,[0x03001D3C]=2}, press="90 -;6 a;60 -;6 a", hold=320}	shop 2: head parts for sale
+parts_shop_detail	{mode=2, sub=11, extra={[0x03001D50]=0x39,[0x03001D51]=0x30,[0x03001D3C]=1}, press="90 -;6 a;60 -;6 a;150 -;6 start;60 -", hold=400}	shop 1: part detail screen (Start), skill text
+parts_shop_confirm	{mode=2, sub=11, extra={[0x03001D50]=0x39,[0x03001D51]=0x30,[0x03001D3C]=1}, press="90 -;6 a;60 -;6 a;150 -;6 right;30 -;6 a;60 -", hold=400}	shop 1: one part in the cart, yes/no
+parts_shop_bought	{mode=2, sub=11, extra={[0x03001D50]=0x39,[0x03001D51]=0x30,[0x03001D3C]=1}, press="90 -;6 a;60 -;6 a;150 -;6 right;30 -;6 a;60 -;6 up;20 -;6 a;90 -", hold=600, expect={[0x03001D50]=0x19,[0x03001D51]=0x2D}}	shop 1: after buying (12345 -> 11545), clerk's thanks
+parts_shop_sell	{mode=2, sub=11, extra={[0x03001D50]=0x39,[0x03001D51]=0x30,[0x03001D3C]=1,[0x03003DF2]=1,[0x03003DF4]=2,[0x03003E6A]=1}, press="90 -;6 down;20 -;6 a;60 -;6 a", hold=320}	shop 1: sell list (two spare heads poked in)
 options	{mode=2, sub=31}	title menu options (robattle animation / messages)
 # --- events and minigames (mode 3)
 event_medal	{mode=3, sub=3}	opening event: Ikki and the dog find the medal
@@ -49,6 +65,8 @@ cutscene_07	{mode=3, sub=3, extra={[0x03005B29]=7}, expect={[0x03005B29]=7}}	sto
 cutscene_08	{mode=3, sub=3, extra={[0x03005B29]=8}, expect={[0x03005B29]=8}}	story cutscene 8 (event 0x1DE)
 cutscene_09	{mode=3, sub=3, extra={[0x03005B29]=9}, expect={[0x03005B29]=9}}	story cutscene 9 (event 0x228)
 cutscene_10	{mode=3, sub=3, extra={[0x03005B29]=10}, expect={[0x03005B29]=10}}	story cutscene 10 (event 0x26F, late story; ending candidate)
+ending	{run={0x26F,0}, mash=30, wait={mode=4,sub=6,step=6}, hold=100}	the ending as the game runs it: event 0x26F = cutscene 10, staff credits (mode 4 sub 6 steps 3-5 per page), closing group picture (step 6)
+ending_after	{events={{0x26F,0}}, hold=60, expect_mode=1}	after the ending: credits end (step 9) and the game returns to Ikki's room (post-game field)
 road_race	{mode=3, sub=4}	Medaroad Race minigame
 corps_game	{mode=3, sub=5}	"select corps" board minigame
 medarot_weekly	{mode=3, sub=6}	Medarot Weekly TV studio
@@ -58,5 +76,11 @@ opening	{mode=4, sub=1, hold=60}	opening animation
 title	{mode=4, sub=2}	title screen
 baseball	{mode=4, sub=3}	baseball minigame
 car_game	{mode=4, sub=4}	road / car minigame
-encyclopedia	{mode=4, sub=5}	encyclopedia (no entries yet)
+encyclopedia	{mode=4, sub=5}	encyclopedia = Start menu help (no topics unlocked: "????????")
+# --- encyclopedia topics unlocked: bits at 0x03004260-0x03004267 (saved), 12 topics on 3 pages
+encyclopedia_p1	{mode=4, sub=5, extra={[0x03004260]=0xFF,[0x03004261]=0xFF,[0x03004262]=0xFF,[0x03004263]=0xFF,[0x03004264]=0xFF,[0x03004265]=0xFF,[0x03004266]=0xFF,[0x03004267]=0xFF}, hold=120}	encyclopedia page 1/3, all topics unlocked, the first topic's question
+encyclopedia_p2	{mode=4, sub=5, extra={[0x03004260]=0xFF,[0x03004261]=0xFF,[0x03004262]=0xFF,[0x03004263]=0xFF,[0x03004264]=0xFF,[0x03004265]=0xFF,[0x03004266]=0xFF,[0x03004267]=0xFF}, press="60 -;6 right;40 -", hold=150}	encyclopedia page 2/3
+encyclopedia_p3	{mode=4, sub=5, extra={[0x03004260]=0xFF,[0x03004261]=0xFF,[0x03004262]=0xFF,[0x03004263]=0xFF,[0x03004264]=0xFF,[0x03004265]=0xFF,[0x03004266]=0xFF,[0x03004267]=0xFF}, press="60 -;6 right;40 -;6 right;40 -", hold=200}	encyclopedia page 3/3 (Medaforce, rotation, test mode)
+encyclopedia_entry	{mode=4, sub=5, extra={[0x03004260]=0xFF,[0x03004261]=0xFF,[0x03004262]=0xFF,[0x03004263]=0xFF,[0x03004264]=0xFF,[0x03004265]=0xFF,[0x03004266]=0xFF,[0x03004267]=0xFF}, press="60 -;6 a;90 -", hold=200}	encyclopedia topic 1 opened: the lesson with Dr. Hikozaemon-style teacher and a Medabot frame
+encyclopedia_testmode	{mode=4, sub=5, extra={[0x03004260]=0xFF,[0x03004261]=0xFF,[0x03004262]=0xFF,[0x03004263]=0xFF,[0x03004264]=0xFF,[0x03004265]=0xFF,[0x03004266]=0xFF,[0x03004267]=0xFF}, press="60 -;6 right;40 -;6 right;40 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;90 -", hold=320}	encyclopedia topic 12 ("test mode") opened
 credits	{mode=4, sub=6, hold=300}	staff credits (sepia stills)

@@ -2,10 +2,12 @@
 
 usage: python -X utf8 tools/debug/prove.py [ROM] [--only a,b] [--jobs 4] [--no-states]
 Each scene is its own cold-boot run of warp.lua (new game, intro, then the scene). A scene passes when its log
-has "ARRIVED". Shots: work/qa/scenes/<scene>/arrived.png; sheet: work/qa/scenes/sheet.png. Exit 1 on any failure.
+has "ARRIVED". Shots: work/qa/scenes/<scene>/arrived.png, copied to work/qa/scenes/shots/<scene>.png; sheet of all
+proven scenes: work/qa/scenes/sheet*.png. Exit 1 on any failure.
 After engine, font or graphics changes, re-run this to regenerate the state library.
 """
 import argparse
+import shutil
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -57,7 +59,14 @@ def main():
     for name, ok, info in res:
         print(f"{'ok  ' if ok else 'FAIL'} {name:16s} {info.strip()}")
         bad += not ok
-    shots = [str(ROOT / "work" / "qa" / "scenes" / n / "arrived.png") for n, ok, _ in res if ok]
+    # one named copy per scene, so the sheet labels tiles by scene and an --only run keeps the others on it
+    shot_dir = ROOT / "work" / "qa" / "scenes" / "shots"
+    shot_dir.mkdir(parents=True, exist_ok=True)
+    for n, ok, _ in res:
+        if ok:
+            shutil.copyfile(ROOT / "work" / "qa" / "scenes" / n / "arrived.png", shot_dir / f"{n}.png")
+    names = set(scene_names())
+    shots = [str(p) for p in sorted(shot_dir.glob("*.png")) if p.stem in names]
     if shots:
         subprocess.run([sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "sheet.py"), *shots,
                         "--out", str(ROOT / "work" / "qa" / "scenes" / "sheet.png")])

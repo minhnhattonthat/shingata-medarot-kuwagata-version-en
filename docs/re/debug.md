@@ -45,6 +45,32 @@ medal, event 0x1D2 pc 8 (after its condition `1D 03 07 55`) builds the first Med
 4 types. `warp.lua` runs both through the game's own interpreter (scene key `events`, below).
 The old "task slots at 0x03000BE0" guess was wrong: that is the medal list.
 
+## Money, shops, ending (session 5, verified)
+- **Money:** u32 at **0x03001D50** (the Start menu reads it at 0x08002A38 and prints it with 0x0804270C(dst, value),
+  5 digits + 円 0xC5 + FE into 0x030005C6). Poking 12345 shows "12345円" in the Start menu and the shops.
+  0x03001D64/66 (capped at 9999 by 0x08011554) are something else.
+- **Parts shop with stock:** scene switch case 3 (mode 2 sub 11, shop id 0x03001D3C = 1 or 2): clerk menu
+  buy/sell/leave -> A, A -> part type picker -> list (shops 1 and 2 stock different heads). In the list: right
+  = quantity +1, A = cart total and yes/no (default いいえ), up+A buys (12345 -> 11545 for an 800円 head), Start = part
+  detail screen (skill text). Sell lists spare parts only (counts at 0x03003DF0 + type*0x78 + id*2).
+- **Items:** 0x03001D80 [0x80|id, count]; item 1 is named "ダミー" (dummy), 2-4 ロボロボメダル, ふくびきけん, わたるくんルアー.
+- **Help (Start menu, 3rd row) = the encyclopedia (mode 4 sub 5):** 12 topics on 3 pages, shown as "????????"
+  until unlocked by bits at **0x03004260-0x03004267** (saved; read at 0x0807A1FA/0x0807A95C/0x0807AA60). All 0xFF
+  unlocks every topic; A opens a lesson (teacher + Medabot frame). Topic 12 is "「テストモード」について".
+- **Ending:** event 0x26F (`04 23`, `20 02 1d`, `20 02 1e`, `75 0a`, `6E`, `78 63`, ...) plays cutscene 10, then
+  the staff credits (mode 4 sub 6: steps 3-5 per page, 6 the closing group picture, 7-9 fade) and returns to the
+  field in Ikki's room (mode 1) at ~f4800 from its start. `warp.lua` key `run={ev,pc}` starts an event without
+  waiting for its end (pair with `wait=`); `EVENT=n` plays any event ad hoc.
+- **Story robattles** start from NPC talk: the talk-action dispatcher around 0x08055B44 calls the scene switch with
+  case 0x20 for action 0x20 (team id already in +0x942; +0x942 = 0x22 has a special line). Who writes +0x942 for
+  each NPC is not traced yet; the scenes set it directly (any of the 169 team ids works).
+- **Random encounters:** with +0x945 = 0 the setup rolls a team from 0x0846AC18 + map*4 using the map id at
+  0x03004DC6, so poking map 30 before the switch gives a real beach encounter while the player stays home.
+- **Three Medabots:** medal records 1-2 can be copies of record 0 with byte 0 = 0xC1/0xC2; Medabot records
+  `03 g medal head rarm larm legs n` at 0x03001790 + n*8; the robattle then fields all three.
+- **Map tour:** `tools/debug/maptour.py` warps to every map id (arrival tile = the first door into it) and shoots
+  each (`work/qa/maps/shots/mNNN.png`, sheets `work/qa/maps/sheet*.png`).
+
 ## Robattle teams (session 4, verified)
 - Setup 0x08012854: if +0x945 (0x030051F5) != 0 (story) the team id is +0x942 (0x030051F2); else a weighted roll
   picks one of 4 ids at 0x0846AC18 + map*4 (0xFF = no random battles: maps 0-29 and most towns; maps 30-33, 36-38,

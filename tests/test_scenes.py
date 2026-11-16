@@ -14,7 +14,7 @@ def test_scene_lines_parse():
         m = LINE.match(line)
         assert m, f"scenes.txt:{n} does not parse: {line!r}"
         assert m.group(2).count("{") == m.group(2).count("}"), f"scenes.txt:{n} unbalanced braces"
-        assert re.search(r"\b(map|mode)\s*=", m.group(2)), f"scenes.txt:{n} has neither map= nor mode="
+        assert re.search(r"\b(map|mode|run|events)\s*=", m.group(2)), f"scenes.txt:{n} has no map/mode/run/events"
         names.append(m.group(1))
     assert len(names) == len(set(names)), "duplicate scene names"
     assert len(names) >= 30
