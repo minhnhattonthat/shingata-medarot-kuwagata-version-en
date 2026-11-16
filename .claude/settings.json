@@ -6,6 +6,19 @@
   "permissions": {
     "deny": ["WebFetch(domain:tcrf.net)"]
   },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$HOME/.claude/plugins/marketplaces/retro-translation/skills/translate-retro-game/scripts/hooks/guard_bash.py\""
+          }
+        ]
+      }
+    ]
+  },
   "extraKnownMarketplaces": {
     "retro-translation": {
       "source": { "source": "github", "repo": "minhnhattonthat/translate-retro-game" },

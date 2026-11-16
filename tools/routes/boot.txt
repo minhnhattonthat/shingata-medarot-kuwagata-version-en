@@ -1,0 +1,8 @@
+# boot: wait through logos, press start to the title/menu
+600 -
+4 start
+200 -
+4 start
+300 -
+4 a
+300 -
