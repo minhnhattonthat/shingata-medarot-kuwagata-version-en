@@ -9,17 +9,17 @@ its block with `vramfind.py` over the scene shot (`work/qa/scenes_en/shots/<scen
 | Scene(s) | Japanese left |
 |---|---|
 | title, newgame_menu | logo 真型 メダロット (keep as logo or add an English subtitle: ruling needed, non-blocking), つづきから (not seen yet: needs a save; probably elsewhere in lz_72AC64). **Done:** はじめから -> NEW GAME, オプション -> OPTIONS (screen labels on tiles lz_72AC64 + map lz_72BF8C+10) |
-| options (same screen, BG0 rows 11-17 of map lz_72BF8C+10) | ロボトルじかん, ながい / ふつう / みじかい, ロボトルメッセージ, あり / なし: the rows are 8 px tall (6-px fill + outline 3, fill 1 / 2): needs a 6-px font first |
+| options (same screen, BG0 rows 11-17 of map lz_72BF8C+10) | **Done** (session 5): ROBATTLE TIME, LONG / NORMAL / SHORT, ROBATTLE TEXT, ON / OFF (label6); つづきから -> CONTINUE (same map, rows 1-2) |
 | save_corrupt | **Done** (session 4): message in the dialogue font (lz_72DA44 / lz_72E878+10) |
 | sound_test (test mode) | **Done**: TEST MODE, MUSIC, SOUND FX, BACK (lz_72C710 / lz_72D4B8+10) |
 | name_entry | ネームエントリー, なまえを10もじいないで にゅうりょくしてください, カタカナ / ひらがな / えいすうじ, すすむ / もどる / けってい, the kana grid (needs an English letter grid: input codes too) |
 | field_menu | **Done** (pilot): MEDAWATCH / ITEMS / HELP / SAVE (Le 54C27C/54C420/54C5A0/54C72C), money 円 -> ¥ (Le 56C920 tile 0; names charset C5 too). Other screens with a money box may load their own 円 copy: check |
 | items, items_owned | **Done**: ITEMS, Use item, Sort (lz_7281F8 is a `fixed_tiles` block: the page digits sit right after it with hard-coded tile numbers) |
-| field_help (encyclopedia) | せつめい heading |
-| medawatch | メダロット / メダル / パーツ, カーソルでせんたく, けってい, もどる |
-| medal_list, party_medals | メダル header, カーソルでメダルせんたく, …しょうさいがめんへ, Lv.UPまで |
-| medarot_list, party_setup | メダロット header, くみたてがめんへ, ならびかえ |
-| parts_list, party_parts, parts_owned | パーツ header, tabs あたま etc., しょうさい, column headers パーツめい / しょじすう(そうびすう) / せいべつ |
+| field_help (encyclopedia) | **Done**: the heading is the field-menu HELP block le_54C5A0 (pilot) |
+| medawatch | **Done** (session 5): MEDABOTS / MEDALS / PARTS, Choose with cursor, OK, Back (le_56D154 tiles + le_578E40+10; `fixed_tiles`: appended tiles ran into le_54C890 at VRAM tile 496 and showed garbage) |
+| medal_list, party_medals | **Done**: MEDALS, Choose a medal, Details, Lv.UP IN (block le_57134C, `layout`) |
+| medarot_list, party_setup | **Done**: MEDABOTS, Assemble, Sort (le_56F328, `layout`) |
+| parts_list, party_parts, parts_owned | **Done**: PARTS, Details, NAME / ×OWNED / (EQ) / M/F (le_575BE4, `layout`), tabs HEAD / R.ARM / L.ARM / LEGS (le_54EC30, cols 10) |
 | parts_*_detail | パーツ, ヘルプ, stat labels そうこう / すいしん / きどう / ぼうぎょ / きんせつ / えんかく / せいこう / いりょく / かいすう |
 | parts_shop* | **Done**: headers, Buy/Sell parts/Exit, HEAD/R.ARM/L.ARM/LEGS, Select/OK, list hints and column headers (lz_733100 + maps 734590/734790; list screens lz_734D90 + maps 735630/7357EC, loaded at tile 355). **Left:** confirm はい / いいえ (below) |
 | save, parts_shop_confirm (yes/no window) | **Done**: SAVE, MEDALS, PARTS, PLAY TIME, WINS/TOTAL. **Left: はい / いいえ**: 7 tiles le_51126C (BG0 tiles 311-317: 137 blank, 138/13A は top/bottom, 139/13B い, 13C/13D え); the window map is copied by 0x08042E50 from a template at VRAM 0x06002D40 (6 rows x 8), itself written by the generic copier at 0x08000F1A (source r2 = 0x02030024, EWRAM) at f2719: find who fills 0x02030024 (the ROM table of the window layout). い's tiles appear in both words (row 1: 137 138 139 137, row 2: 137 139 139 13C), so YES/NO needs either that layout table changed or 8-px-wide words |

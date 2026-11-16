@@ -36,3 +36,4 @@ One line per gotcha: the reference file it belongs in, then the fact.
 - references/emulator-qa.md: comparing warp-scene shots of two builds pixel by pixel over-reports: half the scenes
   differed only in animated backgrounds / fades (arrival frame shifts), so diffs need a zoomed look, not a threshold.
 - references/emulator-qa.md: a project prove/tour driver should copy each scene's shot into shots/ as soon as it arrives, not at the end; a run reaped for low memory otherwise leaves shots/ (and the shotdiff) missing every scene it did finish.
+- references/graphics.md: redrawing a label by appending new tiles to a BG tile block can run past the VRAM room the game gives that block (next block loaded right after it): offline previews look fine, the game shows garbage. Reuse tiles only the old label used, and always confirm with an in-game shot.

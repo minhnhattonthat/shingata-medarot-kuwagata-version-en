@@ -2,7 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics redraws: 9 screens done in session 4; rest of `docs/graphics-todo.md` next).
+- **Phase:** 8. QA in the emulator: in progress (graphics redraws: sessions 4-5 done 17 screens; rest of `docs/graphics-todo.md` next).
+- **Phase 8 session 5 (2026-11-17): graphics redraws, batch 2.**
+  - **Done, verified English in cold-boot `prove.py --no-states` shots** (`work/qa/gfx6`, medawatch `work/qa/gfx7`;
+    build sha1 1457ebc2...): options (ROBATTLE TIME, LONG/NORMAL/SHORT, ROBATTLE TEXT, ON/OFF) + title CONTINUE,
+    medawatch, medal_list/party_medals, medarot_list/party_setup, parts_list/party_parts/parts_owned (+ tabs),
+    field_help heading (was already the HELP block). 55 labels, `gfx.py check` 0, `tools/check.py` exit 0.
+  - **`gfx.py` block `layout`**: rows of block tile numbers (null = don't touch) for blocks whose map the code
+    builds (no LZ map to find): the label is drawn on that virtual image and written back per tile; a tile used
+    twice must come out identical. One label per block (each composes from the original; `check` now fails
+    duplicates). **`tools/blockcells.py SCENE TILE0 COUNT`** prints which map cells show a block's tiles (after
+    `screenfind.py SCENE`), i.e. the layout to copy. New styles `msg_outline` (dialogue font + outline 1),
+    `lv_green`; `(` `)` added to `font/en_label_6.txt`.
+  - **Gotcha:** screen mode appends new tiles to the block; on medawatch that ran past the block's VRAM room into
+    le_54C890 (tile 496) and showed garbage in-game while `gfx.py check` passed. Fix: list the block in
+    `fixed_tiles` (with every map using it). Check every screen-mode redraw in a shot, not only the preview.
+  - **Next:** parts_*_detail (パーツ, ヘルプ, stat labels; robattle_detail too), yes/no window (findings in
+    graphics-todo.md), name_entry, robattle_intro/prep (le_570D84 at BG1 tile 512), minigames (road_race, baseball,
+    car_game, corps_game), title logo ruling (non-blocking). Then pair sheets + verdicts for all redrawn scenes,
+    credits role buffer bug, textcover gaps, inkbox on choice/centred boxes.
 - **Phase 8 session 4 (2026-11-17): graphics redraws, batch 1.**
   - **Done, each verified English in a cold-boot `prove.py --no-states` shot on the English build** (`work/qa/gfx2..gfx5`):
     town_map, sound_test, save (labels; not yes/no), parts_trade, save_corrupt (message), items, parts_shop menu,

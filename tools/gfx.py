@@ -100,6 +100,42 @@ def from_grid(g, cols, ntiles):
     return bytes(out)
 
 
+def layout_grid(raw, layout):
+    """Index grid of a block label's `layout`: rows of block tile numbers (null = blank cell), drawn side by side.
+    For blocks whose label tiles aren't one regular grid (the game's own code builds the map)."""
+    w = max(len(r) for r in layout)
+    g = [[0] * (w * 8) for _ in range(len(layout) * 8)]
+    for ty, row in enumerate(layout):
+        for tx, t in enumerate(row):
+            if t is None:
+                continue
+            for y in range(8):
+                for x in range(8):
+                    b = raw[t * 32 + y * 4 + x // 2]
+                    g[ty * 8 + y][tx * 8 + x] = (b >> 4) if x & 1 else (b & 15)
+    return g
+
+
+def layout_raw(g, layout, raw, name=""):
+    """Write the layout grid's cells back into their tiles; a tile used twice must come out the same."""
+    new, seen = bytearray(raw), {}
+    for ty, row in enumerate(layout):
+        for tx, t in enumerate(row):
+            if t is None:
+                continue
+            data = bytes(g[ty * 8 + y][tx * 8 + x] | g[ty * 8 + y][tx * 8 + x + 1] << 4
+                         for y in range(8) for x in range(0, 8, 2))
+            if seen.get(t, data) != data:
+                raise ValueError(f"{name}: tile {t} is used twice in the layout and drawn differently")
+            seen[t] = data
+            new[t * 32:t * 32 + 32] = data
+    return bytes(new)
+
+
+def block_grid(raw, label):
+    return layout_grid(raw, label["layout"]) if "layout" in label else to_grid(raw, label["cols"])
+
+
 def load_spec(path=SPEC):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
@@ -145,10 +181,12 @@ def compose(rom, label, styles):
     """(original raw, new raw) for a block label (the block is the image, `cols` tiles wide)."""
     mod = CODECS[label["codec"]]
     raw, _ = mod.decompress(rom, int(label["off"], 16))
-    cols = label["cols"]
-    g = to_grid(raw, cols)
+    g = block_grid(raw, label)
     paint(g, label, styles)
-    new = bytearray(from_grid(g, cols, len(raw) // 32))
+    if "layout" in label:
+        new = bytearray(layout_raw(g, label["layout"], raw, label["id"]))
+    else:
+        new = bytearray(from_grid(g, label["cols"], len(raw) // 32))
     if label.get("names_tiles"):  # {"tile index": "names-charset code"}: copy that 8x8 English glyph (tools/font.py)
         import font
         tiles = font.names_tiles()
@@ -158,8 +196,7 @@ def compose(rom, label, styles):
 
 
 def outside_box_changes(orig, new, label):
-    cols = label["cols"]
-    a, b = to_grid(orig, cols), to_grid(new, cols)
+    a, b = block_grid(orig, label), block_grid(new, label)
     bx, by, bw, bh = label["box"]
     return [(x, y) for y in range(len(a)) for x in range(len(a[0]))
             if a[y][x] != b[y][x] and not (bx <= x < bx + bw and by <= y < by + bh)]
@@ -388,6 +425,9 @@ def check(spec=None, rom=None):
                 problems.append(f"screen {off:06X}: {n} pointers, screen_ptrs says {want}")
     except ValueError as e:
         problems.append(str(e))
+    offs = [label["off"] for label in spec["labels"] if "map" not in label]
+    problems += [f"block {o}: in {offs.count(o)} labels (each is composed from the original: use one label "
+                 f"with several erase rects and text items)" for o in sorted(set(offs)) if offs.count(o) > 1]
     for label in spec["labels"]:
         if "map" in label:
             continue
@@ -427,7 +467,7 @@ def preview(outdir, only=None, zoom=4):
                                                               label.get("tile0", 0))[by:by + bh]] for i in (1, 2)]
         else:
             orig, new = compose(rom, label, spec["styles"])
-            grids = [to_grid(orig, label["cols"]), to_grid(new, label["cols"])]
+            grids = [block_grid(orig, label), block_grid(new, label)]
         pal = [(i * 17, i * 17, i * 17) for i in range(16)]
         pfile = ROOT / "work" / "gfx" / "pal" / f"{label.get('scene', '')}.pal.bin"
         if pfile.exists():

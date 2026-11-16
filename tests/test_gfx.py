@@ -27,3 +27,19 @@ def test_text_box_overflow_is_an_error():
     label = dict(spec["labels"][0], text=[{"s": "MEDAWATCHMEDAWATCH", "x": 19, "style": "menu_pink"}])
     with pytest.raises(ValueError, match="runs out of its box"):
         gfx.compose(gfx.ROM.read_bytes(), label, spec["styles"])
+
+
+def test_layout_roundtrip_and_shared_tile_conflict():
+    raw = bytes(range(256)) * 1  # 8 tiles of 32 bytes
+    layout = [[0, None, 2], [3, 0]]
+    g = gfx.layout_grid(raw, layout)
+    assert gfx.layout_raw(g, layout, raw) == raw  # untouched grid writes the same tiles back
+    g[0][0] = 15 if g[0][0] != 15 else 14  # change tile 0's first copy only
+    with pytest.raises(ValueError, match="used twice"):
+        gfx.layout_raw(g, layout, raw)
+
+
+def test_one_label_per_block():
+    spec = gfx.load_spec()
+    dup = [lb for lb in spec["labels"] if "map" not in lb][:1] * 2
+    assert any("in 2 labels" in p for p in gfx.check(dict(spec, labels=dup)))
