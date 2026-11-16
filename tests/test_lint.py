@@ -33,3 +33,11 @@ def test_fitting_text_passes_and_var_counts():
     assert errs == []
     errs, _ = lint.lint([("T", entry("ff"), "ABC{var:00}{n}A{n}A{end:00}")], WIN, W)
     assert errs  # var pushes past 40 px -> wraps -> 4 lines
+
+
+def test_wrapped_stub_last_line_fails_but_authored_break_passes():
+    errs, _ = lint.lint([("T", entry("ff"), "AAAAAA A{end:00}")], WIN, W)  # wraps to "AAAAAA " | "A": 6 px
+    assert any("stub" in e for e in errs)
+    errs, _ = lint.lint([("T", entry("ff"), "AAAA{n}A{end:00}")], WIN, W)  # the author's {n}: left alone
+    assert errs == []
+    assert lint.lint([("T", entry("ff"), "AAAAAA A{end:00}")], WIN, W, stubs=False)[0] == []

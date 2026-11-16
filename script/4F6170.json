@@ -227,7 +227,7 @@
    "kind": "ff",
    "bytes": 170,
    "jp": "{face:010000}あれ？{n}カリンちゃんの おじさん どうしたんですか？{page}{face:001700}{var:00}くん{n}いえに いたのかい？ ずっと？{page}{face:010000}ぼくは いえで ねてましたけど？{page}なにか あったんですか？{n}おじさんは どうやって ここへ？{page}{face:001700}ひとに たずねたら きみのいえは ここだと{n}おしえて くれたんだ{page}まあ とりあえず このてがみを みてくれないか？{end:00}",
-   "en": "{face:010000}Huh? Karin-chan's dad? What's wrong, sir?{page}{face:001700}{var:00}-kun, you've been home? This whole time?{page}{face:010000}I was asleep at home...{page}Did something happen? How did you find my house, sir?{page}{face:001700}I asked someone, and they told me this was your house.{page}Well, first, would you take a look at this letter?{end:00}",
+   "en": "{face:010000}Huh? Karin-chan's dad?{n}What's wrong, sir?{page}{face:001700}{var:00}-kun, you've been home? This whole time?{page}{face:010000}I was asleep at home...{page}Did something happen? How did you find my house, sir?{page}{face:001700}I asked someone, and they told me this was your house.{page}Well, first, would you take a look at this letter?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -299,7 +299,7 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{face:010000}だれもいない{page}きっと イワノイのところにも しょうたいじょうが{n}きたんだ！{end:00}",
-   "en": "{face:010000}Nobody's here.{page}Sloan must have gotten an invitation too!{end:00}",
+   "en": "{face:010000}Nobody's here.{page}Sloan must have gotten{n}an invitation too!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -311,7 +311,7 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{face:010000}だれもいない{page}きっと カガミヤマのところにも しょうたいじょうが{n}きたんだ！{end:00}",
-   "en": "{face:010000}Nobody's here.{page}Spyke must have gotten an invitation too!{end:00}",
+   "en": "{face:010000}Nobody's here.{page}Spyke must have gotten{n}an invitation too!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -767,7 +767,7 @@
    "kind": "ff",
    "bytes": 68,
    "jp": "{face:003E02}しんにゅうしゃ はっけんであります！{n}げきたいするであります！{page}{face:010005}あーあ またかぁ{page}{face:000D01}わはははは わははははは！{end:00}",
-   "en": "{face:003E02}Intruder spotted, sir! Moving to repel him!{page}{face:010005}Oh, man... Not again.{page}{face:000D01}Wahahahaha! Wahahahahaha!{end:00}",
+   "en": "{face:003E02}Intruder spotted, sir!{n}Moving to repel him!{page}{face:010005}Oh, man... Not again.{page}{face:000D01}Wahahahaha! Wahahahahaha!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1067,7 +1067,7 @@
    "kind": "ff",
    "bytes": 121,
    "jp": "{face:010008}あ！ おまえは！{page}{face:000C03}はーい みんな げんきかなぁ？{n}かわいーまじょの ミルキーでーす！{page}{face:010002}このあいだは よくも ぼくを つきおとしてくれたな！{page}しかも また こどもをさらったりして！{page}たすけるのって たいへんなんだぞ！{end:00}",
-   "en": "{face:010008}Ah! It's you!{page}{face:000C03}Hiii! How is everyone? It's your adorable witch, Milky!{page}{face:010002}How dare you push me down there last time!{page}And now you've kidnapped kids again!{page}Do you know how hard it is to rescue them!?{end:00}",
+   "en": "{face:010008}Ah! It's you!{page}{face:000C03}Hiii! How is everyone? It's your adorable witch, Milky!{page}{face:010002}How dare you push me{n}down there last time!{page}And now you've kidnapped kids again!{page}Do you know how hard it is to rescue them!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1499,7 +1499,7 @@
    "kind": "ff",
    "bytes": 81,
    "jp": "{face:010000}みんな ぶじに そとに でれたかな・・・{n}だったら いいけど{page}{face:010004}ま コウジが ついてるから だいじょうぶか！{page}{face:010000}ぼくは さきに すすもう！{end:00}",
-   "en": "{face:010000}Did everyone get out safely...? I hope so.{page}{face:010004}Well, Koji's with them. They'll be fine!{page}{face:010000}I'll keep going!{end:00}",
+   "en": "{face:010000}Did everyone get out safely...?{n}I hope so.{page}{face:010004}Well, Koji's with them. They'll be fine!{page}{face:010000}I'll keep going!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2243,7 +2243,7 @@
    "kind": "ff",
    "bytes": 155,
    "jp": "{face:003900}やれやれ また こもりか{n}こどもは うるさいから きらい なんじゃが{page}{face:010000}おまえは ろうじんかんぶの シオカラ！{page}{face:003901}ふぉっふぉっふぉっ{n}そこの こぞうは{page}{var:00} じゃったかの？{page}おまえは とくべつ たっぷりと もてなして やるぞい{page}{face:010002}みんなは どこだっ！{page}{face:003901}ふぉっ？ しらんのぅ{end:00}",
-   "en": "{face:003900}Good grief. Babysitting again? I can't stand noisy children.{page}{face:010000}You're Squidguts, the old gang officer!{page}{face:003901}Ho ho ho! You there, boy...{page}Was your name {var:00}, eh?{page}I'll give you a very special welcome, my boy.{page}{face:010002}Where is everyone!?{page}{face:003901}Ho? I wouldn't know.{end:00}",
+   "en": "{face:003900}Good grief. Babysitting again? I can't stand noisy children.{page}{face:010000}You're Squidguts, the old gang officer!{page}{face:003901}Ho ho ho! You there, boy...{page}Was your name {var:00}, eh?{page}I'll give you a very special{n}welcome, my boy.{page}{face:010002}Where is everyone!?{page}{face:003901}Ho? I wouldn't know.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2819,7 +2819,7 @@
    "kind": "ff",
    "bytes": 44,
    "jp": "{face:000304}アリカさんを たすけてあげて くださいね{page}{var:00}くんなら{n}きっと できますわ！{end:00}",
-   "en": "{face:000304}Please save Erika-san.{page}I know you can do it, {var:00}-kun!{end:00}",
+   "en": "{face:000304}Please save Erika-san.{page}I know you can do it,{n}{var:00}-kun!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3167,7 +3167,7 @@
    "kind": "ff",
    "bytes": 165,
    "jp": "{face:002400}アリカは あなたが わるい ひとに つかまったと{n}おもったんでしょうね{page}あのコ ちょっと はやとちり だから{n}「あたしが たすけだすんだ！」って とびだして いったの{page}{face:010000}おばさんは しんぱいしないで いえで まっててよ{page}アリカは ぼくが ぶじに つれもどすから{page}{face:002400}わかったわ {var:00}くんが{n}そういうなら・・・{end:00}",
-   "en": "{face:002400}Erika must have thought some bad people had captured you.{page}She's a bit quick to jump to conclusions, you know.{page}She shouted, \"I'll rescue him!\" and ran off.{page}{face:010000}Don't worry, ma'am. Just wait at home.{page}I'll bring Erika back safe and sound.{page}{face:002400}All right. If you say so, {var:00}-kun...{end:00}",
+   "en": "{face:002400}Erika must have thought some bad people had captured you.{page}She's a bit quick to jump to conclusions, you know.{page}She shouted,{n}\"I'll rescue him!\" and ran off.{page}{face:010000}Don't worry, ma'am. Just wait at home.{page}I'll bring Erika back safe and sound.{page}{face:002400}All right. If you say so, {var:00}-kun...{end:00}",
    "status": "done",
    "notes": ""
   },

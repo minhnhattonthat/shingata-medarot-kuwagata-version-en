@@ -514,7 +514,7 @@
    "kind": "ff",
    "bytes": 85,
    "jp": "{face:001700}なんごくの しまぐに{n}わが ショーチューおうこくの だいひょうは{page}なにをかくそう キールおうじでございます！{page}{face:010000}ショーチューおうこく？{n}きいたことないな{end:00}",
-   "en": "{face:001700}Our tropical island nation,{n}the Kingdom of Shochu...{page}Is represented by none other than Prince Kir!{page}{face:010000}The Kingdom of Shochu? Never heard of it.{end:00}",
+   "en": "{face:001700}Our tropical island nation,{n}the Kingdom of Shochu...{page}Is represented by none other than Prince Kir!{page}{face:010000}The Kingdom of Shochu?{n}Never heard of it.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -694,7 +694,7 @@
    "kind": "ff",
    "bytes": 109,
    "jp": "{face:004E00}みなさん けっしょうせんです！{n}とうじょうするのは ぜんはんせん{page}Aブロック ゆうしょうしゃの コウジくんと{n}はげしいロボトルで かいじょうを あつくしてくれた{page}Bブロック ゆうしょうしゃの{n}{var:00}くんです！{end:00}",
-   "en": "{face:004E00}Everyone, it's the final match! Our contestants are...{page}Koji-kun, champion of Block A in the first half!{page}And the champion of Block B, whose fierce Robattles fired up the crowd...{page}{var:00}-kun!{end:00}",
+   "en": "{face:004E00}Everyone, it's the final match! Our contestants are...{page}Koji-kun, champion{n}of Block A in the first half!{page}And the champion of Block B, whose fierce Robattles fired up the crowd...{page}{var:00}-kun!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -946,7 +946,7 @@
    "kind": "ff",
    "bytes": 85,
    "jp": "{face:000201}あー おもしろかった！{n}ね？ {var:00}{page}{face:010005}う うん・・・{page}{face:000200}なに？ どうしたの？{page}{face:010005}べ べつに・・・{page}{face:000201}あ さては こわかったんでしょー！{end:00}",
-   "en": "{face:000201}Ahh, that was fun! Right, {var:00}?{page}{face:010005}Y-yeah...{page}{face:000200}What? What's wrong?{page}{face:010005}N-nothing...{page}{face:000201}Oh! You were scared, weren't you!{end:00}",
+   "en": "{face:000201}Ahh, that was fun!{n}Right, {var:00}?{page}{face:010005}Y-yeah...{page}{face:000200}What? What's wrong?{page}{face:010005}N-nothing...{page}{face:000201}Oh! You were scared, weren't you!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2339,7 +2339,7 @@
    "kind": "ff",
    "bytes": 186,
    "jp": "{face:000207}ねえ {var:00}{n}まじょのしろって ステキよねぇ{page}こんな おしろの おひめさまに なってみたい♥{page}{face:010000}アリカって いがいと・・・{page}{face:000206}なによ なにが いいたいのよ{page}{face:010006}い いや{page}{face:000204}ねえ もう1ど いかない？{page}{face:010005}えぇー また ならぶのぉ？{page}{face:000201}あはは こまってる{page}{face:000204}あんまり つきあわせちゃ わるいし こんどは{n}あたしひとりで いくわ{end:00}",
-   "en": "{face:000207}Hey, {var:00}. The Witch's Castle is lovely, isn't it?{page}I'd love to be a princess in a castle like this!{page}{face:010000}Erika, you're surprisingly...{page}{face:000206}What? What's that supposed to mean?{page}{face:010006}N-nothing!{page}{face:000204}Hey, wanna go again?{page}{face:010005}Whaaat? Line up all over again?{page}{face:000201}Ahaha! Look at you squirm!{page}{face:000204}I shouldn't keep dragging you along. I'll go by myself this time.{end:00}",
+   "en": "{face:000207}Hey, {var:00}. The Witch's Castle is lovely, isn't it?{page}I'd love to be a princess{n}in a castle like this!{page}{face:010000}Erika, you're surprisingly...{page}{face:000206}What? What's that supposed to mean?{page}{face:010006}N-nothing!{page}{face:000204}Hey, wanna go again?{page}{face:010005}Whaaat? Line up all over again?{page}{face:000201}Ahaha! Look at you squirm!{page}{face:000204}I shouldn't keep dragging you along. I'll go by myself this time.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2387,7 +2387,7 @@
    "kind": "ff",
    "bytes": 149,
    "jp": "{face:000204}あれ？ {var:00}{n}もどってきて くれたの？{page}{face:010000}うん というべきか{n}ううん というべきか・・・{page}{face:000200}なに ブツブツ いってんのよ？{n}あんたのために ならんでいてあげた あたしに{page}かんしゃして{n}あんたも ここに ならびなさい{page}{face:010000}えぇ？ ぼくの ためぇ？{page}{face:000200}ほら いくわよ！{end:00}",
-   "en": "{face:000204}Oh? {var:00}! You came back for me?{page}{face:010000}Should I say yes, or should I say no...?{page}{face:000200}What are you mumbling about?{page}You should thank me for waiting in line for you! Now get in line here!{page}{face:010000}Huh? For meee?{page}{face:000200}Come on, let's go!{end:00}",
+   "en": "{face:000204}Oh? {var:00}!{n}You came back for me?{page}{face:010000}Should I say yes, or should I say no...?{page}{face:000200}What are you mumbling about?{page}You should thank me for waiting in line for you! Now get in line here!{page}{face:010000}Huh? For meee?{page}{face:000200}Come on, let's go!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2963,7 +2963,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:010000}メダロッとうが ゆうひに あかくそまってる{end:00}",
-   "en": "{face:010000}The sunset's turning Medabot Island red.{end:00}",
+   "en": "{face:010000}The sunset's turning{n}Medabot Island red.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3059,7 +3059,7 @@
    "kind": "ff",
    "bytes": 75,
    "jp": "{face:000304}ありがとうございます{n}{var:00}くん{page}{face:000303}わたし ほんとうに うれし・・・{page}{face:010005}わわ！ カリンちゃん なかないでよ！{n}・・・こまったなぁ{end:00}",
-   "en": "{face:000304}Thank you very much, {var:00}-kun.{page}{face:000303}I'm truly so happ...{page}{face:010005}W-whoa! Karin-chan, don't cry! ...Oh boy, what do I do?{end:00}",
+   "en": "{face:000304}Thank you very much,{n}{var:00}-kun.{page}{face:000303}I'm truly so happ...{page}{face:010005}W-whoa! Karin-chan, don't cry! ...Oh boy, what do I do?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3143,7 +3143,7 @@
    "kind": "ff",
    "bytes": 43,
    "jp": "{face:010001}パパ ママ たくさん きいて{n}ほしいことが あるんだ{page}あのね ぼくね・・・{end:00}",
-   "en": "{face:010001}Mom, Dad! There's so much I want to tell you!{page}You see, I...{end:00}",
+   "en": "{face:010001}Mom, Dad! There's so much{n}I want to tell you!{page}You see, I...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3311,7 +3311,7 @@
    "kind": "ff",
    "bytes": 148,
    "jp": "{face:010004}ぼく パパとママに ないしょで ここまで きちゃった{n}でも きてよかったよ{page}いまはね はやく かえって パパとママに たくさん{n}はなしをしたいと おもってる{page}ぼくの はなしをきいたら パパとママは{n}なんて いうかなぁ{page}{face:000404}すごいな おまえ{page}おれも そんな ぼうけんが してみたいな{end:00}",
-   "en": "{face:010004}I came all this way without telling Mom and Dad. But I'm glad I did.{page}Right now, I just want to hurry home{n}and tell them everything.{page}I wonder what Mom and Dad will say{n}when they hear my stories.{page}{face:000404}You're somethin' else, you know?{page}I'd love to have an adventure like that, too.{end:00}",
+   "en": "{face:010004}I came all this way without telling Mom and Dad. But I'm glad I did.{page}Right now, I just want to hurry home{n}and tell them everything.{page}I wonder what Mom and Dad will say{n}when they hear my stories.{page}{face:000404}You're somethin' else, you know?{page}I'd love to have{n}an adventure like that, too.{end:00}",
    "status": "done",
    "notes": ""
   }

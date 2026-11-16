@@ -598,7 +598,7 @@
    "kind": "ff",
    "bytes": 60,
    "jp": "{face:000208}なに してんのっ！{n}はやく とって！ とって！{page}{face:010000}もう とれてるよ{page}{face:000206}もうっ！{n}{var:00}の ばかっ！{end:00}",
-   "en": "{face:000208}What are you doing!? Get it off! Get it off!{page}{face:010000}It's already off.{page}{face:000206}Ugh! {var:00}, you idiot!{end:00}",
+   "en": "{face:000208}What are you doing!?{n}Get it off! Get it off!{page}{face:010000}It's already off.{page}{face:000206}Ugh! {var:00}, you idiot!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -670,7 +670,7 @@
    "kind": "ff",
    "bytes": 233,
    "jp": "{face:010002}そのしゃべりかた ロボロボだん！？{page}{face:003400}なんだそれ？ ちがうロボよ{page}ここにくる へんな やつらの しゃべりかたが{n}うつっただけロボよ{page}{face:010008}ここに ロボロボだんが？{page}{face:000200}とくダネの においね{page}{face:003400}のるロボか？ のらないロボか？{n}はやくきめるロボ{page}でも おいらは ひとりしか はこべないロボ{page}{face:000200}しかたないわね {var:00}{page}おかね はらってあげるから{n}あんた いって みてきなさいよ{page}なにか おもしろそうな ことが あったら{n}あたしも いくから{end:00}",
-   "en": "{face:010002}The way you talk... Are you in the Rubberobo Gang!?{page}{face:003400}What's that? Nope, robo.{page}I just picked it up from the weird guys who come here, robo.{page}{face:010008}The Rubberobo Gang comes here?{page}{face:000200}I smell a scoop.{page}{face:003400}You riding or not, robo? Hurry up and decide, robo.{page}But I can only carry one person, robo.{page}{face:000200}Well, no choice, {var:00}.{page}I'll pay, so you go have a look.{page}If anything looks interesting, I'll come too.{end:00}",
+   "en": "{face:010002}The way you talk... Are you in the Rubberobo Gang!?{page}{face:003400}What's that? Nope, robo.{page}I just picked it up from the weird guys who come here, robo.{page}{face:010008}The Rubberobo Gang comes here?{page}{face:000200}I smell a scoop.{page}{face:003400}You riding or not, robo? Hurry up and decide, robo.{page}But I can only carry one person, robo.{page}{face:000200}Well, no choice, {var:00}.{page}I'll pay, so you go have a look.{page}If anything looks interesting,{n}I'll come too.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1018,7 +1018,7 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:002200}ねえ やまんばって しってる？{end:00}",
-   "en": "{face:002200}Hey, do you know what a mountain hag is?{end:00}",
+   "en": "{face:002200}Hey, do you know what{n}a mountain hag is?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1366,7 +1366,7 @@
    "kind": "ff",
    "bytes": 129,
    "jp": "{face:00FF00}ペキッ{page}{face:010000}なんだろ？ いまのおと{page}{face:003E03}ああーっ！！{page}コンタクトレンズを ふんだ でありますね！{page}{face:010000}えっ？ ご ごめんなさい{page}{face:003E03}ああっ！{page}おどろいたら もう1こも おとしたで ありますよっ！{page}むこうへ いっている であります！{end:00}",
-   "en": "{face:00FF00}CRACK!{page}{face:010000}What was that sound?{page}{face:003E03}Aaaah!!{page}You stepped on my contact lens, sir!{page}{face:010000}Huh? I-I'm sorry.{page}{face:003E03}Aah!{page}The shock made me drop the other one, sir!{page}Please go stand over there, sir!{end:00}",
+   "en": "{face:00FF00}CRACK!{page}{face:010000}What was that sound?{page}{face:003E03}Aaaah!!{page}You stepped on my contact lens, sir!{page}{face:010000}Huh? I-I'm sorry.{page}{face:003E03}Aah!{page}The shock made me drop{n}the other one, sir!{page}Please go stand over there, sir!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1918,7 +1918,7 @@
    "kind": "ff",
    "bytes": 252,
    "jp": "{face:001A00}これも なにかの えんかねぇ{page}いいよ ききたきゃ おしえてあげるさ{page}アタシには ナツコというまごがおって いっしょに{n}くらしてたんだよ{page}あるとき まいごになった ナツコを ヤナギが{n}たすけたのが であいさ{page}ところが ナツコが ここをでていくと ヤナギも{n}いなくなってしまった{page}どこで どうしているのかねぇ{page}{face:010000}そのヤナギって？{page}{face:001A00}ゆうれいの メダロットさ{page}{face:010008}ゆうれい！{page}{face:001A00}ヤナギのからだが しんぱいだよ{n}ぜんぜん かまってやってないからね{page}もう ボロボロなんじゃないかね{end:00}",
-   "en": "{face:001A00}Maybe fate brought us together, eh?{page}All right. If you want to know, I'll tell you.{page}I have a granddaughter named Natsuko. She used to live here with me.{page}One day, Natsuko got lost and Yanagi helped her. That's how they met.{page}But when Natsuko moved away, Yanagi disappeared too.{page}I wonder where he is and how he's doing.{page}{face:010000}Who's this Yanagi?{page}{face:001A00}A ghost Medabot.{page}{face:010008}A ghost!{page}{face:001A00}I'm worried about Yanagi's body.{n}I haven't tended to him at all.{page}He must be falling apart by now.{end:00}",
+   "en": "{face:001A00}Maybe fate brought us together, eh?{page}All right. If you want to know,{n}I'll tell you.{page}I have a granddaughter named Natsuko. She used to live here with me.{page}One day, Natsuko got lost and Yanagi helped her. That's how they met.{page}But when Natsuko moved away, Yanagi disappeared too.{page}I wonder where he is and how he's doing.{page}{face:010000}Who's this Yanagi?{page}{face:001A00}A ghost Medabot.{page}{face:010008}A ghost!{page}{face:001A00}I'm worried about Yanagi's body.{n}I haven't tended to him at all.{page}He must be falling apart by now.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2422,7 +2422,7 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:002800}カンちゃん のってイイって？{n}ナラ のってイイヨ・・・{page}のってく？{end:02}",
-   "en": "{face:002800}Kan-chan said you could RIDE? Then you can...{page}Want a RIDE?{end:02}",
+   "en": "{face:002800}Kan-chan said you could RIDE?{n}Then you can...{page}Want a RIDE?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -2986,7 +2986,7 @@
    "kind": "ff",
    "bytes": 180,
    "jp": "{face:000700}なにって？ おまえみたいな しんにゅうしゃを{n}おいだすために メダロットを ちょうせい・・・{page}{face:000701}ぷっ なんだ おまえ{n}おんなみたいな カッコウして{page}おまえ そーいうシュミが あったのか{page}{face:010008}ちがうよっ！ これは{page}{face:000701}ハハハ いいネタだぜ{n}アリカのヤツに とってもらえよ{page}{face:010002}ちがうって いってんだろっ！{page}{face:000701}お？ やるきかぁ？{end:00}",
-   "en": "{face:000700}What's it look like? Tuning up my Medabot to kick out intruders like you...{page}{face:000701}Pfft! What's with you, dressed up like a girl?{page}So you're into that stuff, huh?{page}{face:010008}No, I'm not! This is...{page}{face:000701}Hahaha! This is gold! Get Erika to take your picture!{page}{face:010002}I told you, it's not like that!{page}{face:000701}Oh? You wanna go?{end:00}",
+   "en": "{face:000700}What's it look like? Tuning up my Medabot to kick out intruders like you...{page}{face:000701}Pfft! What's with you,{n}dressed up like a girl?{page}So you're into that stuff, huh?{page}{face:010008}No, I'm not! This is...{page}{face:000701}Hahaha! This is gold! Get Erika to take your picture!{page}{face:010002}I told you, it's not like that!{page}{face:000701}Oh? You wanna go?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3538,7 +3538,7 @@
    "kind": "ff",
    "bytes": 232,
    "jp": "{face:000400}よう！ {var:00}{page}{face:010000}コウジに カリンちゃん{page}{face:000404}ジョソウは やめたのか？{page}{face:000200}え？{page}{face:010008}わーっ わーっ！{page}{face:000400}じけんは かいけつしたようだが{n}おれは なっとくしてねえ{page}あの へんなかっこうをした ヤツにもにげられたしな{page}{face:010000}それって かいとうレトルトのこと？{n}レトルトは かっこいいじゃないか！{page}{face:000405}・・・ヘンなヤツ{page}{face:000403}ともかくだ おまえとの けっちゃくは まだついてない{page}しょうぶは おあずけだからな！{n}いくぞ カリン{end:00}",
-   "en": "{face:000400}Hey, {var:00}!{page}{face:010000}Koji and Karin-chan!{page}{face:000404}Done dressing up as a girl?{page}{face:000200}Huh?{page}{face:010008}Waaah! Waaah!{page}{face:000400}Looks like the case is closed, but I'm still{n}not satisfied.{page}That weirdly dressed guy got away, too.{page}{face:010000}You mean Phantom Retort? Retort looks cool!{page}{face:000405}...You're a weirdo.{page}{face:000403}Anyway, things between us still aren't settled.{page}Our match is just on hold! Let's go, Karin!{end:00}",
+   "en": "{face:000400}Hey, {var:00}!{page}{face:010000}Koji and Karin-chan!{page}{face:000404}Done dressing up as a girl?{page}{face:000200}Huh?{page}{face:010008}Waaah! Waaah!{page}{face:000400}Looks like the case is closed, but I'm still{n}not satisfied.{page}That weirdly dressed guy got away, too.{page}{face:010000}You mean Phantom Retort?{n}Retort looks cool!{page}{face:000405}...You're a weirdo.{page}{face:000403}Anyway, things between us still aren't settled.{page}Our match is just on hold! Let's go, Karin!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3610,7 +3610,7 @@
    "kind": "ff",
    "bytes": 95,
    "jp": "{face:010008}みんなのと ちがう！？{n}そんな まさか！{page}どうなってんだ！？{page}{face:010000}こわれた パーツの しゅうりの ことも あるし{page}けんきゅうじょに いって{n}メダロットはかせに きいてみよう！{end:00}",
-   "en": "{face:010008}It's different from everyone else's!? No way!{page}What's going on!?{page}{face:010000}I've got that broken part to get repaired, too.{page}I'll go to the institute and ask Dr. Aki, the Medabot professor!{end:00}",
+   "en": "{face:010008}It's different from{n}everyone else's!? No way!{page}What's going on!?{page}{face:010000}I've got that broken part to get repaired, too.{page}I'll go to the institute and ask Dr. Aki, the Medabot professor!{end:00}",
    "status": "done",
    "notes": ""
   },

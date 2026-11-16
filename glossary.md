@@ -365,6 +365,7 @@ and an Avoid spelling fails.
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
 | なぞのベール | mystery | | idiom "shrouded in a veil of mystery", not the part Behr | |
+| ロボロボ トルトルロボトルトル | Robo-robo | | 4CDB37 chant on ロボトル (codes stripped, so the two lines run together): wordplay, not the gang name; controller exception after the b032 re-review | |
 
 ## Capped part names (10-byte name buffer; full form in notes)
 The b001 review asked for the full names; they don't fit the 10-cell name field (D11: widening ruled out), so each

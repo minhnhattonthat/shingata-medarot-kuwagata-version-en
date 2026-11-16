@@ -178,7 +178,7 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{var:00}は あたまパーツ{n}「{var:01}」を もってない{end:00}",
-   "en": "{var:00} doesn't have the head part{page}\"{var:01}\".{end:00}",
+   "en": "{var:00} doesn't have{n}the head part{page}\"{var:01}\".{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -214,7 +214,7 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{var:00}は きゃくぶパーツ{n}「{var:01}」を もってない{end:00}",
-   "en": "{var:00} doesn't have the Legs part{page}\"{var:01}\".{end:00}",
+   "en": "{var:00} doesn't have{n}the Legs part{page}\"{var:01}\".{end:00}",
    "status": "done",
    "notes": ""
   },

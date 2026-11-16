@@ -70,7 +70,7 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:002200}そういう わたしも けっこう すきだったりして♥{end:00}",
-   "en": "{face:002200}That said, I actually like them quite a bit too.{end:00}",
+   "en": "{face:002200}That said, I actually{n}like them quite a bit too.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -346,7 +346,7 @@
    "kind": "ff",
    "bytes": 67,
    "jp": "{face:003E00}いま ここでは パーツンラリーが かいさいちゅうで{n}あります！{page}あいことばを いうで あります！{page}{face:010005}え？ そんな・・{end:00}",
-   "en": "{face:003E00}The Parts'n Rally is now underway here, sir!{page}State the password, sir!{page}{face:010005}Huh? But I...{end:00}",
+   "en": "{face:003E00}The Parts'n Rally is{n}now underway here, sir!{page}State the password, sir!{page}{face:010005}Huh? But I...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -610,7 +610,7 @@
    "kind": "ff",
    "bytes": 66,
    "jp": "{face:010000}どうしたの？ アリカ{page}{face:000207}ね ねえ {var:00}{n}あの・・・っ あとでさぁ{page}{face:010000}なに？{page}{face:000207}なんでもっ{n}あとでねっ！{end:00}",
-   "en": "{face:010000}What's up, Erika?{page}{face:000207}H-hey, {var:00}. Um... later, could we...{page}{face:010000}What?{page}{face:000207}Nothing! See you later!{end:00}",
+   "en": "{face:010000}What's up, Erika?{page}{face:000207}H-hey, {var:00}.{n}Um... later, could we...{page}{face:010000}What?{page}{face:000207}Nothing! See you later!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -622,7 +622,7 @@
    "kind": "ff",
    "bytes": 244,
    "jp": "{face:000703}・・・と いうわけで{n}ロボロボだんに かわって おれらが{page}「しん・こどもおうこく」を つくってやるぜ！{page}{face:000603}だからぁ あんたたち あたしらの いうこと きくのよぉ{page}{face:010002}おまえら なに かってなこと いってんだよ！{page}{face:000602}ナニよぉ なにかっていうと じゃまばっかしして{page}あんた あたしらに なにか うらみでも あるわけぇ？{page}{face:010002}それは こっちの セリフだよ！{page}パーツンラリーの パーツを かけて{n}ロボトルしてもらうぞ！{page}{face:000602}なまいきなコねぇ やっちゃいなさい！{end:00}",
-   "en": "{face:000703}...So that's why we're taking over from the Rubberobo Gang!{page}We're gonna build the \"New Children's Kingdom\"!{page}{face:000603}Sooo, you all have to do what we say!{page}{face:010002}Hey! Who said you could make up the rules!?{page}{face:000602}Whaaat? You're always getting in our way!{page}Do you have some kind of grudge{n}against us?{page}{face:010002}That's my line!{page}You're going to Robattle me for that Parts'n Rally part!{page}{face:000602}What a cheeky brat! Get him!{end:00}",
+   "en": "{face:000703}...So that's why we're taking over from the Rubberobo Gang!{page}We're gonna build the \"New Children's Kingdom\"!{page}{face:000603}Sooo, you all have to do what we say!{page}{face:010002}Hey! Who said you could make up the rules!?{page}{face:000602}Whaaat?{n}You're always getting in our way!{page}Do you have some kind of grudge{n}against us?{page}{face:010002}That's my line!{page}You're going to Robattle me for that Parts'n Rally part!{page}{face:000602}What a cheeky brat! Get him!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -670,7 +670,7 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{face:010002}おまえらなぁ ひとを つかうなよ！{page}{face:000600}わかったわよぉ{n}じゃ つぎ{page}{face:000802}ひねりつぶす！{end:00}",
-   "en": "{face:010002}Hey! Stop making other people fight for you!{page}{face:000600}Fiiine. Next.{page}{face:000802}I'll crush you!{end:00}",
+   "en": "{face:010002}Hey! Stop making other people{n}fight for you!{page}{face:000600}Fiiine. Next.{page}{face:000802}I'll crush you!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -874,7 +874,7 @@
    "kind": "ff",
    "bytes": 200,
    "jp": "{face:010000}ねえ マルガリータ{page}プース・カフェと おなじメダロットは いったい なんにん{n}いるの？{page}{face:004101}1・2・3・・・{n}40・・・{page}んーっと わかんない{page}{face:010008}そっ そんなにっ！？{page}{face:010000}それで モッキンバードは どこに いったの？{page}{face:004100}いっつも あちこち いったりきたり してるんだけど・・・{n}さいきんは はなれこじまに いるって きいたの{page}{face:010005}はなれこじまか・・・{n}いってみるか{end:00}",
-   "en": "{face:010000}Hey, Margarita.{page}How many Medabots are there that look just like Pousse Cafe?{page}{face:004101}1, 2, 3... 40...{page}Ummm, I dunno.{page}{face:010008}Th-that many!?{page}{face:010000}So where did Mockingbird go?{page}{face:004100}He's always going here and there...{page}But I heard he's been on a little{n}outlying island lately.{page}{face:010005}An outlying island, huh...? I'll go take a look.{end:00}",
+   "en": "{face:010000}Hey, Margarita.{page}How many Medabots are there that look just like Pousse Cafe?{page}{face:004101}1, 2, 3... 40...{page}Ummm, I dunno.{page}{face:010008}Th-that many!?{page}{face:010000}So where did Mockingbird go?{page}{face:004100}He's always going here and there...{page}But I heard he's been on a little{n}outlying island lately.{page}{face:010005}An outlying island, huh...?{n}I'll go take a look.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1030,7 +1030,7 @@
    "kind": "ff",
    "bytes": 66,
    "jp": "{face:004200}わーい うみダ うみダ{page}{face:010000}ねぇ きみ もしかして{n}モッキンバード？{page}{face:004200}うン そーだヨ{n}キミも うみガ すき？{end:02}",
-   "en": "{face:004200}Yaaay! The sea! The sea!{page}{face:010000}Hey, are you Mockingbird, by any chance?{page}{face:004200}Yup, that's meee! Do you like the sea too?{end:02}",
+   "en": "{face:004200}Yaaay! The sea! The sea!{page}{face:010000}Hey, are you Mockingbird, by any chance?{page}{face:004200}Yup, that's meee!{n}Do you like the sea too?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -2350,7 +2350,7 @@
    "kind": "ff",
    "bytes": 50,
    "jp": "{face:001B00}うーん こんな ひとが いっぱいの ばしょは だめだな・・{n}そうだ ちかに いってみよう{end:00}",
-   "en": "{face:001B00}Hmm, too many people here. This won't do...{page}I know! I'll try underground.{end:00}",
+   "en": "{face:001B00}Hmm, too many people here.{n}This won't do...{page}I know! I'll try underground.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2542,7 +2542,7 @@
    "kind": "ff",
    "bytes": 227,
    "jp": "{face:000601}このパーツが ほしくないかい？{page}{face:010008}あっ そのパーツは・・・{n}いくら さがしても みつからなかった パーツだっ！{page}{face:000601}いままで メダロットはくぶつかんに かくしていたのよぅ{n}なんだったら あんたの もっている ぜんぶのパーツを{page}かけてなら ロボトルしてあげても いいんだけどね{n}どうするぅ？{page}{face:010002}かくしておくなんて ひきょうだぞっ！{n}そのロボトル うけてやるっ！{page}{face:000601}ふふっ わなに かかったねぇ{page}{face:000802}パンツの うらみっ！{end:00}",
-   "en": "{face:000601}Don't you want this part?{page}{face:010008}Oh! That part...{page}That's the one I couldn't find anywhere!{page}{face:000601}I've had it hidden in the Medabot Museum all this time.{page}If you put every part you have on the line,{page}I might be willing to Robattle you for it. What do you saaay?{page}{face:010002}Hiding it was a dirty trick! I'll take that Robattle!{page}{face:000601}Heh heh. You fell for our trap.{page}{face:000802}This is for my pants!{end:00}",
+   "en": "{face:000601}Don't you want this part?{page}{face:010008}Oh! That part...{page}That's the one I couldn't find anywhere!{page}{face:000601}I've had it hidden in the Medabot Museum all this time.{page}If you put every part you have{n}on the line,{page}I might be willing to Robattle you for it. What do you saaay?{page}{face:010002}Hiding it was a dirty trick! I'll take that Robattle!{page}{face:000601}Heh heh. You fell for our trap.{page}{face:000802}This is for my pants!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2674,7 +2674,7 @@
    "kind": "ff",
    "bytes": 58,
    "jp": "{face:001700}こら カリン よそみなんて はしたないぞ{n}おまえも はやく たべてしまいなさい{page}{face:000304}はい おとうさま{end:00}",
-   "en": "{face:001700}Karin, stop looking around. It's rude.{page}You should hurry and finish your food, too.{page}{face:000304}Yes, Father.{end:00}",
+   "en": "{face:001700}Karin, stop looking around. It's rude.{page}You should hurry{n}and finish your food, too.{page}{face:000304}Yes, Father.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2710,7 +2710,7 @@
    "kind": "ff",
    "bytes": 66,
    "jp": "{face:000404}たのしかったぜ ありがとな{page}{face:010004}きもちわるいから れいは いうなって{page}{face:000401}ははっ{n}じゃ かいじょうに いこうぜ！{end:00}",
-   "en": "{face:000404}That was fun. Thanks.{page}{face:010004}Don't thank me. It's weird coming from you.{page}{face:000401}Ha ha! Come on, let's head to the venue!{end:00}",
+   "en": "{face:000404}That was fun. Thanks.{page}{face:010004}Don't thank me.{n}It's weird coming from you.{page}{face:000401}Ha ha! Come on, let's head to the venue!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3058,7 +3058,7 @@
    "kind": "ff",
    "bytes": 162,
    "jp": "{face:000304}{var:00}くん{page}{face:010000}あ カリンちゃん{page}{face:000301}ふふっ あいかわらずですね{n}コウジくんは{page}{face:010005}ごめん{n}メダル もっていかれちゃった{page}{face:000305}ごめんなさい あれは・・・{page}{face:010000}え？{page}{face:000304}おはなしは あとで わたしの いえで しましょう{page}{face:010000}え？ あ うん{n}でも メダル・・・{page}{face:000304}それでは またあとで{end:00}",
-   "en": "{face:000304}{var:00}-kun.{page}{face:010000}Oh, Karin-chan.{page}{face:000301}Hee hee. Koji-kun never changes, does he?{page}{face:010005}Sorry. They got away with your Medal.{page}{face:000305}I'm sorry. About that...{page}{face:010000}Huh?{page}{face:000304}Let's talk about it at my house later.{page}{face:010000}Huh? Oh, okay. But the Medal...{page}{face:000304}I'll see you later, then.{end:00}",
+   "en": "{face:000304}{var:00}-kun.{page}{face:010000}Oh, Karin-chan.{page}{face:000301}Hee hee. Koji-kun{n}never changes, does he?{page}{face:010005}Sorry. They got away with your Medal.{page}{face:000305}I'm sorry. About that...{page}{face:010000}Huh?{page}{face:000304}Let's talk about it at my house later.{page}{face:010000}Huh? Oh, okay. But the Medal...{page}{face:000304}I'll see you later, then.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3130,7 +3130,7 @@
    "kind": "ff",
    "bytes": 102,
    "jp": "{face:000304}{var:00}くん{page}{face:010000}あ カリンちゃん{page}{face:000301}ふふっ あいかわらずですね{n}コウジくんは{page}{face:010004}メダルあったよ{n}はい カリンちゃん{page}{face:000304}ありがとう ございます{n}でもそれは もっていてください{end:00}",
-   "en": "{face:000304}{var:00}-kun.{page}{face:010000}Oh, Karin-chan.{page}{face:000301}Hee hee. Koji-kun never changes, does he?{page}{face:010004}I found the Medal. Here, Karin-chan.{page}{face:000304}Thank you very much. But please, keep it.{end:00}",
+   "en": "{face:000304}{var:00}-kun.{page}{face:010000}Oh, Karin-chan.{page}{face:000301}Hee hee. Koji-kun{n}never changes, does he?{page}{face:010004}I found the Medal. Here, Karin-chan.{page}{face:000304}Thank you very much. But please, keep it.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3382,7 +3382,7 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:010001}ずるいぞっ こんなときだけっ{end:00}",
-   "en": "{face:010001}No fair! You only say that when it suits you!{end:00}",
+   "en": "{face:010001}No fair! You only say that{n}when it suits you!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3430,7 +3430,7 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:000201}うふふふふふふふふふふ{page}{face:010001}あははははははははははは{end:00}",
-   "en": "{face:000201}Hee hee hee hee hee hee hee hee hee hee!{page}{face:010001}Ah ha ha ha ha ha ha ha ha ha ha ha!{end:00}",
+   "en": "{face:000201}Hee hee hee hee hee{n}hee hee hee hee hee!{page}{face:010001}Ah ha ha ha ha ha ha ha ha ha ha ha!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3442,7 +3442,7 @@
    "kind": "ff",
    "bytes": 38,
    "jp": "{face:000201}うふふふふふふふふふふふふ{page}{face:010001}あははははははははははははは{end:00}",
-   "en": "{face:000201}Hee hee hee hee hee hee hee hee hee hee hee hee!{page}{face:010001}Ah ha ha ha ha ha ha ha ha ha ha ha ha ha!{end:00}",
+   "en": "{face:000201}Hee hee hee hee hee hee hee hee hee hee hee hee!{page}{face:010001}Ah ha ha ha ha ha ha{n}ha ha ha ha ha ha ha!{end:00}",
    "status": "done",
    "notes": ""
   },

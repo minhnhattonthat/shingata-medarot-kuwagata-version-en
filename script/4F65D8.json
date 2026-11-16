@@ -178,7 +178,7 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:005000}すこしは ちゃんと べんきょうも しなさいよ{end:00}",
-   "en": "{face:005000}Make sure you do some proper studying too!{end:00}",
+   "en": "{face:005000}Make sure you do{n}some proper studying too!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -250,7 +250,7 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:002500}つぎは メダロットの パーツの ごしょうかいですっ{page}{face:010005}えっ？{end:00}",
-   "en": "{face:002500}Next, we have a Medabot part to show you!{page}{face:010005}Huh?{end:00}",
+   "en": "{face:002500}Next, we have a Medabot part{n}to show you!{page}{face:010005}Huh?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -442,7 +442,7 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "{face:010004}いいこだ ソルティ これから さんぽに{n}つれていってやるよ{page}{face:000500}ワン ワンッ！{end:00}",
-   "en": "{face:010004}Good boy, Salty. I'll take you for a walk now.{page}{face:000500}Woof! Woof!{end:00}",
+   "en": "{face:010004}Good boy, Salty.{n}I'll take you for a walk now.{page}{face:000500}Woof! Woof!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -514,7 +514,7 @@
    "kind": "ff",
    "bytes": 94,
    "jp": "{face:010000}ほるのは むりだから さがしてみよう{page}あっ・・・{n}この パーツ みたことある もしかして{page}ゴッドエンペラーの あたまパーツ！？{n}これって パーツンラリーの パーツじゃないか！？{end:00}",
-   "en": "{face:010000}I can't dig here, so I'll look around.{page}Oh... I've seen this part before. Could it be...{page}God Emperor's head part!? Isn't this a part from the Parts'n Rally!?{end:00}",
+   "en": "{face:010000}I can't dig here, so I'll look around.{page}Oh... I've seen this part before.{n}Could it be...{page}God Emperor's head part!? Isn't this a part from the Parts'n Rally!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -946,7 +946,7 @@
    "kind": "ff",
    "bytes": 154,
    "jp": "{face:001402}おめでとうございます{n}{var:00}くん{page}よく がんばりましたね{n}さすがですわ{page}{face:010007}いやぁ そんな{n}・・・そうですかぁ？{page}{face:001401}ふふっ{page}{face:001402}これから ひょうしょうしきを はじめますので{n}ひとまず おせきのほうへ どうぞ{page}{face:010001}はいっ{page}{face:001402}パーツは かくにんのため あずからせて もらいますね{end:00}",
-   "en": "{face:001402}Congratulations, {var:00}-kun!{page}You worked so hard. I knew you could do it.{page}{face:010007}Aw, it was nothing... ...You really think so?{page}{face:001401}Hee hee.{page}{face:001402}The awards ceremony is about to begin, so please take your seat for now.{page}{face:010001}Yes, ma'am!{page}{face:001402}I'll hold on to your parts so we can check them.{end:00}",
+   "en": "{face:001402}Congratulations, {var:00}-kun!{page}You worked so hard.{n}I knew you could do it.{page}{face:010007}Aw, it was nothing... ...You really think so?{page}{face:001401}Hee hee.{page}{face:001402}The awards ceremony is about to begin, so please take your seat for now.{page}{face:010001}Yes, ma'am!{page}{face:001402}I'll hold on to your parts so we can check them.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -970,7 +970,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:004E00}すべての パーツを そろえ ゆうしょうに かがやいたのは！{end:00}",
-   "en": "{face:004E00}The champion who collected every part is...!{end:00}",
+   "en": "{face:004E00}The champion who{n}collected every part is...!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1006,7 +1006,7 @@
    "kind": "ff",
    "bytes": 184,
    "jp": "{face:001B00}いや ごくろう ごくろう{n}{var:00}くん{page}きみは いだいなる わたしのために パーツを{n}あつめてくれたわけだよ{page}{face:000408}なにものだ！？{page}{face:001B01}ふっ ふふふふっ{n}わたしの なまえは シラタマ{page}このゲームの 「ドン」とも いうべき そんざいよ{page}このゲームを うんだ わたしは カミのような ものなのだ！{page}もう きみに ようはない{page}さあ！{n}カミの さばきを うけよ！{end:00}",
-   "en": "{face:001B00}Well done, well done, {var:00}-kun.{page}You have gathered the parts for my glorious self!{page}{face:000408}Who the heck are you!?{page}{face:001B01}Heh... Heh heh heh! My name is Shiratama.{page}You might call me the \"boss\" of this game.{page}I created this game! I am as a god!{page}I have no further use for you.{page}Now! Face divine judgment!{end:00}",
+   "en": "{face:001B00}Well done, well done,{n}{var:00}-kun.{page}You have gathered the parts for my glorious self!{page}{face:000408}Who the heck are you!?{page}{face:001B01}Heh... Heh heh heh! My name is Shiratama.{page}You might call me the \"boss\" of this game.{page}I created this game! I am as a god!{page}I have no further use for you.{page}Now! Face divine judgment!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1186,7 +1186,7 @@
    "kind": "ff",
    "bytes": 137,
    "jp": "{face:000404}よう {var:00}{n}おまえは くると おもってたぜ！{page}{face:000204}とうぜんよね {var:00}{page}こんな おいしい はなし みのがすはず ないじゃない？{page}{face:000600}ちょっとぉ {var:00}{page}あたしらには スクリューズって{n}なまえが あるんだから ちゃんと よびなさいよぉ{page}{face:000700}そーだ そーだ！{end:00}",
-   "en": "{face:000404}Hey, {var:00}! Knew you'd show up!{page}{face:000204}Of course, right, {var:00}?{page}You'd never pass up a chance this good!{page}{face:000600}Heeey, {var:00}!{page}We've got a name, you know! It's the Screws! Use it!{page}{face:000700}Yeah, that's right!{end:00}",
+   "en": "{face:000404}Hey, {var:00}!{n}Knew you'd show up!{page}{face:000204}Of course, right, {var:00}?{page}You'd never pass up a chance this good!{page}{face:000600}Heeey, {var:00}!{page}We've got a name, you know! It's the Screws! Use it!{page}{face:000700}Yeah, that's right!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1438,7 +1438,7 @@
    "kind": "ff",
    "bytes": 62,
    "jp": "{face:010000}ヒントが かいてある{page}「おくさま ショッピング？」{page}{face:010005}どこかで きいたことが あるような ないような・・・{end:00}",
-   "en": "{face:010000}There's a hint here.{page}\"Shopping for the lady of the house?\"{page}{face:010005}That sounds sort of familiar... Or does it?{end:00}",
+   "en": "{face:010000}There's a hint here.{page}\"Shopping for the lady of the house?\"{page}{face:010005}That sounds sort of familiar...{n}Or does it?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1462,7 +1462,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:010004}かわいい ぬいぐるみだけど ちょっと おおきいな・・・{end:00}",
-   "en": "{face:010004}It's a cute stuffed toy, but it's a little big...{end:00}",
+   "en": "{face:010004}It's a cute stuffed toy,{n}but it's a little big...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1858,7 +1858,7 @@
    "kind": "ff",
    "bytes": 95,
    "jp": "{face:000603}あらぁ？{n}かてるとか いってたわりには ぜんぜん ダメじゃなぁい？{page}まっ わかってたけどねぇ{n}もし かつつもりが あるんなら もういちど くらい{page}あいて してあげても いいわよぉ{end:00}",
-   "en": "{face:000603}Ohhh? For someone who said he'd win, you sure were hopeless!{page}Well, I knew that already. If you really want to win...{page}I suppose I could face you one more time.{end:00}",
+   "en": "{face:000603}Ohhh? For someone who said he'd win, you sure were hopeless!{page}Well, I knew that already. If you really want to win...{page}I suppose I could face you{n}one more time.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1930,7 +1930,7 @@
    "kind": "ff",
    "bytes": 181,
    "jp": "{face:001A00}{var:00}じゃないかえ？{n}ヒーッヒッヒ{page}{face:010004}こ こんにちは カンちゃん{page}あの きょう ここにきたのは パーツンラリーの・・・{page}{face:001A00}メダロポリスに いったっきりの ナツコは{n}どうしているかねぇ{page}しごとは うまくいってるのかねぇ{page}{face:010000}あの・・・{page}{face:001A00}そうじゃ！{page}{var:00}よ ナツコの{n}ようすを みてきてくれんか？{page}あのこの ようすを きかせておくれ{end:00}",
-   "en": "{face:001A00}Why, isn't it {var:00}? Hee hee hee!{page}{face:010004}H-hello, Kan-chan.{page}Um, I came here today for the Parts'n Rally...{page}{face:001A00}I wonder how Natsuko's doing.{page}She went off to Medalopolis and hasn't been back.{page}Is her job going well, I wonder?{page}{face:010000}Um...{page}{face:001A00}That's it!{page}{var:00}, could you go check on Natsuko for me?{page}Come tell me how that girl's doing.{end:00}",
+   "en": "{face:001A00}Why, isn't it {var:00}?{n}Hee hee hee!{page}{face:010004}H-hello, Kan-chan.{page}Um, I came here today for the Parts'n Rally...{page}{face:001A00}I wonder how Natsuko's doing.{page}She went off to Medalopolis and hasn't been back.{page}Is her job going well, I wonder?{page}{face:010000}Um...{page}{face:001A00}That's it!{page}{var:00}, could you go check on Natsuko for me?{page}Come tell me how that girl's doing.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1942,7 +1942,7 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:001A00}{var:00}じゃないかえ？{n}ヒーッヒッヒ{end:00}",
-   "en": "{face:001A00}Why, isn't it {var:00}? Hee hee hee!{end:00}",
+   "en": "{face:001A00}Why, isn't it {var:00}?{n}Hee hee hee!{end:00}",
    "status": "done",
    "notes": ""
   },

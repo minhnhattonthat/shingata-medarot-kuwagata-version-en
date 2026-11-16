@@ -442,7 +442,7 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:003000}たびさきの ほろにがい おもいでが できたよ{end:04}",
-   "en": "{face:003000}Now I have a bittersweet memory of my trip.{end:04}",
+   "en": "{face:003000}Now I have a bittersweet{n}memory of my trip.{end:04}",
    "status": "done",
    "notes": ""
   },

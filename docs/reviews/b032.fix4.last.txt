@@ -1,0 +1,4 @@
+FIXED: none.
+REJECTED: 4CDB37 - “Robo-robo” conflicts with the binding glossary entry ロボロボ → Rubberobo; the contextual exception requires controller approval.
+
+Checks: b032 OK / b033 OK / b034 OK.

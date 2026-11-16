@@ -7,6 +7,8 @@ gives the budget.
 - FE names: text width (font advances) <= px, encoded bytes (without the FE) <= bytes.
 - FF text: the engine's own word wrap is simulated (a word that would end past px goes to the next line; {n} breaks,
   {page} starts a page) and each page must fit in `lines`. {var:xx} counts as windows.json "vars"[xx] px.
+  A page of 2+ lines must not end in a stub line under STUB_PX (pipeline.md §Checks).
+- Every string a pointer reaches with Japanese text needs `en`, unless script/keep_jp.txt lists its id + reason.
 Warnings (not failures): translated strings whose variant is still a guess, and strings with an unknown character.
 --all also lints the marker text (tools/marker.py) instead of `en`, a self-test of the lint and the budgets.
 """
@@ -23,6 +25,7 @@ import marker  # noqa: E402
 WINDOWS = ROOT / "data" / "windows.json"
 SCRIPT = ROOT / "script"
 TOKEN = re.compile(r"(\{\w+(?::[0-9A-Fa-f]*)?\})")
+STUB_PX = 24  # a wrapped page whose last line is narrower than this (~4-5 letters) reads as an orphan
 
 
 def load_windows(path=WINDOWS):
@@ -87,8 +90,19 @@ def wrap_pages(text, budget, w, var_px):
     return pages, sorted(bad)
 
 
-def lint(entries, win, w):
-    """(errors, warnings) for [(table, entry, text)]."""
+def stub_page(text, budget, w, var_px):
+    """1-based number of the first page the engine's wrap (no {n} of the author's) ends in a line under STUB_PX."""
+    for i, page in enumerate(re.split(r"\{page\}", text)):
+        if "{n}" in page:
+            continue
+        lines = wrap_pages(page, budget, w, var_px)[0]
+        if lines and len(lines[0]) >= 2 and 0 < lines[0][-1] < STUB_PX:
+            return i + 1
+    return 0
+
+
+def lint(entries, win, w, stubs=True):
+    """(errors, warnings) for [(table, entry, text)]. stubs=False skips the stub-line rule (marker text)."""
     errors, warnings, guessed = [], [], {}
     var_px = win.get("vars", {})
     for table, e, text in entries:
@@ -117,11 +131,26 @@ def lint(entries, win, w):
                 if over:
                     errors.append(f"{where}: one word wider than {v['px']} px: {text}")
                     break
+            if stubs and (n := stub_page(text, v["px"], w, var_px)):
+                errors.append(f"{where}: page {n} wraps to a stub last line (rebalance with {{n}} or rephrase): {text}")
         if bad:
             warnings.append(f"{where}: characters not in the English font: {''.join(bad)}")
     for vname, n in sorted(guessed.items()):
         warnings.append(f"{n} translated strings in variant {vname!r}, whose budget is still a guess (measure it)")
     return errors, warnings
+
+
+def untranslated(root=SCRIPT):
+    """Ids a pointer reaches whose jp has text but en is empty, minus script/keep_jp.txt (id + reason per line)."""
+    keep_file = Path(root) / "keep_jp.txt"
+    keep = {ln.split()[0] for ln in keep_file.read_text(encoding="utf-8").splitlines()
+            if ln.strip() and not ln.startswith("#")} if keep_file.exists() else set()
+    out = []
+    for path in sorted(Path(root).glob("*.json")):
+        for e in json.loads(path.read_text(encoding="utf-8"))["strings"]:
+            if e["slots"] and not e.get("en") and TOKEN.sub("", e["jp"]).strip() and e["id"] not in keep:
+                out.append(f"{e['id']} ({path.stem}): no English: {e['jp']}")
+    return out
 
 
 def script_entries(use_marker=False, root=SCRIPT):
@@ -148,7 +177,9 @@ def main(argv=None):
     a = ap.parse_args(argv)
     win = load_windows()
     entries = script_entries(a.all)
-    errors, warnings = lint(entries, win, marker.widths())
+    errors, warnings = lint(entries, win, marker.widths(), stubs=not a.all)
+    if not a.all:
+        errors += untranslated()
     for line in errors:
         print("ERROR", line)
     if not a.quiet:

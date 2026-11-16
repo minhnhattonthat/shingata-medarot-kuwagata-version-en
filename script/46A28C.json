@@ -502,7 +502,7 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{fa:FF}チャージドレイン 〜しょうじょうをつける〜{n}あいての スピードをうばい じぶんの スピードをあげる{end:04}",
-   "en": "{fa:FF}Charge Drain - Applies a status.{page}Steals the enemy's speed to raise your own.{end:04}",
+   "en": "{fa:FF}Charge Drain - Applies a status.{page}Steals the enemy's speed{n}to raise your own.{end:04}",
    "status": "done",
    "notes": ""
   },

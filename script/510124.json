@@ -586,7 +586,7 @@
    "kind": "ff",
    "bytes": 52,
    "jp": "「ちけい」を かんがえた きゃくぶパーツを そうびして さいきょうの メダロッターを めざすのじゃ！{end:04}",
-   "en": "Equip Legs parts to suit the terrain,{page}and aim to be the best Medafighter, my boy!{end:04}",
+   "en": "Equip Legs parts to suit the terrain,{page}and aim to be the best{n}Medafighter, my boy!{end:04}",
    "status": "done",
    "notes": ""
   },

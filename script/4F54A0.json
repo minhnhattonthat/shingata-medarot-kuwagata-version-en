@@ -47,7 +47,7 @@
    "kind": "ff",
    "bytes": 193,
    "jp": "{face:010000}はかせ いま レトルトさんが・・・{page}{face:001302}ん？ うむ{n}きょうは いい てんきじゃな{page}{face:010000}ねえ はかせ どうして かくすんですか？{page}はかせと レトルトさんって しりあい なんでしょう？{page}{face:001300}そんなことよりも {var:00}{page}こんなところで あぶらを うっていても いいのか？{page}おまえさんには やるべきことが たくさん あるじゃろう？{page}{face:010000}はかせ！・・・はぁ もういいですよ{end:00}",
-   "en": "{face:010000}Professor, Retort-san was just...{page}{face:001302}Hm? Ah, yes. Lovely weather today, eh?{page}{face:010000}Come on, Professor. Why are you hiding it?{page}You and Retort-san know each other, don't you?{page}{face:001300}More importantly, {var:00},{page}should you really be lazing about here?{page}You've plenty of things to do, haven't you, my boy?{page}{face:010000}Professor! ...Sigh. Fine, forget it.{end:00}",
+   "en": "{face:010000}Professor, Retort-san was just...{page}{face:001302}Hm? Ah, yes. Lovely weather today, eh?{page}{face:010000}Come on, Professor.{n}Why are you hiding it?{page}You and Retort-san know each other, don't you?{page}{face:001300}More importantly, {var:00},{page}should you really be lazing about here?{page}You've plenty of things to do, haven't you, my boy?{page}{face:010000}Professor! ...Sigh. Fine, forget it.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -155,7 +155,7 @@
    "kind": "ff",
    "bytes": 131,
    "jp": "{face:000200}{var:00}じゃない{n}どうしたの？{page}{face:010000}それは こっちの セリフだよ{page}ハチロウの いえで あったとき アリカ なにも いわずに{n}かえっちゃうし{page}ロボロボだんが つかまったときも{n}いつもなら「スクープ！」って{page}やってきそうな ものなのに こなかったし・・・{end:00}",
-   "en": "{face:000200}Oh, {var:00}. What's up?{page}{face:010000}That's what I should be asking you.{page}Erika, when we met at Hachiro's house, you left without saying anything.{page}And when the Rubberobo Gang got caught, you'd usually come running,{page}yelling \"A scoop!\" But you didn't show up...{end:00}",
+   "en": "{face:000200}Oh, {var:00}. What's up?{page}{face:010000}That's what I should be asking you.{page}Erika, when we met at Hachiro's house, you left without saying anything.{page}And when the Rubberobo Gang got caught, you'd usually come running,{page}yelling \"A scoop!\"{n}But you didn't show up...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -407,7 +407,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:003E00}キミも おとなになったら くるであります！{end:00}",
-   "en": "{face:003E00}Come back when you're an adult, young man!{end:00}",
+   "en": "{face:003E00}Come back when you're{n}an adult, young man!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -719,7 +719,7 @@
    "kind": "ff",
    "bytes": 116,
    "jp": "{face:001600}どいてよ おにいちゃん{n}ぼく もう ロボロボだんとは かんけーないんだから！{page}{face:010000}あの・・・{page}{face:001600}どーしても きになるんだったら ボナパルトのぞうを{n}しらべてみなよ{page}セレクトたいじゃ みつけられない みたいだしさ{end:00}",
-   "en": "{face:001600}Move it, mister! I've got nothing to do with the Rubberobo Gang anymore!{page}{face:010000}Um...{page}{face:001600}If you're that curious, go check out the Bonaparte statue.{page}The Select Corps can't seem to figure it out.{end:00}",
+   "en": "{face:001600}Move it, mister! I've got nothing to do with the Rubberobo Gang anymore!{page}{face:010000}Um...{page}{face:001600}If you're that curious, go check out the Bonaparte statue.{page}The Select Corps{n}can't seem to figure it out.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -743,7 +743,7 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:001700}あっ モモコちゃん まってたんだよ{page}{face:002400}さっ いきましょう ボナちゃん{page}{face:001700}うん♥{end:00}",
-   "en": "{face:001700}Oh, Momoko-chan! I've been waiting for you.{page}{face:002400}Come on, Bona-chan. Let's go.{page}{face:001700}Sure, sweetheart!{end:00}",
+   "en": "{face:001700}Oh, Momoko-chan! I've{n}been waiting for you.{page}{face:002400}Come on, Bona-chan. Let's go.{page}{face:001700}Sure, sweetheart!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1499,7 +1499,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:010000}さあ！ いそいで{n}こどもたちを さがそう！{end:00}",
-   "en": "{face:010000}Okay! I'd better hurry and find those kids!{end:00}",
+   "en": "{face:010000}Okay! I'd better hurry{n}and find those kids!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2135,7 +2135,7 @@
    "kind": "ff",
    "bytes": 61,
    "jp": "{face:003E03}わっ！ な なんで{n}ありますか！{page}{face:003000}ロボトル ロボトル{page}{face:003E00}い いま それどころでは ないであります{end:00}",
-   "en": "{face:003E03}Wah! Wh-what is it!?{page}{face:003000}Robattle! Robattle!{page}{face:003E00}I-I have more pressing matters right now!{end:00}",
+   "en": "{face:003E03}Wah! Wh-what is it!?{page}{face:003000}Robattle! Robattle!{page}{face:003E00}I-I have more pressing matters{n}right now!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2147,7 +2147,7 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{face:003000}ロボロボ トルトル{n}ロボトルトル{page}{face:003E03}く くるなで ありますー！{end:00}",
-   "en": "{face:003000}Rubberobo, battle battle! Robattle-battle!{page}{face:003E03}S-stay awaaay!{end:00}",
+   "en": "{face:003000}Robo-robo, battle-battle!{n}Robattle-battle!{page}{face:003E03}S-stay awaaay, sir!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2243,7 +2243,7 @@
    "kind": "ff",
    "bytes": 80,
    "jp": "{face:000D04}ぜい ぜい ぜい{page}{face:010000}レトルトさん！{page}{face:000D00}こどもたちは ぶじに がくえんに ひなんできた ようだね{page}{var:00}くん{n}きょうりょくに かんしゃするよ{end:00}",
-   "en": "{face:000D04}Huff... Puff... Whew...{page}{face:010000}Retort-san!{page}{face:000D00}It seems the children have reached the academy safely.{page}{var:00}-kun, thank you for your help.{end:00}",
+   "en": "{face:000D04}Huff... Puff... Whew...{page}{face:010000}Retort-san!{page}{face:000D00}It seems the children have reached the academy safely.{page}{var:00}-kun,{n}thank you for your help.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2351,7 +2351,7 @@
    "kind": "ff",
    "bytes": 154,
    "jp": "{face:010000}これは？{page}{face:002200}げすいどうに いくつか マンホールが あったでしょ？{page}その1つが ひみつの しゅうかいじょうに つながってるの{page}おねがい{n}ロボロボだんを やっつけてよ！{page}{face:010004}わかった やってみる だから{n}もう ロボロボだん なんかに{page}なろうなんて かんがえるなよ{n}それじゃ ぼくは いくから{end:00}",
-   "en": "{face:010000}What's this?{page}{face:002200}You saw the manholes down in the sewers, right?{page}One of them leads to a secret meeting hall.{page}Please! Beat the Rubberobo Gang!{page}{face:010004}Okay, I'll try. So don't even think about{page}joining the Rubberobo Gang again. Well, I'd better go.{end:00}",
+   "en": "{face:010000}What's this?{page}{face:002200}You saw the manholes down in the sewers, right?{page}One of them leads{n}to a secret meeting hall.{page}Please! Beat the Rubberobo Gang!{page}{face:010004}Okay, I'll try. So don't even think about{page}joining the Rubberobo Gang again. Well, I'd better go.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3119,7 +3119,7 @@
    "kind": "ff",
    "bytes": 195,
    "jp": "{face:010000}なんだ それ？{page}{face:000400}いえでした こどもたちが かえって こないんだとさ{page}セレクトほんぶに いけば なにか わかるんじゃ ないか？{page}{face:010000}そっか とくダネに なりそうな じけんは{n}けっこう あるんだね{page}{face:000404}おまえ ヒマそうだし しらべてみろよ{page}{face:010000}コウジは？{page}{face:000404}がくえんちょうが ハチロウの おもりを しろってさ{page}{face:010004}そうなんだ うん わかった{n}ありがとう{end:00}",
-   "en": "{face:010000}What's that about?{page}{face:000400}Kids who've run away ain't coming home.{page}Maybe you can find something out at Select Corps HQ.{page}{face:010000}Oh, so there are plenty of cases that could make a scoop.{page}{face:000404}You look like you've got time. Go check it out.{page}{face:010000}What about you, Koji?{page}{face:000404}The headmaster told me to babysit Hachiro.{page}{face:010004}Oh, I see. Okay, got it. Thanks!{end:00}",
+   "en": "{face:010000}What's that about?{page}{face:000400}Kids who've run away ain't coming home.{page}Maybe you can find something out at Select Corps HQ.{page}{face:010000}Oh, so there are plenty of cases that could make a scoop.{page}{face:000404}You look like you've got time.{n}Go check it out.{page}{face:010000}What about you, Koji?{page}{face:000404}The headmaster told me to babysit Hachiro.{page}{face:010004}Oh, I see. Okay, got it. Thanks!{end:00}",
    "status": "done",
    "notes": ""
   },

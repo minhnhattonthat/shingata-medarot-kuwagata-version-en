@@ -46,7 +46,7 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "{face:002400}しんがたメダロッチが はつばいされたって{n}うちのこ コンビニに とんでいったわ{end:00}",
-   "en": "{face:002400}My girl heard the new Medawatch was out{page}and dashed to the convenience store!{end:00}",
+   "en": "{face:002400}My girl heard{n}the new Medawatch was out{page}and dashed to the convenience store!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -706,7 +706,7 @@
    "kind": "ff",
    "bytes": 85,
    "jp": "{face:010000}あの メダロッとうまでの チケットって{n}いくらなんですか？{page}{face:002500}もうしわけございませんが{n}チケットは カンバイいたしました{page}{face:010008}えっ！ きいてないよー{end:00}",
-   "en": "{face:010000}Um, how much is a ticket to Medabot Island?{page}{face:002500}I'm very sorry, but all tickets have sold out.{page}{face:010008}What!? Nobody told me!{end:00}",
+   "en": "{face:010000}Um, how much is a ticket to Medabot Island?{page}{face:002500}I'm very sorry, but{n}all tickets have sold out.{page}{face:010008}What!? Nobody told me!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -850,7 +850,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:000201}あは！ ママのほうが はしゃいじゃってるんじゃ{n}ないかしら{end:00}",
-   "en": "{face:000201}Haha! I think Mom's more excited than we are!{end:00}",
+   "en": "{face:000201}Haha! I think Mom's{n}more excited than we are!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -922,7 +922,7 @@
    "kind": "ff",
    "bytes": 228,
    "jp": "{face:002500}ゲームセンターいがいの アトラクションは{n}すべてむりょうと なっておりますので{page}おもいっきり たのしんでくださいね{page}ただいま ひだりてのおくにある ビックリサイトで{page}Aブロックの ロボトルよせんたいかいが{n}おこなわれて おります{page}ロボトルたいかいに さんかされる かたは{n}Bブロックの さんか とうろくを おいそぎください{page}ABブロックの たいかい しゅうりょうご{n}おおひろばで パレードが はじまります{page}{face:000204}へぇ パレードかぁ みたいなぁ{end:00}",
-   "en": "{face:002500}All attractions except the arcade are free of charge,{page}so please enjoy yourselves to the fullest.{page}At Surprise Site, at the far end on your left,{page}the Block A Robattle qualifiers are currently under way.{page}If you wish to enter the Robattle tournament, please hurry{page}and register for Block B.{page}Once the Block A and B tournaments end,{n}a parade will begin in the main plaza.{page}{face:000204}Ooh, a parade! I'd love to see it.{end:00}",
+   "en": "{face:002500}All attractions except the arcade are free of charge,{page}so please enjoy yourselves to the fullest.{page}At Surprise Site,{n}at the far end on your left,{page}the Block A Robattle qualifiers are currently under way.{page}If you wish to enter the Robattle tournament, please hurry{page}and register for Block B.{page}Once the Block A and B tournaments end,{n}a parade will begin in the main plaza.{page}{face:000204}Ooh, a parade! I'd love to see it.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1054,7 +1054,7 @@
    "kind": "ff",
    "bytes": 28,
    "jp": "{face:002400}あんまり はしゃいでると まいごに なるわよ{end:00}",
-   "en": "{face:002400}If you get too carried away, you'll get lost!{end:00}",
+   "en": "{face:002400}If you get too carried away,{n}you'll get lost!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1762,7 +1762,7 @@
    "kind": "ff",
    "bytes": 78,
    "jp": "{face:004A00}ヘイ ユー！{page}{face:010005}またあってしまった・・・{page}{face:004A00}ユーに あったら ロボトル ファイトなのね！{page}{face:010006}ちょっと！ まだ しあいは・・・！{end:00}",
-   "en": "{face:004A00}Hey, you!{page}{face:010005}We meet again...{page}{face:004A00}When I meet you, it is Robattle fight, yes!{page}{face:010006}Wait! The match hasn't...!{end:00}",
+   "en": "{face:004A00}Hey, you!{page}{face:010005}We meet again...{page}{face:004A00}When I meet you,{n}it is Robattle fight, yes!{page}{face:010006}Wait! The match hasn't...!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1918,7 +1918,7 @@
    "kind": "ff",
    "bytes": 60,
    "jp": "{face:004E00}だい1かいせん{n}ウィナー{var:00}くん！{page}{face:000206}えー あたしのまけかぁ{n}でも パレードには つきあってもらうわよ{end:00}",
-   "en": "{face:004E00}Round one! The winner is {var:00}-kun!{page}{face:000206}Aww, I lost? You're still coming to the parade with me!{end:00}",
+   "en": "{face:004E00}Round one!{n}The winner is {var:00}-kun!{page}{face:000206}Aww, I lost? You're still coming to the parade with me!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1942,7 +1942,7 @@
    "kind": "ff",
    "bytes": 54,
    "jp": "{face:004E00}だい2かいせん{n}ウィナー {var:00}くん！{page}{face:000301}ありがとうございました{n}べんきょうに なりましたわ{end:00}",
-   "en": "{face:004E00}Round two! The winner is {var:00}-kun!{page}{face:000301}Thank you very much. I've learned a great deal.{end:00}",
+   "en": "{face:004E00}Round two!{n}The winner is {var:00}-kun!{page}{face:000301}Thank you very much.{n}I've learned a great deal.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2518,7 +2518,7 @@
    "kind": "ff",
    "bytes": 263,
    "jp": "{face:000400}{var:00}！{n}いいところで あった{page}{face:010000}コウジ{page}{face:000400}やっぱり おまえも きてたのか{n}おまえんとこも かぞくづれか？{page}{face:010005}え・・・いや その{page}{face:000400}ちがうのか？{page}{face:010005}う・・・コ コウジ{n}ぼくに なにか ようが あったんじゃ？{page}{face:000400}そうそう {var:00}{page}ロボロボだんの ヤツらを みなかったか？{page}あいつら こどもの メダルをうばって{n}にげて いきやがったんだ！{page}{face:010000}それなら このさきに いるはずだよ{n}さっきにげてったから{page}{face:000400}なんだ おまえも おいかけてたのか{page}{face:000403}それじゃ ぜんは いそげだ！{end:00}",
-   "en": "{face:000400}{var:00}! Good timing!{page}{face:010000}Koji!{page}{face:000400}So you came too, huh? Here with your family?{page}{face:010005}Uh... No, well...{page}{face:000400}You're not?{page}{face:010005}Um... K-Koji, didn't you want something from me?{page}{face:000400}Oh, right, {var:00}.{page}Have you seen those Rubberobo Gang creeps?{page}They stole some kids' Medals and ran off!{page}{face:010000}They should be up ahead. They just ran that way.{page}{face:000400}Oh, so you were chasing them too?{page}{face:000403}Then let's not waste any time!{end:00}",
+   "en": "{face:000400}{var:00}! Good timing!{page}{face:010000}Koji!{page}{face:000400}So you came too, huh?{n}Here with your family?{page}{face:010005}Uh... No, well...{page}{face:000400}You're not?{page}{face:010005}Um... K-Koji, didn't you want something from me?{page}{face:000400}Oh, right, {var:00}.{page}Have you seen those{n}Rubberobo Gang creeps?{page}They stole some kids' Medals{n}and ran off!{page}{face:010000}They should be up ahead. They just ran that way.{page}{face:000400}Oh, so you were chasing them too?{page}{face:000403}Then let's not waste any time!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2722,7 +2722,7 @@
    "kind": "ff",
    "bytes": 171,
    "jp": "{face:002200}ねえ おにぃちゃん わたしのせいで{n}デートが ダメに なっちゃったの？{page}{face:010004}そんなんじゃないって{n}だいじょうぶだよ ハハハ・・・{page}{face:002200}やさしいんだね おにいちゃんは{page}でも やさしい ひとって そんをするって{n}ママが いってた{page}だけど わたし やさしい ひとって だいすきよ♥{page}これ おにいちゃんに あげる！{n}がんばってね！{end:00}",
-   "en": "{face:002200}Hey, mister... Did I ruin your date?{page}{face:010004}It's nothing like that! Don't worry. Ha ha ha...{page}{face:002200}You're really nice, mister.{page}But Mommy says nice people always lose out.{page}Still, I really like nice people!{page}Here, this is for you! Good luck!{end:00}",
+   "en": "{face:002200}Hey, mister... Did I ruin your date?{page}{face:010004}It's nothing like that!{n}Don't worry. Ha ha ha...{page}{face:002200}You're really nice, mister.{page}But Mommy says{n}nice people always lose out.{page}Still, I really like nice people!{page}Here, this is for you! Good luck!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3670,7 +3670,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:010005}ならんでるなぁ{n}いま なかに はいるのは あきらめよう{end:00}",
-   "en": "{face:010005}What a line... Guess I won't go in right now.{end:00}",
+   "en": "{face:010005}What a line...{n}Guess I won't go in right now.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3874,7 +3874,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:002500}またの ごらいじょうを{n}こころより おまちしております{end:00}",
-   "en": "{face:002500}We sincerely look forward to your next visit.{end:00}",
+   "en": "{face:002500}We sincerely look forward{n}to your next visit.{end:00}",
    "status": "done",
    "notes": ""
   }

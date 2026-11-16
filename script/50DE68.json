@@ -257,7 +257,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "きょうはとくべつに わたしが おあいてしましょう！{end:02}",
-   "en": "Today, I'll give you the honor of facing me!{end:02}",
+   "en": "Today, I'll give you the honor{n}of facing me!{end:02}",
    "status": "done",
    "notes": ""
   },

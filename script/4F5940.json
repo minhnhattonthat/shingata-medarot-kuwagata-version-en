@@ -538,7 +538,7 @@
    "kind": "ff",
    "bytes": 130,
    "jp": "{face:010000}まって！ ぼくが つかまえた やつらも いっしょに！{page}{face:004500}わかっておりますじゃ ゆうしゃさま{page}あやつらは あとで ちゃんと おくりかえしますじゃ{page}コホン{page}では ちょう1000ねんの ときを こえ！{n}ゆうしゃを もとの せかいへと かえしたまえ！{end:00}",
-   "en": "{face:010000}Wait! Send the guys I caught back with me!{page}{face:004500}I understand, O hero.{page}I shall see to it that they{n}are sent back afterward.{page}Ahem.{page}Now, across a thousand years and more!{n}Return the hero to his own world!{end:00}",
+   "en": "{face:010000}Wait! Send the guys{n}I caught back with me!{page}{face:004500}I understand, O hero.{page}I shall see to it that they{n}are sent back afterward.{page}Ahem.{page}Now, across a thousand years and more!{n}Return the hero to his own world!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1762,7 +1762,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:004500}おつかれさまですじゃ{n}ろうやには まものが 1ぴきですじゃ{end:00}",
-   "en": "{face:004500}Much obliged. There is 1 monster in the cell.{end:00}",
+   "en": "{face:004500}Much obliged. There is{n}1 monster in the cell.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2674,7 +2674,7 @@
    "kind": "ff",
    "bytes": 135,
    "jp": "{face:004300}ぼく ブルーハワイの てしたに おかし とられた！{page}{face:004500}おねがいですじゃ ゆうしゃさま{n}やつらを こらしめてくだされ！{page}{face:010005}・・・と いわれても{page}{face:004500}みなのもの それぐらいにして さるがよい！{page}きっと ゆうしゃさまが なんとかしてくださるだろう！{end:00}",
-   "en": "{face:004300}One of Blue Hawaii's servants took my candy!{page}{face:004500}Please, noble hero! Teach those scoundrels a lesson, I beg you!{page}{face:010005}...But even if you ask me...{page}{face:004500}That is enough, everyone! Be on your way!{page}Surely our hero shall set things right!{end:00}",
+   "en": "{face:004300}One of Blue Hawaii's servants took my candy!{page}{face:004500}Please, noble hero! Teach those scoundrels a lesson, I beg you!{page}{face:010005}...But even if you ask me...{page}{face:004500}That is enough, everyone!{n}Be on your way!{page}Surely our hero shall set things right!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2806,7 +2806,7 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:004300}いま ひめい きこえた{n}まもの でたか？{end:00}",
-   "en": "{face:004300}Heard a scream just now. Monster show up?{end:00}",
+   "en": "{face:004300}Heard a scream just now.{n}Monster show up?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2914,7 +2914,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:004400}そこは げんざい つかわれて おりませんわ{end:00}",
-   "en": "{face:004400}That area is not in use at present, you see.{end:00}",
+   "en": "{face:004400}That area is not in use{n}at present, you see.{end:00}",
    "status": "done",
    "notes": ""
   },

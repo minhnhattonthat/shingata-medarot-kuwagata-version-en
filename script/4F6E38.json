@@ -472,7 +472,7 @@
    "kind": "ff",
    "bytes": 100,
    "jp": "{face:004100}なぁに？ ゆうしゃさま{page}{face:010000}みんなが うみの まものだっていう ブルーハワイの{n}しょうたいだけど{page}それは ぼくと このせかいに いっしょに とばされてきた{n}ロボロボだんだと おもうんだ{end:00}",
-   "en": "{face:004100}What is it, great hero?{page}{face:010000}About Blue Hawaii, the one everyone calls a sea monster...{page}I think it's really the Rubberobo Gang.{page}They were sent to this world along with me.{end:00}",
+   "en": "{face:004100}What is it, great hero?{page}{face:010000}About Blue Hawaii, the one everyone calls a sea monster...{page}I think it's really the Rubberobo Gang.{page}They were sent to this world{n}along with me.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -532,7 +532,7 @@
    "kind": "ff",
    "bytes": 67,
    "jp": "{face:004500}これは ゆうしゃさま！{n}どうやって ここに はいったんですじゃ？{page}それに となりに いるのは まものでは{n}ありませんか！？{end:00}",
-   "en": "{face:004500}Oh, great hero! How did you get in here, eh?{page}And isn't that a monster beside you!?{end:00}",
+   "en": "{face:004500}Oh, great hero!{n}How did you get in here, eh?{page}And isn't that a monster beside you!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -772,7 +772,7 @@
    "kind": "ff",
    "bytes": 62,
    "jp": "{face:004500}おとこたちは みんな うみに りょうに でとってのぉ{page}ここは としよりと おんな それに こども{n}ばかりなんじゃ{end:00}",
-   "en": "{face:004500}All the men are out fishing at sea, you see.{page}There's naught but us old folk, women and children here.{end:00}",
+   "en": "{face:004500}All the men are out fishing{n}at sea, you see.{page}There's naught but us old folk, women and children here.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1048,7 +1048,7 @@
    "kind": "ff",
    "bytes": 220,
    "jp": "{face:010006}ちっ ちがうよっ！{n}しんじられないかも しれないけど{page}メダロポリスの ちかには かいていの いせきが{n}あったんだ！{page}そこで とびらを あけたぼくは みずびたしに・・・{page}{face:000405}かいていだぁ？{n}ねぼけてんじゃねーよ！{page}かいていの スイアツってもんを かんがえて みろよ{n}んなとこで とびらを あけるってことは おまえのうえに{page}なん100トンの おもりが のっかるような もんだぜ？{n}おまえなんか いっしゅんで ぺちゃんこだっての！{end:00}",
-   "en": "{face:010006}N-no, I didn't! You might not believe me,{page}but there were undersea ruins beneath Medalopolis!{page}I opened a door there and got soaked...{page}{face:000405}Undersea? Wake up, will ya!{page}Think about the water pressure down there!{page}Opening a door there would be like{page}having hundreds of tons dropped on you!{page}You'd be squashed flat in a second!{end:00}",
+   "en": "{face:010006}N-no, I didn't! You might not believe me,{page}but there were undersea ruins beneath Medalopolis!{page}I opened a door there and got soaked...{page}{face:000405}Undersea? Wake up, will ya!{page}Think about the water pressure down there!{page}Opening a door there would be like{page}having hundreds of tons{n}dropped on you!{page}You'd be squashed flat in a second!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1216,7 +1216,7 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "{face:000402}ハチロウを だすまで かえるもんか！{page}おれは ハチロウを とっちめて やらないと きが{n}すまねえんだ！{end:00}",
-   "en": "{face:000402}I'm not leaving until you bring Hachiro out!{page}I won't be satisfied till I've taught him a lesson!{end:00}",
+   "en": "{face:000402}I'm not leaving{n}until you bring Hachiro out!{page}I won't be satisfied till I've taught him a lesson!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1444,7 +1444,7 @@
    "kind": "ff",
    "bytes": 207,
    "jp": "{face:000A00}おぼっちゃま{n}しんぱい いたしましたよ{page}{face:000902}ごめんヒツジ あのね{n}いままでのこと みんなボクが・・・{page}{face:000A00}ぞんじあげて おりました{page}しかし おぼっちゃまには なにもして さしあげられず・・・{page}{face:000902}ヒツジ・・・ごめんね{n}ボク いいこに なるから{page}きっと いいこに なるから{page}{face:000A00}おぼっちゃま{page}{face:010004}コウジって やつ ともだちに どう？{page}こいつ くちは わるいけど ともだちおもい だから{end:00}",
-   "en": "{face:000A00}Young master, I was so worried about you.{page}{face:000902}Sorry, Butter. You know,{n}all those things... It was me...{page}{face:000A00}I was aware, sir.{page}And yet, I was unable to do anything to help you...{page}{face:000902}Butter... I'm sorry. I'll be good.{page}I promise I'll be good.{page}{face:000A00}Young master...{page}{face:010004}How about having this guy Koji as a friend?{page}He's got a sharp tongue, but he cares about his friends.{end:00}",
+   "en": "{face:000A00}Young master,{n}I was so worried about you.{page}{face:000902}Sorry, Butter. You know,{n}all those things... It was me...{page}{face:000A00}I was aware, sir.{page}And yet, I was unable to do anything to help you...{page}{face:000902}Butter... I'm sorry. I'll be good.{page}I promise I'll be good.{page}{face:000A00}Young master...{page}{face:010004}How about having this guy Koji as a friend?{page}He's got a sharp tongue, but he cares about his friends.{end:00}",
    "status": "done",
    "notes": ""
   },

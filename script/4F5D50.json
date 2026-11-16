@@ -336,7 +336,7 @@
    "kind": "ff",
    "bytes": 150,
    "jp": "{face:010000}ふーん そう ところでさ・・・{page}アリカと カリンちゃん しらない？{page}{face:000400}ふーんって・・・ずいぶんだな{n}まあ いいけどさ・・・{page}でも おれは ちかに いたんだぜ？{n}アリカちゃんや・・・{page}{face:000408}カリンが どうかしたのかっ！？{page}{face:010006}アリカも カリンちゃんも ゆくえが わからないんだ！{end:00}",
-   "en": "{face:010000}Huh. Okay. Anyway...{page}Do you know where Erika and Karin-chan are?{page}{face:000400}\"Huh\"? That's all I get? Well, whatever...{page}I was underground, ya know! Erika-chan and...{page}{face:000408}Did something happen to Karin!?{page}{face:010006}I don't know where Erika or Karin-chan is!{end:00}",
+   "en": "{face:010000}Huh. Okay. Anyway...{page}Do you know where{n}Erika and Karin-chan are?{page}{face:000400}\"Huh\"? That's all I get? Well, whatever...{page}I was underground, ya know! Erika-chan and...{page}{face:000408}Did something happen to Karin!?{page}{face:010006}I don't know where Erika or Karin-chan is!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -400,7 +400,7 @@
    "kind": "ff",
    "bytes": 136,
    "jp": "{face:003C01}がっはははははははははははははは！！{page}みなのものに つぐ{n}このまちは ワシが せんきょした{page}すべての ものは ワシの あしもとに ひざまずくのじゃ！{page}{face:010008}このこえ！ ヘベレケはかせ！{n}なにが どうなってんだ！？{page}{face:003C00}それと・・・きいておるか！{n}{var:00}！！{end:00}",
-   "en": "{face:003C01}Gwahahahahahahahahaha!!{page}Hear me, everyone! This town is now under my control!{page}All of you shall kneel at my feet!{page}{face:010008}That voice! Dr. Meta-Evil! What's going on!?{page}{face:003C00}And... Are you listening, {var:00}!?{end:00}",
+   "en": "{face:003C01}Gwahahahahahahahahaha!!{page}Hear me, everyone! This town is now under my control!{page}All of you shall kneel at my feet!{page}{face:010008}That voice! Dr. Meta-Evil!{n}What's going on!?{page}{face:003C00}And... Are you listening, {var:00}!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -740,7 +740,7 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{face:000405}ちっ なんなんだ コイツら！{n}そらから ふってきたと おもったら{page}しつこく からんできやがる！{end:00}",
-   "en": "{face:000405}Tch! What's with these guys!? First they fall outta the sky...{page}Then they won't quit picking fights with me!{end:00}",
+   "en": "{face:000405}Tch! What's with these guys!? First they fall outta the sky...{page}Then they won't quit{n}picking fights with me!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -776,7 +776,7 @@
    "kind": "ff",
    "bytes": 169,
    "jp": "{face:000400}やれやれ まったく なんだったんだよ ヤツらは{page}とつぜん ふってきやがって！{page}{face:010000}ヘベレケはかせの しわざかな{n}やっぱり{page}{face:000400}ひとさわがせな じーさんだ{page}おまえは とっとと メダロットけんきゅうじょにでも{n}いって あのじーさんを ぶちのめす ほうほうを{page}しらべてこい！{page}ここは おまえなしでも おれが なんとかするぜ！{end:00}",
-   "en": "{face:000400}Sheesh! What the heck was with those guys?{page}Falling outta nowhere like that!{page}{face:010000}I guess Dr. Meta-Evil's behind it after all.{page}{face:000400}That old geezer's nothing but trouble.{page}Hurry to the Medabot Research Institute or somewhere...{page}And find out how to beat that geezer!{page}I can handle things here without you!{end:00}",
+   "en": "{face:000400}Sheesh! What the heck was with those guys?{page}Falling outta nowhere like that!{page}{face:010000}I guess Dr. Meta-Evil's{n}behind it after all.{page}{face:000400}That old geezer's nothing but trouble.{page}Hurry to the Medabot Research Institute or somewhere...{page}And find out how to beat that geezer!{page}I can handle things here without you!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -800,7 +800,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:003E03}メダロットが とつぜん そらから ふってきたで あります！{end:00}",
-   "en": "{face:003E03}Medabots suddenly fell out of the sky, sir!{end:00}",
+   "en": "{face:003E03}Medabots suddenly fell{n}out of the sky, sir!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -824,7 +824,7 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:003E03}そらから とつぜん メダロットが ふってきたで あります！{page}びっくりしたで あります{end:00}",
-   "en": "{face:003E03}Medabots suddenly fell out of the sky, sir!{page}It gave me quite a fright, sir!{end:00}",
+   "en": "{face:003E03}Medabots suddenly fell{n}out of the sky, sir!{page}It gave me quite a fright, sir!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1005,7 +1005,7 @@
    "kind": "ff",
    "bytes": 252,
    "jp": "{face:001300}しってるも なにも・・・{n}やつと わしは かつての がくゆうよ{page}{face:001303}むかしから やつとは けんかが たえんかったわい{page}{face:010008}そうだったんですか{page}{face:001300}やつの ところへ いくには 「かぜのつばさ」が{n}ひつようじゃ{page}{face:010000}「かぜのつばさ」？{page}{face:001300}メダロットで そらを とぶために ひつような{n}アイテムじゃよ{page}{face:010006}じゃあ！ はやくっ！！ そのっ・・・{page}{face:001302}まあ まて そうあせるな{page}「かぜのつばさ」は ナエに あずけてある{page}ナエのけんきゅうしつに いって もらって くるがよい{end:00}",
-   "en": "{face:001300}Know him? We were schoolmates long ago.{page}{face:001303}We were always fighting, even back then!{page}{face:010008}Really?{page}{face:001300}You'll need Wind Wings to reach him, my boy.{page}{face:010000}Wind Wings?{page}{face:001300}An item you need to fly through the sky with a Medabot.{page}{face:010006}Then! Hurry!! Please...!{page}{face:001302}Now, now. Don't be so hasty.{page}I left the Wind Wings with Natalie.{page}Go to Natalie's lab and get them from her.{end:00}",
+   "en": "{face:001300}Know him? We were schoolmates long ago.{page}{face:001303}We were always fighting, even back then!{page}{face:010008}Really?{page}{face:001300}You'll need Wind Wings{n}to reach him, my boy.{page}{face:010000}Wind Wings?{page}{face:001300}An item you need to fly through the sky with a Medabot.{page}{face:010006}Then! Hurry!! Please...!{page}{face:001302}Now, now. Don't be so hasty.{page}I left the Wind Wings with Natalie.{page}Go to Natalie's lab{n}and get them from her.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1089,7 +1089,7 @@
    "kind": "ff",
    "bytes": 107,
    "jp": "{face:010000}ヘベレケはかせが ほしがってた フユーンストーンや{page}コーダインおうこくとは いったい どんな かんけい{n}なんだろ？{page}{face:010002}さあ ここからは なにが おこるか わからないぞ！{page}きをいれて すすまなきゃ！{end:00}",
-   "en": "{face:010000}How is it connected to the Fuyun Stone Dr. Meta-Evil wanted...{page}And the Kingdom of Kodine?{page}{face:010002}Okay, anything could happen from here on!{page}I'd better stay sharp!{end:00}",
+   "en": "{face:010000}How is it connected to the Fuyun Stone Dr. Meta-Evil wanted...{page}And the Kingdom of Kodine?{page}{face:010002}Okay, anything could happen{n}from here on!{page}I'd better stay sharp!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2063,7 +2063,7 @@
    "kind": "ff",
    "bytes": 247,
    "jp": "{face:002800}ミンナが おかしく なっちゃった！{n}どっ どうしようっ！？{page}{face:010008}きみは ショウキなんだね！{n}ねえ いったい どうなってるの？{page}{face:002800}わかんないよ ボク おへやの おソウジ サボった{n}バツとして おひるぬきで おソウジ してたんだ{page}そしたら ケイホウがなって{page}ミンナが おかしく なっちゃった！{page}{face:010000}おひるって あの オイルのことかな{n}・・・そのオイルを のんでない{page}この メダロットだけが くるってないと すると・・・{page}{face:010008}オイルのなかに なにか はいってたのかな！？{end:00}",
-   "en": "{face:002800}Everyone's gone crazy! Wh-what do I do!?{page}{face:010008}You're still yourself!{n}Hey, what's going on?{page}{face:002800}I don't know! I skipped cleaning the room.{page}So I had to clean it without lunch.{page}Then the alarm went off...{page}And everyone went crazy!{page}{face:010000}By lunch, he means that oil, right?{n}He didn't drink any...{page}If this Medabot is the only one{n}who hasn't gone crazy...{page}{face:010008}Was there something in that oil!?{end:00}",
+   "en": "{face:002800}Everyone's gone crazy!{n}Wh-what do I do!?{page}{face:010008}You're still yourself!{n}Hey, what's going on?{page}{face:002800}I don't know! I skipped cleaning the room.{page}So I had to clean it without lunch.{page}Then the alarm went off...{page}And everyone went crazy!{page}{face:010000}By lunch, he means that oil, right?{n}He didn't drink any...{page}If this Medabot is the only one{n}who hasn't gone crazy...{page}{face:010008}Was there something in that oil!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2440,7 +2440,7 @@
    "kind": "ff",
    "bytes": 135,
    "jp": "{face:003C01}ワシが ようがあるのは おぬしらと{n}したしい {var:00}じゃ！{page}どっちが より したしいのか わからなかったが{n}りょうほう さらっておけば どっちか せいかいじゃろう！{page}おぬしらを エサに おびきだし やつめを{n}けっちょんけっちょんに たたきのめして やるのじゃ！{end:00}",
-   "en": "{face:003C01}It is your dear friend {var:00} I want!{page}I wasn't sure which of you was closer to him.{page}But kidnap both, and one must be right, eh!{page}I'll use you as bait to lure him here,{n}then beat him to a pulp!{end:00}",
+   "en": "{face:003C01}It is your dear friend {var:00} I want!{page}I wasn't sure which of you{n}was closer to him.{page}But kidnap both,{n}and one must be right, eh!{page}I'll use you as bait to lure him here,{n}then beat him to a pulp!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2668,7 +2668,7 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{face:005001}はやく きがえてらっしゃい！{page}あんたの きがえは ベッドのしたに はいってるから{end:00}",
-   "en": "{face:005001}Hurry up and get changed!{page}Your change of clothes is under your bed.{end:00}",
+   "en": "{face:005001}Hurry up and get changed!{page}Your change of clothes{n}is under your bed.{end:00}",
    "status": "done",
    "notes": ""
   },

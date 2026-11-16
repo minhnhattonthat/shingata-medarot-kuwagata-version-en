@@ -71,7 +71,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:001700}いやぁ Bブロックの ロボトルも すごいねぇ{page}がんばりたまえよ きみ！{end:00}",
-   "en": "{face:001700}My, the Block B Robattles are amazing, too!{page}Give it your best, lad!{end:00}",
+   "en": "{face:001700}My, the Block B Robattles{n}are amazing, too!{page}Give it your best, lad!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -95,7 +95,7 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:001800}よく がんばったねぇ{n}えらいわねぇ{end:00}",
-   "en": "{face:001800}You worked so hard, dear! I'm proud of you.{end:00}",
+   "en": "{face:001800}You worked so hard, dear!{n}I'm proud of you.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1139,7 +1139,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:001700}むかしは よく{n}チャンバラごっこで あそんだよ{end:00}",
-   "en": "{face:001700}I used to play at sword fighting all the time.{end:00}",
+   "en": "{face:001700}I used to play{n}at sword fighting all the time.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2579,7 +2579,7 @@
    "kind": "ff",
    "bytes": 166,
    "jp": "{face:000603}あらぁ {var:00}{n}いーもの もってるじゃなぁい？{page}{face:010000}え？ これ？{page}{face:000601}そぉ それ！{page}その「レモンパック」よぉ{n}パックって おはだに いいのよねぇ{page}{face:010005}・・・・・ふーん{n}まぁ ほしいんだったら あげるけど？{page}{face:000603}ただで もらうとぉ{n}カツアゲした みたいだからぁ{page}あたしの パーツと こうかんして あげるわねぇ{end:00}",
-   "en": "{face:000603}Ohhh, {var:00}! You've got something niiice there, don't you?{page}{face:010000}Huh? This?{page}{face:000601}Yeees, that!{page}That \"Lemon Pack\"! Face packs are sooo good for your skin.{page}{face:010005}...Huh. Well, if you want it, you can have it.{page}{face:000603}If I took it for free, it'd look like I was shaking you dooown.{page}So I'll trade you my part for it.{end:00}",
+   "en": "{face:000603}Ohhh, {var:00}! You've got something niiice there, don't you?{page}{face:010000}Huh? This?{page}{face:000601}Yeees, that!{page}That \"Lemon Pack\"! Face packs are sooo good for your skin.{page}{face:010005}...Huh. Well, if you want it,{n}you can have it.{page}{face:000603}If I took it for free, it'd look like I was shaking you dooown.{page}So I'll trade you my part for it.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2927,7 +2927,7 @@
    "kind": "ff",
    "bytes": 62,
    "jp": "{face:003500}ココに イルと まいにち みずあびが できて イイワァ{page}・・・ア！ しらないヒトに コエ かけちゃった ハズカシ{end:00}",
-   "en": "{face:003500}It's so lovely here! I can bathe every day.{page}...Oh! I spoke to a stranger. How embarrassing!{end:00}",
+   "en": "{face:003500}It's so lovely here!{n}I can bathe every day.{page}...Oh! I spoke to a stranger. How embarrassing!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3431,7 +3431,7 @@
    "kind": "ff",
    "bytes": 163,
    "jp": "{face:010004}ソルティ いいこに してたか？{page}{face:000500}わんわぅー♥{page}{face:010000}わう？ わんわうぁ〜わうん？{page}{face:000500}わん！{page}{face:010005}わぅ〜わんわぅ・・・{page}{face:000500}わぉうわん！{page}{face:010008}わん！ うぉ〜うわぅ わうわん！{page}{face:010001}・・・って ホントは ぜんぜん わかんないんだけどね{page}{face:000500}ぐるるるるるるるる{n}わうっ！ わうわうっ！{end:00}",
-   "en": "{face:010004}Salty, have you been a good boy?{page}{face:000500}Woof, woooof!{page}{face:010000}Woof? Woof-wooo, woof?{page}{face:000500}Woof!{page}{face:010005}Wooo, woof-woof...{page}{face:000500}Woo-woof!{page}{face:010008}Woof! Wooo-woof, woof-woof!{page}{face:010001}...Actually, I don't understand a word of it.{page}{face:000500}Grrrrrrrr! Woof! Woof-woof!{end:00}",
+   "en": "{face:010004}Salty, have you been a good boy?{page}{face:000500}Woof, woooof!{page}{face:010000}Woof? Woof-wooo, woof?{page}{face:000500}Woof!{page}{face:010005}Wooo, woof-woof...{page}{face:000500}Woo-woof!{page}{face:010008}Woof! Wooo-woof, woof-woof!{page}{face:010001}...Actually, I don't{n}understand a word of it.{page}{face:000500}Grrrrrrrr! Woof! Woof-woof!{end:00}",
    "status": "done",
    "notes": ""
   },

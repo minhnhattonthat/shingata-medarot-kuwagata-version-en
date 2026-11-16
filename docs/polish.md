@@ -73,4 +73,6 @@ script refuses to run while any line is unticked (references/translation.md §Re
 - [x] glossary.md - duplicate ガンマ row (review item 11) - fixed
 - [ ] docs/style-reference.md - write the per-character voice table from approved lines before the phase 9 story pass; pilot waived under D6 (D13) (review item 12)
 - [x] tools/codex_tl.py - review sessions ran with -s workspace-write (review item 13) - fixed: reviews run read-only
+- [ ] 4FD17F - オーロたいちょう is "Captain Oro" in 4FD17F, 5020DE, 50A829, 50A8EA but "Leader Oro" in 46E3F5 (name box), 4FF9E5, 4FFC76: pick one (Captain fits the 10-byte box as "Capt. Oro"? or keep Leader) and add a glossary row (found in phase 7)
 - [ ] 50EE52 - "MedalPart Affinity" lost its separator: try "Medal/Part Match" or "Part Affinity" with batches.py fit (review item 14)
+- [ ] 4B7E4A - 「こんにちは メダロットはかせ」 means “Hello, Dr. Aki!” - The name is fixed, but “Medabot Professor Dr. Aki” stacks titles unnaturally in a child’s greeting; simplify during polish - Suggested EN: `{face:010004}Hello, Dr. Aki!{page}{face:001300}Hm? Oh, it's you, my boy. You do visit often.{page}I'm a busy man, you know. Err...{page}{face:010004}Aw, Professor! Please remember my name already.{page}I'm...{end:00}` (b011.rereview1.md)

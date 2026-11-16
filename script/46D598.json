@@ -478,7 +478,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:003600}ワシの ロボトルは うみのように ふかいぞ〜？{end:04}",
-   "en": "{face:003600}My Robattles run as deep as the sea, lad!{end:04}",
+   "en": "{face:003600}My Robattles run{n}as deep as the sea, lad!{end:04}",
    "status": "done",
    "notes": ""
   },

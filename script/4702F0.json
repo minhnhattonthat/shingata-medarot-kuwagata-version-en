@@ -1438,7 +1438,7 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{var:01}メダルの レベルが あがった！{end:03}",
-   "en": "The {var:01} Medal leveled up!{end:03}",
+   "en": "The {var:01} Medal{n}leveled up!{end:03}",
    "status": "done",
    "notes": ""
   },

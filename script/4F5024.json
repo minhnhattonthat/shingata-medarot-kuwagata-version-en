@@ -118,7 +118,7 @@
    "kind": "ff",
    "bytes": 74,
    "jp": "{face:001400}{var:00}くん{n}おねがいが あるのですが{page}{face:010000}は はい？{page}{face:001400}よろしければ {page}わたくしの エレメンタルと たたかって もらえませんか？{end:02}",
-   "en": "{face:001400}{var:00}-kun, I have a favor to ask.{page}{face:010000}Y-yes?{page}{face:001400}If you don't mind,{page}would you battle my Elementals?{end:02}",
+   "en": "{face:001400}{var:00}-kun,{n}I have a favor to ask.{page}{face:010000}Y-yes?{page}{face:001400}If you don't mind,{page}would you battle my Elementals?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -154,7 +154,7 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:001402}ありがとうございました{n}{var:00}くん{page}いいデータが とれそうですわ{end:00}",
-   "en": "{face:001402}Thank you very much, {var:00}-kun.{page}This should give me some useful data.{end:00}",
+   "en": "{face:001402}Thank you very much,{n}{var:00}-kun.{page}This should give me some useful data.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -166,7 +166,7 @@
    "kind": "ff",
    "bytes": 161,
    "jp": "{face:001400}ごそうだんですが{n}{var:00}くん{page}エレメンタルシリーズを つかって みませんか？{page}{face:010008}えっ！？ エレメンタルシリーズって！{n}そんな たいせつな ものを？{page}{face:001402}ええ ぜひあなたに つかってみて いただきたいのです{n}エレメンタルたちを もとのケースに{page}もどしておきますので おすきな 1たいを{n}えらんでくださいね{end:00}",
-   "en": "{face:001400}I have a suggestion, {var:00}-kun.{page}Would you like to try using{n}the Elemental Series?{page}{face:010008}What!? The Elemental Series!? Something that important?{page}{face:001402}Yes, I'd really like you to try them out.{page}I'll put the Elementals back in their cases,{page}so please choose whichever one you like.{end:00}",
+   "en": "{face:001400}I have a suggestion,{n}{var:00}-kun.{page}Would you like to try using{n}the Elemental Series?{page}{face:010008}What!? The Elemental Series!? Something that important?{page}{face:001402}Yes, I'd really like you to try them out.{page}I'll put the Elementals back in their cases,{page}so please choose whichever one you like.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -190,7 +190,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:001402}おすきな エレメンタルを えらんで くださいね{end:00}",
-   "en": "{face:001402}Please choose whichever Elemental you like.{end:00}",
+   "en": "{face:001402}Please choose{n}whichever Elemental you like.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -262,7 +262,7 @@
    "kind": "ff",
    "bytes": 72,
    "jp": "{face:001400}それは ひこうがたメダロット{n}ウィンドセシルです{page}てきの のうりょくを さげるパーツに へんかします{page}その メダロットに しますか？{end:02}",
-   "en": "{face:001400}That is Wind Cecil, a Medabot with Flying legs.{page}It transforms into parts that lower enemies' abilities.{page}Would you like that Medabot?{end:02}",
+   "en": "{face:001400}That is Wind Cecil,{n}a Medabot with Flying legs.{page}It transforms into parts that lower enemies' abilities.{page}Would you like that Medabot?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -418,7 +418,7 @@
    "kind": "ff",
    "bytes": 180,
    "jp": "{face:010000}あれ？ アリカ どこに いくんだ？{page}{face:000200}どこって？{n}あたしは おとなりの メダロポリスへ いくとこ{page}とくダネの においが するのよね！{page}{face:010000}・・・って いうと？{page}{face:000200}しらないの？ メダロポリスに 「かしこいロボロボだん」が{n}でるって ウワサ{page}{face:010000}なに それ？{page}{face:000200}ともかく あたしは はやく しゅざいに いかなきゃ{n}それじゃあね{end:00}",
-   "en": "{face:010000}Huh? Erika, where are you going?{page}{face:000200}Where? Next door to Medalopolis.{page}I smell a scoop!{page}{face:010000}...What do you mean?{page}{face:000200}Haven't you heard? They say there's a \"clever Rubberobo Gang\"{page}showing up in Medalopolis!{page}{face:010000}What's that supposed to mean?{page}{face:000200}Anyway, I've got reporting to do. See you!{end:00}",
+   "en": "{face:010000}Huh? Erika, where are you going?{page}{face:000200}Where? Next door to Medalopolis.{page}I smell a scoop!{page}{face:010000}...What do you mean?{page}{face:000200}Haven't you heard? They say there's a \"clever Rubberobo Gang\"{page}showing up in Medalopolis!{page}{face:010000}What's that supposed to mean?{page}{face:000200}Anyway, I've got reporting{n}to do. See you!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -454,7 +454,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:003E00}すー すー{page}{face:010000}たったまま ねるなんて きようだな{end:00}",
-   "en": "{face:003E00}Zzz... Zzz...{page}{face:010000}Sleeping standing up? That's quite a skill.{end:00}",
+   "en": "{face:003E00}Zzz... Zzz...{page}{face:010000}Sleeping standing up?{n}That's quite a skill.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -682,7 +682,7 @@
    "kind": "ff",
    "bytes": 132,
    "jp": "{face:001700}このメダロットは きょう てんとうに ならべた ばっかりで{page}まだ メダロポリスでも 1たいしかない{n}メダロットなんだよ{page}タマゴみたいな かたちをしてるのは{n}パーツが しんかするから らしいが{page}いったい なんに しんかするのか だれにも{n}わからないんだよ{end:00}",
-   "en": "{face:001700}We only put this Medabot on display today.{page}It's still the only one of its kind{n}in all of Medalopolis.{page}Apparently, it's shaped like an egg because its parts evolve,{page}but no one knows what they'll evolve into.{end:00}",
+   "en": "{face:001700}We only put this Medabot on display today.{page}It's still the only one of its kind{n}in all of Medalopolis.{page}Apparently, it's shaped like an egg because its parts evolve,{page}but no one knows{n}what they'll evolve into.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -850,7 +850,7 @@
    "kind": "ff",
    "bytes": 56,
    "jp": "{face:00FF00}こちらでは げんざい ランキング 24いから{n}21いまでの かたとの たいせんを うけつけております{end:00}",
-   "en": "{face:00FF00}This terminal currently accepts challenges{page}against opponents ranked 24 through 21.{end:00}",
+   "en": "{face:00FF00}This terminal currently accepts challenges{page}against opponents{n}ranked 24 through 21.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1078,7 +1078,7 @@
    "kind": "ff",
    "bytes": 65,
    "jp": "{face:002500}ぼうえんレンズですね？ 2000円になります{n}はっそうは 1かいの サービスカウンターで どうぞ{page}{face:010000}かおうかな？{end:02}",
-   "en": "{face:002500}The telephoto lens? That will be 2000 yen.{page}For delivery, please visit the service counter on the first floor.{page}{face:010000}Should I buy it?{end:02}",
+   "en": "{face:002500}The telephoto lens?{n}That will be 2000 yen.{page}For delivery, please visit the service counter on the first floor.{page}{face:010000}Should I buy it?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -1222,7 +1222,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:002500}おきゃくさま おかいけいが まだで ございます{end:00}",
-   "en": "{face:002500}Excuse me, you haven't paid for that yet.{end:00}",
+   "en": "{face:002500}Excuse me, you haven't{n}paid for that yet.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1342,7 +1342,7 @@
    "kind": "ff",
    "bytes": 55,
    "jp": "{face:001700}ロボロボだんが うちの しょうひん とっていったんだ！{n}しばらく みせを おやすみするよ・・・はぁ{end:00}",
-   "en": "{face:001700}The Rubberobo Gang stole my merchandise!{page}I'll have to close up shop for a while... Sigh.{end:00}",
+   "en": "{face:001700}The Rubberobo Gang stole my merchandise!{page}I'll have to close up shop{n}for a while... Sigh.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1366,7 +1366,7 @@
    "kind": "ff",
    "bytes": 55,
    "jp": "{face:010000}りっぱな いえだなぁ{n}ひょうさつに アワノって かいてある{page}インターホンもあるぞ おしてみようか？{end:02}",
-   "en": "{face:010000}What a fancy house!{n}The nameplate says Awano.{page}There's an intercom, too. Should I press it?{end:02}",
+   "en": "{face:010000}What a fancy house!{n}The nameplate says Awano.{page}There's an intercom, too.{n}Should I press it?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -1438,7 +1438,7 @@
    "kind": "ff",
    "bytes": 54,
    "jp": "{face:010000}ひょうさつに カラクチって かいてある コウジの いえだ{page}インターホンもあるぞ おしてみようか？{end:02}",
-   "en": "{face:010000}The nameplate says Karakuchi. This is Koji's house.{page}There's an intercom, too. Should I press it?{end:02}",
+   "en": "{face:010000}The nameplate says Karakuchi. This is Koji's house.{page}There's an intercom, too.{n}Should I press it?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -1498,7 +1498,7 @@
    "kind": "ff",
    "bytes": 58,
    "jp": "{face:010000}ひょうさつに ジュンマイって かいてある{n}カリンちゃんの いえだ{page}インターホンもあるぞ おしてみようか？{end:02}",
-   "en": "{face:010000}The nameplate says Junmai. This is Karin-chan's house.{page}There's an intercom, too. Should I press it?{end:02}",
+   "en": "{face:010000}The nameplate says Junmai. This is Karin-chan's house.{page}There's an intercom, too.{n}Should I press it?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -1582,7 +1582,7 @@
    "kind": "ff",
    "bytes": 54,
    "jp": "{face:010000}ひょうさつに カラクチって かいてある コウジの いえだ{page}インターホンもあるぞ おしてみようか？{end:02}",
-   "en": "{face:010000}The nameplate says Karakuchi. This is Koji's house.{page}There's an intercom, too. Should I press it?{end:02}",
+   "en": "{face:010000}The nameplate says Karakuchi. This is Koji's house.{page}There's an intercom, too.{n}Should I press it?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -1666,7 +1666,7 @@
    "kind": "ff",
    "bytes": 169,
    "jp": "{face:010000}はなしって なに？{n}カリンちゃんの こと？{page}{face:000400}ああ つまり カリンの オヤジさんが カリンに{n}おれみたいな ヤツを ちかづけない ワケさ{page}カリンは ちいさい ときから からだが よわくってな{page}それで オヤジさんは すっかり しんぱいしょうに{n}なっちまったんだ{page}そこを おれなんかが そとに つれだしてた{n}もんだから・・・{end:00}",
-   "en": "{face:010000}What did you want to tell me?{n}Is it about Karin-chan?{page}{face:000400}Yeah. Basically, Karin's old man won't let guys like me near her.{page}Karin's been sickly ever since she was little.{page}That's made her old man a real worrywart.{page}And then I went and took her outside, so...{end:00}",
+   "en": "{face:010000}What did you want to tell me?{n}Is it about Karin-chan?{page}{face:000400}Yeah. Basically, Karin's old man won't let guys like me near her.{page}Karin's been sickly ever since she was little.{page}That's made her old man a real worrywart.{page}And then I went{n}and took her outside, so...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1918,7 +1918,7 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "{face:001600}ぼくは ロボトルなんて やばんな こういは しないのさ{page}あいてが まけるのが わかりきっている からね{end:00}",
-   "en": "{face:001600}I don't engage in barbaric acts like Robattles.{page}After all, it's obvious my opponent would lose.{end:00}",
+   "en": "{face:001600}I don't engage in barbaric acts like Robattles.{page}After all, it's obvious{n}my opponent would lose.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2230,7 +2230,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:010005}ぼくに アリカの せっとくなんて{n}ムリだよ コウジ{end:00}",
-   "en": "{face:010005}Koji, there's no way I can talk Erika into it.{end:00}",
+   "en": "{face:010005}Koji, there's no way{n}I can talk Erika into it.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2278,7 +2278,7 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "{face:001B00}せんとうバランスは うまく いってんのかいな？{page}ゲームやってて どないおもう？{end:00}",
-   "en": "{face:001B00}I wonder if the battle balance is workin' out?{page}Whaddya think when you play the game?{end:00}",
+   "en": "{face:001B00}I wonder if{n}the battle balance is workin' out?{page}Whaddya think when you play the game?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2494,7 +2494,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:001700}ことしの メダロットの にんきナンバー1は・・・と{end:00}",
-   "en": "{face:001700}Now, this year's most popular Medabot is...{end:00}",
+   "en": "{face:001700}Now, this year's{n}most popular Medabot is...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2506,7 +2506,7 @@
    "kind": "ff",
    "bytes": 37,
    "jp": "{face:001700}メダロットの カラーリングも うりあげに かんけい{n}しているな{end:00}",
-   "en": "{face:001700}A Medabot's color scheme affects sales, too.{end:00}",
+   "en": "{face:001700}A Medabot's color scheme{n}affects sales, too.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2686,7 +2686,7 @@
    "kind": "ff",
    "bytes": 122,
    "jp": "{face:010000}！？ ヒカル？ ヒカルって{n}ぼくのまちの コンビニにいた{page}あのヒカルさんの ことかな？{page}{face:001202}たまには ちゃんと べんきょう しなさいよ じゃないと{n}りゅうねん するわよ！！{page}しけんが おわるまでは{n}おあずけ だからね わかった！{end:00}",
-   "en": "{face:010000}!? Henry? Does she mean the Henry-san{page}who worked at the convenience store in my town?{page}{face:001202}Study properly for once, or you'll have to repeat the year!!{page}No more until your exams are over! Got it?!{end:00}",
+   "en": "{face:010000}!? Henry? Does she mean the Henry-san{page}who worked at the convenience store in my town?{page}{face:001202}Study properly for once, or you'll have to repeat the year!!{page}No more until{n}your exams are over! Got it?!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3370,7 +3370,7 @@
    "kind": "ff",
    "bytes": 133,
    "jp": "{face:010000}あ！ ヘベレケはかせだ！{page}{face:003C00}きぐうじゃの ぼうず{page}おぬしも メダリンクしに きたのか？{page}{face:010000}メダリンクって いうと・・・{page}{face:003C00}なんじゃ？ おぬし{n}まだ とうろく しとらんのか？{page}おぬしも メダロッターなら さっさと とうろく{n}してこんかい！{end:00}",
-   "en": "{face:010000}Oh! Dr. Meta-Evil!{page}{face:003C00}Fancy meeting you here, my boy.{page}Have you come to use Medalink, too?{page}{face:010000}Medalink... That's...{page}{face:003C00}What's this? You haven't registered yet?{page}If you call yourself a Medafighter, get over there and sign up!{end:00}",
+   "en": "{face:010000}Oh! Dr. Meta-Evil!{page}{face:003C00}Fancy meeting you here, my boy.{page}Have you come to use Medalink, too?{page}{face:010000}Medalink... That's...{page}{face:003C00}What's this?{n}You haven't registered yet?{page}If you call yourself a Medafighter, get over there and sign up!{end:00}",
    "status": "done",
    "notes": ""
   },

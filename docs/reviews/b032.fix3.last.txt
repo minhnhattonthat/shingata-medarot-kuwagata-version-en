@@ -1,0 +1,4 @@
+FIXED: none  
+REJECTED: 4CDB37 - Valid wordplay finding, but “Robo-robo” conflicts with binding “ロボロボ → Rubberobo”; requires a controller-approved glossary exception.
+
+Checks: b032 OK / b033 OK / b034 OK.

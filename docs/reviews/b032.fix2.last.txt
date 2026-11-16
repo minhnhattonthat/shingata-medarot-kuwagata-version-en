@@ -1,0 +1,3 @@
+FIXED: 4CDB37 (military register); 4CBC98 4CC2FE 4CC394 4CD06B 4CDAFA 4CDCF4 4CDED4 (line wrapping). b032 b033 b034: OK.
+
+REJECTED: 4CDB37 (chant only) - Suggested wording conflicts with binding ロボロボ → Rubberobo; requires a controller glossary exception.

@@ -134,7 +134,7 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:001B00}あとで はくぶつかんも のぞいてごらん{end:00}",
-   "en": "{face:001B00}Have a look around the museum later, too.{end:00}",
+   "en": "{face:001B00}Have a look around{n}the museum later, too.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -938,7 +938,7 @@
    "kind": "ff",
    "bytes": 26,
    "jp": "{face:004F01}ママの いうことも ちゃんと きくんだぞ{end:00}",
-   "en": "{face:004F01}Make sure you listen to your mom too, son.{end:00}",
+   "en": "{face:004F01}Make sure you listen{n}to your mom too, son.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1106,7 +1106,7 @@
    "kind": "ff",
    "bytes": 99,
    "jp": "{face:004F01}そして メダロットを うごかすには{n}メダロッチが ひつようだぞ{page}ほら パパからの プレゼントだ{page}{face:010001}わあ カッコイイ！{n}ありがとう パパ！{page}{face:004F01}ははは{n}キゲンが なおったようだな{end:00}",
-   "en": "{face:004F01}And to operate a Medabot, you need a Medawatch.{page}Here, a present from your dad.{page}{face:010001}Wow, cool! Thanks, Dad!{page}{face:004F01}Hahaha! That's cheered you up, hasn't it?{end:00}",
+   "en": "{face:004F01}And to operate a Medabot, you need a Medawatch.{page}Here, a present from your dad.{page}{face:010001}Wow, cool! Thanks, Dad!{page}{face:004F01}Hahaha! That's{n}cheered you up, hasn't it?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1586,7 +1586,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:001B00}みぎうで「タイクーミサイル」は いるかい？{end:02}",
-   "en": "{face:001B00}Do you want the \"Anti-Air Missile\" right arm?{end:02}",
+   "en": "{face:001B00}Do you want the{n}\"Anti-Air Missile\" right arm?{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -1778,7 +1778,7 @@
    "kind": "ff",
    "bytes": 158,
    "jp": "{face:000206}だいたい あいつら たたかいかたが ひきょうなのよ！{page}「おれたちは 3にんで ひとり！ だから 3にんとも{n}たおせないと かったことには ならないゾ」とか{page}いまどき しょうがくせい でも いわない{n}イチャモン つけてくるし{page}{face:010005}・・・アリカ・・・{page}ぼくらも いちおう しょうがくせい{n}なんだけど・・・{end:00}",
-   "en": "{face:000206}Those guys fight dirty in the first place!{page}They say, \"The three of us count as one!{page}So you haven't won unless you beat all three of us!\"{page}Even grade-school kids wouldn't make excuses like that these days!{page}{face:010005}...Erika...{page}We're grade-school kids too, you know...{end:00}",
+   "en": "{face:000206}Those guys fight dirty in the first place!{page}They say, \"The three of us{n}count as one!{page}So you haven't won unless you beat all three of us!\"{page}Even grade-school kids wouldn't make excuses like that these days!{page}{face:010005}...Erika...{page}We're grade-school kids too, you know...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2366,7 +2366,7 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{var:00}は あたまパーツ{n}「{var:01}」を もってない{end:00}",
-   "en": "{var:00} doesn't have the head part{page}\"{var:01}\".{end:00}",
+   "en": "{var:00} doesn't have{n}the head part{page}\"{var:01}\".{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2402,7 +2402,7 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{var:00}は きゃくぶパーツ{n}「{var:01}」を もってない{end:00}",
-   "en": "{var:00} doesn't have the Legs part{page}\"{var:01}\".{end:00}",
+   "en": "{var:00} doesn't have{n}the Legs part{page}\"{var:01}\".{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2654,7 +2654,7 @@
    "kind": "ff",
    "bytes": 48,
    "jp": "{face:002200}わたし てのひらサイズの かわいいメダロットが ほしいな{page}どこかに うってないかな？{end:00}",
-   "en": "{face:002200}I want a cute Medabot that fits in my palm.{page}I wonder if anyone sells them?{end:00}",
+   "en": "{face:002200}I want a cute Medabot{n}that fits in my palm.{page}I wonder if anyone sells them?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3302,7 +3302,7 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "{face:010000}いやー つよいなぁー{page}{face:000200}かんしんしてるばあい？{n}いくわよ！{page}{face:010005}えぇー？{end:00}",
-   "en": "{face:010000}Wow, he's strong...{page}{face:000200}Is this the time to be impressed? Let's go!{page}{face:010005}Whaaat?{end:00}",
+   "en": "{face:010000}Wow, he's strong...{page}{face:000200}Is this the time to be impressed?{n}Let's go!{page}{face:010005}Whaaat?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3518,7 +3518,7 @@
    "kind": "ff",
    "bytes": 78,
    "jp": "{face:002E00}スカートめくりーロボ！ あれ？{page}{face:000208}きゃーっ{page}なんで あたしの ところに くるのよ{n}この バカメダロットは！！{page}{face:002E00}まちがえたロボー！！{end:00}",
-   "en": "{face:002E00}Skirt-flipping, robo! Huh?{page}{face:000208}Eeeek!{page}Why is this stupid Medabot coming after ME?!{page}{face:002E00}My mistake, robo!!{end:00}",
+   "en": "{face:002E00}Skirt-flipping, robo! Huh?{page}{face:000208}Eeeek!{page}Why is this stupid Medabot{n}coming after ME?!{page}{face:002E00}My mistake, robo!!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3794,7 +3794,7 @@
    "kind": "ff",
    "bytes": 230,
    "jp": "{face:010008}えっ？ そうなの？{page}{face:000200}だってあたし ロボロボだんの やつが{n}セレクトたいに つかまっているのを みたもん{page}あんたセレクトたいが ロボロボだんを やっつけてたとき{n}なにしてたの？{page}{face:010005}そ それは・・・{page}{face:000200}まったく たよりに ならないんだから{page}まあ あんたに きたいするのが まちがいだったのかもね{page}はやく がっこうに もどって{n}こうないしんぶんの げんこう かかなきゃ{page}あんたも ついてきてもいいけど あたしの{n}ジャマは しないでよね{end:00}",
-   "en": "{face:010008}Huh? They did?{page}{face:000200}I saw a Rubberobo Gang member being taken away by the Select Corps.{page}What were you doing while the Select Corps beat the Rubberobo Gang?{page}{face:010005}W-well...{page}{face:000200}Honestly, you're no help at all.{page}Maybe I was wrong to expect anything from you.{page}I'd better get back to school and write my article for the school paper.{page}You can come too, but don't get in my way.{end:00}",
+   "en": "{face:010008}Huh? They did?{page}{face:000200}I saw a Rubberobo Gang member being taken away by the Select Corps.{page}What were you doing while the Select Corps beat the Rubberobo Gang?{page}{face:010005}W-well...{page}{face:000200}Honestly, you're no help at all.{page}Maybe I was wrong to expect{n}anything from you.{page}I'd better get back to school and write my article for the school paper.{page}You can come too,{n}but don't get in my way.{end:00}",
    "status": "done",
    "notes": ""
   },

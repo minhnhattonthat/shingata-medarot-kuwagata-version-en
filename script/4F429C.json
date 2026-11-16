@@ -22,7 +22,7 @@
    "kind": "ff",
    "bytes": 79,
    "jp": "{face:003C00}おぬしが どこまで やってくれるか みせて もらおうぞ{page}{face:010001}ありがとう はかせ！{n}ぼく がんばるよ！{page}{face:003C01}たのしみに しとるぞ！ がはは！{end:00}",
-   "en": "{face:003C00}Let's see just how far you can go, my boy.{page}{face:010001}Thanks, Professor! I'll do my best!{page}{face:003C01}I'm looking forward to it! Gahaha!{end:00}",
+   "en": "{face:003C00}Let's see just how far you can go,{n}my boy.{page}{face:010001}Thanks, Professor! I'll do my best!{page}{face:003C01}I'm looking forward to it! Gahaha!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1006,7 +1006,7 @@
    "kind": "ff",
    "bytes": 71,
    "jp": "{face:001600}ここは ロボトルけんきゅうかい{n}メダロットずきの せいとたちが あつまって{page}メダロットの いろんな じょうほうを こうかんするんだ{end:00}",
-   "en": "{face:001600}This is the Robattle Study Club.{page}Students who love Medabots gather here{page}to share all sorts of Medabot information.{end:00}",
+   "en": "{face:001600}This is the Robattle Study Club.{page}Students who love{n}Medabots gather here{page}to share all sorts of Medabot information.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1126,7 +1126,7 @@
    "kind": "ff",
    "bytes": 65,
    "jp": "{face:001600}おれは テストのてんが わるくて ほしゅう じゅぎょうさ{page}ハチロウ？ それなら ひだりの きょうしつが{n}やつのクラスさ{end:00}",
-   "en": "{face:001600}My test scores stank, so I'm stuck in remedial classes.{page}Hachiro? His classroom's the one on the left.{end:00}",
+   "en": "{face:001600}My test scores stank, so I'm stuck in remedial classes.{page}Hachiro? His classroom's{n}the one on the left.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1642,7 +1642,7 @@
    "kind": "ff",
    "bytes": 121,
    "jp": "{face:002200}ママーッ たすけてよーっ{page}{face:001600}えーん おうちに かえりたいよーっ{page}{face:000400}なかは パニックじょうたいだな{page}{face:010005}カリンちゃんの たいちょうが しんぱいだな{page}{face:000400}なあ おれに いい かんがえが あるんだが{n}のってみないか？{end:00}",
-   "en": "{face:002200}Mooom! Help meee!{page}{face:001600}Waaah! I wanna go hooome!{page}{face:000400}It's total panic in there.{page}{face:010005}I'm worried about Karin-chan's health.{page}{face:000400}Hey, I've got an idea. Wanna give it a try?{end:00}",
+   "en": "{face:002200}Mooom! Help meee!{page}{face:001600}Waaah! I wanna go hooome!{page}{face:000400}It's total panic in there.{page}{face:010005}I'm worried about Karin-chan's health.{page}{face:000400}Hey, I've got an idea.{n}Wanna give it a try?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2074,7 +2074,7 @@
    "kind": "ff",
    "bytes": 181,
    "jp": "{face:010008}あっ！ おまえはっ！{page}{face:003900}ふぉっ？ わしは ロボロボだん{n}カンブの シオカラじゃ{page}おまえさん あったことが あったかの？{page}{face:010005}はっ そうだ ぼくは あのとき{n}おんなのこの かっこうを・・・{page}{face:000200}なに？ しりあいなわけ？{page}{face:010006}い い いや しらない ひとだよ{page}{face:003900}ふーむ そういえば どこかで・・・{page}{face:010006}ロッ ロボトルかいしっ！{end:00}",
-   "en": "{face:010008}Oh! You!{page}{face:003900}Hm? I'm Squidguts, an officer of the Rubberobo Gang.{page}Have we met before, my boy?{page}{face:010005}Oh, right! Back then, I was dressed as a girl...{page}{face:000200}What? You know him?{page}{face:010006}N-n-no! I've never met him!{page}{face:003900}Hmm... Now that you mention it, somewhere...{page}{face:010006}L-let the Robattle begin!{end:00}",
+   "en": "{face:010008}Oh! You!{page}{face:003900}Hm? I'm Squidguts, an officer of the Rubberobo Gang.{page}Have we met before, my boy?{page}{face:010005}Oh, right! Back then,{n}I was dressed as a girl...{page}{face:000200}What? You know him?{page}{face:010006}N-n-no! I've never met him!{page}{face:003900}Hmm... Now that you mention it, somewhere...{page}{face:010006}L-let the Robattle begin!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2518,7 +2518,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:001700}だれだっ！{page}{face:010002}そっちこそ だれなんだよ！{n}しょうたいを みせろ！{end:00}",
-   "en": "{face:001700}Who's there!?{page}{face:010002}Who are YOU!? Show me who you really are!{end:00}",
+   "en": "{face:001700}Who's there!?{page}{face:010002}Who are YOU!?{n}Show me who you really are!{end:00}",
    "status": "done",
    "notes": ""
   },

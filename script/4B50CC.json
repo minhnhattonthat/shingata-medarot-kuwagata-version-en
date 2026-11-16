@@ -118,7 +118,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{face:010000}オレの パソコンだ{n}いまは さわるのは やめとこう{end:00}",
-   "en": "{face:010000}It's my computer. I'll leave it alone for now.{end:00}",
+   "en": "{face:010000}It's my computer. I'll leave it{n}alone for now.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2086,7 +2086,7 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:010000}じかんが せいかくだな・・・ めだつし・・・{n}おんなのことの まちあわせに つかえるかもな{end:00}",
-   "en": "{face:010000}Keeps perfect time... Easy to spot, too...{page}Might be a good place to meet up with a girl.{end:00}",
+   "en": "{face:010000}Keeps perfect time... Easy to spot, too...{page}Might be a good place{n}to meet up with a girl.{end:00}",
    "status": "done",
    "notes": ""
   },

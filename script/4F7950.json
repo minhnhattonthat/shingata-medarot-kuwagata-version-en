@@ -128,7 +128,7 @@
    "kind": "ff",
    "bytes": 189,
    "jp": "{face:010002}はかせは あのオイルの なかに いったいなにを{n}いれたんだ！{page}{face:003C01}なぁに ちょっとした じっけんじゃ{n}メダルに かけられた リミッターを{page}ワシの とくせいオイルで すこぅし ゆるめてやり{n}ワーニングの サインで こうかを{page}はっきするように したんじゃ{page}{face:010006}リミッター？{n}それって いったい・・・？{page}{face:003C01}がっはっはっは！{n}ここからさきは ひみつじゃもーん！{end:00}",
-   "en": "{face:010002}Doctor, just what did you put in that oil!?{page}{face:003C01}Oh, just a little experiment, my boy.{page}My special oil loosens the limiters on Medals just a wee bit.{page}Then the warning signal activates the effect!{page}{face:010006}Limiters? What are those...?{page}{face:003C01}Gwah ha ha ha! That's all you get! The rest is a seeecret!{end:00}",
+   "en": "{face:010002}Doctor, just what{n}did you put in that oil!?{page}{face:003C01}Oh, just a little experiment, my boy.{page}My special oil loosens the limiters on Medals just a wee bit.{page}Then the warning signal activates the effect!{page}{face:010006}Limiters? What are those...?{page}{face:003C01}Gwah ha ha ha! That's all you get! The rest is a seeecret!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -717,7 +717,7 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:010008}わっ！ ゆれる！{n}なにか でてくるぞ！{end:00}",
-   "en": "{face:010008}Whoa! It's shaking! Something's coming out!{end:00}",
+   "en": "{face:010008}Whoa! It's shaking!{n}Something's coming out!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1127,7 +1127,7 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:000208}ああ もう{n}どうなっちゃうの！？{end:00}",
-   "en": "{face:000208}Oh, come on! What's going to happen to us!?{end:00}",
+   "en": "{face:000208}Oh, come on!{n}What's going to happen to us!?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1502,7 +1502,7 @@
    "kind": "ff",
    "bytes": 129,
    "jp": "{face:000306}でも わたし そうじゅうかんなんて にぎったことが{n}ありませんわ{page}わたしなんかじゃ・・・{page}{face:010006}おねがい カリンちゃん！{n}じかんがないんだ{page}そうしないと みんな たすからないんだ！{page}{face:000306}わ わかりましたわ{n}できるだけのことを やってみます！{end:00}",
-   "en": "{face:000306}But I have never even held a control stick before.{page}Someone like me...{page}{face:010006}Please, Karin-chan! We're running out of time!{page}If we don't do this, nobody will survive!{page}{face:000306}A-all right. I will do everything I can!{end:00}",
+   "en": "{face:000306}But I have never even held a control stick before.{page}Someone like me...{page}{face:010006}Please, Karin-chan!{n}We're running out of time!{page}If we don't do this, nobody will survive!{page}{face:000306}A-all right. I will do everything I can!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1900,7 +1900,7 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:010005}やっぱりきになる・・・{n}みてこよう{end:00}",
-   "en": "{face:010005}I can't stop wondering... I'll go take a look.{end:00}",
+   "en": "{face:010005}I can't stop wondering...{n}I'll go take a look.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1936,7 +1936,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{face:003200}ひとよんで あおいチューリップ{n}セレクトブルー{end:00}",
-   "en": "{face:003200}Known to all as the blue tulip! Select Blue!{end:00}",
+   "en": "{face:003200}Known to all as{n}the blue tulip! Select Blue!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2236,7 +2236,7 @@
    "kind": "ff",
    "bytes": 70,
    "jp": "{face:002C00}たいちょう！ このエサアリ！{page}{face:002C00}よし ワシら3たいで げきたいするアリ{page}かってに じょおうさまの へやには いかせないアリ{end:00}",
-   "en": "{face:002C00}Captain! This is the food, ari!{page}{face:002C00}Right! The three of us shall repel him, ari!{page}We won't let you enter the queen's{n}room without permission, ari!{end:00}",
+   "en": "{face:002C00}Captain! This is the food, ari!{page}{face:002C00}Right! The three of us{n}shall repel him, ari!{page}We won't let you enter the queen's{n}room without permission, ari!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2260,7 +2260,7 @@
    "kind": "ff",
    "bytes": 78,
    "jp": "{face:002C00}じょおうさま このものが あたらしい エサですアリ{page}{face:004D00}つかまえて ふんじばるロボ{page}{face:010000}ロボ？{page}{face:002C00}じょおうさまの おおせと あらば{end:00}",
-   "en": "{face:002C00}Your Majesty, this one is the new food, ari.{page}{face:004D00}Catch him and tie him up, robo!{page}{face:010000}Robo? Rubberobo?{page}{face:002C00}As Your Majesty commands.{end:00}",
+   "en": "{face:002C00}Your Majesty, this one{n}is the new food, ari.{page}{face:004D00}Catch him and tie him up, robo!{page}{face:010000}Robo? Rubberobo?{page}{face:002C00}As Your Majesty commands.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2464,7 +2464,7 @@
    "kind": "ff",
    "bytes": 190,
    "jp": "{face:010008}あっ ヘベレケはかせ！{page}{face:003C00}んん？{n}ほお おぬしか ここまで たどりついたか{page}{face:010000}あの ここは いったい？？{n}ぼくには もう なにが なんだか{page}{face:003C00}なんじゃ その ようすでは いせき はっけんは まだか？{page}{face:010000}いせき？ いせきって？{page}{face:003C00}「フユーンストーン」がねむる こだい いせきじゃ！{page}ワシは なんとしても あれを{n}てに いれねば ならんのじゃ{end:00}",
-   "en": "{face:010008}Oh, Dr. Meta-Evil!{page}{face:003C00}Hmm? Ah, it's you. You made it this far, eh?{page}{face:010000}Um, what is this place?? I'm completely lost now.{page}{face:003C00}What? You look as though you haven't found the ruins yet, eh?{page}{face:010000}Ruins? What ruins?{page}{face:003C00}The ancient ruins where the \"Fuyun Stone\" lies!{page}I must get my hands on it, whatever it takes!{end:00}",
+   "en": "{face:010008}Oh, Dr. Meta-Evil!{page}{face:003C00}Hmm? Ah, it's you.{n}You made it this far, eh?{page}{face:010000}Um, what is this place?? I'm completely lost now.{page}{face:003C00}What? You look as though you haven't found the ruins yet, eh?{page}{face:010000}Ruins? What ruins?{page}{face:003C00}The ancient ruins where the \"Fuyun Stone\" lies!{page}I must get my hands on it, whatever it takes!{end:00}",
    "status": "done",
    "notes": ""
   },

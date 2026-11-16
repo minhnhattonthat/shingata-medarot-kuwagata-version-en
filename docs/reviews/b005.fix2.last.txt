@@ -1,0 +1,3 @@
+FIXED: none / REJECTED: 46E476 - “Stray Bot” fails the binding Medabot glossary rule; “Stray Medabot” exceeds 10 bytes. Requires a controller-approved exception.
+
+b005, b006, b007: OK.
