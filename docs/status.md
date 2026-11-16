@@ -16,7 +16,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     is a real bug; money digits squeezed; item name touching the x column; Speed vs Propulsion topic title).
   - Event tour (new): `tools/debug/eventtour.py` plays every story event 0-687 back to back from cold boots
     (`warp.lua EVENTS=`, EVSTART/EVSTUCK in the log; resumable) with the textcover probe ->
-    `work/qa/events_en/run_*`. Textcover over scenes + events: see "Textcover" below.
+    `work/qa/events_en/run_*`. **Textcover:** scenes 191/8029 strings shown; the event tour (reaped for low
+    memory in the background after events 0-0x107, 26 runs, many EVSTUCK) 360/8029. Resume it in the
+    **foreground** in slices (`eventtour.py --to 0x180`, then higher; it skips events already started), one
+    emulator at a time. 2-8 events per run get stuck (robattle/map change) and cost a cold boot each: if the
+    rest stays slow, make EVSTUCK skip the event (reset to field) instead of ending the run.
   - **Next in phase 8:** graphics redraws (`docs/graphics-todo.md`, `references/graphics.md`; pilot one screen,
     e.g. field_menu, then the rest); credits role buffer; textcover gaps (new scenes or `docs/text_unshown.tsv`
     waivers); inkbox on choice/centred boxes (save はい/いいえ, shop confirm, options); after each fix re-run
