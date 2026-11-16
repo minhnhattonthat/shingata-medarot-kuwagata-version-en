@@ -59,6 +59,9 @@ def run(name, a):
     log = out / "log.txt"
     text = log.read_text(encoding="utf-8", errors="replace") if log.exists() else ""
     arrived = [ln for ln in text.splitlines() if ln.startswith("ARRIVED")]
+    if arrived and (out / "arrived.png").exists():  # copy now: a run reaped for memory keeps the shots it made
+        (a.qa / "shots").mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(out / "arrived.png", a.qa / "shots" / f"{name}.png")
     return name, bool(arrived) and (out / "arrived.png").exists(), arrived[0] if arrived else text[-200:]
 
 

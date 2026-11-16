@@ -2,7 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (phase 7 review fixed; English scene proof with probes run).
+- **Phase:** 8. QA in the emulator: in progress (scene proof 77/77 done, visual QA run, event tour for textcover; graphics redraws next).
+- **Phase 8 session 2 (2026-11-17):**
+  - English scene proof finished: **77/77 arrive** (`work/qa/scenes_en/shots`, all copied; `prove.py` now copies
+    each shot as it arrives). `shotdiff.py work/qa/scenes/shots work/qa/scenes_en/shots`: 7 identical, the rest
+    differ by text/timing; the 7 newer scenes (robattle_menu.., parts_owned..) have no original shot yet (run
+    `prove.py --no-states --only robattle_menu,robattle_parts,robattle_detail,robattle_menutour,parts_owned,parts_owned_detail,parts_legs_detail`
+    on the original ROM; note: without `--no-states` it overwrites `work/states/`).
+  - Visual QA: pair sheets EN|JP `work/qa/tour/sheet*.png` (13, `sheet.py ... --compare work/qa/scenes/shots --cols 2
+    --max 6 --div 1`), gate `work/qa/manifest.tsv` (build recorded), brief `docs/visual-qa-brief.md`, codex verdicts
+    `work/qa/verdicts/chunk_000.tsv`: **2 ok, 11 issue**. Issues = graphics Japanese on almost every menu screen
+    plus 4 text/engine findings: all listed in **`docs/graphics-todo.md`** (credits role lines cut at ~13-16 glyphs
+    is a real bug; money digits squeezed; item name touching the x column; Speed vs Propulsion topic title).
+  - Event tour (new): `tools/debug/eventtour.py` plays every story event 0-687 back to back from cold boots
+    (`warp.lua EVENTS=`, EVSTART/EVSTUCK in the log; resumable) with the textcover probe ->
+    `work/qa/events_en/run_*`. Textcover over scenes + events: see "Textcover" below.
+  - **Next in phase 8:** graphics redraws (`docs/graphics-todo.md`, `references/graphics.md`; pilot one screen,
+    e.g. field_menu, then the rest); credits role buffer; textcover gaps (new scenes or `docs/text_unshown.tsv`
+    waivers); inkbox on choice/centred boxes (save はい/いいえ, shop confirm, options); after each fix re-run
+    `prove.py` for its scenes, rebuild the pair sheets, `qa_gate.py init` + new verdicts (`verdicts/recheck_N.tsv`).
 - **Phase 8 session 1 (2026-11-17):**
   - Phase 7 review (`.harness/reviews/...-phase7.md`) fixed, all Important + Minors 1, 2, 4 (c1bca0c):
     `{fa:FF}` info panes draw page 1 only (parts_shop_detail, `work/qa/pg_psd` vs `pg_psd2`), so 37 pane + 2 timed

@@ -5,6 +5,8 @@
 --   MAP=n [X= Y= DIR=]                       ad-hoc field warp (tile coords)
 --   RAWMODE=n [RAWSUB= RAWSTEP= RAWEXTRA={[addr]=byte}]   ad-hoc main-mode switch
 --   EVENT=n [EVPC=pc]  start story event n (0..687, work/re/events.txt) on the start map, A mashed; HOLD= frames
+--   EVENTS='hex,..' [EVMAX=n]  run those events one after another (logs EVSTART/EVSTUCK; an event still busy
+--                    after EVMAX frames, default 2400, ends the run): tools/debug/eventtour.py
 --   HOLD=n           frames to keep running after arrival before logging ARRIVED (default 120)
 --   PNAME='hex'      player name bytes poked at 0x03001D54 on arrival (default AA5C5C5AFE = "Ikki"; '' = keep)
 --   NOENC=1          no random robattles; AFTER_MASH=n press A every n frames after arrival
@@ -88,6 +90,9 @@ elseif MAP then
   spec = { map = MAP, x = X, y = Y, dir = DIR }
 elseif EVENT then -- any story event, its text mashed through (the map stays the start map: actors may be missing)
   spec = { run = { EVENT, EVPC or 0 }, mash = 30 }
+elseif EVENTS then -- EVENTS='1D2,1D3,..' (hex): run each to its end in one boot (tools/debug/eventtour.py)
+  spec = { events = {}, evlog = true }
+  for h in EVENTS:gmatch("%x+") do spec.events[#spec.events + 1] = { tonumber(h, 16), 0 } end
 elseif RAWMODE then
   spec = { mode = RAWMODE, sub = RAWSUB, step = RAWSTEP, extra = RAWEXTRA }
 end
@@ -133,6 +138,12 @@ L.on_frame(function(f)
     end
   elseif phase == "events" then
     -- spec.events = {{ev, pc}, ...}: run each story event to its end (A mashed through its text), one by one
+    if spec.evlog and evi > 0 and f - at > (EVMAX or 2400) then
+      -- EVENTS tour: an event that never hands the field back (robattle, map change, menu) ends the run;
+      -- eventtour.py restarts after it
+      L.log(string.format("EVSTUCK %X f%d mode=%d sub=%d", spec.events[evi][1], f, rd32(MODE), rd32(SUBM)))
+      L.shot("stuck.png"); phase = "done"; L.finish(0); return
+    end
     if WARP.event_running() then MASH, idle = 30, 0
     else
       MASH = 0
@@ -140,7 +151,10 @@ L.on_frame(function(f)
       if idle >= 20 then
         evi, idle = evi + 1, 0
         local e = spec.events[evi]
-        if e then WARP.event(e[1], e[2]) else phase, at = "wait", f + 10 end
+        if e then
+          if spec.evlog then L.log(string.format("EVSTART %X f%d", e[1], f)); at = f end
+          WARP.event(e[1], e[2])
+        else phase, at = "wait", f + 10 end
       end
     end
   elseif phase == "wait" and f >= at and L.route_done() then

@@ -77,7 +77,9 @@ the build copies the font past 8 MiB with the English cells drawn in and repoint
 English layout (`tbl/en.tbl` on top of `jp.tbl`, glyphs `font/en_glyphs.txt`): A-Z (A2-BB) and 0-9 (C6-CF) redrawn,
 `? ! ~ +` at C0 C1 C2 BF, a-z at 52-6B, `. , ' " - : ; ( ) & / % …` at 6C-78 (hiragana codes: the menu-name sprite
 charset below only holds 01-CF, so D0-F6 are unused). Katakana and the other kana keep their codes and bitmaps.
-The alternate font 0x54FEA0 / widths 0x4647B8 (state+0x27) are not touched.
+The alternate font 0x54FEA0 / widths 0x4647B8 (state+0x27) are not touched. Probe (2026-11-17, `prove.py
+--probes`, write watch on 0x03000547): all 77 scenes write state+0x27 = 0 only (164 writes), so no scene selects
+the alternate font; the event tour (`eventtour.py`) has no write watch, so story events are unchecked.
 
 **Menu names are sprites (verified 2026-11-17, solved).** In items_owned, the shop lists and the robattle Medabot box
 the names are 8x8 OBJ sprites, tile = 0x320 + code - 1, x advanced by `width[code]` (a sprite VWF). The charset is
