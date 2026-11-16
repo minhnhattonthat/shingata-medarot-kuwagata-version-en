@@ -1,7 +1,8 @@
 # Scene list for tools/debug/warp.lua: name<TAB>{lua table}<TAB>what it shows
 # Keys: map,x,y,dir = field warp (tile coords); mode,sub,step,extra = main-mode switch (docs/re/debug.md);
 #       press="30 -;6 a" inputs after arrival; mash=N press A every N frames; hold=N frames before ARRIVED;
-#       poke={[addr]=byte} once, pin={[addr]=byte} every frame.
+#       poke={[addr]=byte} once, pin={[addr]=byte} every frame; events={{ev,pc},...} run story events first;
+#       expect={[addr]=byte}, expect_mode=n, expect_sub=n: RAM checked on arrival (prove.py fails otherwise).
 # Every entry is proven from a cold boot by tools/debug/prove.py (shots in work/qa/scenes/<name>/final.png).
 # --- field
 home_2f	{map=2, x=5, y=5}	Ikki's room (start of the game)
@@ -14,6 +15,15 @@ medarot_list	{mode=0, sub=3}	Medabot setup (medal tree)
 medal_list	{mode=0, sub=4}	medal list
 parts_list	{mode=0, sub=5}	parts list (head page)
 robattle_intro	{mode=0, sub=6, extra={[0x030051F5]=0}, hold=240}	random robattle intro (referee, formation); no party yet
+# --- with the story's first medal (event 0x1CB from pc 2: cmd 11 00) and first Medabot (event 0x1D2 from pc 8)
+party_setup	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=3, expect={[0x03001790]=3,[0x03000BE0]=0xC0}}	Medabot setup with the first Medabot
+party_medals	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=4, expect={[0x03001790]=3,[0x03000BE0]=0xC0}}	medal list: the Kuwagata medal
+party_parts	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=5, expect={[0x03001790]=3,[0x03003E1A]=1}}	parts list: the first Medabot's head
+robattle_prep	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, wait={mode=0,sub=3}, hold=20}	robattle (team 1, +0x945 story path): pre-battle Medabot check screen
+robattle	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, wait={mode=0,sub=7}, hold=40}	robattle: battle field, command phase
+robattle_attack	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, wait={mode=0,sub=9}, hold=90}	robattle: attack animation close-up
+robattle_win	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, pin={[0x03000715]=0x2D,[0x03000716]=0x1C,[0x03000717]=0x22,[0x03000718]=0x20,[0x03000719]=0x18}, wait={mode=0,sub=6,step=48}, hold=30}	robattle won (our armor pinned at full, docs/re/debug.md §Robattle): result line
+robattle_loss	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, wait={mode=0,sub=6,step=48}, hold=30}	robattle lost (one weak Medabot vs team 1): result line, then game over
 # --- menus (mode 2)
 newgame_menu	{mode=2, sub=3}	New game / continue menu
 items	{mode=2, sub=4}	item list
@@ -29,6 +39,16 @@ parts_shop_buy	{mode=2, sub=25}	parts shop buy list
 options	{mode=2, sub=31}	title menu options (robattle animation / messages)
 # --- events and minigames (mode 3)
 event_medal	{mode=3, sub=3}	opening event: Ikki and the dog find the medal
+cutscene_01	{mode=3, sub=3, extra={[0x03005B29]=1}, expect={[0x03005B29]=1}}	story cutscene 1 (event 0x1CD, cmd 75 01)
+cutscene_02	{mode=3, sub=3, extra={[0x03005B29]=2}, expect={[0x03005B29]=2}}	story cutscene 2 (no event uses 75 02)
+cutscene_03	{mode=3, sub=3, extra={[0x03005B29]=3}, expect={[0x03005B29]=3}}	story cutscene 3 (event 0x17E)
+cutscene_04	{mode=3, sub=3, extra={[0x03005B29]=4}, expect={[0x03005B29]=4}}	story cutscene 4 (no event uses 75 04)
+cutscene_05	{mode=3, sub=3, extra={[0x03005B29]=5}, expect={[0x03005B29]=5}}	story cutscene 5 (event 0x192)
+cutscene_06	{mode=3, sub=3, extra={[0x03005B29]=6}, expect={[0x03005B29]=6}}	story cutscene 6 (event 0x146)
+cutscene_07	{mode=3, sub=3, extra={[0x03005B29]=7}, expect={[0x03005B29]=7}}	story cutscene 7 (event 0x19C)
+cutscene_08	{mode=3, sub=3, extra={[0x03005B29]=8}, expect={[0x03005B29]=8}}	story cutscene 8 (event 0x1DE)
+cutscene_09	{mode=3, sub=3, extra={[0x03005B29]=9}, expect={[0x03005B29]=9}}	story cutscene 9 (event 0x228)
+cutscene_10	{mode=3, sub=3, extra={[0x03005B29]=10}, expect={[0x03005B29]=10}}	story cutscene 10 (event 0x26F, late story; ending candidate)
 road_race	{mode=3, sub=4}	Medaroad Race minigame
 corps_game	{mode=3, sub=5}	"select corps" board minigame
 medarot_weekly	{mode=3, sub=6}	Medarot Weekly TV studio

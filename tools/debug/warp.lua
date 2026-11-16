@@ -7,6 +7,9 @@
 --   HOLD=n           frames to keep running after arrival before logging ARRIVED (default 120)
 --   NOENC=1          no random robattles; AFTER_MASH=n press A every n frames after arrival
 --   STOP=1 [SAVE='abs.mss']   end the run at ARRIVED (after saving a state): tools/debug/prove.py
+-- Scene key events={{ev, pc}, ...} runs those field events first (WARP.event), e.g. the story's first medal
+-- and first Medabot; then the rest of the scene applies. Key wait={mode=,sub=,step=} delays arrival (and the
+-- hold count) until main mode/sub/step reach those values (step: at least), for screens deep inside a robattle.
 -- Without --state-in the script boots cold: new game, mash A through the intro until the field is idle,
 -- then applies the scene. With --state-in it waits for the field to be idle (or applies at once for NOW=1).
 -- The log gets "FIELD f<n>" when the field is reached and "ARRIVED <scene> f<n>" when the scene is up.
@@ -44,6 +47,15 @@ L.on_exec(0x08057E8A, 0x08057E8A, function()
     L.log(string.format("warp f%d -> map %d (%d,%d)", L.frame, WARP.dest.map, WARP.dest.x, WARP.dest.y))
   end
 end)
+
+-- Run field event `ev` from byte offset `pc` through the game's own interpreter: the same stores the tile
+-- trigger 0x080573A4 makes; mode 1 sub 1 (0x0804C088) dispatches while +0x9A0 (0x03005250) is set.
+function WARP.event(ev, pc)
+  wr(0x03005250, 1); emu.write16(0x03005256, ev, mem); emu.write16(0x03005258, ev, mem)
+  wr(0x03005251, 0); emu.write16(0x03005252, pc or 0, mem); wr(0x0300527C, 0); wr(0x030029C5, 1)
+  L.log(string.format("event f%d 0x%X pc %d", L.frame, ev, pc or 0))
+end
+function WARP.event_running() return rd(0x03005250) ~= 0 end
 
 -- Main-mode switch: the same stores a case of the scene switch 0x0804908C makes.
 function WARP.switch(mode, sub, step, extra)
@@ -86,7 +98,7 @@ local function apply(s)
 end
 
 local cold = not STATE_IN
-local idle, phase, at = 0, "boot", 0
+local idle, phase, at, evi = 0, "boot", 0, 0
 if cold then
   -- new game from the title (tools/routes/newgame.txt), then A through name entry and the intro
   for _, s in ipairs({ { "-", 600 }, { "start", 4 }, { "-", 200 }, { "start", 4 }, { "-", 300 }, { "up", 6 },
@@ -101,11 +113,36 @@ L.on_frame(function(f)
       L.log(string.format("FIELD f%d", f))
       if not spec then phase = "done"; return end
       phase, at = "wait", f + 10
+      if spec.events then phase, evi, idle = "events", 0, 0 end
+    end
+  elseif phase == "events" then
+    -- spec.events = {{ev, pc}, ...}: run each story event to its end (A mashed through its text), one by one
+    if WARP.event_running() then MASH, idle = 30, 0
+    else
+      MASH = 0
+      if WARP.field_idle() then idle = idle + 1 else idle = 0 end
+      if idle >= 20 then
+        evi, idle = evi + 1, 0
+        local e = spec.events[evi]
+        if e then WARP.event(e[1], e[2]) else phase, at = "wait", f + 10 end
+      end
     end
   elseif phase == "wait" and f >= at and L.route_done() then
     apply(spec); phase, at = "arrive", f
+  elseif phase == "arrive" and spec.wait and not WARP.waited then
+    -- spec.wait = {mode=, sub=, step=}: arrival counts from the first frame those hold (step = at least)
+    local w = spec.wait
+    if (not w.mode or rd32(MODE) == w.mode) and (not w.sub or rd32(SUBM) == w.sub)
+      and (not w.step or rd32(STEP) >= w.step) then WARP.waited = true; at = f end
   elseif phase == "arrive" and not WARP.pending and L.route_done() and f - at >= (spec.hold or HOLD or 120) then
-    L.log(string.format("ARRIVED %s f%d mode=%d sub=%d map=%d", SCENE or "adhoc", f, rd32(MODE), rd32(SUBM), rd(0x03004DC6)))
+    -- spec.expect = {[addr]=byte, ...} (and expect_mode/expect_sub): the RAM that proves the scene; a mismatch
+    -- logs NOTARRIVED instead, so prove.py fails rather than saving a state of the wrong screen.
+    local bad = {}
+    for a, v in pairs(spec.expect or {}) do if rd(a) ~= v then bad[#bad + 1] = string.format("%08X=%02X", a, rd(a)) end end
+    if spec.expect_mode and rd32(MODE) ~= spec.expect_mode then bad[#bad + 1] = "mode=" .. rd32(MODE) end
+    if spec.expect_sub and rd32(SUBM) ~= spec.expect_sub then bad[#bad + 1] = "sub=" .. rd32(SUBM) end
+    L.log(string.format("%s %s f%d mode=%d sub=%d map=%d %s", #bad == 0 and "ARRIVED" or "NOTARRIVED", SCENE or "adhoc",
+      f, rd32(MODE), rd32(SUBM), rd(0x03004DC6), table.concat(bad, " ")))
     phase = "done"
     L.shot("arrived.png")
     -- STOP=1: end the run here (prove.py); SAVE='abs path.mss' saves a state first

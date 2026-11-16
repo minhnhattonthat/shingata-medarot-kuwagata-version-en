@@ -30,7 +30,7 @@ def scene_names():
 def run(name, a):
     out = ROOT / "work" / "qa" / "scenes" / name
     cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), str(a.rom), "--out", str(out),
-           "--frames", "9000", "--timeout", "600", "--script", str(ROOT / "tools" / "debug" / "warp.lua"),
+           "--frames", "15000", "--timeout", "600", "--script", str(ROOT / "tools" / "debug" / "warp.lua"),
            "--var", f"SCENE='{name}'", "--var", "STOP=1"]
     if not a.no_states:
         state = (ROOT / "work" / "states" / f"{name}.mss").as_posix()

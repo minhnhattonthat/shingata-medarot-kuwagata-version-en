@@ -32,7 +32,31 @@ Field idle (safe to warp) = mode 1, field substate 2 and 0x03004268 = 1 (set by 
 (encounters on), +0x944 bit 0 = 0, and the step counter +0x943 passes 0x10 and a random roll. Pin 0x030051F1
 (+0x941) to 0 for no encounters. Then the field calls scene switch case 0x21 (mode 0 sub 6).
 
-## Save block and inventory hunt (2026-11-17, unfinished)
+## Inventory and party (session 4, verified)
+| Address | Layout (evidence) |
+|---|---|
+| 0x03000BE0 | **medals**: 30 records of 0x40 bytes; byte 0 = medal index \| 0x80 when owned \| 0x40 when set in a Medabot, byte 1 = name index (0x080097D8 reads +0 bit 7, names via 0x08465B8C[+1]). The Kuwagata medal is record 0 |
+| 0x03001790 | **Medabots**: 9 records of 8 bytes: status (0 none, 1 new, 3 built), gender, medal (0x1F none), head / right arm / left arm / legs part ids (0x3C+gender = none), slot. Created by 0x080437DC; event 0x1D2 leaves `03 00 00 15 15 15 15 00` |
+| 0x03001D80 | **items**: 40 records of 2 bytes, [0x80 \| id, count] (0x0804381C finds, 0x0804385C adds) |
+| 0x03003DF0 | **parts**: + type*0x78 + id*2, 4 types x 60 parts; byte 0 = count owned (the list shows it mod 100), byte 1 = the "(n)" figure. Poking counts makes them show in the parts list (0x080436B8 reads, 0x080436E0 adds, 0x08043714 removes) |
+Event commands that give things (per-frame table 0x0847B618): `10 id n type` part, `11 n` medal (0x08043300), `13 id n`
+item (0x080438BC), `14 ..` take part, `35 g` new Medabot (gender g). Event 0x1CB pc 2 (`11 00`) gives the first
+medal, event 0x1D2 pc 8 (after its condition `1D 03 07 55`) builds the first Medabot and gives parts 0x15 of all
+4 types. `warp.lua` runs both through the game's own interpreter (scene key `events`, below).
+The old "task slots at 0x03000BE0" guess was wrong: that is the medal list.
+
+## Robattle teams (session 4, verified)
+- Setup 0x08012854: if +0x945 (0x030051F5) != 0 (story) the team id is +0x942 (0x030051F2); else a weighted roll
+  picks one of 4 ids at 0x0846AC18 + map*4 (0xFF = no random battles: maps 0-29 and most towns; maps 30-33, 36-38,
+  44, 48-52, 61-63, 71, 76-91, 95-97, 102-106, 110-114, 117, 128, 131 have teams). The team record (0x28 bytes,
+  byte 2 = Medabot count) is copied from pointer table 0x0846C8B4 (169 teams) to 0x030017E0.
+- **Why robattles hung before:** on a map with no team (town, home) the "team" is 0x28 bytes of whatever follows
+  the table entry (0x0134 words), so the count byte is 0x34; the sprite loop at 0x08012B10 (0x08044968 per entry,
+  objects at 0x03001DE0 + n*0x40) runs past the object table into the link state 0x03004140 and the link
+  routine copied to 0x03004220 at boot (from 0x08000218). Step 33 then calls that routine (0x08002390) and the
+  CPU dies with VBlank masked. It is not an emulator bug. A story robattle (+0x945 = 1, team id set) runs.
+
+## Save block and inventory hunt (2026-11-17, superseded by the section above)
 - **Saved RAM:** the save (mode 2 sub 5, "yes") CpuSets 0x030048B0-0x03005287 (0x9D8 bytes, the field-state block)
   plus 0x03001D80-0x03001DCF and 0x03004260-0x03004267 (BIOS CpuSet pc 0xB8E; `work/qa/rsv3`). EEPROM save
   (`EEPROM_V124`); Mesen Lua write hooks never fire on the DMA3 registers, so `tools/lua/dma_eeprom.lua` logs nothing.
@@ -86,12 +110,15 @@ that event fires (map 18? map 40 is an empty pink building west of town).
 ## Robattle (mode 0 sub 6)
 - Steps 0..13 (intro, referee, formation), 32, 33 (fade: counter 0x030005AC to 8), 34, ... (`tools/lua/modelog.lua`).
 - Opponent table by map: 0x0846A7B0 + map*8, 2 bytes copied to 0x03000616 by 0x08012818.
-- **A raw mode write crashes** after the opponent's line: step 33 calls RAM code at 0x03004220 (via `bx r0`
-  0x0808B984 from 0x080023A4) that the field's encounter path sets up, and it jumps to 0x0FF336E0.
-- **A real encounter works:** on a field map pin 0x030051F1 = 1 (encounters on), 0x030051F3 = 0x20 (step
-  counter), 0x030051F5 = 0 and walk (`tools/lua/pin.lua`); mode 0 sub 6 starts by itself and reaches step 34, then
-  stays black with the CPU idle (pc 0x24, lr 0x080005DA): presumably no player Medabot. `robattle_intro` in
-  scenes.txt is still the raw write (good to the opponent's line only).
+- **Superseded (session 4):** the crash at step 33 after a raw write or a town encounter was the missing team (see
+  §Robattle teams): no team on that map, the sprite loop overruns into the link routine at 0x03004220.
+- **Working path:** party from events 0x1CB/0x1D2, then mode 0 sub 6 with 0x030051F5 = 1 (story) and 0x030051F2 =
+  team id. Subs: 6 intro (steps 0-13, 32-34), 3 pre-battle Medabot check, 7 command phase (step 70 waits for input),
+  8 action, 9 attack close-up, 6 step 48 result (win: steps 51, 52, 112 "ロボトルインフォメーション" spoils;
+  loss: then mode 2 sub 8 game over). With A mashed, our lone Medabot loses to team 1 at ~f9800 of a cold boot.
+- **Battle records:** ours at 0x03000680 (medal copy at +0, part ids at +0x37, armor max at +0x8F, current at
+  +0x95..+0x99; all 0 head = loss), the enemy's around 0x03000900 (part ids 0x31 at 0x0300092F). God mode for the
+  first Medabot = pin 0x03000715-19 to 2D 1C 22 20 18 (`robattle_win`).
 
 ## Door warps
 - Table 0x084B6248: one u32 pointer per map id to 8-byte entries, 0xFF-terminated:

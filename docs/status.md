@@ -21,31 +21,31 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/debug/ramdiff.py`, `tools/lua/{evtrace,mash_idle,blockdiff,dumpblock}.lua`. The story was walked to the
     first medal (event 0x1CB, park map 3); the next step (deliver it to the M-PK) is not found yet. Parts shop works
     with a shop id (0x03001D3C = 1 or 2) but money is 0 and lives outside the save block.
+  - Session 4 (`docs/re/debug.md` §Inventory and party, §Robattle teams, §Robattle): medals 0x03000BE0, Medabots
+    0x03001790, items 0x03001D80, parts 0x03003DF0; event give-commands (10 part, 11 medal, 13 item, 35 Medabot).
+    `warp.lua` runs story events through the game's interpreter (`events=`), waits on mode/sub/step (`wait=`) and
+    asserts RAM on arrival (`expect=`, NOTARRIVED fails prove.py). The robattle "crash" was a missing team on
+    town maps, not the emulator: story path (+0x945=1, team id +0x942) works. New scenes: party_setup/medals/parts,
+    robattle_prep, robattle, robattle_attack, robattle_win (armor pinned), robattle_loss, cutscene_01..10 (all 11
+    story comic cutscenes via 0x03005B29). Probe `tools/lua/writes.lua` (write hook with lr).
+    Proof state: the old 32 scenes + party_*, robattle_prep, robattle, cutscene_01..10 ARRIVED from cold boots;
+    robattle_win ARRIVED in a single run (f12813, spoils screen). A full `prove.py --jobs 4` was killed for low
+    memory (each Mesen ~560 MB; the robattle scenes run ~13000 frames): **first thing next session, run
+    `prove.py --jobs 2`** and fix robattle_attack / robattle_loss if their `wait=` doesn't hold.
 - **Next (phase 2, `references/emulator-qa.md` §Debug tool):**
-  0. Rebuild the medal state first (`work/play/` is not in git): follow §Story walk with `story.py` from
-     `work/states/home_2f.mss`, then turn it into a scene (`medal_found`) that `warp.lua` can reach (pokes of the
-     flags it lists, or the walk as a route).
-  1. **Party / inventory** (read `docs/re/debug.md` §Save block and §Robattle first: 2026-11-17 ruled out a lot).
-     Two leads from session 3: (a) find which flags pick a map's event group in 0x0847DF80 (code near 0x08056370),
-     then follow the story's own events (grep `work/re/events.txt` for the event that sets the flag after 0x1CB)
-     to the first Medabot; (b) find money (shop read trace skipping EWRAM 0x02020000-0x0203FFFF), set it, buy
-     parts at shop 1, and build a Medabot in the setup screen.
-     The saved RAM is 0x030048B0-0x03005287, but the empty list screens read none of it and filling its zero
-     ranges changes nothing. Robattles must start from a real encounter (pin 0x030051F1=1, 0x030051F3=0x20, walk:
-     the raw mode write crashes in RAM code 0x03004220); that path reaches step 34 and goes black with no party.
-     Next: play the opening story with `play.py` (mash A + walk out of the house) until the game hands over the first
-     Medabot, saving a state just before; diff `ramdump.lua` dumps across that event (`ramsearch.py`), or trace the
-     event interpreter (0x08055B44 area) for the give-Medabot/part command. Then a `FAST` option that fills the
-     party, and a `robattle` scene from a real encounter through attacks, win and loss.
-     Probes made this session: `tools/lua/reads_in_mode.lua` (reads by mode/sub/step, pc/addr filters),
-     `fill.lua`, `pin.lua`, `modelog.lua` (mode changes, PCEVERY for hangs), `dma_eeprom.lua` (doesn't fire).
-  2. **Story flags:** the nibble array at 0x030048B0 (+0, ~0x500 bytes; reader 0x08058260) and the event command
-     interpreter around 0x08055B44 (command 0x20 = story robattle). Needed for chapter entries, the pre-credits
-     ending (credits alone are 4/6) and the Start menu, which is locked in the early story (1 opens it anyway).
-  3. **Map tour:** one shot per map id 0-~140 (`MAP=n`, entry tile from the door table) to look for area banners
-     and to read the "?" rows of the graphics survey (G18, G19, G24, G28-G30); match G1-G11 to blocks.
-  4. Submenus by `press=` (help text under the Start menu "せつめい", shop sell list, save yes/no), then the
-     done-when: every entry reached from a cold boot with a shot (`prove.py` exit 0).
+  1. **Money and shops with stock:** money is still unknown (shops show 0円). Trace reads in the Start menu
+     (mode 0 sub 1, which shows money) with `reads_in_mode.lua`, or find the event command that pays (grep
+     handlers in 0x0847B618 for adds to a u32). Then `parts_shop_buy` with ids 1/2, sell list and a purchase.
+  2. **Story flags / chapters:** nibble array 0x030048B0 (reader 0x08058260; `1F hh ll` sets flag hhll). Map
+     event groups in 0x0847DF80 pick by flags (code near 0x08056370). Chapter entries: list the story events
+     that start story robattles (cmd `20`, 94 uses) and the cutscene events (75 xx: 0x1CD, 0x17E, 0x192, 0x146,
+     0x19C, 0x1DE, 0x228, 0x26F), run them with `events=` after setting their preceding flags. Pre-credits
+     ending: event 0x26F (cutscene 10, then commands 6E/78/36/39) is the candidate; credits alone are 4/6.
+  3. **More battle types:** story robattle with a full 3-Medabot party (give parts/medals with `events=` or
+     pokes, team ids from 0x0846AC18), Medaforce/special attacks per family, a random encounter on a map with
+     teams (maps 30+), link battle screens if any.
+  4. **Map tour:** one shot per map id 0-~140 (`MAP=n`) for area banners and the "?" rows of the graphics
+     survey (G18, G19, G24, G28-G30). 5. Submenus by `press=` (Start menu help "せつめい", shop sell, save yes/no).
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.
 - **Notes for later phases:** phase 4 extractor must take both string kinds (FF xx and FE). Phase 5: try the existing
