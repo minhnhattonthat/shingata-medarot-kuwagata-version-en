@@ -38,6 +38,8 @@ def load_font(name):
             continue
         if line.startswith("@"):
             parts = line[1:].split()
+            if len(parts[0]) == 2 and len(parts) > 1 and not parts[1].isdigit():
+                parts = parts[1:]  # dialogue font (font/en_glyphs.txt): `@XX c [advance]`, XX = the code
             ch = " " if parts[0] == "space" else parts[0]
             cur = [int(parts[1]) if len(parts) > 1 else None, []]
             out[ch] = cur
@@ -46,11 +48,13 @@ def load_font(name):
     for ch, g in out.items():
         if g[0] is None:
             g[0] = max((len(r.rstrip(".")) for r in g[1]), default=0) + 1
+    out.setdefault(" ", [3, []])
     return out
 
 
-def text_mask(text, font, spacing=0):
-    """Set of (x, y) ink pixels of `text`, x from 0, y from 0 (the font's top row); `spacing` px added per glyph."""
+def text_mask(text, font, spacing=0, ink_char="#"):
+    """Set of (x, y) ink pixels of `text`, x from 0, y from 0 (the font's top row); `spacing` px added per glyph.
+    ink_char "+" gives the half-ink pixels of the dialogue font instead."""
     ink, x = set(), 0
     for ch in text:
         if ch not in font:
@@ -58,7 +62,7 @@ def text_mask(text, font, spacing=0):
         adv, rows = font[ch]
         for y, r in enumerate(rows):
             for dx, c in enumerate(r):
-                if c == "#":
+                if c == ink_char:
                     ink.add((x + dx, y))
         x += adv + spacing
     return ink
@@ -127,6 +131,9 @@ def paint(g, label, styles):
                 g[y][x] = st["halo"]
         for x, y in outline:
             g[y][x] = st["outline"]
+        if "half" in st:  # half-ink pixels ("+" in font/en_glyphs.txt), drawn under the fill
+            for x, y in {(x + x0, y + y0) for x, y in text_mask(item["s"], font, sp, "+")}:
+                g[y][x] = st["half"]
         for x, y in fill:
             idx = st["fill"]
             if isinstance(idx, list):  # [[first row offset, index], ..] from the text's top row down
@@ -165,12 +172,25 @@ def _src(s):
     return codec, int(off, 16), int(at or "0", 16)
 
 
+def map_width(mp, at):
+    """Entries per map row: the block's 16-byte header (u32 width, u32 height, ..) when the map starts after one
+    (at >= 16, e.g. 30 for a 240-px map), else 32."""
+    if at >= 16:
+        w, h = struct.unpack_from("<II", mp, at - 16)
+        if 1 <= w <= 32 and 1 <= h <= 32 and at + 2 * w * h <= len(mp):
+            return w
+    return 32
+
+
 def render_screen(tiles, mp, at, tile0):
-    """256x256 index grid of a 32x32 text-BG map (entries at mp[at:]) over a tile block; tile = entry - tile0."""
+    """256x256 index grid of a text-BG map (entries at mp[at:], map_width() per row, up to 32 rows) over a tile
+    block; tile = entry - tile0."""
     g = [[0] * 256 for _ in range(256)]
-    for cy in range(32):
-        for cx in range(32):
-            e = struct.unpack_from("<H", mp, at + 2 * (cy * 32 + cx))[0]
+    w = map_width(mp, at)
+    rows = min(32, (len(mp) - at) // (2 * w))
+    for cy in range(rows):
+        for cx in range(w):
+            e = struct.unpack_from("<H", mp, at + 2 * (cy * w + cx))[0]
             t = (e & 1023) - tile0
             if not 0 <= t < len(tiles) // 32:
                 continue
@@ -214,7 +234,7 @@ def screen_blocks(rom, spec):
             for cx in range(bx // 8, (bx + bw) // 8):
                 cell = [g[cy * 8 + y][cx * 8:cx * 8 + 8] for y in range(8)]
                 tb = from_grid(cell, 1, 1)
-                p = at + 2 * (cy * 32 + cx)
+                p = at + 2 * (cy * map_width(mp, at) + cx)
                 e = struct.unpack_from("<H", mp, p)[0]
                 t = have.get(tb)
                 if t is None:
