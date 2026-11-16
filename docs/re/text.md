@@ -63,6 +63,34 @@ code at **0x0854FEA0** (`lsls r0,code,#6`), 8x16 4bpp; rendered, codes 01-10 the
 a second font (not the kana dialogue font). The main font's address is still to be pinned (phase 5). Phase 5: English can use the existing VWF by redrawing glyphs,
 adding lowercase in D0-EF and rewriting the width table, instead of writing a new VWF.
 
+## Font (verified by disassembly of the draw path, phase 5)
+
+Main dialogue font: **0x548E7C**, 64 bytes per code (16 rows of one u32 = 8 px, 4bpp, px 0 in the low nibble), codes
+00-CF (0x548E7C + 0xD0*64 = 0x54C27C onward is other data: D0-F6 rendered as noise). Colour 1 = background, F = ink,
+2-E = anti-alias shades. The draw path (0x08041548-0x080416EA) is a real VWF: it ORs the glyph into a 16-row column
+buffer at 0x02020000 shifted by the pen's pixel offset (+0x16), spills the rest into the next column (0x02020040),
+and flushes full columns to VRAM 0x06000280 + line*0x680 + column*0x40 (26 columns = 208 px per line). Any glyph up
+to 8 px wide works. Nine literal-pool words hold the font base (`tools/font.py` FONT_REFS, all in 0x08041xxx), so
+the build copies the font past 8 MiB with the English cells drawn in and repoints those nine
+(`font.font_stage`), and writes the English advances into the width table in place.
+
+English layout (`tbl/en.tbl` on top of `jp.tbl`, glyphs `font/en_glyphs.txt`): A-Z (A2-BB) and 0-9 (C6-CF) redrawn,
+`? ! ~ +` at C0 C1 C2 BF, a-z at D0-E9, `. , ' " - : ; ( ) & / % …` at EA-F6. Kana keep their codes and bitmaps.
+The alternate font 0x54FEA0 / widths 0x4647B8 (state+0x27) are not touched.
+
+**Second renderer: tile-map names (verified by disassembly + marker tour, not yet solved).** List fields (items,
+medals, parts, Medabot names in menus, shop rows) are not drawn by the VWF. 0x08062ABC writes BG map entries: for each
+byte of an FE string it takes code-1 and splits it by 26 (0x0808BC18 / 0x0808BBA0 = div/mod) into a charset tile
+row/column, so each character is one fixed 8 px cell from a charset already in VRAM (BG base from REG 0x0400000A).
+0x08062A88 sums `width[code]` over at most 10 bytes of an FE string (centring or a field check). In the marker
+build these names show in the old bold glyphs (digits and capitals right, lowercase codes D0+ index past the
+charset: garbage). The charset's ROM source is not pinned yet (candidates: G16 0x5518A0, the many literals of
+0x0854CCBC at 0x5460, 0x973C, 0x62D58, 0x68B3C, 0x69240, 0x69B5C, 0x6B664). Phase 5 must add English cells for
+D0-F6 there (or reroute these fields), and the width gate measures these fields in cells, not px.
+
+0x4789EC (one of 7 byte lists behind the pointer table 0x4787DC) is **data**, not a code map: 0x0803880A picks a
+list by mode and indexes it with `[0x030005B4] & 0x7F`; the values skip codes in no kana order (guess: id lists).
+
 ## Name lists (verified: pointer tables found)
 
 Every name the menus use is a **FE-terminated string** in the same encoding, in lists with a u32 pointer table right
@@ -171,8 +199,7 @@ bytes of alignment. How the non-text was decided:
   of 0x5097AF (0x5097A0: the table points into the middle of the line);
 - a kana-likeness scan of every uncovered byte found only record bytes (pointer bytes `xx xx xx 08` read as ク).
 
-Open for phase 5: 0x4789EC is a byte list of glyph codes in kana order (`00 01 02 03 04 06 08 ...`), a code map
-(maybe the name-entry keyboard or a sort order), kept as data until phase 5 sees what reads it.
+0x4789EC: data, not a code map (phase 5, see §Font).
 
 ### Not found yet (phase 2/4 must locate)
 

@@ -131,10 +131,31 @@ def text_stage(rom, entries, table, strings=None, relocate_all=False, poison=Fal
     return report
 
 
-def build(orig, strings=None, relocate_all=False, poison=False, lang="en", script=SCRIPT):
-    """Returns (rom bytes, Report)."""
-    table = Table.load(ROOT / "tbl" / "jp.tbl")
+def en_table():
+    """tbl/jp.tbl with tbl/en.tbl on top: Japanese text encodes exactly as before (jp lines come first, and the first
+    code given for a character wins), and every English character has a code."""
+    lines = []
+    for name in ("jp.tbl", "en.tbl"):
+        lines += (ROOT / "tbl" / name).read_text(encoding="utf-8-sig").splitlines()
+    return Table(lines)
+
+
+def has_lang(lang="en", root=SCRIPT):
+    """True once any string of script/ has a `lang` text."""
+    return any(e.get(lang) for path in Path(root).glob("*.json")
+               for e in json.loads(path.read_text(encoding="utf-8"))["strings"])
+
+
+def build(orig, strings=None, relocate_all=False, poison=False, lang="en", script=SCRIPT, font=None):
+    """Returns (rom bytes, Report). font: put in the English font (tools/font.py); None = only once script/ has
+    `lang` text or `strings` is given, so the build stays byte-identical until then."""
+    import font as fontmod
+    table = en_table()
     rom = Rom(orig)
+    if font is None:
+        font = bool(strings) or has_lang(lang, script)
+    if font:
+        fontmod.font_stage(rom, max(FREE_START, len(rom.buf)))
     report = text_stage(rom, load_script(lang, script), table, strings, relocate_all, poison)
     report.writes = rom.writes
     return rom.finish(), report

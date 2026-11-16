@@ -2,8 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build next (phases 1-4 done). Last build: 2026-11-17
+- **Phase:** 5. Engine spike and marker build in progress (phases 1-4 done). Last build: 2026-11-17
   `build/medarot_kuwagata_en.gba` from `script/`, sha1 573e980d... = the original (identity), smoke ok.
+  Marker build `build/marker.gba` (`build.py --marker`; `--full` fills dialogue lines to 208 px): boots, 70/70
+  scenes arrive (`work/qa/scenes_marker/shots`, `prove.py build/marker.gba --no-states --qa work/qa/scenes_marker`).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/` (+ GBA BIOS), guard hook proven (canary blocked), pre-commit runs
     `tools/check.py` and rejects a failing test, `rom.sha1` pinned, boot route reaches the title menu.
@@ -39,15 +41,29 @@ Updated at the end of every session. Keep it to what the next session needs; his
     bytes, files match a fresh dump, slots = `find_tables` slots, and `tools/textmap.py` explains every byte of
     0x464000-0x512000 (28 DATA ranges, 9 unused strings, 0 gaps). Every rejected pointer run was read: all data
     (docs/re/text.md §Coverage; 0x4A2E9C is sprite pieces, not names). Relocate+poison build smoke ok.
-- **Next (phase 5, `references/pipeline.md` §Marker, `references/platform-gba.md`):** engine spike + marker build.
-  1. Pin the main dialogue font (VRAM tiles of a dialogue shot -> `vramfind.py`; 0x54FEA0 is the alt italic font)
-     and the VWF width table 0x4645B8. Plan: lowercase + punctuation in D0-EF (32 free glyph codes, width 1 now),
-     redraw A-Z, new widths; wrap is automatic at 208 px. Add `tbl/en.tbl` and make `rombuild` encode `en` with it.
-  2. Marker build: every line `[id] marker text` (keep control codes, `{var}`, `{face}`, terminators), tour the 70
-     scenes + map tour, check ids show and nothing stays Japanese (text read by unknown references shows as JP there).
-  3. Width gate: measure each box variant in-game (dialogue with/without face, FE list fields in menus, shop, battle
-     messages, credits), record px budgets per table in a window-data file, plus a glyph torture line.
-  4. 0x4789EC (kana-order code list in DATA): see what reads it (name entry keyboard?).
+  - Phase 5 so far: dialogue font pinned (0x548E7C, a real VWF up to 8 px per glyph, docs/re/text.md §Font).
+    English font `font/en_glyphs.txt` (A-Z, a-z, 0-9, punctuation; drawn here, MIT) + `tbl/en.tbl` (on top of jp.tbl;
+    a-z and punctuation in D0-F6). `tools/font.py` (render / widths; `font_stage` copies the font past 8 MiB,
+    repoints its 9 literals, writes advances to 0x4645B8). `rombuild.build` adds the font automatically once any
+    `en` text exists (identity build unchanged). `tools/marker.py` + `build.py --marker [--full]`, `build.py --set
+    ID=TEXT --out F` for stress lines. `tests/test_font.py`. Dialogue boxes show `ID: The quick brown fox...` in the
+    new font, clean (shot: parts_shop). 0x4789EC is data (§Font).
+- **Next (phase 5, `references/pipeline.md` §Marker, `references/platform-gba.md`):**
+  1. **Tile-map name renderer** (docs/re/text.md §Font, "Second renderer"): list/menu names are drawn as fixed 8 px
+     tiles from a charset in VRAM (0x08062ABC, code-1 split by 26). Pin the charset's source (vramfind.py on a VRAM
+     dump of `items_owned` / `medal_list`; candidates G16 0x5518A0, data at 0x54CCBC), add English cells for D0-F6
+     (the charset must grow past code 0xCF), rebuild, recheck `items_owned` (marker shows garbage tiles over the
+     list there now) and `party_parts`, `parts_shop_list1`, `robattle` name fields. Also check other renderers that
+     sum `width[]` (literals of 0x084645B8 at 0x0804228C-0x08042704, 0x08063198, 0x08063B50).
+  2. Japanese left in the marker tour, sort into text vs graphics: bottom hint lines (…しょうさいがめんへ, …けってい,
+     …アイテムを つかう, カーソルで メダルを せんたく, …ならびかえ), shop column headers (パーツめい, しゅるい, ねだん),
+     the parts-shop menu options (パーツを かう / うる / もどる), name-entry grid, money "円" glyph in the menu font,
+     menu tabs (graphics G-rows). Run `jp_left.py build/marker.gba --tbl tbl/jp.tbl --gba-ptrs` for text the
+     extractor missed. Battle messages concatenate pieces (`robattle_attack` shows several ids on one line): fine.
+  3. Width gate: measure each box variant in-game (dialogue with/without face: 208 px wrap seen, the 2-line box;
+     list fields in cells; shop; battle messages; credits; encyclopedia pages), record budgets per table in
+     `windows.json` (measured / guess + shot), and boot a glyph torture line with `build.py --set`.
+  4. Map tour (`maptour.py`) on the marker build for signs / NPC text ids.
 - **Debug-tool gaps (not blocking; grow the list when phase 8 needs them):**
   1. Story robattles start from NPC talk (dispatcher near 0x08055B44, action 0x20 -> scene switch case 0x20); who
      writes the team id +0x942 per NPC is not traced. Scenes set the team id directly, which gives the same screens.
