@@ -1,5 +1,6 @@
 # Shingata Medarot (GBA) dialogue font table. Codes 01-CF verified in-game (docs/re/text.md, probe ROMs).
-# Control codes: argument counts are first guesses from the script; phase 4's roundtrip test confirms them.
+# Control codes F7-FF: argument counts verified from the dispatcher at 0x080411AC (docs/re/text.md).
+# FE ends a name-list entry; FF xx ends a dialogue string. D0-EF are unused 1-px glyph slots, not control codes.
 00=\s
 01=ア
 02=イ
@@ -208,9 +209,12 @@ CC=6
 CD=7
 CE=8
 CF=9
+F7={f7:1}
+F8={f8}
 F9={var:1}
 FA={fa:1}
 FB={face:3}
 FC={page}
 FD={n}
+FE={item}
 FF={end:1}

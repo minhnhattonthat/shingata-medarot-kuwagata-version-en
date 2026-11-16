@@ -3,8 +3,10 @@ look like tiles into numbered grey-scale 4bpp sheets with an offset index, and p
 
     python -X utf8 tools/gfx_sweep.py OUTDIR [--fmt gba4|gba8] [--zoom 2] [--rows 48]
 
-OUTDIR/sheet_NNN.png + OUTDIR/index.tsv (sheet, row, block offset, codec, size) + OUTDIR/skipped.tsv.
-Each block starts on a new 32-tile row with a red bar at its left edge; index.tsv maps sheet rows back to offsets.
+OUTDIR/sheet_NNN.png + OUTDIR/index.tsv (sheet, row, block offset, codec, size, width) + OUTDIR/skipped.tsv.
+Each block starts on a new tile row with a red bar at its left edge; index.tsv maps sheet rows back to offsets.
+Each block gets the tile width (32, 30, 16, 8, 4, 2) whose rows join best (pick_width); narrow blocks are folded into
+side-by-side bands of that width. Review the sheets with tools/sweep_review.py.
 """
 import argparse
 import sys
@@ -56,6 +58,60 @@ def tile_img(raw, i, fmt):
     return img
 
 
+def tile_px(raw, i, fmt):
+    """Rows of palette indices for tile i (8 lists of 8)."""
+    if fmt == "gba4":
+        t = raw[i * 32:i * 32 + 32]
+        return [[(t[y * 4 + x // 2] >> 4) if x & 1 else (t[y * 4 + x // 2] & 15) for x in range(8)] for y in range(8)]
+    t = raw[i * 64:i * 64 + 64]
+    return [list(t[y * 8:y * 8 + 8]) for y in range(8)]
+
+
+WIDTHS = (32, 30, 16, 8, 4, 2)
+
+
+def pick_width(raw, fmt):
+    """Tile columns that make the block's rows join best: mean pixel jump from the bottom row of tile i to the top row
+    of tile i+w, over tiles that aren't blank. Images stored row-major (30-wide full screens, 4-wide sprites) come out
+    whole. Narrow widths compare tiles that sit close in memory and score a little better on any data, so a width must
+    beat 32 by a clear margin (25%) to win; otherwise the block stays 32 wide."""
+    tsize = 32 if fmt == "gba4" else 64
+    n = len(raw) // tsize
+    px = [tile_px(raw, i, fmt) for i in range(n)]
+    scores = {}
+    for w in WIDTHS:
+        if n < 2 * w:
+            continue
+        tot = cnt = 0
+        for i in range(n - w):
+            a, b = px[i][7], px[i + w][0]
+            if not any(a) and not any(b):
+                continue
+            tot += sum(x != y for x, y in zip(a, b))
+            cnt += 8
+        if cnt:
+            scores[w] = tot / cnt
+    base = scores.get(32)
+    if base is None or base == 0:
+        return 32
+    w = min(scores, key=lambda k: (scores[k], -k))
+    return w if scores[w] < 0.75 * base else 32
+
+
+def layout(ntiles, w):
+    """(tile index, col, row) placements on the 32-column sheet and the row count. A block narrower than 32 that
+    divides it is folded into side-by-side bands of w columns, so a 4-wide sprite strip doesn't fill 8x the rows."""
+    rows = (ntiles + w - 1) // w
+    bands = 32 // w if 32 % w == 0 else 1
+    h = (rows + bands - 1) // bands
+    place = []
+    for ti in range(ntiles):
+        r, c = divmod(ti, w)
+        band, y = divmod(r, h)
+        place.append((ti, band * w + c, y))
+    return place, h
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("out")
@@ -78,7 +134,8 @@ def main():
             skipped.append((off, codec, len(raw), why))
             continue
         ntiles = len(raw) // tsize
-        rows = (ntiles + COLS - 1) // COLS
+        w = pick_width(raw, a.fmt)
+        place, rows = layout(ntiles, w)
         start = 0
         while start < rows:
             take = min(rows - start, a.rows - rows_used)
@@ -86,8 +143,8 @@ def main():
                 sheets.append(cur)
                 cur, rows_used = [], 0
                 continue
-            cur.append((off, codec, raw, start, take, rows_used))
-            index.append((len(sheets), rows_used, off, codec, len(raw), start))
+            cur.append((raw, [p for p in place if start <= p[2] < start + take], start, take, rows_used))
+            index.append((len(sheets), rows_used, off, codec, len(raw), start, w))
             rows_used += take
             start += take
     if cur:
@@ -96,22 +153,17 @@ def main():
     for si, parts in enumerate(sheets):
         img = Image.new("RGB", (COLS * 8 * z + 6, a.rows * 8 * z), (40, 0, 60))
         dr = ImageDraw.Draw(img)
-        for off, codec, raw, start, take, row0 in parts:
-            ntiles = len(raw) // tsize
-            for r in range(take):
-                for c in range(COLS):
-                    ti = (start + r) * COLS + c
-                    if ti >= ntiles:
-                        break
-                    t = tile_img(raw, ti, a.fmt).resize((8 * z, 8 * z), Image.NEAREST).convert("RGB")
-                    img.paste(t, (6 + c * 8 * z, (row0 + r) * 8 * z))
+        for raw, place, start, take, row0 in parts:
+            for ti, c, y in place:
+                t = tile_img(raw, ti, a.fmt).resize((8 * z, 8 * z), Image.NEAREST).convert("RGB")
+                img.paste(t, (6 + c * 8 * z, (row0 + y - start) * 8 * z))
             if start == 0:
                 dr.rectangle([0, row0 * 8 * z, 3, (row0 + take) * 8 * z - 1], fill=(255, 0, 0))
         img.save(out / f"sheet_{si:03d}.png")
     with open(out / "index.tsv", "w", encoding="utf-8") as f:
-        f.write("sheet\trow\toffset\tcodec\tsize\tfirst_block_row\n")
-        for s, r, o, c, n, st in index:
-            f.write(f"{s:03d}\t{r}\t{o:07X}\t{c}\t{n}\t{st}\n")
+        f.write("sheet\trow\toffset\tcodec\tsize\tfirst_block_row\twidth\n")
+        for s, r, o, c, n, st, w in index:
+            f.write(f"{s:03d}\t{r}\t{o:07X}\t{c}\t{n}\t{st}\t{w}\n")
     with open(out / "skipped.tsv", "w", encoding="utf-8") as f:
         f.write("offset\tcodec\tsize\treason\n")
         for o, c, n, why in skipped:
