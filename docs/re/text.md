@@ -75,10 +75,19 @@ the build copies the font past 8 MiB with the English cells drawn in and repoint
 (`font.font_stage`), and writes the English advances into the width table in place.
 
 English layout (`tbl/en.tbl` on top of `jp.tbl`, glyphs `font/en_glyphs.txt`): A-Z (A2-BB) and 0-9 (C6-CF) redrawn,
-`? ! ~ +` at C0 C1 C2 BF, a-z at D0-E9, `. , ' " - : ; ( ) & / % …` at EA-F6. Kana keep their codes and bitmaps.
+`? ! ~ +` at C0 C1 C2 BF, a-z at 52-6B, `. , ' " - : ; ( ) & / % …` at 6C-78 (hiragana codes: the menu-name sprite
+charset below only holds 01-CF, so D0-F6 are unused). Katakana and the other kana keep their codes and bitmaps.
 The alternate font 0x54FEA0 / widths 0x4647B8 (state+0x27) are not touched.
 
-**Second renderer: tile-map names (verified by disassembly + marker tour, not yet solved).** List fields (items,
+**Menu names are sprites (verified 2026-11-17, solved).** In items_owned, the shop lists and the robattle Medabot box
+the names are 8x8 OBJ sprites, tile = 0x320 + code - 1, x advanced by `width[code]` (a sprite VWF). The charset is
+Le block **0x5518A0** (G16): 207 tiles = codes 01-CF, loaded at OBJ tiles 0x320-0x3EE (0x3FE-0x3FF hold other
+graphics, so it cannot grow past CF). 29 literal-pool words point at it. `font.names_stage` decompresses it, draws
+the English glyphs (rows y5-y12 of en_glyphs.txt, colour 1 -> 0; g j p q y redrawn in `font/en_names_8x8.txt`),
+recompresses it past 8 MiB and repoints the 29 words. Item-list names: **19+ bytes corrupt VRAM**, 18 are fine.
+`tools/debug/namefields.py SCENE` prints each sprite name field's x range from a savestate.
+
+**Second renderer: tile-map names (verified by disassembly, screens not yet identified).** List fields (items,
 medals, parts, Medabot names in menus, shop rows) are not drawn by the VWF. 0x08062ABC writes BG map entries: for each
 byte of an FE string it takes code-1 and splits it by 26 (0x0808BC18 / 0x0808BBA0 = div/mod) into a charset tile
 row/column, so each character is one fixed 8 px cell from a charset already in VRAM (BG base from REG 0x0400000A).

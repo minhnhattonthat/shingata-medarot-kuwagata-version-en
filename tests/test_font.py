@@ -57,6 +57,29 @@ def test_font_stage_writes():
     assert low <= allowed
 
 
+@need_rom
+def test_names_stage_writes():
+    """The menu-name sprite charset gets every English glyph at its code; kana tiles stay; all 29 pointers move."""
+    import le
+    orig = font.ROM.read_bytes()
+    rom = rombuild.Rom(orig)
+    end = font.names_stage(rom, rombuild.FREE_START + 1)
+    start = rombuild.FREE_START + 4
+    raw, stop = le.decompress(bytes(rom.buf), start)
+    assert stop == end
+    old, _ = le.decompress(orig, font.NAMES)
+    tiles = font.names_tiles()
+    assert set(tiles) == set(font.load_glyphs())
+    for code in range(1, font.NAMES_CODES + 1):
+        want = tiles.get(code, old[(code - 1) * 32:code * 32])
+        assert raw[(code - 1) * 32:code * 32] == want, f"{code:02X}"
+    new = struct.pack("<I", 0x08000000 + start)
+    refs = font.names_refs(orig)
+    assert all(rom.buf[r:r + 4] == new for r in refs)
+    low = {off for off, *_ in rom.writes if off < rombuild.ORIG_SIZE}
+    assert low == set(refs)
+
+
 def test_marker_keeps_controls():
     w = marker.widths()
     jp = "{face:005500}ごめんなさい{n}まだ じゅんびちゅうなの{page}メダロットの{end:00}"

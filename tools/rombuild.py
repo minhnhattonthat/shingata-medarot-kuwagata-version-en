@@ -155,7 +155,8 @@ def build(orig, strings=None, relocate_all=False, poison=False, lang="en", scrip
     if font is None:
         font = bool(strings) or has_lang(lang, script)
     if font:
-        fontmod.font_stage(rom, max(FREE_START, len(rom.buf)))
+        end = fontmod.font_stage(rom, max(FREE_START, len(rom.buf)))
+        fontmod.names_stage(rom, end)
     report = text_stage(rom, load_script(lang, script), table, strings, relocate_all, poison)
     report.writes = rom.writes
     return rom.finish(), report

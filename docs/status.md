@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build in progress (phases 1-4 done). Last build: 2026-11-17
+- **Phase:** 5. Engine spike and marker build in progress (phases 1-4 done; menu-name sprites solved, width gate
+  started). Last build: 2026-11-17
   `build/medarot_kuwagata_en.gba` from `script/`, sha1 573e980d... = the original (identity), smoke ok.
   Marker build `build/marker.gba` (`build.py --marker`; `--full` fills dialogue lines to 208 px): boots, 70/70
   scenes arrive (`work/qa/scenes_marker/shots`, `prove.py build/marker.gba --no-states --qa work/qa/scenes_marker`).
@@ -48,13 +49,29 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `en` text exists (identity build unchanged). `tools/marker.py` + `build.py --marker [--full]`, `build.py --set
     ID=TEXT --out F` for stress lines. `tests/test_font.py`. Dialogue boxes show `ID: The quick brown fox...` in the
     new font, clean (shot: parts_shop). 0x4789EC is data (§Font).
+    **Menu names solved (2026-11-17):** they are 8x8 sprites from Le block 0x5518A0 (codes 01-CF only, no VRAM room
+    to grow), so English lowercase/punctuation moved to the hiragana codes 52-78 (D8 in decisions.md; en.tbl,
+    en_glyphs.txt). `font.names_stage` redraws that charset (8x8 overrides `font/en_names_8x8.txt`) and repoints its
+    29 pointers; the build runs it after `font_stage`; `tests/test_font.py::test_names_stage_writes`. Item list,
+    shop list and robattle names show English in the marker build (`work/qa/scenes_marker2`). Glyph torture line
+    (all punctuation, double spaces) renders right in party_parts (`work/qa/stress/z.png`).
+    Width gate started: `data/windows.json` (item list 86 px / 18-byte hard cap: 19 bytes corrupt VRAM; shop part
+    name 80 px; Medabot name box 79 px / 10 bytes; dialogue 208 px x 2 lines still tagged guess).
+    New tools: `tools/unpack_blocks.py OUTDIR` (every LZ77/Le block, for vramfind.py), `tools/debug/namefields.py
+    SCENE..` (sprite name fields' x ranges from a savestate).
 - **Next (phase 5, `references/pipeline.md` §Marker, `references/platform-gba.md`):**
-  1. **Tile-map name renderer** (docs/re/text.md §Font, "Second renderer"): list/menu names are drawn as fixed 8 px
-     tiles from a charset in VRAM (0x08062ABC, code-1 split by 26). Pin the charset's source (vramfind.py on a VRAM
-     dump of `items_owned` / `medal_list`; candidates G16 0x5518A0, data at 0x54CCBC), add English cells for D0-F6
-     (the charset must grow past code 0xCF), rebuild, recheck `items_owned` (marker shows garbage tiles over the
-     list there now) and `party_parts`, `parts_shop_list1`, `robattle` name fields. Also check other renderers that
-     sum `width[]` (literals of 0x084645B8 at 0x0804228C-0x08042704, 0x08063198, 0x08063B50).
+  1. **Remaining renderers:** the BG tile-map renderer 0x08062ABC (code-1 split by 26) is not yet tied to a screen:
+     look through `work/qa/scenes_marker2/sheet.png` (full 70-scene marker tour, this session) for garbage or kana
+     in name fields; for one, dump VRAM (`emu.py --script $SKILL/scripts/lua/probes/ppudump.lua`), read the BG maps
+     and `vramfind.py DUMP work/blocks --tile 32` (after `tools/unpack_blocks.py work/blocks`), then redraw that
+     charset like `names_stage`. Also the other `width[]` users (literals of 0x084645B8 at 0x0804228C-0x08042704,
+     0x08063198, 0x08063B50). Lists that are empty in the scenes (medal_list, party_parts, parts_list) need a
+     scene with owned medals/parts to show names (poke RAM: medals 0x03000BE0, parts 0x03003DF0).
+  1b. Width gate leftovers in `data/windows.json`: confirm dialogue 208 px on a zoomed `--marker --full` shot and a
+     portrait box; measure names_default per table (medals, skills, attacks, parts list, battle menu/status, weapon
+     kinds, tutorial topics, credits) with `namefields.py` + a shot of the next drawn thing; check the 18-byte cap
+     on other lists (stress via `build.py --marker --out build/stress.gba --set ID=TEXT{item}`). Then add a lint
+     to `tools/check.py` that reads windows.json (warn on unmeasured variants, fail over budget).
   2. Japanese left in the marker tour, sort into text vs graphics: bottom hint lines (…しょうさいがめんへ, …けってい,
      …アイテムを つかう, カーソルで メダルを せんたく, …ならびかえ), shop column headers (パーツめい, しゅるい, ねだん),
      the parts-shop menu options (パーツを かう / うる / もどる), name-entry grid, money "円" glyph in the menu font,

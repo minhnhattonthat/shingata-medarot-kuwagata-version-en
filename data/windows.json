@@ -1,0 +1,41 @@
+{
+  "about": "Width-gate budgets per box variant (pipeline.md §Width gate). px = widest text in pixels (width table 0x4645B8 advances), bytes = hard byte cap, lines = lines per page. status: measured (with shot/evidence) or guess. Tables map script/<table>.json to a variant; a string shown on several screens takes the smallest budget.",
+  "variants": {
+    "dialogue": {
+      "px": 208, "lines": 2, "status": "guess",
+      "evidence": "engine wraps words at pen x > 0xD0 (0x080414BA); 26 VRAM columns x 8 px; the visible last column at 208 px is still to be confirmed on a zoomed marker_full shot (build.py --marker --full); torture line work/qa/stress/party_parts/arrived.png",
+      "notes": "one word wider than 208 px wraps before it is drawn (lands on a third, invisible line)"
+    },
+    "dialogue_face": {
+      "px": 208, "lines": 2, "status": "guess",
+      "notes": "box with a portrait (FB a b c): same renderer; measure the visible width with a portrait scene"
+    },
+    "item_list_name": {
+      "px": 86, "bytes": 18, "status": "measured",
+      "evidence": "items_owned: name sprites start x=96, the BG 'x' column at x=184 (tools/debug/namefields.py, work/qa/namefields/items_owned); 19+ bytes corrupt VRAM (work/qa/stress_19), 18 ok (work/qa/stress_18)"
+    },
+    "shop_part_name": {
+      "px": 80, "status": "measured",
+      "evidence": "parts_shop_list1: name x=16, BG 'x' at x~98 (work/qa/stress/z.png: 'Medabot Medal' fits, 16 chars run under the x)"
+    },
+    "medabot_name_box": {
+      "px": 79, "bytes": 10, "status": "measured",
+      "evidence": "robattle_prep / robattle / party3_setup: Medabot name sprites x=8..87, 10 cells (the nickname buffer is 10 bytes, padded)",
+      "notes": "player nicknames come from name entry (graphics/name-entry work, phase 6+)"
+    },
+    "names_default": {
+      "px": 80, "bytes": 18, "status": "guess",
+      "notes": "every FE name table not yet measured on its own screens (medals, skills, attacks, parts in party_parts, weapon kinds, battle menu/status): use the smallest measured list field until measured"
+    }
+  },
+  "tables": {
+    "50C998": "item_list_name",
+    "468A00": "shop_part_name",
+    "468308": "medabot_name_box",
+    "465B8C": "names_default", "465C84": "names_default", "466374": "names_default", "466688": "names_default",
+    "469450": "names_default", "46A508": "names_default", "46A6F0": "names_default", "46A744": "names_default",
+    "46E60C": "names_default", "46EDA0": "names_default", "46F0BC": "names_default", "470B08": "names_default",
+    "50EF18": "names_default", "510C28": "names_default",
+    "*ff": "dialogue"
+  }
+}

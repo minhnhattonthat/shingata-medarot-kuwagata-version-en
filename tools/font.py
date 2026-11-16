@@ -106,6 +106,63 @@ def font_stage(rom, free, glyphs=None):
     return free + len(cells)
 
 
+# Menu-name sprite charset (docs/re/text.md §Font, "Second renderer"): Le block, 8x8 4bpp, one tile per code 01-CF
+# (tile = code - 1), loaded at OBJ tile 0x320; colour 0 = transparent, F = ink. 29 literal-pool words point at it.
+NAMES = 0x5518A0
+NAMES_CODES = 0xCF
+NAMES_FILE = ROOT / "font" / "en_names_8x8.txt"
+NAMES_INK = {1: 0}  # dialogue background -> transparent; other colours keep their index
+
+
+def names_refs(data):
+    want = struct.pack("<I", 0x08000000 + NAMES)
+    return [p for p in range(0, len(data) - 3, 4) if data[p:p + 4] == want]
+
+
+def names_tile(rows):
+    """8x8 4bpp tile from dialogue-cell rows y5..y12."""
+    out = bytearray()
+    for row in rows[TOP:TOP + 8]:
+        for x in range(0, 8, 2):
+            lo, hi = (NAMES_INK.get(v, v) for v in row[x:x + 2])
+            out.append(lo | hi << 4)
+    return bytes(out)
+
+
+def names_tiles(glyphs=None, overrides=None):
+    """{code: 32-byte tile} for every English glyph the charset can hold."""
+    glyphs = load_glyphs() if glyphs is None else glyphs
+    overrides = load_glyphs(NAMES_FILE) if overrides is None else overrides
+    out = {}
+    for code, (_, _, rows) in glyphs.items():
+        if not 1 <= code <= NAMES_CODES:
+            raise ValueError(f"names charset: {code:02X} is outside 01-{NAMES_CODES:02X}")
+        if code not in overrides and any(v != 1 for v in rows[TOP + 8]):
+            raise ValueError(f"names charset: {code:02X} has ink below y12; draw it in {NAMES_FILE.name}")
+        out[code] = names_tile(overrides.get(code, (None, None, rows))[2])
+    return out
+
+
+def names_stage(rom, free, glyphs=None):
+    """Recompress the name charset with the English tiles at `free` (4-aligned) and repoint it. Returns the end."""
+    import le
+    raw, _ = le.decompress(rom.orig, NAMES)
+    if len(raw) != NAMES_CODES * 32:
+        raise ValueError(f"names charset: {len(raw)} bytes, expected {NAMES_CODES * 32}")
+    raw = bytearray(raw)
+    for code, tile in names_tiles(glyphs).items():
+        raw[(code - 1) * 32:code * 32] = tile
+    free = (free + 3) & ~3
+    packed = le.compress(bytes(raw))
+    rom.write(free, packed, "names charset")
+    refs = names_refs(rom.orig)
+    if len(refs) != 29:
+        raise ValueError(f"names charset: {len(refs)} pointers, expected 29")
+    for ref in refs:
+        rom.write(ref, struct.pack("<I", 0x08000000 + free), f"names ptr {ref:06X}")
+    return free + len(packed)
+
+
 PALETTE = {0:(255, 255, 255), 1: (0, 0, 0), 2: (120, 120, 200), 3: (200, 120, 120)}
 
 

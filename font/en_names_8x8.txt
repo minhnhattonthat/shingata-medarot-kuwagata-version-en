@@ -1,0 +1,49 @@
+# 8x8 overrides for the menu-name sprite charset (tools/font.py names_stage). Same format as en_glyphs.txt; only
+# rows y5..y12 reach the 8x8 cell (cell row 0 = y5), so glyphs with a second descender row are redrawn here with a
+# shorter bowl. Advances come from en_glyphs.txt (the width table is shared), so the ink must stay as wide.
+
+@58 g
+.....
+.....
+.####
+#...#
+#...#
+.####
+....#
+.###.
+@5B j
+..#
+...
+..#
+..#
+..#
+..#
+#.#
+.#.
+@61 p
+.....
+.....
+####.
+#...#
+#...#
+####.
+#....
+#....
+@62 q
+.....
+.....
+.####
+#...#
+#...#
+.####
+....#
+....#
+@6A y
+.....
+.....
+#...#
+#...#
+#...#
+.####
+....#
+.###.
