@@ -44,6 +44,44 @@ Field idle (safe to warp) = mode 1, field substate 2 and 0x03004268 = 1 (set by 
   Medabot/medal (find it with the event interpreter, below), or the "give part" event command.
 - UI objects live at 0x0202E000-0x0202F6FF (0x50/0x210-byte records) and task slots at 0x03000BE0 (0x40 each);
   0x02020000-0x0202007F is a glyph-drawing buffer (0x08041600 ORs it into VRAM 0x06000280). Skip them in traces.
+- **Parts shop / money (2026-11-17, session 3):** the shop (mode 2 sub 11) needs a shop id in 0x03001D3C (scene
+  switch case 3): id 0 = empty buy list (what `parts_shop_buy` shows), ids 1 and 2 show a clerk and the
+  buy/sell/leave menu. Money shows 0円. The shop reads **no byte of the save block either** (`reads_in_mode.lua`
+  with RLO/RHI on it), so money and inventory live somewhere else. A full-RAM read trace stops at RMAX in the
+  EWRAM glyph buffers 0x02020000-0x02030FFF: rerun with `--var RXLO=0x02020000 --var RXHI=0x0203FFFF` (or a
+  higher RMAX) to see the rest. Getting money then buying parts at shop 1 is a candidate route to a first Medabot.
+
+## Events (field event scripts; verified 2026-11-17)
+- **Event table** 0x084FC358: one u32 per event index, **688 events**. Fetch 0x08050678: byte =
+  `[table[ev] + pc]`, event index u16 at 0x03005256 (+0x9A6), pc u16 at 0x03005252 (+0x9A2), current command at
+  0x0300525A (+0x9AA). Argument byte count per command: 0x0847B050[cmd]. Handlers: 0x0847B160 (122 entries, run on
+  dispatch, called at 0x0804D63C / 0x080502A6 / 0x08050308) and 0x0847B618 (per-frame continuation, same index).
+  `python -X utf8 tools/debug/evdump.py` writes every script to `work/re/events.txt` (`--ev 0x1CB` prints one).
+  `tools/lua/evtrace.lua` logs each dispatched command (event, pc, cmd, map; `EVTRACE_BYTES=1` hooks a second
+  fetch routine 0x08050650 that the field events don't use).
+- **Commands seen:** `02` end. `01 a b` text: bank a>>4, index ((a&0xF)<<8)|b; bank A = the string pointer table
+  0x50A9D8 (`01 a2 6e` = index 0x26E = "ここは MーPKたい ベント・デル・マーレ しぶ"; entries 622-1100 of that table
+  all point at that one string, i.e. unused slots). `1F hh ll` sets story flag hhll (each event sets its own index
+  when done, e.g. `1F 01 cb`). `43 hh ll`, `21 hh ll v`, `20 hh ll`, `5F hh ll v` take a flag number too (guess:
+  clear / set-var / test). `52 actor x y dir` places an actor (guess). `75 n` starts a cutscene (event 0x1CB:
+  `75 00` = the medal-finding scene, mode 3 sub 3).
+- **Map event lists:** pointer table 0x0847DF80 (141 entries = map ids, read at 0x08056370), records of 12 bytes
+  with the event index u16 at +6, several FF-terminated groups per map (story phases, guess). Map 18 (town door
+  (12,6) -> map 11 -> map 16 -> map 18) holds events 0x222-0x225, the M-PK officer, but at the medal story step the
+  room is empty: the group selection (which flags pick a group) is the next thing to read.
+
+## Story walk (first Medabot hunt, session 3)
+`tools/debug/story.py FROM NAME "route"` plays a route from a state, mashes A until the player has control and
+saves `work/play/s/NAME.mss` + shot, printing every dialogue string shown (decoded with `tbl/jp.tbl`; helper
+`tools/lua/mash_idle.lua`). `--warp --var MAP=n --var X= --var Y= --var MASH_FROM=300` warps first.
+`tools/debug/ramdiff.py A.mss B.mss` diffs the save block (or `--lo/--hi`) between two states.
+Opening, from `work/states/home_2f.mss`: stairs (left, up) to 1F; walk to the door: mother asks Ikki to walk the
+dog Kamui; out to the town (map 0) and down/east into the park (map 3, door (29,24)). In the park the dog runs off
+(a short camera scene); walk right along y=9 to x=14: the dog stands by a glowing medal at (16,9). Step up, right
+2, face down, A: event 0x1CB (medal cutscene, "「クワガタ」メダルを てにいれた", medal name entry 2/18 -> 2/6). Then
+the medal list shows the Kuwagata medal; the save block change is only flags (+0xE1 0x80->0x88, +0xE5 0x00->0x88,
++0x1F4-0x206 cleared, +0x5EF/+0x5FE 07->00). Ikki's line: take the medal to the M-PK corps. Not found yet where
+that event fires (map 18? map 40 is an empty pink building west of town).
 
 ## Robattle (mode 0 sub 6)
 - Steps 0..13 (intro, referee, formation), 32, 33 (fade: counter 0x030005AC to 8), 34, ... (`tools/lua/modelog.lua`).
