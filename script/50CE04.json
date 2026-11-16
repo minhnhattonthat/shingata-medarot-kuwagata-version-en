@@ -1,0 +1,489 @@
+{
+ "table": "50CE04",
+ "about": "",
+ "strings": [
+  {
+   "id": "50CA34",
+   "slots": [
+    "50CE04"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{fa:FF}{fa:FF}{fa:FF}これを もっていると ロボトルから にげられるらしい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CA36",
+   "slots": [
+    "50CE08"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "tail_of": "50CA34",
+   "jp": "{fa:FF}{fa:FF}これを もっていると ロボトルから にげられるらしい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CA38",
+   "slots": [
+    "50CE0C"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "tail_of": "50CA34",
+   "jp": "{fa:FF}これを もっていると ロボトルから にげられるらしい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CA56",
+   "slots": [
+    "50CE10"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{fa:FF}ふくびきで ゲームをして ごうか しょうひんを{n}あてよう！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CA77",
+   "slots": [
+    "50CE14"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{fa:FF}わたるくんが つくった ふつうの ルアー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CA8F",
+   "slots": [
+    "50CE18"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{fa:FF}だれかに あげると いいことが あるかも！？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CAA9",
+   "slots": [
+    "50CE1C"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{fa:FF}とても かわいい ひよこ{n}ピヨピヨ ないている{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CAC4",
+   "slots": [
+    "50CE20"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{fa:FF}これで いけなかった ところへ いけるかも{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CADD",
+   "slots": [
+    "50CE24"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{fa:FF}めがねが ひつような ひとって だれ？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CAF4",
+   "slots": [
+    "50CE28"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{fa:FF}おんがくの しきには これが かかせない！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CB0D",
+   "slots": [
+    "50CE2C"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{fa:FF}なんだか むずかしい ことが かいてある ほん{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CB28",
+   "slots": [
+    "50CE30"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{fa:FF}すごく むずかしい ことが かいてある ほん{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CB42",
+   "slots": [
+    "50CE34"
+   ],
+   "kind": "ff",
+   "bytes": 43,
+   "jp": "{fa:FF}むずかしすぎて なんだか わからない！{n}こういうのが すきなひとに わたそう！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CB6D",
+   "slots": [
+    "50CE38"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{fa:FF}げんきな オスの くわがたむし{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CB80",
+   "slots": [
+    "50CE3C"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{fa:FF}{fa:FF}メダロットのようで メダロットでない・・・{n}にせものだ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CB82",
+   "slots": [
+    "50CE40"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "tail_of": "50CB80",
+   "jp": "{fa:FF}メダロットのようで メダロットでない・・・{n}にせものだ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CBA2",
+   "slots": [
+    "50CE44"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "{fa:FF}とても しんせんな さかな{n}はやく ソンチョーにわたさないと！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CBC5",
+   "slots": [
+    "50CE48"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{fa:FF}とても きれいな いし{n}キラキラ している{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CBDE",
+   "slots": [
+    "50CE4C"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{fa:FF}メダルのかたちをしているが なんだか ふるぼけている{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CBFC",
+   "slots": [
+    "50CE50"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{fa:FF}やきものを やくのに てきしている{n}さいこうきゅうの つち{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CC1D",
+   "slots": [
+    "50CE54"
+   ],
+   "kind": "ff",
+   "bytes": 41,
+   "jp": "{fa:FF}こういうものの かちは よく わからない・・・{n}ソンチョーならわかるかな？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CC46",
+   "slots": [
+    "50CE58"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{fa:FF}これで ロボロボだんに へんしん できるぞ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CC5F",
+   "slots": [
+    "50CE5C"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{fa:FF}ロボロボだんの ボスが うつっている しゃしん{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CC7A",
+   "slots": [
+    "50CE60"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{fa:FF}MーPKたいの メダルだ！ かっこいい！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CC92",
+   "slots": [
+    "50CE64"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{fa:FF}きんいろに かがやいている パーツ{n}とても きれいだ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CCB0",
+   "slots": [
+    "50CE68"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{fa:FF}おんぼろすぎて いまにも くずれそうだ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CCC7",
+   "slots": [
+    "50CE6C"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{fa:FF}アイリスが たいせつにしている けいたいでんわ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CCE2",
+   "slots": [
+    "50CE70"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{fa:FF}どんな ばしょへも これさえあれば ひとっとび！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CCFE",
+   "slots": [
+    "50CE74"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{fa:FF}これに のっていれば ロボトルを いどまれない らしい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CD1D",
+   "slots": [
+    "50CE78"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{fa:FF}みずの まえで つかってみよう わたれるばしょがあるかも！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CD3E",
+   "slots": [
+    "50CE7C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{fa:FF}これで じぶんのいる ばしょが ひとめで わかる！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CD5B",
+   "slots": [
+    "50CE80"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{fa:FF}どこかへの にゅうじょうけんのようだが・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CD75",
+   "slots": [
+    "50CE84"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{fa:FF}どこかに はいるための カードのようだ・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CD8F",
+   "slots": [
+    "50CE88"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{fa:FF}ロボトルたいかいの さんか チケットのようだ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CDA9",
+   "slots": [
+    "50CE8C"
+   ],
+   "kind": "ff",
+   "bytes": 10,
+   "jp": "{fa:FF}？？？？？？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CDB3",
+   "slots": [
+    "50CE90"
+   ],
+   "kind": "ff",
+   "bytes": 10,
+   "jp": "{fa:FF}？？？？？？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CDBD",
+   "slots": [
+    "50CE94"
+   ],
+   "kind": "ff",
+   "bytes": 10,
+   "jp": "{fa:FF}？？？？？？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CDC7",
+   "slots": [
+    "50CE98"
+   ],
+   "kind": "ff",
+   "bytes": 10,
+   "jp": "{fa:FF}？？？？？？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CDD1",
+   "slots": [
+    "50CE9C"
+   ],
+   "kind": "ff",
+   "bytes": 37,
+   "jp": "{fa:FF}サルが おんなのこから うばった メダル{n}はやく かえしてあげよう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CDF6",
+   "slots": [
+    "50CEA0"
+   ],
+   "kind": "ff",
+   "bytes": 14,
+   "jp": "{fa:FF}アイテムはありません{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

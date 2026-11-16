@@ -1,0 +1,210 @@
+{
+ "table": "50D0B4",
+ "about": "",
+ "strings": [
+  {
+   "id": "50CEA4",
+   "slots": [
+    "50D0B4"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{fa:FF}「ベント・デル・マーレ」{n}{var:00}とゆかいな なかまたちの まち{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CEC6",
+   "slots": [
+    "50D0B8"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{fa:FF}「ビーチ・デル・ソル」{n}どうくつもある みなとまち{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CEE3",
+   "slots": [
+    "50D0BC"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{fa:FF}「カラクリ・タウン」{n}メダロットけんきゅうじょが ある まち{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CF05",
+   "slots": [
+    "50D0C0"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{fa:FF}「こしかけむら」{n}やまおくに ある むら{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CF1D",
+   "slots": [
+    "50D0C4"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{fa:FF}「こしかけやま」{n}こしかけおんせんに つうじている{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CF3A",
+   "slots": [
+    "50D0C8"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{fa:FF}「セントラルモール」{n}いろんな おみせがある しょうてんがい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CF5C",
+   "slots": [
+    "50D0CC"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{fa:FF}「ラ・コリーナ」{n}メダロットカンパニーがある まち{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CF79",
+   "slots": [
+    "50D0D0"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{fa:FF}「ヴォーグ・タウン」{n}こうきゅう じゅうたくがい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CF95",
+   "slots": [
+    "50D0D4"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{fa:FF}「オセアノ・タワー」{n}MーPKたいの ほんぶが あるまち{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CFB5",
+   "slots": [
+    "50D0D8"
+   ],
+   "kind": "ff",
+   "bytes": 37,
+   "jp": "{fa:FF}「メダルはっくつきねんこうえん」{n}メダルがはっくつされているばしょ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CFDA",
+   "slots": [
+    "50D0DC"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{fa:FF}「ほうざんじんじゃ」{n}ゆいしょただしい じんじゃ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50CFF6",
+   "slots": [
+    "50D0E0"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{fa:FF}「こんちゅうはくぶつかん」{n}こんちゅうのことなら ここ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D015",
+   "slots": [
+    "50D0E4"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{fa:FF}「しのびのさと」{n}なぞのベールにつつまれた しのびの むら{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D036",
+   "slots": [
+    "50D0E8"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{fa:FF}「サザンコロシアム」{n}ロボトルせかいたいかいの かいじょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D057",
+   "slots": [
+    "50D0EC"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{fa:FF}「コスモドーム」{n}おおきな てんぼうだいが あるまち{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D075",
+   "slots": [
+    "50D0F0"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{fa:FF}「あかさかむら」{n}パパの こきょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D08A",
+   "slots": [
+    "50D0F4"
+   ],
+   "kind": "ff",
+   "bytes": 40,
+   "jp": "{fa:FF}「フォンタナいせき」{n}いつごろ できたかも わからない しんぴの いせき{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

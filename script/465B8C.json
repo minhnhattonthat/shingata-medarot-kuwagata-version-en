@@ -1,0 +1,366 @@
+{
+ "table": "465B8C",
+ "about": "medal names",
+ "strings": [
+  {
+   "id": "465AFC",
+   "slots": [
+    "465B8C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "クワガタ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B01",
+   "slots": [
+    "465B90"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "カブト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B05",
+   "slots": [
+    "465B94"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "トータス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B0A",
+   "slots": [
+    "465B98"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "クラゲ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B0E",
+   "slots": [
+    "465B9C"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "クマ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B11",
+   "slots": [
+    "465BA0"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "クモ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B14",
+   "slots": [
+    "465BA4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "へ・ビー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B19",
+   "slots": [
+    "465BA8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "クイーン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B1E",
+   "slots": [
+    "465BAC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "クラーケン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B24",
+   "slots": [
+    "465BB0"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "フェニックス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B2B",
+   "slots": [
+    "465BB4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ユニコーン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B31",
+   "slots": [
+    "465BB8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ゴースト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B36",
+   "slots": [
+    "465BBC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ナイト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B3A",
+   "slots": [
+    "465BC0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "マーメイド{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B40",
+   "slots": [
+    "465BC4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ペンギン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B45",
+   "slots": [
+    "465BC8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "コウモリ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B4A",
+   "slots": [
+    "465BCC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "カッパ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B4E",
+   "slots": [
+    "465BD0"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ネズミ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B52",
+   "slots": [
+    "465BD4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "カメレオン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B58",
+   "slots": [
+    "465BD8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ウサギ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B5C",
+   "slots": [
+    "465BDC"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "サル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B5F",
+   "slots": [
+    "465BE0"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "デビル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B63",
+   "slots": [
+    "465BE4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "エンジェル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B69",
+   "slots": [
+    "465BE8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ドラゴン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B6E",
+   "slots": [
+    "465BEC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "しのび{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B72",
+   "slots": [
+    "465BF0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "エイリアン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B78",
+   "slots": [
+    "465BF4"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "ネコ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B7B",
+   "slots": [
+    "465BF8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "オオカミ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B80",
+   "slots": [
+    "465BFC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "セルヴォ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465B85",
+   "slots": [
+    "465C00"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ビート{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

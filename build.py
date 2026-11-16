@@ -39,7 +39,7 @@ def main():
     orig = ROM.read_bytes()
     data, report = rombuild.build(orig, relocate_all=a.relocate_all, poison=a.poison)
     name = "relocate_poison.gba" if a.poison else "relocate_all.gba"
-    out = a.out or (ROOT / "build" / name if a.relocate_all else OUT)
+    out = (a.out.resolve() if a.out else None) or (ROOT / "build" / name if a.relocate_all else OUT)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(data)
     rombuild.write_log(report, out.with_suffix(".writes.txt"))

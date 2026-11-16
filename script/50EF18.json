@@ -1,0 +1,294 @@
+{
+ "table": "50EF18",
+ "about": "tutorial topics",
+ "strings": [
+  {
+   "id": "50EE2C",
+   "slots": [
+    "50EF18"
+   ],
+   "kind": "fe",
+   "bytes": 11,
+   "jp": "メダロットってなに？{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EE37",
+   "slots": [
+    "50EF1C"
+   ],
+   "kind": "fe",
+   "bytes": 15,
+   "jp": "パーツの「せいこう」について{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EE46",
+   "slots": [
+    "50EF20"
+   ],
+   "kind": "fe",
+   "bytes": 12,
+   "jp": "ロボロボメダルについて{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EE52",
+   "slots": [
+    "50EF24"
+   ],
+   "kind": "fe",
+   "bytes": 16,
+   "jp": "メダルとパーツの「あいしょう」{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EE62",
+   "slots": [
+    "50EF28"
+   ],
+   "kind": "fe",
+   "bytes": 18,
+   "jp": "「きんせつ」と「えんかく」について{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EE74",
+   "slots": [
+    "50EF2C"
+   ],
+   "kind": "fe",
+   "bytes": 17,
+   "jp": "メダルの「じゅくれんど」について{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EE85",
+   "slots": [
+    "50EF30"
+   ],
+   "kind": "fe",
+   "bytes": 18,
+   "jp": "きゃくぶパーツと「ちけい」について{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EE97",
+   "slots": [
+    "50EF34"
+   ],
+   "kind": "fe",
+   "bytes": 19,
+   "jp": "「じゅうてん」と「ほうねつ」について{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEAA",
+   "slots": [
+    "50EF38"
+   ],
+   "kind": "fe",
+   "bytes": 17,
+   "jp": "「すいしん」と「きどう」について{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEBB",
+   "slots": [
+    "50EF3C"
+   ],
+   "kind": "fe",
+   "bytes": 13,
+   "jp": "「メダフォース」について{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEC8",
+   "slots": [
+    "50EF40"
+   ],
+   "kind": "fe",
+   "bytes": 14,
+   "jp": "「ローテーション」について{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EED6",
+   "slots": [
+    "50EF44"
+   ],
+   "kind": "fe",
+   "bytes": 13,
+   "jp": "「テストモード」について{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEE3",
+   "slots": [
+    "50EF48"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEE7",
+   "slots": [
+    "50EF4C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEEB",
+   "slots": [
+    "50EF50"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEEF",
+   "slots": [
+    "50EF54"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEF3",
+   "slots": [
+    "50EF58"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEF7",
+   "slots": [
+    "50EF5C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEFB",
+   "slots": [
+    "50EF60"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EEFF",
+   "slots": [
+    "50EF64"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EF03",
+   "slots": [
+    "50EF68"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EF07",
+   "slots": [
+    "50EF6C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EF0B",
+   "slots": [
+    "50EF70"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EF0F",
+   "slots": [
+    "50EF74"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "？？？？？？？？{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

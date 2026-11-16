@@ -1,0 +1,642 @@
+{
+ "table": "466D78",
+ "about": "",
+ "strings": [
+  {
+   "id": "466758",
+   "slots": [
+    "466D78"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{fa:FF}すべてのパーツに ダメージをあたえる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46676E",
+   "slots": [
+    "466D7C"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{fa:FF}1パーツに ダメージをあたえる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466781",
+   "slots": [
+    "466D80"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{fa:FF}しゃげきパーツの すべてのいりょくをつかって こうげき{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4667A0",
+   "slots": [
+    "466D84"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{fa:FF}じぶんのダメージぶん あいてにダメージをあたえる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4667BC",
+   "slots": [
+    "466D88"
+   ],
+   "kind": "ff",
+   "bytes": 39,
+   "jp": "{fa:FF}すべてのパーツに 「こうがく」こうか{n}こうげきいりょくが 2ばいになる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4667E3",
+   "slots": [
+    "466D8C"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{fa:FF}こうがくこうげきを きゅうしゅうして ダメージかいふく{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466802",
+   "slots": [
+    "466D90"
+   ],
+   "kind": "ff",
+   "bytes": 41,
+   "jp": "{fa:FF}すべてのパーツに 「かやく」こうか{n}ぜったいヒットと かんつうこうかをえる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46682B",
+   "slots": [
+    "466D94"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{fa:FF}かやくこうげきを きゅうしゅうして ダメージかいふく{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466849",
+   "slots": [
+    "466D98"
+   ],
+   "kind": "ff",
+   "bytes": 41,
+   "jp": "{fa:FF}すべてのパーツに 「じゅうりょく」こうか{n}こうげきせいこうが 2ばいになる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466872",
+   "slots": [
+    "466D9C"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{fa:FF}じゅうりょくこうげきを きゅうしゅうして ダメージかいふく{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466893",
+   "slots": [
+    "466DA0"
+   ],
+   "kind": "ff",
+   "bytes": 42,
+   "jp": "{fa:FF}すべてのこうげきに ダメージをあたえる トラップ{n}つかうたびに じょうしょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4668BD",
+   "slots": [
+    "466DA4"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{fa:FF}トラップに かからなくなる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4668CE",
+   "slots": [
+    "466DA8"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{fa:FF}「へんどう」のしょうじょうを つける{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4668E4",
+   "slots": [
+    "466DAC"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{fa:FF}「へんどう」のしょうじょうに かからなくなる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4668FE",
+   "slots": [
+    "466DB0"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{fa:FF}「ていし」のしょうじょうを つける{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466913",
+   "slots": [
+    "466DB4"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{fa:FF}「ていし」のしょうじょうに かからなくなる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46692C",
+   "slots": [
+    "466DB8"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{fa:FF}「そくばく」のしょうじょうを つける{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466942",
+   "slots": [
+    "466DBC"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{fa:FF}「そくばく」のしょうじょうに かからなくなる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46695C",
+   "slots": [
+    "466DC0"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{fa:FF}「けいぞく」のしょうじょうを つける{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466972",
+   "slots": [
+    "466DC4"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{fa:FF}「けいぞく」のしょうじょうに かからなくなる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46698C",
+   "slots": [
+    "466DC8"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "{fa:FF}あいてにダメージをあたえ そのダメージぶん じぶんをかいふくする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4669B0",
+   "slots": [
+    "466DCC"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{fa:FF}しょうじょうを かいじょする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4669C2",
+   "slots": [
+    "466DD0"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{fa:FF}あたまパーツのかいすうを アップする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4669D8",
+   "slots": [
+    "466DD4"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{fa:FF}あいてを ほうねつじょうたいにする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4669ED",
+   "slots": [
+    "466DD8"
+   ],
+   "kind": "ff",
+   "bytes": 43,
+   "jp": "{fa:FF}あいてからの こうげきダメージを げんしょうさせる{n}つかうたびに じょうしょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466A18",
+   "slots": [
+    "466DDC"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{fa:FF}こうげきいりょくを あげる{n}つかうたびに じょうしょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466A37",
+   "slots": [
+    "466DE0"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{fa:FF}ダメージをうけたパーツを かいふくする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466A4E",
+   "slots": [
+    "466DE4"
+   ],
+   "kind": "ff",
+   "bytes": 41,
+   "jp": "{fa:FF}じぶんのそうこうを はんげんし へらしたぶん あいてにダメージを あたえる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466A77",
+   "slots": [
+    "466DE8"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{fa:FF}きのうていしパーツを ふっかつさせる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466A8D",
+   "slots": [
+    "466DEC"
+   ],
+   "kind": "ff",
+   "bytes": 38,
+   "jp": "{fa:FF}みかたの きのうていしパーツのかずで ダメージがアップする こうげき{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466AB3",
+   "slots": [
+    "466DF0"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{fa:FF}ひこうメダロットに ランダムで しょうじょうをつける{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466AD1",
+   "slots": [
+    "466DF4"
+   ],
+   "kind": "ff",
+   "bytes": 41,
+   "jp": "{fa:FF}きゃくぶのうりょく「すいしん」を アップさせる{n}つかうたびに じょうしょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466AFA",
+   "slots": [
+    "466DF8"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{fa:FF}せんすいメダロットに ランダムで しょうじょうをつける{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466B19",
+   "slots": [
+    "466DFC"
+   ],
+   "kind": "ff",
+   "bytes": 40,
+   "jp": "{fa:FF}きゃくぶのうりょく「きどう」を アップさせる{n}つかうたびに じょうしょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466B41",
+   "slots": [
+    "466E00"
+   ],
+   "kind": "ff",
+   "bytes": 46,
+   "jp": "{fa:FF}あいての「さくてき」をさげ みかたの「さくてき」をあげる{n}つかうたびに じょうしょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466B6F",
+   "slots": [
+    "466E04"
+   ],
+   "kind": "ff",
+   "bytes": 41,
+   "jp": "{fa:FF}きゃくぶのうりょく「きんせつ」を アップさせる{n}つかうたびに じょうしょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466B98",
+   "slots": [
+    "466E08"
+   ],
+   "kind": "ff",
+   "bytes": 46,
+   "jp": "{fa:FF}あいての「いんぺい」をさげ みかたの「いんぺい」をあげる{n}つかうたびに じょうしょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466BC6",
+   "slots": [
+    "466E0C"
+   ],
+   "kind": "ff",
+   "bytes": 41,
+   "jp": "{fa:FF}きゃくぶのうりょく「えんかく」を アップさせる{n}つかうたびに じょうしょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466BEF",
+   "slots": [
+    "466E10"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{fa:FF}「ほじょチャージ」のしょうじょうを つける{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466C08",
+   "slots": [
+    "466E14"
+   ],
+   "kind": "ff",
+   "bytes": 38,
+   "jp": "{fa:FF}てんとうさせて あたまパーツに ダメージと こうどうを わすれさせる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466C2E",
+   "slots": [
+    "466E18"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{fa:FF}「こんらん」のしょうじょうを つける{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466C44",
+   "slots": [
+    "466E1C"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{fa:FF}「しようふのう」のしょうじょうを つける{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466C5C",
+   "slots": [
+    "466E20"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{fa:FF}うしろむきのあいてに デストロイこうげき{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466C74",
+   "slots": [
+    "466E24"
+   ],
+   "kind": "ff",
+   "bytes": 38,
+   "jp": "{fa:FF}「はんげき」・「えんご」のたいせいを とっているパーツを はかいする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466C9A",
+   "slots": [
+    "466E28"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{fa:FF}メダフォースを0にし へらしたぶんのダメージを あたえる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466CBA",
+   "slots": [
+    "466E2C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{fa:FF}メダフォースのたまるりょうが 2ばいになる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466CD3",
+   "slots": [
+    "466E30"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{fa:FF}トラップのいりょくが あがる{n}つかうたびに じょうしょう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466CF3",
+   "slots": [
+    "466E34"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{fa:FF}きゃくぶパーツを はかいする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466D05",
+   "slots": [
+    "466E38"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{fa:FF}えんごにはいると ときどきはんげきする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466D1C",
+   "slots": [
+    "466E3C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{fa:FF}「はんげき」・「えんご」に かからなくなる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466D35",
+   "slots": [
+    "466E40"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{fa:FF}サイコロのめで いりょくが へんかする こうげき{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466D51",
+   "slots": [
+    "466E44"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{fa:FF}じぶんと おなじきゃくぶのメダロットに だいダメージ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466D6F",
+   "slots": [
+    "466E48"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{fa:FF}データなし{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

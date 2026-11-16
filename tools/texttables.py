@@ -6,7 +6,7 @@ unknown byte through tbl/jp.tbl. Targets that land inside a pointer run are unus
 EXCLUDE lists runs that pass that rule but hold data records (docs/re/text.md §Tables used by the build).
 Code literals that point at one of those strings are added as a last pseudo-table (addr 0).
 
-Phase 3 working set; phase 4 replaces the rule with the extracted script files.
+tools/extract.py dumps these into script/*.json, which the build reads; tests/test_script.py keeps the two in step.
 
     python -X utf8 tools/texttables.py ROM      # one line per table: address, slots, strings
 """
@@ -25,7 +25,8 @@ MIN_RUN = 3
 CODE_END = 0x0C5000  # code and tables (docs/re/rom.md)
 # Runs that pass the rule but point at binary records that decode as kana by chance (docs/re/text.md):
 # FE-separated 14-byte records (0x465764, 0x47AEAC), u16 records (0x478958), 3-byte FF-separated commands
-# (0x510F0C), ケエヤ+アアアア... records (0x4B0BAC), single-katakana FF FF entries (0x4B7168, unclear: phase 4).
+# (0x510F0C), ケエヤ+アアアア... records (0x4B0BAC), 13-byte FF-padded index records (0x4B7168). tools/textmap.py
+# lists every non-text range of the region.
 EXCLUDE = {0x465764, 0x478958, 0x47AEAC, 0x510F0C, 0x4B0BAC, 0x4B7168}
 ARGS = {0xF7: 1, 0xF9: 1, 0xFA: 1, 0xFB: 3}  # control codes with argument bytes (FF's one arg ends the string)
 MAXLEN = 2048

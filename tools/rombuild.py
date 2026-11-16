@@ -1,7 +1,7 @@
 """rombuild.py: unpack the original ROM's script and repack it. build.py is the command; tests import this.
 
-Text stage: every string reached from a text table (texttables.py) is decoded through tbl/jp.tbl and encoded back.
-A string whose bytes are unchanged and fit stays where it is; any other (or every string, with relocate_all=True) is
+Text stage: every string of script/*.json (tools/extract.py) is encoded from its `en` text, or its `jp` text while `en`
+is empty. A string whose bytes are unchanged stays where it is; any other (or every string, with relocate_all=True) is
 written to free space past the original 8 MiB and every slot that pointed at it is repointed. The original bytes of a
 moved string are left in place, so a reference the tables don't know about still reads valid text.
 Graphics stage: LZ77 and "Le" blocks stay as the original bytes; tools/lz77.py and tools/le.py are not the game's
@@ -9,6 +9,7 @@ packer (docs/re/rom.md), so a block is recompressed only when an edited asset re
 
 With no edits the output is byte-identical to the original ROM: tests/test_identity.py.
 """
+import json
 import struct
 import sys
 from dataclasses import dataclass, field
@@ -19,6 +20,7 @@ from tbl import Table  # noqa: E402
 import texttables  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
+SCRIPT = ROOT / "script"
 GBA = texttables.GBA
 ORIG_SIZE = 0x800000
 FREE_START = ORIG_SIZE         # space past the original end (docs/re/rom.md)
@@ -79,22 +81,38 @@ def poisoned(s):
     return bytes(out)
 
 
-def text_stage(rom, tables, table, strings=None, relocate_all=False, poison=False, report=None):
-    """strings: {original string offset: new encoded bytes}; missing entries re-encode the original.
+def load_script(lang="en", root=SCRIPT):
+    """[(string offset, [slot offsets], text)] from script/*.json: text = the `lang` field, or `jp` while it is empty.
+    Strings with no slots (script/unused.json) are left out: nothing reads them."""
+    out = []
+    for path in sorted(Path(root).glob("*.json")):
+        for e in json.loads(path.read_text(encoding="utf-8"))["strings"]:
+            if e["slots"]:
+                out.append((int(e["id"], 16), [int(s, 16) for s in e["slots"]], e.get(lang) or e["jp"]))
+    if not out:
+        raise FileNotFoundError(f"no strings in {root}: run tools/extract.py")
+    return out
+
+
+def text_stage(rom, entries, table, strings=None, relocate_all=False, poison=False, report=None):
+    """entries: load_script(). strings: {original string offset: new encoded bytes}, overriding the entry's text.
     poison: overwrite the original copy of every moved string (poisoned()), to find references the tables miss."""
     report = report or Report()
     strings = strings or {}
-    slots_of = {}
-    for tt in tables:
-        for s in tt.slots:
-            slots_of.setdefault(struct.unpack_from("<I", rom.orig, s)[0] - GBA, []).append(s)
+    slots_of, text_of = {}, {}
+    for off, slots, text in entries:
+        slots_of.setdefault(off, []).extend(slots)
+        text_of[off] = text
     free = max(FREE_START, len(rom.buf))
     moved = []
     for off in sorted(slots_of):
         old = texttables.string_at(rom.orig, off)
+        for s in slots_of[off]:
+            if struct.unpack_from("<I", rom.orig, s)[0] - GBA != off:
+                raise ValueError(f"script: slot {s:06X} of {off:06X} does not point at it in the original ROM")
         new = strings.get(off)
         if new is None:
-            new = table.encode(table.decode(old, 0, len(old))[0])
+            new = table.encode(text_of[off])
         report.strings += 1
         if not relocate_all and new == old:
             report.in_place += 1
@@ -113,12 +131,11 @@ def text_stage(rom, tables, table, strings=None, relocate_all=False, poison=Fals
     return report
 
 
-def build(orig, strings=None, relocate_all=False, poison=False):
+def build(orig, strings=None, relocate_all=False, poison=False, lang="en", script=SCRIPT):
     """Returns (rom bytes, Report)."""
     table = Table.load(ROOT / "tbl" / "jp.tbl")
-    tables = texttables.find_tables(orig, table)
     rom = Rom(orig)
-    report = text_stage(rom, tables, table, strings, relocate_all, poison)
+    report = text_stage(rom, load_script(lang, script), table, strings, relocate_all, poison)
     report.writes = rom.writes
     return rom.finish(), report
 

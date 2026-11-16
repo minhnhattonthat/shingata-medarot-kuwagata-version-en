@@ -1,0 +1,234 @@
+{
+ "table": "50E8F4",
+ "about": "",
+ "strings": [
+  {
+   "id": "50E6E0",
+   "slots": [
+    "50E8F4"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:012500}みなさん こんにちは〜！！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E6F3",
+   "slots": [
+    "50E8F8"
+   ],
+   "kind": "ff",
+   "bytes": 14,
+   "jp": "{face:003000}こんにちは〜！！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E701",
+   "slots": [
+    "50E8FC"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{face:012500}「しゅうかんメダロット」の じかんが やってきました〜！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E723",
+   "slots": [
+    "50E900"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:002E00}ねえねえ こんしゅうは なに？{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E738",
+   "slots": [
+    "50E904"
+   ],
+   "kind": "ff",
+   "bytes": 40,
+   "jp": "{face:012500}あせらないでっ こんしゅうはね{n}「メダロットの くみたてこうざ」よ！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E760",
+   "slots": [
+    "50E908"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:003000}えっ？ ボクたちの くみたてかた？{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E777",
+   "slots": [
+    "50E90C"
+   ],
+   "kind": "ff",
+   "bytes": 51,
+   "jp": "{face:012500}じゃあ しらない きみも しってる きみも{n}おねえさんと いっしょに べんきょうしましょ！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E7AA",
+   "slots": [
+    "50E910"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:002800}それじゃあ はじまり はじまりぃ〜！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E7C2",
+   "slots": [
+    "50E914"
+   ],
+   "kind": "ff",
+   "bytes": 58,
+   "jp": "{face:002500}ここに あるのは メダロットのほねぐみ おなじみティンペット{page}それじゃあ パーツそうちゃくいってみよ〜！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E7FC",
+   "slots": [
+    "50E918"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "あたまは「アンテナ」！{n}かくれた てきも バッチリ みつけだす！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E81E",
+   "slots": [
+    "50E91C"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "みぎうでは「チャンバラソード」！{n}すばやく きる！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E839",
+   "slots": [
+    "50E920"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "ひだりうでは「ピコペコハンマー」！{n}ひっさつの いちげき！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E858",
+   "slots": [
+    "50E924"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "きゃくぶは「タタッカー」！{n}かろやかな あしさばき！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E874",
+   "slots": [
+    "50E928"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "そして・・・しあげはこれよ！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E884",
+   "slots": [
+    "50E92C"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "メダルで うごくロボットだから メダロット！ ね？{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E89F",
+   "slots": [
+    "50E930"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{face:012500}これからも 「しゅうかんメダロット」を よろしくね！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E8BF",
+   "slots": [
+    "50E934"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:002E00}えっ！？ もう おわり！？{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E8D2",
+   "slots": [
+    "50E938"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{face:012500}それじゃ バイバ〜イ！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50E8E3",
+   "slots": [
+    "50E93C"
+   ],
+   "kind": "ff",
+   "bytes": 15,
+   "jp": "{face:002800}また らいしゅ〜！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

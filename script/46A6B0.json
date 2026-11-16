@@ -1,0 +1,90 @@
+{
+ "table": "46A6B0",
+ "about": "",
+ "strings": [
+  {
+   "id": "46A5F8",
+   "slots": [
+    "46A6B0"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{fa:FF}「こうや」・「さばく」の フィールドが とくい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A613",
+   "slots": [
+    "46A6B4"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{fa:FF}どのフィールドも そこそこ とくい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A628",
+   "slots": [
+    "46A6B8"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{fa:FF}「いわば」・「けいこく」の フィールドが とくい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A644",
+   "slots": [
+    "46A6BC"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{fa:FF}「そうげん」・「しんりん」の フィールドが とくい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A661",
+   "slots": [
+    "46A6C0"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{fa:FF}「まちなか」・「しつない」の フィールドが とくい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A67E",
+   "slots": [
+    "46A6C4"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{fa:FF}ちけいに えいきょうされない{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A690",
+   "slots": [
+    "46A6C8"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{fa:FF}「かいがん」・「すいちゅう」の フィールドが とくい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,342 @@
+{
+ "table": "50D614",
+ "about": "",
+ "strings": [
+  {
+   "id": "50D31C",
+   "slots": [
+    "50D614"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:005E00}つうしんネットに ようこそ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D330",
+   "slots": [
+    "50D618"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:005E00}つうしんを はじめますか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D343",
+   "slots": [
+    "50D61C"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "つうしんまえに ゲームデータを セーブします{n}よろしいですか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D364",
+   "slots": [
+    "50D620"
+   ],
+   "kind": "ff",
+   "bytes": 42,
+   "jp": "ただいま セーブちゅうです！{n}セーブちゅうは でんげんを きらないでくださいね！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D38E",
+   "slots": [
+    "50D624"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "つうしんネットに せつぞくします！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D3A1",
+   "slots": [
+    "50D628"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "つうしんネットの せつぞくに しっぱいしました！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D3BB",
+   "slots": [
+    "50D62C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:005E00}えっ！？ つうしん しないの？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D3D0",
+   "slots": [
+    "50D630"
+   ],
+   "kind": "ff",
+   "bytes": 37,
+   "jp": "{face:005E00}じゃあ つうしん したくなった ときは{n}また ここに きてね！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D3F5",
+   "slots": [
+    "50D634"
+   ],
+   "kind": "ff",
+   "bytes": 39,
+   "jp": "{face:005E00}おともだちと きがるに ロボトル！{n}パーツの とりあいは ナシよ♥{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D41C",
+   "slots": [
+    "50D638"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:005E00}おともだちと パーツを かけて しんけんロボトル！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D43B",
+   "slots": [
+    "50D63C"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:005E00}おともだちと パーツを こうかんよ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D453",
+   "slots": [
+    "50D640"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:005E00}おともだちに メダルを あげちゃうよ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D46C",
+   "slots": [
+    "50D644"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:005E00}つうしんを やめるときは かならず ここからね！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D48A",
+   "slots": [
+    "50D648"
+   ],
+   "kind": "ff",
+   "bytes": 44,
+   "jp": "くみあがった メダロットが 2たいいじょう ないと{n}しんけんロボトルは できません！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D4B6",
+   "slots": [
+    "50D64C"
+   ],
+   "kind": "ff",
+   "bytes": 14,
+   "jp": "データてんそう エラー！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D4C4",
+   "slots": [
+    "50D650"
+   ],
+   "kind": "ff",
+   "bytes": 14,
+   "jp": "つうしんチェックちゅう！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D4D2",
+   "slots": [
+    "50D654"
+   ],
+   "kind": "ff",
+   "bytes": 61,
+   "jp": "{face:005E00}ここでは つうしんケーブルを つかって おともだちと{n}ロボトル・パーツこうかん・メダルを あげたり できます！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D50F",
+   "slots": [
+    "50D658"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "でも メダロットが すくないうちは やらないでね！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D52A",
+   "slots": [
+    "50D65C"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "うわがきしますが よろしいですか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D53D",
+   "slots": [
+    "50D660"
+   ],
+   "kind": "ff",
+   "bytes": 15,
+   "jp": "パーツトレード スタート！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D54C",
+   "slots": [
+    "50D664"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:005E00}あたまパーツ「{var:01}」を てにいれた！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D564",
+   "slots": [
+    "50D668"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:005E00}みぎうでパーツ「{var:01}」を てにいれた！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D57D",
+   "slots": [
+    "50D66C"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:005E00}ひだりうでパーツ「{var:01}」を てにいれた！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D597",
+   "slots": [
+    "50D670"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:005E00}きゃくぶパーツ「{var:01}」を てにいれた！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D5B0",
+   "slots": [
+    "50D674"
+   ],
+   "kind": "ff",
+   "bytes": 37,
+   "jp": "あいてが メダルを えらんでいます{n}なにを もらえるか たのしみだね！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D5D5",
+   "slots": [
+    "50D678"
+   ],
+   "kind": "ff",
+   "bytes": 15,
+   "jp": "メダルを てんそうします！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D5E4",
+   "slots": [
+    "50D67C"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:005E00}「{var:01}」メダルを もらいました！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D5FA",
+   "slots": [
+    "50D680"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:005E00}「{var:01}」メダルを あげちゃいました！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

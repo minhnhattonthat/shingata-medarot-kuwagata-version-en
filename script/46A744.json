@@ -1,0 +1,138 @@
+{
+ "table": "46A744",
+ "about": "terrain",
+ "strings": [
+  {
+   "id": "46A70C",
+   "slots": [
+    "46A744"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "こうや{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A710",
+   "slots": [
+    "46A748"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "さばく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A714",
+   "slots": [
+    "46A74C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "いわば{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A718",
+   "slots": [
+    "46A750"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "けいこく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A71D",
+   "slots": [
+    "46A754"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "そうげん{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A722",
+   "slots": [
+    "46A758"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "しんりん{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A727",
+   "slots": [
+    "46A75C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "まちなか{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A72C",
+   "slots": [
+    "46A760"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "しつない{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A731",
+   "slots": [
+    "46A764"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "かいがん{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A736",
+   "slots": [
+    "46A768"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "すいちゅう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A73C",
+   "slots": [
+    "46A76C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "サイバー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

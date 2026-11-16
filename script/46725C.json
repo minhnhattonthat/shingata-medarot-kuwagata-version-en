@@ -1,0 +1,102 @@
+{
+ "table": "46725C",
+ "about": "",
+ "strings": [
+  {
+   "id": "4671D0",
+   "slots": [
+    "46725C"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "{fa:FF}ランダムに こうどうする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4671E0",
+   "slots": [
+    "467260"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{fa:FF}あたまパーツを しようする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4671F1",
+   "slots": [
+    "467264"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{fa:FF}みぎうでパーツを しようする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "467203",
+   "slots": [
+    "467268"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{fa:FF}ひだりうでパーツを しようする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "467216",
+   "slots": [
+    "46726C"
+   ],
+   "kind": "ff",
+   "bytes": 15,
+   "jp": "{fa:FF}メダフォースを ためる{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "467225",
+   "slots": [
+    "467270"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{fa:FF}メダフォース1を しようする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "467237",
+   "slots": [
+    "467274"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{fa:FF}メダフォース2を しようする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "467249",
+   "slots": [
+    "467278"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{fa:FF}メダフォース3を しようする{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

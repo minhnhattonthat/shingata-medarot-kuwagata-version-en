@@ -1,0 +1,726 @@
+{
+ "table": "46A508",
+ "about": "weapon kinds",
+ "strings": [
+  {
+   "id": "46A37C",
+   "slots": [
+    "46A508"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ソード{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A380",
+   "slots": [
+    "46A50C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ハンマー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A385",
+   "slots": [
+    "46A510"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ライフル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A38A",
+   "slots": [
+    "46A514"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ガトリング{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A390",
+   "slots": [
+    "46A518"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "レーザー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A395",
+   "slots": [
+    "46A51C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ビーム{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A399",
+   "slots": [
+    "46A520"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ミサイル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A39E",
+   "slots": [
+    "46A524"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ナパーム{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3A3",
+   "slots": [
+    "46A528"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ブレイク{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3A8",
+   "slots": [
+    "46A52C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "プレス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3AC",
+   "slots": [
+    "46A530"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "かくとうトラップ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3B5",
+   "slots": [
+    "46A534"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "しゃげきトラップ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3BE",
+   "slots": [
+    "46A538"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "こうげきクリア{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3C6",
+   "slots": [
+    "46A53C"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "バグ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3C9",
+   "slots": [
+    "46A540"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ウィルス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3CE",
+   "slots": [
+    "46A544"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "サンダー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3D3",
+   "slots": [
+    "46A548"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "フリーズ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3D8",
+   "slots": [
+    "46A54C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ウェーブ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3DD",
+   "slots": [
+    "46A550"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ホールド{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3E2",
+   "slots": [
+    "46A554"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ファイヤー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3E8",
+   "slots": [
+    "46A558"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "メルト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3EC",
+   "slots": [
+    "46A55C"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "トラップクリア{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3F4",
+   "slots": [
+    "46A560"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "しょうじょうクリア{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A3FE",
+   "slots": [
+    "46A564"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "フォースせいぎょ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A407",
+   "slots": [
+    "46A568"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "こうがくむこう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A40F",
+   "slots": [
+    "46A56C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "かやくむこう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A416",
+   "slots": [
+    "46A570"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "じゅうりょくむこう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A420",
+   "slots": [
+    "46A574"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ぼうぎょ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A425",
+   "slots": [
+    "46A578"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "かんぜんぼうぎょ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A42E",
+   "slots": [
+    "46A57C"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "みまんぼうぎょ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A436",
+   "slots": [
+    "46A580"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "かいふく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A43B",
+   "slots": [
+    "46A584"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "けいぞくかいふく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A444",
+   "slots": [
+    "46A588"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ふっかつ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A449",
+   "slots": [
+    "46A58C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "そせい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A44D",
+   "slots": [
+    "46A590"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "アンチエア{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A453",
+   "slots": [
+    "46A594"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "アンチシー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A459",
+   "slots": [
+    "46A598"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "さくてき{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A45E",
+   "slots": [
+    "46A59C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "いんぺい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A463",
+   "slots": [
+    "46A5A0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ほじょチャージ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A46B",
+   "slots": [
+    "46A5A4"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "きゅうそくチャージ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A475",
+   "slots": [
+    "46A5A8"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "じょうじチャージ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A47E",
+   "slots": [
+    "46A5AC"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "チャージドレイン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A487",
+   "slots": [
+    "46A5B0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "てんとう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A48C",
+   "slots": [
+    "46A5B4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "しようふのう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A493",
+   "slots": [
+    "46A5B8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "こんらん{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A498",
+   "slots": [
+    "46A5BC"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "かいすうドレイン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4A1",
+   "slots": [
+    "46A5C0"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "かいひふのう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4A8",
+   "slots": [
+    "46A5C4"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ぼうぎょふのう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4B0",
+   "slots": [
+    "46A5C8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "デストロイ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4B6",
+   "slots": [
+    "46A5CC"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "サクリファイス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4BE",
+   "slots": [
+    "46A5D0"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "フォースドレイン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4C7",
+   "slots": [
+    "46A5D4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "クロスセット{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4CE",
+   "slots": [
+    "46A5D8"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "クロスファイア{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4D6",
+   "slots": [
+    "46A5DC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "きょうか{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4DB",
+   "slots": [
+    "46A5E0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "はんげき{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4E0",
+   "slots": [
+    "46A5E4"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "へんか{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4E4",
+   "slots": [
+    "46A5E8"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "へんか／ぼうがい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4ED",
+   "slots": [
+    "46A5EC"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "へんか／こうげき{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4F6",
+   "slots": [
+    "46A5F0"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "へんか／ぼうぎょ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46A4FF",
+   "slots": [
+    "46A5F4"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "へんか／かいふく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

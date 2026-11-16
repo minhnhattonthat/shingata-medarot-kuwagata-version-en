@@ -1,0 +1,290 @@
+{
+ "table": "50DE68",
+ "about": "",
+ "strings": [
+  {
+   "id": "50DC38",
+   "slots": [
+    "50DE68"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "こんかいの レースかいじょうは{n}「{var:01}」です{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DC50",
+   "slots": [
+    "50DE6C"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "ただいまより 「メダロードレース」を{n}かいさい いたしま〜す！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DC71",
+   "slots": [
+    "50DE70"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "だい1のコース うえの だんは{n}{var:00}さん！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DC88",
+   "slots": [
+    "50DE74"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "だい2のコース まんなかの だんは{n}{var:01}さん！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DCA1",
+   "slots": [
+    "50DE78"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "だい3のコース したの だんは{n}{var:01}さん！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DCB8",
+   "slots": [
+    "50DE7C"
+   ],
+   "kind": "ff",
+   "bytes": 8,
+   "jp": "がんばるよ！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DCC0",
+   "slots": [
+    "50DE80"
+   ],
+   "kind": "ff",
+   "bytes": 82,
+   "jp": "この 3めいで 「メダロードレース」を{n}あらそって いただきま〜す！{page}それでは レースかいしです！！{page}「A」ボタンを れんだ して おうえん してくださいね〜！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DD12",
+   "slots": [
+    "50DE84"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "こんかいの レースの ゆうしょうしゃは{n}{var:01}さんです{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DD2E",
+   "slots": [
+    "50DE8C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "ざんねんでした〜 また ちょうせんしてね！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DD45",
+   "slots": [
+    "50DE90",
+    "50DE98",
+    "50DEA0",
+    "50DEC0",
+    "50DEC8"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "あたしのほうが ロボトルれきは ながいんだからね！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DD60",
+   "slots": [
+    "50DE94",
+    "50DE9C",
+    "50DED8"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "ボクハ ヒコウ メダロットダヨ{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DD71",
+   "slots": [
+    "50DEA4"
+   ],
+   "kind": "ff",
+   "bytes": 11,
+   "jp": "ロボロボ ロボロボ{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DD7C",
+   "slots": [
+    "50DEA8",
+    "50DEB4"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "けちょんけちょんに いためつけて やるぜ！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DD93",
+   "slots": [
+    "50DEAC"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "おまえのふくを どろんこにしてやる！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DDA7",
+   "slots": [
+    "50DEB0"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "あそんであげても いいわよぉ{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DDB7",
+   "slots": [
+    "50DEB8"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "コウセイノウノ ボクニ キミガ カテルノ？{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DDCE",
+   "slots": [
+    "50DEBC"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "ミズノ チカクジャナイト パワーガ デナイノヨネーッ{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DDEA",
+   "slots": [
+    "50DEC4"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "ふふ わが ひっさつの おうぎ ビューティ・キッスを うけてみよ！！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DE0E",
+   "slots": [
+    "50DECC"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "ミーは アンタに かっちゃうのヨ{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DE20",
+   "slots": [
+    "50DED0"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "きょうこそ けっちゃくを つけてやるぜ！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DE36",
+   "slots": [
+    "50DED4"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "きょうはとくべつに わたしが おあいてしましょう！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DE51",
+   "slots": [
+    "50DEDC"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "セイギのために たたかうであります！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50DE65",
+   "slots": [
+    "50DE88",
+    "50DEE0"
+   ],
+   "kind": "ff",
+   "bytes": 2,
+   "jp": "{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "table": "465C84",
+ "about": "skill types",
+ "strings": [
+  {
+   "id": "465C04",
+   "slots": [
+    "465C84"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "かくとう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C09",
+   "slots": [
+    "465C88"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "しゃげき{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C0E",
+   "slots": [
+    "465C8C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "こうがく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C13",
+   "slots": [
+    "465C90"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "かやく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C17",
+   "slots": [
+    "465C94"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "じゅうりょく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C1E",
+   "slots": [
+    "465C98"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "せっち{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C22",
+   "slots": [
+    "465C9C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "へんどう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C27",
+   "slots": [
+    "465CA0"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ていし{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C2B",
+   "slots": [
+    "465CA4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "そくばく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C30",
+   "slots": [
+    "465CA8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "けいぞく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C35",
+   "slots": [
+    "465CAC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "かいじょ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C3A",
+   "slots": [
+    "465CB0"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "むこう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C3E",
+   "slots": [
+    "465CB4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ぼうぎょ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C43",
+   "slots": [
+    "465CB8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "かいふく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C48",
+   "slots": [
+    "465CBC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ふっかつ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C4D",
+   "slots": [
+    "465CC0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "たいくう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C52",
+   "slots": [
+    "465CC4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "たいすい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C57",
+   "slots": [
+    "465CC8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "さくてき{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C5C",
+   "slots": [
+    "465CCC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "いんぺい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C61",
+   "slots": [
+    "465CD0"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "じかん{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C65",
+   "slots": [
+    "465CD4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ぼうがい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C6A",
+   "slots": [
+    "465CD8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "はかい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C6E",
+   "slots": [
+    "465CDC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "さいせい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C73",
+   "slots": [
+    "465CE0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "れんけい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C78",
+   "slots": [
+    "465CE4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "はんげき{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C7D",
+   "slots": [
+    "465CE8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "へんか{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "465C81",
+   "slots": [
+    "465CEC"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "なし{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

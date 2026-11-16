@@ -1,0 +1,2118 @@
+{
+ "table": "4702F0",
+ "about": "battle messages",
+ "strings": [
+  {
+   "id": "46F350",
+   "slots": [
+    "4702F0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "これいじょう メダフォースは たまらない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F369",
+   "slots": [
+    "4702F4"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "メダフォースを ためた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F379",
+   "slots": [
+    "4702F8"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "リーダー きのうていし！{n}しょうしゃ {var:01}！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F391",
+   "slots": [
+    "4702FC"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "じかんぎれです！{n}しょうしゃ {var:01}！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F3A5",
+   "slots": [
+    "470300"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "「てんとう」によって こうどうを わすれた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F3BF",
+   "slots": [
+    "470304"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "こうどうパーツは こわれていた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F3D3",
+   "slots": [
+    "470308"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "こうどうパーツは 「しようふのう」で{n}つかえなかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F3F2",
+   "slots": [
+    "47030C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "そうびパーツです！ しようできません！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F409",
+   "slots": [
+    "470310"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "あたまパーツの しようかいすうが なかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F423",
+   "slots": [
+    "470314"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "そせいさせる メダロットが いなかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F43B",
+   "slots": [
+    "470318"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "ねらったメダロットは きのうていし していた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F456",
+   "slots": [
+    "47031C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "ねらったパーツは ふっかつさせることが{n}できない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F473",
+   "slots": [
+    "470320"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "ねらったパーツは こわれていた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F487",
+   "slots": [
+    "470324"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "トラップを かいじょした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F498",
+   "slots": [
+    "470328"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "「かくとうトラップ」に かかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F4AD",
+   "slots": [
+    "47032C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "「しゃげきトラップ」に かかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F4C2",
+   "slots": [
+    "470330"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "「こうげきクリア」に かかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F4D6",
+   "slots": [
+    "470334"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "「こうげきトラップ」に かかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F4EB",
+   "slots": [
+    "470338"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{var:01}パーツに {var:02}ダメージ！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F4FD",
+   "slots": [
+    "47033C"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "{var:01}パーツが こわれた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F50D",
+   "slots": [
+    "470340"
+   ],
+   "kind": "ff",
+   "bytes": 15,
+   "jp": "{var:01}！ きのうていし！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F51C",
+   "slots": [
+    "470344"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "「こうげきクリア」で こうげきが{n}うちけされた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F538",
+   "slots": [
+    "470348"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{var:01}が えんごに はいった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F54A",
+   "slots": [
+    "47034C"
+   ],
+   "kind": "ff",
+   "bytes": 14,
+   "jp": "{var:01}こうどう {var:02}！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F558",
+   "slots": [
+    "470350"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "「サクリファイス」の はんどうで {var:01}パーツが{n}こわれた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F579",
+   "slots": [
+    "470354"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "「デストロイ」は うしろむきの あいてにしか{n}こうかがない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F59B",
+   "slots": [
+    "470358"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "こうどうに しっぱいした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F5AC",
+   "slots": [
+    "47035C"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "あいての こうげきから みかたをえんごする！ {fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F5C7",
+   "slots": [
+    "470360"
+   ],
+   "kind": "ff",
+   "bytes": 40,
+   "jp": "チームぜんたいの 「さくてき」アップ！{n}こうげきが あたりやすくなった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F5EF",
+   "slots": [
+    "470364"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "「いんぺい」アップ！{n}こうげきを よけやすくなった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F60D",
+   "slots": [
+    "470368"
+   ],
+   "kind": "ff",
+   "bytes": 45,
+   "jp": "「かくとうトラップ」を セット！{n}「なぐる」・「がむしゃら」こうげきに ダメージ！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F63A",
+   "slots": [
+    "47036C"
+   ],
+   "kind": "ff",
+   "bytes": 44,
+   "jp": "「しゃげきトラップ」を セット！{n}「うつ」・「ねらいうち」こうげきに ダメージ！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F666",
+   "slots": [
+    "470370"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "「こうげきクリア」を セット！{n}こうげきを むこうにする！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F687",
+   "slots": [
+    "470374"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "「クロスこうげき」を セット！{n}「クロスファイア」で こうげき！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F6AB",
+   "slots": [
+    "470378"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "「クロスこうげき」が セットされていない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F6C4",
+   "slots": [
+    "47037C"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "マイナスしょうじょうを クリア！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F6D8",
+   "slots": [
+    "470380"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "かいじょする トラップがなかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F6ED",
+   "slots": [
+    "470384"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "トラップを かいじょした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F6FE",
+   "slots": [
+    "470388"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "ねらったパーツは ダメージをうけていない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F717",
+   "slots": [
+    "47038C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "ねらったパーツは こわれていない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F72C",
+   "slots": [
+    "470390"
+   ],
+   "kind": "ff",
+   "bytes": 14,
+   "jp": "{var:01}は そせいした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F73A",
+   "slots": [
+    "470394"
+   ],
+   "kind": "ff",
+   "bytes": 38,
+   "jp": "「けいぞくかいふく」を セット！{n}いどうちゅうに ダメージかいふく！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F760",
+   "slots": [
+    "470398"
+   ],
+   "kind": "ff",
+   "bytes": 38,
+   "jp": "「はんげき」のたいせいを とった！{n}つよいこうげきを はじきかえす！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F786",
+   "slots": [
+    "47039C"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "きゅうそくチャージ！{n}いっしゅんで チャージかんりょう！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F7A6",
+   "slots": [
+    "4703A0"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "スピードアップ！ いどうスピードを はやくした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F7C2",
+   "slots": [
+    "4703A4"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "あいてのスピードを きゅうしゅうした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F7D9",
+   "slots": [
+    "4703A8"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "てんとうした！ こうどうをわすれた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F7EF",
+   "slots": [
+    "4703AC"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{var:01}は {var:02}に へんかした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F801",
+   "slots": [
+    "4703B0"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "「しようふのう」の しょうじょう！{n}{var:01}パーツが つかえない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F824",
+   "slots": [
+    "4703B4"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "「かいひふのう」の しょうじょう！{n}かいひすることが できない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F848",
+   "slots": [
+    "4703B8"
+   ],
+   "kind": "ff",
+   "bytes": 38,
+   "jp": "「ぼうぎょふのう」の しょうじょう！{n}ぼうぎょすることが できない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F86E",
+   "slots": [
+    "4703BC"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "「こんらん」のしょうじょう！{n}こうげきあいてが さだまらない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F891",
+   "slots": [
+    "4703C0"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "うばいとる あたまパーツの かいすうが なかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F8AE",
+   "slots": [
+    "4703C4"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "あたまパーツの かいすうを {var:01}うばった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F8C7",
+   "slots": [
+    "4703C8"
+   ],
+   "kind": "ff",
+   "bytes": 45,
+   "jp": "メダフォースの はつどうに しっぱい！{n}まだ そのメダフォースは おぼえていない！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F8F4",
+   "slots": [
+    "4703CC"
+   ],
+   "kind": "ff",
+   "bytes": 42,
+   "jp": "メダフォースの はつどうに しっぱい！{n}メダフォースりょうが たりなかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F91E",
+   "slots": [
+    "4703D0"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "メダフォースはつどう！ {var:01}！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F931",
+   "slots": [
+    "4703D4"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "しょうじょうクリアパーツに よって ぼうがいされた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F94F",
+   "slots": [
+    "4703D8"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "チームぜんたいに ダメージ！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F961",
+   "slots": [
+    "4703DC"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "チームぜんたいの ダメージをかいふく！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F978",
+   "slots": [
+    "4703E0"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "チームぜんたいの パーツをふっかつ！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F98E",
+   "slots": [
+    "4703E4"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "チームぜんたいの きゃくぶ「すいしん」が あがった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F9AC",
+   "slots": [
+    "4703E8"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "チームぜんたいの きゃくぶ「きどう」が あがった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F9C9",
+   "slots": [
+    "4703EC"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "チームぜんたいの きゃくぶ「ぼうぎょ」が あがった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F9E7",
+   "slots": [
+    "4703F0"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "チームぜんたいの きゃくぶ「きんせつ」が あがった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FA05",
+   "slots": [
+    "4703F4"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "チームぜんたいの きゃくぶ「えんかく」が あがった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FA23",
+   "slots": [
+    "4703F8"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "チームぜんたいが てんとう！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FA35",
+   "slots": [
+    "4703FC"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "うしろむきの すべてのメダロットに はかいこうか！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FA52",
+   "slots": [
+    "470400"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "こうげきの いりょくが あがった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FA67",
+   "slots": [
+    "470404"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "ぼうぎょりょくが あがった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FA79",
+   "slots": [
+    "470408"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "チームぜんたいに 「へんどう」のしょうじょう！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FA94",
+   "slots": [
+    "47040C"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "チームぜんたいに 「そくばく」のしょうじょう！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FAAF",
+   "slots": [
+    "470410"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "チームぜんたいに 「けいぞく」のしょうじょう！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FACA",
+   "slots": [
+    "470414"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "チームぜんたいに 「ていし」のしょうじょう！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FAE4",
+   "slots": [
+    "470418"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "すべてのパーツを「こうがくか」！{n}こうげきいりょく 2ばい！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FB06",
+   "slots": [
+    "47041C"
+   ],
+   "kind": "ff",
+   "bytes": 37,
+   "jp": "すべてのパーツを「かやくか」！{n}ぜったいヒットと かんつうこうか！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FB2B",
+   "slots": [
+    "470420"
+   ],
+   "kind": "ff",
+   "bytes": 39,
+   "jp": "すべてのパーツを「じゅうりょくか」！{n}こうげきのせいこうちが 2ばい！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FB52",
+   "slots": [
+    "470424"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "「ひこう」メダロットに マイナスしょうじょうセット！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FB70",
+   "slots": [
+    "470428"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "「せんすい」メダロットに マイナスしょうじょうセット！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FB8F",
+   "slots": [
+    "47042C"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "このきたいで えんごにはいると ときどき はんげきする！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FBAF",
+   "slots": [
+    "470430"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "「こうげきトラップ」を セット！{n}すべてのこうげきに ダメージ！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FBD3",
+   "slots": [
+    "470434"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "せっちいりょくアップ！{n}せっちこうどうが つよくなった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FBF3",
+   "slots": [
+    "470438"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "チームぜんたいに 「けいぞくかいふく」セット！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FC0E",
+   "slots": [
+    "47043C"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "チームぜんたいの マイナスしょうじょうを かいじょ！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FC2C",
+   "slots": [
+    "470440"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "チームぜんたいの あたまパーツの しようかいすうを{n}アップした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FC50",
+   "slots": [
+    "470444"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "チームぜんたいが 「へんどう」しょうじょうに{n}かからなくなった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FC74",
+   "slots": [
+    "470448"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "チームぜんたいが 「そくばく」しょうじょうに{n}かからなくなった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FC98",
+   "slots": [
+    "47044C"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "チームぜんたいが 「けいぞく」しょうじょうに{n}かからなくなった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FCBC",
+   "slots": [
+    "470450"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "チームぜんたいが 「ていし」しょうじょうに{n}かからなくなった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FCDF",
+   "slots": [
+    "470454"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "チームぜんたいを スピードアップ！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FCF4",
+   "slots": [
+    "470458"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "チームぜんたいを いっしゅんで じゅんびかんりょう！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FD12",
+   "slots": [
+    "47045C"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "あいての「さくてき」を さげ{n}みかたの「さくてき」を あげた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FD35",
+   "slots": [
+    "470460"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "あいての「いんぺい」を さげ{n}みかたの「いんぺい」を あげた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FD58",
+   "slots": [
+    "470464"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "チームぜんたいに 「こんらん」の しょうじょうを{n}セット！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FD79",
+   "slots": [
+    "470468"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "チームぜんたいに 「しようふのう」の しょうじょうを{n}セット！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FD9C",
+   "slots": [
+    "47046C"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "チームぜんたいに 「かいひふのう」の しょうじょうを{n}セット！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FDBF",
+   "slots": [
+    "470470"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "チームぜんたいに 「ぼうぎょふのう」の しょうじょうを{n}セット！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FDE3",
+   "slots": [
+    "470474"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "「こうがく」こうげきを きゅうしゅうする！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FDFC",
+   "slots": [
+    "470478"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "「かやく」こうげきを きゅうしゅうする！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FE14",
+   "slots": [
+    "47047C"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "「じゅうりょく」こうげきを きゅしゅうする！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FE2E",
+   "slots": [
+    "470480"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "トラップむこう！ トラップに かからなくなった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FE4A",
+   "slots": [
+    "470484"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "チームぜんたいを 「ほうねつ」じょうたいにした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FE66",
+   "slots": [
+    "470488"
+   ],
+   "kind": "ff",
+   "bytes": 37,
+   "jp": "「はんげき」・「えんご」のたいせいを{n}とっているパーツを はかい！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FE8B",
+   "slots": [
+    "47048C"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "うばいとった メダフォースで ダメージ！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FEA3",
+   "slots": [
+    "470490"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "メダフォースの たまるりょうが ふえた！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FEBB",
+   "slots": [
+    "470494"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "チームぜんたいの きゃくぶパーツを はかい！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FED5",
+   "slots": [
+    "470498"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "「はんげき」・「えんご」に かからなくなった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FEF0",
+   "slots": [
+    "47049C"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{var:01}パーツ 「{var:02}」を てにいれた！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FF04",
+   "slots": [
+    "4704A0"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{var:01}パーツ 「{var:02}」を うばわれた！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FF18",
+   "slots": [
+    "4704A4"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{var:01}の けいけんちを てにいれた！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FF2B",
+   "slots": [
+    "4704A8"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:000003}ロボトルに まけてしまった！{end:03}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FF3F",
+   "slots": [
+    "4704AC"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{face:000008}あっ！ くまれたメダロットが 1たいもない！{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FF5B",
+   "slots": [
+    "4704B0"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "かいじょする しょうじょうが なかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FF73",
+   "slots": [
+    "4704B4"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "トラップを きょうかした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FF84",
+   "slots": [
+    "4704B8"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "メダフォースせいぎょ！{n}メダフォースが つかえなくなった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FFA5",
+   "slots": [
+    "4704BC"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "メダフォースせいぎょ！{n}メダフォースが つかえるようになった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FFC8",
+   "slots": [
+    "4704C0"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "きゅうしゅうする メダフォースが なかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FFE2",
+   "slots": [
+    "4704C4"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "メダフォースを きゅうしゅうした！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46FFF7",
+   "slots": [
+    "4704C8"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "ロボロボメダルを てにいれた！{end:03}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470008",
+   "slots": [
+    "4704CC"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{var:01}メダルの レベルが あがった！{end:03}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "47001B",
+   "slots": [
+    "4704D0"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{var:01}メダルは メダフォース「{var:02}」を おぼえた！{end:03}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470035",
+   "slots": [
+    "4704D4"
+   ],
+   "kind": "ff",
+   "bytes": 48,
+   "jp": "メダフォースの はつどうに しっぱい！{n}メダフォースせいぎょに よって つかえなかった！{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470065",
+   "slots": [
+    "4704D8"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ122{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470071",
+   "slots": [
+    "4704DC"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ123{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "47007D",
+   "slots": [
+    "4704E0"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ124{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470089",
+   "slots": [
+    "4704E4"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ125{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470095",
+   "slots": [
+    "4704E8"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ126{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4700A1",
+   "slots": [
+    "4704EC"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ127{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4700AD",
+   "slots": [
+    "4704F0"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ128{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4700B9",
+   "slots": [
+    "4704F4"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ129{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4700C5",
+   "slots": [
+    "4704F8"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ130{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4700D1",
+   "slots": [
+    "4704FC"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ131{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4700DD",
+   "slots": [
+    "470500"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ132{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4700E9",
+   "slots": [
+    "470504"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ133{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4700F5",
+   "slots": [
+    "470508"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ134{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470101",
+   "slots": [
+    "47050C"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ135{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "47010D",
+   "slots": [
+    "470510"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ136{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470119",
+   "slots": [
+    "470514"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ137{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470125",
+   "slots": [
+    "470518"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ138{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470131",
+   "slots": [
+    "47051C"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ139{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "47013D",
+   "slots": [
+    "470520"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ140{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470149",
+   "slots": [
+    "470524"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ141{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470155",
+   "slots": [
+    "470528"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ142{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470161",
+   "slots": [
+    "47052C"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ143{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "47016D",
+   "slots": [
+    "470530"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ144{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470179",
+   "slots": [
+    "470534"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ145{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470185",
+   "slots": [
+    "470538"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ146{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470191",
+   "slots": [
+    "47053C"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ147{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "47019D",
+   "slots": [
+    "470540"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ148{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4701A9",
+   "slots": [
+    "470544"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ149{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4701B5",
+   "slots": [
+    "470548"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ150{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4701C1",
+   "slots": [
+    "47054C"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ151{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4701CD",
+   "slots": [
+    "470550"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ152{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4701D9",
+   "slots": [
+    "470554"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ153{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4701E5",
+   "slots": [
+    "470558"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ154{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4701F1",
+   "slots": [
+    "47055C"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ155{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4701FD",
+   "slots": [
+    "470560"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ156{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470209",
+   "slots": [
+    "470564"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ157{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470215",
+   "slots": [
+    "470568"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ158{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470221",
+   "slots": [
+    "47056C"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ159{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "47022D",
+   "slots": [
+    "470570"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ160{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470239",
+   "slots": [
+    "470574"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ161{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470245",
+   "slots": [
+    "470578"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ162{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470251",
+   "slots": [
+    "47057C"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ163{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "47025D",
+   "slots": [
+    "470580"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ164{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470269",
+   "slots": [
+    "470584"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ165{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470275",
+   "slots": [
+    "470588"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ166{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470281",
+   "slots": [
+    "47058C"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ167{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "47028D",
+   "slots": [
+    "470590"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ168{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470299",
+   "slots": [
+    "470594"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ169{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4702A5",
+   "slots": [
+    "470598"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ170{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4702B1",
+   "slots": [
+    "47059C"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ171{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4702BD",
+   "slots": [
+    "4705A0"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ172{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4702C9",
+   "slots": [
+    "4705A4"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ173{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4702D5",
+   "slots": [
+    "4705A8"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ174{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4702E1",
+   "slots": [
+    "4705AC"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "メッセージ175{fa:50}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

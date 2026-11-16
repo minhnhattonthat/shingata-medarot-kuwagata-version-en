@@ -115,7 +115,7 @@ types (**verified** as reads; the exact draw routine entry is still to be pinned
 | 0x464A00-0x465FFF | mixed: structured non-text records with a few string tables |
 | 0x466000-0x4702FF | battle messages (0x4702F4 table: メダフォースを ためた！, しょうしゃ...), robattle taunts (0x46D59C, 0x46E124) |
 | 0x478300-0x479000 | small tables |
-| 0x4AD5F0-0x4B7A6A | signs and books (0x4B50D0, 0x4B54F8), system messages (0x4B76B4: 「F9」メダルを てにいれた), two odd tables 0x4B6478/0x4B6658 that decode as short katakana noise (maybe name indices or another encoding: **open**) |
+| 0x4AD5F0-0x4B7A6A | signs and books (0x4B50D0, 0x4B54F8), system messages (0x4B76B4: 「F9」メダルを てにいれた), two odd tables 0x4B6478/0x4B6658 that decode as short katakana noise (13-byte FF-padded index records: data, §Coverage) |
 | 0x4B7A6A-0x4F3C88 | NPC and event dialogue, master tables 0x4F3C88-0x4F86BC |
 | 0x4FC000-0x510208 | more scene dialogue (tables 0x50A9DC-0x50C274: intro, town), tutorials (0x510128: ティンペット, パーツ) |
 
@@ -141,7 +141,8 @@ decodes as kana by chance:
 Rejected by the rule (unknown bytes, or the "string" runs through a pointer table): 0x464598, 0x46702C, 0x46C8B4
 (teams), 0x470854, 0x477CC8, 0x478164, 0x47A99C, 0x47DF80 (map event lists), 0x47E658, 0x48198C, 0x481CD0,
 0x4A2E9C, 0x4ABB2C, 0x4B221C, 0x4B6248 (per-map entries), 0x4F83BC, 0x4FC358 (event
-scripts), 0x50DA8C, 0x510A04. Phase 4 decides each of these (some, like 0x4A2E9C with 101 FE names, hold text).
+scripts), 0x50DA8C, 0x510A04. Phase 4 decided all of them: data (§Coverage). 0x4A2E9C's "FE names" are sprite piece
+records (`FB FF 00 00 08 00 n 00`, s16 x/y + tile per kana), not text.
 
 **Code literals** (pseudo-table addr 0): 4 literal-pool words in 0x000000-0x0C5000 hold a table string's exact start
 (0x660AC, 0x6634C, 0x66350 -> strings of 0x50D0B4/0x50D2D0; 0x6B118). The first run of the poison build showed the
@@ -153,6 +154,25 @@ parts shop clerk's greeting as ア: 0x660AC -> 0x50D0F8. Words there that point 
 boot and `tools/shotdiff.py` against the original ROM's shots leaves no ア run (49 identical; the other 21 differ
 only in animated backgrounds, fades and sprites, checked zoomed). Any ア run in a scene is a reference outside these
 tables; phase 4's text coverage (`textcover.py`) covers the strings the 70 scenes don't show.
+
+### Coverage (phase 4, verified 2026-11-17 by tests/test_script.py)
+
+`tools/extract.py` dumps the script to `script/*.json` (one file per table, 61 files + `unused.json`; **8038 strings,
+8990 slots**, 1129 of them FE list entries). The build reads `script/`, not the ROM's tables. Every byte of
+0x464000-0x512000 is accounted for (`tools/textmap.py`): a table string, a table's pointer run, one of 28 `DATA`
+ranges (0x4FD48 bytes of records, pointer lists, event scripts, map grids, sprite pieces, width tables), or <= 4 zero
+bytes of alignment. How the non-text was decided:
+- every pointer run >= 3 that `find_tables` rejects was dumped and read: all point at binary records (sprite pieces,
+  per-map records, 13-byte FF-padded index lists, event scripts), none at text;
+- a sweep of every 4-aligned word in the whole ROM for a pointer at a clean string start (after `FE` / `FF xx`)
+  outside the tables found none (beyond the table bases themselves);
+- strings that follow a table string's terminator but have no pointer: 9 pieces, all unused (`textmap.UNUSED`,
+  `script/unused.json`, not built): 6x エラー！！ at 0x4C7566, two dialogue lines (0x505E26, 0x50740E) and the head
+  of 0x5097AF (0x5097A0: the table points into the middle of the line);
+- a kana-likeness scan of every uncovered byte found only record bytes (pointer bytes `xx xx xx 08` read as ク).
+
+Open for phase 5: 0x4789EC is a byte list of glyph codes in kana order (`00 01 02 03 04 06 08 ...`), a code map
+(maybe the name-entry keyboard or a sort order), kept as data until phase 5 sees what reads it.
 
 ### Not found yet (phase 2/4 must locate)
 

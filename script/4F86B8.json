@@ -1,0 +1,402 @@
+{
+ "table": "4F86B8",
+ "about": "",
+ "strings": [
+  {
+   "id": "4F83FC",
+   "slots": [
+    "4F86B8"
+   ],
+   "kind": "ff",
+   "bytes": 14,
+   "jp": "これいじょう もてない！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F840A",
+   "slots": [
+    "4F86BC"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "「{var:01}」を {var:02}コ てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F841B",
+   "slots": [
+    "4F86C0"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{var:00}は{n}「{var:01}」を もってない{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F842C",
+   "slots": [
+    "4F86C4"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "「{var:01}」が {var:02}コ なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F843D",
+   "slots": [
+    "4F86C8"
+   ],
+   "kind": "ff",
+   "bytes": 13,
+   "jp": "「{var:01}」が なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F844A",
+   "slots": [
+    "4F86CC"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "このパーツは{n}これいじょう もてません{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F845F",
+   "slots": [
+    "4F86D0"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "あたまパーツ{n}「{var:01}」を てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F8473",
+   "slots": [
+    "4F86D4"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "みぎうでパーツ{n}「{var:01}」を てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F8488",
+   "slots": [
+    "4F86D8"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "ひだりうでパーツ{n}「{var:01}」を てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F849E",
+   "slots": [
+    "4F86DC"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "きゃくぶパーツ{n}「{var:01}」を てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F84B3",
+   "slots": [
+    "4F86E0"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "あたまパーツ{n}「{var:01}」を {var:02}コ てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F84CB",
+   "slots": [
+    "4F86E4"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "みぎうでパーツ{n}「{var:01}」を {var:02}コ てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F84E4",
+   "slots": [
+    "4F86E8"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "ひだりうでパーツ{n}「{var:01}」を {var:02}コ てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F84FE",
+   "slots": [
+    "4F86EC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "きゃくぶパーツ{n}「{var:01}」を {var:02}コ てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F8517",
+   "slots": [
+    "4F86F0"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{var:00}は あたまパーツ{n}「{var:01}」を もってない{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F852F",
+   "slots": [
+    "4F86F4"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{var:00}は みぎうでパーツ{n}「{var:01}」を もってない{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F8548",
+   "slots": [
+    "4F86F8"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{var:00}は ひだりうでパーツ{n}「{var:01}」を もってない{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F8562",
+   "slots": [
+    "4F86FC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{var:00}は きゃくぶパーツ{n}「{var:01}」を もってない{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F857B",
+   "slots": [
+    "4F8700"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "あたまパーツ{n}「{var:01}」が なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F858F",
+   "slots": [
+    "4F8704"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "みぎうでパーツ{n}「{var:01}」が なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F85A4",
+   "slots": [
+    "4F8708"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "ひだりうでパーツ{n}「{var:01}」が なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F85BA",
+   "slots": [
+    "4F870C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "きゃくぶパーツ{n}「{var:01}」が なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F85CF",
+   "slots": [
+    "4F8710"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "あたまパーツ{n}「{var:01}」が {var:02}コ なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F85E7",
+   "slots": [
+    "4F8714"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "みぎうでパーツ{n}「{var:01}」が {var:02}コ なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F8600",
+   "slots": [
+    "4F8718"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "ひだりうでパーツ{n}「{var:01}」が {var:02}コ なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F861A",
+   "slots": [
+    "4F871C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "きゃくぶパーツ{n}「{var:01}」が {var:02}コ なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F8633",
+   "slots": [
+    "4F8720"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "{var:00}は{n}{var:01}円を てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F8643",
+   "slots": [
+    "4F8724"
+   ],
+   "kind": "ff",
+   "bytes": 11,
+   "jp": "{var:01}円 なくなった{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F864E",
+   "slots": [
+    "4F8728"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "このメダルは すでに もっている{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F8660",
+   "slots": [
+    "4F872C"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "「{var:01}」メダルを{n}てにいれた{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F8670",
+   "slots": [
+    "4F8730"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "これいじょう もてない！{n}ティンペットをあきらめた！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F868C",
+   "slots": [
+    "4F8734"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "おとこがたの ティンペットをてにいれた！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4F86A2",
+   "slots": [
+    "4F8738"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "おんながたの ティンペットをてにいれた！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

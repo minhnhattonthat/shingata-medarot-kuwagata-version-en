@@ -1,0 +1,78 @@
+{
+ "table": "46EDA0",
+ "about": "battle menu",
+ "strings": [
+  {
+   "id": "46ED7C",
+   "slots": [
+    "46EDA0"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "パーツ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46ED80",
+   "slots": [
+    "46EDA4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "メダフォース{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46ED87",
+   "slots": [
+    "46EDA8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "しょうさい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46ED8D",
+   "slots": [
+    "46EDAC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ターゲット{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46ED93",
+   "slots": [
+    "46EDB0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ローテーション{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46ED9B",
+   "slots": [
+    "46EDB4"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "オート{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

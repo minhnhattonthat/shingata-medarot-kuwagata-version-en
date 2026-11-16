@@ -1,0 +1,1458 @@
+{
+ "table": "46E0F0",
+ "about": "",
+ "strings": [
+  {
+   "id": "46D77C",
+   "slots": [
+    "46E0F0"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010000}くそっ なんでまけたんだ？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D78F",
+   "slots": [
+    "46E0F4"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010100}くそっ なんでまけたんだ？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D7A2",
+   "slots": [
+    "46E0F8"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:000206}ふーんだ！ つぎは まけないんだから！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D7BB",
+   "slots": [
+    "46E0FC"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:000306}ふ ふんっ！ いまのは わざと まけてあげたのよ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D7DA",
+   "slots": [
+    "46E100"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{face:000401}とても さんこうに なりましたわ ありがとうございました{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D7FC",
+   "slots": [
+    "46E104"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:000506}きみの ロボトルには ひんが ないね！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D815",
+   "slots": [
+    "46E108"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:000601}あなたの メダロットも まあまあ かわいいですわね{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D834",
+   "slots": [
+    "46E10C"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:000702}じょーだんじゃ ねーっての！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D848",
+   "slots": [
+    "46E110"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:000804}きょっ きょうは これくらいで かんべんしてやる！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D867",
+   "slots": [
+    "46E114"
+   ],
+   "kind": "ff",
+   "bytes": 13,
+   "jp": "{face:000903}ムギュ〜・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D874",
+   "slots": [
+    "46E118"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "{face:000A04}パパは おまえの せいちょうぶりが たまらなく{n}うれしいぞ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D898",
+   "slots": [
+    "46E11C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:000B01}あら？ ロボトルって けっこう おもしろいのね{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D8B5",
+   "slots": [
+    "46E120"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "{face:000C01}ク〜ン・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D8C1",
+   "slots": [
+    "46E124"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:000D02}わしを まかすとは あっぱれじゃ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D8D8",
+   "slots": [
+    "46E128"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:000E02}ワヒャ まけとらんぞい！ だんじて まけとらん！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D8F6",
+   "slots": [
+    "46E12C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:000F02}こどもだからって ばかに しゅるな〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D90F",
+   "slots": [
+    "46E130"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{face:001003}あたちの かんぺきな しぇんりゃくが・・・ うぇ〜ん！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D930",
+   "slots": [
+    "46E134"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:001102}っていうか ありえな〜い！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D943",
+   "slots": [
+    "46E138"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:001201}こんな アタシって ちょ〜イケてない？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D95C",
+   "slots": [
+    "46E13C"
+   ],
+   "kind": "ff",
+   "bytes": 40,
+   "jp": "{face:001302}キィ〜〜ッ！ あなたごときに まけるなんて{n}なにかの まちがいよっ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D984",
+   "slots": [
+    "46E140"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{face:001402}キィ〜〜ッ！ セレブにはもっと やさしくするものよっ！？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D9A6",
+   "slots": [
+    "46E144"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:001504}わ・・・わたしの しそうが りかい できないとは！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D9C5",
+   "slots": [
+    "46E148"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:001605}ぎりぎり かったぐらいで いいきに なりおって！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46D9E3",
+   "slots": [
+    "46E14C"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{face:001702}わけーってことは それだけで イミがあるんだな・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DA03",
+   "slots": [
+    "46E150"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:001801}パトロールを なまけてなど いないでありますっ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DA21",
+   "slots": [
+    "46E154"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{face:001A01}そこまでされたら しっ しんじゃうロボよ〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DA3D",
+   "slots": [
+    "46E158"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:001C00}みきられたでござる〜〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DA4F",
+   "slots": [
+    "46E15C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:001E00}にんぽう これから だすところだったのに・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DA6C",
+   "slots": [
+    "46E160"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:002100}あれ？ おかしいな〜 パーツまちがえたかな〜？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DA89",
+   "slots": [
+    "46E164"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:002200}えーん けっこう じしんあったのにィ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DAA1",
+   "slots": [
+    "46E168"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:002500}ビッグウェーブだったぜ・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DAB5",
+   "slots": [
+    "46E16C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:002600}としよりは もっと いたわる もんじゃて・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DAD2",
+   "slots": [
+    "46E170"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:002900}すなおに すなばで あそんでるでしゅ・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DAED",
+   "slots": [
+    "46E174"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{face:002A00}なんなの〜？ もうっ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DAFE",
+   "slots": [
+    "46E178"
+   ],
+   "kind": "ff",
+   "bytes": 45,
+   "jp": "{face:002D00}かえって ゆうはんの したく しなくっちゃ！{n}ああっ いそがしい いそがしい！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DB2B",
+   "slots": [
+    "46E17C"
+   ],
+   "kind": "ff",
+   "bytes": 39,
+   "jp": "{face:002E00}さいきんの わかいもんは ロボトルばっかり つよくなりおって・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DB52",
+   "slots": [
+    "46E180"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{face:003000}たびさきの ほろにがい おもいでが できたよ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DB6E",
+   "slots": [
+    "46E184"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:003300}このデータをもとに けんきゅうだ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DB85",
+   "slots": [
+    "46E188"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{face:003400}すまねえ！ じつは ろ〜ぼとるは あんまり しらねんだ〜{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DBA7",
+   "slots": [
+    "46E18C"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:003600}おめえ ワシの フネさ のらねえか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DBBF",
+   "slots": [
+    "46E190"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:003800}ロボトルは ちからだけじゃ ねえのか！？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DBD9",
+   "slots": [
+    "46E194"
+   ],
+   "kind": "ff",
+   "bytes": 39,
+   "jp": "{face:003A00}さ〜て・・・はっくつをつづけるか・・・{n}どんどんみつけるぞ〜〜っ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DC00",
+   "slots": [
+    "46E198"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:003C00}セイノウダケジャ カテナイノカーッ？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DC18",
+   "slots": [
+    "46E19C"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:003D00}ロボトルシステム テイシ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DC2B",
+   "slots": [
+    "46E1A0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:003E00}ロボトルが つよいひとって ステキね♥{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DC44",
+   "slots": [
+    "46E1A4"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:003F00}トテモ アンニュイ ナ キブン デ〜ス！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DC5E",
+   "slots": [
+    "46E1A8"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:004000}ウンババ ハナモゲラ〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DC70",
+   "slots": [
+    "46E1AC"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:004100}ドコカデ ミスシタノカ？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DC82",
+   "slots": [
+    "46E1B0"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:004200}ユーノ メダロット トテモ ツヨイネ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DC9A",
+   "slots": [
+    "46E1B4"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:004300}おおきゅう なったの〜〜{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DCAC",
+   "slots": [
+    "46E1B8"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{face:004400}おおきく なったねぇ〜{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DCBD",
+   "slots": [
+    "46E1BC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:004500}すこし うでが にぶったようだな・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DCD6",
+   "slots": [
+    "46E1C0"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{face:004600}けがしたら すぐに ほけんしつに くるのよ？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DCF2",
+   "slots": [
+    "46E1C4"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:004700}わたしの めがね・・・ あった！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DD08",
+   "slots": [
+    "46E1C8"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:004800}まあ まちがえた せんせいも わるいわね・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DD25",
+   "slots": [
+    "46E1CC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:004900}いまから きんトレの やりなおしだ〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DD3E",
+   "slots": [
+    "46E1D0"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "{face:004A00}メダロットのきそと ロボトルのきそは かんけい なかったか！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DD62",
+   "slots": [
+    "46E1D4"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:004B00}グルルルルルルルル・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DD74",
+   "slots": [
+    "46E1D8"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:004C00}ハカイ・・ハカイ・・ハカ・・・イ・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DD8D",
+   "slots": [
+    "46E1DC"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:004D00}さらだけは かんべんしてください！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DDA4",
+   "slots": [
+    "46E1E0"
+   ],
+   "kind": "ff",
+   "bytes": 15,
+   "jp": "{face:004E00}ト・・・トケル〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DDB3",
+   "slots": [
+    "46E1E4"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{face:004F00}キャイン！ キャイン！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DDC4",
+   "slots": [
+    "46E1E8"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:005000}お・・・おぼえているタコ〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DDD8",
+   "slots": [
+    "46E1EC"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:005100}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DDE1",
+   "slots": [
+    "46E1F0"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{face:005200}きょうは カンバース じゃないから ちょうしわるいっす{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DE02",
+   "slots": [
+    "46E1F4"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:005400}ありがとうございました〜{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DE14",
+   "slots": [
+    "46E1F8"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:005500}おみせは 8じごろ へいてんで〜す{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DE2B",
+   "slots": [
+    "46E1FC"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{face:005600}ウキャッ！ ウキャッ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DE3C",
+   "slots": [
+    "46E200"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:005700}けんきゅう いがいも やっときゃ よかった〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DE59",
+   "slots": [
+    "46E204"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:005800}たまには ほかのものも たべたいの〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DE72",
+   "slots": [
+    "46E208"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:005900}ロボトルが つよいところも そっくりじゃの〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DE8F",
+   "slots": [
+    "46E20C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:005A00}でも やっぱり やめられないじゃない！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DEA8",
+   "slots": [
+    "46E210"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:005B00}きゃーっ！ やっぱり ロボトルは たのしいわね！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DEC6",
+   "slots": [
+    "46E214"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{face:005C00}メダロットって やっぱり かわいいのよね〜！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DEE2",
+   "slots": [
+    "46E218"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:005D00}ぎゃくに てつだわせちゃったわね・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DEFB",
+   "slots": [
+    "46E21C"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:005E00}とうきは まもなく りりく いたしま〜す{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF15",
+   "slots": [
+    "46E220"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:005F00}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF1E",
+   "slots": [
+    "46E224"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:006000}ウワーッ オレサマノ マサカリガ！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF35",
+   "slots": [
+    "46E228"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006100}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF3E",
+   "slots": [
+    "46E22C"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF47",
+   "slots": [
+    "46E230"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF50",
+   "slots": [
+    "46E234"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF59",
+   "slots": [
+    "46E238"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF62",
+   "slots": [
+    "46E23C"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF6B",
+   "slots": [
+    "46E240"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF74",
+   "slots": [
+    "46E244"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF7D",
+   "slots": [
+    "46E248"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF86",
+   "slots": [
+    "46E24C"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF8F",
+   "slots": [
+    "46E250"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DF98",
+   "slots": [
+    "46E254"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFA1",
+   "slots": [
+    "46E258"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFAA",
+   "slots": [
+    "46E25C"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:001604}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFB3",
+   "slots": [
+    "46E260"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:005100}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFBC",
+   "slots": [
+    "46E264"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:005100}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFC5",
+   "slots": [
+    "46E268"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006100}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFCE",
+   "slots": [
+    "46E26C"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:000301}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFD7",
+   "slots": [
+    "46E270"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:000F03}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFE0",
+   "slots": [
+    "46E274"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:001102}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFE9",
+   "slots": [
+    "46E278"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006200}モ〜？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFF2",
+   "slots": [
+    "46E27C"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:005300}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46DFFB",
+   "slots": [
+    "46E280"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:005300}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E004",
+   "slots": [
+    "46E284"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E00D",
+   "slots": [
+    "46E288"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "{face:005300}いいロボトルだった！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E01D",
+   "slots": [
+    "46E28C"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E026",
+   "slots": [
+    "46E290"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E02F",
+   "slots": [
+    "46E294"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E038",
+   "slots": [
+    "46E298"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E041",
+   "slots": [
+    "46E29C"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E04A",
+   "slots": [
+    "46E2A0"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E053",
+   "slots": [
+    "46E2A4"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E05C",
+   "slots": [
+    "46E2A8"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E065",
+   "slots": [
+    "46E2AC"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E06E",
+   "slots": [
+    "46E2B0"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E077",
+   "slots": [
+    "46E2B4"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E080",
+   "slots": [
+    "46E2B8"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E089",
+   "slots": [
+    "46E2BC"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:006000}ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E092",
+   "slots": [
+    "46E2C0"
+   ],
+   "kind": "ff",
+   "bytes": 5,
+   "jp": "ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E097",
+   "slots": [
+    "46E2C4"
+   ],
+   "kind": "ff",
+   "bytes": 5,
+   "jp": "ダミー{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E09C",
+   "slots": [
+    "46E2C8"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{face:001B01}パーツを とるのだけは かんべんしてほしい ロボよ〜{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E0BC",
+   "slots": [
+    "46E2CC"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:002B00}ルーズソックスでも かいにいこっと！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46E0D4",
+   "slots": [
+    "46E2D0"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{face:003200}やっぱり けんきゅうより ロボトルだね・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

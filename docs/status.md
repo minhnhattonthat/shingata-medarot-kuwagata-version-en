@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4. Extract next (phases 1-3 done). Last build: 2026-11-17 `build/medarot_kuwagata_en.gba`, sha1
-  573e980d... = the original (identity), smoke ok.
+- **Phase:** 5. Engine spike and marker build next (phases 1-4 done). Last build: 2026-11-17
+  `build/medarot_kuwagata_en.gba` from `script/`, sha1 573e980d... = the original (identity), smoke ok.
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/` (+ GBA BIOS), guard hook proven (canary blocked), pre-commit runs
     `tools/check.py` and rejects a failing test, `rom.sha1` pinned, boot route reaches the title menu.
@@ -32,12 +32,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     log clean, smoke ok, 70/70 scenes arrive, no ア left after adding the code literals (docs/re/text.md §Tables used
     by the build). LZ77 + Le: every block (1457 + 1564) roundtrips (`pytest -m slow tests/test_codecs.py`).
     `prove.py --qa DIR` keeps another ROM's shots apart; `tools/shotdiff.py` compares two shot dirs.
-- **Next (phase 4, `references/pipeline.md` §Extract):** dump the strings into `script/*.json` (id, slots, jp, en,
-  max...) from `texttables.find_tables`, then decide the runs it rejects (docs/re/text.md lists them: 0x4A2E9C has
-  ~100 FE names, 0x4B7168 one-katakana entries, 0x4B6248, 0x47DF80...). Roundtrip test over every string, and a
-  coverage test of 0x464000-0x512000 (every byte is a string, a table, or a listed data range). Then have
-  `rombuild.text_stage` take its strings from `script/` instead of the ROM. Text read by unknown references shows up
-  as ア in the poison build: run it over the scenes again whenever the text set changes.
+  - Phase 4 extract: `tools/extract.py` -> `script/<table>.json` (61 tables + `unused.json`; 8038 strings, 8990
+    slots; fields id, slots, kind ff/fe, bytes, tail_of, jp, en, status, notes; never clobbers, `--force` keeps
+    en/status/notes and lists ids whose jp changed). The build now reads `script/` (`rombuild.load_script(lang)`: `en`,
+    or `jp` while empty) and is still byte-identical. `tests/test_script.py`: every `jp` re-encodes to the original
+    bytes, files match a fresh dump, slots = `find_tables` slots, and `tools/textmap.py` explains every byte of
+    0x464000-0x512000 (28 DATA ranges, 9 unused strings, 0 gaps). Every rejected pointer run was read: all data
+    (docs/re/text.md §Coverage; 0x4A2E9C is sprite pieces, not names). Relocate+poison build smoke ok.
+- **Next (phase 5, `references/pipeline.md` §Marker, `references/platform-gba.md`):** engine spike + marker build.
+  1. Pin the main dialogue font (VRAM tiles of a dialogue shot -> `vramfind.py`; 0x54FEA0 is the alt italic font)
+     and the VWF width table 0x4645B8. Plan: lowercase + punctuation in D0-EF (32 free glyph codes, width 1 now),
+     redraw A-Z, new widths; wrap is automatic at 208 px. Add `tbl/en.tbl` and make `rombuild` encode `en` with it.
+  2. Marker build: every line `[id] marker text` (keep control codes, `{var}`, `{face}`, terminators), tour the 70
+     scenes + map tour, check ids show and nothing stays Japanese (text read by unknown references shows as JP there).
+  3. Width gate: measure each box variant in-game (dialogue with/without face, FE list fields in menus, shop, battle
+     messages, credits), record px budgets per table in a window-data file, plus a glyph torture line.
+  4. 0x4789EC (kana-order code list in DATA): see what reads it (name entry keyboard?).
 - **Debug-tool gaps (not blocking; grow the list when phase 8 needs them):**
   1. Story robattles start from NPC talk (dispatcher near 0x08055B44, action 0x20 -> scene switch case 0x20); who
      writes the team id +0x942 per NPC is not traced. Scenes set the team id directly, which gives the same screens.
@@ -50,7 +60,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   5. Link battle / link trade screens beyond `parts_trade`: not looked at.
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.
-- **Notes for later phases:** phase 4 extractor must take both string kinds (FF xx and FE). Phase 5: try the existing
+- **Notes for later phases:** Phase 5: try the existing
   VWF (redraw glyphs, lowercase in D0-EF, new widths) before writing one; the main dialogue font address is not pinned
   yet (0x54FEA0 is an alternate italic Latin font). Two menu kana fonts are graphics (G16 0x5518A0, G30 0x72F06C).
   Item 1 is named "ダミー" (a dummy entry in the game).

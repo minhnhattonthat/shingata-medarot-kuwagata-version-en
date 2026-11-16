@@ -1,0 +1,2886 @@
+{
+ "table": "468A00",
+ "about": "part names",
+ "strings": [
+  {
+   "id": "4683F8",
+   "slots": [
+    "468A00"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "バギュー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4683FD",
+   "slots": [
+    "468A04"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ドロイテ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468402",
+   "slots": [
+    "468A08"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "アイラガーチ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468409",
+   "slots": [
+    "468A0C"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ジャンベサーレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468411",
+   "slots": [
+    "468A10"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "トラブルバギュ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468419",
+   "slots": [
+    "468A14"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ラシェ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46841D",
+   "slots": [
+    "468A18"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "アビデハニ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468423",
+   "slots": [
+    "468A1C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "カウプス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468428",
+   "slots": [
+    "468A20"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "タッテジェント{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468430",
+   "slots": [
+    "468A24"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ブラドロジェント{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468439",
+   "slots": [
+    "468A28"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ブラゴージェント{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468442",
+   "slots": [
+    "468A2C"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ジャンベジェント{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46844B",
+   "slots": [
+    "468A30"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ターテノンモル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468453",
+   "slots": [
+    "468A34"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "フォイデノンモル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46845C",
+   "slots": [
+    "468A38"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "グラフュノンモル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468465",
+   "slots": [
+    "468A3C"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "アルティノンモル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46846E",
+   "slots": [
+    "468A40"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ポスデパイロ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468475",
+   "slots": [
+    "468A44"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "レビデコント{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46847C",
+   "slots": [
+    "468A48"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "インジェクテ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468483",
+   "slots": [
+    "468A4C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "アイラデラク{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46848A",
+   "slots": [
+    "468A50"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ルオー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46848E",
+   "slots": [
+    "468A54"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ブロスフェルム{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468496",
+   "slots": [
+    "468A58"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "コフュー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46849B",
+   "slots": [
+    "468A5C"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "フェイトボラー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684A3",
+   "slots": [
+    "468A60"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "タテコントラリ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684AB",
+   "slots": [
+    "468A64"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "オスブラド{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684B1",
+   "slots": [
+    "468A68"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ガートブラド{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684B8",
+   "slots": [
+    "468A6C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "グラーベ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684BD",
+   "slots": [
+    "468A70"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "オバート{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684C2",
+   "slots": [
+    "468A74"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "アルギレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684C7",
+   "slots": [
+    "468A78"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ラポーセラ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684CD",
+   "slots": [
+    "468A7C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ポースライン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684D4",
+   "slots": [
+    "468A80"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "エトランジ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684DA",
+   "slots": [
+    "468A84"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ピアーレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684DF",
+   "slots": [
+    "468A88"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ピアッレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684E4",
+   "slots": [
+    "468A8C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "インコニュー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684EB",
+   "slots": [
+    "468A90"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "マジキュ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684F0",
+   "slots": [
+    "468A94"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "イモーラ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684F5",
+   "slots": [
+    "468A98"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ヤモーラ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684FA",
+   "slots": [
+    "468A9C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "レザッド{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4684FF",
+   "slots": [
+    "468AA0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "エンメルベレー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468507",
+   "slots": [
+    "468AA4"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ラーベ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46850B",
+   "slots": [
+    "468AA8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "レーベ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46850F",
+   "slots": [
+    "468AAC"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "トランジトリ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468516",
+   "slots": [
+    "468AB0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "カラックインパ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46851E",
+   "slots": [
+    "468AB4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "パランデラ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468524",
+   "slots": [
+    "468AB8"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "デラルネッサ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46852B",
+   "slots": [
+    "468ABC"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "リッデュドラゴ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468533",
+   "slots": [
+    "468AC0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ナッグート{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468539",
+   "slots": [
+    "468AC4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "バジルス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46853E",
+   "slots": [
+    "468AC8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "バクテリー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468544",
+   "slots": [
+    "468ACC"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "アンルーヒッジ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46854C",
+   "slots": [
+    "468AD0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "スカーデル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468552",
+   "slots": [
+    "468AD4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "デットゴット{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468559",
+   "slots": [
+    "468AD8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "トーフェル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46855F",
+   "slots": [
+    "468ADC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "フョーレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468564",
+   "slots": [
+    "468AE0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "トローネン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46856A",
+   "slots": [
+    "468AE4"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "リンクシッケル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468572",
+   "slots": [
+    "468AE8"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ディレクシッケル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46857B",
+   "slots": [
+    "468AEC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "パラジット{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468581",
+   "slots": [
+    "468AF0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ファーレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468586",
+   "slots": [
+    "468AF4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ファデン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46858B",
+   "slots": [
+    "468AF8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ナスト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46858F",
+   "slots": [
+    "468AFC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ゾーハ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468593",
+   "slots": [
+    "468B00"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ジフト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468597",
+   "slots": [
+    "468B04"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "トドリージフ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46859E",
+   "slots": [
+    "468B08"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "マヒテージャルツ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685A7",
+   "slots": [
+    "468B0C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "デットテーレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685AE",
+   "slots": [
+    "468B10"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ワイチ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685B2",
+   "slots": [
+    "468B14"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ソーグナップ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685B9",
+   "slots": [
+    "468B18"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "レイジグ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685BE",
+   "slots": [
+    "468B1C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "アヒト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685C2",
+   "slots": [
+    "468B20"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "トラジバッフェ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685CA",
+   "slots": [
+    "468B24"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "シューバルト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685D1",
+   "slots": [
+    "468B28"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ロータマンテル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685D9",
+   "slots": [
+    "468B2C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "フィアハッフ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685E0",
+   "slots": [
+    "468B30"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "マッターシェン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685E8",
+   "slots": [
+    "468B34"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "リテージノッペ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685F0",
+   "slots": [
+    "468B38"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "リンクスノッペ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685F8",
+   "slots": [
+    "468B3C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ツビーベル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4685FE",
+   "slots": [
+    "468B40"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ベール{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468602",
+   "slots": [
+    "468B44"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ハント{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468606",
+   "slots": [
+    "468B48"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "フィッシャー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46860D",
+   "slots": [
+    "468B4C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ストリークス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468614",
+   "slots": [
+    "468B50"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "グリッフシン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46861B",
+   "slots": [
+    "468B54"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "シェッフェル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468622",
+   "slots": [
+    "468B58"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ボイフゲン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468628",
+   "slots": [
+    "468B5C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "シューネル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46862E",
+   "slots": [
+    "468B60"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "マシュト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468633",
+   "slots": [
+    "468B64"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "フェーンジ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468639",
+   "slots": [
+    "468B68"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "アンバーグル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468640",
+   "slots": [
+    "468B6C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "マッシブ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468645",
+   "slots": [
+    "468B70"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ずきん{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468649",
+   "slots": [
+    "468B74"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "くない{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46864D",
+   "slots": [
+    "468B78"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "にんじゃとう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468654",
+   "slots": [
+    "468B7C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "しのびあし{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46865A",
+   "slots": [
+    "468B80"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "エルモ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46865E",
+   "slots": [
+    "468B84"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "アペンデース{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468665",
+   "slots": [
+    "468B88"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "プロテーガ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46866B",
+   "slots": [
+    "468B8C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "グエルサンテ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468672",
+   "slots": [
+    "468B90"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "カペリロッシ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468679",
+   "slots": [
+    "468B94"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "アシコレッタ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468680",
+   "slots": [
+    "468B98"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "アシニスト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468686",
+   "slots": [
+    "468B9C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ディバリカ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46868C",
+   "slots": [
+    "468BA0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "オレチョランゴ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468694",
+   "slots": [
+    "468BA4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "バシオフレコ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46869B",
+   "slots": [
+    "468BA8"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "バシデコルポ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686A2",
+   "slots": [
+    "468BAC"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "サルティガンバ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686AA",
+   "slots": [
+    "468BB0"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "さむらいのいのち{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686B3",
+   "slots": [
+    "468BB4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "わきざし{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686B8",
+   "slots": [
+    "468BB8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "にほんとう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686BE",
+   "slots": [
+    "468BBC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "すりあし{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686C3",
+   "slots": [
+    "468BC0"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "センデオッド{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686CA",
+   "slots": [
+    "468BC4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "マコデカ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686CF",
+   "slots": [
+    "468BC8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "マシデカ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686D4",
+   "slots": [
+    "468BCC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "カルシガム{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686DA",
+   "slots": [
+    "468BD0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "カッポー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686DF",
+   "slots": [
+    "468BD4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "エラギッチ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686E5",
+   "slots": [
+    "468BD8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "コラッジオ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686EB",
+   "slots": [
+    "468BDC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "デレンゴ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686F0",
+   "slots": [
+    "468BE0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "むらさきずきん{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686F8",
+   "slots": [
+    "468BE4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "まきびし{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4686FD",
+   "slots": [
+    "468BE8"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "かやくでっぽう{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468705",
+   "slots": [
+    "468BEC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "さしあし{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46870A",
+   "slots": [
+    "468BF0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "チョデモン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468710",
+   "slots": [
+    "468BF4"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "カッペ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468714",
+   "slots": [
+    "468BF8"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "プレセダーノ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46871B",
+   "slots": [
+    "468BFC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "バコルタ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468720",
+   "slots": [
+    "468C00"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ディナストロ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468727",
+   "slots": [
+    "468C04"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "アビディマリーナ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468730",
+   "slots": [
+    "468C08"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "トラグリア{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468736",
+   "slots": [
+    "468C0C"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ナートソックス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46873E",
+   "slots": [
+    "468C10"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ディッカル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468744",
+   "slots": [
+    "468C14"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "アンガベコレト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46874C",
+   "slots": [
+    "468C18"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "アンガデコレト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468754",
+   "slots": [
+    "468C1C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "バスペッサ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46875A",
+   "slots": [
+    "468C20"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "モデロリスタット{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468763",
+   "slots": [
+    "468C24"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "レットティグレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46876B",
+   "slots": [
+    "468C28"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ニストロティグレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468774",
+   "slots": [
+    "468C2C"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ラガンティグレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46877C",
+   "slots": [
+    "468C30"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "シアクート{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468782",
+   "slots": [
+    "468C34"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "エレトリッタ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468789",
+   "slots": [
+    "468C38"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "オンダエレト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468790",
+   "slots": [
+    "468C3C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "シレンチオ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468796",
+   "slots": [
+    "468C40"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "アリメンド{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46879C",
+   "slots": [
+    "468C44"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "インジェコ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687A2",
+   "slots": [
+    "468C48"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ジャメットベーノ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687AB",
+   "slots": [
+    "468C4C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "オペラケオ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687B1",
+   "slots": [
+    "468C50"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "サーペンテ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687B7",
+   "slots": [
+    "468C54"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ペテロケミセルト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687C0",
+   "slots": [
+    "468C58"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ペテロケミエスク{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687C9",
+   "slots": [
+    "468C5C"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ペルーナフェア{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687D1",
+   "slots": [
+    "468C60"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ジャッバ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687D6",
+   "slots": [
+    "468C64"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ディレグランデ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687DE",
+   "slots": [
+    "468C68"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "エルダグランデ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687E6",
+   "slots": [
+    "468C6C"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "デセントベスタ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687EE",
+   "slots": [
+    "468C70"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ミラーグル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687F4",
+   "slots": [
+    "468C74"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ビークアンド{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4687FB",
+   "slots": [
+    "468C78"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "プレディカ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468801",
+   "slots": [
+    "468C7C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "パルナデアス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468808",
+   "slots": [
+    "468C80"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "エンボルタ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46880E",
+   "slots": [
+    "468C84"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ポルテカオセル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468816",
+   "slots": [
+    "468C88"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ポルテカオスク{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46881E",
+   "slots": [
+    "468C8C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "レンタメンテ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468825",
+   "slots": [
+    "468C90"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "コグメロベーノ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46882D",
+   "slots": [
+    "468C94"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "エスポーロ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468833",
+   "slots": [
+    "468C98"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "バシーロ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468838",
+   "slots": [
+    "468C9C"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "リンハデバシロ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468840",
+   "slots": [
+    "468CA0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ベルーデ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468845",
+   "slots": [
+    "468CA4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "エスピーノ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46884B",
+   "slots": [
+    "468CA8"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "アルマエスピーノ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468854",
+   "slots": [
+    "468CAC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "セルバ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468858",
+   "slots": [
+    "468CB0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "エゴレノバ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46885E",
+   "slots": [
+    "468CB4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "テソラセント{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468865",
+   "slots": [
+    "468CB8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "テソラダス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46886B",
+   "slots": [
+    "468CBC"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "マルタペルナ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468872",
+   "slots": [
+    "468CC0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ペサデロ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468877",
+   "slots": [
+    "468CC4"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ソンプロフェット{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468880",
+   "slots": [
+    "468CC8"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ソンプロビッサ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468888",
+   "slots": [
+    "468CCC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "デセスペル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46888E",
+   "slots": [
+    "468CD0"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "カンデバタル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468895",
+   "slots": [
+    "468CD4"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ゲリル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468899",
+   "slots": [
+    "468CD8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ユニデ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46889D",
+   "slots": [
+    "468CDC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "タンケ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688A1",
+   "slots": [
+    "468CE0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "パルハチョ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688A7",
+   "slots": [
+    "468CE4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "カーナバル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688AD",
+   "slots": [
+    "468CE8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "フェスタ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688B2",
+   "slots": [
+    "468CEC"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "クエダエンデ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688B9",
+   "slots": [
+    "468CF0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "カンバナデスコ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688C1",
+   "slots": [
+    "468CF4"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "マジア{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688C5",
+   "slots": [
+    "468CF8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "カーナ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688C9",
+   "slots": [
+    "468CFC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "バッソーラ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688CF",
+   "slots": [
+    "468D00"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ペルガンタ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688D5",
+   "slots": [
+    "468D04"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "プロテシオン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688DC",
+   "slots": [
+    "468D08"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ベスティア{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688E2",
+   "slots": [
+    "468D0C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "セシエンタ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688E8",
+   "slots": [
+    "468D10"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "テラノス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688ED",
+   "slots": [
+    "468D14"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "メガトル{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688F2",
+   "slots": [
+    "468D18"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ギガント{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688F7",
+   "slots": [
+    "468D1C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ラビダラルガ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4688FE",
+   "slots": [
+    "468D20"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ラ・ナルラ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468904",
+   "slots": [
+    "468D24"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ラマノデグラ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46890B",
+   "slots": [
+    "468D28"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ラマノイグラン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468913",
+   "slots": [
+    "468D2C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ラピアグラン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46891A",
+   "slots": [
+    "468D30"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "アーケラルゴ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468921",
+   "slots": [
+    "468D34"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "プランタコム{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468928",
+   "slots": [
+    "468D38"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "マキシマ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46892D",
+   "slots": [
+    "468D3C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ラコララルガ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468934",
+   "slots": [
+    "468D40"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "グロコエルカ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46893B",
+   "slots": [
+    "468D44"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "バエルアンダー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468943",
+   "slots": [
+    "468D48"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ゾーナデクス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46894A",
+   "slots": [
+    "468D4C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "プログレッソ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468951",
+   "slots": [
+    "468D50"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ニエーベ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468956",
+   "slots": [
+    "468D54"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ヒエーロ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46895B",
+   "slots": [
+    "468D58"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "トレルニーベ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468962",
+   "slots": [
+    "468D5C"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "エルカンポネーバ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46896B",
+   "slots": [
+    "468D60"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "リモーソ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468970",
+   "slots": [
+    "468D64"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "トランスパー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468977",
+   "slots": [
+    "468D68"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "エルカランテ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46897E",
+   "slots": [
+    "468D6C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "アゾーンテ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468984",
+   "slots": [
+    "468D70"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ナバージャ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46898A",
+   "slots": [
+    "468D74"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "アルバロトス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468991",
+   "slots": [
+    "468D78"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "アトロッツ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "468997",
+   "slots": [
+    "468D7C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "アラスレッタ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46899E",
+   "slots": [
+    "468D80"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "コントラフリオ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689A6",
+   "slots": [
+    "468D84"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "プルマスチョ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689AD",
+   "slots": [
+    "468D88"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "プルマスダス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689B4",
+   "slots": [
+    "468D8C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "トッタリング{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689BB",
+   "slots": [
+    "468D90"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "プラト{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689BF",
+   "slots": [
+    "468D94"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ウェッブ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689C4",
+   "slots": [
+    "468D98"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "アルコレ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689C9",
+   "slots": [
+    "468D9C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "カスカーラ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689CF",
+   "slots": [
+    "468DA0"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "キュアボイス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689D6",
+   "slots": [
+    "468DA4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "マルカデルコ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689DD",
+   "slots": [
+    "468DA8"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ティポデルコ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689E4",
+   "slots": [
+    "468DAC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ペーズ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689E8",
+   "slots": [
+    "468DB0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ラグレガン{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689EE",
+   "slots": [
+    "468DB4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "シャワー{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689F3",
+   "slots": [
+    "468DB8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "フレスコ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4689F8",
+   "slots": [
+    "468DBC"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ルミネセンス{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

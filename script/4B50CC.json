@@ -1,0 +1,5262 @@
+{
+ "table": "4B50CC",
+ "about": "signs and books",
+ "strings": [
+  {
+   "id": "4B2450",
+   "slots": [
+    "4B50CC"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "{face:010000}オレの いえだ・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2460",
+   "slots": [
+    "4B50D0"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:010000}アイリスの いえだ・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2472",
+   "slots": [
+    "4B50D4"
+   ],
+   "kind": "ff",
+   "bytes": 59,
+   "jp": "{face:010000}なになに？ 「アルバイトぼしゅう」 だんじょ といません{n}ぜひ いちど めんせつに きてください か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B24AD",
+   "slots": [
+    "4B50D8"
+   ],
+   "kind": "ff",
+   "bytes": 55,
+   "jp": "{face:010000}なになに？ ロボロボだんの いたずらを みかけたら{n}MーPKたいへ ごいっぽう ください か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B24E4",
+   "slots": [
+    "4B50DC"
+   ],
+   "kind": "ff",
+   "bytes": 55,
+   "jp": "{face:010000}なになに？ MーPKたい たいいん ぼしゅう！{n}せいぎの ヒーローに なりたい あなたへ か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B251B",
+   "slots": [
+    "4B50E0"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:010000}マスキーの いえだ・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B252D",
+   "slots": [
+    "4B50E4"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:010000}マスキーの いえだ・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B253F",
+   "slots": [
+    "4B50E8"
+   ],
+   "kind": "ff",
+   "bytes": 56,
+   "jp": "{face:010000}「ひだり」 ボヨヨのいえ 「みぎ」 ピョロリのいえ{n}って ひょうさつがひとつ？ なかがいいなあ・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2577",
+   "slots": [
+    "4B50EC"
+   ],
+   "kind": "ff",
+   "bytes": 56,
+   "jp": "{face:010000}「ひだり」 ボヨヨのいえ 「みぎ」 ピョロリのいえ{n}って ひょうさつがひとつ？ なかがいいなあ・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B25AF",
+   "slots": [
+    "4B50F0"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}オレの パソコンだ{n}いまは さわるのは やめとこう{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B25CE",
+   "slots": [
+    "4B50F4"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}オレの おもちゃが たくさん はいっている{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B25E9",
+   "slots": [
+    "4B50F8"
+   ],
+   "kind": "ff",
+   "bytes": 42,
+   "jp": "{face:010000}ねがいが かなう いけか・・・{n}まあ オレは そんなの しんじねーけどな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2613",
+   "slots": [
+    "4B50FC"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}いまは すべりだいで あそぶって きぶんじゃねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2632",
+   "slots": [
+    "4B5100"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2649",
+   "slots": [
+    "4B5104"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010000}きれいに せいり されてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B265C",
+   "slots": [
+    "4B5108"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010000}きれいに せいり されてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B266F",
+   "slots": [
+    "4B510C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2686",
+   "slots": [
+    "4B5110"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010008}いがいと きれいに せいり されてる！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B269F",
+   "slots": [
+    "4B5114"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010008}いがいに きれいに せいり されてる！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B26B8",
+   "slots": [
+    "4B5118"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010008}ボヨヨも パソコン するのか！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B26CD",
+   "slots": [
+    "4B511C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B26EA",
+   "slots": [
+    "4B5120"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}いかにも ボヨヨらしい コレクションだな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2707",
+   "slots": [
+    "4B5124"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}いかにも ボヨヨらしい コレクションだな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2724",
+   "slots": [
+    "4B5128"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010000}さいしんがたの パソコンだ{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2737",
+   "slots": [
+    "4B512C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2754",
+   "slots": [
+    "4B5130"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:010001}ピョロリが こんなの もってるなんて いがいだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2772",
+   "slots": [
+    "4B5134"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:010001}ピョロリが こんなの もってるなんて いがいだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2790",
+   "slots": [
+    "4B5138"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B27A6",
+   "slots": [
+    "4B513C"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B27BC",
+   "slots": [
+    "4B5140"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B27DB",
+   "slots": [
+    "4B5144"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B27FA",
+   "slots": [
+    "4B5148"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B280F",
+   "slots": [
+    "4B514C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2824",
+   "slots": [
+    "4B5150"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B283B",
+   "slots": [
+    "4B5154"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2852",
+   "slots": [
+    "4B5158"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B286B",
+   "slots": [
+    "4B515C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2884",
+   "slots": [
+    "4B5160"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B289D",
+   "slots": [
+    "4B5164"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}これ なんだ？ よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B28B3",
+   "slots": [
+    "4B5168"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B28C9",
+   "slots": [
+    "4B516C"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B28DF",
+   "slots": [
+    "4B5170"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}シャンプーとかが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B28F3",
+   "slots": [
+    "4B5174"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}けっこう たかそうな つぼだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2908",
+   "slots": [
+    "4B5178"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}けっこう たかそうな つぼだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B291D",
+   "slots": [
+    "4B517C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}けっこう たかそうな つぼだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2932",
+   "slots": [
+    "4B5180"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010000}そうじどうぐが はいってる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2945",
+   "slots": [
+    "4B5184"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:010000}グッピーが およいでいる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2957",
+   "slots": [
+    "4B5188"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010000}コリドラスが およいでいる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B296A",
+   "slots": [
+    "4B518C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}オトシンクルスが およいでいる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B297F",
+   "slots": [
+    "4B5190"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:004600}たなのなかは さわらないでね？{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2994",
+   "slots": [
+    "4B5194"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:004600}たなのなかは さわらないでね？{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B29A9",
+   "slots": [
+    "4B5198"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{face:010001}ここに すわると なんだか せんせいに なったきぶんだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B29CB",
+   "slots": [
+    "4B519C"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010000}そうじどうぐが はいってる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B29DE",
+   "slots": [
+    "4B51A0"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}ぞうきんから なんか へんな においがする{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B29F9",
+   "slots": [
+    "4B51A4"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010000}そうじどうぐが はいってる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2A0C",
+   "slots": [
+    "4B51A8"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}しんぴんの ぞうきんが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2A23",
+   "slots": [
+    "4B51AC"
+   ],
+   "kind": "ff",
+   "bytes": 45,
+   "jp": "{face:010000}「ベント・デル・マーレの れきし」・・・{n}なんか むずかしそうだから やめとこ{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2A50",
+   "slots": [
+    "4B51B0"
+   ],
+   "kind": "ff",
+   "bytes": 46,
+   "jp": "{face:010000}「さいしん メダロット ずかん」か・・・{n}また こんど ひまなときに みにくるか{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2A7E",
+   "slots": [
+    "4B51B4"
+   ],
+   "kind": "ff",
+   "bytes": 49,
+   "jp": "{face:010000}この パソコンで みたいほんを けんさく できるんだっけ？{n}こんど つかってみよっかな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2AAF",
+   "slots": [
+    "4B51B8"
+   ],
+   "kind": "ff",
+   "bytes": 59,
+   "jp": "{face:010000}「せんにゅう！ しのびのさと」か・・・なになに？{n}このよには しのびのさと という ばしょが あるだって？{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2AEA",
+   "slots": [
+    "4B51BC"
+   ],
+   "kind": "ff",
+   "bytes": 43,
+   "jp": "{face:010000}「ねったいぎょ ずかん」か・・・{n}おもしろそうだな またこんど みにこよう{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2B15",
+   "slots": [
+    "4B51C0"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}ビーチパラソルが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2B29",
+   "slots": [
+    "4B51C4"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}ビーチパラソルが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2B3D",
+   "slots": [
+    "4B51C8"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010000}サーフボードが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2B50",
+   "slots": [
+    "4B51CC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}なんか むこうにも つづいてるな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2B69",
+   "slots": [
+    "4B51D0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}なんか むこうにも つづいてるな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2B82",
+   "slots": [
+    "4B51D4"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:010000}さいしんがたの パソコンだ{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2B95",
+   "slots": [
+    "4B51D8"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2BB2",
+   "slots": [
+    "4B51DC"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010001}さかなの しゃしんが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2BCD",
+   "slots": [
+    "4B51E0"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010001}さかなの しゃしんが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2BE8",
+   "slots": [
+    "4B51E4"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2BFE",
+   "slots": [
+    "4B51E8"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2C14",
+   "slots": [
+    "4B51EC"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2C33",
+   "slots": [
+    "4B51F0"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2C52",
+   "slots": [
+    "4B51F4"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2C67",
+   "slots": [
+    "4B51F8"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2C7C",
+   "slots": [
+    "4B51FC"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2C93",
+   "slots": [
+    "4B5200"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2CAA",
+   "slots": [
+    "4B5204"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2CC3",
+   "slots": [
+    "4B5208"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2CDC",
+   "slots": [
+    "4B520C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2CF5",
+   "slots": [
+    "4B5210"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}これ なんだ？ よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2D0B",
+   "slots": [
+    "4B5214"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2D21",
+   "slots": [
+    "4B5218"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2D37",
+   "slots": [
+    "4B521C"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}シャンプーとかが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2D4B",
+   "slots": [
+    "4B5220"
+   ],
+   "kind": "ff",
+   "bytes": 56,
+   "jp": "{face:010000}なになに？ 「しんはつばい！ ダイエットクリエ」{n}「これで あなたも スリムな からだに！」か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2D83",
+   "slots": [
+    "4B5224"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}なんだか むずかしい ほんが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2D9D",
+   "slots": [
+    "4B5228"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}なんだか むずかしい ほんが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2DB7",
+   "slots": [
+    "4B522C"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}なんだか むずかしい ほんが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2DD1",
+   "slots": [
+    "4B5230"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}ふくざつな コンピューターだから よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2DF0",
+   "slots": [
+    "4B5234"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}ふくざつな コンピューターだから よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2E0F",
+   "slots": [
+    "4B5238"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}ふくざつな コンピューターだから よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2E2E",
+   "slots": [
+    "4B523C"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}ふくざつな コンピューターだから よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2E4D",
+   "slots": [
+    "4B5240"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}ふくざつな コンピューターだから よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2E6C",
+   "slots": [
+    "4B5244"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}ふくざつな コンピューターだから よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2E8B",
+   "slots": [
+    "4B5248"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}メダロット けんきゅうの ほんのようだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2EA5",
+   "slots": [
+    "4B524C"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}メダロット けんきゅうの ほんのようだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2EBF",
+   "slots": [
+    "4B5250"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010008}パ・・・パソコンに フリルが ついてる！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2ED9",
+   "slots": [
+    "4B5254"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{face:010000}かわいい にんぎょうが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2EF5",
+   "slots": [
+    "4B5258"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2F12",
+   "slots": [
+    "4B525C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}パソコンの でんげんは きれている{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2F29",
+   "slots": [
+    "4B5260"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2F46",
+   "slots": [
+    "4B5264"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2F5F",
+   "slots": [
+    "4B5268"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2F78",
+   "slots": [
+    "4B526C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}パソコンの でんげんは きれている{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2F8F",
+   "slots": [
+    "4B5270"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2FAC",
+   "slots": [
+    "4B5274"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2FC5",
+   "slots": [
+    "4B5278"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2FDE",
+   "slots": [
+    "4B527C"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B2FF4",
+   "slots": [
+    "4B5280"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B300A",
+   "slots": [
+    "4B5284"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3029",
+   "slots": [
+    "4B5288"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3048",
+   "slots": [
+    "4B528C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B305D",
+   "slots": [
+    "4B5290"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3072",
+   "slots": [
+    "4B5294"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3089",
+   "slots": [
+    "4B5298"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B30A0",
+   "slots": [
+    "4B529C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B30B9",
+   "slots": [
+    "4B52A0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B30D2",
+   "slots": [
+    "4B52A4"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B30EB",
+   "slots": [
+    "4B52A8"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}これ なんだ？ よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3101",
+   "slots": [
+    "4B52AC"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3117",
+   "slots": [
+    "4B52B0"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B312D",
+   "slots": [
+    "4B52B4"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}シャンプーとかが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3141",
+   "slots": [
+    "4B52B8"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}なんか ふるい こっとうひんが はいってる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B315C",
+   "slots": [
+    "4B52BC"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}ふるい つぼとか さらが はいってる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3174",
+   "slots": [
+    "4B52C0"
+   ],
+   "kind": "ff",
+   "bytes": 56,
+   "jp": "{face:010006}こ・・・これは！ なんだか わからねーけど オーラが{n}でてる！ よほど かちの あるもんなんだろうな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B31AC",
+   "slots": [
+    "4B52C4"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{face:010000}しょっきが はいってる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B31BD",
+   "slots": [
+    "4B52C8"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B31D5",
+   "slots": [
+    "4B52CC"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}おこめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B31EA",
+   "slots": [
+    "4B52D0"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}まんじゅうが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3201",
+   "slots": [
+    "4B52D4"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3216",
+   "slots": [
+    "4B52D8"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B322B",
+   "slots": [
+    "4B52DC"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}つくだにが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3241",
+   "slots": [
+    "4B52E0"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}だがしが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3256",
+   "slots": [
+    "4B52E4"
+   ],
+   "kind": "ff",
+   "bytes": 57,
+   "jp": "{face:010000}「ふくびき きょうどうくみあい かめいてん」？{n}「あなたも ふくびきで ごうかしょうひんを ゲット！」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B328F",
+   "slots": [
+    "4B52E8"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B32A4",
+   "slots": [
+    "4B52EC"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}みたこともない パーツが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B32BC",
+   "slots": [
+    "4B52F0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ゆにゅう やさいが たくさんつんである{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B32D5",
+   "slots": [
+    "4B52F4"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ゆにゅう やさいが たくさんつんである{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B32EE",
+   "slots": [
+    "4B52F8"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}メダロットの じゅんせいたいが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3309",
+   "slots": [
+    "4B52FC"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}メダロットの じゅんせいたいが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3324",
+   "slots": [
+    "4B5300"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}メダロットの じゅんせいたいが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B333F",
+   "slots": [
+    "4B5304"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}メダロットの じゅんせいたいが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B335A",
+   "slots": [
+    "4B5308"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3370",
+   "slots": [
+    "4B530C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B338D",
+   "slots": [
+    "4B5310"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B33A6",
+   "slots": [
+    "4B5314"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B33BF",
+   "slots": [
+    "4B5318"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B33D5",
+   "slots": [
+    "4B531C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B33F2",
+   "slots": [
+    "4B5320"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B340B",
+   "slots": [
+    "4B5324"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3424",
+   "slots": [
+    "4B5328"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B343B",
+   "slots": [
+    "4B532C"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3453",
+   "slots": [
+    "4B5330"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B346B",
+   "slots": [
+    "4B5334"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3482",
+   "slots": [
+    "4B5338"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B349A",
+   "slots": [
+    "4B533C"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B34B2",
+   "slots": [
+    "4B5340"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B34C8",
+   "slots": [
+    "4B5344"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B34DE",
+   "slots": [
+    "4B5348"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B34FD",
+   "slots": [
+    "4B534C"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B351C",
+   "slots": [
+    "4B5350"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3531",
+   "slots": [
+    "4B5354"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3546",
+   "slots": [
+    "4B5358"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B355D",
+   "slots": [
+    "4B535C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3574",
+   "slots": [
+    "4B5360"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B358D",
+   "slots": [
+    "4B5364"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B35A6",
+   "slots": [
+    "4B5368"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B35BF",
+   "slots": [
+    "4B536C"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}これ なんだ？ よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B35D5",
+   "slots": [
+    "4B5370"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B35EB",
+   "slots": [
+    "4B5374"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3601",
+   "slots": [
+    "4B5378"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}シャンプーとかが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3615",
+   "slots": [
+    "4B537C"
+   ],
+   "kind": "ff",
+   "bytes": 69,
+   "jp": "{face:010001}なになに？ 「このかお みたら MーPKたいへ ごれんらくを！」{n}って ぜんしん くろタイツに サングラスじゃ わかんねーよ！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B365A",
+   "slots": [
+    "4B5380"
+   ],
+   "kind": "ff",
+   "bytes": 51,
+   "jp": "{face:010000}じかんが せいかくだな・・・ めだつし・・・{n}おんなのことの まちあわせに つかえるかもな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B368D",
+   "slots": [
+    "4B5384"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B36A3",
+   "slots": [
+    "4B5388"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B36B9",
+   "slots": [
+    "4B538C"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B36CF",
+   "slots": [
+    "4B5390"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B36E5",
+   "slots": [
+    "4B5394"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B36FB",
+   "slots": [
+    "4B5398"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3711",
+   "slots": [
+    "4B539C"
+   ],
+   "kind": "ff",
+   "bytes": 47,
+   "jp": "{face:010000}パソコンの でんげんが きれてる・・・{n}ここの ひとたちは しごと してんのか！？{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3740",
+   "slots": [
+    "4B53A0"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3756",
+   "slots": [
+    "4B53A4"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3773",
+   "slots": [
+    "4B53A8"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B378C",
+   "slots": [
+    "4B53AC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B37A5",
+   "slots": [
+    "4B53B0"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B37BB",
+   "slots": [
+    "4B53B4"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B37D8",
+   "slots": [
+    "4B53B8"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B37F1",
+   "slots": [
+    "4B53BC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B380A",
+   "slots": [
+    "4B53C0"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3821",
+   "slots": [
+    "4B53C4"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3839",
+   "slots": [
+    "4B53C8"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3851",
+   "slots": [
+    "4B53CC"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3867",
+   "slots": [
+    "4B53D0"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B387D",
+   "slots": [
+    "4B53D4"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B389C",
+   "slots": [
+    "4B53D8"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B38BB",
+   "slots": [
+    "4B53DC"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B38D0",
+   "slots": [
+    "4B53E0"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B38E5",
+   "slots": [
+    "4B53E4"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B38FC",
+   "slots": [
+    "4B53E8"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3913",
+   "slots": [
+    "4B53EC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B392C",
+   "slots": [
+    "4B53F0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3945",
+   "slots": [
+    "4B53F4"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B395E",
+   "slots": [
+    "4B53F8"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}これ なんだ？ よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3974",
+   "slots": [
+    "4B53FC"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B398A",
+   "slots": [
+    "4B5400"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B39A0",
+   "slots": [
+    "4B5404"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}シャンプーとかが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B39B4",
+   "slots": [
+    "4B5408"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B39CA",
+   "slots": [
+    "4B540C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B39E7",
+   "slots": [
+    "4B5410"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3A00",
+   "slots": [
+    "4B5414"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3A19",
+   "slots": [
+    "4B5418"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3A30",
+   "slots": [
+    "4B541C"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3A48",
+   "slots": [
+    "4B5420"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3A60",
+   "slots": [
+    "4B5424"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3A76",
+   "slots": [
+    "4B5428"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3A93",
+   "slots": [
+    "4B542C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3AAC",
+   "slots": [
+    "4B5430"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3AC5",
+   "slots": [
+    "4B5434"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3ADB",
+   "slots": [
+    "4B5438"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3AF1",
+   "slots": [
+    "4B543C"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3B10",
+   "slots": [
+    "4B5440"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3B2F",
+   "slots": [
+    "4B5444"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3B44",
+   "slots": [
+    "4B5448"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3B59",
+   "slots": [
+    "4B544C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3B70",
+   "slots": [
+    "4B5450"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3B87",
+   "slots": [
+    "4B5454"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3BA0",
+   "slots": [
+    "4B5458"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3BB9",
+   "slots": [
+    "4B545C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3BD2",
+   "slots": [
+    "4B5460"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}これ なんだ？ よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3BE8",
+   "slots": [
+    "4B5464"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3BFE",
+   "slots": [
+    "4B5468"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3C14",
+   "slots": [
+    "4B546C"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}シャンプーとかが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3C28",
+   "slots": [
+    "4B5470"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3C3F",
+   "slots": [
+    "4B5474"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3C57",
+   "slots": [
+    "4B5478"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3C6F",
+   "slots": [
+    "4B547C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3C86",
+   "slots": [
+    "4B5480"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3C9E",
+   "slots": [
+    "4B5484"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3CB6",
+   "slots": [
+    "4B5488"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3CCC",
+   "slots": [
+    "4B548C"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3CE2",
+   "slots": [
+    "4B5490"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3D01",
+   "slots": [
+    "4B5494"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3D20",
+   "slots": [
+    "4B5498"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3D35",
+   "slots": [
+    "4B549C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3D4A",
+   "slots": [
+    "4B54A0"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3D61",
+   "slots": [
+    "4B54A4"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3D78",
+   "slots": [
+    "4B54A8"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3D91",
+   "slots": [
+    "4B54AC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3DAA",
+   "slots": [
+    "4B54B0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3DC3",
+   "slots": [
+    "4B54B4"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}これ なんだ？ よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3DD9",
+   "slots": [
+    "4B54B8"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3DEF",
+   "slots": [
+    "4B54BC"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3E05",
+   "slots": [
+    "4B54C0"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}シャンプーとかが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3E19",
+   "slots": [
+    "4B54C4"
+   ],
+   "kind": "ff",
+   "bytes": 62,
+   "jp": "{face:010000}なになに？ 「メダルはっくつきねんこうえん げんていの{n}メダルキーホルダー だいこうひょう はつばいちゅう！ 」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3E57",
+   "slots": [
+    "4B54C8"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}「しょきがたメダル TYPE Aー01」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3E71",
+   "slots": [
+    "4B54CC"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}「しょきがたメダル TYPE Aー02」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3E8B",
+   "slots": [
+    "4B54D0"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}「しょきがたメダル TYPE Aー03」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3EA5",
+   "slots": [
+    "4B54D4"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}「ちゅうきがたメダル TYPE Nー01」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3EC0",
+   "slots": [
+    "4B54D8"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}「ちゅうきがたメダル TYPE Nー02」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3EDB",
+   "slots": [
+    "4B54DC"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}「ちゅうきがたメダル TYPE Nー03」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3EF6",
+   "slots": [
+    "4B54E0"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}「こうきがたメダル TYPE Pー01」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3F10",
+   "slots": [
+    "4B54E4"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}「こうきがたメダル TYPE Pー02」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3F2A",
+   "slots": [
+    "4B54E8"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}「こうきがたメダル TYPE Pー03」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3F44",
+   "slots": [
+    "4B54EC"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}「さいしんがたメダル TYPE KBTー01」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3F61",
+   "slots": [
+    "4B54F0"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}「さいしんがたメダル TYPE KWGー01」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3F7E",
+   "slots": [
+    "4B54F4"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}「さいしんがたメダル TYPE ANGー01」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3F9B",
+   "slots": [
+    "4B54F8"
+   ],
+   "kind": "ff",
+   "bytes": 47,
+   "jp": "{face:010000}「メダルとメダロットの れきし」か・・・{n}おもしろそうだな またこんど みにこよう{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B3FCA",
+   "slots": [
+    "4B54FC"
+   ],
+   "kind": "ff",
+   "bytes": 65,
+   "jp": "{face:010000}「メダルの じゅくれんど」 メダルのじゅくれんどは パーツをつかうほど あがるぞ{n}たとえあたらなくても つかいまくれ！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B400B",
+   "slots": [
+    "4B5500"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{face:010001}ボイス ナビゲーション システムか・・・かっこいいな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B402C",
+   "slots": [
+    "4B5504"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4042",
+   "slots": [
+    "4B5508"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B405F",
+   "slots": [
+    "4B550C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4078",
+   "slots": [
+    "4B5510"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4091",
+   "slots": [
+    "4B5514"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B40A7",
+   "slots": [
+    "4B5518"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B40BD",
+   "slots": [
+    "4B551C"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B40DC",
+   "slots": [
+    "4B5520"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B40FB",
+   "slots": [
+    "4B5524"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4110",
+   "slots": [
+    "4B5528"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4125",
+   "slots": [
+    "4B552C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B413C",
+   "slots": [
+    "4B5530"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4153",
+   "slots": [
+    "4B5534"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B416C",
+   "slots": [
+    "4B5538"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4185",
+   "slots": [
+    "4B553C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B419E",
+   "slots": [
+    "4B5540"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}これ なんだ？ よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B41B4",
+   "slots": [
+    "4B5544"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B41CA",
+   "slots": [
+    "4B5548"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B41E0",
+   "slots": [
+    "4B554C"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}シャンプーとかが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B41F4",
+   "slots": [
+    "4B5550"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B420D",
+   "slots": [
+    "4B5554"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4226",
+   "slots": [
+    "4B5558"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B423F",
+   "slots": [
+    "4B555C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4254",
+   "slots": [
+    "4B5560"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4269",
+   "slots": [
+    "4B5564"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:010000}メダルはっくつきねんこうえん キーホルダーだって{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4287",
+   "slots": [
+    "4B5568"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}サングラスが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B429E",
+   "slots": [
+    "4B556C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B42B5",
+   "slots": [
+    "4B5570"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B42CE",
+   "slots": [
+    "4B5574"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B42E7",
+   "slots": [
+    "4B5578"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4300",
+   "slots": [
+    "4B557C"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}「とくべつ けいかい じっしちゅう！」だって・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B431F",
+   "slots": [
+    "4B5580"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4335",
+   "slots": [
+    "4B5584"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B434B",
+   "slots": [
+    "4B5588"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}きんぎょが たくさん およいでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4361",
+   "slots": [
+    "4B558C"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010005}ごしんぼくって なんか ぶきみなんだよな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B437E",
+   "slots": [
+    "4B5590"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:010005}この こまいぬ・・・いまにも うごきだしそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B439C",
+   "slots": [
+    "4B5594"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:010005}この こまいぬ・・・いまにも うごきだしそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B43BA",
+   "slots": [
+    "4B5598"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010100}ロボロボだんの マスコットにんぎょうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B43D9",
+   "slots": [
+    "4B559C"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010100}ロボロボだんの マスコットにんぎょうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B43F8",
+   "slots": [
+    "4B55A0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010100}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4411",
+   "slots": [
+    "4B55A4"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010100}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B442A",
+   "slots": [
+    "4B55A8"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{face:010101}ロボロボだんの しゅうごうしゃしんだ！ たのしそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B444B",
+   "slots": [
+    "4B55AC"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{face:010101}ロボロボだんの しゅうごうしゃしんだ！ たのしそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B446C",
+   "slots": [
+    "4B55B0"
+   ],
+   "kind": "ff",
+   "bytes": 15,
+   "jp": "{face:010001}みやまくわがただ！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B447B",
+   "slots": [
+    "4B55B4"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}おおくわがただ！ めずらしいな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4491",
+   "slots": [
+    "4B55B8"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "{face:010001}「ナナフシ」ってかいてあるけど どこにいるのか わからね〜！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B44B5",
+   "slots": [
+    "4B55BC"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010001}かぶとむしだ！ りっぱなつのだな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B44CC",
+   "slots": [
+    "4B55C0"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010001}むらさきおおあげはだ！ きれいだな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B44E4",
+   "slots": [
+    "4B55C4"
+   ],
+   "kind": "ff",
+   "bytes": 66,
+   "jp": "{face:010000}このパソコンで せかいじゅうの こんちゅうを しらべられるのか{n}こんど なつやすみの しゅくだいで しらべにこようっと！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4526",
+   "slots": [
+    "4B55C8"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B453D",
+   "slots": [
+    "4B55CC"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4555",
+   "slots": [
+    "4B55D0"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B456D",
+   "slots": [
+    "4B55D4"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4584",
+   "slots": [
+    "4B55D8"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B459C",
+   "slots": [
+    "4B55DC"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B45B4",
+   "slots": [
+    "4B55E0"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B45CA",
+   "slots": [
+    "4B55E4"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B45E0",
+   "slots": [
+    "4B55E8"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B45FF",
+   "slots": [
+    "4B55EC"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B461E",
+   "slots": [
+    "4B55F0"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4633",
+   "slots": [
+    "4B55F4"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4648",
+   "slots": [
+    "4B55F8"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B465F",
+   "slots": [
+    "4B55FC"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4676",
+   "slots": [
+    "4B5600"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B468F",
+   "slots": [
+    "4B5604"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B46A8",
+   "slots": [
+    "4B5608"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B46C1",
+   "slots": [
+    "4B560C"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}これ なんだ？ よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B46D7",
+   "slots": [
+    "4B5610"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B46ED",
+   "slots": [
+    "4B5614"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4703",
+   "slots": [
+    "4B5618"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}シャンプーとかが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4717",
+   "slots": [
+    "4B561C"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:010000}しゅりけんが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4729",
+   "slots": [
+    "4B5620"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{face:010000}まきびしが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B473A",
+   "slots": [
+    "4B5624"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "{face:010000}くないが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B474A",
+   "slots": [
+    "4B5628"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:010000}けむりだまが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B475C",
+   "slots": [
+    "4B562C"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "{face:010000}しゅりけんが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B476E",
+   "slots": [
+    "4B5630"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{face:010000}まきびしが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B477F",
+   "slots": [
+    "4B5634"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{face:010000}みずぐもが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4790",
+   "slots": [
+    "4B5638"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B47A8",
+   "slots": [
+    "4B563C"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B47C0",
+   "slots": [
+    "4B5640"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}おこめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B47D5",
+   "slots": [
+    "4B5644"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}まんじゅうが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B47EC",
+   "slots": [
+    "4B5648"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4801",
+   "slots": [
+    "4B564C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4816",
+   "slots": [
+    "4B5650"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}つくだにが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B482C",
+   "slots": [
+    "4B5654"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}だがしが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4841",
+   "slots": [
+    "4B5658"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{face:010000}ふるい せきひだ・・・ しかし でっかいメダルだな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4861",
+   "slots": [
+    "4B565C"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{face:010000}ふるい せきひだ・・・ しかし でっかいメダルだな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4881",
+   "slots": [
+    "4B5660"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{face:010000}ふるい せきひだ・・・ クワガタメダルが ほりこまれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B48A3",
+   "slots": [
+    "4B5664"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{face:010000}ふるい せきひだ・・・ クワガタメダルが ほりこまれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B48C5",
+   "slots": [
+    "4B5668"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{face:010000}ふるい せきひだ・・・ カブトメダルが ほりこまれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B48E6",
+   "slots": [
+    "4B566C"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{face:010000}ふるい せきひだ・・・ クワガタメダルが ほりこまれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4908",
+   "slots": [
+    "4B5670"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{face:010000}ふるい せきひだ・・・ クワガタメダルが ほりこまれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B492A",
+   "slots": [
+    "4B5674"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B493F",
+   "slots": [
+    "4B5678"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}みたこともない パーツが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4957",
+   "slots": [
+    "4B567C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ゆにゅう やさいが たくさんつんである{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4970",
+   "slots": [
+    "4B5680"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ゆにゅう やさいが たくさんつんである{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4989",
+   "slots": [
+    "4B5684"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}メダロットの じゅんせいたいが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B49A4",
+   "slots": [
+    "4B5688"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}メダロットの じゅんせいたいが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B49BF",
+   "slots": [
+    "4B568C"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}メダロットの じゅんせいたいが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B49DA",
+   "slots": [
+    "4B5690"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}メダロットの じゅんせいたいが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B49F5",
+   "slots": [
+    "4B5694"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4A0B",
+   "slots": [
+    "4B5698"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4A28",
+   "slots": [
+    "4B569C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4A41",
+   "slots": [
+    "4B56A0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4A5A",
+   "slots": [
+    "4B56A4"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4A71",
+   "slots": [
+    "4B56A8"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4A89",
+   "slots": [
+    "4B56AC"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4AA1",
+   "slots": [
+    "4B56B0"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4AB8",
+   "slots": [
+    "4B56B4"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4AD0",
+   "slots": [
+    "4B56B8"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4AE8",
+   "slots": [
+    "4B56BC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4B01",
+   "slots": [
+    "4B56C0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4B1A",
+   "slots": [
+    "4B56C4"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4B33",
+   "slots": [
+    "4B56C8"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4B48",
+   "slots": [
+    "4B56CC"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4B5D",
+   "slots": [
+    "4B56D0"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}サザンコロシアム キーホルダーだって{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4B75",
+   "slots": [
+    "4B56D4"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}サングラスが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4B8C",
+   "slots": [
+    "4B56D8"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4BA3",
+   "slots": [
+    "4B56DC"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4BBC",
+   "slots": [
+    "4B56E0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4BD5",
+   "slots": [
+    "4B56E4"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4BEE",
+   "slots": [
+    "4B56E8"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}「とくべつ けいかい じっしちゅう！」だって・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4C0D",
+   "slots": [
+    "4B56EC"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4C23",
+   "slots": [
+    "4B56F0"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4C39",
+   "slots": [
+    "4B56F4"
+   ],
+   "kind": "ff",
+   "bytes": 57,
+   "jp": "{face:010000}いきさき 「メダルはっくつきねんこうえん」{n}「あしもとに おきをつけて のりおりしてください」か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4C72",
+   "slots": [
+    "4B56F8"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{face:010001}おせんべいが はいっている・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4C8E",
+   "slots": [
+    "4B56FC"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}おばあちゃんの さいほうどうぐだ{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4CA4",
+   "slots": [
+    "4B5700"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{face:010006}おじいちゃんの いればだ！ みなかったことにしよっと{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4CC4",
+   "slots": [
+    "4B5704"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}じゅずが たくさん はいってる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4CD9",
+   "slots": [
+    "4B5708"
+   ],
+   "kind": "ff",
+   "bytes": 37,
+   "jp": "{face:010000}すいしょうだまが はいってる これで たましいを よぶのかな？{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4CFE",
+   "slots": [
+    "4B570C"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{face:010000}なんだかわからねーけど おふだが たくさん はいってる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4D1F",
+   "slots": [
+    "4B5710"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{face:010000}ほんが はいってる・・・「ザ！ いたこ しゅぎょう」{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4D3F",
+   "slots": [
+    "4B5714"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:010004}せいざの せつめいが ながれてる・・・きれいだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4D5D",
+   "slots": [
+    "4B5718"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}「ほしと わくせい」か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4D71",
+   "slots": [
+    "4B571C"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}「ロマンチックな よるの すすめ」か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4D8C",
+   "slots": [
+    "4B5720"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{face:010000}「メダロットは うちゅうからの おくりもの」か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4DAC",
+   "slots": [
+    "4B5724"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}「メダルと ほしの かんけい」か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4DC5",
+   "slots": [
+    "4B5728"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{face:010000}「こうかな てんたいぼうえんきょう ずかん」か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4DE5",
+   "slots": [
+    "4B572C"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:010001}「はるかな わくせい」だって！ おもしろそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4E03",
+   "slots": [
+    "4B5730"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010000}「ほしの あかるさと きょりの かんけい」か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4E22",
+   "slots": [
+    "4B5734"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{face:010000}「プラネタリウムを ごじたくで！」か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4E3D",
+   "slots": [
+    "4B5738"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:010000}「コスモドーム おみやげじてん」か・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4E57",
+   "slots": [
+    "4B573C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010001}すごく とおくの ほしが みえる！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4E6E",
+   "slots": [
+    "4B5740"
+   ],
+   "kind": "ff",
+   "bytes": 28,
+   "jp": "{face:010000}ぼうえんきょうの がぞうが うつしだされてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4E8A",
+   "slots": [
+    "4B5744"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}パソコンの でんげんが きれてる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4EA0",
+   "slots": [
+    "4B5748"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "{face:010000}ひとんちの テレビ かってに みちゃ だめだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4EBD",
+   "slots": [
+    "4B574C"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4ED6",
+   "slots": [
+    "4B5750"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}とくに おもしろいものは ないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4EEF",
+   "slots": [
+    "4B5754"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010004}きょうも ばっちり きまってるな〜{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4F06",
+   "slots": [
+    "4B5758"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4F1E",
+   "slots": [
+    "4B575C"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}とくに なにも はいってないな・・・{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4F36",
+   "slots": [
+    "4B5760"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4F4C",
+   "slots": [
+    "4B5764"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}かんづめが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4F62",
+   "slots": [
+    "4B5768"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4F81",
+   "slots": [
+    "4B576C"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010001}たべものが たくさん ならんでる・・・うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4FA0",
+   "slots": [
+    "4B5770"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4FB5",
+   "slots": [
+    "4B5774"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:010000}パーツが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4FCA",
+   "slots": [
+    "4B5778"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4FE1",
+   "slots": [
+    "4B577C"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:010000}ぶんぼうぐが たくさん ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B4FF8",
+   "slots": [
+    "4B5780"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B5011",
+   "slots": [
+    "4B5784"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B502A",
+   "slots": [
+    "4B5788"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{face:010000}ジュースや ぎゅうにゅうが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B5043",
+   "slots": [
+    "4B578C"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010000}これ なんだ？ よくわかんねーな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B5059",
+   "slots": [
+    "4B5790"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B506F",
+   "slots": [
+    "4B5794"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "{face:010001}アイスクリームだ！ うまそうだな{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B5085",
+   "slots": [
+    "4B5798"
+   ],
+   "kind": "ff",
+   "bytes": 20,
+   "jp": "{face:010000}シャンプーとかが ならんでる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B5099",
+   "slots": [
+    "4B579C"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}たかそうな びんに なんかはいってる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4B50B1",
+   "slots": [
+    "4B57A0"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:010000}たかそうな びんに なんかはいってる{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

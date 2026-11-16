@@ -1,0 +1,66 @@
+{
+ "table": "46706C",
+ "about": "",
+ "strings": [
+  {
+   "id": "467044",
+   "slots": [
+    "46706C"
+   ],
+   "kind": "ff",
+   "bytes": 8,
+   "jp": "てきぜんたい{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46704C",
+   "slots": [
+    "467070"
+   ],
+   "kind": "ff",
+   "bytes": 7,
+   "jp": "てき1たい{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "467053",
+   "slots": [
+    "467074"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "みかたぜんたい{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46705C",
+   "slots": [
+    "467078"
+   ],
+   "kind": "ff",
+   "bytes": 5,
+   "jp": "じぶん{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "467061",
+   "slots": [
+    "46707C"
+   ],
+   "kind": "ff",
+   "bytes": 8,
+   "jp": "こうかはんい{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

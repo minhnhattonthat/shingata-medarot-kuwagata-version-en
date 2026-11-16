@@ -1,0 +1,282 @@
+{
+ "table": "464BDC",
+ "about": "system messages (save data)",
+ "strings": [
+  {
+   "id": "4649B8",
+   "slots": [
+    "464BDC"
+   ],
+   "kind": "ff",
+   "bytes": 13,
+   "jp": "{face:010001}A{page}{face:000101}A{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4649C5",
+   "slots": [
+    "464BE0"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:010008}YES{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4649CE",
+   "slots": [
+    "464BE4"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "{face:000108}YES{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4649D7",
+   "slots": [
+    "464BE8"
+   ],
+   "kind": "ff",
+   "bytes": 8,
+   "jp": "{face:000108}NO{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4649DF",
+   "slots": [
+    "464BEC"
+   ],
+   "kind": "ff",
+   "bytes": 43,
+   "jp": "{fa:FF}じゅうじボタン さゆうで メダルへんこう{n}Lボタン Rボタンで がめんへんこう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464A0A",
+   "slots": [
+    "464BF0"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "{fa:FF}じゅうじボタン じょうげで カーソルいどう{n}Aボタンで せつめい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464A2E",
+   "slots": [
+    "464BF4"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "パーツや メダルの ぶんるい{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464A3E",
+   "slots": [
+    "464BF8"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "メダルが ねらう メダロットの パーツじゅくれんど{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464A59",
+   "slots": [
+    "464BFC"
+   ],
+   "kind": "ff",
+   "bytes": 44,
+   "jp": "パーツと メダルの ぞくせいを あわせると このすうちぶん せいこうちが アップする{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464A85",
+   "slots": [
+    "464C00"
+   ],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "こうどうの しゅるい{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464A91",
+   "slots": [
+    "464C04"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "しょうひする メダフォースりょう{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464AA3",
+   "slots": [
+    "464C08"
+   ],
+   "kind": "ff",
+   "bytes": 7,
+   "jp": "データなし{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464AAA",
+   "slots": [
+    "464C0C"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{fa:FF}Aボタンで ローテーションせってい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464ABF",
+   "slots": [
+    "464C10"
+   ],
+   "kind": "ff",
+   "bytes": 63,
+   "jp": "オートロボトルのときの メダルのこうどうせってい{page}せっていした こうどうが こうかてきでないばあいは べつのこうどうをとる{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464AFE",
+   "slots": [
+    "464C14"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "こうどうを くりかえすポイントの せってい{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464B15",
+   "slots": [
+    "464C18"
+   ],
+   "kind": "ff",
+   "bytes": 44,
+   "jp": "{fa:FF}じゅうじボタン さゆうで こうどうを くりかえすポイントを せっていしてください{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464B41",
+   "slots": [
+    "464C1C"
+   ],
+   "kind": "ff",
+   "bytes": 45,
+   "jp": "{fa:FF}じゅうじボタン さゆうで ページきりかえ{n}Lボタン Rボタンで パーツぶいへんこう{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464B6E",
+   "slots": [
+    "464C20"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "きんせつパーツ{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464B77",
+   "slots": [
+    "464C24"
+   ],
+   "kind": "ff",
+   "bytes": 9,
+   "jp": "えんかくパーツ{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464B80",
+   "slots": [
+    "464C28"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "きゃくぶタイプの しきべつマーク{end:02}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464B92",
+   "slots": [
+    "464C2C"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "ロボロボメダルを つかいますか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464BA4",
+   "slots": [
+    "464C30"
+   ],
+   "kind": "ff",
+   "bytes": 14,
+   "jp": "ロボトルを かいひした！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "464BB2",
+   "slots": [
+    "464C34"
+   ],
+   "kind": "ff",
+   "bytes": 40,
+   "jp": "くまれたメダロットが 1たいもありません！{n}メダロットを くみたててください{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

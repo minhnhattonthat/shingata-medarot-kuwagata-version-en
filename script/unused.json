@@ -1,0 +1,96 @@
+{
+ "table": null,
+ "about": "strings no pointer reaches (not shown in game; not built)",
+ "strings": [
+  {
+   "id": "4C7566",
+   "slots": [],
+   "kind": "ff",
+   "bytes": 7,
+   "jp": "エラー！！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": "エラー！！ x6, after table 0x4F4B14's strings"
+  },
+  {
+   "id": "4C756D",
+   "slots": [],
+   "kind": "ff",
+   "bytes": 7,
+   "jp": "エラー！！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4C7574",
+   "slots": [],
+   "kind": "ff",
+   "bytes": 7,
+   "jp": "エラー！！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4C757B",
+   "slots": [],
+   "kind": "ff",
+   "bytes": 7,
+   "jp": "エラー！！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4C7582",
+   "slots": [],
+   "kind": "ff",
+   "bytes": 7,
+   "jp": "エラー！！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "4C7589",
+   "slots": [],
+   "kind": "ff",
+   "bytes": 7,
+   "jp": "エラー！！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "505E26",
+   "slots": [],
+   "kind": "ff",
+   "bytes": 12,
+   "jp": "としの せいかしらね{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": "dialogue line between two used lines"
+  },
+  {
+   "id": "50740E",
+   "slots": [],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "なんかい やられれば きがすむんだ{face:000802}うるせぇー いくぞ！{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": "dialogue line between two used lines"
+  },
+  {
+   "id": "5097A0",
+   "slots": [],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:010002}むかつく カラスだなぁ{face:002000}あっ 100円みっけ{end:00}",
+   "en": "",
+   "status": "new",
+   "notes": "head of a line: the table points at 0x5097AF, its second half"
+  }
+ ]
+}

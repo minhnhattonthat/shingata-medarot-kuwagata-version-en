@@ -1,0 +1,54 @@
+{
+ "table": "470B08",
+ "about": "",
+ "strings": [
+  {
+   "id": "470AF4",
+   "slots": [
+    "470B08"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "あたま{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470AF8",
+   "slots": [
+    "470B0C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "みぎうで{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470AFD",
+   "slots": [
+    "470B10"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ひだりうで{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "470B03",
+   "slots": [
+    "470B14"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "きゃくぶ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

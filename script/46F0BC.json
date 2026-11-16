@@ -1,0 +1,1542 @@
+{
+ "table": "46F0BC",
+ "about": "battle status messages",
+ "strings": [
+  {
+   "id": "46EDB8",
+   "slots": [
+    "46F0BC"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "こわれている{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDBF",
+   "slots": [
+    "46F0C0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "つかえない{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDC5",
+   "slots": [
+    "46F0C4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "かいすうゼロ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDCC",
+   "slots": [
+    "46F0C8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "MFため{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDD1",
+   "slots": [
+    "46F0CC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "MFぶそく{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDD7",
+   "slots": [
+    "46F0D0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "おぼえていない{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDDF",
+   "slots": [
+    "46F0D4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ06{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDE5",
+   "slots": [
+    "46F0D8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ07{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDEB",
+   "slots": [
+    "46F0DC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ08{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDF1",
+   "slots": [
+    "46F0E0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ09{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDF7",
+   "slots": [
+    "46F0E4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ0A{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EDFD",
+   "slots": [
+    "46F0E8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ0B{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE03",
+   "slots": [
+    "46F0EC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ0C{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE09",
+   "slots": [
+    "46F0F0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ0D{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE0F",
+   "slots": [
+    "46F0F4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ0E{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE15",
+   "slots": [
+    "46F0F8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ0F{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE1B",
+   "slots": [
+    "46F0FC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ10{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE21",
+   "slots": [
+    "46F100"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ11{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE27",
+   "slots": [
+    "46F104"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ12{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE2D",
+   "slots": [
+    "46F108"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ13{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE33",
+   "slots": [
+    "46F10C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ14{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE39",
+   "slots": [
+    "46F110"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ15{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE3F",
+   "slots": [
+    "46F114"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ16{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE45",
+   "slots": [
+    "46F118"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ17{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE4B",
+   "slots": [
+    "46F11C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ18{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE51",
+   "slots": [
+    "46F120"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ19{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE57",
+   "slots": [
+    "46F124"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ1A{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE5D",
+   "slots": [
+    "46F128"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ1B{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE63",
+   "slots": [
+    "46F12C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ1C{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE69",
+   "slots": [
+    "46F130"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ1D{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE6F",
+   "slots": [
+    "46F134"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ1E{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE75",
+   "slots": [
+    "46F138"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ1F{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE7B",
+   "slots": [
+    "46F13C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ20{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE81",
+   "slots": [
+    "46F140"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ21{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE87",
+   "slots": [
+    "46F144"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ22{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE8D",
+   "slots": [
+    "46F148"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ23{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE93",
+   "slots": [
+    "46F14C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ24{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE99",
+   "slots": [
+    "46F150"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ25{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EE9F",
+   "slots": [
+    "46F154"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ26{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEA5",
+   "slots": [
+    "46F158"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ27{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEAB",
+   "slots": [
+    "46F15C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ28{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEB1",
+   "slots": [
+    "46F160"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ29{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEB7",
+   "slots": [
+    "46F164"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ2A{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEBD",
+   "slots": [
+    "46F168"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ2B{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEC3",
+   "slots": [
+    "46F16C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ2C{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEC9",
+   "slots": [
+    "46F170"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ2D{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EECF",
+   "slots": [
+    "46F174"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ2E{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EED5",
+   "slots": [
+    "46F178"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ2F{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEDB",
+   "slots": [
+    "46F17C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ30{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEE1",
+   "slots": [
+    "46F180"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ31{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEE7",
+   "slots": [
+    "46F184"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ32{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEED",
+   "slots": [
+    "46F188"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ33{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEF3",
+   "slots": [
+    "46F18C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ34{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEF9",
+   "slots": [
+    "46F190"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ35{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EEFF",
+   "slots": [
+    "46F194"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ36{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF05",
+   "slots": [
+    "46F198"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ37{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF0B",
+   "slots": [
+    "46F19C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ38{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF11",
+   "slots": [
+    "46F1A0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ39{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF17",
+   "slots": [
+    "46F1A4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ3A{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF1D",
+   "slots": [
+    "46F1A8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ3B{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF23",
+   "slots": [
+    "46F1AC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ3C{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF29",
+   "slots": [
+    "46F1B0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ3D{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF2F",
+   "slots": [
+    "46F1B4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ3E{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF35",
+   "slots": [
+    "46F1B8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ3F{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF3B",
+   "slots": [
+    "46F1BC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ40{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF41",
+   "slots": [
+    "46F1C0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ41{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF47",
+   "slots": [
+    "46F1C4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ42{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF4D",
+   "slots": [
+    "46F1C8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ43{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF53",
+   "slots": [
+    "46F1CC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ44{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF59",
+   "slots": [
+    "46F1D0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ45{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF5F",
+   "slots": [
+    "46F1D4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ46{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF65",
+   "slots": [
+    "46F1D8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ47{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF6B",
+   "slots": [
+    "46F1DC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ48{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF71",
+   "slots": [
+    "46F1E0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ49{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF77",
+   "slots": [
+    "46F1E4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ4A{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF7D",
+   "slots": [
+    "46F1E8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ4B{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF83",
+   "slots": [
+    "46F1EC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ4C{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF89",
+   "slots": [
+    "46F1F0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ4D{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF8F",
+   "slots": [
+    "46F1F4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ4E{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF95",
+   "slots": [
+    "46F1F8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ4F{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EF9B",
+   "slots": [
+    "46F1FC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ50{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFA1",
+   "slots": [
+    "46F200"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ51{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFA7",
+   "slots": [
+    "46F204"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ52{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFAD",
+   "slots": [
+    "46F208"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ53{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFB3",
+   "slots": [
+    "46F20C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ54{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFB9",
+   "slots": [
+    "46F210"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ55{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFBF",
+   "slots": [
+    "46F214"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ56{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFC5",
+   "slots": [
+    "46F218"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ57{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFCB",
+   "slots": [
+    "46F21C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ58{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFD1",
+   "slots": [
+    "46F220"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ59{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFD7",
+   "slots": [
+    "46F224"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ5A{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFDD",
+   "slots": [
+    "46F228"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ5B{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFE3",
+   "slots": [
+    "46F22C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ5C{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFE9",
+   "slots": [
+    "46F230"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ5D{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFEF",
+   "slots": [
+    "46F234"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ5E{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFF5",
+   "slots": [
+    "46F238"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ5F{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46EFFB",
+   "slots": [
+    "46F23C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ60{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F001",
+   "slots": [
+    "46F240"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ61{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F007",
+   "slots": [
+    "46F244"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ62{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F00D",
+   "slots": [
+    "46F248"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ63{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F013",
+   "slots": [
+    "46F24C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ64{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F019",
+   "slots": [
+    "46F250"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ65{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F01F",
+   "slots": [
+    "46F254"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ66{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F025",
+   "slots": [
+    "46F258"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ67{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F02B",
+   "slots": [
+    "46F25C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ68{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F031",
+   "slots": [
+    "46F260"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ69{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F037",
+   "slots": [
+    "46F264"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ6A{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F03D",
+   "slots": [
+    "46F268"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ6B{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F043",
+   "slots": [
+    "46F26C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ6C{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F049",
+   "slots": [
+    "46F270"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ6D{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F04F",
+   "slots": [
+    "46F274"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ6E{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F055",
+   "slots": [
+    "46F278"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ6F{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F05B",
+   "slots": [
+    "46F27C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ70{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F061",
+   "slots": [
+    "46F280"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ71{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F067",
+   "slots": [
+    "46F284"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ72{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F06D",
+   "slots": [
+    "46F288"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ73{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F073",
+   "slots": [
+    "46F28C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ74{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F079",
+   "slots": [
+    "46F290"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ75{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F07F",
+   "slots": [
+    "46F294"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ76{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F085",
+   "slots": [
+    "46F298"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ77{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F08B",
+   "slots": [
+    "46F29C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ78{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F091",
+   "slots": [
+    "46F2A0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ79{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F097",
+   "slots": [
+    "46F2A4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ7A{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F09D",
+   "slots": [
+    "46F2A8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ7B{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F0A3",
+   "slots": [
+    "46F2AC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ7C{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F0A9",
+   "slots": [
+    "46F2B0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ7D{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F0AF",
+   "slots": [
+    "46F2B4"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ7E{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46F0B5",
+   "slots": [
+    "46F2B8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "データ7F{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

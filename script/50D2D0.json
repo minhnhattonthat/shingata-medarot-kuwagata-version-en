@@ -1,0 +1,238 @@
+{
+ "table": "50D2D0",
+ "about": "",
+ "strings": [
+  {
+   "id": "50D0F8",
+   "slots": [
+    "0660AC",
+    "50D2D0"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "{face:005700}いらっしゃいませ！ いかがなさいますか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D112",
+   "slots": [
+    "066350",
+    "50D2D4"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:005700}パーツの ぶいを えらんでください{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D129",
+   "slots": [
+    "06634C",
+    "50D2D8"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:005700}パーツの ぶいを えらんでください{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D140",
+   "slots": [
+    "50D2DC"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "セーブデータを すべて けします{n}よろしいですか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D15B",
+   "slots": [
+    "50D2E0"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "セーブデータを けしています！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D16C",
+   "slots": [
+    "50D2E4"
+   ],
+   "kind": "ff",
+   "bytes": 29,
+   "jp": "もういちど はじめから ゲームを プレイしてくださいね{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D189",
+   "slots": [
+    "50D2E8"
+   ],
+   "kind": "ff",
+   "bytes": 26,
+   "jp": "セーブデータの しょうきょに しっぱいしました！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D1A3",
+   "slots": [
+    "50D2EC"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "いじょうで よろしいでしょうか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D1B5",
+   "slots": [
+    "50D2F0"
+   ],
+   "kind": "ff",
+   "bytes": 13,
+   "jp": "いまは つかえません！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D1C2",
+   "slots": [
+    "06B118",
+    "50D2F4"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "ゲームデータを セーブしますか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D1D4",
+   "slots": [
+    "50D2F8"
+   ],
+   "kind": "ff",
+   "bytes": 42,
+   "jp": "ただいま セーブちゅうです！{n}セーブちゅうは でんげんを きらないでくださいね！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D1FE",
+   "slots": [
+    "50D2FC"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "ゲームデータを セーブしました！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D210",
+   "slots": [
+    "50D300"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "ゲームデータの セーブに しっぱいしました！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D228",
+   "slots": [
+    "50D304"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "{face:005700}なまえを へんこうしたい メダルは ありますか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D246",
+   "slots": [
+    "50D308"
+   ],
+   "kind": "ff",
+   "bytes": 33,
+   "jp": "{face:015700}へんこうには 100円 かかりますが よろしいですか？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D267",
+   "slots": [
+    "50D30C"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "{face:005700}もうしわけありませんが おかねが たりません・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D286",
+   "slots": [
+    "50D310"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "まちがって けしてしまわないように{n}ちゅういしてくださいね{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D2A5",
+   "slots": [
+    "50D314"
+   ],
+   "kind": "ff",
+   "bytes": 22,
+   "jp": "あっ・・・！ 「{var:01}」メダルが・・・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50D2BB",
+   "slots": [
+    "50D318"
+   ],
+   "kind": "ff",
+   "bytes": 18,
+   "jp": "あらたな すがたに へんかした！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

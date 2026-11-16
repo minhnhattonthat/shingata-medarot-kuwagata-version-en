@@ -1,0 +1,294 @@
+{
+ "table": "50F184",
+ "about": "",
+ "strings": [
+  {
+   "id": "50EF78",
+   "slots": [
+    "50F184"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "{fa:FF}メダロットってなに？{n}ひよこうりのおじさんが おしえてくれたぞ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EF9B",
+   "slots": [
+    "50F188"
+   ],
+   "kind": "ff",
+   "bytes": 43,
+   "jp": "{fa:FF}パーツパラメーターにある 「せいこう」について おとこのこが おしえてくれたぞ{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EFC6",
+   "slots": [
+    "50F18C"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "{fa:FF}ロボロボメダルは ロボトルを かいひするときに やくにたつらしい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50EFEA",
+   "slots": [
+    "50F190"
+   ],
+   "kind": "ff",
+   "bytes": 36,
+   "jp": "{fa:FF}メダルとパーツの 「あいしょう」が いっちすると パワーアップ？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F00E",
+   "slots": [
+    "50F194"
+   ],
+   "kind": "ff",
+   "bytes": 37,
+   "jp": "{fa:FF}きゃくぶパーツの 「きんせつ」と 「えんかく」は どういう いみ？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F033",
+   "slots": [
+    "50F198"
+   ],
+   "kind": "ff",
+   "bytes": 37,
+   "jp": "{fa:FF}「じゅくれんど」を あげると ロボトルでは かなり ゆうり らしい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F058",
+   "slots": [
+    "50F19C"
+   ],
+   "kind": "ff",
+   "bytes": 44,
+   "jp": "{fa:FF}「ちけい」によって きゃくぶパーツをかえておくと ロボトルが ゆうりになるらしい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F084",
+   "slots": [
+    "50F1A0"
+   ],
+   "kind": "ff",
+   "bytes": 43,
+   "jp": "{fa:FF}「じゅうてん」と「ほうねつ」は パーツをつかう スピードに かんけいするらしい{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F0AF",
+   "slots": [
+    "50F1A4"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "{fa:FF}きゃくぶパーツの 「すいしん」と「きどう」は どういう いみ？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F0D2",
+   "slots": [
+    "50F1A8"
+   ],
+   "kind": "ff",
+   "bytes": 39,
+   "jp": "{fa:FF}ロボトルで すさまじい いりょくを はっきする 「メダフォース」とは？{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F0F9",
+   "slots": [
+    "50F1AC"
+   ],
+   "kind": "ff",
+   "bytes": 42,
+   "jp": "{fa:FF}メダルの「ローテーション」をせっていしておくと じどうでロボトルが できる！{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F123",
+   "slots": [
+    "50F1B0"
+   ],
+   "kind": "ff",
+   "bytes": 25,
+   "jp": "{fa:FF}タイトルがめんで あるそうさをすると・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F13C",
+   "slots": [
+    "50F1B4"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F140",
+   "slots": [
+    "50F1B8"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F144",
+   "slots": [
+    "50F1BC"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F148",
+   "slots": [
+    "50F1C0"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F14C",
+   "slots": [
+    "50F1C4"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F150",
+   "slots": [
+    "50F1C8"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F154",
+   "slots": [
+    "50F1CC"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F158",
+   "slots": [
+    "50F1D0"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F15C",
+   "slots": [
+    "50F1D4"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F160",
+   "slots": [
+    "50F1D8"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F164",
+   "slots": [
+    "50F1DC"
+   ],
+   "kind": "ff",
+   "bytes": 4,
+   "jp": "{fa:FF}{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "50F168",
+   "slots": [
+    "50F1E0"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "{fa:FF}まだ じょうほう を てに いれていない・・・{end:04}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}

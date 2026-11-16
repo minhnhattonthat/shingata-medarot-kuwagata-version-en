@@ -1,0 +1,102 @@
+{
+ "table": "466374",
+ "about": "actions",
+ "strings": [
+  {
+   "id": "46634C",
+   "slots": [
+    "466374"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "なぐる{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466350",
+   "slots": [
+    "466378"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "がむしゃら{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466356",
+   "slots": [
+    "46637C"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "うつ{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466359",
+   "slots": [
+    "466380"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ねらいうち{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46635F",
+   "slots": [
+    "466384"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "まもる{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466363",
+   "slots": [
+    "466388"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "なおす{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "466367",
+   "slots": [
+    "46638C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "おうえん{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  },
+  {
+   "id": "46636C",
+   "slots": [
+    "466390"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ぼうがい{item}",
+   "en": "",
+   "status": "new",
+   "notes": ""
+  }
+ ]
+}
