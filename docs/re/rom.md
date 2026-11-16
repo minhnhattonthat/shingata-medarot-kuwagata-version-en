@@ -20,10 +20,14 @@
 - **BIOS LZ77 0x10**: `tools/lz77.py` (decompress, greedy VRAM-safe compress, `scan`). Roundtrip of
   decompress -> compress -> decompress is exact on sampled blocks (**verified** for 0x0ACBD8, 0x60ECC0, 0x60ED58; make
   it a test in phase 3). The BIOS LZ77 routine (PC 0x0B8E/0x0C18) reads 0x511D14-0x551718 during the intro.
-- **"Le" format** (game's own): `4C 65` + u32 LE decompressed size, then a bitstream. Decoder in ROM at
-  0x08000B42-0x08000DDC (reads per byte; 0x080009E2-0x08000B04 handle the header). Not reversed yet: needed for the
-  graphics static sweep and any redraw (phase 1 static sweep / phase 5). Example: 0x5118CE decompresses to a tilemap
-  (`00 F0 01 F0 02 F0 ...`).
+- **"Le" format** (game's own; **verified**): `tools/le.py`. Entry 0x080009DC checks `L` `e`, then calls 0x08000A2C
+  (byte writes) or 0x08000B34 (destination in VRAM, halfword writes), same format. Header: "Le" + 24-bit LE size +
+  1 unused byte; data at +6. Each flag byte = four 2-bit commands, low bits first: 0 = u16 w, copy (w>>12)+3 bytes
+  from dst-((w&0xFFF)+5); 1 = u8 b, copy (b>>2)+2 bytes from dst-((b&3)+1); 2 = one literal; 3 = three literals.
+  Verified: all 1564 pointed-to Le blocks decode to their header size, 1460 of them end exactly where the next block
+  starts (4-byte aligned), and decompress(compress(x)) == x on every 25th block (`tests/test_codecs.py` keeps 3).
+  `le.compress` is greedy, not the game's packer: the identity build must keep the original blocks.
+  Example: 0x5118CC decompresses to a tilemap (`00 F0 01 F0 02 F0 ...`).
 
 ## Free space candidates (unverified)
 - 0x7C8504-0x7FFFFF is all 0x00 (~226 KB). A candidate only: trap-fill and tour before use.

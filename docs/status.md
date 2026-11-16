@@ -9,11 +9,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Recon: prior work (`docs/re/prior-work.md`), header/map/compression (`docs/re/rom.md`), text encoding verified
     in-game for every code 01-CF, 7311 pointed strings in 0x464000-0x511000 (`docs/re/text.md`, `tbl/jp.tbl`),
     graphics-text tour of boot/title/options/name entry (`docs/re/graphics.md`).
+  - "Le" codec reversed and verified (`tools/le.py`, all 1564 blocks decode; `tests/test_codecs.py`).
+  - Static sweep tool `tools/gfx_sweep.py` renders all blocks with an index (167 sheets in `work/sweep/gba4`).
 - **Next (to finish phase 1):**
-  1. Reverse the "Le" decompressor (ROM 0x08000B42-0x08000DDC, header 0x080009E2-0x08000B04) into `tools/le.py`,
-     roundtrip-test it.
-  2. Static graphics sweep: render all LZ77 + Le blocks (gba4/gba8, linear too) into numbered sheets with an offset
-     index; list every Japanese cell in `docs/re/graphics.md` (review sheets in a fresh read-only pass).
+  1. Fix the sweep's sheet widths (full-screen images are 30 tiles wide; see `docs/re/graphics.md`), add gba8/linear.
+  2. Review the sweep sheets in a fresh read-only pass (`codex exec`, chunks of ~10 sheets) and list every Japanese
+     cell in `docs/re/graphics.md`.
   3. Locate robot/part/medal name storage (not in the dialogue encoding outside the script; see text.md §Not found).
   4. Pin the control-code argument counts (FA, FB, FE, D0-D3) against the draw routine.
 - **Open bugs:** none.

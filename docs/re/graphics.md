@@ -19,9 +19,13 @@ Every tile-drawn Japanese element seen so far. Source guesses come from the ROM 
 | G11 | Intro | dialogue box | BG | font-drawn: text work | work/qa/run4 |
 
 ## Still to survey (phase 1 static sweep + tour from the phase 2 debug tool)
-- Static sweep: render every LZ77 block (`tools/lz77.py scan`, 1457 blocks) and every "Le" block (1564, needs the
-  decoder: docs/re/rom.md) in gba4 and gba8, linear too, into numbered sheets with an offset index, and list every
-  Japanese cell. Not done yet.
+- Static sweep: `python -X utf8 tools/gfx_sweep.py work/sweep/gba4` decompresses all 3021 pointed-to blocks (1457
+  LZ77 + 1564 Le), renders 2640 on 167 sheets with `index.tsv` (sheet, row -> offset) and lists the 381 skipped with
+  reasons in `skipped.tsv` (270 tilemap-like, 89 tiny, 22 palettes). **Problem found:** many blocks are full-screen or
+  portrait images 30 tiles wide (e.g. 0x5E1DE8, 36864 B), so a fixed 32-column sheet scrambles them. Before review:
+  give each block its width (from its tilemap, or try 30/32/16 columns and keep the one with the least seam), and add a
+  gba8 and linear pass. Then review the sheets in a fresh read-only pass (codex exec is installed: codex-cli 0.167.1)
+  and list every Japanese cell here. Not reviewed yet.
 - Mid-game screens the tour can't see yet: field menu (Start/Select did not open one in the 2F bedroom state), parts
   and Medabot screens, medal screen, robattle HUD and command menus, shop, save screen, game over, ending, credits,
   chapter/area banners, minigames. Reach them with the debug tool (phase 2).
