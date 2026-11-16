@@ -1,0 +1,10 @@
+# new game: title -> はじめから
+600 -
+4 start
+200 -
+4 start
+300 -
+6 up
+40 -
+6 a
+300 -

@@ -12,4 +12,10 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| prior-work.md | earlier patches, official English names, related games | done |
+| rom.md | header, map, save type, LZ77 and "Le" compression, free space | header verified; map partly guessed; Le not reversed |
+| text.md | encoding, control codes, pointer tables, text ranges | encoding verified; control-code arg counts guessed |
+| graphics.md | graphics-text survey | tour of boot/title/name entry done; static sweep pending |
+
+Recon helpers: `tools/lua/gba_romreads.lua` (per-PC ROM read ranges in a frame window), `tools/probe_codes.py`
+(probe ROMs that show code runs in the intro box), `tools/lz77.py`.
