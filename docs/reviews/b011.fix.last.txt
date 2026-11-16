@@ -1,0 +1,3 @@
+FIXED: 46F931 4B7A76 4B7CFC 4B7E4A / REJECTED: none.
+
+b011, b012, b013: OK. Minor findings unchanged.

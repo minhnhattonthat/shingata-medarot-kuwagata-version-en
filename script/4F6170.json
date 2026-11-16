@@ -407,7 +407,7 @@
    "kind": "ff",
    "bytes": 66,
    "jp": "{face:001B00}よかった まにあって メダロットはかせが キミに{n}あいたいと いっている{page}メダロットけんきゅうじょに いってくれないか？{end:00}",
-   "en": "{face:001B00}Good, I caught you in time! The Medabot Professor, Dr. Aki, wants to see you.{page}Could you go to the Medabot Laboratory?{end:00}",
+   "en": "{face:001B00}Good, I caught you in time! Dr. Aki wants to see you.{page}Could you go to the Medabot Research Institute?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -551,7 +551,7 @@
    "kind": "ff",
    "bytes": 79,
    "jp": "{face:010004}はかせ メダロットしゃに れんらくしておいて{n}くださったんですね！{page}ありがとうございます{page}{face:001300}はて？ わしゃ しらんぞい{page}{face:010000}あれっ？？？{end:00}",
-   "en": "{face:010004}Doctor, you contacted the Medabot Corporation for me!{page}Thank you!{page}{face:001300}Eh? I know nothing about that, my boy.{page}{face:010000}Huh???{end:00}",
+   "en": "{face:010004}Doctor, you contacted the Medabot Company for me!{page}Thank you!{page}{face:001300}Eh? I know nothing about that, my boy.{page}{face:010000}Huh???{end:00}",
    "status": "done",
    "notes": ""
   },

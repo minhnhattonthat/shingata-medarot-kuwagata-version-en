@@ -1,0 +1,3 @@
+FIXED: 4BA214 4BAAAD / REJECTED: none
+
+Checks: b014 OK, b015 OK, b016 OK.

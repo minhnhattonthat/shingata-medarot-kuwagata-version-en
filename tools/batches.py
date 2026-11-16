@@ -31,7 +31,8 @@ MAX_ENTRIES = 150
 TOKEN = re.compile(r"\{\w+(?::[0-9A-Fa-f]*)?\}")  # control codes; must survive translation
 FREE = {"{n}", "{page}"}  # layout codes the English may place freely (the engine word-wraps; {page} = new box)
 VARIABLE = r"\{var[^}]*\}"  # a name or number the game draws: "1st" comes out as "1th"
-HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan", "さま": "-sama", "せんせい": "sensei"}
+# せんせい is left out on purpose: after a name it is often rendered "Teacher"/"Doctor", so it isn't machine-checked.
+HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan", "さま": "-sama"}
 HONORIFIC_AFTER = re.compile(r"(?:[ァ-ヿ]|\{var:00\})(さん|くん|ちゃん|さま)(?![ぁ-ゟ])")
 WIN = lint.load_windows()
 WIDTHS = marker.widths()
@@ -240,7 +241,8 @@ def check_batch(batch, entries, terms):
 
 def merge(new, overwrite):
     """Refuses to replace different English unless told to, before anything is written. Copies each line to every
-    untranslated entry with the same JP and box variant."""
+    untranslated entry with the same JP and box variant, and with --overwrite to every such entry still holding the
+    line's old English."""
     ents = index()
     by_group = {}
     for eid, en in new.items():
@@ -250,13 +252,16 @@ def merge(new, overwrite):
             e = ents[eid]
             if e.get("en") and e["en"] != en:
                 sys.exit(f"{eid} would lose {e['en']!r}: pass --overwrite if that is meant")
+    # A copy merged earlier from a line (same JP and variant, same old English) follows that line when it changes.
+    old = {group_of(ents[eid]): ents[eid].get("en") for eid in new if ents[eid].get("en")}
     changed = 0
     for path, doc, entries in docs():
         touched = False
         for e in entries:
             hit = new.get(e["id"])
-            if hit is None and not e.get("en") and group_of(e) in by_group:
-                hit = by_group[group_of(e)][1]
+            g = group_of(e)
+            if hit is None and g in by_group and (not e.get("en") or (overwrite and e["en"] == old.get(g))):
+                hit = by_group[g][1]
             if hit is not None and e.get("en") != hit:
                 e["en"], e["status"] = hit, "done"
                 touched = True

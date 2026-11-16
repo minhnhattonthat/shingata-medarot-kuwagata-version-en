@@ -1,0 +1,5 @@
+FIXED: 466533 46653B 46881E 46891A
+
+REJECTED: 468453 46845C 4684A3 468572 468727 468744 46874C 46875A 468763 46876B 4687A2 4687B7 4687C0 4687E6 468838 46884B 468877 468880 4688B9 4688F7 468904 46890B 46892D 468962 4689F8 - Each suggested replacement exceeds the enforced 10-byte name limit. Existing shortened forms retained; glossary cap exceptions still need controller documentation.
+
+Minor findings unchanged. Check: b001 OK / b002 OK / b003 OK / b004 OK.

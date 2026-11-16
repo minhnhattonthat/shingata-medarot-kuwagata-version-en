@@ -1,0 +1,3 @@
+FIXED: 4DCC3D 4DDBBE 4DD02E / REJECTED: none.
+
+Checks: b047 OK, b048 OK, b049 OK. Minor findings unchanged.

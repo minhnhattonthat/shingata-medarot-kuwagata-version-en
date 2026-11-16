@@ -13,10 +13,12 @@ ROOT = Path(__file__).resolve().parents[1]
 LOGS = ROOT / "work/tl/logs"
 
 
-def run(prompt, name):
+def run(prompt, name, read_only=False):
+    """read_only: reviewer sessions (the brief makes them read-only; the report comes back as the last message)."""
     LOGS.mkdir(parents=True, exist_ok=True)
     with open(LOGS / f"{name}.log", "w", encoding="utf-8") as log:
-        p = subprocess.run(["codex", "exec", "--skip-git-repo-check", "-s", "workspace-write",
+        p = subprocess.run(["codex", "exec", "--skip-git-repo-check", "-s",
+                            "read-only" if read_only else "workspace-write",
                             "-o", str(LOGS / f"{name}.last.txt"), "-"],
                            input=prompt, text=True, encoding="utf-8", stdout=log, stderr=subprocess.STDOUT,
                            cwd=ROOT, shell=sys.platform == "win32")

@@ -1,0 +1,2 @@
+FIXED: 4F2766 4F3225 / REJECTED: none.
+Checks: b068 OK; b069 OK.

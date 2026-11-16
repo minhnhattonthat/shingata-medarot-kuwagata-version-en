@@ -71,7 +71,7 @@
    "kind": "ff",
    "bytes": 92,
    "jp": "{face:001402}とつぜんで もうしわけないですけど{n}{var:00}くん{page}ロボトルの おあいてを していただけませんか？{page}メダロットしゃに バトルテストの{n}データを おくりたいのです{page}よろしいですか？{end:02}",
-   "en": "{face:001402}I'm sorry to spring this on you,{n}{var:00}-kun,{page}but would you be my Robattle opponent?{page}I'd like to send some battle test data{n}to the Medabot Corporation.{page}Would that be all right?{end:02}",
+   "en": "{face:001402}I'm sorry to spring this on you,{n}{var:00}-kun,{page}but would you be my Robattle opponent?{page}I'd like to send some battle test data{n}to the Medabot Company.{page}Would that be all right?{end:02}",
    "status": "done",
    "notes": ""
   },

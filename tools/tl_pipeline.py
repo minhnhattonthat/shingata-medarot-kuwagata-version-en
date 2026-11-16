@@ -5,7 +5,7 @@
 Per group: translate the batches that have no .out.tsv yet (one codex session), write the pairs file
 (tools/pairs.py), run an independent reviewer session (docs/reviewer-brief.md) that writes
 work/tl/review/<first>.review.md, then a fix session that applies its Critical/Important findings to the .out.tsv
-files and re-checks. Merging into script/ is left to the controller (`tools/batches.py merge ... --overwrite`), so
+files and re-checks, then tools/rereview.py until a reviewer approves the fixed lines. Merging into script/ is left to the controller (`tools/batches.py merge ... --overwrite`), so
 parallel lanes never write script/ at the same time. Status per group: work/tl/review/<first>.status.
 """
 import subprocess
@@ -18,10 +18,10 @@ REVIEW = TL / "review"
 PY = [sys.executable, "-X", "utf8"]
 
 
-def codex(prompt, name):
+def codex(prompt, name, read_only=False):
     sys.path.insert(0, str(ROOT / "tools"))
     import codex_tl
-    return codex_tl.run(prompt, name)
+    return codex_tl.run(prompt, name, read_only)
 
 
 def check(batches):
@@ -49,8 +49,11 @@ def group(batches):
     report = REVIEW / f"{first}.review.md"
     if not report.exists():
         codex(f"Read docs/reviewer-brief.md and follow it. Pairs file: work/tl/review/{first}.pairs.txt (batches "
-              f"{' '.join(batches)}). Write your report to work/tl/review/{first}.review.md. Do not modify any "
-              "other file.", f"{first}.review")
+              f"{' '.join(batches)}). You are read-only: return the whole report (the brief's Markdown format) as "
+              "your final message instead of writing a file.", f"{first}.review", read_only=True)
+        last = ROOT / f"work/tl/logs/{first}.review.last.txt"
+        if last.exists():
+            report.write_text(last.read_text(encoding="utf-8"), encoding="utf-8", newline="\n")
     if not report.exists():
         status.write_text("FAILED no review report\n", encoding="utf-8")
         return 1
@@ -61,7 +64,11 @@ def group(batches):
           f"`python -X utf8 tools/batches.py check {' '.join(batches)}` until it prints OK for every batch. Reply "
           "with: FIXED: id ... / REJECTED: id - reason.", f"{first}.fix")
     ok = check(batches) == 0
-    status.write_text("READY to merge\n" if ok else "FAILED check after fixes\n", encoding="utf-8")
+    # READY only comes from tools/rereview.py, after a reviewer approves the fixed lines (phase 6 review item 1)
+    status.write_text("FIXED: re-review with tools/rereview.py\n" if ok else "FAILED check after fixes\n",
+                      encoding="utf-8")
+    if ok:
+        ok = subprocess.run(PY + ["tools/rereview.py", "--jobs", "1", "--only", first], cwd=ROOT).returncode == 0
     return 0 if ok else 1
 
 

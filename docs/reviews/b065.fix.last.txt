@@ -1,0 +1,4 @@
+FIXED: 4F11BC
+REJECTED: none
+
+Checks: b065 OK / b066 OK / b067 OK.

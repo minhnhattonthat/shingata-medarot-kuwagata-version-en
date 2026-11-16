@@ -1,0 +1,3 @@
+FIXED: 4EBF45 4EC9E8 / REJECTED: none.
+
+Checks: b062 OK, b063 OK, b064 OK.

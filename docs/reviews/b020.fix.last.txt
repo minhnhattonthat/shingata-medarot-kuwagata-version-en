@@ -1,0 +1,4 @@
+FIXED: 4C05AA 4C1E67
+REJECTED: none
+
+b020: OK / b021: OK / b022: OK

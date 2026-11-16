@@ -1,0 +1,3 @@
+FIXED: 4CCEB6 4CBDBD 4CBDE1 4CBE19 4CE216 / REJECTED: 4CDB37 - “Robo-robo” conflicts with binding ロボロボ → Rubberobo glossary mapping and fails validation.
+
+b032: OK / b033: OK / b034: OK

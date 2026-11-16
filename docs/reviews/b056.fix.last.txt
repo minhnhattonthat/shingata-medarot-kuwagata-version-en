@@ -1,0 +1,3 @@
+FIXED: none (no Critical or Important findings) / REJECTED: none.
+
+Minor findings untouched. b056, b057, b058: OK.

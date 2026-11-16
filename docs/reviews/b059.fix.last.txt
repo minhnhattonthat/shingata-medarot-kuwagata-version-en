@@ -1,0 +1,3 @@
+FIXED: 4EB21D 4EAF5A / REJECTED: none.
+
+Checks: b059 OK, b060 OK, b061 OK.

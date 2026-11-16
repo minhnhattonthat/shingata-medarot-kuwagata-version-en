@@ -1,0 +1,4 @@
+FIXED: 503C29
+REJECTED: none
+
+Checks: b073 OK / b074 OK / b075 OK

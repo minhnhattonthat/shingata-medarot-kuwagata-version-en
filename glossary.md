@@ -44,7 +44,6 @@ and an Avoid spelling fails.
 | レトルト | Retort | | レトルトレディ = Retort Lady; keeps the "retort curry" pun | |
 | メダロットはかせ | Dr. Aki | | official name of the Medabot Professor | |
 | アイリス | Iris | | | |
-| ガンマ | Gamma | | | |
 | ラ・マスカーラ | La Mascara | 10 | | |
 | ユマリ | Yumari | | | |
 | リューキ | Ryuki | | | |
@@ -94,6 +93,8 @@ and an Avoid spelling fails.
 | オセアノ・タワー | Oceano Tower | | | |
 | ビーチ・デル・ソル | Beach del Sol | | | |
 | メダロットカンパニー | Medabot Company | | | Medarot |
+| メダロットしゃ | Medabot Company | | メダロット社, same company | Medabot Corporation |
+| メダロットけんきゅうじょ | Medabot Research Institute | | Dr. Aki's lab | Medabot Laboratory |
 
 ## Medabots (468308, 10 bytes)
 | JP | EN | max | notes | Avoid |
@@ -366,32 +367,40 @@ and an Avoid spelling fails.
 | なぞのベール | mystery | | idiom "shrouded in a veil of mystery", not the part Behr | |
 
 ## Capped part names (10-byte name buffer; full form in notes)
-The b001 review asked for the full names; they don't fit the measured 10-byte cap, so these short forms stand.
+The b001 review asked for the full names; they don't fit the 10-cell name field (D11: widening ruled out), so each
+row uses the 10-byte form closest to the full name (phase 6 review, item 2), checked with `batches.py fit`.
 
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
-| フォイデノンモル | Foinonmor | 10 | cap; full Foidenonmor | |
+| フォイデノンモル | Foidnonmor | 10 | cap; full Foidenonmor | |
 | グラフュノンモル | Grafnonmor | 10 | cap; full Grafyunonmor | |
 | タテコントラリ | Tatecontra | 10 | cap; full Tatecontrali | |
 | ディレクシッケル | Direcsichl | 10 | cap; full Direcsichel | |
-| アビディマリーナ | Abimarina | 10 | cap; full Abidimarina | |
-| アンガベコレト | Angabecol | 10 | cap; full Angabecoleto | |
-| アンガデコレト | Angadecol | 10 | cap; full Angadecoleto | |
-| モデロリスタット | Modelstat | 10 | cap; full Modeloristatt | |
-| レットティグレ | Rettigre | 10 | cap; full Retto Tigre | |
-| ニストロティグレ | Nistigre | 10 | cap; full Nistro Tigre | |
-| ジャメットベーノ | Jambeno | 10 | cap; full Jametto Beno | |
+| アビディマリーナ | Abidmarina | 10 | cap; full Abidimarina | |
+| アンガベコレト | Angabecole | 10 | cap; full Angabecoleto | |
+| アンガデコレト | Angadecole | 10 | cap; full Angadecoleto | |
+| モデロリスタット | Modelistat | 10 | cap; full Modeloristatt | |
+| レットティグレ | Rettotigre | 10 | cap; full Retto Tigre (one word like Ragantigre) | |
+| ニストロティグレ | Nistrotigr | 10 | cap; full Nistro Tigre | |
+| ジャメットベーノ | Jamettbeno | 10 | cap; full Jametto Beno | |
 | ペテロケミセルト | Petrocerto | 10 | cap; full Petrokemicerto | |
-| ペテロケミエスク | Petroesq | 10 | cap; full Petrokemiesque | |
-| デセントベスタ | Desentbes | 10 | cap; full Desento Besta | |
-| リンハデバシロ | Linhbacil | 10 | cap; full Linha de Bacilo | |
-| アルマエスピーノ | Armespino | 10 | cap; full Arma Espino | |
-| ソンプロフェット | Sonprofet | 10 | cap; full Sonprofetto | |
-| ソンプロビッサ | Sonprovis | 10 | cap; full Sonprovissa | |
-| カンバナデスコ | Cambandes | 10 | cap; full Cambana Desco | |
+| ペテロケミエスク | Petroesque | 10 | cap; full Petrokemiesque | |
+| デセントベスタ | Desenbesta | 10 | cap; full Desento Besta | |
+| リンハデバシロ | Linhbacilo | 10 | cap; full Linha de Bacilo | |
+| アルマエスピーノ | Armaespino | 10 | cap; full Arma Espino | |
+| ソンプロフェット | Sonprofeto | 10 | cap; full Sonprofetto | |
+| ソンプロビッサ | Sonprovisa | 10 | cap; full Sonprovissa | |
+| カンバナデスコ | Cambadesco | 10 | cap; full Cambana Desco | |
 | ラビダラルガ | Vidalarga | 10 | cap; full La Vida Larga | |
 | ラマノデグラ | Manodegra | 10 | cap; full La Mano Degra | |
 | ラマノイグラン | Manoigran | 10 | cap; full La Mano Igran | |
 | ラコララルガ | Colalarga | 10 | cap; full La Cola Larga | |
 | エルカンポネーバ | Camponeva | 10 | cap; full El Campo Neva | |
-| ルミネセンス | Luminesce | 10 | cap; full Luminescence | |
+| ルミネセンス | Luminesce | 10 | cap; full Luminescence. Kept over "Luminescen": a real English word, 1 letter short | |
+
+## Name-box labels (speaker names, 46E60C, 10 bytes)
+| JP | EN | max | notes | Avoid |
+|---|---|---|---|---|
+| ロボロボだんボス | Gang Boss / boss | 10 | label "Gang Boss" (a grunt is "Rubberobo"); dialogue: "boss of the Rubberobo Gang" | |
+| おんがくのせんせい | Music Tchr / music teacher | 10 | cap: label "Music Tchr"; full "Music Teacher" in dialogue | Prof |
+| りかのせんせい | Sci. Tchr / science teacher | 10 | cap: label "Sci. Tchr"; full "Science Teacher" in dialogue | Prof |

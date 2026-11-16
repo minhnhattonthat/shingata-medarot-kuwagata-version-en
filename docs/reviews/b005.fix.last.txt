@@ -1,0 +1,10 @@
+FIXED: 46E3F5 — Leader Oro.
+
+REJECTED:
+- 46E3EC — “Gang Boss” fails the binding Rubberobo glossary check; needs a controller-approved exception.
+- 46E476 — “Stray Medabot” exceeds the 10-byte cap.
+- 46EDCC — “Medaforce Charge” exceeds the 10-byte/80px limits.
+- 46EDD1 — “Insufficient Medaforce” exceeds the 10-byte/80px limits.
+- 510B45 — “Event/Battle Director” exceeds the 18-byte cap.
+
+b005: OK / b006: OK / b007: OK. Minor findings unchanged.

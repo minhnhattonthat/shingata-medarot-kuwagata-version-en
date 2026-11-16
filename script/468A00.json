@@ -166,7 +166,7 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "フォイデノンモル{item}",
-   "en": "Foinonmor{item}",
+   "en": "Foidnonmor{item}",
    "status": "done",
    "notes": ""
   },
@@ -1558,7 +1558,7 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "アビディマリーナ{item}",
-   "en": "Abimarina{item}",
+   "en": "Abidmarina{item}",
    "status": "done",
    "notes": ""
   },
@@ -1606,7 +1606,7 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "アンガベコレト{item}",
-   "en": "Angabecol{item}",
+   "en": "Angabecole{item}",
    "status": "done",
    "notes": ""
   },
@@ -1618,7 +1618,7 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "アンガデコレト{item}",
-   "en": "Angadecol{item}",
+   "en": "Angadecole{item}",
    "status": "done",
    "notes": ""
   },
@@ -1642,7 +1642,7 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "モデロリスタット{item}",
-   "en": "Modelstat{item}",
+   "en": "Modelistat{item}",
    "status": "done",
    "notes": ""
   },
@@ -1654,7 +1654,7 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "レットティグレ{item}",
-   "en": "Rettigre{item}",
+   "en": "Rettotigre{item}",
    "status": "done",
    "notes": ""
   },
@@ -1666,7 +1666,7 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ニストロティグレ{item}",
-   "en": "Nistigre{item}",
+   "en": "Nistrotigr{item}",
    "status": "done",
    "notes": ""
   },
@@ -1762,7 +1762,7 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ジャメットベーノ{item}",
-   "en": "Jambeno{item}",
+   "en": "Jamettbeno{item}",
    "status": "done",
    "notes": ""
   },
@@ -1810,7 +1810,7 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ペテロケミエスク{item}",
-   "en": "Petroesq{item}",
+   "en": "Petroesque{item}",
    "status": "done",
    "notes": ""
   },
@@ -1870,7 +1870,7 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "デセントベスタ{item}",
-   "en": "Desentbes{item}",
+   "en": "Desenbesta{item}",
    "status": "done",
    "notes": ""
   },
@@ -2014,7 +2014,7 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "リンハデバシロ{item}",
-   "en": "Linhbacil{item}",
+   "en": "Linhbacilo{item}",
    "status": "done",
    "notes": ""
   },
@@ -2050,7 +2050,7 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "アルマエスピーノ{item}",
-   "en": "Armespino{item}",
+   "en": "Armaespino{item}",
    "status": "done",
    "notes": ""
   },
@@ -2134,7 +2134,7 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ソンプロフェット{item}",
-   "en": "Sonprofet{item}",
+   "en": "Sonprofeto{item}",
    "status": "done",
    "notes": ""
   },
@@ -2146,7 +2146,7 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "ソンプロビッサ{item}",
-   "en": "Sonprovis{item}",
+   "en": "Sonprovisa{item}",
    "status": "done",
    "notes": ""
   },
@@ -2266,7 +2266,7 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "カンバナデスコ{item}",
-   "en": "Cambandes{item}",
+   "en": "Cambadesco{item}",
    "status": "done",
    "notes": ""
   },

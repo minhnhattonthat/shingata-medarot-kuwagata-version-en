@@ -874,7 +874,7 @@
    "kind": "ff",
    "bytes": 150,
    "jp": "{face:000206}なによあんた こんながくえんの かたを もつわけ？{page}{face:010005}そういうわけじゃ{page}{face:000202}あたしは ぜったい しょうこを みつけて みせるんだから！{page}{face:000200}はんにんは メダロットを つかって イタズラしてるって{n}はなしだわ{page}メダロットといえば メダロットしゃ！{n}おつぎは メダロットしゃよ！{end:00}",
-   "en": "{face:000206}What's with you? You're taking this academy's side?{page}{face:010005}That's not what I mean.{page}{face:000202}I'm going to find proof, just you watch!{page}{face:000200}They say the culprit is using Medabots to cause trouble.{page}And Medabots mean the Medabot Corporation! That's our next stop!{end:00}",
+   "en": "{face:000206}What's with you? You're taking this academy's side?{page}{face:010005}That's not what I mean.{page}{face:000202}I'm going to find proof, just you watch!{page}{face:000200}They say the culprit is using Medabots to cause trouble.{page}And Medabots mean the Medabot Company! That's our next stop!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2254,7 +2254,7 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:002400}メダロットしゃに ようこそ！{end:00}",
-   "en": "{face:002400}Welcome to the Medabot Corporation!{end:00}",
+   "en": "{face:002400}Welcome to the Medabot Company!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2410,7 +2410,7 @@
    "kind": "ff",
    "bytes": 174,
    "jp": "{face:001200}あら？ みないかおね{page}{face:010000}あ はじめまして{n}ぼく {var:00}っていいます{page}{face:001201}{var:00}くん？{n}そう じゃあ キミが・・・{page}{face:010000}えっ？{page}{face:001200}な なんでも ないの{page}{face:001201}わたしは キララ{page}メダロットしゃで じむのバイトを やってるの{page}キミは メダロットしゃを けんがくに きたの？{page}{face:010004}おんなのこを さがしにきたんですけど・・・{end:00}",
-   "en": "{face:001200}Oh? I haven't seen you before.{page}{face:010000}Oh, nice to meet you. I'm {var:00}.{page}{face:001201}{var:00}-kun? I see. So you're...{page}{face:010000}Huh?{page}{face:001200}N-never mind.{page}{face:001201}I'm Kirara.{page}I do part-time office work here at the Medabot Corporation.{page}Did you come to tour the Medabot Corporation?{page}{face:010004}I came here looking for a girl, but...{end:00}",
+   "en": "{face:001200}Oh? I haven't seen you before.{page}{face:010000}Oh, nice to meet you. I'm {var:00}.{page}{face:001201}{var:00}-kun? I see. So you're...{page}{face:010000}Huh?{page}{face:001200}N-never mind.{page}{face:001201}I'm Kirara.{page}I do part-time office work here at the Medabot Company.{page}Did you come to tour the Medabot Company?{page}{face:010004}I came here looking for a girl, but...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2470,7 +2470,7 @@
    "kind": "ff",
    "bytes": 69,
    "jp": "{face:002400}さいきん しゃないの ヒミツが そとに もれてるような{n}きがするの{page}メダロットしゃの データが あくようされたら{n}タイヘンよ！{end:00}",
-   "en": "{face:002400}Lately, I get the feeling our company secrets are leaking out.{page}It'd be a disaster if someone misused the Medabot Corporation's data!{end:00}",
+   "en": "{face:002400}Lately, I get the feeling our company secrets are leaking out.{page}It'd be a disaster if someone misused the Medabot Company's data!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2554,7 +2554,7 @@
    "kind": "ff",
    "bytes": 76,
    "jp": "{face:001B00}こうじょうで せいさん するまえに{page}メダロットしゃで さいしゅうチェックを おこなうんだ{page}ふりょうひんを はつばいするわけに いかないからね{end:00}",
-   "en": "{face:001B00}Before factory production starts,{page}we run a final check at the Medabot Corporation.{page}We can't put faulty products on sale, after all.{end:00}",
+   "en": "{face:001B00}Before factory production starts,{page}we run a final check at the Medabot Company.{page}We can't put faulty products on sale, after all.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2566,7 +2566,7 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:001B00}テストけっかは じょうじょうだよ{page}ところで キミは メダロットしゃと どういう かんけい？{end:00}",
-   "en": "{face:001B00}The test results are excellent.{page}By the way, how are you connected to the Medabot Corporation?{end:00}",
+   "en": "{face:001B00}The test results are excellent.{page}By the way, how are you connected to the Medabot Company?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2578,7 +2578,7 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:001B00}メダロットしゃの スパイもんだいを キミは どうおもう？{page}・・・！！ キ キミは だれだっ！！{n}スパイは キミか！？{end:00}",
-   "en": "{face:001B00}What do you think of the spy problem{n}at the Medabot Corporation?{page}...!! Wh-who are you?!{n}Are you the spy!?{end:00}",
+   "en": "{face:001B00}What do you think of the spy problem{n}at the Medabot Company?{page}...!! Wh-who are you?!{n}Are you the spy!?{end:00}",
    "status": "done",
    "notes": ""
   },

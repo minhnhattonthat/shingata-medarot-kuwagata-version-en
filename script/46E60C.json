@@ -262,7 +262,7 @@
    "kind": "fe",
    "bytes": 9,
    "jp": "ロボロボだんボス{item}",
-   "en": "Rubberobo{item}",
+   "en": "Gang Boss{item}",
    "status": "done",
    "notes": ""
   },
@@ -658,7 +658,7 @@
    "kind": "fe",
    "bytes": 10,
    "jp": "おんがくのせんせい{item}",
-   "en": "Music Prof{item}",
+   "en": "Music Tchr{item}",
    "status": "done",
    "notes": ""
   },
@@ -682,7 +682,7 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "りかのせんせい{item}",
-   "en": "Sci. Prof{item}",
+   "en": "Sci. Tchr{item}",
    "status": "done",
    "notes": ""
   },
