@@ -43,12 +43,12 @@ def fill(start, budget, w, words=PANGRAM):
     return out.rstrip(" ") if len(out) > len(start) else out
 
 
-def marker_text(sid, jp, kind, full=False, w=None):
+def marker_text(sid, jp, kind, full=False, w=None, ruler_bytes=RULER_BYTES):
     """The marker for one string (jp: its decoded text with {controls})."""
     w = w or widths()
     if full and kind == "fe" and jp.endswith("{item}") and "{" not in jp[:-6]:
-        # ruler: the id, then W/M (8 px each) up to the 18-byte list cap; the last visible letter gives the field width
-        return (sid + "WMWMWMWMWMWMWMWMWM")[:RULER_BYTES] + "{item}"
+        # ruler: the id, then W/M (8 px each) up to the list's byte cap; the last visible letter gives the field width
+        return (sid + "WMWMWMWMWMWMWMWMWMWM")[:ruler_bytes] + "{item}"
     parts = TOKEN.split(jp)
     # group text runs into lines
     lines, cur = [], []
@@ -97,12 +97,16 @@ def marker_strings(table, full=False, script=None):
     import json
     import rombuild
     w = widths()
+    win = json.loads((Path(__file__).resolve().parents[1] / "data" / "windows.json").read_text(encoding="utf-8"))
     out = {}
     for path in sorted(Path(script or rombuild.SCRIPT).glob("*.json")):
-        for e in json.loads(path.read_text(encoding="utf-8"))["strings"]:
+        d = json.loads(path.read_text(encoding="utf-8"))
+        v = win["variants"].get(win["tables"].get(d.get("table") or "", ""), {})
+        cap = v.get("bytes", RULER_BYTES)  # a ruler longer than a name buffer corrupts RAM (10-byte Medabot names)
+        for e in d["strings"]:
             if not e["slots"]:
                 continue
-            out[int(e["id"], 16)] = table.encode(marker_text(e["id"], e["jp"], e["kind"], full, w))
+            out[int(e["id"], 16)] = table.encode(marker_text(e["id"], e["jp"], e["kind"], full, w, cap))
     return out
 
 

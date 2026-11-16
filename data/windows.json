@@ -1,41 +1,61 @@
 {
-  "about": "Width-gate budgets per box variant (pipeline.md §Width gate). px = widest text in pixels (width table 0x4645B8 advances), bytes = hard byte cap, lines = lines per page. status: measured (with shot/evidence) or guess. Tables map script/<table>.json to a variant; a string shown on several screens takes the smallest budget.",
+  "about": "Width-gate budgets per box variant (pipeline.md §Width gate). px = widest text in pixels (width table 0x4645B8 advances), bytes = hard byte cap, lines = lines per page. status: measured (with shot/evidence) or guess. Tables map script/<table>.json to a variant; a string shown on several screens takes the smallest budget. Rulers: build.py --marker --full turns every FE name into its id + W/M (8 px each) up to the variant's byte cap. Checked by tools/lint.py (in tools/check.py).",
+  "vars": {
+    "00": 80, "01": 80, "default": 80,
+    "about": "{var:00} = player name: the warp state shows a 10-cell name buffer (work/qa/scenes/home_1f), so 10 x 8 px until name entry is redrawn; {var:01} = item/medal/number: longest item name budget (guess)"
+  },
   "variants": {
     "dialogue": {
-      "px": 208, "lines": 2, "status": "guess",
-      "evidence": "engine wraps words at pen x > 0xD0 (0x080414BA); 26 VRAM columns x 8 px; the visible last column at 208 px is still to be confirmed on a zoomed marker_full shot (build.py --marker --full); torture line work/qa/stress/party_parts/arrived.png",
-      "notes": "one word wider than 208 px wraps before it is drawn (lands on a third, invisible line)"
+      "px": 208, "lines": 2, "status": "measured",
+      "evidence": "engine wraps words at pen x > 0xD0 (0x080414BA); marker --full: a 205 px line ends at x=221 inside the yellow box (inner edge ~x=224), work/qa/scenes_mfull/encyclopedia_entry + work/qa/enc_full_z.png; same box in home_1f (face), cutscene_01, parts_shop_detail description, field_help, items_owned",
+      "notes": "one word wider than 208 px wraps before it is drawn (lands on a third, invisible line). {var:00} (player name) on line 1 eats into that line"
     },
-    "dialogue_face": {
-      "px": 208, "lines": 2, "status": "guess",
-      "notes": "box with a portrait (FB a b c): same renderer; measure the visible width with a portrait scene"
+    "battle_message": {
+      "px": 208, "lines": 2, "status": "measured",
+      "evidence": "robattle_attack (work/qa/scenes_m3): battle text in the same 208 px yellow box",
+      "notes": "lines are assembled from pieces (attack name + action + message: '46635646F54A: 46A39C'); the pieces' combined width must fit, which lint.py does not see: keep attack/action names short"
     },
     "item_list_name": {
       "px": 86, "bytes": 18, "status": "measured",
-      "evidence": "items_owned: name sprites start x=96, the BG 'x' column at x=184 (tools/debug/namefields.py, work/qa/namefields/items_owned); 19+ bytes corrupt VRAM (work/qa/stress_19), 18 ok (work/qa/stress_18)"
+      "evidence": "items_owned: name sprites start x=96, the BG 'x' column at x=184 (tools/debug/namefields.py, work/qa/namefields/items_owned); 19+ bytes corrupt VRAM (work/qa/stress_19), 18 ok (work/qa/stress_18); ruler clipped by the x (work/qa/scenes_mfull/items_owned)"
     },
     "shop_part_name": {
-      "px": 80, "status": "measured",
-      "evidence": "parts_shop_list1: name x=16, BG 'x' at x~98 (work/qa/stress/z.png: 'Medabot Medal' fits, 16 chars run under the x)"
+      "px": 79, "bytes": 10, "status": "measured",
+      "evidence": "parts_shop_list1: name x=16, BG 'x' at x~98 (work/qa/stress/z.png: 'Medabot Medal' fits, 16 chars run under the x); parts_shop_detail shows the name in a 10-cell box ('468411: Th', work/qa/scenes_m3) and goes black with an 18-byte ruler (work/qa/scenes_mfull, run 2): 10 bytes"
     },
     "medabot_name_box": {
       "px": 79, "bytes": 10, "status": "measured",
-      "evidence": "robattle_prep / robattle / party3_setup: Medabot name sprites x=8..87, 10 cells (the nickname buffer is 10 bytes, padded)",
+      "evidence": "robattle_prep / robattle / party3_setup: Medabot name sprites x=8..87, 10 cells (the nickname buffer is 10 bytes, padded); an 18-byte ruler broke the robattle_attack warp (work/qa/scenes_mfull, first run)",
       "notes": "player nicknames come from name entry (graphics/name-entry work, phase 6+)"
     },
+    "tutorial_topic": {
+      "px": 148, "bytes": 18, "status": "measured",
+      "evidence": "field_help: rows from x=47, bar border at x~196; the 18-byte ruler (132 px) fits whole (work/qa/fh_z.png)"
+    },
+    "credits_line": {
+      "px": 131, "bytes": 18, "status": "measured",
+      "evidence": "credits: 18-byte rulers (131 px) drawn whole and centred (work/qa/scenes_mfull/credits); wider is untested (re-measure before using more)"
+    },
+    "name_box_10": {
+      "px": 79, "bytes": 10, "status": "measured",
+      "evidence": "10-byte rulers (66-68 px) drawn whole in ~80 px boxes: medal name (robattle_prep), skill type + action (parts_shop_detail blue boxes x=8..88), opponent name and terrain (robattle_intro/robattle_win info box), work/qa/scenes_mfull + work/qa/psd.png, work/qa/mfull_pick2.png; 10 bytes x 8 px = 80 is the cap's own limit"
+    },
     "names_default": {
-      "px": 80, "bytes": 18, "status": "guess",
-      "notes": "every FE name table not yet measured on its own screens (medals, skills, attacks, parts in party_parts, weapon kinds, battle menu/status): use the smallest measured list field until measured"
+      "px": 79, "bytes": 10, "status": "guess",
+      "notes": "FE tables not yet seen on their own screens: smallest measured field (Medabot name box) until measured"
     }
   },
   "tables": {
     "50C998": "item_list_name",
     "468A00": "shop_part_name",
     "468308": "medabot_name_box",
-    "465B8C": "names_default", "465C84": "names_default", "466374": "names_default", "466688": "names_default",
-    "469450": "names_default", "46A508": "names_default", "46A6F0": "names_default", "46A744": "names_default",
-    "46E60C": "names_default", "46EDA0": "names_default", "46F0BC": "names_default", "470B08": "names_default",
-    "50EF18": "names_default", "510C28": "names_default",
+    "50EF18": "tutorial_topic",
+    "510C28": "credits_line",
+    "4702F0": "battle_message", "46706C": "battle_message", "466D78": "battle_message", "46725C": "battle_message",
+    "465B8C": "name_box_10", "465C84": "name_box_10", "466374": "name_box_10", "46A744": "name_box_10",
+    "46E60C": "name_box_10",
+    "466688": "names_default", "469450": "names_default", "46A508": "names_default", "46A6F0": "names_default",
+    "46EDA0": "names_default", "46F0BC": "names_default", "470B08": "names_default",
     "*ff": "dialogue"
   }
 }

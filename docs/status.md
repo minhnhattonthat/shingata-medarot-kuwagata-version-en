@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 5. Engine spike and marker build in progress (phases 1-4 done; menu-name sprites solved, width gate
-  started). Last build: 2026-11-17
+  mostly measured, lint in check.py). Last build: 2026-11-17
   `build/medarot_kuwagata_en.gba` from `script/`, sha1 573e980d... = the original (identity), smoke ok.
   Marker build `build/marker.gba` (`build.py --marker`; `--full` fills dialogue lines to 208 px): boots, 70/70
   scenes arrive (`work/qa/scenes_marker/shots`, `prove.py build/marker.gba --no-states --qa work/qa/scenes_marker`).
@@ -55,32 +55,43 @@ Updated at the end of every session. Keep it to what the next session needs; his
     29 pointers; the build runs it after `font_stage`; `tests/test_font.py::test_names_stage_writes`. Item list,
     shop list and robattle names show English in the marker build (`work/qa/scenes_marker2`). Glyph torture line
     (all punctuation, double spaces) renders right in party_parts (`work/qa/stress/z.png`).
-    Width gate started: `data/windows.json` (item list 86 px / 18-byte hard cap: 19 bytes corrupt VRAM; shop part
-    name 80 px; Medabot name box 79 px / 10 bytes; dialogue 208 px x 2 lines still tagged guess).
+    Width gate (2026-11-17, session 2): `data/windows.json` now **measured** for dialogue 208 px x 2 lines (zoomed
+    `--full` shot, work/qa/enc_full_z.png), battle messages (same box), item list 86 px/18 B, part names 79 px/**10 B**
+    (the shop detail screen goes black with 18 bytes), Medabot names 79/10, tutorial topics 148/18, credits 131/18,
+    `name_box_10` 79/10 (medals, skill types, actions, terrain, character names). `{var:00}` (player name) = 80 px
+    (10-cell buffer). `build.py --marker --full` now turns FE names into rulers (id + W/M, 8 px each, to the
+    variant's byte cap: a longer ruler overflows 10-byte name buffers and breaks warps). **`tools/lint.py`** (in
+    `tools/check.py`, `tests/test_lint.py`) checks `en` against windows.json: FE px + bytes, FF word wrap simulated
+    per page; `--all` lints the marker text as a self-test. `tools/findtext.py WORD..`: a word in table encoding /
+    SJIS in the ROM (no hit = graphics).
+    Sorted as **graphics** (not in the ROM as text): bottom hint lines (…ならびかえ, …しょうさいがめんへ, …アイテムを
+    つかう, メダルを せんたく), shop column headers (パーツめい, ねだん), party_parts column header, parts-detail stat
+    labels. The robattle_intro info box squiggle is the name sliding in (same in the original).
     New tools: `tools/unpack_blocks.py OUTDIR` (every LZ77/Le block, for vramfind.py), `tools/debug/namefields.py
     SCENE..` (sprite name fields' x ranges from a savestate).
 - **Next (phase 5, `references/pipeline.md` §Marker, `references/platform-gba.md`):**
-  1. **Remaining renderers:** the BG tile-map renderer 0x08062ABC (code-1 split by 26) is not yet tied to a screen:
-     look through `work/qa/scenes_marker2/sheet.png` (full 70-scene marker tour, this session) for garbage or kana
+  1. **Remaining renderers:** the BG tile-map renderer 0x08062ABC (code-1 split by 26) is not yet tied to a screen
+     (none of the 18 scenes zoomed this session showed garbage from it; the party_parts suspect was a graphic):
+     look through `work/qa/scenes_m3/sheet*.png` (full 70-scene marker tour, 70/70 arrived) for garbage or kana
      in name fields; for one, dump VRAM (`emu.py --script $SKILL/scripts/lua/probes/ppudump.lua`), read the BG maps
      and `vramfind.py DUMP work/blocks --tile 32` (after `tools/unpack_blocks.py work/blocks`), then redraw that
      charset like `names_stage`. Also the other `width[]` users (literals of 0x084645B8 at 0x0804228C-0x08042704,
      0x08063198, 0x08063B50). Lists that are empty in the scenes (medal_list, party_parts, parts_list) need a
      scene with owned medals/parts to show names (poke RAM: medals 0x03000BE0, parts 0x03003DF0).
-  1b. Width gate leftovers in `data/windows.json`: confirm dialogue 208 px on a zoomed `--marker --full` shot and a
-     portrait box; measure names_default per table (medals, skills, attacks, parts list, battle menu/status, weapon
-     kinds, tutorial topics, credits) with `namefields.py` + a shot of the next drawn thing; check the 18-byte cap
-     on other lists (stress via `build.py --marker --out build/stress.gba --set ID=TEXT{item}`). Then add a lint
-     to `tools/check.py` that reads windows.json (warn on unmeasured variants, fail over budget).
-  2. Japanese left in the marker tour, sort into text vs graphics: bottom hint lines (…しょうさいがめんへ, …けってい,
-     …アイテムを つかう, カーソルで メダルを せんたく, …ならびかえ), shop column headers (パーツめい, しゅるい, ねだん),
-     the parts-shop menu options (パーツを かう / うる / もどる), name-entry grid, money "円" glyph in the menu font,
-     menu tabs (graphics G-rows). Run `jp_left.py build/marker.gba --tbl tbl/jp.tbl --gba-ptrs` for text the
-     extractor missed. Battle messages concatenate pieces (`robattle_attack` shows several ids on one line): fine.
-  3. Width gate: measure each box variant in-game (dialogue with/without face: 208 px wrap seen, the 2-line box;
-     list fields in cells; shop; battle messages; credits; encyclopedia pages), record budgets per table in
-     `windows.json` (measured / guess + shot), and boot a glyph torture line with `build.py --set`.
-  4. Map tour (`maptour.py`) on the marker build for signs / NPC text ids.
+  1b. Width gate leftovers (`names_default`, still guess 79 px/10 B): attack names 466688 (battle-message piece;
+     its combined line with the message must fit 208), model codes 469450, weapon kinds 46A508, leg types 46A6F0,
+     battle menu 46EDA0, battle status 46F0BC, 470B08. Find each on a screen in `build/marker_full.gba` (rulers),
+     e.g. party_parts / parts_list with owned parts (poke 0x03003DF0), robattle command phase (`robattle`), and
+     record it. Then lint warnings for guessed variants go away. Run **one emulator job at a time**
+     (`prove.py --jobs 1 --only a,b`): other projects' tours share this machine and a 2-job full tour was killed
+     for low memory this session.
+  2. Japanese left: the parts-shop options (パーツを かう / うる / もどる: `findtext.py` finds "パーツを かう" only
+     inside dialogue at 0x4C0C45/0x50705D, so the menu is probably graphics: confirm by a shot), name-entry grid,
+     money "円" glyph, menu tabs (graphics G-rows, phase 8). `jp_left.py --gba-ptrs` is all noise (5529 runs of
+     random bytes outside the text region): the textmap coverage proof is the real check.
+  3. Debug tool: the warp leaves the player-name buffer uninitialised (shows ガンマアアアアアアア in home_1f, in the
+     original too): poke a name in `warp.lua` so dialogue QA shows a realistic {var:00}.
+  4. Map tour (`maptour.py --jobs 1`) on the marker build for signs / NPC text ids; then phase 5 is done.
 - **Debug-tool gaps (not blocking; grow the list when phase 8 needs them):**
   1. Story robattles start from NPC talk (dispatcher near 0x08055B44, action 0x20 -> scene switch case 0x20); who
      writes the team id +0x942 per NPC is not traced. Scenes set the team id directly, which gives the same screens.
