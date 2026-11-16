@@ -20,15 +20,15 @@ its block with `vramfind.py` over the scene shot (`work/qa/scenes_en/shots/<scen
 | medal_list, party_medals | **Done**: MEDALS, Choose a medal, Details, Lv.UP IN (block le_57134C, `layout`) |
 | medarot_list, party_setup | **Done**: MEDABOTS, Assemble, Sort (le_56F328, `layout`) |
 | parts_list, party_parts, parts_owned | **Done**: PARTS, Details, NAME / ×OWNED / (EQ) / M/F (le_575BE4, `layout`), tabs HEAD / R.ARM / L.ARM / LEGS (le_54EC30, cols 10) |
-| parts_*_detail | パーツ, ヘルプ, stat labels そうこう / すいしん / きどう / ぼうぎょ / きんせつ / えんかく / せいこう / いりょく / かいすう |
+| parts_*_detail | **Done** (session 6): PARTS + -HELP (le_576784, `layout`; HELP is BG1 pal 6), 11 stat labels ARMOR / SUCCESS / POWER / USES / CHARGE / COOLDOWN / PROPULSION / MOBILITY / DEFENSE / MELEE / RANGED (le_54F1B8, 12 cols, one label per 8-px row). robattle_detail not checked (its scene shot is the battle field, not the detail screen) |
 | parts_shop* | **Done**: headers, Buy/Sell parts/Exit, HEAD/R.ARM/L.ARM/LEGS, Select/OK, list hints and column headers (lz_733100 + maps 734590/734790; list screens lz_734D90 + maps 735630/7357EC, loaded at tile 355). **Left:** confirm はい / いいえ (below) |
 | save, parts_shop_confirm (yes/no window) | **Done**: SAVE, MEDALS, PARTS, PLAY TIME, WINS/TOTAL. **Left: はい / いいえ**: 7 tiles le_51126C (BG0 tiles 311-317: 137 blank, 138/13A は top/bottom, 139/13B い, 13C/13D え); the window map is copied by 0x08042E50 from a template at VRAM 0x06002D40 (6 rows x 8), itself written by the generic copier at 0x08000F1A (source r2 = 0x02030024, EWRAM) at f2719: find who fills 0x02030024 (the ROM table of the window layout). い's tiles appear in both words (row 1: 137 138 139 137, row 2: 137 139 139 13C), so YES/NO needs either that layout table changed or 8-px-wide words |
 | parts_trade | **Done**: PARTS TRADE |
-| robattle_intro, robattle_prep | ロボトルインフォメーション, ロボトルフィールド |
-| road_race | メダロードレース |
-| baseball | のこり10きゅう, 0てん, プレイボール, バットをふる |
-| car_game | のこり60びょう, 0てん, メダカートレース, スタート!! |
-| corps_game | ばくだん, ライフ, コロシア チビケンジャー, セレクトほんぶを まもれ!! |
+| robattle_intro, robattle_prep | **Done** (session 6): ROBATTLE INFO + BATTLEFIELD tab (le_570D84, 3 ptrs; the header sits half above the screen top, as in the JP), prep header MEDABOTS (le_57D37C). **Left:** the yellow box / field box contents on the intro (small dynamic glyphs, check what they are) |
+| road_race | **Done** (session 6): MEDAROAD RACE (lz_748608 tiles 1-30, `layout`, style race_title) |
+| baseball | のこり10きゅう, 0てん, プレイボール, バットをふる. Counters are BG1 (char base 0x4000, screen 0xC800) built at run time from 8x16 glyph pairs: tile 2/3 の, 4/5 こ, 6/7 り, 14/15 て, 16/17 ん, 18/19 き, 20/21 ゅ, 22/23 う, 34/35 0, 36/37 1 (no whole block in VRAM: find the glyph source with vramwho.lua at 0x06004040). Redraw the kana cells (e.g. のこり -> LEFT, きゅう -> BALL, てん -> PTS in a narrow font) unless the map writer can be changed. プレイボール / バットをふる: sprites or BG2 (le_78CA88 tile 98, 7 tiles at BG2 row 18 = バットをふる) |
+| car_game | のこり60びょう, 0てん, メダカートレース, スタート!!. Same 0x4000 glyph set as baseball (BG0/BG1); BG2 map le_789E58+10, BG3 le_78A780+10 on tiles le_78059C |
+| corps_game | ばくだん, ライフ, コロシア チビケンジャー, セレクトほんぶを まもれ!!. Screen mode fits: tiles lz_74949C, maps lz_74AAE4+0 (BG1), lz_74AC50+0 (BG2), lz_74AD20+0 (BG3), 32 wide |
 | town_map | **Done**: TOWN MAP |
 
 Not graphics, also found in that pass (text/engine):

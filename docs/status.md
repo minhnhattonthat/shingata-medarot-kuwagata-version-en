@@ -2,7 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics redraws: sessions 4-5 done 17 screens; rest of `docs/graphics-todo.md` next).
+- **Phase:** 8. QA in the emulator: in progress (graphics redraws: sessions 4-6 done 22 screens; rest of `docs/graphics-todo.md` next).
+- **Phase 8 session 6 (2026-11-17): graphics redraws, batch 3.**
+  - **Done, verified English in cold-boot shots** (`work/qa/gfx8`, `gfx8w` warp at 3600 frames, `gfx9`; build sha1
+    a38b5b30...): parts detail (PARTS, -HELP, 11 stat labels: glossary terms), robattle_intro (ROBATTLE INFO,
+    BATTLEFIELD), robattle_prep (MEDABOTS), road_race (MEDAROAD RACE). 61 labels, `gfx.py check` 0, `tools/check.py` 0.
+    New styles `help_green`, `field_tab`, `race_title`.
+  - **Gotchas:** read map rows from the VRAM dump with exact column indices before writing a `layout` (parts header
+    row 0 starts at col 2: off by one drew "/RRPTS"). Header scenes slide in: `prove.py` shots can catch the
+    animation; re-shoot with `emu.py ... --script tools/debug/warp.lua --var "SCENE='x'" --frames 3600` (final.png).
+  - **Next:** baseball / car_game counters (glyph cells at char base 0x4000, findings in graphics-todo.md),
+    corps_game (screen mode), name_entry, yes/no window, robattle_intro box contents, title logo ruling
+    (non-blocking). Then pair sheets + verdicts for all redrawn scenes, credits role buffer bug, textcover gaps,
+    inkbox on choice/centred boxes.
 - **Phase 8 session 5 (2026-11-17): graphics redraws, batch 2.**
   - **Done, verified English in cold-boot `prove.py --no-states` shots** (`work/qa/gfx6`, medawatch `work/qa/gfx7`;
     build sha1 1457ebc2...): options (ROBATTLE TIME, LONG/NORMAL/SHORT, ROBATTLE TEXT, ON/OFF) + title CONTINUE,
