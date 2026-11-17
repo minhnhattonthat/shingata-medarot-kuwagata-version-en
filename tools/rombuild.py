@@ -165,6 +165,8 @@ def build(orig, strings=None, relocate_all=False, poison=False, lang="en", scrip
         import gfx
         import minifont
         end = gfx.gfx_stage(rom, end)
+        import logo
+        end = logo.stage(rom, end)
         end = minifont.stage(rom, end)
         import nameentry
         nameentry.stage(rom, end)

@@ -16,7 +16,7 @@ helps most.
 | Dialogue and story (both the Shingata story and the retained Ikki story), signs and books | Translated |
 | Menus, items, parts, Medals, skills, battle messages, tutorials, system messages | Translated |
 | Graphics with text (menu tabs, headers, shop options, minigame banners, money symbol) | Translated |
-| Title logo 真型 メダロット | Left in Japanese (it is the game's logo) |
+| Title logo 真型 メダロット | Redrawn in English (SHIN GATA MEDAROT) in the original's style |
 | Name entry | Translated: English letter grid (ABC / abc / 123) |
 | Staff credits | Translated |
 

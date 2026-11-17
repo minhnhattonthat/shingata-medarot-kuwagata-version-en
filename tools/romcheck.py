@@ -34,11 +34,12 @@ def allowed_ranges():
 def pointer_slots(orig):
     """The only pointer words the build may rewrite outside the ranges: the font's 9 literals, the names charset's
     literals, every string slot of script/ (the code literals among them), and the literals of every graphics block
-    gfx/labels.json redraws."""
+    gfx/labels.json or the title logo (tools/logo.py) redraws."""
     import gfx
+    import logo
     import minifont
     slots = set(font.FONT_REFS) | set(font.names_refs(orig)) | set(minifont.REFS)
-    for off in gfx.block_offsets():
+    for off in gfx.block_offsets() | set(logo.block_offsets()):
         slots.update(gfx.refs(orig, off))
     for path in (ROOT / "script").glob("*.json"):
         for e in json.loads(path.read_text(encoding="utf-8"))["strings"]:
