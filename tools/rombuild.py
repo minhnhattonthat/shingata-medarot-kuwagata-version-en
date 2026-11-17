@@ -161,7 +161,9 @@ def build(orig, strings=None, relocate_all=False, poison=False, lang="en", scrip
         end = fontmod.font_stage(rom, max(FREE_START, len(rom.buf)))
         end = fontmod.names_stage(rom, end)
         import gfx
-        gfx.gfx_stage(rom, end)
+        import minifont
+        end = gfx.gfx_stage(rom, end)
+        minifont.stage(rom, end)
     report = text_stage(rom, load_script(lang, script), table, strings, relocate_all, poison)
     report.writes = rom.writes
     return rom.finish(), report

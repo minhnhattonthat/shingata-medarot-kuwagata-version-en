@@ -146,7 +146,10 @@ def paint(g, label, styles):
         x0, y0, ew, eh = e["rect"]
         for y in range(y0, y0 + eh):
             for x in range(x0, x0 + ew):
-                g[y][x] = g[y][e["copy_col"]] if "copy_col" in e else e["index"]
+                if "copy_off" in e:  # [dx, dy]: copy the pixel that far away (patterned grounds, e.g. an 8-px checker)
+                    g[y][x] = g[y + e["copy_off"][1]][x + e["copy_off"][0]]
+                else:
+                    g[y][x] = g[y][e["copy_col"]] if "copy_col" in e else e["index"]
     bx, by, bw, bh = label["box"]
     for item in label["text"]:
         st = styles[item.get("style", label.get("style"))]

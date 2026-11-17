@@ -36,7 +36,8 @@ def pointer_slots(orig):
     literals, every string slot of script/ (the code literals among them), and the literals of every graphics block
     gfx/labels.json redraws."""
     import gfx
-    slots = set(font.FONT_REFS) | set(font.names_refs(orig))
+    import minifont
+    slots = set(font.FONT_REFS) | set(font.names_refs(orig)) | set(minifont.REFS)
     for off in gfx.block_offsets():
         slots.update(gfx.refs(orig, off))
     for path in (ROOT / "script").glob("*.json"):
