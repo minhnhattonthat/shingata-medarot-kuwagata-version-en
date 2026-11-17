@@ -1,6 +1,7 @@
 # Byte ranges the English build may change (hex, inclusive), read by tests/test_build.py and tools/romcheck.py.
 # Anything else may only change as a logged 4-byte pointer word (original and new value both 0x08xxxxxx):
 # the font / name-charset literals and the 4 code-literal text pointers.
+07FB58-080060  staff-credit OAM slot immediates, one byte per `movs r1, #slot` (tools/credits.py)
 0C1414-0C157B  name-entry grid input codes (tools/nameentry.py)
 464000-511FFF  text region: strings rewritten in place, pointer tables, VWF advance table at 0x4645B8
 800000-FFFFFF  free space past the original 8 MiB: moved strings, the English font, the name charset

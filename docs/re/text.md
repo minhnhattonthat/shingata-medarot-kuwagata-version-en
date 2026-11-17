@@ -135,7 +135,8 @@ after the list (one pointer per entry). The FF-only pointer sweep below missed t
 | 0x50EF18 | 24 | tutorial topics: 「メダフォース」について ... |
 | 0x510C28 | 72 | **staff credits**: エグゼクティブプロデューサー ... and staff names (あきら, KIT ...) |
 
-So the credits are text, not graphics. Part, Medabot and medal names are all here. The 0x4B6478/0x4B6658 tables
+So the credits are text, not graphics (drawn as one 8x8 sprite per glyph into OAM records with a hard-coded first
+slot per line: `tools/credits.py` has the code map and re-sizes the slots for English). Part, Medabot and medal names are all here. The 0x4B6478/0x4B6658 tables
 point at fixed 13-byte records (`00` + up to 12 bytes, FF-padded: `00 0C 0A 0B FF..`, `00 02 09 08 0C 1C 1D 10 19 65 25
 FF FF`): values look like small indices, not words (guess: shop or event lists, not text). Check one in-game in phase 5
 before excluding them. Phase 4's extractor must take both string kinds (FF xx and FE).

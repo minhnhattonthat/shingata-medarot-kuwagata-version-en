@@ -166,7 +166,11 @@ def build(orig, strings=None, relocate_all=False, poison=False, lang="en", scrip
         end = minifont.stage(rom, end)
         import nameentry
         nameentry.stage(rom, end)
-    report = text_stage(rom, load_script(lang, script), table, strings, relocate_all, poison)
+    entries = load_script(lang, script)
+    if font:
+        import credits
+        credits.stage(rom, entries, table, strings)
+    report = text_stage(rom, entries, table, strings, relocate_all, poison)
     report.writes = rom.writes
     return rom.finish(), report
 
