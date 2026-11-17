@@ -82,6 +82,6 @@ def main(groups):
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
-    if len(sys.argv) < 2:
+    if len(sys.argv) < 2 or sys.argv[1] in ("-h", "--help"):  # "--help" once started a pipeline for group "--help"
         sys.exit(__doc__)
     sys.exit(main(sys.argv[1:]))
