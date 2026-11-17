@@ -2,7 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (L.ARM fixed, inkbox done; textcover sweep at 3791/8029 to resume, then the final tour + gate on the final build).
+- **Phase:** 9. Release: next (phase 8 done on build sha1 ef19ef1b...: smoke, visual gate and textcover all pass).
+- **Phase 8 session 13 (2026-11-17): phase 8 done.**
+  - Build unchanged (sha1 ef19ef1bc93c9ca6288f6d01a94b2021d3311976). Sweep and tour were started as detached
+    processes (`Start-Process python ...`), which Claude Code's memory reaper doesn't kill (it reaped only the
+    watcher shells).
+  - **textcover:** sweep runs 012-020 finished the list: `textcover.py work/qa/sweep build/medarot_kuwagata_en.strings.tsv
+    --mask 0x1FFFFFF --waive docs/text_unshown.tsv` -> **6901/8029 shown, 1128 waived, 0 failing, exit 0**.
+  - **Final tour:** `prove.py build/... --no-states --probes --qa work/qa/scenes_en12` 77/77 arrived; pair sheets
+    `work/qa/tour12` (13); fresh gate `work/qa/manifest.tsv` (+ `.build`; previous kept as `manifest_s11.tsv`).
+    Verdicts `work/qa/verdicts12/self_000.tsv`: 13/13 ok (my own fresh read-only pass: the codex run was reaped
+    for low memory). L.ARM box clean green. `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts12` exit 0.
+  - Smoke passes; `tools/check.py` 0 (48 tests). New `tools/qa_verdicts.py MANIFEST CHUNKS VERDICTS`: one
+    `codex exec -s read-only` per `qa_gate.py todo --out-dir` chunk (prompt on stdin: `-i` swallows a positional one).
+  - **Next (phase 9):** `docs/polish.md` unticked lines (e.g. "Speed & Mobility" topic title), story-pass verdicts
+    per chapter (`work/qa/story/manifest.tsv`), `tools/release.py` (does not exist yet: gate + textcover + jp_left +
+    debug tool off + patch build/re-apply/verify + zip), README with base ROM hashes.
 - **Phase 8 session 12 (2026-11-17): sweep resumed, reaped again at 3791 shown.**
   - Build unchanged. `sweep.py --jobs 1` ran runs 008-011 (~455 strings per run, no stalls) before Claude Code
     reaped it for low system memory (0.75 GB free of 15.5 afterwards; other processes on the machine). textcover on
