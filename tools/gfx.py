@@ -184,6 +184,17 @@ def compose(rom, label, styles):
     """(original raw, new raw) for a block label (the block is the image, `cols` tiles wide)."""
     mod = CODECS[label["codec"]]
     raw, _ = mod.decompress(rom, int(label["off"], 16))
+    if "patch" in label:  # {"byte offset (hex)": "hex bytes"}: data blocks such as a small map (no image, no box)
+        new = bytearray(raw)
+        for at, hx in label["patch"].items():
+            b = bytes.fromhex(hx)
+            new[int(at, 16):int(at, 16) + len(b)] = b
+        if len(new) != len(raw):
+            raise ValueError(f"{label['id']}: patch runs past the block")
+        return raw, bytes(new)
+    if "grow" in label:  # [tiles, fill index]: pad the block to that many tiles (the VRAM after it must be free)
+        n, fill = label["grow"]
+        raw = raw + bytes([fill | fill << 4]) * 32 * (n - len(raw) // 32)
     g = block_grid(raw, label)
     paint(g, label, styles)
     if "layout" in label:
@@ -439,7 +450,7 @@ def check(spec=None, rom=None):
         except ValueError as e:
             problems.append(str(e))
             continue
-        bad = outside_box_changes(orig, new, label)
+        bad = outside_box_changes(orig, new, label) if "patch" not in label else []
         if bad:
             problems.append(f"{label['id']}: {len(bad)} pixels changed outside the box, first {bad[0]}")
         mod = CODECS[label["codec"]]
