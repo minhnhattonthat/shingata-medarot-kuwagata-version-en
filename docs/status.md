@@ -2,9 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release done: `release/Shingata_Medarot_Kuwagata_EN_v1.0.zip` built and verified; publishing waits on the user.
-- **Waiting on the user:** publish v1.0 (`gh release create` is the owner's call; the zip, rebuilt with the
-  English logo, holds the .bps + README.txt).
+- **Phase:** 9. **v1.0 published 2026-11-17** by the user: https://github.com/minhnhattonthat/shingata-medarot-kuwagata-version-en/releases/tag/v1.0
+  (tag v1.0 = 772e259, asset Shingata_Medarot_Kuwagata_EN_v1.0.zip 336942 bytes, .bps SHA-1 524dd835...). Repo made
+  public, description set to the game title. Next: player bug reports (`gh issue list --label bug`).
 - **Phase 9 session 4 (2026-11-17): English title logo (D15, overrides D14).** `tools/logo.py gen` draws
   gfx/logo/bg0.png (letters) + bg1.png (sprue frame, plate, SHIN/GATA boxes) from the ROM's own title blocks; the
   build stage `logo.stage` reuses the logo-only tiles of Le block 786FC4 (block size unchanged, 18 freed tiles
