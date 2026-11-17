@@ -8,7 +8,7 @@ its block with `vramfind.py` over the scene shot (`work/qa/scenes_en/shots/<scen
 
 | Scene(s) | Japanese left |
 |---|---|
-| title, newgame_menu | logo 真型 メダロット (keep as logo or add an English subtitle: ruling needed, non-blocking), つづきから (not seen yet: needs a save; probably elsewhere in lz_72AC64). **Done:** はじめから -> NEW GAME, オプション -> OPTIONS (screen labels on tiles lz_72AC64 + map lz_72BF8C+10) |
+| title, newgame_menu | logo 真型 メダロット: kept as the original logo (D14), つづきから (not seen yet: needs a save; probably elsewhere in lz_72AC64). **Done:** はじめから -> NEW GAME, オプション -> OPTIONS (screen labels on tiles lz_72AC64 + map lz_72BF8C+10) |
 | options (same screen, BG0 rows 11-17 of map lz_72BF8C+10) | **Done** (session 5): ROBATTLE TIME, LONG / NORMAL / SHORT, ROBATTLE TEXT, ON / OFF (label6); つづきから -> CONTINUE (same map, rows 1-2) |
 | save_corrupt | **Done** (session 4): message in the dialogue font (lz_72DA44 / lz_72E878+10) |
 | sound_test (test mode) | **Done**: TEST MODE, MUSIC, SOUND FX, BACK (lz_72C710 / lz_72D4B8+10) |

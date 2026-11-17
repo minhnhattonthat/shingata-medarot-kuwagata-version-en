@@ -2,7 +2,28 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics redraws: sessions 4-8 done; left in `docs/graphics-todo.md`: robattle_intro box contents, title logo ruling).
+- **Phase:** 8. QA in the emulator: in progress (graphics redraws all done; left: pair sheets + visual-QA verdicts for the redrawn scenes, textcover, inkbox, three small findings).
+- **Phase 8 session 9 (2026-11-17): credits bug fixed, graphics list closed.**
+  - **Credits role lines fixed** (d5c677d): the credits are a sprite ticker, one 8x8 OBJ per glyph in the records
+    at 0x03001DE0 from a hard-coded first slot per line (`movs r1, #slot` before each 0x08042218 call in the page
+    switch 0x0807FAE0), sized for the JP, so English lines were overwritten by the next line. `tools/credits.py`
+    (build stage before the text stage) re-allocates the 45 slots from the English byte counts in two banks of 64
+    (even/odd pages; 11+12 together); `tests/test_credits.py`; allowed range 07FB58-080060. Verified all 15 pages
+    whole from a cold-boot warp (`work/qa/cr10/band*.png`). Build sha1 985eacc2..., romcheck 0, check.py 0 (48 tests).
+  - robattle_intro box contents are dialogue-font **text**, already English ("Grassland", "Boyoyo"; seen on the
+    story path at `warp.lua SCENE='robattle_prep'` ~f4260, `work/qa/rp_en/introz.png`). Medabot naming's default
+    name is the model name from the text tables (English: "Cervo" in an earlier shot), on the redrawn grid.
+    Title logo kept (D14). `docs/graphics-todo.md` has no open graphics row left.
+  - "Speed & Mobility" topic title vs Propulsion: in `docs/polish.md` (needs a 21-byte topic measurement).
+  - Started `prove.py build/medarot_kuwagata_en.gba --no-states --qa work/qa/scenes_en9 --jobs 1 --probes` (log
+    `work/qa/scenes_en9.log`); see "Next" for what was finished from it.
+  - **Next:** (1) finish the scene proof (rerun missing scenes with `--only`); (2) pair sheets EN|JP for every
+    scene (`sheet.py work/qa/scenes_en9/shots --compare work/qa/scenes/shots --cols 2 --max 6 --div 1`, the 7 newer
+    scenes need original shots first, see session 2), `qa_gate.py init`, verdicts with `codex exec` read-only per
+    `docs/visual-qa-brief.md` into `work/qa/verdicts/`; (3) textcover report on scenes_en9 + events_en, gaps ->
+    new scenes or `docs/text_unshown.tsv` waivers; (4) `inkbox.py` on choice/centred boxes (yes/no, shop confirm,
+    options, name entry buttons); (5) small findings: money digits squeezed (`work/qa/zoom/fm.png`), "Rubberobo
+    Medal" touching the x column (`work/qa/zoom/io.png`).
 - **Phase 8 session 8 (2026-11-17): name entry.**
   - **Done, verified in the emulator on the English build** (build sha1 cedd2689... before the SPACE relabel; commit
     0aab532): NAME ENTRY header, prompt, SPACE / BACK / OK buttons (すすむ types a blank: tested on the JP ROM),
