@@ -324,7 +324,7 @@
      "text": [{"s": "BACK", "x": "center", "y": 141, "style": "button6"}]},
     {"id": "name_entry.ok", "scene": "name_entry", "pal": 0, "tiles": "lz:72F06C", "map": "lz:73163C+10",
      "box": [168, 136, 40, 16], "erase": [{"rect": [168, 136, 40, 16], "index": 0}],
-     "text": [{"s": "OK", "x": "center", "y": 141, "style": "button6"}]},
+     "text": [{"s": "OK", "x": 178, "y": 141, "style": "button6"}]},
     {"id": "name_entry.grid_ABC", "scene": "name_entry", "pal": 0, "tiles": "lz:72F06C", "map": "lz:73163C+10",
      "box": [24, 56, 192, 80], "erase": [{"rect": [24, 56, 192, 80], "index": 0}],
      "text": [{"cells": "ABCDE FGHIJ KLMNO PQRST", "x": 28, "pitch": 8, "cell": 7, "y": 57, "style": "grid_dark"},
@@ -332,7 +332,7 @@
               {"cells": "!?&/: ()\";+", "x": 28, "pitch": 8, "cell": 7, "y": 89, "style": "grid_dark"},
               {"s": "ABC", "x": 183, "y": 89, "style": "grid_dark"},
               {"s": "abc", "x": 184, "y": 105, "style": "grid_dark"},
-              {"s": "123", "x": 184, "y": 121, "style": "grid_dark"}]},
+              {"s": "123", "x": 181, "y": 121, "style": "grid_dark"}]},
     {"id": "name_entry.grid_abc", "scene": "name_entry", "pal": 0, "tiles": "lz:72F06C", "map": "lz:7313EC+10",
      "box": [24, 56, 192, 80], "erase": [{"rect": [24, 56, 192, 80], "index": 0}],
      "text": [{"cells": "abcde fghij klmno pqrst", "x": 28, "pitch": 8, "cell": 7, "y": 57, "style": "grid_dark"},
@@ -340,13 +340,13 @@
               {"cells": "!?&/: ()\";+", "x": 28, "pitch": 8, "cell": 7, "y": 89, "style": "grid_dark"},
               {"s": "ABC", "x": 183, "y": 89, "style": "grid_dark"},
               {"s": "abc", "x": 184, "y": 105, "style": "grid_dark"},
-              {"s": "123", "x": 184, "y": 121, "style": "grid_dark"}]},
+              {"s": "123", "x": 181, "y": 121, "style": "grid_dark"}]},
     {"id": "name_entry.grid_123", "scene": "name_entry", "pal": 0, "tiles": "lz:72F06C", "map": "lz:7313EC+10",
      "box": [24, 168, 192, 80], "erase": [{"rect": [24, 168, 192, 80], "index": 0}],
      "text": [{"cells": "0123456789 .,'\"-:;()&/%", "x": 28, "pitch": 8, "cell": 7, "y": 169, "style": "grid_dark"},
               {"cells": "!?+…", "x": 28, "pitch": 8, "cell": 7, "y": 185, "style": "grid_dark"},
               {"s": "ABC", "x": 183, "y": 201, "style": "grid_dark"},
               {"s": "abc", "x": 184, "y": 217, "style": "grid_dark"},
-              {"s": "123", "x": 184, "y": 233, "style": "grid_dark"}]}
+              {"s": "123", "x": 181, "y": 233, "style": "grid_dark"}]}
   ]
 }

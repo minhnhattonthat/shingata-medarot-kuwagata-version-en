@@ -104,7 +104,9 @@ def text_stage(rom, entries, table, strings=None, relocate_all=False, poison=Fal
     for off, slots, text in entries:
         slots_of.setdefault(off, []).extend(slots)
         text_of[off] = text
-    free = max(FREE_START, len(rom.buf))
+    # text starts on a 64 KiB boundary after the font/graphics stages, so a small graphics fix doesn't move every
+    # string (textcover/sweep logs are keyed by string address and stay valid across such builds)
+    free = (max(FREE_START, len(rom.buf)) + 0xFFFF) & ~0xFFFF
     moved = []
     for off in sorted(slots_of):
         old = texttables.string_at(rom.orig, off)
