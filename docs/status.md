@@ -16,6 +16,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
     README filled (PATCHED_CRC32 placeholder: fill from the final build), `docs/jp_left_known.txt` (jp_left 0 runs).
     `tools/coverremap.py` carries the sweep's coverage to a build with moved text (old map
     `work/qa/sweep/strings_ef19ef1b.tsv`): 6901 shown, 0 failing on the edited build.
+  - **Story review reaped for low system memory** after 10/27 chapters (i01-i10; reports in
+    `work/qa/story/reports/`): 7 ok, 3 issue: i07 (court elder's reverential voice drifts to paternal address),
+    i08 (date reminder: Ikki asks what dating means instead of which date his mother meant), i10 (shopping-program
+    hint drops the TV title callback). Resume: `python -X utf8 tools/story.py review --jobs 1` (skips chapters with
+    a verdict; run with memory to spare or `CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP=1`), then fix the issues and
+    move every report's Minors into `docs/polish.md`.
   - **Left:** story verdicts + fixes; final tour on the final build (`prove.py build/... --no-states --probes --qa
     work/qa/scenes_en13`, pair sheets, `qa_gate.py init work/qa/manifest.tsv ... --build`, verdicts into
     `work/qa/verdicts_final` with `tools/qa_verdicts.py`); fill PATCHED_CRC32; `tools/release.py`.
