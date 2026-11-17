@@ -2,7 +2,23 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: next (phase 8 done on build sha1 ef19ef1b...: smoke, visual gate and textcover all pass).
+- **Phase:** 9. Release in progress (polish pass done; story pass running; then final tour + release).
+- **Phase 9 session 1 (2026-11-17):**
+  - **Polish pass done:** `docs/polish.md` all ticked. Fix batch `work/tl/p001` (63 lines, reviewers' suggestions,
+    refit where `batches.py check` failed) merged; きのうていし glossary row (broken / shut down); "Medabot professor"
+    lowercase as apposition. Waived with reasons: two 10-byte part names, 4EF03F (lint), the two topic titles (an
+    18-byte hard cap: a 21-byte title spilled into the row above, `work/qa/topics9/p2cmp.png`).
+  - `docs/style-reference.md` (codex draft, example ids verified). `docs/story-reviewer-brief.md`.
+  - **Story pass:** `tools/story.py chapters` (27 chapter files: Shingata story x5, fields x2, voices, tutorials,
+    battle, 17 Ikki tables) and `tools/story.py review --jobs 3` (codex read-only per chapter -> reports/,
+    verdicts/). Then `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"` + `check`.
+  - **Release tooling:** `tools/release.py` (all gates -> BPS -> re-apply -> `release/*.zip`), `docs/release-readme.txt`,
+    README filled (PATCHED_CRC32 placeholder: fill from the final build), `docs/jp_left_known.txt` (jp_left 0 runs).
+    `tools/coverremap.py` carries the sweep's coverage to a build with moved text (old map
+    `work/qa/sweep/strings_ef19ef1b.tsv`): 6901 shown, 0 failing on the edited build.
+  - **Left:** story verdicts + fixes; final tour on the final build (`prove.py build/... --no-states --probes --qa
+    work/qa/scenes_en13`, pair sheets, `qa_gate.py init work/qa/manifest.tsv ... --build`, verdicts into
+    `work/qa/verdicts_final` with `tools/qa_verdicts.py`); fill PATCHED_CRC32; `tools/release.py`.
 - **Phase 8 session 13 (2026-11-17): phase 8 done.**
   - Build unchanged (sha1 ef19ef1bc93c9ca6288f6d01a94b2021d3311976). Sweep and tour were started as detached
     processes (`Start-Process python ...`), which Claude Code's memory reaper doesn't kill (it reaped only the
