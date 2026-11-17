@@ -2,7 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics redraws: sessions 4-6 done 22 screens; rest of `docs/graphics-todo.md` next).
+- **Phase:** 8. QA in the emulator: in progress (graphics redraws: sessions 4-7 done; left in `docs/graphics-todo.md`: name_entry, robattle_intro box contents, title logo ruling).
+- **Phase 8 session 7 (2026-11-17): minigames + yes/no.**
+  - **Done, verified English in cold-boot `prove.py --no-states --qa work/qa/gfx10` shots** (build sha1 of 11be412):
+    corps_game (BOMBS, LIFE, CONTROLS, banner DEFEND / SELECT HQ!!), baseball (BALLS 10, 0 PTS, PLAY BALL!, SWING),
+    car_game (TIME 60, 0 PTS, MEDAKART RACE / START!!), yes/no window in save and parts_shop_confirm (YES / NO).
+    69 labels, `gfx.py check` 0, romcheck 0, `tools/check.py` 0 (43 tests).
+  - **New:** `tools/minifont.py` (build stage after gfx_stage): minigame counters are glyph lists in the text region
+    (0x50EB4C baseball, 0x50EC08 car) picking 8x16 glyphs from a raw font at literal 0x087C49CC + code*64; the font is
+    copied past 8 MiB with two-letter 3x7 cells, literals 0x77BE8/0x788E0 repointed (romcheck slots), lists rewritten.
+    `gfx.py`: erase `copy_off` [dx,dy] (patterned grounds), block `grow` [tiles, fill] (pad a tile block; check the VRAM
+    after it is free), block `patch` {hex offset: hex bytes} (small data/map blocks, no image). OBJ banners are block
+    labels with a sprite `layout` (1D mapping; tile numbers relative to the block's VRAM base; nulls for missing cells).
+    `tools/lua/ramwho.lua` (LO/HI): who writes a RAM range (found the yes/no layout as Le 0x511A20 via the Le writer's r4).
+  - **Next:** name_entry (title, prompt, mode tabs, kana grid -> English letter grid incl. input codes: biggest item),
+    robattle_intro box contents, title logo ruling (non-blocking). Then pair sheets + verdicts for every redrawn
+    scene (`qa_gate.py`), credits role buffer bug, textcover gaps, inkbox on choice/centred boxes.
 - **Phase 8 session 6 (2026-11-17): graphics redraws, batch 3.**
   - **Done, verified English in cold-boot shots** (`work/qa/gfx8`, `gfx8w` warp at 3600 frames, `gfx9`; build sha1
     a38b5b30...): parts detail (PARTS, -HELP, 11 stat labels: glossary terms), robattle_intro (ROBATTLE INFO,
