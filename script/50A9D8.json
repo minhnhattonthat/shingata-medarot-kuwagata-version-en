@@ -7138,7 +7138,7 @@
    "kind": "ff",
    "bytes": 398,
    "jp": "{face:001701}ひよこは いつか ニワトリになる・・{page}{face:001700}ひよこが ニワトリになったのか・・・{n}ニワトリが ひよこをうんだのか・・・{page}{face:010000}おじさんさ なに ブツブツいってんだよ ？{page}{face:001700}だから ロボロボだんが MーPKたいに・・・！？{page}{face:001702}・・・・・おおっ！{page}{face:010000}ロボロボだんと MーPKたいが{n}どうしたんだ？{page}{face:001702}あー それはだなぁ{n}・・・・・・・{page}・・・・・・・{page}{face:001700}・・・・・・！ そうそう {page}{face:010004}？{page}{face:001700}きょうも ロボロボだんが{page}{face:010004}うんっ？{page}{face:001700}MーPKたいに {page}{face:010004}うんうん{page}{face:001700}おいかけられてたなぁ と ・・・{page}{face:010000}・・・それだけ？{page}{face:001702}そうだ {n}だから きょうも へいわ だなぁ {page}と いっていたのさ{page}{face:010000}う〜ん？？？{page}なんか へんだけど{n}まっ いいや そんじゃねぇ{page}{face:001701}・・・ ふっ なんとか ごまかせたな ・・・{end:00}",
-   "en": "{face:001701}A chick grows up into a chicken...{page}{face:001700}Did the chick become a chicken...? Or did the chicken hatch a chick...?{page}{face:010000}Hey, mister, what are you muttering about?{page}{face:001700}So the Rubberobo Gang became M-PK...!?{page}{face:001702}...Whoa!{page}{face:010000}What about the{n}Rubberobo Gang and M-PK?{page}{face:001702}Uh, well, ya see...{page}...{page}{face:001700}...! Right, right!{page}{face:010004}?{page}{face:001700}Today, the Rubberobo Gang...{page}{face:010004}Yeah?{page}{face:001700}Well, M-PK...{page}{face:010004}Uh-huh?{page}{face:001700}Was chasing 'em again. That's all...{page}{face:010000}...That's it?{page}{face:001702}Right! So it's another peaceful day...{page}That's what I was sayin'.{page}{face:010000}Hmm???{page}Something's fishy, but whatever. See ya!{page}{face:001701}...Heh. Managed to talk my way{n}outta that one...{end:00}",
+   "en": "{face:001701}A chick grows up into a chicken...{page}{face:001700}Did the chick become a chicken...? Or did the chicken hatch a chick...?{page}{face:010000}Hey, mister, what are you muttering about?{page}{face:001700}So the Rubberobo Gang... and M-PK...!?{page}{face:001702}...Whoa!{page}{face:010000}What about the{n}Rubberobo Gang and M-PK?{page}{face:001702}Uh, well, ya see...{page}...{page}{face:001700}...! Right, right!{page}{face:010004}?{page}{face:001700}Today, the Rubberobo Gang...{page}{face:010004}Yeah?{page}{face:001700}Well, M-PK...{page}{face:010004}Uh-huh?{page}{face:001700}Was chasing 'em again. That's all...{page}{face:010000}...That's it?{page}{face:001702}Right! So it's another peaceful day...{page}That's what I was sayin'.{page}{face:010000}Hmm???{page}Something's fishy, but whatever. See ya!{page}{face:001701}...Heh. Managed to talk my way{n}outta that one...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -8324,7 +8324,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:010006}しゅっ{page}しゅくだい やってなかったーっ！！{end:00}",
-   "en": "{face:010006}My...{page}I didn't do my homework!!{end:00}",
+   "en": "{face:010006}H-home...{page}I didn't do my homework!!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -9731,7 +9731,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:004700}ありがとう さがしてきて くれたんだね{n}これは おれいだよ{end:00}",
-   "en": "{face:004700}Thank you for finding it for me. Here's something to thank you.{end:00}",
+   "en": "{face:004700}Thank you for finding it for me. Here's a little something in return.{end:00}",
    "status": "done",
    "notes": ""
   },

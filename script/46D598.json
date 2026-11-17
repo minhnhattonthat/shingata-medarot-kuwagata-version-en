@@ -574,7 +574,7 @@
    "kind": "ff",
    "bytes": 21,
    "jp": "{face:004100}ボクノ シジハ セイカクダヨ？{end:04}",
-   "en": "{face:004100}My commands are precise, you know.{end:04}",
+   "en": "{face:004100}MY COMMANDS ARE PRECISE.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -754,7 +754,7 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:005000}タコツボに してやるタコ〜！{end:04}",
-   "en": "{face:005000}I'll make you an octopus pot, octo!{end:04}",
+   "en": "{face:005000}I'll make you an octopus pot, tako!{end:04}",
    "status": "done",
    "notes": ""
   },

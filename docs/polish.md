@@ -97,3 +97,7 @@ script refuses to run while any line is unticked (references/translation.md §Re
 - [x] 4F8643 - "{var:01} yen lost." is stilted beside the other loss notices (i17) - fixed: "Lost {var:01} yen."
 - [x] 4FDAE0 - "You're my son, but even I'm impressed!" sounds backhanded (s1 part 1) - fixed: "You really have done your dad proud!"
 - [x] 500FC5 - "Medabots are an explosion" is awkwardly literal (s1 part 2) - fixed: "Medabots are a blast, my boy!" (keeps the explosion pun)
+- [x] 505976 - "My..." loses Gamma's "home-" stammer before "homework" (s1 part 3) - fixed: "H-home..."
+- [x] 506E65 - "Thank you... something to thank you" is repetitive (s1 part 4) - fixed: "Here's a little something in return."
+- [x] 46DEFB - the attendant's stretched delivery (46D396 "begiiin") is lost here (s3) - fixed: "taking off shooortly!"
+- [x] 50EE52 / 50EEAA - topic titles "MedalPart Affinity", "Speed & Mobility" (s4) - waived: same as above, topic rows are hard-capped at 18 bytes
