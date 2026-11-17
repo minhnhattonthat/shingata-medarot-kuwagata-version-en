@@ -1702,7 +1702,7 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:000800}ボロぞうきんに してやる！{end:00}",
-   "en": "{face:000800}I'll beat you to a rag!{end:00}",
+   "en": "{face:000800}I'll turn you into a dirty rag!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2038,7 +2038,7 @@
    "kind": "ff",
    "bytes": 72,
    "jp": "{face:001700}このあとは スペシャルゲストの しょうかいだ！{page}ビックリサイト いりぐちの しょうめんの とびらから{n}かいじょうに むかってくれい！{end:00}",
-   "en": "{face:001700}Next up, we'll introduce our special guest!{page}Head to the venue through the door straight ahead of Bikkuri Site's entrance!{end:00}",
+   "en": "{face:001700}Next up, we'll introduce our special guest!{page}Head to the venue through the door facing Surprise Site's entrance!{end:00}",
    "status": "done",
    "notes": ""
   },

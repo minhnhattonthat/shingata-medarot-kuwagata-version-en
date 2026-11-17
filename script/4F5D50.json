@@ -2232,7 +2232,7 @@
    "kind": "ff",
    "bytes": 89,
    "jp": "{face:010000}フユーンの メダロットが きょうぼうか しちゃったけど{page}アリカは ぶじかな？{n}なにがなんでも たどりつかなきゃ！{page}{face:010002}まってて アリカ{page}それから ヘベレケはかせ！{end:00}",
-   "en": "{face:010000}The Medabots on Fuyun have gone berserk...{page}Is Erika safe? I've got to reach her, no matter what!{page}{face:010002}Hang on, Erika!{page}And you too, Dr. Meta-Evil!{end:00}",
+   "en": "{face:010000}The Medabots on Fuyun have gone berserk...{page}Is Erika safe? I've got to reach her, no matter what!{page}{face:010002}Hang on, Erika!{page}And Dr. Meta-Evil... you're next!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2332,7 +2332,7 @@
    "kind": "ff",
    "bytes": 95,
    "jp": "{face:010000}フユーンの メダロットが きょうぼうか しちゃったけど{page}カリンちゃんは ぶじかな？{n}なにがなんでも たどりつかなきゃ！{page}{face:010002}まってて カリンちゃん{page}それから ヘベレケはかせ！{end:00}",
-   "en": "{face:010000}The Medabots on Fuyun have gone berserk...{page}Is Karin-chan safe? I've got to reach her, no matter what!{page}{face:010002}Hang on, Karin-chan!{page}And you too, Dr. Meta-Evil!{end:00}",
+   "en": "{face:010000}The Medabots on Fuyun have gone berserk...{page}Is Karin-chan safe? I've got to reach her, no matter what!{page}{face:010002}Hang on, Karin-chan!{page}And Dr. Meta-Evil... you're next!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2404,7 +2404,7 @@
    "kind": "ff",
    "bytes": 104,
    "jp": "{face:010000}フユーンの メダロットが きょうぼうか しちゃったけど{page}アリカと カリンちゃんは ぶじかな？{n}なにがなんでも たどりつかなきゃ！{page}{face:010002}まってて アリカ カリンちゃん{page}それから ヘベレケはかせ！{end:00}",
-   "en": "{face:010000}The Medabots on Fuyun have gone berserk...{page}Are Erika and Karin-chan safe? I've got to reach them, no matter what!{page}{face:010002}Hang on, Erika! Karin-chan!{page}And you too, Dr. Meta-Evil!{end:00}",
+   "en": "{face:010000}The Medabots on Fuyun have gone berserk...{page}Are Erika and Karin-chan safe? I've got to reach them, no matter what!{page}{face:010002}Hang on, Erika! Karin-chan!{page}And Dr. Meta-Evil... you're next!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2728,7 +2728,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:010000}そうだ！ デートって なんのことか ママに{n}きいとかなきゃ{end:00}",
-   "en": "{face:010000}Oh, right! I've got to ask Mom what a date is.{end:00}",
+   "en": "{face:010000}Oh, right! I've got to ask Mom what she meant about a date.{end:00}",
    "status": "done",
    "notes": ""
   },

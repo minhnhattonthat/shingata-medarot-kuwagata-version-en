@@ -418,7 +418,7 @@
    "kind": "ff",
    "bytes": 180,
    "jp": "{face:010000}あれ？ アリカ どこに いくんだ？{page}{face:000200}どこって？{n}あたしは おとなりの メダロポリスへ いくとこ{page}とくダネの においが するのよね！{page}{face:010000}・・・って いうと？{page}{face:000200}しらないの？ メダロポリスに 「かしこいロボロボだん」が{n}でるって ウワサ{page}{face:010000}なに それ？{page}{face:000200}ともかく あたしは はやく しゅざいに いかなきゃ{n}それじゃあね{end:00}",
-   "en": "{face:010000}Huh? Erika, where are you going?{page}{face:000200}Where? Next door to Medalopolis.{page}I smell a scoop!{page}{face:010000}...What do you mean?{page}{face:000200}Haven't you heard? They say there's a \"clever Rubberobo Gang\"{page}showing up in Medalopolis!{page}{face:010000}What's that supposed to mean?{page}{face:000200}Anyway, I've got reporting{n}to do. See you!{end:00}",
+   "en": "{face:010000}Huh? Erika, where are you going?{page}{face:000200}Where? Next door to Medalopolis.{page}I smell a scoop!{page}{face:010000}...What do you mean?{page}{face:000200}Haven't you heard? They say there's a \"clever Rubberobo Gang member\"{page}showing up in Medalopolis!{page}{face:010000}What's that supposed to mean?{page}{face:000200}Anyway, I've got reporting{n}to do. See you!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -538,7 +538,7 @@
    "kind": "ff",
    "bytes": 73,
    "jp": "{face:003E00}さいきん かしこい ロボロボだんが みんなを{n}こまらせてるで あります{page}かしこい ロボロボだんほど やっかいな ものは{n}ないであります{end:00}",
-   "en": "{face:003E00}A clever Rubberobo Gang has been causing trouble for everyone lately!{page}Nothing is more troublesome than a clever Rubberobo Gang!{end:00}",
+   "en": "{face:003E00}A clever Rubberobo Gang member has been causing trouble lately!{page}Nothing is more troublesome than a clever Rubberobo Gang member!{end:00}",
    "status": "done",
    "notes": ""
   },

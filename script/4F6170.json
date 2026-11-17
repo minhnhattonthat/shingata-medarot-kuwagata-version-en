@@ -3155,7 +3155,7 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{face:010008}「ゆうえんちに{n}{var:00}くんを{page}ごしょうたい したでしゅ{n}サラミちゃんより」だって！{end:00}",
-   "en": "{face:010008}\"I've invited {var:00}-kun...{page}...to the amusement park, yesh I did!{page}From Salami-chan.\" That's what it says!{end:00}",
+   "en": "{face:010008}\"I've invited {var:00}-kun...{page}...to the amusement pawk!{page}Fwom Salami-chan.\" That's what it says!{end:00}",
    "status": "done",
    "notes": ""
   },

@@ -3203,7 +3203,7 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:010000}「ちゅうけん ボナパルトの ぞう」{n}ちょっと ソルティにも にてる{end:00}",
-   "en": "{face:010000}\"Statue of Bonaparte, the Faithful Dog.\" He looks a bit like Salty.{end:00}",
+   "en": "{face:010000}\"Statue of Bonaparte, the Loyal Dog.\"{n}He looks a bit like Salty.{end:00}",
    "status": "done",
    "notes": ""
   },

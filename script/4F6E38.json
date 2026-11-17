@@ -1684,7 +1684,7 @@
    "kind": "ff",
    "bytes": 91,
    "jp": "{face:000404}おやじさんに はなしを きいたんなら はやく{n}アリカちゃんの とこへ いってやれよな{page}おまえらのことに おれが くちをはさんでも{n}しょーがねーけど{page}・・・まっ ガンバレよ{end:00}",
-   "en": "{face:000404}If you've talked to her dad, hurry over to Erika-chan.{page}Not that there's any point in me sticking my nose into your business...{page}...Well, good luck.{end:00}",
+   "en": "{face:000404}If you've talked to Karin's dad, hurry over to Erika-chan.{page}Not that there's any point in me sticking my nose into your business...{page}...Well, good luck.{end:00}",
    "status": "done",
    "notes": ""
   },

@@ -3586,7 +3586,7 @@
    "kind": "ff",
    "bytes": 78,
    "jp": "{face:000208}え！？ あんた きょうが なんのひか しらないの？{page}しゅうかん メダロット みてるんでしょ！？{page}とにかく あたし いそぐから！{n}また あとでね！{end:00}",
-   "en": "{face:000208}Huh!? Don't you know what day it is?{page}You read Medabot Weekly, don't you!?{page}Anyway, I've got to hurry! See you later!{end:00}",
+   "en": "{face:000208}Huh!? Don't you know what day it is?{page}You watch Weekly Medabot, don't you!?{page}Anyway, I've got to hurry! See you later!{end:00}",
    "status": "done",
    "notes": ""
   },

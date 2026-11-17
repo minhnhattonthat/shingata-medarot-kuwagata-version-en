@@ -658,7 +658,7 @@
    "kind": "ff",
    "bytes": 88,
    "jp": "{face:004E00}こうはん じゅんけっしょう{n}ウィナー {var:00}くん！{page}{face:004A00}キョウのハイボク アシタのウィナー！{n}・・・ニッポンゴ むつかしのね{page}{face:010005}もうしゃべらなくて いいって{end:00}",
-   "en": "{face:004E00}The winner of the second semifinal is {var:00}-kun!{page}{face:004A00}Today's loser, tomorrow's winner! ...Japanese is difficult, yes.{page}{face:010005}You can stop talking now.{end:00}",
+   "en": "{face:004E00}The winner of the second half's{n}semifinal is {var:00}-kun!{page}{face:004A00}Today's loser, tomorrow's winner! ...Japanese is difficult, yes.{page}{face:010005}You can stop talking now.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -682,7 +682,7 @@
    "kind": "ff",
    "bytes": 71,
    "jp": "{face:004E00}こうはん じゅんけっしょう{n}ウィナー {var:00}くん！{page}{face:004B00}さあ にるなり やくなり すきにするがよい{page}{face:010000}なにも したくないよ{end:00}",
-   "en": "{face:004E00}The winner of the second semifinal is {var:00}-kun!{page}{face:004B00}Boil me, roast me... Do with me as you will.{page}{face:010000}I don't want to do anything.{end:00}",
+   "en": "{face:004E00}The winner of the second half's{n}semifinal is {var:00}-kun!{page}{face:004B00}Boil me, roast me... Do with me as you will.{page}{face:010000}I don't want to do anything.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3287,7 +3287,7 @@
    "kind": "ff",
    "bytes": 123,
    "jp": "{face:010000}「セレクトほんぶを まもれ」？{page}{face:000202}いま むこうで おとこのこが やってるわ{page}どんな ゲームかって？ とにかく ロボロボだんが{n}なげてくる ばくだんを とめれば いいのよ{page}やってみれば すぐ わかるわよ{page}{face:010000}そっか わかった！{end:00}",
-   "en": "{face:010000}\"Defend Select Headquarters\"?{page}{face:000202}That boy over there is playing it now.{page}What kind of game is it? You just stop the bombs the Rubberobo Gang throws.{page}You'll get it once you try it.{page}{face:010000}Oh, okay!{end:00}",
+   "en": "{face:010000}\"Defend Select Corps HQ!\"?{page}{face:000202}That boy over there is playing it now.{page}What kind of game is it? You just stop the bombs the Rubberobo Gang throws.{page}You'll get it once you try it.{page}{face:010000}Oh, okay!{end:00}",
    "status": "done",
    "notes": ""
   },

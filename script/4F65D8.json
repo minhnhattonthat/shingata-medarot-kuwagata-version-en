@@ -1366,7 +1366,7 @@
    "kind": "ff",
    "bytes": 65,
    "jp": "{face:010000}ヒントが かいてある{page}「はるかなる むかしの みやこ」{page}{face:010005}まさか・・・コーダイン？{n}どうやって かくすの・・・？{end:00}",
-   "en": "{face:010000}There's a hint here.{page}\"A capital from the distant past.\"{page}{face:010005}Don't tell me... Kodain? How did they hide it there...?{end:00}",
+   "en": "{face:010000}There's a hint here.{page}\"A capital from the distant past.\"{page}{face:010005}Don't tell me... Kodine? How did they hide it there...?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1438,7 +1438,7 @@
    "kind": "ff",
    "bytes": 62,
    "jp": "{face:010000}ヒントが かいてある{page}「おくさま ショッピング？」{page}{face:010005}どこかで きいたことが あるような ないような・・・{end:00}",
-   "en": "{face:010000}There's a hint here.{page}\"Shopping for the lady of the house?\"{page}{face:010005}That sounds sort of familiar...{n}Or does it?{end:00}",
+   "en": "{face:010000}There's a hint here.{page}\"Housewives' Shopping?\"{page}{face:010005}That sounds sort of familiar...{n}Or does it?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3058,7 +3058,7 @@
    "kind": "ff",
    "bytes": 22,
    "jp": "{face:001600}「しゅうかんメダロット」みてる？{end:00}",
-   "en": "{face:001600}Do you read \"Medabot Weekly\"?{end:00}",
+   "en": "{face:001600}Do you watch \"Weekly Medabot\"?{end:00}",
    "status": "done",
    "notes": ""
   },

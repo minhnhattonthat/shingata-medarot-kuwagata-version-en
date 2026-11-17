@@ -2362,7 +2362,7 @@
    "kind": "ff",
    "bytes": 185,
    "jp": "{face:000902}うっ うっ ぅっ{page}{face:010005}こんなことを して どうする つもり だったんだ？{n}ないてちゃ わからないよ{page}{face:000902}ぅっうえーん しらなかったんだ{n}ボク こんなことに なるなんて{page}ボクは いわれた ように やった だけなんだ{page}こうすれば ボクにもトモダチが できるって{n}がくえんちょうが・・・{page}{face:010008}がくえんちょう！？{page}{face:000902}うわーん しらなかったんだよぅ！{end:00}",
-   "en": "{face:000902}Sniff... Sob...{page}{face:010005}What were you trying to do? I can't understand you if you keep crying.{page}{face:000902}Waaah! I didn't know! I didn't know this would happen!{page}I only did what I was told.{page}The headmaster said I'd make friends{n}if I did this...{page}{face:010008}The headmaster!?{page}{face:000902}Waaah! I didn't knooow!{end:00}",
+   "en": "{face:000902}Sniff... Sob...{page}{face:010005}What were you trying to do? I can't understand you if you keep crying.{page}{face:000902}Waaah! I didn't know! I didn't know this would happen!{page}I only did what I was told.{page}The principal said I'd make friends{n}if I did this...{page}{face:010008}The principal!?{page}{face:000902}Waaah! I didn't knooow!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2374,7 +2374,7 @@
    "kind": "ff",
    "bytes": 75,
    "jp": "{face:010008}あっ まってよ！{page}{face:010000}あーあ にげられちゃった{page}でも いまは とりあえず ハチロウが いってた{n}がくえんちょうの はなしが きになるな{end:00}",
-   "en": "{face:010008}Hey, wait!{page}{face:010000}Aw, he got away.{page}But right now, I'm more worried about what Hachiro said about the headmaster.{end:00}",
+   "en": "{face:010008}Hey, wait!{page}{face:010000}Aw, he got away.{page}But right now, I'm more worried about what Hachiro said about the principal.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2386,7 +2386,7 @@
    "kind": "ff",
    "bytes": 75,
    "jp": "{face:010008}あっ まってよ！{page}{face:010000}あーあ にげられちゃった{page}でも いまは とりあえず ハチロウが いってた{n}がくえんちょうの はなしが きになるな{end:00}",
-   "en": "{face:010008}Hey, wait!{page}{face:010000}Aw, he got away.{page}But right now, I'm more worried about what Hachiro said about the headmaster.{end:00}",
+   "en": "{face:010008}Hey, wait!{page}{face:010000}Aw, he got away.{page}But right now, I'm more worried about what Hachiro said about the principal.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2446,7 +2446,7 @@
    "kind": "ff",
    "bytes": 81,
    "jp": "{face:001700}ぷはぁ たすかった{page}{face:010000}だいじょうぶ ですか？{n}その・・・{page}{face:001700}ふぅ たすかったよ すまないね{page}わたしは ここの がくえんちょうの ハナムラだ{end:00}",
-   "en": "{face:001700}Phew! I'm saved!{page}{face:010000}Are you all right? Um...{page}{face:001700}Whew, you saved me. Thank you.{page}I'm Hanamura, the headmaster here.{end:00}",
+   "en": "{face:001700}Phew! I'm saved!{page}{face:010000}Are you all right? Um...{page}{face:001700}Whew, you saved me. Thank you.{page}I'm Hanamura, the principal here.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2470,7 +2470,7 @@
    "kind": "ff",
    "bytes": 148,
    "jp": "{face:010000}わかりました！・・・でも どうして{n}がくえんの なかに かくしとびら なんかが？{page}{face:001700}わたしの ひみつの メダル コレクションの へやだ{page}やつらめ！{n}わたしの コレクションを！{page}{face:010001}がくえんちょうも メダロットが すきなんですね！{page}{face:010004}じゃあ あとのこと おねがいします！{end:00}",
-   "en": "{face:010000}Got it! ...But why is there a hidden{n}door in the academy?{page}{face:001700}It leads to my secret Medal collection.{page}Those scoundrels! My collection!{page}{face:010001}You like Medabots too, Headmaster!{page}{face:010004}Then I'll leave things here to you!{end:00}",
+   "en": "{face:010000}Got it! ...But why is there a hidden{n}door in the academy?{page}{face:001700}It leads to my secret Medal collection.{page}Those scoundrels! My collection!{page}{face:010001}You like Medabots too, Principal!{page}{face:010004}Then I'll leave things here to you!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2566,7 +2566,7 @@
    "kind": "ff",
    "bytes": 42,
    "jp": "{face:000202}はなしてよ！{n}しらべは ついてんのよ！{page}ここの がくえんちょうが・・・！{end:00}",
-   "en": "{face:000202}Let go! I've got the facts!{page}The headmaster here is...!{end:00}",
+   "en": "{face:000202}Let go! I've got the facts!{page}The principal here is...!{end:00}",
    "status": "done",
    "notes": ""
   },

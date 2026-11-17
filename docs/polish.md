@@ -77,3 +77,18 @@ script refuses to run while any line is unticked (references/translation.md §Re
 - [x] 50EEAA - topic title "Speed & Mobility" translates 「すいしん」と「きどう」について but the topic text and glossary say Propulsion (visual QA sheet_4). "Propulsion & Mobility" is 21 bytes; `tutorial_topic` is measured to 18 bytes only (ruler size, px cap 148). Measure a 21-byte title in field_help (all encyclopedia bits set) and widen windows.json if it draws whole, else pick an 18-byte form (found in phase 8) - waived: topic rows are hard-capped at 18 bytes ("Propulsion & Mobility" spilled "ty" into the row above, work/qa/topics9/p2cmp.png); "Speed & Mobility" kept, the lesson text says Propulsion
 - [x] 50EE52 - "MedalPart Affinity" lost its separator: try "Medal/Part Match" or "Part Affinity" with batches.py fit (review item 14) - waived: topic rows are hard-capped at 18 bytes (a longer title spills into the row above, work/qa/topics9); "MedalPart Affinity" is the only form with Medal, part and affinity in 18
 - [x] 4B7E4A - 「こんにちは メダロットはかせ」 means “Hello, Dr. Aki!” - The name is fixed, but “Medabot Professor Dr. Aki” stacks titles unnaturally in a child’s greeting; simplify during polish - Suggested EN: `{face:010004}Hello, Dr. Aki!{page}{face:001300}Hm? Oh, it's you, my boy. You do visit often.{page}I'm a busy man, you know. Err...{page}{face:010004}Aw, Professor! Please remember my name already.{page}I'm...{end:00}` (b011.rereview1.md) - fixed: "Hello, Medabot Professor!" (vocative); appositive "the Medabot professor" lowercase everywhere
+
+## From the phase 9 story pass (work/qa/story/reports/<chapter>.md, Minor sections)
+- [x] 4B86D5 - しゅうかんメダロット is "Weekly Medabot" in most lines but "Medabot Weekly" here (i01) - fixed: "Weekly Medabot" everywhere (also 4F4654, 4F65D8, 50E8F4 x2, where "read" became "watch": みてる)
+- [x] 4BECB8 - こうちょう is "principal" then "headmaster" during the reveal (also 4BED71, 4BEDBC, 4BEE50, 4BEF60, 4BF1A2) (i02) - fixed: "principal" throughout table 4F429C
+- [x] 4C5895 - "Bikkuri Site" vs "Surprise Site" (4C46F9, 4C4918) (i04) - fixed: "Surprise Site" (and "the door facing" to fit two lines)
+- [x] 4C5095 - "I'll beat you to a rag!" is awkward (i04) - fixed: "I'll turn you into a dirty rag!"
+- [x] 4C7D64 - "a clever Rubberobo Gang" reads as a whole group; one member is meant (also 4C7F39) (i05) - fixed: "clever Rubberobo Gang member"
+- [x] 4CF021 - "Faithful Dog" vs "Loyal Dog" at 4CC128 on the same statue (i06) - fixed: "Loyal Dog"
+- [x] 4D5B58 - "Hang on" carries over to Dr. Meta-Evil, the threat reads as reassurance (also 4D5FDE, 4D62B7) (i08) - fixed: "And Dr. Meta-Evil... you're next!"
+- [x] 4DA3ED - Salami's letter says "yesh" where her other letter (4D6CFD) uses w-for-r baby talk (i09) - fixed: "amusement pawk! Fwom Salami-chan."
+- [x] 4DC331 - "Kodain" vs glossary "Kodine" (i10) - fixed
+- [x] 4DEE59 - "second semifinal" vs the announcer's "second half's ... round" pattern (also 4DEF53) (i11) - fixed: "The winner of the second half's{n}semifinal"
+- [x] 4E1793 - English is blank (i11) - waived: the JP is only {face:000200}{var:00} (Erika saying the player's name); an empty en keeps those bytes, which are language-neutral
+- [x] 4E1F8C - "Defend Select Headquarters" vs "Defend Select Corps HQ!" at 4DE795 (i11) - fixed
+- [x] 4E468B - "her dad" right before "Erika-chan" suggests Erika's father; Karin's is meant (i12) - fixed: "Karin's dad"

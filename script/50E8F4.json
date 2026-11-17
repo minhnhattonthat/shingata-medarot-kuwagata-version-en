@@ -34,7 +34,7 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:012500}「しゅうかんメダロット」の じかんが やってきました〜！{end:02}",
-   "en": "{face:012500}It's time for \"Medabot Weekly\"!{end:02}",
+   "en": "{face:012500}It's time for \"Weekly Medabot\"!{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -190,7 +190,7 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "{face:012500}これからも 「しゅうかんメダロット」を よろしくね！{end:02}",
-   "en": "{face:012500}Keep tuning in to \"Medabot Weekly\"!{end:02}",
+   "en": "{face:012500}Keep tuning in to \"Weekly Medabot\"!{end:02}",
    "status": "done",
    "notes": ""
   },

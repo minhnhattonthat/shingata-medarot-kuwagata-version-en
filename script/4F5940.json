@@ -2686,7 +2686,7 @@
    "kind": "ff",
    "bytes": 113,
    "jp": "{face:004500}こういう わけですじゃ！{page}みな ブルーハワイと そのてしたに くるしめられて{n}おりますじゃ{page}この おおいなる わざわいを ふりはらえるのは{n}じくうをこえて やってきた ゆうしゃさま だけですじゃ！{page}たのみましたぞ！{end:00}",
-   "en": "{face:004500}That is how matters stand, my boy!{page}Everyone is suffering at the hands of Blue Hawaii and his servants.{page}Only you, the hero who has crossed time and space, can dispel this great calamity!{page}We are counting on you, my boy!{end:00}",
+   "en": "{face:004500}That is how matters stand!{page}Everyone is suffering at the hands of Blue Hawaii and his servants.{page}Only you, the hero who has crossed time and space, can dispel this great calamity!{page}We are counting on you, O hero!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2722,7 +2722,7 @@
    "kind": "ff",
    "bytes": 134,
    "jp": "{face:004500}おお ゆうしゃさま ひめさまは みつかりましたかの？{page}{face:010000}あなたは だいしんかんさん{n}・・・でしたっけ？{page}{face:004500}あたりですじゃ！{n}それで ひめさまは・・・{page}{face:010004}ぶじですよ{n}ちゃんと みつけました{page}{face:004500}それは なによりですじゃ{n}では その・・・{end:00}",
-   "en": "{face:004500}Ah, noble hero! Have you found Her Highness, eh?{page}{face:010000}You're the high priest-san... Right?{page}{face:004500}Indeed I am! Now, about Her Highness...{page}{face:010004}She's safe. I found her.{page}{face:004500}That is wonderful news, my boy. Then, well...{end:00}",
+   "en": "{face:004500}Ah, noble hero! Have you found Her Highness, eh?{page}{face:010000}You're the high priest-san... Right?{page}{face:004500}Indeed I am! Now, about Her Highness...{page}{face:010004}She's safe. I found her.{page}{face:004500}Wonderful news, noble hero! Then, well...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2734,7 +2734,7 @@
    "kind": "ff",
    "bytes": 114,
    "jp": "{face:010004}わかってますよ まもののことでしょ？{n}ぼくが なんとかします{page}こうなったら さいごまで やるだけです{page}じゃないと ぼく もとのせかいに かえして{n}もらえないんでしょ？{page}{face:004500}そっ それは その{n}・・・たのみましたぞ{end:00}",
-   "en": "{face:010004}I know. The monster, right? I'll do something about it.{page}I've come this far. I might as well see it through.{page}Otherwise, you won't send me back to my world, will you?{page}{face:004500}W-well, that is... We are counting on you, my boy.{end:00}",
+   "en": "{face:010004}I know. The monster, right? I'll do something about it.{page}I've come this far. I might as well see it through.{page}Otherwise, you won't send me back to my world, will you?{page}{face:004500}W-well, that is... We are counting on you, O hero.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2854,7 +2854,7 @@
    "kind": "ff",
    "bytes": 115,
    "jp": "{face:010000}あのー ぼくは どうやって かえれば いいのでしょう？{page}{face:004500}そうじゃのぅ・・・{page}ブルーハワイは はなれ こじまの 「ハワイとう」に{n}すんでいる{page}たいそう おおきな ばけものじゃそうな{page}{face:010005}いや そうじゃなくって{end:00}",
-   "en": "{face:010000}Um, how am I supposed to get home?{page}{face:004500}Well now...{page}Blue Hawaii lives on a remote little island{n}called Hawaii Island.{page}They say he is quite an enormous monster, my boy.{page}{face:010005}No, that's not what I meant.{end:00}",
+   "en": "{face:010000}Um, how am I supposed to get home?{page}{face:004500}Well now...{page}Blue Hawaii lives on a remote little island{n}called Hawaii Island.{page}They say he is quite an enormous monster.{page}{face:010005}No, that's not what I meant.{end:00}",
    "status": "done",
    "notes": ""
   },
