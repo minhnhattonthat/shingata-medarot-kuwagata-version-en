@@ -3,8 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 9. Release done: `release/Shingata_Medarot_Kuwagata_EN_v1.0.zip` built and verified; publishing waits on the user.
-- **Waiting on the user:** publish (`gh release create` is the owner's call); rebuild the release zip first, the
-  v1.0 zip predates the English logo.
+- **Waiting on the user:** publish v1.0 (`gh release create` is the owner's call; the zip, rebuilt with the
+  English logo, holds the .bps + README.txt).
 - **Phase 9 session 4 (2026-11-17): English title logo (D15, overrides D14).** `tools/logo.py gen` draws
   gfx/logo/bg0.png (letters) + bg1.png (sprue frame, plate, SHIN/GATA boxes) from the ROM's own title blocks; the
   build stage `logo.stage` reuses the logo-only tiles of Le block 786FC4 (block size unchanged, 18 freed tiles
@@ -12,7 +12,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   at 077518/077524/077528. tests/test_logo.py: the blocks draw exactly the PNGs and leave BG0/BG1 rows 10-19 and
   all BG2/BG3 tiles unchanged. Build sha1 49d5dc5b8ed084fb8b18cc319331cf4b3d4259e4, romcheck 0, check.py 50 passed
   + lint 0. Cold-boot shots `work/qa/logo_en` (fade-in, title, fade-out, options screen fine).
-  **v1.0 zip is now stale:** rerun `tools/release.py --version 1.0` (or 1.1) before publishing.
+  v1.0 zip rebuilt (`release.py --version 1.0 --force`, every gate passed): BPS 756867 bytes, patched CRC32
+  0807CCF7 (README.md + docs/release-readme.txt updated), zip 336942 bytes. The visual-tour gate passed on the
+  user's hotfix waiver for build 49d5dc5b (logo-only change); the story manifest isn't build-bound and passed 27/27.
 - **Phase 9 session 3 (2026-11-17):** nothing left to build. The skill's release guard hook runs `qa_gate check`
   on `verdicts/` beside each manifest, and `work/qa/verdicts/` still held a stale 09:22 round (11 ISSUEs on
   menus translated since; tour13 sheets show them in English). Moved it to `work/qa/verdicts_stale_0922` and copied

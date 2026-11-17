@@ -32,7 +32,7 @@ row ("Speed & Mobility", "MedalPart Affinity").
 | CRC32 | 0FD35628 |
 | MD5 | d1415b84b039a978bdb920f917959779 |
 | SHA-1 | 573e980dffdee50d53b6f2a79d1db2d650731558 |
-| Patched | 9,437,184 bytes (the English text lives in an added 1 MiB), CRC32 87EE2611 |
+| Patched | 9,437,184 bytes (the English text lives in an added 1 MiB), CRC32 0807CCF7 |
 
 Tested in MesenCE 2.2.1 with the official GBA BIOS. Start from a cold boot: emulator savestates made on the Japanese game
 carry its old text and font code and will show garbled text.
