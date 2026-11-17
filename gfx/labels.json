@@ -200,7 +200,7 @@
      "box": [16, 40, 48, 16], "erase": [{"rect": [16, 40, 48, 16], "copy_col": 18}],
      "text": [{"s": "R.ARM", "x": "center", "y": 44, "style": "label6"}]},
     {"id": "parts_shop.larm", "scene": "parts_shop_type", "pal": 1, "tiles": "lz:733100", "map": "lz:734790+10",
-     "box": [96, 40, 48, 16], "erase": [{"rect": [96, 40, 48, 16], "copy_col": 100}],
+     "box": [96, 40, 48, 16], "erase": [{"rect": [96, 40, 48, 16], "copy_col": 94}],
      "text": [{"s": "L.ARM", "x": "center", "y": 44, "style": "label6"}]},
     {"id": "parts_shop.legs", "scene": "parts_shop_type", "pal": 1, "tiles": "lz:733100", "map": "lz:734790+10",
      "box": [56, 64, 48, 16], "erase": [{"rect": [56, 64, 48, 16], "copy_col": 60}],
