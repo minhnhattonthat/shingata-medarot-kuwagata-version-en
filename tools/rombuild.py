@@ -163,7 +163,9 @@ def build(orig, strings=None, relocate_all=False, poison=False, lang="en", scrip
         import gfx
         import minifont
         end = gfx.gfx_stage(rom, end)
-        minifont.stage(rom, end)
+        end = minifont.stage(rom, end)
+        import nameentry
+        nameentry.stage(rom, end)
     report = text_stage(rom, load_script(lang, script), table, strings, relocate_all, poison)
     report.writes = rom.writes
     return rom.finish(), report

@@ -12,7 +12,7 @@ its block with `vramfind.py` over the scene shot (`work/qa/scenes_en/shots/<scen
 | options (same screen, BG0 rows 11-17 of map lz_72BF8C+10) | **Done** (session 5): ROBATTLE TIME, LONG / NORMAL / SHORT, ROBATTLE TEXT, ON / OFF (label6); つづきから -> CONTINUE (same map, rows 1-2) |
 | save_corrupt | **Done** (session 4): message in the dialogue font (lz_72DA44 / lz_72E878+10) |
 | sound_test (test mode) | **Done**: TEST MODE, MUSIC, SOUND FX, BACK (lz_72C710 / lz_72D4B8+10) |
-| name_entry | ネームエントリー, なまえを10もじいないで にゅうりょくしてください, カタカナ / ひらがな / えいすうじ, すすむ / もどる / けってい, the kana grid (needs an English letter grid: input codes too) |
+| name_entry | **Done** (session 8): NAME ENTRY, prompt "Enter a name, / up to 10 letters.", buttons SPACE (すすむ types a blank and advances) / BACK (deletes) / OK, tabs ABC / abc / 123, three letter grids (screen mode over tiles lz_72F06C, `fixed_tiles`: VRAM after the block is in use; page 1 on BG1 map lz_73163C, pages 2-3 on BG0 map lz_7313EC rows 7-15 / 21-29; text items with `cells`). Input codes: `tools/nameentry.py` rewrites the grid table 0x0C1414 (3 pages x 5 rows x 24 bytes, FF gap, FB-FD tabs, FE row end) and the default name ガンマ (0x50C620 via 0x50C624) -> Gamma. Verified in the emulator: typing, page switching, SPACE/BACK/OK, gap rows |
 | field_menu | **Done** (pilot): MEDAWATCH / ITEMS / HELP / SAVE (Le 54C27C/54C420/54C5A0/54C72C), money 円 -> ¥ (Le 56C920 tile 0; names charset C5 too). Other screens with a money box may load their own 円 copy: check |
 | items, items_owned | **Done**: ITEMS, Use item, Sort (lz_7281F8 is a `fixed_tiles` block: the page digits sit right after it with hard-coded tile numbers) |
 | field_help (encyclopedia) | **Done**: the heading is the field-menu HELP block le_54C5A0 (pilot) |

@@ -43,3 +43,23 @@ def test_one_label_per_block():
     spec = gfx.load_spec()
     dup = [lb for lb in spec["labels"] if "map" not in lb][:1] * 2
     assert any("in 2 labels" in p for p in gfx.check(dict(spec, labels=dup)))
+
+
+def test_name_entry_grid_matches_input_codes():
+    """The letters drawn on each name-entry page are the ones its cells type (tools/nameentry.py)."""
+    import nameentry
+    labels = {lb["id"]: lb for lb in gfx.load_spec()["labels"]}
+    for page in nameentry.PAGES:
+        drawn = [it["cells"].ljust(18) for it in labels[f"name_entry.grid_{page}"]["text"] if "cells" in it]
+        want = [r if i < 2 else r[:18] for i, r in enumerate(nameentry.page_rows(page))]
+        assert [d.ljust(len(w)) for d, w in zip(drawn + [""] * 5, want)] == want, page
+    assert len(nameentry.table_bytes()) == 360
+
+
+def test_cells_items_centre_each_glyph():
+    styles = {"s": {"font": "en_glyphs", "fill": 15}}
+    items = gfx.expand_cells([{"cells": "I M", "x": 28, "pitch": 8, "cell": 7, "y": 0, "style": "s"}], styles, {})
+    font = gfx.load_font("en_glyphs")
+    assert [it["s"] for it in items] == ["I", "M"]
+    assert items[0]["x"] == 28 + (7 - gfx.text_width("I", font)) // 2
+    assert items[1]["x"] == 28 + 16 + (7 - gfx.text_width("M", font)) // 2

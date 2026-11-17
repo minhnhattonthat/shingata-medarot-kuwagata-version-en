@@ -38,7 +38,7 @@ def load_font(name):
             continue
         if line.startswith("@"):
             parts = line[1:].split()
-            if len(parts[0]) == 2 and len(parts) > 1 and not parts[1].isdigit():
+            if len(parts[0]) == 2 and len(parts) > 1 and all(c in "0123456789ABCDEF" for c in parts[0]):
                 parts = parts[1:]  # dialogue font (font/en_glyphs.txt): `@XX c [advance]`, XX = the code
             ch = " " if parts[0] == "space" else parts[0]
             cur = [int(parts[1]) if len(parts) > 1 else None, []]
@@ -140,6 +140,26 @@ def load_spec(path=SPEC):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
+def expand_cells(items, styles, label):
+    """Text items with "cells" (a row of one-glyph cells, e.g. the name-entry letter grid): "x" is the first cell's
+    left edge, "pitch" px per cell, "cell" the cell width each glyph is centred in; a space leaves its cell empty.
+    Each glyph becomes an ordinary item."""
+    out = []
+    for item in items:
+        if "cells" not in item:
+            out.append(item)
+            continue
+        font = load_font(styles[item.get("style", label.get("style"))]["font"])
+        for k, ch in enumerate(item["cells"]):
+            if ch == " ":
+                continue
+            w = text_width(ch, font)
+            sub = {key: v for key, v in item.items() if key not in ("cells", "pitch", "cell")}
+            sub.update(s=ch, x=item["x"] + k * item["pitch"] + (item["cell"] - w) // 2)
+            out.append(sub)
+    return out
+
+
 def paint(g, label, styles):
     """Erase and draw one label's text into the index grid g (absolute pixel coordinates)."""
     for e in label.get("erase", []):
@@ -151,7 +171,7 @@ def paint(g, label, styles):
                 else:
                     g[y][x] = g[y][e["copy_col"]] if "copy_col" in e else e["index"]
     bx, by, bw, bh = label["box"]
-    for item in label["text"]:
+    for item in expand_cells(label["text"], styles, label):
         st = styles[item.get("style", label.get("style"))]
         font = load_font(st["font"])
         sp = item.get("spacing", st.get("spacing", 0))
