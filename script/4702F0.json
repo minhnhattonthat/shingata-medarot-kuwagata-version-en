@@ -34,7 +34,7 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "リーダー きのうていし！{n}しょうしゃ {var:01}！{end:00}",
-   "en": "Leader disabled!{n}Winner: {var:01}!{end:00}",
+   "en": "Leader shut down!{n}Winner: {var:01}!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -586,7 +586,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "「しようふのう」の しょうじょう！{n}{var:01}パーツが つかえない！{fa:50}{end:04}",
-   "en": "Disable!{n}{var:01} part Unusable!{fa:50}{end:04}",
+   "en": "Disable!{n}{var:01} part can't be used!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -658,7 +658,7 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "メダフォースの はつどうに しっぱい！{n}まだ そのメダフォースは おぼえていない！{fa:50}{end:04}",
-   "en": "Medaforce failed to activate!{n}That Medaforce is Not Known yet!{fa:50}{end:04}",
+   "en": "Medaforce failed to activate!{n}It hasn't been learned yet!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },

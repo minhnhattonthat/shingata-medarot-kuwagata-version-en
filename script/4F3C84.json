@@ -362,7 +362,7 @@
    "kind": "ff",
    "bytes": 111,
    "jp": "{face:010004}こんにちは メダロットはかせ{page}{face:001300}うん？ なんじゃ おまえさんか{n}ようくるのお{page}わしは いそがしいんじゃぞ{n}えーっと・・・{page}{face:010004}やだなぁ はかせ はやく ぼくのなまえを{n}おぼえてくださいよ{page}ぼくは・・・{end:00}",
-   "en": "{face:010004}Hello, Medabot Professor Dr. Aki!{page}{face:001300}Hm? Oh, it's you, my boy. You do visit often.{page}I'm a busy man, you know. Err...{page}{face:010004}Aw, Professor! Please remember my name already.{page}I'm...{end:00}",
+   "en": "{face:010004}Hello, Medabot Professor!{page}{face:001300}Hm? Oh, it's you, my boy. You do visit often.{page}I'm a busy man, you know. Err...{page}{face:010004}Aw, Professor! Please remember my name already.{page}I'm...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2462,7 +2462,7 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "{face:002200}スカートを はいている かわいい おんなのこ{n}ばかりが メダロットに スカートめくられるって ほんと？{end:00}",
-   "en": "{face:002200}Is it true the Medabot only flips the skirts of cute girls wearing skirts?{end:00}",
+   "en": "{face:002200}Is it true the Medabot that flips skirts only goes after cute girls in skirts?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3614,7 +3614,7 @@
    "kind": "ff",
    "bytes": 59,
    "jp": "{face:000300}あら？{n}{var:00}・・・くん？{page}{face:000304}まあ スカートが おにあいですわ{page}{face:000300}それから あそこに いるのは？{end:00}",
-   "en": "{face:000300}Oh? {var:00}... -kun?{page}{face:000304}My, that skirt suits you so well.{page}{face:000300}And who is that over there?{end:00}",
+   "en": "{face:000300}Oh?{n}{var:00}-kun...?{page}{face:000304}My, that skirt suits you so well.{page}{face:000300}And who is that over there?{end:00}",
    "status": "done",
    "notes": ""
   },

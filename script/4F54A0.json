@@ -2255,7 +2255,7 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:010000}レトルトさん どこにいくんですか？{page}{face:000D01}ふっ やつらのめを ごまかすために ちょっとした{n}さいくを しておくのだ{end:00}",
-   "en": "{face:010000}Retort-san, where are you going?{page}{face:000D01}Heh. Just setting up a little trick{n}to fool their eyes.{end:00}",
+   "en": "{face:010000}Retort-san, where are you going?{page}{face:000D01}Heh. Just setting up a little trick{n}to mislead them.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2339,7 +2339,7 @@
    "kind": "ff",
    "bytes": 62,
    "jp": "{face:002200}あのー ありがとう{n}その・・・{page}{face:010004}ぼくは {var:00}{page}{face:002200}{var:00}・・・くんか{n}わたしはカルア{page}これ うけとって{end:00}",
-   "en": "{face:002200}Um, thank you. Uh...{page}{face:010004}I'm {var:00}.{page}{face:002200}{var:00}...-kun, huh? I'm Kahlua.{page}Here, take this.{end:00}",
+   "en": "{face:002200}Um, thank you. Uh...{page}{face:010004}I'm {var:00}.{page}{face:002200}{var:00}-kun... I see. I'm Kahlua.{page}Here, take this.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3131,7 +3131,7 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:000405}れいを いわれると ムズがゆくなる{end:00}",
-   "en": "{face:000405}Being thanked makes me all itchy.{end:00}",
+   "en": "{face:000405}Aw, don't thank me. It makes me feel weird.{end:00}",
    "status": "done",
    "notes": ""
   },

@@ -106,7 +106,7 @@
    "kind": "ff",
    "bytes": 39,
    "jp": "{face:005E00}おともだちと きがるに ロボトル！{n}パーツの とりあいは ナシよ♥{end:04}",
-   "en": "{face:005E00}Have a friendly Robattle with a friend! No parts are at stake!{end:04}",
+   "en": "{face:005E00}Enjoy a casual Robattle with a friend!{n}No parts are at stake!{end:04}",
    "status": "done",
    "notes": ""
   },

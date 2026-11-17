@@ -647,7 +647,7 @@
    "kind": "ff",
    "bytes": 53,
    "jp": "{face:001101}やるじゃなぁい{n}でも わたしの パーツは あげられないの{page}か・わ・り・に！{n}これを あげるわ♥{end:00}",
-   "en": "{face:001101}Not bad at aaall! But I can't give you my parts.{page}In-ste-ad! I'll give you this!{end:00}",
+   "en": "{face:001101}Not bad at aaall!{n}But I can't give you my parts.{page}Insteeead!{n}I'll give you this!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1595,7 +1595,7 @@
    "kind": "ff",
    "bytes": 57,
    "jp": "{face:000B00}かーちゃん トマトジュース くれよぉ{page}{face:001800}あんた のんだ そばから{n}すぐ はいてるじゃないのっ！！{end:00}",
-   "en": "{face:000B00}Mooom-chan, gimme some tomato juice.{page}{face:001800}You throw it right back up as soon as you drink it!!{end:00}",
+   "en": "{face:000B00}Mooom, gimme some tomato juice.{page}{face:001800}You throw it right back up{n}as soon as you drink it!!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2171,7 +2171,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{face:000C03}はーい わたしは おなじみの つうしんギャル でーす！{end:00}",
-   "en": "{face:000C03}Hiii! It's your familiar Link Girl!{end:00}",
+   "en": "{face:000C03}Hiii! It's the Link Girl you know and love!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2735,7 +2735,7 @@
    "kind": "ff",
    "bytes": 181,
    "jp": "{face:010000}あの きになってたんですけど{n}キララさんと ヒカルさんって・・・{page}{face:001201}ヒカルと あたしは おさななじみなの{page}メダロットはかせとも しょうがくせいの ころから{n}しりあいなのよ{page}{face:010004}へえ そうだったんですか！{page}{face:001201}なんだかね キミを みてると{n}むかしの ヒカルを おもいだすのよねー{page}あいつに まけないよう がんばんなさいよ！{page}{face:010001}はい！{end:00}",
-   "en": "{face:010000}Um, I've been wondering... Kirara-san, you and Henry-san...{page}{face:001201}Henry and I are childhood friends.{page}I've known Dr. Aki, the Medabot Professor, since elementary school, too.{page}{face:010004}Oh, really!{page}{face:001201}You know, seeing you reminds me of Henry back then.{page}Keep at it! Don't let him outdo you!{page}{face:010001}Yes, ma'am!{end:00}",
+   "en": "{face:010000}Um, I've been wondering... Kirara-san, you and Henry-san...{page}{face:001201}Henry and I are childhood friends.{page}I've known Dr. Aki, the Medabot professor, since elementary school, too.{page}{face:010004}Oh, really!{page}{face:001201}You know, seeing you reminds me of Henry back then.{page}Keep at it! Don't let him outdo you!{page}{face:010001}Yes, ma'am!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3311,7 +3311,7 @@
    "kind": "ff",
    "bytes": 266,
    "jp": "{face:001500}おう みちに まよっちまっただぜ！{n}ここは どこだぜ？{page}{face:010000}？{page}{face:001500}おっ？ おまえは だれだぜ？{n}チョンマゲなんかして オシャレな やつだぜ！{page}{face:010007}・・・・・・・・・{page}{face:001500}でも あんまり にあってないだぜ！{page}{face:010003}・・・・・・・・・{page}{face:001500}！！{n}おまえ メダロッチ もってるだぜ！{page}いま オレの カンタロスは しゅうりちゅうで{n}メダロットはかせに あずけてるだぜ！{page}でも かわりに はかせから かりてる パーツが あるだぜ！{n}だから・・・・・{page}オレと ロボトろ〜ぜっ！！{page}{face:010001}あの〜〜〜・・・・・{end:00}",
-   "en": "{face:001500}Yo, I'm lost! Where the heck am I?{page}{face:010000}?{page}{face:001500}Oh? Who're you? That's a stylish topknot you've got!{page}{face:010007}...{page}{face:001500}Doesn't really suit ya, though!{page}{face:010003}...{page}{face:001500}!! You've got a Medawatch!{page}My Kantaros is with Dr. Aki, the Medabot Professor, for repairs right now!{page}But I've got some parts the doc lent me instead! So...{page}Let's Robattle!!{page}{face:010001}Ummm...{end:00}",
+   "en": "{face:001500}Yo, I'm lost! Where the heck am I?{page}{face:010000}?{page}{face:001500}Oh? Who're you? That's a stylish topknot you've got!{page}{face:010007}...{page}{face:001500}Doesn't really suit ya, though!{page}{face:010003}...{page}{face:001500}!! You've got a Medawatch!{page}My Kantaros is with Dr. Aki, the Medabot professor, for repairs right now!{page}But I've got some parts the doc lent me instead! So...{page}Let's Robattle!!{page}{face:010001}Ummm...{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3503,7 +3503,7 @@
    "kind": "ff",
    "bytes": 131,
    "jp": "{face:010001}ほんとに？{page}{face:000C01}それは・・・だれも けいけんしたことのない{n}スペシャルロボトル！！{page}{face:000C00}この ショックに あなたは たえられるか！？{page}{face:000C01}さあ もりあがってきたわよ{n}はたして その スペシャルロボトルの しょうたいとは！？{page}{face:010001}まだ？{end:00}",
-   "en": "{face:010001}Really?{page}{face:000C01}It's... a special Robattle{n}like no one has ever experienced!!{page}{face:000C00}Can you withstand the shock!?{page}{face:000C01}Now things are heating up!{page}Just what could this special{n}Robattle be!?{page}{face:010001}Are we there yet?{end:00}",
+   "en": "{face:010001}Really?{page}{face:000C01}It's... a special Robattle{n}like no one has ever experienced!!{page}{face:000C00}Can you withstand the shock!?{page}{face:000C01}Now things are heating up!{page}Just what could this special{n}Robattle be!?{page}{face:010001}Can we start yet?{end:00}",
    "status": "done",
    "notes": ""
   },

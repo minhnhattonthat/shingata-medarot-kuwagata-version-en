@@ -24,7 +24,7 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:005700}パーツの ぶいを えらんでください{end:04}",
-   "en": "{face:005700}Please choose a part location.{end:04}",
+   "en": "{face:005700}Please choose a body part.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -37,7 +37,7 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:005700}パーツの ぶいを えらんでください{end:04}",
-   "en": "{face:005700}Please choose a part location.{end:04}",
+   "en": "{face:005700}Please choose a body part.{end:04}",
    "status": "done",
    "notes": ""
   },

@@ -1222,7 +1222,7 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:004400}このおくは おうこくの さいしょうである{n}ギンジョウさまと だいしんかん ジョウゾウさまの{page}おへやと なっております{end:00}",
-   "en": "{face:004400}Beyond here are the chambers of Chancellor Ginjo-sama{page}and High Priest Jozo-sama.{end:00}",
+   "en": "{face:004400}Beyond here are the chambers of{n}Ginjo-sama, the kingdom's chancellor,{page}and High Priest Jozo-sama.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1258,7 +1258,7 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:004400}このおくは おうこくの さいしょうである{page}ギンジョウさまと だいしんかん ジョウゾウさまの{n}おへやと なっております{end:00}",
-   "en": "{face:004400}Beyond here are the chambers of the kingdom's chancellor,{page}Ginjo-sama, and High Priest Jozo-sama.{end:00}",
+   "en": "{face:004400}Beyond here are the chambers of{page}Ginjo-sama, the kingdom's chancellor,{n}and High Priest Jozo-sama.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2554,7 +2554,7 @@
    "kind": "ff",
    "bytes": 67,
    "jp": "{face:010005}それにしても ロボロボだんたちが いってることって{n}ばらばらだ{page}いったい どれが ほんとの ブルーハワイの{n}すがたなんだ？{end:00}",
-   "en": "{face:010005}Still, the Rubberobo Gang's stories don't match at all.{page}Which one is what Blue Hawaii{n}really looks like?{end:00}",
+   "en": "{face:010005}Still, the Rubberobo Gang's stories{n}don't match at all.{page}So what does Blue Hawaii{n}really look like?{end:00}",
    "status": "done",
    "notes": ""
   },

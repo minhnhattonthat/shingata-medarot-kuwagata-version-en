@@ -70,7 +70,7 @@
    "kind": "ff",
    "bytes": 31,
    "jp": "{fa:FF}こうがくこうげきを きゅうしゅうして ダメージかいふく{end:04}",
-   "en": "{fa:FF}Absorbs Beam attacks to Recover damage.{end:04}",
+   "en": "{fa:FF}Absorbs Beam attacks to Recover from damage.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -94,7 +94,7 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{fa:FF}かやくこうげきを きゅうしゅうして ダメージかいふく{end:04}",
-   "en": "{fa:FF}Absorbs Explosive attacks to Recover damage.{end:04}",
+   "en": "{fa:FF}Absorbs Explosive attacks to Recover from damage.{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -118,7 +118,7 @@
    "kind": "ff",
    "bytes": 33,
    "jp": "{fa:FF}じゅうりょくこうげきを きゅうしゅうして ダメージかいふく{end:04}",
-   "en": "{fa:FF}Absorbs Gravity attacks to Recover damage.{end:04}",
+   "en": "{fa:FF}Absorbs Gravity hits to Recover from damage.{end:04}",
    "status": "done",
    "notes": ""
   },

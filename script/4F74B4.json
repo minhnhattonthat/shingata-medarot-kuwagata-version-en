@@ -2614,7 +2614,7 @@
    "kind": "ff",
    "bytes": 87,
    "jp": "{face:000B01}む むねん・・・{page}かはぁっ！！！！！！{page}{face:000604}ばんちょおぉ{n}しっかりぃっ！{page}{face:000B00}しんぱいない{n}これは ただの トマト・・・ごふっ{page}{face:000705}ばんちょうぅぅぅ！{end:00}",
-   "en": "{face:000B01}H-how bitter...{page}Gahhh!!!!!!{page}{face:000604}Big Boooss! Hang in there!{page}{face:000B00}Don't worry. It's just tomato... Cough!{page}{face:000705}Big Booossss!{end:00}",
+   "en": "{face:000B01}W-what a bitter defeat...{page}Gahhh!!!!!!{page}{face:000604}Big Boooss!{n}Hang in there!{page}{face:000B00}Don't worry.{n}It's just tomato... Cough!{page}{face:000705}Big Booossss!{end:00}",
    "status": "done",
    "notes": ""
   },

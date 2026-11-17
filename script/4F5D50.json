@@ -2296,7 +2296,7 @@
    "kind": "ff",
    "bytes": 135,
    "jp": "{face:003C02}さいご 3つめじゃ！{page}{var:00}の やつめは{n}かならずくる！{page}やつには メダロットはかせが ついて おるのじゃぞ？{page}メダロットはかせが やつめを ここに おくりこむに{n}きまっておる！{page}このワシを たおすためにな！{page}{face:003C01}がはははは！ どうじゃ？{n}おそれいったか？{end:00}",
-   "en": "{face:003C02}And finally, number three!{page}That brat {var:00} will come!{page}He has the Medabot Professor,{n}Dr. Aki, on his side, you know!{page}Of course Dr. Aki will send him here!{page}To defeat me!{page}{face:003C01}Gahahaha! Well? Are you impressed, eh?{end:00}",
+   "en": "{face:003C02}And finally, number three!{page}That brat {var:00} will come!{page}He has the Medabot professor,{n}Dr. Aki, on his side, you know!{page}Of course Dr. Aki will send him here!{page}To defeat me!{page}{face:003C01}Gahahaha! Well? Are you impressed, eh?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2344,7 +2344,7 @@
    "kind": "ff",
    "bytes": 78,
    "jp": "{face:003C01}フユーン！ このきょだいな ふゆうようさいが{page}たった1この ちいさな フユーンストーンだけで{page}うかんでおるのじゃ！{n}すばらしいとは おもわんか？{end:00}",
-   "en": "{face:003C01}Fuyun! This enormous flying fortress...{page}With just one tiny Fuyun Stone...{page}Stays aloft! Magnificent, is it not?{end:00}",
+   "en": "{face:003C01}Fuyun! This enormous flying fortress stays aloft...{page}With just one tiny Fuyun Stone!{page}That is all it takes!{n}Magnificent, is it not?{end:00}",
    "status": "done",
    "notes": ""
   },

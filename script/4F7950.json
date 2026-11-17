@@ -484,7 +484,7 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:000403}わざわいのもとは みんな この じーさん なんだろ？{page}{var:00}{n}さっさと やっつけちまおうぜ！{end:00}",
-   "en": "{face:000403}This geezer-san's behind{n}all the trouble, right?{page}{var:00}, let's hurry up and clobber him!{end:00}",
+   "en": "{face:000403}This geezer's behind{n}all the trouble, right?{page}{var:00}, let's hurry up and clobber him!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1550,7 +1550,7 @@
    "kind": "ff",
    "bytes": 139,
    "jp": "{face:000404}つかまえたぜ！ {var:00}{n}おまえのほうは うまくいったのか？{page}{face:010005}それが コウジ{n}てが たりないんだ{page}ちからを かしてほしいんだけど{page}{face:000405}おいおい こっちは このじーさん つかまえておくだけで{n}ていっぱいだ{page}ほかを あたってくれよ{page}{face:010005}ほかといったって・・・{end:00}",
-   "en": "{face:000404}Caught him, {var:00}! Did things work out on your end?{page}{face:010005}Well, Koji... We need more help.{page}Could you give us a hand?{page}{face:000405}Hey, I've got my hands full just holding on to this geezer-san!{page}Ask someone else!{page}{face:010005}But who else...?{end:00}",
+   "en": "{face:000404}Caught him, {var:00}! Did things work out on your end?{page}{face:010005}Well, Koji... We need more help.{page}Could you give us a hand?{page}{face:000405}Hey, I've got my hands full just holding on to this geezer!{page}Ask someone else!{page}{face:010005}But who else...?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1612,7 +1612,7 @@
    "kind": "ff",
    "bytes": 139,
    "jp": "{face:000404}つかまえたぜ！ {var:00}{n}おまえのほうは うまくいったのか？{page}{face:010005}それが コウジ{n}てが たりないんだ{page}ちからを かしてほしいんだけど{page}{face:000405}おいおい こっちは このじーさん つかまえておくだけで{n}ていっぱいだ{page}ほかを あたってくれよ{page}{face:010005}ほかといったって・・・{end:00}",
-   "en": "{face:000404}Caught him, {var:00}! Did things work out on your end?{page}{face:010005}Well, Koji... We need more help.{page}Could you give us a hand?{page}{face:000405}Hey, I've got my hands full just holding on to this geezer-san!{page}Ask someone else!{page}{face:010005}But who else...?{end:00}",
+   "en": "{face:000404}Caught him, {var:00}! Did things work out on your end?{page}{face:010005}Well, Koji... We need more help.{page}Could you give us a hand?{page}{face:000405}Hey, I've got my hands full just holding on to this geezer!{page}Ask someone else!{page}{face:010005}But who else...?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1648,7 +1648,7 @@
    "kind": "ff",
    "bytes": 139,
    "jp": "{face:000404}つかまえたぜ！ {var:00}{n}おまえのほうは うまくいったのか？{page}{face:010005}それが コウジ{n}てが たりないんだ{page}ちからを かしてほしいんだけど{page}{face:000405}おいおい こっちは このじーさん つかまえておくだけで{n}ていっぱいだ{page}ほかを あたってくれよ{page}{face:010005}ほかといったって・・・{end:00}",
-   "en": "{face:000404}Caught him, {var:00}! Did things work out on your end?{page}{face:010005}Well, Koji... We need more help.{page}Could you give us a hand?{page}{face:000405}Hey, I've got my hands full just holding on to this geezer-san!{page}Ask someone else!{page}{face:010005}But who else...?{end:00}",
+   "en": "{face:000404}Caught him, {var:00}! Did things work out on your end?{page}{face:010005}Well, Koji... We need more help.{page}Could you give us a hand?{page}{face:000405}Hey, I've got my hands full just holding on to this geezer!{page}Ask someone else!{page}{face:010005}But who else...?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2068,7 +2068,7 @@
    "kind": "ff",
    "bytes": 61,
    "jp": "{face:000404}よろこべ {var:00}！{n}フユーンは おみくじまちの みなみに{page}ふじちゃくせいこうだ！{page}{face:010001}ホントに？ やったあ！{end:00}",
-   "en": "{face:000404}Good news, {var:00}! Fuyun's made it down...{page}For an emergency landing south of Omikuji Town!{page}{face:010001}Really? We did it!{end:00}",
+   "en": "{face:000404}Good news, {var:00}! Fuyun's made a successful...{page}Emergency landing south of Omikuji Town!{page}{face:010001}Really? We did it!{end:00}",
    "status": "done",
    "notes": ""
   },

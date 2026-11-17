@@ -406,7 +406,7 @@
    "kind": "ff",
    "bytes": 103,
    "jp": "{face:010000}メダロッとう 6しゅうねん きねん{n}オールフリーチケット？{page}ぜんぶの アトラクションが タダだって？{page}{face:010001}メダロッとうって いったら ウワサの{n}しまごと ゆうえんち じゃないか！{page}やったぁ！{end:00}",
-   "en": "{face:010000}A Medabot Island sixth anniversary all-free ticket?{page}All the attractions are free?{page}{face:010001}Medabot Island's that famous amusement{n}park that covers a whole island!{page}All right!{end:00}",
+   "en": "{face:010000}A Medabot Island sixth anniversary{n}free attraction pass?{page}All the attractions are free?{page}{face:010001}Medabot Island's that famous{n}amusement park covering a whole island!{page}All right!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1294,7 +1294,7 @@
    "kind": "ff",
    "bytes": 25,
    "jp": "{face:002200}んもうっ！ ちょっとは かたせてよっ！{end:00}",
-   "en": "{face:002200}Ugh! Let me win a little!{end:00}",
+   "en": "{face:002200}Ugh! Let me win once in a while!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1702,7 +1702,7 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:000800}ボロぞうきんに してやる！{end:00}",
-   "en": "{face:000800}I'll turn you into a dirty rag!{end:00}",
+   "en": "{face:000800}I'll beat you to a rag!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2386,7 +2386,7 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:003E02}さっさと くるであります！{end:00}",
-   "en": "{face:003E02}Move along at once!{end:00}",
+   "en": "{face:003E02}Come along at once!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3574,7 +3574,7 @@
    "kind": "ff",
    "bytes": 30,
    "jp": "{face:005100}どう？{n}かいふく したような きぶんに なれた？{end:00}",
-   "en": "{face:005100}Well? Feel like you've had a chance to Recover?{end:00}",
+   "en": "{face:005100}Well?{n}Feel like you've recovered?{end:00}",
    "status": "done",
    "notes": ""
   },

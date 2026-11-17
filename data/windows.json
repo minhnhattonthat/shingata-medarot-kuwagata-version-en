@@ -30,7 +30,7 @@
     },
     "tutorial_topic": {
       "px": 148, "bytes": 18, "status": "measured",
-      "evidence": "field_help: rows from x=47, bar border at x~196; the 18-byte ruler (132 px) fits whole (work/qa/fh_z.png)"
+      "evidence": "field_help: rows from x=47, bar border at x~196; the 18-byte ruler (132 px) fits whole (work/qa/fh_z.png). Hard cap: phase 9 tried a 21-byte title (104 px) and its tail spilled into the row above ('Charge & Cooldowry', work/qa/topics9/p2cmp.png), so the row tile budget is per byte, not per px"
     },
     "credits_line": {
       "px": 131, "bytes": 18, "status": "measured",

@@ -34,7 +34,8 @@ FREE = {"{n}", "{page}"}  # layout codes the English may place freely (the engin
 VARIABLE = r"\{var[^}]*\}"  # a name or number the game draws: "1st" comes out as "1th"
 # せんせい is left out on purpose: after a name it is often rendered "Teacher"/"Doctor", so it isn't machine-checked.
 HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan", "さま": "-sama"}
-HONORIFIC_AFTER = re.compile(r"(?:[ァ-ヿ]|\{var:00\})(さん|くん|ちゃん|さま)(?![ぁ-ゟ])")
+# not after hiragana + ー: じーさん / かーちゃん are kinship words ("geezer", "Mom"), not a name with an honorific
+HONORIFIC_AFTER = re.compile(r"(?:[ァ-ヿ]|\{var:00\})(?<![ぁ-ゟ]ー)(さん|くん|ちゃん|さま)(?![ぁ-ゟ])")
 WIN = lint.load_windows()
 WIDTHS = marker.widths()
 

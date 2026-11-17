@@ -1402,7 +1402,7 @@
    "kind": "ff",
    "bytes": 151,
    "jp": "{face:003C00}ほう？ おぬし たたかうつもりか？{n}あいては そうとうの てだれじゃぞ{page}{face:010000}たたかうよ！{page}ここにきたのは メダロットはかせに たのまれたから{n}じゃなくて じぶんの いし だから{page}{face:003C00}ほう メダロットはかせにのぅ{n}そうか おぬし・・・・・なるほどな{page}ならば コイツを もっていくがいい{end:00}",
-   "en": "{face:003C00}Oh? You mean to fight, my boy? Your opponent is quite skilled, you know.{page}{face:010000}I'll fight!{page}I didn't come here because Dr. Aki,{n}the Medabot Professor, asked me to.{page}I chose to come myself.{page}{face:003C00}Oh, Dr. Aki, eh? So you're... I see.{page}In that case, take this with you.{end:00}",
+   "en": "{face:003C00}Oh? You mean to fight, my boy? Your opponent is quite skilled, you know.{page}{face:010000}I'll fight!{page}I didn't come here because Dr. Aki,{n}the Medabot professor, asked me to.{page}I chose to come myself.{page}{face:003C00}Oh, Dr. Aki, eh? So you're... I see.{page}In that case, take this with you.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1894,7 +1894,7 @@
    "kind": "ff",
    "bytes": 40,
    "jp": "{face:002200}あら みないかおね{n}あまり いい おうちのこ とは おもえないけど？{end:00}",
-   "en": "{face:002200}Oh, a new face. You don't look like you're from a good family, though?{end:00}",
+   "en": "{face:002200}Oh, a new face. You hardly look like you're from a good family, do you?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -2074,7 +2074,7 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:002200}ふたりの せかいを じゃましないでよ{end:00}",
-   "en": "{face:002200}Don't intrude on{n}our little world, you know.{end:00}",
+   "en": "{face:002200}Don't intrude on our little world!{end:00}",
    "status": "done",
    "notes": ""
   },

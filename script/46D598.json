@@ -490,7 +490,7 @@
    "kind": "ff",
    "bytes": 24,
    "jp": "{face:003800}おとこは かおじゃねえ！ ちからだ！{end:04}",
-   "en": "{face:003800}A man's not about looks! It's strength!{end:04}",
+   "en": "{face:003800}Looks don't make a man! Strength does!{end:04}",
    "status": "done",
    "notes": ""
   },
@@ -1234,7 +1234,7 @@
    "kind": "ff",
    "bytes": 19,
    "jp": "{face:005300}さあ ロボトルかいし！{fa:50}{end:04}",
-   "en": "{face:005300}Now, Robattle begin!{fa:50}{end:04}",
+   "en": "{face:005300}Now, let the Robattle begin!{fa:50}{end:04}",
    "status": "done",
    "notes": ""
   },

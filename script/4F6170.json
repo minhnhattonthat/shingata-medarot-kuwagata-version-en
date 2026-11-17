@@ -479,7 +479,7 @@
    "kind": "ff",
    "bytes": 56,
    "jp": "{face:001102}くすっ やっぱり きづかれてましたか{page}ま あいつだけじゃ たよりないですものね！{n}まかせてください！{end:00}",
-   "en": "{face:001102}Hee hee! So you knew all along?{page}Well, we can't leave it all to him, can we? You can count on me!{end:00}",
+   "en": "{face:001102}Hee hee! So you knew all along?{page}Well, he isn't very reliable on his own, is he? You can count on me!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3335,7 +3335,7 @@
    "kind": "ff",
    "bytes": 114,
    "jp": "{face:010004}うん そうだね{n}ぼくも さきに いかなきゃ！{page}それで みんなを たすけるんだ！{page}{face:000603}たんじゅんねぇ あんた{page}ま それが あんたの とりえってやつ だろうけどさぁ{page}{face:000600}じゃ とっとと いくわよぉ{page}{face:010004}うん！{end:00}",
-   "en": "{face:010004}Yeah, you're right.{n}I've got to keep going too!{page}And save everyone!{page}{face:000603}You're sooo simple.{page}Well, I guess that's your good point.{page}{face:000600}Then let's get moooving.{page}{face:010004}Yeah!{end:00}",
+   "en": "{face:010004}Yeah, you're right.{n}I've got to keep going too!{page}And save everyone!{page}{face:000603}You're sooo simple.{page}Well, I guess that's what you've got going for youuu.{page}{face:000600}Then let's get moooving.{page}{face:010004}Yeah!{end:00}",
    "status": "done",
    "notes": ""
   },

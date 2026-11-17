@@ -274,7 +274,7 @@
    "kind": "fe",
    "bytes": 8,
    "jp": "かいすうぞうか{item}",
-   "en": "Uses Up{item}",
+   "en": "Increase Uses{item}",
    "status": "done",
    "notes": ""
   },

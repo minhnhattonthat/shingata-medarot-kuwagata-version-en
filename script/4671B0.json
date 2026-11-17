@@ -70,7 +70,7 @@
    "kind": "ff",
    "bytes": 47,
    "jp": "みかたメダロットの ダメージを かいふくしたり{n}きのうていしパーツを ふっかつさせたりする{end:02}",
-   "en": "Helps allied Medabots Recover damage{n}or Revive broken parts.{end:02}",
+   "en": "Helps Medabots Recover from damage{n}or Revive broken parts.{end:02}",
    "status": "done",
    "notes": ""
   },

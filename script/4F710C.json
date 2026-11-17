@@ -1475,7 +1475,7 @@
    "kind": "ff",
    "bytes": 86,
    "jp": "{face:003F01}ぐわははは！ まったく わらいが とまらんとは{n}このことジャ！{page}ここで こうして まっとるだけで つぎからつぎへと{n}ねずみが じぶんから つかまりにくるとはな！{end:00}",
-   "en": "{face:003F01}Gwahahaha! Now this is what I call{page}a never-ending laugh!{page}All I do is wait here, and the rats come{page}to get caught, one after another!{end:00}",
+   "en": "{face:003F01}Gwahahaha! I simply can't stop laughing!{n}What splendid luck!{page}I need only wait here, and the rats{n}come to be caught, one after another!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1847,7 +1847,7 @@
    "kind": "ff",
    "bytes": 62,
    "jp": "{face:001B00}うーん じばくかあ{n}はかせも すきだな そういうの{page}じぶんのけんきゅうと ともにほろびる{n}・・・か びがくだねえ{end:00}",
-   "en": "{face:001B00}Hmm, self-destruction? The doctor does love that.{page}To perish alongside one's research...{page}Such aesthetics.{end:00}",
+   "en": "{face:001B00}Hmm, self-destruction?{n}The doctor does love that sort of thing.{page}To perish alongside one's research...{n}There's an art to it, I suppose.{end:00}",
    "status": "done",
    "notes": ""
   },

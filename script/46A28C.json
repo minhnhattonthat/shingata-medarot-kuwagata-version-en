@@ -406,7 +406,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "{fa:FF}そせい {n}きのうていしメダロットを ふっかつさせる{end:04}",
-   "en": "{fa:FF}Resurrect{n}Revive disabled Medabots.{end:04}",
+   "en": "{fa:FF}Resurrect{n}Revive shut-down Medabots.{end:04}",
    "status": "done",
    "notes": ""
   },

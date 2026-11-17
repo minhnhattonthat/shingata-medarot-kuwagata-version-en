@@ -46,7 +46,7 @@
    "kind": "ff",
    "bytes": 113,
    "jp": "{face:010004}ウォッカ！ それにみんな よくがんばったね！{n}みんな すごいよ！{page}{face:002800}それも みんな{n}{var:00}さんが{page}わたしたちを ゆうきづけて くださったからこそです{page}おかげで わたしたちは フユーンを うしなわずに{n}すみました{end:02}",
-   "en": "{face:010004}Vodka! Everyone! You all worked so hard!{n}You're amazing!{page}{face:002800}That is all thanks to you, {var:00}-san.{page}You gave us the courage we needed.{page}Thanks to you, we did not have to lose Fuyun.{end:02}",
+   "en": "{face:010004}Vodka! Everyone! You all worked so hard!{n}You're amazing!{page}{face:002800}It is all thanks to you,{n}{var:00}-san.{page}You gave us the courage we needed.{page}Thanks to you, we were able{n}to save Fuyun.{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -118,7 +118,7 @@
    "kind": "ff",
    "bytes": 113,
    "jp": "{face:010004}ウォッカ！ それにみんな よくがんばったね！{n}みんな すごいよ！{page}{face:002800}それも みんな{n}{var:00}さんが{page}わたしたちを ゆうきづけて くださったからこそです{page}おかげで わたしたちは フユーンを うしなわずに{n}すみました{end:02}",
-   "en": "{face:010004}Vodka! Everyone! You all worked so hard!{n}You're amazing!{page}{face:002800}That is all thanks to you, {var:00}-san.{page}You gave us the courage we needed.{page}Thanks to you, we did not have to lose Fuyun.{end:02}",
+   "en": "{face:010004}Vodka! Everyone! You all worked so hard!{n}You're amazing!{page}{face:002800}It is all thanks to you,{n}{var:00}-san.{page}You gave us the courage we needed.{page}Thanks to you, we were able{n}to save Fuyun.{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -190,7 +190,7 @@
    "kind": "ff",
    "bytes": 113,
    "jp": "{face:010004}ウォッカ！ それにみんな よくがんばったね！{n}みんな すごいよ！{page}{face:002800}それも みんな{n}{var:00}さんが{page}わたしたちを ゆうきづけて くださったからこそです{page}おかげで わたしたちは フユーンを うしなわずに{n}すみました{end:02}",
-   "en": "{face:010004}Vodka! Everyone! You all worked so hard!{n}You're amazing!{page}{face:002800}That is all thanks to you, {var:00}-san.{page}You gave us the courage we needed.{page}Thanks to you, we did not have to lose Fuyun.{end:02}",
+   "en": "{face:010004}Vodka! Everyone! You all worked so hard!{n}You're amazing!{page}{face:002800}It is all thanks to you,{n}{var:00}-san.{page}You gave us the courage we needed.{page}Thanks to you, we were able{n}to save Fuyun.{end:02}",
    "status": "done",
    "notes": ""
   },
@@ -496,7 +496,7 @@
    "kind": "ff",
    "bytes": 72,
    "jp": "{face:010000}マルガリータ こいつだよ{n}ブルーハワイの いちみって{page}{face:004102}ちがうもん こんなのじゃないもん{page}{face:010005}ちがうって いわれても・・・{end:00}",
-   "en": "{face:010000}Margarita, this is{n}one of Blue Hawaii's gang.{page}{face:004102}No, it's not! They don't look like that!{page}{face:010005}Well, even if you say that...{end:00}",
+   "en": "{face:010000}Margarita, this is one{n}of Blue Hawaii's gang.{page}{face:004102}No, it's not! They don't look like that!{page}{face:010005}But... are you sure?{end:00}",
    "status": "done",
    "notes": ""
   },

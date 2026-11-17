@@ -1,7 +1,7 @@
-# <Game title> English translation
+# Shingata Medarot: Kuwagata Version English translation
 
-Unofficial English fan translation of **<Game title>** (<platform>, <publisher>, <year>): the source text and tools
-that build the patch.
+Unofficial English fan translation of **Shingata Medarot: Kuwagata Version** (真型メダロット クワガタバージョン, Game Boy
+Advance, Imagineer, 2004): the source text and tools that build the patch.
 
 **Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
 no game data you can play; you need your own dump of the Japanese game.
@@ -13,13 +13,29 @@ helps most.
 
 | Part | Status |
 |---|---|
-| <Dialogue / story> | <Translated> |
-| <Menus, items, skills, system messages> | <Translated> |
-| <Title screen, logos, graphics with text> | <Translated / Left in Japanese> |
-| <Name entry> | <Translated / Japanese kana only> |
-| <Songs, voiced lines, credits roll> | <Left in Japanese> |
+| Dialogue and story (both the Shingata story and the retained Ikki story), signs and books | Translated |
+| Menus, items, parts, Medals, skills, battle messages, tutorials, system messages | Translated |
+| Graphics with text (menu tabs, headers, shop options, minigame banners, money symbol) | Translated |
+| Title logo 真型 メダロット | Left in Japanese (it is the game's logo) |
+| Name entry | Translated: English letter grid (ABC / abc / 123) |
+| Staff credits | Translated |
 
-Known issues: <none known / see [Issues](../../issues)>.
+Known issues: none known; see [Issues](../../issues). Two encyclopedia topic titles are shortened to fit an 18-byte
+row ("Speed & Mobility", "MedalPart Affinity").
+
+## Base ROM
+
+| | |
+|---|---|
+| No-Intro name | Shingata Medarot - Kuwagata Version (Japan) |
+| Size | 8,388,608 bytes (8 MiB) |
+| CRC32 | 0FD35628 |
+| MD5 | d1415b84b039a978bdb920f917959779 |
+| SHA-1 | 573e980dffdee50d53b6f2a79d1db2d650731558 |
+| Patched | 9,437,184 bytes (the English text lives in an added 1 MiB), CRC32 PATCHED_CRC32 |
+
+Tested in MesenCE 2.2.1 with the official GBA BIOS. Start from a cold boot: emulator savestates made on the Japanese game
+carry its old text and font code and will show garbled text.
 
 ## What's here
 
@@ -27,7 +43,7 @@ Known issues: <none known / see [Issues](../../issues)>.
 |---|---|
 | `script/` | Every text block: original Japanese and English. Translation fixes go here. |
 | `glossary.md` | Binding names, terms and style rules. |
-| `tools/` | Python build chain: extract, insert, lint, release. |
+| `tools/` | Python build chain: extract, insert, lint, QA, release. |
 | `tests/` | pytest suite (ROM-dependent tests skip when the ROM is absent). |
 | `docs/re/` | Reverse-engineering notes. |
 | `docs/decisions.md`, `docs/status.md` | Rulings with their reasons; current progress and open bugs. |
@@ -40,11 +56,11 @@ Known issues: <none known / see [Issues](../../issues)>.
 Needs Python 3.12+ and your own dump of the Japanese game.
 
 ```sh
-git clone https://github.com/minhnhattonthat/<repo>
-cd <repo>
-# copy your dump to: rom/<file>
-#   (<size> bytes, SHA-1 <sha1>; the build refuses any other dump, see rom.sha1)
-python -X utf8 tools/build.py                          # -> build/<game>_en.<ext>
+git clone https://github.com/minhnhattonthat/shingata-medarot-kuwagata-version-en
+cd shingata-medarot-kuwagata-version-en
+# copy your dump to: rom/Shingata Medarot - Kuwagata Version (Japan).gba
+#   (8388608 bytes, SHA-1 573e980dffdee50d53b6f2a79d1db2d650731558; the build refuses any other dump, see rom.sha1)
+python -X utf8 build.py                                # -> build/medarot_kuwagata_en.gba
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 
@@ -56,8 +72,9 @@ If you enjoy this translation, you can support my work on Ko-fi:
 
 ## Licence
 
-Tools and English translation: MIT. The original Japanese text in `script/` is <publisher>'s and is included only so
-the translation can be checked against it. <Game title> is (c) <publisher>; this project is not affiliated with them.
-Do not share patched ROMs.
+Tools and English translation: MIT. The original Japanese text in `script/` is Imagineer's and is included only so
+the translation can be checked against it. Shingata Medarot is (c) Imagineer (original concept (c) Imagineer and
+Natsume); this project is not affiliated with them. Do not share patched ROMs.
 
-The translation was made with extensive AI assistance (Claude by Anthropic). Corrections are very welcome.
+The translation was made with extensive AI assistance (Claude by Anthropic, and OpenAI Codex). Corrections are very
+welcome.

@@ -1,0 +1,18 @@
+46E502 past the FE of in-place string 46E500 (jp_left --slots reaches to NUL; this game ends strings with FE/FF): old character-name list, no pointer
+46E532 same: past 46E500's FE
+46E541 same: past 46E500's FE
+46E54D same: past 46E500's FE
+46E5A7 same: past 46E500's FE
+46E5B5 same: past 46E500's FE
+46E5F7 same: past 46E500's FE
+50EF7A past the FE of in-place string 50EF0F ("????????" topic): old tutorial text, no pointer
+510B32 past the FE of in-place string 510B30 (empty credits entry): old staff-credit roles, no pointer
+510B39 same: past 510B30's FE
+510B3F same: past 510B30's FE
+510B45 same: past 510B30's FE
+510B4A same: past 510B30's FE
+510B54 same: past 510B30's FE
+510B60 same: past 510B30's FE
+510B66 same: past 510B30's FE
+510B72 same: past 510B30's FE
+510BBD past the FE of in-place string 510BB9 (3-byte credits entry ending at 510BBC): old staff name, no pointer

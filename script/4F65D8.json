@@ -1630,7 +1630,7 @@
    "kind": "ff",
    "bytes": 93,
    "jp": "{face:002400}そ それは ねがったり かなったりだわっ！{page}あなたには もらう けんりが あるわ{n}さあ！ いくのよ しょうねん！{page}わたしの おめいを へんじょうするのよ！{page}{face:010000}はあ・・・{end:00}",
-   "en": "{face:002400}Th-that would be everything{n}I could wish for!{page}You have every right to it. Now go, young man!{page}Clear my good name!{page}{face:010000}Uh... Okay.{end:00}",
+   "en": "{face:002400}Th-that would be everything{n}I could wish for!{page}You have every right to it. Now go, young man!{page}Restore my good name!{page}{face:010000}Uh... Okay.{end:00}",
    "status": "done",
    "notes": ""
   },

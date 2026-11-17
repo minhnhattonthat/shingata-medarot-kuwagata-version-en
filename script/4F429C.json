@@ -418,7 +418,7 @@
    "kind": "ff",
    "bytes": 13,
    "jp": "{face:000A00}これからもっ！{end:00}",
-   "en": "{face:000A00}From now on, too!{end:00}",
+   "en": "{face:000A00}From now on...!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -802,7 +802,7 @@
    "kind": "ff",
    "bytes": 46,
    "jp": "{face:001700}ハチロウくん？{page}きみぃ ハチロウくんと いえば{n}ざいばつの むすこ じゃないか！{end:00}",
-   "en": "{face:001700}Hachiro-kun?{page}My boy, Hachiro-kun is the son of a business dynasty!{end:00}",
+   "en": "{face:001700}Hachiro-kun?{page}My boy, Hachiro-kun comes from a wealthy business family!{end:00}",
    "status": "done",
    "notes": ""
   },

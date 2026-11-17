@@ -1222,7 +1222,7 @@
    "kind": "ff",
    "bytes": 113,
    "jp": "{face:003400}おどろいたロボ？{page}{face:010000}そう なんども おどろかされる もんか{page}{face:003400}つまらないロボね{n}・・・まあいいロボ{page}ところで いまは のせて やれないロボ{page}よやくが はいっているロボ ひまをつぶして{n}またくるといいロボ{end:00}",
-   "en": "{face:003400}Scared you, robo?{page}{face:010000}You can't keep scaring me like that.{page}{face:003400}You're no fun, robo. ...Oh well, robo.{page}Anyway, I can't give you a ride{n}right now, robo.{page}I've got a booking, robo. Kill some time and come back, robo.{end:00}",
+   "en": "{face:003400}Scared you, robo?{page}{face:010000}You won't fool me again!{page}{face:003400}You're no fun, robo. ...Oh well, robo.{page}Anyway, I can't give you a ride{n}right now, robo.{page}I've got a booking, robo. Kill some time and come back, robo.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1330,7 +1330,7 @@
    "kind": "ff",
    "bytes": 27,
    "jp": "{face:003E02}ここは ようちゅうい エリアで あります！{end:00}",
-   "en": "{face:003E02}This is a caution area, sir!{end:00}",
+   "en": "{face:003E02}Exercise caution in this area, sir!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1342,7 +1342,7 @@
    "kind": "ff",
    "bytes": 51,
    "jp": "{face:003E02}それいじょう すすんだら キケンで あります！{page}ここは ようちゅうい エリアで あります！{end:00}",
-   "en": "{face:003E02}It's dangerous to go any further, sir!{page}This is a caution area, sir!{end:00}",
+   "en": "{face:003E02}It's dangerous to go any further, sir!{page}Exercise caution in this area, sir!{end:00}",
    "status": "done",
    "notes": ""
   },

@@ -2662,7 +2662,7 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:004100}タイカイデハ スマナカッタネ{n}チノタギリヲ オサエキレナカッタ{page}ボクガ マケタノモ{n}セイシンテキナ ヨワサノセイダネ{end:00}",
-   "en": "{face:004100}I AM SORRY ABOUT THE TOURNAMENT. I COULD NOT CONTROL MY BOILING BLOOD.{page}MY DEFEAT WAS DUE TO THAT WEAKNESS OF SPIRIT, TOO.{end:00}",
+   "en": "{face:004100}I AM SORRY ABOUT THE TOURNAMENT. I COULD NOT KEEP MY HOT BLOOD IN CHECK.{page}MY DEFEAT WAS DUE TO THAT WEAKNESS OF SPIRIT, TOO.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3574,7 +3574,7 @@
    "kind": "ff",
    "bytes": 29,
    "jp": "ロボロボメダルについて が{n}せつめいに とうろくされた{end:00}",
-   "en": "Rubberobo Medals was added to the instructions.{end:00}",
+   "en": "\"Rubberobo Medals\"{n}was added to the instructions.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -4594,7 +4594,7 @@
    "kind": "ff",
    "bytes": 35,
    "jp": "{face:005400}おんなのこの パーツが{n}ゆにゅうひんやで うってるそうだよ{end:00}",
-   "en": "{face:005400}I hear the import shop sells female parts.{end:00}",
+   "en": "{face:005400}I hear the import shop sells{n}parts for female Medabots.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -5194,7 +5194,7 @@
    "kind": "ff",
    "bytes": 75,
    "jp": "{face:002B00}「さくてき」すると チームぜんいんの{n}こうげきが あたりやすくなるのよ{page}こうげきが あたらないときは まず{n}「さくてき」してみると いいわ{end:00}",
-   "en": "{face:002B00}Using \"Scout\" makes everyone's attacks on your team more likely to hit.{page}If your attacks keep missing, try using \"Scout\" first.{end:00}",
+   "en": "{face:002B00}Using \"Scout\" makes your whole team's{n}attacks more likely to hit.{page}If your attacks keep missing,{n}try using \"Scout\" first.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -8120,7 +8120,7 @@
    "kind": "ff",
    "bytes": 41,
    "jp": "{face:000A02}パパも もうすこし わかかったら{n}MーPKたいに はいったんだけどなあ{end:00}",
-   "en": "{face:000A02}If Dad were a little younger, I'd have joined M-PK too.{end:00}",
+   "en": "{face:000A02}If Dad were a little younger,{n}he'd have joined M-PK too.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -9239,7 +9239,7 @@
    "kind": "ff",
    "bytes": 32,
    "jp": "パーツの「せいこう」について が{n}せつめいに とうろくされた{end:00}",
-   "en": "\"Part Success\" was added to the guide.{end:00}",
+   "en": "\"Part Success\" was added{n}to the instructions.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -9515,7 +9515,7 @@
    "kind": "ff",
    "bytes": 78,
    "jp": "{face:000204}なかなか やるじゃない{page}すこしだけ みなおしちゃったな{page}じんじゃで こうしきの{n}トーナメントが ひらかれるんだけど{page}{var:00}も{n}さんかするんでしょ？{end:00}",
-   "en": "{face:000204}You're pretty good!{page}I think a little better of you now.{page}There's an official tournament at the shrine.{page}You're entering too, right, {var:00}?{end:00}",
+   "en": "{face:000204}You're pretty good!{page}You've gone up a little in my book.{page}There's an official tournament{n}at the shrine.{page}{var:00}, you're{n}entering too, right?{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -11195,7 +11195,7 @@
    "kind": "ff",
    "bytes": 17,
    "jp": "{face:001A00}おっ おぼえてロボーッ{end:00}",
-   "en": "{face:001A00}Y-you'll remember this, robo!{end:00}",
+   "en": "{face:001A00}Y-you'll pay for this, robo!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -11243,7 +11243,7 @@
    "kind": "ff",
    "bytes": 23,
    "jp": "{face:002B00}へいわすぎて あくびが でそうだわ{end:00}",
-   "en": "{face:002B00}It's so peaceful, I could yawn.{end:00}",
+   "en": "{face:002B00}It's so peaceful, it's making me yawn.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -11807,7 +11807,7 @@
    "kind": "ff",
    "bytes": 82,
    "jp": "{face:000A02}ほら なおったぞ{page}{face:000A00}そろそろ よびのティンペットが{n}ほしいころじゃないか？{page}{face:000A04}ここまでロボトルが じょうたつした{n}ごほうびに これをあげよう{end:00}",
-   "en": "{face:000A02}There, all fixed!{page}{face:000A00}About time you wanted a spare Tinpet, isn't it?{page}{face:000A04}Here you go. A reward for improving so much at Robattles.{end:00}",
+   "en": "{face:000A02}There, all fixed!{page}{face:000A00}You must be wanting a spare Tinpet by now, right?{page}{face:000A04}Here you go. A reward for improving so much at Robattles.{end:00}",
    "status": "done",
    "notes": ""
   },
