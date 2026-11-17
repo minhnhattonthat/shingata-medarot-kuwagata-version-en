@@ -3814,7 +3814,7 @@
    "kind": "ff",
    "bytes": 45,
    "jp": "{face:010000}「セレクトほんぶを まもれ！」だって{page}100円ないと できないや{n}やろっかな？{end:02}",
-   "en": "{face:010000}It says, \"Defend Select Headquarters!\"{page}It costs 100 yen to play. Should I try it?{end:02}",
+   "en": "{face:010000}It says, \"Defend Select Headquarters!\"{page}It costs 100 yen. Should I try it?{end:02}",
    "status": "done",
    "notes": ""
   },

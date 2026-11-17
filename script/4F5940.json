@@ -1942,7 +1942,7 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:004500}たいりょうですのぅ{n}ろうやには まものが 8ぴきですじゃ{end:00}",
-   "en": "{face:004500}Quite a catch, eh? There are 8 monsters in the cell.{end:00}",
+   "en": "{face:004500}Quite a catch, eh? 8 monsters in the cell.{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -1954,7 +1954,7 @@
    "kind": "ff",
    "bytes": 34,
    "jp": "{face:004500}たいりょうですのぅ{n}ろうやには まものが 9ひきですじゃ{end:00}",
-   "en": "{face:004500}Quite a catch, eh? There are 9 monsters in the cell.{end:00}",
+   "en": "{face:004500}Quite a catch, eh? 9 monsters in the cell.{end:00}",
    "status": "done",
    "notes": ""
   },

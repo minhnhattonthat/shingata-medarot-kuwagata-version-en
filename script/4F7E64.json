@@ -875,7 +875,7 @@
    "kind": "ff",
    "bytes": 79,
    "jp": "{face:001B00}「せんぼうきょう」の パーツなら ここに あるよ{page}1つ 10000円 するけどね{n}よければ うってあげよう{page}あたま「スコープヘッド」は いるかい？{end:02}",
-   "en": "{face:001B00}I've got the \"Periscope\" parts here.{page}They're 10000 yen each. I'll sell them to you if you'd like.{page}Want the \"Scope Head\" head?{end:02}",
+   "en": "{face:001B00}I've got the \"Periscope\" parts here.{page}They're 10000 yen each.{n}Want to buy some?{page}Want the \"Scope Head\" head?{end:02}",
    "status": "done",
    "notes": ""
   },

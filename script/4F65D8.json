@@ -274,7 +274,7 @@
    "kind": "ff",
    "bytes": 123,
    "jp": "{face:002500}それでは もういちど しょうひんの ごせつめいを{n}いたします・・・{page}12ばん 「ゴッドエンペラー」の 「きゃくぶパーツ」です{n}さあ このパーツが ほしいひとは いますぐ{page}メダロポリス デパートへ！{page}{face:010005}うーん こんなゲーム あり？{end:00}",
-   "en": "{face:002500}Now, let's go over the product once again...{page}Item 12: God Emperor's Legs part! If you want this part, head straight to...{page}...the Medalopolis Department Store!{page}{face:010005}Hmm. Can a game really do this?{end:00}",
+   "en": "{face:002500}Now, let's go over the product once again...{page}Item 12: God Emperor's Legs part! Want it? Then head straight to...{page}...the Medalopolis Department Store!{page}{face:010005}Hmm. Can a game really do this?{end:00}",
    "status": "done",
    "notes": ""
   },
