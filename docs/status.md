@@ -4,6 +4,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 9. Release done: `release/Shingata_Medarot_Kuwagata_EN_v1.0.zip` built and verified; publishing waits on the user.
 - **Waiting on the user:** publish v1.0 (`gh release create` is the owner's call; the zip holds the .bps + README.txt).
+- **Phase 9 session 3 (2026-11-17):** nothing left to build. The skill's release guard hook runs `qa_gate check`
+  on `verdicts/` beside each manifest, and `work/qa/verdicts/` still held a stale 09:22 round (11 ISSUEs on
+  menus translated since; tour13 sheets show them in English). Moved it to `work/qa/verdicts_stale_0922` and copied
+  `verdicts_final` to `work/qa/verdicts`: both manifests pass there (13/13, 27/27).
 - **Phase 9 session 2 (2026-11-17): phase 9 done.**
   - **Release v1.0:** `tools/release.py --version 1.0` passed every gate: rom check, build (sha1
     a3bfbd6c576cc679e07b0e42bd051b32d3ce98ae, CRC32 87EE2611), check.py 48 tests + lint 0, smoke ok, jp_left 0,
