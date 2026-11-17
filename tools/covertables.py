@@ -48,7 +48,7 @@ def main():
                     rows.append(f"{s['id']}\tFE list entry ({about}): drawn by list/strcpy/sprite code, not the "
                                 f"dialogue runner, so sweep.py can't show it; width checked by lint, the list's "
                                 f"screen seen in the scene tour\n")
-        Path(a.waive).write_text("".join(rows), encoding="utf-8")
+        Path(a.waive).write_text("".join(rows), encoding="utf-8", newline="\n")
         print(f"{len(rows) - 1} waivers -> {a.waive}")
         return
     addr = {}

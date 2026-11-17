@@ -2,7 +2,29 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (redraws done; visual-QA gate 11/13 ok, open: parts_shop_type L.ARM bug; then textcover, inkbox).
+- **Phase:** 8. QA in the emulator: in progress (L.ARM fixed, inkbox done; textcover sweep running, then the final tour + gate on the final build).
+- **Phase 8 session 10 (2026-11-17): L.ARM, inkbox, text sweep.**
+  - **L.ARM fixed** (b0d3a8d): its erase copied column x=100, which lies inside a Japanese glyph (indices 1/3) and
+    smeared white/red stripes across the box; now column 94 (clean fill, read with `screenfind.py --grid`). Not a
+    VRAM-room problem: the game places le_54FABC right after the grown block (tile 420), map/tiles in VRAM matched.
+    The full 77-scene tour on that build (`work/qa/scenes_en11`, sheets `work/qa/tour11`, verdicts
+    `work/qa/verdicts11`, 13/13 ok, `qa_gate.py check` 0; old manifest kept as `manifest_s10.tsv`), but the build
+    changed again since, so the tour + gate must be rerun on the final build.
+  - **inkbox** (779bc50): name-entry SPACE/BACK centred; OK was centred on its 40-px erase box, now x=178 (12/14);
+    tabs measured from VRAM (stripes defeat inkbox): ABC 13/13, abc 14/13, 123 moved 3 px left (12/13). Save /
+    shop yes/no and shop Buy/Sell/Exit are left-aligned in the JP too; title items have no box (no inkbox target).
+  - **Text sweep (new):** `tools/lua/sweep.lua` swaps r0 at the dialogue start 0x08040F6C for the next unshown
+    string (sticky per original pointer); `tools/debug/sweep.py --jobs 2` replays event 5 2000 times per boot,
+    ~95 frames per string, rebuilding the list from all logs each round -> `work/qa/sweep/run_*`. Every `ff`
+    string is shown in the real box this way; `fe` list entries (1129) + unused (9) are waived in
+    `docs/text_unshown.tsv` (`tools/covertables.py --write-waivers`, keyed by id). `tools/covertables.py LOGDIR..`
+    = coverage per table. Text now starts on a 64 KiB boundary (`rombuild.text_stage`), so graphics fixes no longer
+    move strings and coverage logs survive them.
+  - **Next:** when the sweep ends: `textcover.py work/qa/sweep build/medarot_kuwagata_en.strings.tsv --mask
+    0x1FFFFFF --waive docs/text_unshown.tsv` must exit 0 (strings the sweep can't show: investigate, sweep again
+    or waive with a reason). Then the final scene tour (`prove.py ... --probes --qa work/qa/scenes_en12`), pair
+    sheets `work/qa/tour12`, `qa_gate.py init` (fresh manifest, `--build`), codex verdicts, `check` 0. Then phase 8
+    is done -> phase 9.
 - **Phase 8 session 9 (2026-11-17): credits bug fixed, graphics list closed.**
   - **Credits role lines fixed** (d5c677d): the credits are a sprite ticker, one 8x8 OBJ per glyph in the records
     at 0x03001DE0 from a hard-coded first slot per line (`movs r1, #slot` before each 0x08042218 call in the page
