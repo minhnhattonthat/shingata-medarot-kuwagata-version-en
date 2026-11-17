@@ -21,7 +21,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
-from skill import SKILL  # noqa: E402
+from skill import SKILL as _SKILL  # noqa: E402
+
+SKILL = Path(_SKILL)  # tools/skill.py gives a str
 
 PY = [sys.executable, "-X", "utf8"]
 ORIG = ROOT / "rom/Shingata Medarot - Kuwagata Version (Japan).gba"

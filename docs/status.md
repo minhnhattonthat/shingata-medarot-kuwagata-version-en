@@ -2,8 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress (polish + story pass done; final tour, then release).
-- **Phase 9 session 2 (2026-11-17):**
+- **Phase:** 9. Release done: `release/Shingata_Medarot_Kuwagata_EN_v1.0.zip` built and verified; publishing waits on the user.
+- **Waiting on the user:** publish v1.0 (`gh release create` is the owner's call; the zip holds the .bps + README.txt).
+- **Phase 9 session 2 (2026-11-17): phase 9 done.**
+  - **Release v1.0:** `tools/release.py --version 1.0` passed every gate: rom check, build (sha1
+    a3bfbd6c576cc679e07b0e42bd051b32d3ce98ae, CRC32 87EE2611), check.py 48 tests + lint 0, smoke ok, jp_left 0,
+    qa_gate on `work/qa/manifest.tsv` (13/13 ok, `work/qa/verdicts_final`, codex read-only via `tools/qa_verdicts.py`)
+    and `work/qa/story/manifest.tsv` (27/27), textcover 6901 shown / 1128 waived / 0 failing, polish 0 unticked,
+    README no placeholders, debug off (plain build identical), BPS 747334 bytes re-applied to the original = same
+    CRC32. Zip: `release/Shingata_Medarot_Kuwagata_EN_v1.0.zip` (328744 bytes: .bps + README.txt).
+  - Final tour: 77/77 scenes arrived (`work/qa/scenes_en13`), pair sheets `work/qa/tour13` (`sheet.py
+    shots/*.png --compare work/qa/scenes/shots --cols 2 --max 6 --div 1 --out work/qa/tour13/sheet.png`: sheet.py
+    needs PNG paths, not the dir; `--out` is a file path), old gate kept as `work/qa/manifest_s12.tsv`.
+  - release.py fix: `tools/skill.py` gives SKILL as a str, so `SKILL / "scripts/..."` failed; now wrapped in Path.
   - **Story pass closed:** all 27 chapters reviewed (codex read-only; run as a detached `Start-Process` so Claude
     Code's memory reaper can't kill it). 5 issues (i07 elder's "my boy" -> "O hero"/"noble hero"; i08 date
     reminder; i10 "Housewives' Shopping?" hint; s1 part 3 chick seller's unfinished "Rubberobo Gang... and M-PK";
