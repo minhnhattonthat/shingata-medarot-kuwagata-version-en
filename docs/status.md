@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics redraws all done; left: pair sheets + visual-QA verdicts for the redrawn scenes, textcover, inkbox, three small findings).
+- **Phase:** 8. QA in the emulator: in progress (redraws done; visual-QA gate 11/13 ok, open: parts_shop_type L.ARM bug; then textcover, inkbox).
 - **Phase 8 session 9 (2026-11-17): credits bug fixed, graphics list closed.**
   - **Credits role lines fixed** (d5c677d): the credits are a sprite ticker, one 8x8 OBJ per glyph in the records
     at 0x03001DE0 from a hard-coded first slot per line (`movs r1, #slot` before each 0x08042218 call in the page
@@ -15,15 +15,34 @@ Updated at the end of every session. Keep it to what the next session needs; his
     name is the model name from the text tables (English: "Cervo" in an earlier shot), on the redrawn grid.
     Title logo kept (D14). `docs/graphics-todo.md` has no open graphics row left.
   - "Speed & Mobility" topic title vs Propulsion: in `docs/polish.md` (needs a 21-byte topic measurement).
-  - Started `prove.py build/medarot_kuwagata_en.gba --no-states --qa work/qa/scenes_en9 --jobs 1 --probes` (log
-    `work/qa/scenes_en9.log`); see "Next" for what was finished from it.
-  - **Next:** (1) finish the scene proof (rerun missing scenes with `--only`); (2) pair sheets EN|JP for every
-    scene (`sheet.py work/qa/scenes_en9/shots --compare work/qa/scenes/shots --cols 2 --max 6 --div 1`, the 7 newer
-    scenes need original shots first, see session 2), `qa_gate.py init`, verdicts with `codex exec` read-only per
-    `docs/visual-qa-brief.md` into `work/qa/verdicts/`; (3) textcover report on scenes_en9 + events_en, gaps ->
-    new scenes or `docs/text_unshown.tsv` waivers; (4) `inkbox.py` on choice/centred boxes (yes/no, shop confirm,
-    options, name entry buttons); (5) small findings: money digits squeezed (`work/qa/zoom/fm.png`), "Rubberobo
-    Medal" touching the x column (`work/qa/zoom/io.png`).
+  - Money digits: digits C6-CF now have a fixed 7 px advance in `font/en_glyphs.txt` (the money box draws them
+    bold + shadow, so 6 px ran them together); 5 dialogue lines refit for lint (d018b64). Shop prices and field
+    menu money read clearly (`work/qa/zoom/money9.png`, `fm9b.png`). "Rubberobo Medal" is 86 px = the measured
+    field: 2 px short of the x, no overlap; accepted.
+  - **Visual-QA gate on build sha1 72f9d305... (current HEAD build):** all 77 scenes from cold boots
+    (`work/qa/scenes_en10`, `--probes`), the 7 newer scenes now have original shots too (`work/qa/scenes/shots`),
+    pair sheets `work/qa/tour10/sheet*.png` (13), manifest `work/qa/manifest.tsv` (+ `.build`; older manifests
+    kept as `manifest_s2.tsv`, `manifest_s9a.tsv`), codex read-only verdicts `work/qa/verdicts10/chunk_00*.tsv`:
+    **11 ok, 2 issue** (sheet_8, sheet_9: the same bug). Runner (not committed, scratch): one `codex exec -s
+    read-only -o ANSWER -i sheet..` per chunk of `qa_gate.py todo --size 5`, brief + "end with id<TAB>verdict<TAB>
+    note lines", those lines saved as the chunk's tsv.
+  - **Open bug: parts_shop_type "L.ARM" box** shows white with red horizontal strokes either side of the label in
+    every frame (EN), where the JP ひだりうで box stays green (`work/qa/flcmp.png`, `work/qa/zoom/larm.png`; frames
+    `work/qa/fl_en`, `fl_jp`, warp `SCENE='parts_shop_type'`, arrival ~f2508). Labels `parts_shop.larm/.rarm/...`
+    are screen mode on tiles lz:733100 (327 tiles) with map lz:734790+10. The block's maps are 734590, 734790 and
+    734994 (all three have the 327-tile header; 734D90 is not a map). Tried: `fixed_tiles` "733100" with those
+    three maps: L.ARM unchanged and HEAD turned dark, so reverted. Next idea: the strokes look like the game's
+    selected-box frame, so L.ARM's new cells may use a palette bank or tile numbers the game rewrites for the
+    cursor. Dump VRAM/palette at arrival (`screenfind.py parts_shop_type --warp --rom build/...`), compare L.ARM's
+    map entries (tile numbers, palette) with R.ARM's, and check whether the appended tiles run past the block's VRAM room.
+  - **Next:** (1) fix L.ARM, re-shoot the 10 `parts_shop*` scenes into `work/qa/scenes_en10` (`--only`), rebuild
+    sheets 8 and 9, `qa_gate.py init` on the same manifest (with `--build`), re-verdict those two into a new
+    `verdicts10/recheck_1.tsv`; if the fix changes the build, the whole tour reruns. Then `qa_gate.py check` must
+    exit 0. (2) textcover: string addresses change with every build, so run it on the scene logs of the final build
+    (`scenes_en10` has `--probes` logs; `$SKILL/scripts/textcover.py work/qa/scenes_en10
+    build/medarot_kuwagata_en.strings.tsv --mask 0x1FFFFFF`) plus a fresh event tour (`eventtour.py`, foreground,
+    slices); gaps -> new scenes or `docs/text_unshown.tsv` waivers. (3) `inkbox.py` on choice/centred boxes (save +
+    shop yes/no, options, name-entry buttons, shop menu Buy/Sell/Exit).
 - **Phase 8 session 8 (2026-11-17): name entry.**
   - **Done, verified in the emulator on the English build** (build sha1 cedd2689... before the SPACE relabel; commit
     0aab532): NAME ENTRY header, prompt, SPACE / BACK / OK buttons (すすむ types a blank: tested on the JP ROM),
@@ -310,7 +329,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   4. Graphics survey rows G18, G19, G24, G28-G30: match them to screens with `vramfind.py` over the scene and map
      tour shots when the graphics work starts.
   5. Link battle / link trade screens beyond `parts_trade`: not looked at.
-- **Open bugs:** none.
+- **Open bugs:** parts_shop_type L.ARM box drawn white with red strokes (session 9 above; visual-QA sheet_8/9).
 - **Waiting on the user:** nothing.
 - **Notes for later phases:** Phase 5: try the existing
   VWF (redraw glyphs, lowercase in D0-EF, new widths) before writing one; the main dialogue font address is not pinned
