@@ -2,7 +2,20 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress (polish pass done; story pass running; then final tour + release).
+- **Phase:** 9. Release in progress (polish + story pass done; final tour, then release).
+- **Phase 9 session 2 (2026-11-17):**
+  - **Story pass closed:** all 27 chapters reviewed (codex read-only; run as a detached `Start-Process` so Claude
+    Code's memory reaper can't kill it). 5 issues (i07 elder's "my boy" -> "O hero"/"noble hero"; i08 date
+    reminder; i10 "Housewives' Shopping?" hint; s1 part 3 chick seller's unfinished "Rubberobo Gang... and M-PK";
+    s3 Octomed ", tako!" + Racione caps) fixed with the reviewers' suggested EN; `work/qa/story/verdicts/zz_fixed_001.tsv`.
+    Every report's Minors applied or waived in `docs/polish.md` (new section, 0 unticked). Chapters regenerated,
+    `work/qa/story/manifest.tsv` init'd; `qa_gate.py check` 27/27 ok.
+  - Final tour started detached: `prove.py build/... --no-states --probes --qa work/qa/scenes_en13 --jobs 1`
+    (log `work/qa/prove_en13.txt`), build sha1 a3bfbd6c576cc679e07b0e42bd051b32d3ce98ae.
+  - **Next:** pair sheets `sheet.py work/qa/scenes_en13/shots --compare work/qa/scenes/shots --cols 2 --max 6 --div 1`
+    -> `work/qa/tour13`; `qa_gate.py init work/qa/manifest.tsv work/qa/tour13 --build build/medarot_kuwagata_en.gba`
+    (keep the old one as `manifest_s12.tsv`); verdicts `work/qa/verdicts13`; fill PATCHED_CRC32 in README;
+    `tools/release.py --version 1.0`.
 - **Phase 9 session 1 (2026-11-17):**
   - **Polish pass done:** `docs/polish.md` all ticked. Fix batch `work/tl/p001` (63 lines, reviewers' suggestions,
     refit where `batches.py check` failed) merged; きのうていし glossary row (broken / shut down); "Medabot professor"

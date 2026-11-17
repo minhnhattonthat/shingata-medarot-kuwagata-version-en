@@ -17,7 +17,7 @@ dump, a headered copy or an already-patched ROM will not work.
 How to patch
 ------------
 Apply Shingata_Medarot_Kuwagata_EN_v1.0.bps with Rom Patcher JS (in the browser), Floating IPS (flips) or beat.
-The patched ROM is 9,437,184 bytes, CRC32 PATCHED_CRC32.
+The patched ROM is 9,437,184 bytes, CRC32 87EE2611.
 
 Playing
 -------
