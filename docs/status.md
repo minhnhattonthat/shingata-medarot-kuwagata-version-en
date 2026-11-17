@@ -2,7 +2,14 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (L.ARM fixed, inkbox done; textcover sweep at 2177/8029 to resume, then the final tour + gate on the final build).
+- **Phase:** 8. QA in the emulator: in progress (L.ARM fixed, inkbox done; textcover sweep at 3791/8029 to resume, then the final tour + gate on the final build).
+- **Phase 8 session 12 (2026-11-17): sweep resumed, reaped again at 3791 shown.**
+  - Build unchanged. `sweep.py --jobs 1` ran runs 008-011 (~455 strings per run, no stalls) before Claude Code
+    reaped it for low system memory (0.75 GB free of 15.5 afterwards; other processes on the machine). textcover on
+    `work/qa/sweep`: **3791/8029 shown, 1128 waived, 3110 open** (~7 more runs, ~70 min).
+  - **Next:** unchanged: rerun `python -X utf8 tools/debug/sweep.py --qa work/qa/sweep --jobs 1` with memory to
+    spare (resumes from logs; start it with `CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP=1` in Claude Code's
+    environment, or run it from a plain terminal, so it isn't reaped), then textcover/tour/gate as in session 10.
 - **Phase 8 session 11 (2026-11-17): sweep resumed, reaped again at 2177 shown.**
   - Build unchanged (sha1 ef19ef1b...). `sweep.py --jobs 1` ran runs 003-007: textcover on `work/qa/sweep` now
     **2177/8029 shown, 1128 waived, 4724 open**; Claude Code reaped it again for low system memory (~3 GB free of
