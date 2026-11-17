@@ -2,7 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (L.ARM fixed, inkbox done; textcover sweep to resume, then the final tour + gate on the final build).
+- **Phase:** 8. QA in the emulator: in progress (L.ARM fixed, inkbox done; textcover sweep at 2177/8029 to resume, then the final tour + gate on the final build).
+- **Phase 8 session 11 (2026-11-17): sweep resumed, reaped again at 2177 shown.**
+  - Build unchanged (sha1 ef19ef1b...). `sweep.py --jobs 1` ran runs 003-007: textcover on `work/qa/sweep` now
+    **2177/8029 shown, 1128 waived, 4724 open**; Claude Code reaped it again for low system memory (~3 GB free of
+    15.5; other projects' Mesen/agents on the machine use the rest, e.g. a vattroller-x-en Mesen at ~800 MB).
+  - **Watchdog added to `tools/lua/sweep.lua`:** some strings hang the box (4B7571 `{var:04}..{end:02}`, 4B757F
+    `{var:01}`), which cost runs 003/004 the full 590 s for 1 string each. Now when no new dialogue starts for 1500
+    frames the run logs `SWEEPSTUCK` and ends, so the next run starts past it at once. (Runs 005/006: ~465 strings
+    per 590 s run, no stalls; ~10 runs = ~100 min left.)
+  - **Next:** same as session 10's Next: rerun `python -X utf8 tools/debug/sweep.py --qa work/qa/sweep --jobs 1`
+    when the machine has memory to spare (it resumes from the logs), then textcover/tour/gate as below.
 - **Phase 8 session 10 (2026-11-17): L.ARM, inkbox, text sweep.**
   - **L.ARM fixed** (b0d3a8d): its erase copied column x=100, which lies inside a Japanese glyph (indices 1/3) and
     smeared white/red stripes across the box; now column 94 (clean fill, read with `screenfind.py --grid`). Not a

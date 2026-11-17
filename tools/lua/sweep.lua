@@ -13,10 +13,22 @@ f:close()
 -- Some screens restart the same string every frame (the intro): a repeated original pointer keeps the current
 -- substitute; only a different original pointer advances the list.
 local n, last = 0, nil
+-- Watchdog: some strings hang the box (a {var} / {end:02} code the event doesn't set up; e.g. 4B7571, 4B757F). The
+-- string is already logged as read by then, so when no new dialogue starts for STALL frames the run ends at once and
+-- sweep.py starts the next one past it, instead of idling until the 590 s cap.
+local STALL, lastStart = 1500, nil
+L.on_frame(function(f)
+  if lastStart and f - lastStart > STALL then
+    L.log(string.format("SWEEPSTUCK %d %X f%d", n, list[n] or 0, f))
+    lastStart = nil
+    L.finish(0)
+  end
+end)
 L.on_exec(0x08040F6C, 0x08040F6C, function()
   local orig = emu.getState()["cpu.r0"]
   if orig ~= last then
     last = orig
+    lastStart = L.frame
     n = n + 1
     if n == #list + 1 then L.log("SWEEPEND f" .. L.frame) end
     if n <= #list then L.log(string.format("SWEEP %d %X f%d", n, list[n], L.frame)) end
