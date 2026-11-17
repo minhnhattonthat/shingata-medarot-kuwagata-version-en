@@ -2723,7 +2723,7 @@
    "kind": "ff",
    "bytes": 64,
    "jp": "{face:001201}あら {var:00}くん{n}いらっしゃい{page}メダロット2コア クリアおめでとう！{page}おいわいに これを キミに{n}プ・レ・ゼ・ン・ト！{end:00}",
-   "en": "{face:001201}Oh, {var:00}-kun! Welcome!{page}Congratulations on{n}clearing Medabots 2 Core!{page}To celebrate, here's a pre-sent for you!{end:00}",
+   "en": "{face:001201}Oh, {var:00}-kun! Welcome!{page}Congratulations on{n}clearing Medabots 2 Core!{page}To celebrate, here's a present{n}just for you!{end:00}",
    "status": "done",
    "notes": ""
   },

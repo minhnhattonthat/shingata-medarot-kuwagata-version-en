@@ -334,7 +334,7 @@
    "kind": "ff",
    "bytes": 11,
    "jp": "{var:01}円 なくなった{end:00}",
-   "en": "{var:01} yen lost.{end:00}",
+   "en": "Lost {var:01} yen.{end:00}",
    "status": "done",
    "notes": ""
   },

@@ -92,3 +92,8 @@ script refuses to run while any line is unticked (references/translation.md §Re
 - [x] 4E1793 - English is blank (i11) - waived: the JP is only {face:000200}{var:00} (Erika saying the player's name); an empty en keeps those bytes, which are language-neutral
 - [x] 4E1F8C - "Defend Select Headquarters" vs "Defend Select Corps HQ!" at 4DE795 (i11) - fixed
 - [x] 4E468B - "her dad" right before "Erika-chan" suggests Erika's father; Karin's is meant (i12) - fixed: "Karin's dad"
+- [x] 4EF0F1 - サソリドック is "Sasori Dock" here but "Sasori Dog" at 4EFC14 (i15) - fixed: "Sasori Dog"
+- [x] 4F2726 - "pre-sent" reads like an accidental split (i16) - fixed: "here's a present{n}just for you!"
+- [x] 4F8643 - "{var:01} yen lost." is stilted beside the other loss notices (i17) - fixed: "Lost {var:01} yen."
+- [x] 4FDAE0 - "You're my son, but even I'm impressed!" sounds backhanded (s1 part 1) - fixed: "You really have done your dad proud!"
+- [x] 500FC5 - "Medabots are an explosion" is awkwardly literal (s1 part 2) - fixed: "Medabots are a blast, my boy!" (keeps the explosion pun)

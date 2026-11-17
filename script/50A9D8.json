@@ -826,7 +826,7 @@
    "kind": "ff",
    "bytes": 61,
    "jp": "わがむすこながら みごとなかつやくだ{page}こうちょうせんせいが{n}ひょうしょうしてくれる そうだぞ{page}はなしを きかせてくれよ{end:00}",
-   "en": "You're my son, but even I'm impressed!{page}You've done so well! I hear the principal is going to give you an award.{page}Tell me all about it!{end:00}",
+   "en": "You really have done your dad proud!{page}I hear the principal is going to give you an award.{page}Tell me all about it!{end:00}",
    "status": "done",
    "notes": ""
   },
@@ -3490,7 +3490,7 @@
    "kind": "ff",
    "bytes": 20,
    "jp": "{face:000D01}メダロットは ばくはつじゃ！{end:00}",
-   "en": "{face:000D01}Medabots are an explosion, my boy!{end:00}",
+   "en": "{face:000D01}Medabots are a blast, my boy!{end:00}",
    "status": "done",
    "notes": ""
   },
