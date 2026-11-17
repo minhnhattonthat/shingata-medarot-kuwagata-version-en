@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (L.ARM fixed, inkbox done; textcover sweep running, then the final tour + gate on the final build).
+- **Phase:** 8. QA in the emulator: in progress (L.ARM fixed, inkbox done; textcover sweep to resume, then the final tour + gate on the final build).
 - **Phase 8 session 10 (2026-11-17): L.ARM, inkbox, text sweep.**
   - **L.ARM fixed** (b0d3a8d): its erase copied column x=100, which lies inside a Japanese glyph (indices 1/3) and
     smeared white/red stripes across the box; now column 94 (clean fill, read with `screenfind.py --grid`). Not a
@@ -20,6 +20,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `docs/text_unshown.tsv` (`tools/covertables.py --write-waivers`, keyed by id). `tools/covertables.py LOGDIR..`
     = coverage per table. Text now starts on a 64 KiB boundary (`rombuild.text_stage`), so graphics fixes no longer
     move strings and coverage logs survive them.
+  - **Sweep interrupted:** the first `--jobs 2` round was reaped by Claude Code for low system memory (2.2 GB free
+    of 15.5 GB before it started, from other processes on the machine) after showing 667 strings; textcover on
+    `work/qa/sweep`: 667/8029 shown, 1128 waived, 6234 failing. The tool resumes from its logs: rerun
+    `python -X utf8 tools/debug/sweep.py --qa work/qa/sweep --jobs 1` (one emulator, ~560 MB; foreground or
+    with more free memory; ~6234 x 95 frames at ~200 fps = ~50 min per job).
   - **Next:** when the sweep ends: `textcover.py work/qa/sweep build/medarot_kuwagata_en.strings.tsv --mask
     0x1FFFFFF --waive docs/text_unshown.tsv` must exit 0 (strings the sweep can't show: investigate, sweep again
     or waive with a reason). Then the final scene tour (`prove.py ... --probes --qa work/qa/scenes_en12`), pair
