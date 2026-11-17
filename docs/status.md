@@ -2,7 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics redraws: sessions 4-7 done; left in `docs/graphics-todo.md`: name_entry, robattle_intro box contents, title logo ruling).
+- **Phase:** 8. QA in the emulator: in progress (graphics redraws: sessions 4-8 done; left in `docs/graphics-todo.md`: robattle_intro box contents, title logo ruling).
+- **Phase 8 session 8 (2026-11-17): name entry.**
+  - **Done, verified in the emulator on the English build** (build sha1 cedd2689... before the SPACE relabel; commit
+    0aab532): NAME ENTRY header, prompt, SPACE / BACK / OK buttons (すすむ types a blank: tested on the JP ROM),
+    tabs ABC / abc / 123, three English letter grids, input codes (`tools/nameentry.py`: grid table 0x0C1414,
+    default name ガンマ -> Gamma at 0x50C624), typing / page switching / BACK / OK / gap rows all tested
+    (`work/qa/ne_t/`; English state `work/qa/ne_en.mss`). `gfx.py`: text items with `cells` (one glyph per grid
+    cell), `load_font` now reads `@C6 0`-style dialogue glyphs (digits were keyed "C6" before). 77 labels,
+    `gfx.py check` 0, romcheck 0, `tools/check.py` 0 (45 tests).
+  - **robattle_intro box contents (open):** at arrival and 300 frames later both ROMs show only the top pixels of the
+    small text in the left (under BATTLEFIELD) and right (yellow) boxes, JP and EN alike (`work/qa/ri2.png`); A
+    presses from `work/qa/ri_en.mss` / `ri_jp.mss` (warp at 2700 frames, HOLD=99999) dim the screen and show
+    "Choose an opponent..." without revealing them (`work/qa/ri_ena`). Next: find where the full box text shows
+    (later intro step, or a real story robattle), dump its VRAM/OAM (`screenfind.py` / ppudump) to see whether it is
+    names-charset sprites (then already English) or a graphics block.
+  - **Next:** robattle_intro boxes (above); medal/Medabot naming (mode 2 sub 18, `0x0300066C` = whose name) shares
+    the redrawn screen but its default name source is unchecked; title logo ruling (non-blocking). Then pair sheets
+    + verdicts for every redrawn scene (`qa_gate.py`), credits role buffer bug, textcover gaps, inkbox on
+    choice/centred boxes.
 - **Phase 8 session 7 (2026-11-17): minigames + yes/no.**
   - **Done, verified English in cold-boot `prove.py --no-states --qa work/qa/gfx10` shots** (build sha1 of 11be412):
     corps_game (BOMBS, LIFE, CONTROLS, banner DEFEND / SELECT HQ!!), baseball (BALLS 10, 0 PTS, PLAY BALL!, SWING),
