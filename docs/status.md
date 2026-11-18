@@ -5,6 +5,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 9. **v1.0 published 2026-11-17** by the user: https://github.com/minhnhattonthat/shingata-medarot-kuwagata-version-en/releases/tag/v1.0
   (tag v1.0 = 772e259, asset Shingata_Medarot_Kuwagata_EN_v1.0.zip 336942 bytes, .bps SHA-1 524dd835...). Repo made
   public, description set to the game title. Next: player bug reports (`gh issue list --label bug`).
+- **2026-11-19: emulator swapped to the MesenCE QA fork** (qa-1, `fetch_emu.py mesen --force`; settings, saves and
+  GBA BIOS kept). Boot smoke ok (options screen), the 2.2.1 savestate `work/states/baseball.mss` loads and renders.
+  States in `work/states/` predate the logo build; regen with `prove.py` when next needed.
 - **Phase 9 session 4 (2026-11-17): English title logo (D15, overrides D14).** `tools/logo.py gen` draws
   gfx/logo/bg0.png (letters) + bg1.png (sprue frame, plate, SHIN/GATA boxes) from the ROM's own title blocks; the
   build stage `logo.stage` reuses the logo-only tiles of Le block 786FC4 (block size unchanged, 18 freed tiles

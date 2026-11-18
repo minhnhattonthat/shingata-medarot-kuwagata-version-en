@@ -15,7 +15,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 
 ## Paths
-- Original ROM: `rom/Shingata Medarot - Kuwagata Version (Japan).gba` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: this repo's own MesenCE in `tools/mesen/` (release 2.2.1, https://github.com/nesdev-org/MesenCE/releases/download/2.2.1/Mesen_2.2.1_Windows.zip; gitignored; needs `tools/mesen/Firmware/gba_bios.bin`, SHA-1 300c20df...). Savestates: `work/states/`.
+- Original ROM: `rom/Shingata Medarot - Kuwagata Version (Japan).gba` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: this repo's own MesenCE QA fork in `tools/mesen/` (release qa-1, https://github.com/minhnhattonthat/MesenCE/releases/download/qa-1/Mesen_qa-1_Windows.zip, via `python -X utf8 $SKILL/scripts/fetch_emu.py mesen --force`; replaced upstream 2.2.1 on 2026-11-19 because the fork's debugger RAM doesn't scale with ROM size; gitignored; needs `tools/mesen/Firmware/gba_bios.bin`, SHA-1 300c20df...). Savestates: `work/states/`.
 - Text: `script/`. Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
