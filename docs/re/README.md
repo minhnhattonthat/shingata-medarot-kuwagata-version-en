@@ -15,6 +15,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | prior-work.md | earlier patches, official English names, related games | done |
 | rom.md | header, map, save type, LZ77 and "Le" compression, free space | header verified; map partly guessed; LZ77 and Le codecs verified |
 | text.md | encoding, control codes, pointer tables, name lists, VWF width table | encoding and control-code arg counts verified; name lists found |
+| kabuto.md | Kabuto Version: offset map to Kuwagata, overrides, script overlay, what was checked | verified (tests/test_kabuto.py, warp tour) |
 | graphics.md | graphics-text survey | tour of boot/title/name entry + reviewed static sweep (G1-G33); mid-game screens wait for the debug tool |
 
 Recon helpers: `tools/lua/gba_romreads.lua` (per-PC ROM read ranges in a frame window), `tools/probe_codes.py`

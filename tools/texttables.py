@@ -17,6 +17,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from tbl import Table  # noqa: E402
+import version  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 GBA = 0x08000000
@@ -52,14 +53,21 @@ def string_at(rom, off):
     return None
 
 
+def region():
+    """REGION in the current version (tools/version.py; the constants above are Kuwagata offsets)."""
+    return version.at(REGION[0]), version.at(REGION[1])
+
+
 def _ptr(rom, p):
     v = struct.unpack_from("<I", rom, p)[0] - GBA
-    return v if REGION[0] <= v < REGION[1] else None
+    lo, hi = region()
+    return v if lo <= v < hi else None
 
 
 def pointer_runs(rom):
     runs = []
-    for p in range(REGION[0], REGION[1], 4):
+    lo, hi = region()
+    for p in range(lo, hi, 4):
         if _ptr(rom, p) is None:
             continue
         if runs and runs[-1][1] == p:
@@ -77,8 +85,9 @@ def find_tables(rom, table=None):
         if (b - a) // 4 >= MIN_RUN:
             in_run.update(range(a, b))
     out = []
+    exclude = {version.at(x) for x in EXCLUDE}
     for a, b in runs:
-        if (b - a) // 4 < MIN_RUN or a in EXCLUDE:
+        if (b - a) // 4 < MIN_RUN or a in exclude:
             continue
         slots = [p for p in range(a, b, 4) if _ptr(rom, p) not in in_run]
         targets = sorted({_ptr(rom, p) for p in slots})
@@ -98,7 +107,7 @@ def code_literals(rom, targets):
     """Literal-pool words in the code region that hold a table string's exact start (the parts shop clerk's line,
     0x660AC -> 0x50D0F8, found by the poison build). Words pointing mid-string there are Thumb opcodes, not pointers.
     Returned as a pseudo-table with addr 0."""
-    slots = [p for p in range(0, CODE_END, 4)
+    slots = [p for p in range(0, version.at(CODE_END), 4)
              if struct.unpack_from("<I", rom, p)[0] - GBA in targets]
     return TextTable(0, slots, sorted({struct.unpack_from("<I", rom, p)[0] - GBA for p in slots}))
 

@@ -2,6 +2,9 @@
 
 One line per gotcha: the reference file it belongs in, then the fact.
 
+- references/emulator-qa.md: a debug Lua's relative path (warp.lua's `../debug/scenes.txt`) resolves against the emulator's working dir, which moves with emu.py's `--out` depth: a tour under work/qa/kabuto/... failed every scene with "unknown SCENE". Pass data files to Lua as absolute paths through `--var`.
+- references/pipeline.md (second version of a game): two regional/paired versions (Medarot Kabuto/Kuwagata) share 93% of bytes at small shifts; align them (16-byte unique anchors -> segments, tools/romalign.py), route every hard-coded offset through one map function, and link the second script to the first by identical bytes: only 11 of 8029 strings needed new text.
+
 - references/graphics.md §Survey: a fixed 32-column sheet scrambles row-major images; pick each block's width by the
   seam between tile i and i+w, but narrow widths score better on any data, so require a clear margin (25%) over 32.
 - references/graphics.md §Survey: `codex exec -s read-only -i sheet.png ... -o out.tsv` reviews ~10 sheets in ~75 s and

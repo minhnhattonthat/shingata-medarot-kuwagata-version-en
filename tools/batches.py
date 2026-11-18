@@ -49,6 +49,19 @@ def docs():
         yield path, doc, doc["strings"]
 
 
+def kabuto_own():
+    """Entries of script_kabuto/ (tools/kabuto_script.py) without a src: the Kabuto Version's own lines, with the
+    Kuwagata table they correspond to as '_table' (its window and rules)."""
+    out = []
+    for path in sorted((ROOT / "script_kabuto").glob("*.json")):
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        for e in doc["strings"]:
+            if "src" not in e:
+                e["_table"] = doc.get("base_table") or doc["table"]
+                out.append(e)
+    return out
+
+
 def variant(entry):
     return lint.variant_for(WIN, entry["_table"], entry["kind"])
 
@@ -328,7 +341,9 @@ def main(argv):
     entries, terms = index(), glossary()
     if cmd == "check" and not names:
         bad = [f"{i}: {p}: {e['en']!r}" for i, e in entries.items() if e.get("en") for p in problems(e, e["en"], terms)]
-        print(f"{len(entries)} entries, {len(bad)} problems")
+        own = kabuto_own()  # the Kabuto overlay's own lines (src entries are script/ lines, checked above)
+        bad += [f"kabuto {e['id']}: {p}: {e['en']!r}" for e in own if e.get("en") for p in problems(e, e["en"], terms)]
+        print(f"{len(entries)} entries + {len(own)} Kabuto-only, {len(bad)} problems")
         print("\n".join(bad[:200]))
         return 1 if bad else 0
     if cmd not in ("check", "merge") or not names:

@@ -15,6 +15,11 @@ line its English byte count (spaces included: a little spare). The stage fails i
 record 127 would run into RAM after the array (the parts list at 0x03003DF0).
 """
 import struct
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import version  # noqa: E402
 
 # (page, string id, address of the `movs r1, #slot` before the call), in drawing order. From the disassembly of
 # 0x0807FAE0 (tables 0x08510C28 roles, 0x08510C88 sub-roles, 0x08510CE8 names).
@@ -68,7 +73,8 @@ def stage(rom, entries, table, strings=None):
     text = {off: t for off, _, t in entries}
     strings = strings or {}
     sizes = []
-    for page, sid, at in LINES:
+    lines = [(page, version.at(sid), version.at(at)) for page, sid, at in LINES]  # LINES holds Kuwagata offsets
+    for page, sid, at in lines:
         if sid in strings:
             sizes.append(len(strings[sid]))
         elif sid in text:
@@ -82,7 +88,7 @@ def stage(rom, entries, table, strings=None):
             raise
         print(f"{err}: marker/stress text, credit slots left as the original")
         return
-    for (page, sid, at), old, new in zip(LINES, ORIG_SLOTS, new_slots):
+    for (page, sid, at), old, new in zip(lines, ORIG_SLOTS, new_slots):
         if rom.orig[at:at + 2] != bytes([old, 0x21]):
             raise ValueError(f"credits: no movs r1, #{old} at {at:06X}")
         rom.write(at, bytes([new]), "credits slot")

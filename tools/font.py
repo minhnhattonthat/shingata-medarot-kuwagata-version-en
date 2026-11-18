@@ -12,6 +12,9 @@ import struct
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from version import at  # noqa: E402  (Kuwagata offset -> the build's version; constants here are Kuwagata)
+
 ROOT = Path(__file__).resolve().parents[1]
 ROM = ROOT / "rom" / "Shingata Medarot - Kuwagata Version (Japan).gba"
 FONT = 0x548E7C
@@ -91,18 +94,19 @@ def font_stage(rom, free, glyphs=None):
     """Copy the font to `free` with the English glyphs drawn in, point the text engine at it, write the widths.
     rom: rombuild.Rom. Returns the end of the new font."""
     glyphs = load_glyphs() if glyphs is None else glyphs
-    want = struct.pack("<I", 0x08000000 + FONT)
-    for ref in FONT_REFS:
+    font, widths, refs = at(FONT), at(WIDTHS), [at(r) for r in FONT_REFS]
+    want = struct.pack("<I", 0x08000000 + font)
+    for ref in refs:
         if rom.orig[ref:ref + 4] != want:
             raise ValueError(f"font: literal at {ref:06X} is not the font base (wrong ROM revision?)")
-    cells = bytearray(rom.orig[FONT:FONT + GLYPHS * CELL])
+    cells = bytearray(rom.orig[font:font + GLYPHS * CELL])
     for code, (_, adv, rows) in glyphs.items():
         cells[code * CELL:(code + 1) * CELL] = glyph_bytes(rows)
     rom.write(free, bytes(cells), "font")
-    for ref in FONT_REFS:
+    for ref in refs:
         rom.write(ref, struct.pack("<I", 0x08000000 + free), f"font ptr {ref:06X}")
     for code, (_, adv, _) in sorted(glyphs.items()):
-        rom.write(WIDTHS + 2 * code, bytes([adv]), f"width {code:02X}")
+        rom.write(widths + 2 * code, bytes([adv]), f"width {code:02X}")
     return free + len(cells)
 
 
@@ -115,7 +119,7 @@ NAMES_INK = {1: 0}  # dialogue background -> transparent; other colours keep the
 
 
 def names_refs(data):
-    want = struct.pack("<I", 0x08000000 + NAMES)
+    want = struct.pack("<I", 0x08000000 + at(NAMES))
     return [p for p in range(0, len(data) - 3, 4) if data[p:p + 4] == want]
 
 
@@ -149,7 +153,7 @@ def names_tiles(glyphs=None, overrides=None):
 def names_stage(rom, free, glyphs=None):
     """Recompress the name charset with the English tiles at `free` (4-aligned) and repoint it. Returns the end."""
     import le
-    raw, _ = le.decompress(rom.orig, NAMES)
+    raw, _ = le.decompress(rom.orig, at(NAMES))
     if len(raw) != NAMES_CODES * 32:
         raise ValueError(f"names charset: {len(raw)} bytes, expected {NAMES_CODES * 32}")
     raw = bytearray(raw)

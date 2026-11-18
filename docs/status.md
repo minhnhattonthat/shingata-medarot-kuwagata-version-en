@@ -5,6 +5,28 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 9. **v1.0 published 2026-11-17** by the user: https://github.com/minhnhattonthat/shingata-medarot-kuwagata-version-en/releases/tag/v1.0
   (tag v1.0 = 772e259, asset Shingata_Medarot_Kuwagata_EN_v1.0.zip 336942 bytes, .bps SHA-1 524dd835...). Repo made
   public, description set to the game title. Next: player bug reports (`gh issue list --label bug`).
+- **2026-11-19: Kabuto Version patch (D16, docs/re/kabuto.md).** `build.py --version kabuto` ->
+  build/medarot_kabuto_en.gba from `rom/Shingata Medarot - Kabuto Version (Japan).gba` (`rom_kabuto.sha1`).
+  `tools/romalign.py` -> `data/kabuto_map.tsv`; `tools/version.py` maps every Kuwagata offset of the stages (font,
+  names, gfx, logo, minifont, nameentry, credits, texttables, romcheck) with 5 overrides; `tools/kabuto_script.py`
+  -> `script_kabuto/` (8018 strings linked by `src` to identical script/ strings, 11 Kabuto-only translated).
+  Logo unchanged: same logo cells/palettes, subtitle "Kabuto Version" already English. Kuwagata build still sha1
+  49d5dc5b (unchanged). tests/test_kabuto.py (6), romcheck --version kabuto 0, jp_left 0 beyond the mapped known
+  runs, lint/batches cover the Kabuto-only lines. `tools/release.py --game kabuto` -> release/Shingata_Medarot_Kabuto_EN_v*.zip
+  (README + docs/release-readme-kabuto.txt carry its hashes). prove.py now passes SCENES as an absolute path
+  (a work/qa/kabuto/... --qa dir found no scene list).
+  - Final Kabuto build sha1 43e777c327b084905dec7bf9f4417fe354f98bf1, CRC32 B6FA4B96; BPS made + re-applied = same.
+  - Tour on the build before the last text fix (b64887b5; only 50E817 changed since): 76/77 arrived
+    (`work/qa/kabuto/scenes_en`); `party_parts` stopped at FIELD (it arrives on Kuwagata). The 45 shots that differ
+    from Kuwagata's (`tools/shotdiff.py`) reviewed by eye in `work/qa/kabuto/tour/sheet*.png` (left Kabuto, right
+    Kuwagata en13): only version art (Beat / Kabuto Medal / starter) and timing; no Japanese, garble or overflow.
+    Smoke ok; title shot `work/qa/kabuto/title_cmp.png`. The Japanese Kabuto tour (`scenes_jp`) was reaped for low
+    memory at 19/77.
+  - **Next (Kabuto):** when memory allows, re-run `prove.py build/medarot_kabuto_en.gba --no-states --qa
+    work/qa/kabuto/scenes_en --jobs 1` on the final build, retry `--only party_parts`, warp to the Weekly Medabot
+    parts tutorial and the beetle item to see the Kabuto-only lines; `qa_gate.py init work/qa/kabuto/manifest.tsv
+    <pair sheets> --build build/medarot_kabuto_en.gba` + verdicts in `work/qa/kabuto/verdicts_final`; then
+    `tools/release.py --game kabuto --version 1.0` (never publish without the user).
 - **2026-11-19: emulator swapped to the MesenCE QA fork** (qa-1, `fetch_emu.py mesen --force`; settings, saves and
   GBA BIOS kept). Boot smoke ok (options screen), the 2.2.1 savestate `work/states/baseball.mss` loads and renders.
   States in `work/states/` predate the logo build; regen with `prove.py` when next needed.

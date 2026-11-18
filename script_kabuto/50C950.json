@@ -1,0 +1,400 @@
+{
+ "table": "50C950",
+ "base_table": "50C998",
+ "about": "item names",
+ "strings": [
+  {
+   "id": "50C830",
+   "slots": [
+    "50C950"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50C878"
+  },
+  {
+   "id": "50C834",
+   "slots": [
+    "50C954"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50C87C"
+  },
+  {
+   "id": "50C838",
+   "slots": [
+    "50C958"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ロボロボメダル{item}",
+   "src": "50C880"
+  },
+  {
+   "id": "50C840",
+   "slots": [
+    "50C95C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ふくびきけん{item}",
+   "src": "50C888"
+  },
+  {
+   "id": "50C847",
+   "slots": [
+    "50C960"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "わたるくんルアー{item}",
+   "src": "50C88F"
+  },
+  {
+   "id": "50C850",
+   "slots": [
+    "50C964"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "てづくりルアー{item}",
+   "src": "50C898"
+  },
+  {
+   "id": "50C858",
+   "slots": [
+    "50C968"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "あおいひよこ{item}",
+   "src": "50C8A0"
+  },
+  {
+   "id": "50C85F",
+   "slots": [
+    "50C96C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "なふだ{item}",
+   "src": "50C8A7"
+  },
+  {
+   "id": "50C863",
+   "slots": [
+    "50C970"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ふつうのメガネ{item}",
+   "src": "50C8AB"
+  },
+  {
+   "id": "50C86B",
+   "slots": [
+    "50C974"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "しきぼう{item}",
+   "src": "50C8B3"
+  },
+  {
+   "id": "50C870",
+   "slots": [
+    "50C978"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "むずかしいほん{item}",
+   "src": "50C8B8"
+  },
+  {
+   "id": "50C878",
+   "slots": [
+    "50C97C"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "めちゃムズのほん{item}",
+   "src": "50C8C0"
+  },
+  {
+   "id": "50C881",
+   "slots": [
+    "50C980"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ちょームズのほん{item}",
+   "src": "50C8C9"
+  },
+  {
+   "id": "50C88A",
+   "slots": [
+    "50C984"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "かぶとむし{item}",
+   "like": "50C8D2",
+   "en": "Rhino Beetle{item}",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "50C890",
+   "slots": [
+    "50C988"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50C8D9"
+  },
+  {
+   "id": "50C894",
+   "slots": [
+    "50C98C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ダメロット{item}",
+   "src": "50C8DD"
+  },
+  {
+   "id": "50C89A",
+   "slots": [
+    "50C990"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "しんせんなさかな{item}",
+   "src": "50C8E3"
+  },
+  {
+   "id": "50C8A3",
+   "slots": [
+    "50C994"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ほしのかけら{item}",
+   "src": "50C8EC"
+  },
+  {
+   "id": "50C8AA",
+   "slots": [
+    "50C998"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "メダルもどき{item}",
+   "src": "50C8F3"
+  },
+  {
+   "id": "50C8B1",
+   "slots": [
+    "50C99C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "やまのつち{item}",
+   "src": "50C8FA"
+  },
+  {
+   "id": "50C8B7",
+   "slots": [
+    "50C9A0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "せともの{item}",
+   "src": "50C900"
+  },
+  {
+   "id": "50C8BC",
+   "slots": [
+    "50C9A4"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ロボロボのふく{item}",
+   "src": "50C905"
+  },
+  {
+   "id": "50C8C4",
+   "slots": [
+    "50C9A8"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ボスのしゃしん{item}",
+   "src": "50C90D"
+  },
+  {
+   "id": "50C8CC",
+   "slots": [
+    "50C9AC"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "MーPKメダル{item}",
+   "src": "50C915"
+  },
+  {
+   "id": "50C8D4",
+   "slots": [
+    "50C9B0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "きんぴかパーツ{item}",
+   "src": "50C91D"
+  },
+  {
+   "id": "50C8DC",
+   "slots": [
+    "50C9B4"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "おんぼろパーツ{item}",
+   "src": "50C925"
+  },
+  {
+   "id": "50C8E4",
+   "slots": [
+    "50C9B8"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "けいたいでんわ{item}",
+   "src": "50C92D"
+  },
+  {
+   "id": "50C8EC",
+   "slots": [
+    "50C9BC"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "かぜのつばさ{item}",
+   "src": "50C935"
+  },
+  {
+   "id": "50C8F3",
+   "slots": [
+    "50C9C0"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ミニハンドル{item}",
+   "src": "50C93C"
+  },
+  {
+   "id": "50C8FA",
+   "slots": [
+    "50C9C4"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "せんぼうきょう{item}",
+   "src": "50C943"
+  },
+  {
+   "id": "50C902",
+   "slots": [
+    "50C9C8"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "タウンマップ{item}",
+   "src": "50C94B"
+  },
+  {
+   "id": "50C909",
+   "slots": [
+    "50C9CC"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "しのびチケット{item}",
+   "src": "50C952"
+  },
+  {
+   "id": "50C911",
+   "slots": [
+    "50C9D0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ロボロボカード{item}",
+   "src": "50C95A"
+  },
+  {
+   "id": "50C919",
+   "slots": [
+    "50C9D4"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ロボロボバッチ{item}",
+   "src": "50C962"
+  },
+  {
+   "id": "50C921",
+   "slots": [
+    "50C9D8"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "パスワード1ーず{item}",
+   "src": "50C96A"
+  },
+  {
+   "id": "50C92A",
+   "slots": [
+    "50C9DC"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "パスワード2ーい{item}",
+   "src": "50C973"
+  },
+  {
+   "id": "50C933",
+   "slots": [
+    "50C9E0"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "パスワード3ーけ{item}",
+   "src": "50C97C"
+  },
+  {
+   "id": "50C93C",
+   "slots": [
+    "50C9E4"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "パスワード4ーん{item}",
+   "src": "50C985"
+  },
+  {
+   "id": "50C945",
+   "slots": [
+    "50C9E8"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "おんなのこメダル{item}",
+   "src": "50C98E"
+  }
+ ]
+}

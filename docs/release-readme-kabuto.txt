@@ -1,0 +1,48 @@
+Shingata Medarot: Kabuto Version - English translation patch v1.0
+===================================================================
+
+Unofficial fan translation of Shingata Medarot: Kabuto Version (Game Boy Advance, Imagineer, 2004).
+No ROM is included and none will be provided: patch your own dump of the Japanese game.
+This patch is for the Kabuto Version only; the Kuwagata Version has its own patch.
+
+What you need
+-------------
+The Japanese ROM (No-Intro: "Shingata Medarot - Kabuto Version (Japan)"):
+  Size   8,388,608 bytes
+  CRC32  54AF534D
+  MD5    7ab12db7382122998aaf2756dcbac498
+  SHA-1  c14e7612698342ccd495e4aef764d4083c5a4765
+Check it with any hash tool (or https://www.marcrobledo.com/RomPatcher.js/, which shows the hashes). A different
+dump, a headered copy or an already-patched ROM will not work.
+
+How to patch
+------------
+Apply Shingata_Medarot_Kabuto_EN_v1.0.bps with Rom Patcher JS (in the browser), Floating IPS (flips) or beat.
+The patched ROM is 9,437,184 bytes, CRC32 B6FA4B96.
+
+Playing
+-------
+Tested in MesenCE with the official GBA BIOS; any accurate GBA emulator or a flash cart should work.
+Start from a cold boot: emulator savestates made on the Japanese game carry its old text and font code.
+
+What is translated
+------------------
+- All dialogue: the Shingata story and the retained Ikki story, signs and books.
+- Menus, items, parts, Medals, skills, battle messages, tutorials, system messages.
+- Graphics with text (menu tabs, headers, shop options, minigame banners), the name-entry grid, the staff credits.
+- The title logo, redrawn in English (SHIN GATA MEDAROT) in the original's style; the "Kabuto Version" subtitle
+  was already in English.
+- The Kabuto Version's own lines: the Kabuto Medal, the rhino beetle, the starter Medabot's parts tutorial.
+
+Known issues
+------------
+None known. Two encyclopedia topic titles are shortened to fit their 18-byte rows ("Speed & Mobility",
+"MedalPart Affinity"). Report bugs at https://github.com/minhnhattonthat/shingata-medarot-kuwagata-version-en/issues
+(say which version; a savestate helps).
+
+Credits
+-------
+Translation, hacking and tools: minhnhattonthat. Made with extensive AI assistance (Claude by Anthropic, and OpenAI
+Codex); corrections are very welcome.
+Shingata Medarot is (c) Imagineer (original concept (c) Imagineer and Natsume). This is an unofficial fan work, not
+affiliated with them. Do not distribute patched ROMs.

@@ -1,7 +1,8 @@
 """check_rom.py: refuse to build from a dump that isn't the one listed in rom.sha1.
 
 A wrong revision or an already-patched copy otherwise builds fine and breaks at random offsets in game.
-Call check() at the top of build.py; run it alone to check a fresh dump. Exit 1 on a missing or wrong file."""
+Call check() at the top of build.py; run it alone to check a fresh dump (`--version kabuto`: rom_kabuto.sha1).
+Exit 1 on a missing or wrong file."""
 import hashlib
 import sys
 from pathlib import Path
@@ -23,6 +24,10 @@ def check(listing=ROOT / "rom.sha1"):
             sys.exit(f"{name.strip()}: SHA-1 {got}, expected {want}. Wrong revision, a header, or already patched?")
 
 
+LISTINGS = {"kuwagata": ROOT / "rom.sha1", "kabuto": ROOT / "rom_kabuto.sha1"}
+
+
 if __name__ == "__main__":
-    check()
+    v = sys.argv[sys.argv.index("--version") + 1] if "--version" in sys.argv else "kuwagata"
+    check(LISTINGS[v])
     print("rom ok")

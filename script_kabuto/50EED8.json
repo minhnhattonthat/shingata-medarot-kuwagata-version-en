@@ -1,0 +1,247 @@
+{
+ "table": "50EED8",
+ "base_table": "50EF18",
+ "about": "tutorial topics",
+ "strings": [
+  {
+   "id": "50EDEC",
+   "slots": [
+    "50EED8"
+   ],
+   "kind": "fe",
+   "bytes": 11,
+   "jp": "メダロットってなに？{item}",
+   "src": "50EE2C"
+  },
+  {
+   "id": "50EDF7",
+   "slots": [
+    "50EEDC"
+   ],
+   "kind": "fe",
+   "bytes": 15,
+   "jp": "パーツの「せいこう」について{item}",
+   "src": "50EE37"
+  },
+  {
+   "id": "50EE06",
+   "slots": [
+    "50EEE0"
+   ],
+   "kind": "fe",
+   "bytes": 12,
+   "jp": "ロボロボメダルについて{item}",
+   "src": "50EE46"
+  },
+  {
+   "id": "50EE12",
+   "slots": [
+    "50EEE4"
+   ],
+   "kind": "fe",
+   "bytes": 16,
+   "jp": "メダルとパーツの「あいしょう」{item}",
+   "src": "50EE52"
+  },
+  {
+   "id": "50EE22",
+   "slots": [
+    "50EEE8"
+   ],
+   "kind": "fe",
+   "bytes": 18,
+   "jp": "「きんせつ」と「えんかく」について{item}",
+   "src": "50EE62"
+  },
+  {
+   "id": "50EE34",
+   "slots": [
+    "50EEEC"
+   ],
+   "kind": "fe",
+   "bytes": 17,
+   "jp": "メダルの「じゅくれんど」について{item}",
+   "src": "50EE74"
+  },
+  {
+   "id": "50EE45",
+   "slots": [
+    "50EEF0"
+   ],
+   "kind": "fe",
+   "bytes": 18,
+   "jp": "きゃくぶパーツと「ちけい」について{item}",
+   "src": "50EE85"
+  },
+  {
+   "id": "50EE57",
+   "slots": [
+    "50EEF4"
+   ],
+   "kind": "fe",
+   "bytes": 19,
+   "jp": "「じゅうてん」と「ほうねつ」について{item}",
+   "src": "50EE97"
+  },
+  {
+   "id": "50EE6A",
+   "slots": [
+    "50EEF8"
+   ],
+   "kind": "fe",
+   "bytes": 17,
+   "jp": "「すいしん」と「きどう」について{item}",
+   "src": "50EEAA"
+  },
+  {
+   "id": "50EE7B",
+   "slots": [
+    "50EEFC"
+   ],
+   "kind": "fe",
+   "bytes": 13,
+   "jp": "「メダフォース」について{item}",
+   "src": "50EEBB"
+  },
+  {
+   "id": "50EE88",
+   "slots": [
+    "50EF00"
+   ],
+   "kind": "fe",
+   "bytes": 14,
+   "jp": "「ローテーション」について{item}",
+   "src": "50EEC8"
+  },
+  {
+   "id": "50EE96",
+   "slots": [
+    "50EF04"
+   ],
+   "kind": "fe",
+   "bytes": 13,
+   "jp": "「テストモード」について{item}",
+   "src": "50EED6"
+  },
+  {
+   "id": "50EEA3",
+   "slots": [
+    "50EF08"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EEE3"
+  },
+  {
+   "id": "50EEA7",
+   "slots": [
+    "50EF0C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EEE7"
+  },
+  {
+   "id": "50EEAB",
+   "slots": [
+    "50EF10"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EEEB"
+  },
+  {
+   "id": "50EEAF",
+   "slots": [
+    "50EF14"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EEEF"
+  },
+  {
+   "id": "50EEB3",
+   "slots": [
+    "50EF18"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EEF3"
+  },
+  {
+   "id": "50EEB7",
+   "slots": [
+    "50EF1C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EEF7"
+  },
+  {
+   "id": "50EEBB",
+   "slots": [
+    "50EF20"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EEFB"
+  },
+  {
+   "id": "50EEBF",
+   "slots": [
+    "50EF24"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EEFF"
+  },
+  {
+   "id": "50EEC3",
+   "slots": [
+    "50EF28"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EF03"
+  },
+  {
+   "id": "50EEC7",
+   "slots": [
+    "50EF2C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EF07"
+  },
+  {
+   "id": "50EECB",
+   "slots": [
+    "50EF30"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "50EF0B"
+  },
+  {
+   "id": "50EECF",
+   "slots": [
+    "50EF34"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "？？？？？？？？{item}",
+   "src": "50EF0F"
+  }
+ ]
+}

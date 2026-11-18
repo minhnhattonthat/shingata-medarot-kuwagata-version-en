@@ -1,6 +1,7 @@
 """build.py: build the patched ROM from rom/ + the repo's sources.
 
     python -X utf8 build.py                  # -> build/medarot_kuwagata_en.gba (+ .writes.txt for romdiff --writes)
+    python -X utf8 build.py --version kabuto # -> build/medarot_kabuto_en.gba from the Kabuto dump (docs/re/kabuto.md)
     python -X utf8 build.py --relocate-all   # -> build/relocate_all.gba: every script string moved past 8 MiB and
                                              #    repointed, the pointer-writer stress build (docs/status.md)
     python -X utf8 build.py --relocate-all --poison   # -> build/relocate_poison.gba: same, old copies overwritten
@@ -19,9 +20,10 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "tools"))
 import check_rom  # noqa: E402
 import rombuild  # noqa: E402
+import version  # noqa: E402
 
-ROM = ROOT / "rom" / "Shingata Medarot - Kuwagata Version (Japan).gba"
-OUT = ROOT / "build" / "medarot_kuwagata_en.gba"
+ROM = version.VERSIONS["kuwagata"].rom
+OUT = version.VERSIONS["kuwagata"].out
 
 
 def main():
@@ -36,15 +38,19 @@ def main():
                     help="override one string (hex id = its offset; TEXT in en.tbl form with {controls}); repeatable."
                          " Width-gate stress lines: needs --out or --marker")
     ap.add_argument("--out", type=Path, help="output path")
+    ap.add_argument("--version", choices=sorted(version.VERSIONS), default=version.BASE,
+                    help="game version: kuwagata (default) or kabuto (script_kabuto/ overlay, docs/re/kabuto.md)")
     a = ap.parse_args()
     if a.poison and not a.relocate_all:
         ap.error("--poison needs --relocate-all")
     if a.full and not a.marker:
         ap.error("--full needs --marker")
 
-    check_rom.check()
+    version.select(a.version)
+    v = version.current()
+    check_rom.check(check_rom.LISTINGS[v.name])
     t0 = time.time()
-    orig = ROM.read_bytes()
+    orig = v.rom.read_bytes()
     strings = None
     if a.marker:
         import marker
@@ -56,11 +62,14 @@ def main():
         for item in a.set:
             sid, _, text = item.partition("=")
             strings[int(sid, 16)] = rombuild.en_table().encode(text)
-    data, report = rombuild.build(orig, strings=strings, relocate_all=a.relocate_all, poison=a.poison)
+    data, report = rombuild.build(orig, strings=strings, relocate_all=a.relocate_all, poison=a.poison,
+                                  script=v.script)
     name = "relocate_poison.gba" if a.poison else "relocate_all.gba"
     if a.marker:
         name = "marker_full.gba" if a.full else "marker.gba"
-    out = (a.out.resolve() if a.out else None) or (ROOT / "build" / name if a.relocate_all or a.marker else OUT)
+    if not version.is_base():
+        name = f"{v.name}_{name}"
+    out = (a.out.resolve() if a.out else None) or (ROOT / "build" / name if a.relocate_all or a.marker else v.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(data)
     rombuild.write_log(report, out.with_suffix(".writes.txt"))

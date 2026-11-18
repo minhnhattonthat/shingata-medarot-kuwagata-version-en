@@ -45,7 +45,9 @@ def run(name, a):
     out = a.qa / name
     cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), str(a.rom), "--out", str(out),
            "--frames", "15000", "--timeout", "600", "--script", str(ROOT / "tools" / "debug" / "warp.lua"),
-           "--var", f"SCENE='{name}'", "--var", "STOP=1"]
+           "--var", f"SCENE='{name}'", "--var", f"SCENES='{SCENES.as_posix()}'", "--var", "STOP=1"]
+    # SCENES: warp.lua's default ../debug/scenes.txt is relative to the emulator's working dir, which moves with
+    # the --qa depth (a work/qa/kabuto/... run found no scene list)
     if a.probes:
         # text coverage (every string's first-byte read, textcover.py) + who sets the alternate-font flag state+0x27
         cmd += ["--script", str(Path(SKILL) / "scripts" / "lua" / "probes" / "textcover.lua"),

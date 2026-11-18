@@ -41,12 +41,16 @@ function WARP.go(map, x, y, dir)
   WARP.pending = true
   wr(FSUB, 4)
 end
-L.on_exec(0x08057E50, 0x08057E50, function() if WARP.pending then setreg(3, reg(0)) end end)
-L.on_exec(0x08057E5A, 0x08057E5A, function() if WARP.pending then setreg(3, reg(1)) end end)
-L.on_exec(0x08057E64, 0x08057E64, function() if WARP.pending then setreg(1, WARP.dest.map) end end)
-L.on_exec(0x08057E6E, 0x08057E6E, function() if WARP.pending then setreg(1, WARP.dest.dir) end end)
-L.on_exec(0x08057E78, 0x08057E78, function() if WARP.pending then setreg(0, WARP.dest.x) end end)
-L.on_exec(0x08057E8A, 0x08057E8A, function()
+-- Kabuto Version (game code BKVJ, Kuwagata BKUJ): the same code 4 bytes earlier here (data/kabuto_map.tsv);
+-- RAM is laid out identically (docs/re/kabuto.md)
+local KABUTO = rd(0x080000AE) == 0x56
+local DW = KABUTO and -4 or 0
+L.on_exec(0x08057E50 + DW, 0x08057E50 + DW, function() if WARP.pending then setreg(3, reg(0)) end end)
+L.on_exec(0x08057E5A + DW, 0x08057E5A + DW, function() if WARP.pending then setreg(3, reg(1)) end end)
+L.on_exec(0x08057E64 + DW, 0x08057E64 + DW, function() if WARP.pending then setreg(1, WARP.dest.map) end end)
+L.on_exec(0x08057E6E + DW, 0x08057E6E + DW, function() if WARP.pending then setreg(1, WARP.dest.dir) end end)
+L.on_exec(0x08057E78 + DW, 0x08057E78 + DW, function() if WARP.pending then setreg(0, WARP.dest.x) end end)
+L.on_exec(0x08057E8A + DW, 0x08057E8A + DW, function()
   if WARP.pending then
     setreg(0, WARP.dest.y); WARP.pending = false
     L.log(string.format("warp f%d -> map %d (%d,%d)", L.frame, WARP.dest.map, WARP.dest.x, WARP.dest.y))

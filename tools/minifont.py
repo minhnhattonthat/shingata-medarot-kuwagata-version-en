@@ -13,8 +13,13 @@ capitals, two per 8-px cell) drawn over codes 52-59, repoints the two base liter
 place (text region, allowed). The digit glyphs keep their own pointers into the original font.
 """
 import struct
+import sys
+from pathlib import Path
 
-BASE = 0x7C49CC          # font base: glyph address = BASE + code * 64
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from version import at  # noqa: E402  (Kuwagata offset -> the build's version; constants here are Kuwagata)
+
+BASE = 0x7C49CC         # font base: glyph address = BASE + code * 64
 FIRST, LAST = 0x52, 0xFF  # codes copied (the lists use 52..; digits sit at C6..)
 REFS = (0x77BE8, 0x788E0)
 LISTS = {0x50EB4C: 11, 0x50EC08: 11}  # glyph list -> slot count (the car list's tail "FE C8 C6 FE" is kept)
@@ -60,7 +65,8 @@ def glyph(pair):
 
 
 def font_bytes(orig):
-    data = bytearray(orig[BASE + FIRST * 64:BASE + (LAST + 1) * 64])
+    base = at(BASE)
+    data = bytearray(orig[base + FIRST * 64:base + (LAST + 1) * 64])
     for code, pair in CELLS.items():
         data[(code - FIRST) * 64:(code - FIRST + 1) * 64] = glyph(pair)
     return bytes(data)
@@ -68,19 +74,21 @@ def font_bytes(orig):
 
 def stage(rom, free):
     """Write the font copy at `free` (4-aligned), repoint, rewrite the lists. Returns the new end."""
-    want = struct.pack("<I", 0x08000000 + BASE)
-    for ref in REFS:
+    want = struct.pack("<I", 0x08000000 + at(BASE))
+    refs = [at(r) for r in REFS]
+    for ref in refs:
         if rom.orig[ref:ref + 4] != want:
             raise ValueError(f"minifont: literal at {ref:06X} is not the font base")
     for off, n in LISTS.items():
+        off = at(off)
         if rom.orig[off + n] != 0xFE:
             raise ValueError(f"minifont: glyph list at {off:06X} does not end after {n} codes")
     free = (free + 3) & ~3
     data = font_bytes(rom.orig)
     rom.write(free, data, "minifont")
     new_base = 0x08000000 + free - FIRST * 64
-    for ref in REFS:
+    for ref in refs:
         rom.write(ref, struct.pack("<I", new_base), f"minifont ptr {ref:06X}")
     for off, codes in TEXT.items():
-        rom.write(off, bytes(codes), f"minifont list {off:06X}")
+        rom.write(at(off), bytes(codes), f"minifont list {at(off):06X}")
     return free + len(data)

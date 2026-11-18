@@ -4,6 +4,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Commands (run from repo root)
 - Build:    `python -X utf8 build.py` -> build/medarot_kuwagata_en.gba (checks the dump against `rom.sha1` first; byte-identical to the original until text goes in). `--relocate-all [--poison]`: every script string moved past 8 MiB (old copies overwritten with ア) to test the pointer writer
+- Kabuto Version: `build.py --version kabuto` -> build/medarot_kabuto_en.gba (`rom_kabuto.sha1`; offsets via `tools/version.py`, strings `script_kabuto/` from `tools/kabuto_script.py`, linked to `script/`: fix text in `script/` only; docs/re/kabuto.md). Release: `tools/release.py --game kabuto`
 - Extract:  `python -X utf8 tools/extract.py` -> `script/<table>.json` (the build's text source; only missing files are written, `--force` re-dumps keeping en/status/notes). Coverage map of the text region: `tools/textmap.py`
 - Compare shots: `python -X utf8 tools/shotdiff.py work/qa/scenes/shots work/qa/scenes_<x>/shots --out work/qa/shotdiff` (after `prove.py ROM --no-states --qa work/qa/scenes_<x>`)
 - Check:    `python -X utf8 tools/check.py` (tests + lint; the pre-commit hook runs this; hooks path: `git config core.hooksPath tools/hooks`)

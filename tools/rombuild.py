@@ -84,12 +84,23 @@ def poisoned(s):
 
 def load_script(lang="en", root=SCRIPT):
     """[(string offset, [slot offsets], text)] from script/*.json: text = the `lang` field, or `jp` while it is empty.
-    Strings with no slots (script/unused.json) are left out: nothing reads them."""
+    Strings with no slots (script/unused.json) are left out: nothing reads them. An entry with "src" (script_kabuto/,
+    tools/kabuto_script.py) takes the text of that script/ entry, whose Japanese bytes are the same."""
     out = []
+    base = None
     for path in sorted(Path(root).glob("*.json")):
         for e in json.loads(path.read_text(encoding="utf-8"))["strings"]:
             if e["slots"]:
-                out.append((int(e["id"], 16), [int(s, 16) for s in e["slots"]], e.get(lang) or e["jp"]))
+                if "src" in e:
+                    base = base or {b["id"]: b for p in sorted(SCRIPT.glob("*.json"))
+                                    for b in json.loads(p.read_text(encoding="utf-8"))["strings"]}
+                    src = base[e["src"]]
+                    if src["jp"] != e["jp"]:
+                        raise ValueError(f"{path.name} {e['id']}: jp differs from its src {e['src']}")
+                    text = src.get(lang) or src["jp"]
+                else:
+                    text = e.get(lang) or e["jp"]
+                out.append((int(e["id"], 16), [int(s, 16) for s in e["slots"]], text))
     if not out:
         raise FileNotFoundError(f"no strings in {root}: run tools/extract.py")
     return out
@@ -146,8 +157,8 @@ def en_table():
 
 
 def has_lang(lang="en", root=SCRIPT):
-    """True once any string of script/ has a `lang` text."""
-    return any(e.get(lang) for path in Path(root).glob("*.json")
+    """True once any string of script/ has a `lang` text (an overlay's src entries count through script/)."""
+    return any(e.get(lang) for r in {Path(root), SCRIPT} for path in r.glob("*.json")
                for e in json.loads(path.read_text(encoding="utf-8"))["strings"])
 
 

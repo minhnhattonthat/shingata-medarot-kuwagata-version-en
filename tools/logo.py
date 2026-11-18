@@ -18,6 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import le  # noqa: E402
+from version import at  # noqa: E402  (Kuwagata offset -> the build's version; constants here are Kuwagata)
 
 ROOT = Path(__file__).resolve().parents[1]
 ROM = ROOT / "rom" / "Shingata Medarot - Kuwagata Version (Japan).gba"
@@ -61,15 +62,15 @@ def render(tiles, mp):
 
 
 def originals(rom):
-    tiles, _ = le.decompress(rom, TILES)
-    m0, _ = le.decompress(rom, MAP0)
-    m1, _ = le.decompress(rom, MAP1)
+    tiles, _ = le.decompress(rom, at(TILES))
+    m0, _ = le.decompress(rom, at(MAP0))
+    m1, _ = le.decompress(rom, at(MAP1))
     return bytes(tiles), bytes(m0), bytes(m1)
 
 
 def palette_rgb(rom):
     return [((v & 31), (v >> 5 & 31), (v >> 10 & 31))
-            for v in struct.unpack_from("<256H", rom, PALS)]
+            for v in struct.unpack_from("<256H", rom, at(PALS))]
 
 
 # ---------------------------------------------------------------- build stage
@@ -91,7 +92,7 @@ def make(rom, layers=None):
     layers = load_layers() if layers is None else layers
     keep = set()  # tiles used outside the logo
     for off in OTHER_MAPS:
-        mp, _ = le.decompress(rom, off)
+        mp, _ = le.decompress(rom, at(off))
         keep |= {entry(mp, cx, cy) & 1023 for cy in range(MH) for cx in range(MW)}
     keep |= {entry(m1, cx, cy) & 1023 for cy in range(ROWS, MH) for cx in range(MW)}
     keep |= {entry(m0, cx, cy) & 1023 for cy in range(ROWS, MH) for cx in range(MW)}
@@ -136,7 +137,8 @@ def refs(data, off):
 
 
 def block_offsets():
-    return (TILES, MAP0, MAP1)
+    """The three blocks the stage replaces, in the current version (tools/version.py)."""
+    return tuple(at(o) for o in (TILES, MAP0, MAP1))
 
 
 def stage(rom, free):

@@ -20,6 +20,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import le  # noqa: E402
 import lz77  # noqa: E402
+from version import at as vat  # noqa: E402  (labels.json offsets are Kuwagata; vat() maps them to the build's version)
 
 ROOT = Path(__file__).resolve().parents[1]
 SPEC = ROOT / "gfx" / "labels.json"
@@ -203,7 +204,7 @@ def paint(g, label, styles):
 def compose(rom, label, styles):
     """(original raw, new raw) for a block label (the block is the image, `cols` tiles wide)."""
     mod = CODECS[label["codec"]]
-    raw, _ = mod.decompress(rom, int(label["off"], 16))
+    raw, _ = mod.decompress(rom, vat(int(label["off"], 16)))
     if "patch" in label:  # {"byte offset (hex)": "hex bytes"}: data blocks such as a small map (no image, no box)
         new = bytearray(raw)
         for at, hx in label["patch"].items():
@@ -283,7 +284,7 @@ def screen_blocks(rom, spec):
     def get(src):
         codec, off, at = _src(src)
         if off not in blocks:
-            raw, _ = CODECS[codec].decompress(rom, off)
+            raw, _ = CODECS[codec].decompress(rom, vat(off))
             blocks[off] = [codec, raw, bytearray(raw)]
         return blocks[off][2], at
 
@@ -352,7 +353,7 @@ def fixed_free(rom, spec, groups, get):
         inside, outside = set(), set()
         for msrc in maps:
             codec, moff, at = _src(msrc)
-            mp, _ = CODECS[codec].decompress(rom, moff)
+            mp, _ = CODECS[codec].decompress(rom, vat(moff))
             w = map_width(mp, at)
             rows = min(32, (len(mp) - at) // (2 * w))
             boxes = [lb["box"] for (ts, ms, _), lbs in groups.items() if ms == msrc and _src(ts)[1] == boff
@@ -392,7 +393,7 @@ def screen_problems(rom, spec, blocks):
             if any(m == msrc for _, m, _ in boxes):
                 continue
             codec, moff, at = _src(msrc)
-            mp, _ = CODECS[codec].decompress(rom, moff)
+            mp, _ = CODECS[codec].decompress(rom, vat(moff))
             if render_screen(blocks[toff][1], mp, at, 0) != render_screen(blocks[toff][2], mp, at, 0):
                 out.append(f"{msrc}: changed by the labels drawn over fixed tile block {blk}")
         if len(blocks[toff][2]) != len(blocks[toff][1]):
@@ -418,7 +419,7 @@ def gfx_stage(rom, free, spec=None):
     for off, (codec, _, new) in screen_blocks(rom.orig, spec).items():
         out.append((f"screen {off:06X}", codec, off, bytes(new), ptrs.get(f"{off:06X}")))
     for name, codec, off, new, want in out:
-        found = refs(rom.orig, off)
+        found = refs(rom.orig, vat(off))
         if len(found) != want:
             raise ValueError(f"{name}: {len(found)} pointers to {off:06X}, spec says {want}")
         packed = CODECS[codec].compress(new)
@@ -431,7 +432,7 @@ def gfx_stage(rom, free, spec=None):
 
 
 def block_offsets(spec=None):
-    """Every ROM block gfx/labels.json replaces (for romcheck's pointer slots)."""
+    """Every ROM block gfx/labels.json replaces (for romcheck's pointer slots), in the current version."""
     spec = load_spec() if spec is None else spec
     offs = set()
     for label in spec["labels"]:
@@ -439,7 +440,7 @@ def block_offsets(spec=None):
             offs |= {_src(label["tiles"])[1], _src(label["map"])[1]}
         else:
             offs.add(int(label["off"], 16))
-    return offs
+    return {vat(o) for o in offs}
 
 
 def check(spec=None, rom=None):
@@ -454,7 +455,7 @@ def check(spec=None, rom=None):
             mod = CODECS[codec]
             if mod.decompress(mod.compress(bytes(new)), 0)[0] != new:
                 problems.append(f"screen {off:06X}: compress roundtrip differs")
-            n, want = len(refs(rom, off)), spec.get("screen_ptrs", {}).get(f"{off:06X}")
+            n, want = len(refs(rom, vat(off))), spec.get("screen_ptrs", {}).get(f"{off:06X}")
             if n != want:
                 problems.append(f"screen {off:06X}: {n} pointers, screen_ptrs says {want}")
     except ValueError as e:
@@ -476,7 +477,7 @@ def check(spec=None, rom=None):
         mod = CODECS[label["codec"]]
         if mod.decompress(mod.compress(new), 0)[0] != new:
             problems.append(f"{label['id']}: compress roundtrip differs")
-        n = len(refs(rom, int(label["off"], 16)))
+        n = len(refs(rom, vat(int(label["off"], 16))))
         if n != label["ptrs"]:
             problems.append(f"{label['id']}: {n} pointers, spec says {label['ptrs']}")
     return problems

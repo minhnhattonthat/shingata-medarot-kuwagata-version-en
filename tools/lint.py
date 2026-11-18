@@ -25,6 +25,7 @@ import marker  # noqa: E402
 
 WINDOWS = ROOT / "data" / "windows.json"
 SCRIPT = ROOT / "script"
+KABUTO = ROOT / "script_kabuto"  # Kabuto Version overlay (tools/kabuto_script.py)
 TOKEN = re.compile(r"(\{\w+(?::[0-9A-Fa-f]*)?\})")
 STUB_PX = 24  # a wrapped page whose last line is narrower than this (~4-5 letters) reads as an orphan
 
@@ -217,6 +218,8 @@ def untranslated(root=SCRIPT):
     out = []
     for path in sorted(Path(root).glob("*.json")):
         for e in json.loads(path.read_text(encoding="utf-8"))["strings"]:
+            if "src" in e:
+                continue  # an overlay entry (script_kabuto/): its English is the script/ entry's
             if e["slots"] and not e.get("en") and TOKEN.sub("", e["jp"]).strip() and e["id"] not in keep:
                 out.append(f"{e['id']} ({path.stem}): no English: {e['jp']}")
     return out
@@ -227,11 +230,11 @@ def script_entries(use_marker=False, root=SCRIPT):
     out = []
     for path in sorted(Path(root).glob("*.json")):
         d = json.loads(path.read_text(encoding="utf-8"))
-        table = d.get("table")
+        table = d.get("base_table", d.get("table"))  # an overlay table takes its Kuwagata table's window
         if not table:
             continue
         for e in d["strings"]:
-            if not e["slots"]:
+            if not e["slots"] or "src" in e:
                 continue
             text = marker.marker_text(e["id"], e["jp"], e["kind"], False, w) if use_marker else e.get("en", "")
             if text:
@@ -246,9 +249,13 @@ def main(argv=None):
     a = ap.parse_args(argv)
     win = load_windows()
     entries = script_entries(a.all)
+    if not a.all and KABUTO.exists():  # the Kabuto overlay's own strings (the shared ones are linted above)
+        entries += script_entries(root=KABUTO)
     errors, warnings = lint(entries, win, marker.widths(), stubs=not a.all)
     if not a.all:
         errors += untranslated()
+        if KABUTO.exists():
+            errors += untranslated(KABUTO)
     for line in errors:
         print("ERROR", line)
     if not a.quiet:

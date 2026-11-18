@@ -1,0 +1,1217 @@
+{
+ "table": "46E5C8",
+ "base_table": "46E60C",
+ "about": "character names",
+ "strings": [
+  {
+   "id": "46E340",
+   "slots": [
+    "46E5C8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ガンマ{item}",
+   "src": "46E384"
+  },
+  {
+   "id": "46E344",
+   "slots": [
+    "46E5CC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E388"
+  },
+  {
+   "id": "46E348",
+   "slots": [
+    "46E5D0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "アイリス{item}",
+   "src": "46E38C"
+  },
+  {
+   "id": "46E34D",
+   "slots": [
+    "46E5D4"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ラ・マスカーラ{item}",
+   "src": "46E391"
+  },
+  {
+   "id": "46E355",
+   "slots": [
+    "46E5D8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ユマリ{item}",
+   "src": "46E399"
+  },
+  {
+   "id": "46E359",
+   "slots": [
+    "46E5DC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "リューキ{item}",
+   "src": "46E39D"
+  },
+  {
+   "id": "46E35E",
+   "slots": [
+    "46E5E0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "シフォン{item}",
+   "src": "46E3A2"
+  },
+  {
+   "id": "46E363",
+   "slots": [
+    "46E5E4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "マスキー{item}",
+   "src": "46E3A7"
+  },
+  {
+   "id": "46E368",
+   "slots": [
+    "46E5E8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ピョロリ{item}",
+   "src": "46E3AC"
+  },
+  {
+   "id": "46E36D",
+   "slots": [
+    "46E5EC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ボヨヨ{item}",
+   "src": "46E3B1"
+  },
+  {
+   "id": "46E371",
+   "slots": [
+    "46E5F0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "マンソン{item}",
+   "src": "46E3B5"
+  },
+  {
+   "id": "46E376",
+   "slots": [
+    "46E5F4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "マミーア{item}",
+   "src": "46E3BA"
+  },
+  {
+   "id": "46E37B",
+   "slots": [
+    "46E5F8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "カムイ{item}",
+   "src": "46E3BF"
+  },
+  {
+   "id": "46E37F",
+   "slots": [
+    "46E5FC"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "メダロットはかせ{item}",
+   "src": "46E3C3"
+  },
+  {
+   "id": "46E388",
+   "slots": [
+    "46E600"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ソンチョー{item}",
+   "src": "46E3CC"
+  },
+  {
+   "id": "46E38E",
+   "slots": [
+    "46E604"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "アマリロ{item}",
+   "src": "46E3D2"
+  },
+  {
+   "id": "46E393",
+   "slots": [
+    "46E608"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "アマリロ{item}",
+   "src": "46E3D7"
+  },
+  {
+   "id": "46E398",
+   "slots": [
+    "46E60C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "アズル{item}",
+   "src": "46E3DC"
+  },
+  {
+   "id": "46E39C",
+   "slots": [
+    "46E610"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "アズル{item}",
+   "src": "46E3E0"
+  },
+  {
+   "id": "46E3A0",
+   "slots": [
+    "46E614"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ロジョ{item}",
+   "src": "46E3E4"
+  },
+  {
+   "id": "46E3A4",
+   "slots": [
+    "46E618"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ロジョ{item}",
+   "src": "46E3E8"
+  },
+  {
+   "id": "46E3A8",
+   "slots": [
+    "46E61C"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ロボロボだんボス{item}",
+   "src": "46E3EC"
+  },
+  {
+   "id": "46E3B1",
+   "slots": [
+    "46E620"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "オーロたいちょう{item}",
+   "src": "46E3F5"
+  },
+  {
+   "id": "46E3BA",
+   "slots": [
+    "46E624"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ひよこうり{item}",
+   "src": "46E3FE"
+  },
+  {
+   "id": "46E3C0",
+   "slots": [
+    "46E628"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "MーPKたいいん{item}",
+   "src": "46E404"
+  },
+  {
+   "id": "46E3C9",
+   "slots": [
+    "46E62C"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ロボロボだんいん{item}",
+   "src": "46E40D"
+  },
+  {
+   "id": "46E3D2",
+   "slots": [
+    "46E630"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "にんじゃ{item}",
+   "src": "46E416"
+  },
+  {
+   "id": "46E3D7",
+   "slots": [
+    "46E634"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "くのいち{item}",
+   "src": "46E41B"
+  },
+  {
+   "id": "46E3DC",
+   "slots": [
+    "46E638"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "おとこのこ{item}",
+   "src": "46E420"
+  },
+  {
+   "id": "46E3E2",
+   "slots": [
+    "46E63C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "おんなのこ{item}",
+   "src": "46E426"
+  },
+  {
+   "id": "46E3E8",
+   "slots": [
+    "46E640"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "サーファー{item}",
+   "src": "46E42C"
+  },
+  {
+   "id": "46E3EE",
+   "slots": [
+    "46E644"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "じいさん{item}",
+   "src": "46E432"
+  },
+  {
+   "id": "46E3F3",
+   "slots": [
+    "46E648"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "ようちえんじ{item}",
+   "src": "46E437"
+  },
+  {
+   "id": "46E3FA",
+   "slots": [
+    "46E64C"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "じょしこうせい{item}",
+   "src": "46E43E"
+  },
+  {
+   "id": "46E402",
+   "slots": [
+    "46E650"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "おばさん{item}",
+   "src": "46E446"
+  },
+  {
+   "id": "46E407",
+   "slots": [
+    "46E654"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "がんこおやじ{item}",
+   "src": "46E44B"
+  },
+  {
+   "id": "46E40E",
+   "slots": [
+    "46E658"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "かんこうきゃく{item}",
+   "src": "46E452"
+  },
+  {
+   "id": "46E416",
+   "slots": [
+    "46E65C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "はくい{item}",
+   "src": "46E45A"
+  },
+  {
+   "id": "46E41A",
+   "slots": [
+    "46E660"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "むらびと{item}",
+   "src": "46E45E"
+  },
+  {
+   "id": "46E41F",
+   "slots": [
+    "46E664"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "りょうし{item}",
+   "src": "46E463"
+  },
+  {
+   "id": "46E424",
+   "slots": [
+    "46E668"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "げんばのひと{item}",
+   "src": "46E468"
+  },
+  {
+   "id": "46E42B",
+   "slots": [
+    "46E66C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "はっくついん{item}",
+   "src": "46E46F"
+  },
+  {
+   "id": "46E432",
+   "slots": [
+    "46E670"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "はぐれメダロット{item}",
+   "src": "46E476"
+  },
+  {
+   "id": "46E43B",
+   "slots": [
+    "46E674"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "はぐれメダロット{item}",
+   "src": "46E47F"
+  },
+  {
+   "id": "46E444",
+   "slots": [
+    "46E678"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "バニーさん{item}",
+   "src": "46E488"
+  },
+  {
+   "id": "46E44A",
+   "slots": [
+    "46E67C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ブリレッツ{item}",
+   "src": "46E48E"
+  },
+  {
+   "id": "46E450",
+   "slots": [
+    "46E680"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "テラ{item}",
+   "src": "46E494"
+  },
+  {
+   "id": "46E453",
+   "slots": [
+    "46E684"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ラシオネ{item}",
+   "src": "46E497"
+  },
+  {
+   "id": "46E458",
+   "slots": [
+    "46E688"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ビオラ{item}",
+   "src": "46E49C"
+  },
+  {
+   "id": "46E45C",
+   "slots": [
+    "46E68C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "コテツ{item}",
+   "src": "46E4A0"
+  },
+  {
+   "id": "46E460",
+   "slots": [
+    "46E690"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "モレア{item}",
+   "src": "46E4A4"
+  },
+  {
+   "id": "46E464",
+   "slots": [
+    "46E694"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "こうちょう{item}",
+   "src": "46E4A8"
+  },
+  {
+   "id": "46E46A",
+   "slots": [
+    "46E698"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ほけんのせんせい{item}",
+   "src": "46E4AE"
+  },
+  {
+   "id": "46E473",
+   "slots": [
+    "46E69C"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "としょのせんせい{item}",
+   "src": "46E4B7"
+  },
+  {
+   "id": "46E47C",
+   "slots": [
+    "46E6A0"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "おんがくのせんせい{item}",
+   "src": "46E4C0"
+  },
+  {
+   "id": "46E486",
+   "slots": [
+    "46E6A4"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "たいいくのせんせい{item}",
+   "src": "46E4CA"
+  },
+  {
+   "id": "46E490",
+   "slots": [
+    "46E6A8"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "りかのせんせい{item}",
+   "src": "46E4D4"
+  },
+  {
+   "id": "46E498",
+   "slots": [
+    "46E6AC"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "オオカミおとこ{item}",
+   "src": "46E4DC"
+  },
+  {
+   "id": "46E4A0",
+   "slots": [
+    "46E6B0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "デュオカイザー{item}",
+   "src": "46E4E4"
+  },
+  {
+   "id": "46E4A8",
+   "slots": [
+    "46E6B4"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "カッパ{item}",
+   "src": "46E4EC"
+  },
+  {
+   "id": "46E4AC",
+   "slots": [
+    "46E6B8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ゆきだるま{item}",
+   "src": "46E4F0"
+  },
+  {
+   "id": "46E4B2",
+   "slots": [
+    "46E6BC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "こまいぬ{item}",
+   "src": "46E4F6"
+  },
+  {
+   "id": "46E4B7",
+   "slots": [
+    "46E6C0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "タコメダ{item}",
+   "src": "46E4FB"
+  },
+  {
+   "id": "46E4BC",
+   "slots": [
+    "46E6C4"
+   ],
+   "kind": "fe",
+   "bytes": 2,
+   "jp": "？{item}",
+   "src": "46E500"
+  },
+  {
+   "id": "46E4BE",
+   "slots": [
+    "46E6C8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ホリウチー{item}",
+   "src": "46E502"
+  },
+  {
+   "id": "46E4C4",
+   "slots": [
+    "46E6CC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "てんいん{item}",
+   "src": "46E508"
+  },
+  {
+   "id": "46E4C9",
+   "slots": [
+    "46E6D0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "てんいん{item}",
+   "src": "46E50D"
+  },
+  {
+   "id": "46E4CE",
+   "slots": [
+    "46E6D4"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "サル{item}",
+   "src": "46E512"
+  },
+  {
+   "id": "46E4D1",
+   "slots": [
+    "46E6D8"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "けんきゅういん{item}",
+   "src": "46E515"
+  },
+  {
+   "id": "46E4D9",
+   "slots": [
+    "46E6DC"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "せんにん{item}",
+   "src": "46E51D"
+  },
+  {
+   "id": "46E4DE",
+   "slots": [
+    "46E6E0"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ばあさん{item}",
+   "src": "46E522"
+  },
+  {
+   "id": "46E4E3",
+   "slots": [
+    "46E6E4"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "OL{item}",
+   "src": "46E527"
+  },
+  {
+   "id": "46E4E6",
+   "slots": [
+    "46E6E8"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "うけつけじょう{item}",
+   "src": "46E52A"
+  },
+  {
+   "id": "46E4EE",
+   "slots": [
+    "46E6EC"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "コンパニオン{item}",
+   "src": "46E532"
+  },
+  {
+   "id": "46E4F5",
+   "slots": [
+    "46E6F0"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "おてつだいさん{item}",
+   "src": "46E539"
+  },
+  {
+   "id": "46E4FD",
+   "slots": [
+    "46E6F4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "アテンダント{item}",
+   "src": "46E541"
+  },
+  {
+   "id": "46E504",
+   "slots": [
+    "46E6F8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "レフリー{item}",
+   "src": "46E548"
+  },
+  {
+   "id": "46E509",
+   "slots": [
+    "46E6FC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "キンタロウ{item}",
+   "src": "46E54D"
+  },
+  {
+   "id": "46E50F",
+   "slots": [
+    "46E700"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "マーメイド{item}",
+   "src": "46E553"
+  },
+  {
+   "id": "46E515",
+   "slots": [
+    "46E704"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E559"
+  },
+  {
+   "id": "46E519",
+   "slots": [
+    "46E708"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E55D"
+  },
+  {
+   "id": "46E51D",
+   "slots": [
+    "46E70C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E561"
+  },
+  {
+   "id": "46E521",
+   "slots": [
+    "46E710"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E565"
+  },
+  {
+   "id": "46E525",
+   "slots": [
+    "46E714"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E569"
+  },
+  {
+   "id": "46E529",
+   "slots": [
+    "46E718"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E56D"
+  },
+  {
+   "id": "46E52D",
+   "slots": [
+    "46E71C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E571"
+  },
+  {
+   "id": "46E531",
+   "slots": [
+    "46E720"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E575"
+  },
+  {
+   "id": "46E535",
+   "slots": [
+    "46E724"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E579"
+  },
+  {
+   "id": "46E539",
+   "slots": [
+    "46E728"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E57D"
+  },
+  {
+   "id": "46E53D",
+   "slots": [
+    "46E72C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E581"
+  },
+  {
+   "id": "46E541",
+   "slots": [
+    "46E730"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E585"
+  },
+  {
+   "id": "46E545",
+   "slots": [
+    "46E734"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E589"
+  },
+  {
+   "id": "46E549",
+   "slots": [
+    "46E738"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E58D"
+  },
+  {
+   "id": "46E54D",
+   "slots": [
+    "46E73C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "グレイ{item}",
+   "src": "46E591"
+  },
+  {
+   "id": "46E551",
+   "slots": [
+    "46E740"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E595"
+  },
+  {
+   "id": "46E555",
+   "slots": [
+    "46E744"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E599"
+  },
+  {
+   "id": "46E559",
+   "slots": [
+    "46E748"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E59D"
+  },
+  {
+   "id": "46E55D",
+   "slots": [
+    "46E74C"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "サメ{item}",
+   "src": "46E5A1"
+  },
+  {
+   "id": "46E560",
+   "slots": [
+    "46E750"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "ウシ{item}",
+   "src": "46E5A4"
+  },
+  {
+   "id": "46E563",
+   "slots": [
+    "46E754"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "シルエット{item}",
+   "src": "46E5A7"
+  },
+  {
+   "id": "46E569",
+   "slots": [
+    "46E758"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5AD"
+  },
+  {
+   "id": "46E56D",
+   "slots": [
+    "46E75C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5B1"
+  },
+  {
+   "id": "46E571",
+   "slots": [
+    "46E760"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "シルエット{item}",
+   "src": "46E5B5"
+  },
+  {
+   "id": "46E577",
+   "slots": [
+    "46E764"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5BB"
+  },
+  {
+   "id": "46E57B",
+   "slots": [
+    "46E768"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5BF"
+  },
+  {
+   "id": "46E57F",
+   "slots": [
+    "46E76C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5C3"
+  },
+  {
+   "id": "46E583",
+   "slots": [
+    "46E770"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5C7"
+  },
+  {
+   "id": "46E587",
+   "slots": [
+    "46E774"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5CB"
+  },
+  {
+   "id": "46E58B",
+   "slots": [
+    "46E778"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5CF"
+  },
+  {
+   "id": "46E58F",
+   "slots": [
+    "46E77C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5D3"
+  },
+  {
+   "id": "46E593",
+   "slots": [
+    "46E780"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5D7"
+  },
+  {
+   "id": "46E597",
+   "slots": [
+    "46E784"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5DB"
+  },
+  {
+   "id": "46E59B",
+   "slots": [
+    "46E788"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5DF"
+  },
+  {
+   "id": "46E59F",
+   "slots": [
+    "46E78C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5E3"
+  },
+  {
+   "id": "46E5A3",
+   "slots": [
+    "46E790"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5E7"
+  },
+  {
+   "id": "46E5A7",
+   "slots": [
+    "46E794"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5EB"
+  },
+  {
+   "id": "46E5AB",
+   "slots": [
+    "46E798"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5EF"
+  },
+  {
+   "id": "46E5AF",
+   "slots": [
+    "46E79C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ダミー{item}",
+   "src": "46E5F3"
+  },
+  {
+   "id": "46E5B3",
+   "slots": [
+    "46E7A0"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "ロボロボだんいん{item}",
+   "src": "46E5F7"
+  },
+  {
+   "id": "46E5BC",
+   "slots": [
+    "46E7A4"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "じょしこうせい{item}",
+   "src": "46E600"
+  },
+  {
+   "id": "46E5C4",
+   "slots": [
+    "46E7A8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "はくい{item}",
+   "src": "46E608"
+  }
+ ]
+}

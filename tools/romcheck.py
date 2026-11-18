@@ -1,6 +1,7 @@
 """romcheck.py: phase 7 ROM-level checks on a built ROM and its write log.
 
     python -X utf8 tools/romcheck.py [build/medarot_kuwagata_en.gba]
+    python -X utf8 tools/romcheck.py --version kabuto      # build/medarot_kabuto_en.gba against the Kabuto dump
 
 1. romdiff.check with the write log and no free ranges: every changed byte has a logged write, each write's
    original bytes are what the clean ROM holds, nothing overwrote or overlapped a write.
@@ -18,16 +19,20 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import font  # noqa: E402
 import romdiff  # noqa: E402
+import version  # noqa: E402
 
 ROM = ROOT / "rom" / "Shingata Medarot - Kuwagata Version (Japan).gba"
 
 
 def allowed_ranges():
+    """data/allowed_ranges.txt (Kuwagata offsets), mapped to the current version; space past 8 MiB as is."""
+    def m(x):
+        return x if x >= 0x800000 else version.at(x)
     out = []
     for line in (ROOT / "data/allowed_ranges.txt").read_text(encoding="utf-8").splitlines():
         if line.strip() and not line.startswith("#"):
             lo, hi = line.split()[0].split("-")
-            out.append((int(lo, 16), int(hi, 16)))
+            out.append((m(int(lo, 16)), m(int(hi, 16))))
     return out
 
 
@@ -38,10 +43,10 @@ def pointer_slots(orig):
     import gfx
     import logo
     import minifont
-    slots = set(font.FONT_REFS) | set(font.names_refs(orig)) | set(minifont.REFS)
+    slots = {version.at(r) for r in (*font.FONT_REFS, *minifont.REFS)} | set(font.names_refs(orig))
     for off in gfx.block_offsets() | set(logo.block_offsets()):
         slots.update(gfx.refs(orig, off))
-    for path in (ROOT / "script").glob("*.json"):
+    for path in version.current().script.glob("*.json"):
         for e in json.loads(path.read_text(encoding="utf-8"))["strings"]:
             slots.update(int(s, 16) for s in e["slots"])
     return slots
@@ -75,9 +80,13 @@ def slot_problems(data, report_strings):
 
 
 def main(argv):
-    built = Path(argv[0]) if argv else ROOT / "build/medarot_kuwagata_en.gba"
+    if "--version" in argv:
+        i = argv.index("--version")
+        version.select(argv[i + 1])
+        argv = argv[:i] + argv[i + 2:]
+    built = Path(argv[0]) if argv else version.current().out
     writes = romdiff.load_writes(str(built.with_suffix(".writes.txt")))
-    errs = problems(ROM.read_bytes(), built.read_bytes(), writes)
+    errs = problems(version.current().rom.read_bytes(), built.read_bytes(), writes)
     for e in errs[:50]:
         print(e)
     print(f"{built.name}: {len(writes)} writes, {len(errs)} problems")

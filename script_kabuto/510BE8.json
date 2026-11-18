@@ -1,0 +1,727 @@
+{
+ "table": "510BE8",
+ "base_table": "510C28",
+ "about": "staff credits",
+ "strings": [
+  {
+   "id": "510AAC",
+   "slots": [
+    "510BE8"
+   ],
+   "kind": "fe",
+   "bytes": 15,
+   "jp": "エグゼクティブプロデューサー{item}",
+   "src": "510AEC"
+  },
+  {
+   "id": "510ABB",
+   "slots": [
+    "510BEC"
+   ],
+   "kind": "fe",
+   "bytes": 11,
+   "jp": "チーフプロデューサー{item}",
+   "src": "510AFB"
+  },
+  {
+   "id": "510AC6",
+   "slots": [
+    "510BF0"
+   ],
+   "kind": "fe",
+   "bytes": 11,
+   "jp": "キャラクターデザイン{item}",
+   "src": "510B06"
+  },
+  {
+   "id": "510AD1",
+   "slots": [
+    "510BF4"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "ゲームデザイン{item}",
+   "src": "510B11"
+  },
+  {
+   "id": "510AD9",
+   "slots": [
+    "510BF8"
+   ],
+   "kind": "fe",
+   "bytes": 11,
+   "jp": "セールスマネージャー{item}",
+   "src": "510B19"
+  },
+  {
+   "id": "510AE4",
+   "slots": [
+    "510BFC"
+   ],
+   "kind": "fe",
+   "bytes": 12,
+   "jp": "プロモーションスタッフ{item}",
+   "src": "510B24"
+  },
+  {
+   "id": "510AF0",
+   "slots": [
+    "510C00"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B30"
+  },
+  {
+   "id": "510AF1",
+   "slots": [
+    "510C04"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B31"
+  },
+  {
+   "id": "510AF2",
+   "slots": [
+    "510C08"
+   ],
+   "kind": "fe",
+   "bytes": 13,
+   "jp": "ディレクター・プログラム{item}",
+   "src": "510B32"
+  },
+  {
+   "id": "510AFF",
+   "slots": [
+    "510C0C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "プログラム{item}",
+   "src": "510B3F"
+  },
+  {
+   "id": "510B05",
+   "slots": [
+    "510C10"
+   ],
+   "kind": "fe",
+   "bytes": 15,
+   "jp": "イベント・バトルディレクター{item}",
+   "src": "510B45"
+  },
+  {
+   "id": "510B14",
+   "slots": [
+    "510C14"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "グラフィック{item}",
+   "src": "510B54"
+  },
+  {
+   "id": "510B1B",
+   "slots": [
+    "510C18"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B5B"
+  },
+  {
+   "id": "510B1C",
+   "slots": [
+    "510C1C"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B5C"
+  },
+  {
+   "id": "510B1D",
+   "slots": [
+    "510C20"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B5D"
+  },
+  {
+   "id": "510B1E",
+   "slots": [
+    "510C24"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B5E"
+  },
+  {
+   "id": "510B1F",
+   "slots": [
+    "510C28"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B5F"
+  },
+  {
+   "id": "510B20",
+   "slots": [
+    "510C2C"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "サウンド{item}",
+   "src": "510B60"
+  },
+  {
+   "id": "510B25",
+   "slots": [
+    "510C30"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B65"
+  },
+  {
+   "id": "510B26",
+   "slots": [
+    "510C34"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "スペシャルサンクス{item}",
+   "src": "510B66"
+  },
+  {
+   "id": "510B30",
+   "slots": [
+    "510C38"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B70"
+  },
+  {
+   "id": "510B31",
+   "slots": [
+    "510C3C"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B71"
+  },
+  {
+   "id": "510B32",
+   "slots": [
+    "510C40"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "プロデューサー{item}",
+   "src": "510B72"
+  },
+  {
+   "id": "510B3A",
+   "slots": [
+    "510C44"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B7A"
+  },
+  {
+   "id": "510B3B",
+   "slots": [
+    "510C48"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B7B"
+  },
+  {
+   "id": "510B3C",
+   "slots": [
+    "510C4C"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B7C"
+  },
+  {
+   "id": "510B3D",
+   "slots": [
+    "510C50"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B7D"
+  },
+  {
+   "id": "510B3E",
+   "slots": [
+    "510C54"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B7E"
+  },
+  {
+   "id": "510B3F",
+   "slots": [
+    "510C58"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B7F"
+  },
+  {
+   "id": "510B40",
+   "slots": [
+    "510C5C"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B80"
+  },
+  {
+   "id": "510B41",
+   "slots": [
+    "510C60"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B81"
+  },
+  {
+   "id": "510B42",
+   "slots": [
+    "510C64"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B82"
+  },
+  {
+   "id": "510B43",
+   "slots": [
+    "510C68"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B83"
+  },
+  {
+   "id": "510B44",
+   "slots": [
+    "510C6C"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B84"
+  },
+  {
+   "id": "510B45",
+   "slots": [
+    "510C70"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B85"
+  },
+  {
+   "id": "510B46",
+   "slots": [
+    "510C74"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B86"
+  },
+  {
+   "id": "510B47",
+   "slots": [
+    "510C78"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B87"
+  },
+  {
+   "id": "510B48",
+   "slots": [
+    "510C7C"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B88"
+  },
+  {
+   "id": "510B49",
+   "slots": [
+    "510C80"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B89"
+  },
+  {
+   "id": "510B4A",
+   "slots": [
+    "510C84"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B8A"
+  },
+  {
+   "id": "510B4B",
+   "slots": [
+    "510C88"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B8B"
+  },
+  {
+   "id": "510B4C",
+   "slots": [
+    "510C8C"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B8C"
+  },
+  {
+   "id": "510B4D",
+   "slots": [
+    "510C90"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B8D"
+  },
+  {
+   "id": "510B4E",
+   "slots": [
+    "510C94"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B8E"
+  },
+  {
+   "id": "510B4F",
+   "slots": [
+    "510C98"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B8F"
+  },
+  {
+   "id": "510B50",
+   "slots": [
+    "510C9C"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B90"
+  },
+  {
+   "id": "510B51",
+   "slots": [
+    "510CA0"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510B91"
+  },
+  {
+   "id": "510B52",
+   "slots": [
+    "510CA4"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "IMAGINEER{item}",
+   "src": "510B92"
+  },
+  {
+   "id": "510B5C",
+   "slots": [
+    "510CA8"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "かみくら たかゆき{item}",
+   "src": "510B9C"
+  },
+  {
+   "id": "510B66",
+   "slots": [
+    "510CAC"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "すみおか かずのり{item}",
+   "src": "510BA6"
+  },
+  {
+   "id": "510B70",
+   "slots": [
+    "510CB0"
+   ],
+   "kind": "fe",
+   "bytes": 9,
+   "jp": "きたざわ なおき{item}",
+   "src": "510BB0"
+  },
+  {
+   "id": "510B79",
+   "slots": [
+    "510CB4"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "HRS{item}",
+   "src": "510BB9"
+  },
+  {
+   "id": "510B7D",
+   "slots": [
+    "510CB8"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ホリウチー{item}",
+   "src": "510BBD"
+  },
+  {
+   "id": "510B83",
+   "slots": [
+    "510CBC"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "おおのぎ よしひろ{item}",
+   "src": "510BC3"
+  },
+  {
+   "id": "510B8D",
+   "slots": [
+    "510CC0"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "もりた ゆう{item}",
+   "src": "510BCD"
+  },
+  {
+   "id": "510B94",
+   "slots": [
+    "510CC4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "わだ あきら{item}",
+   "src": "510BD4"
+  },
+  {
+   "id": "510B9B",
+   "slots": [
+    "510CC8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "たいぼく{item}",
+   "src": "510BDB"
+  },
+  {
+   "id": "510BA0",
+   "slots": [
+    "510CCC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "KIT{item}",
+   "src": "510BE0"
+  },
+  {
+   "id": "510BA4",
+   "slots": [
+    "510CD0"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "たにぃ{item}",
+   "src": "510BE4"
+  },
+  {
+   "id": "510BA8",
+   "slots": [
+    "510CD4"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "46まさむね{item}",
+   "src": "510BE8"
+  },
+  {
+   "id": "510BAF",
+   "slots": [
+    "510CD8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ぽんすけ{item}",
+   "src": "510BEF"
+  },
+  {
+   "id": "510BB4",
+   "slots": [
+    "510CDC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ねこまおう{item}",
+   "src": "510BF4"
+  },
+  {
+   "id": "510BBA",
+   "slots": [
+    "510CE0"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ニイオ{item}",
+   "src": "510BFA"
+  },
+  {
+   "id": "510BBE",
+   "slots": [
+    "510CE4"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "イカ{item}",
+   "src": "510BFE"
+  },
+  {
+   "id": "510BC1",
+   "slots": [
+    "510CE8"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "みこ{item}",
+   "src": "510C01"
+  },
+  {
+   "id": "510BC4",
+   "slots": [
+    "510CEC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "MIKKY{item}",
+   "src": "510C04"
+  },
+  {
+   "id": "510BCA",
+   "slots": [
+    "510CF0"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510C0A"
+  },
+  {
+   "id": "510BCB",
+   "slots": [
+    "510CF4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ミニさと{item}",
+   "src": "510C0B"
+  },
+  {
+   "id": "510BD0",
+   "slots": [
+    "510CF8"
+   ],
+   "kind": "fe",
+   "bytes": 10,
+   "jp": "もりはら のりゆき{item}",
+   "src": "510C10"
+  },
+  {
+   "id": "510BDA",
+   "slots": [
+    "510CFC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ABA{item}",
+   "src": "510C1A"
+  },
+  {
+   "id": "510BDE",
+   "slots": [
+    "510D00"
+   ],
+   "kind": "fe",
+   "bytes": 8,
+   "jp": "まつだ たかし{item}",
+   "src": "510C1E"
+  },
+  {
+   "id": "510BE6",
+   "slots": [
+    "510D04"
+   ],
+   "kind": "fe",
+   "bytes": 1,
+   "jp": "{item}",
+   "src": "510C26"
+  }
+ ]
+}

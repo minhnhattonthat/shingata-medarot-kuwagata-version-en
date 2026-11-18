@@ -1,0 +1,307 @@
+{
+ "table": "465B48",
+ "base_table": "465B8C",
+ "about": "medal names",
+ "strings": [
+  {
+   "id": "465AB8",
+   "slots": [
+    "465B48"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "クワガタ{item}",
+   "src": "465AFC"
+  },
+  {
+   "id": "465ABD",
+   "slots": [
+    "465B4C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "カブト{item}",
+   "src": "465B01"
+  },
+  {
+   "id": "465AC1",
+   "slots": [
+    "465B50"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "トータス{item}",
+   "src": "465B05"
+  },
+  {
+   "id": "465AC6",
+   "slots": [
+    "465B54"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "クラゲ{item}",
+   "src": "465B0A"
+  },
+  {
+   "id": "465ACA",
+   "slots": [
+    "465B58"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "クマ{item}",
+   "src": "465B0E"
+  },
+  {
+   "id": "465ACD",
+   "slots": [
+    "465B5C"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "クモ{item}",
+   "src": "465B11"
+  },
+  {
+   "id": "465AD0",
+   "slots": [
+    "465B60"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "へ・ビー{item}",
+   "src": "465B14"
+  },
+  {
+   "id": "465AD5",
+   "slots": [
+    "465B64"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "クイーン{item}",
+   "src": "465B19"
+  },
+  {
+   "id": "465ADA",
+   "slots": [
+    "465B68"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "クラーケン{item}",
+   "src": "465B1E"
+  },
+  {
+   "id": "465AE0",
+   "slots": [
+    "465B6C"
+   ],
+   "kind": "fe",
+   "bytes": 7,
+   "jp": "フェニックス{item}",
+   "src": "465B24"
+  },
+  {
+   "id": "465AE7",
+   "slots": [
+    "465B70"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "ユニコーン{item}",
+   "src": "465B2B"
+  },
+  {
+   "id": "465AED",
+   "slots": [
+    "465B74"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ゴースト{item}",
+   "src": "465B31"
+  },
+  {
+   "id": "465AF2",
+   "slots": [
+    "465B78"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ナイト{item}",
+   "src": "465B36"
+  },
+  {
+   "id": "465AF6",
+   "slots": [
+    "465B7C"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "マーメイド{item}",
+   "src": "465B3A"
+  },
+  {
+   "id": "465AFC",
+   "slots": [
+    "465B80"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ペンギン{item}",
+   "src": "465B40"
+  },
+  {
+   "id": "465B01",
+   "slots": [
+    "465B84"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "コウモリ{item}",
+   "src": "465B45"
+  },
+  {
+   "id": "465B06",
+   "slots": [
+    "465B88"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "カッパ{item}",
+   "src": "465B4A"
+  },
+  {
+   "id": "465B0A",
+   "slots": [
+    "465B8C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ネズミ{item}",
+   "src": "465B4E"
+  },
+  {
+   "id": "465B0E",
+   "slots": [
+    "465B90"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "カメレオン{item}",
+   "src": "465B52"
+  },
+  {
+   "id": "465B14",
+   "slots": [
+    "465B94"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ウサギ{item}",
+   "src": "465B58"
+  },
+  {
+   "id": "465B18",
+   "slots": [
+    "465B98"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "サル{item}",
+   "src": "465B5C"
+  },
+  {
+   "id": "465B1B",
+   "slots": [
+    "465B9C"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "デビル{item}",
+   "src": "465B5F"
+  },
+  {
+   "id": "465B1F",
+   "slots": [
+    "465BA0"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "エンジェル{item}",
+   "src": "465B63"
+  },
+  {
+   "id": "465B25",
+   "slots": [
+    "465BA4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "ドラゴン{item}",
+   "src": "465B69"
+  },
+  {
+   "id": "465B2A",
+   "slots": [
+    "465BA8"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "しのび{item}",
+   "src": "465B6E"
+  },
+  {
+   "id": "465B2E",
+   "slots": [
+    "465BAC"
+   ],
+   "kind": "fe",
+   "bytes": 6,
+   "jp": "エイリアン{item}",
+   "src": "465B72"
+  },
+  {
+   "id": "465B34",
+   "slots": [
+    "465BB0"
+   ],
+   "kind": "fe",
+   "bytes": 3,
+   "jp": "ネコ{item}",
+   "src": "465B78"
+  },
+  {
+   "id": "465B37",
+   "slots": [
+    "465BB4"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "オオカミ{item}",
+   "src": "465B7B"
+  },
+  {
+   "id": "465B3C",
+   "slots": [
+    "465BB8"
+   ],
+   "kind": "fe",
+   "bytes": 5,
+   "jp": "セルヴォ{item}",
+   "src": "465B80"
+  },
+  {
+   "id": "465B41",
+   "slots": [
+    "465BBC"
+   ],
+   "kind": "fe",
+   "bytes": 4,
+   "jp": "ビート{item}",
+   "src": "465B85"
+  }
+ ]
+}

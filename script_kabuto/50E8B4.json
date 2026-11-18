@@ -1,0 +1,206 @@
+{
+ "table": "50E8B4",
+ "base_table": "50E8F4",
+ "about": "",
+ "strings": [
+  {
+   "id": "50E698",
+   "slots": [
+    "50E8B4"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:012500}みなさん こんにちは〜！！{end:02}",
+   "src": "50E6E0"
+  },
+  {
+   "id": "50E6AB",
+   "slots": [
+    "50E8B8"
+   ],
+   "kind": "ff",
+   "bytes": 14,
+   "jp": "{face:003000}こんにちは〜！！{end:02}",
+   "src": "50E6F3"
+  },
+  {
+   "id": "50E6B9",
+   "slots": [
+    "50E8BC"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "{face:012500}「しゅうかんメダロット」の じかんが やってきました〜！{end:02}",
+   "src": "50E701"
+  },
+  {
+   "id": "50E6DB",
+   "slots": [
+    "50E8C0"
+   ],
+   "kind": "ff",
+   "bytes": 21,
+   "jp": "{face:002E00}ねえねえ こんしゅうは なに？{end:02}",
+   "src": "50E723"
+  },
+  {
+   "id": "50E6F0",
+   "slots": [
+    "50E8C4"
+   ],
+   "kind": "ff",
+   "bytes": 40,
+   "jp": "{face:012500}あせらないでっ こんしゅうはね{n}「メダロットの くみたてこうざ」よ！{end:02}",
+   "src": "50E738"
+  },
+  {
+   "id": "50E718",
+   "slots": [
+    "50E8C8"
+   ],
+   "kind": "ff",
+   "bytes": 23,
+   "jp": "{face:003000}えっ？ ボクたちの くみたてかた？{end:02}",
+   "src": "50E760"
+  },
+  {
+   "id": "50E72F",
+   "slots": [
+    "50E8CC"
+   ],
+   "kind": "ff",
+   "bytes": 51,
+   "jp": "{face:012500}じゃあ しらない きみも しってる きみも{n}おねえさんと いっしょに べんきょうしましょ！{end:02}",
+   "src": "50E777"
+  },
+  {
+   "id": "50E762",
+   "slots": [
+    "50E8D0"
+   ],
+   "kind": "ff",
+   "bytes": 24,
+   "jp": "{face:002800}それじゃあ はじまり はじまりぃ〜！{end:00}",
+   "src": "50E7AA"
+  },
+  {
+   "id": "50E77A",
+   "slots": [
+    "50E8D4"
+   ],
+   "kind": "ff",
+   "bytes": 58,
+   "jp": "{face:002500}ここに あるのは メダロットのほねぐみ おなじみティンペット{page}それじゃあ パーツそうちゃくいってみよ〜！{end:02}",
+   "src": "50E7C2"
+  },
+  {
+   "id": "50E7B4",
+   "slots": [
+    "50E8D8"
+   ],
+   "kind": "ff",
+   "bytes": 30,
+   "jp": "あたまは「ミサイル」！{n}すごい いりょく！ かっこいい！{end:02}",
+   "like": "50E7FC",
+   "en": "The Head is \"Missile\"!{n}Huge firepower! So cool!{end:02}",
+   "status": "translated",
+   "notes": "Kabuto starter's parts; Kuwagata: Antenna head"
+  },
+  {
+   "id": "50E7D2",
+   "slots": [
+    "50E8DC"
+   ],
+   "kind": "ff",
+   "bytes": 35,
+   "jp": "みぎうでは「リボルバー」なの！{n}たんぱつしきも けっこう イカスわ{end:02}",
+   "en": "The Right Arm is \"Revolver\"! One shot at a time, but so slick!{end:02}",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "50E7F5",
+   "slots": [
+    "50E8E0"
+   ],
+   "kind": "ff",
+   "bytes": 34,
+   "jp": "ひだりうでは「サブマシンガン」！{n}どどどど・・・と うちまくる！{end:02}",
+   "en": "The Left Arm is \"Submachine Gun\"! Rat-a-tat-tat... it sprays bullets!{end:02}",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "50E817",
+   "slots": [
+    "50E8E4"
+   ],
+   "kind": "ff",
+   "bytes": 31,
+   "jp": "きゃくぶは「オチツカー」！{n}しゃげきするときは おちついて{end:02}",
+   "en": "The Legs are \"Ochitsukar\"! Stay calm when you shoot!{end:02}",
+   "status": "translated",
+   "notes": "Ochitsukar as in Kuwagata 4FE4AB (glossary); オチツカー puns on おちついて (stay calm)"
+  },
+  {
+   "id": "50E836",
+   "slots": [
+    "50E8E8"
+   ],
+   "kind": "ff",
+   "bytes": 16,
+   "jp": "そして・・・しあげはこれよ！{end:02}",
+   "src": "50E874"
+  },
+  {
+   "id": "50E846",
+   "slots": [
+    "50E8EC"
+   ],
+   "kind": "ff",
+   "bytes": 27,
+   "jp": "メダルで うごくロボットだから メダロット！ ね？{end:00}",
+   "src": "50E884"
+  },
+  {
+   "id": "50E861",
+   "slots": [
+    "50E8F0"
+   ],
+   "kind": "ff",
+   "bytes": 32,
+   "jp": "{face:012500}これからも 「しゅうかんメダロット」を よろしくね！{end:02}",
+   "src": "50E89F"
+  },
+  {
+   "id": "50E881",
+   "slots": [
+    "50E8F4"
+   ],
+   "kind": "ff",
+   "bytes": 19,
+   "jp": "{face:002E00}えっ！？ もう おわり！？{end:02}",
+   "src": "50E8BF"
+  },
+  {
+   "id": "50E894",
+   "slots": [
+    "50E8F8"
+   ],
+   "kind": "ff",
+   "bytes": 17,
+   "jp": "{face:012500}それじゃ バイバ〜イ！{end:02}",
+   "src": "50E8D2"
+  },
+  {
+   "id": "50E8A5",
+   "slots": [
+    "50E8FC"
+   ],
+   "kind": "ff",
+   "bytes": 15,
+   "jp": "{face:002800}また らいしゅ〜！{end:00}",
+   "src": "50E8E3"
+  }
+ ]
+}

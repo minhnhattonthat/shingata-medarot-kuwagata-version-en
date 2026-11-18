@@ -288,6 +288,10 @@ and an Avoid spelling fails.
 | きゅうそくチャージ | Rapid Charge | | weapon kind | |
 | きょうか | Enhance | | weapon kind | |
 | くわがたむし | Stag Beetle | | item | |
+| かぶとむし | Rhino Beetle | | item (Kabuto Version) | dialogue: rhino beetle |
+| リボルバー | Revolver | | Kabuto starter right arm | as in 4FE46B |
+| サブマシンガン | Submachine Gun | | Kabuto starter left arm | as in 4FE489 |
+| オチツカー | Ochitsukar | | Kabuto starter legs | as in 4FE4AB; puns on おちついて (stay calm) |
 | けいぞくかいふく | Sustained Recover | | weapon kind | |
 | けいたいでんわ | Cell Phone | | item | |
 | こうがくか | Beam Shift | | attack | |

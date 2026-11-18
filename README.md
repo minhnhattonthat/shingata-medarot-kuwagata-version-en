@@ -1,10 +1,12 @@
 # Shingata Medarot: Kuwagata Version English translation
 
 Unofficial English fan translation of **Shingata Medarot: Kuwagata Version** (真型メダロット クワガタバージョン, Game Boy
-Advance, Imagineer, 2004): the source text and tools that build the patch.
+Advance, Imagineer, 2004), and of its twin **Kabuto Version** (カブトバージョン): the source text and tools that build
+both patches.
 
-**Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
-no game data you can play; you need your own dump of the Japanese game.
+**Just want to play?** Download the patch for your version from [Releases](../../releases) and follow its README. Each
+patch only fits its own version. This repository holds no game data you can play; you need your own dump of the
+Japanese game.
 
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
@@ -34,6 +36,17 @@ row ("Speed & Mobility", "MedalPart Affinity").
 | SHA-1 | 573e980dffdee50d53b6f2a79d1db2d650731558 |
 | Patched | 9,437,184 bytes (the English text lives in an added 1 MiB), CRC32 0807CCF7 |
 
+Kabuto Version patch:
+
+| | |
+|---|---|
+| No-Intro name | Shingata Medarot - Kabuto Version (Japan) |
+| Size | 8,388,608 bytes (8 MiB) |
+| CRC32 | 54AF534D |
+| MD5 | 7ab12db7382122998aaf2756dcbac498 |
+| SHA-1 | c14e7612698342ccd495e4aef764d4083c5a4765 |
+| Patched | 9,437,184 bytes, CRC32 B6FA4B96 |
+
 Tested in MesenCE 2.2.1 with the official GBA BIOS. Start from a cold boot: emulator savestates made on the Japanese game
 carry its old text and font code and will show garbled text.
 
@@ -42,6 +55,7 @@ carry its old text and font code and will show garbled text.
 | Path | What it is |
 |---|---|
 | `script/` | Every text block: original Japanese and English. Translation fixes go here. |
+| `script_kabuto/` | The Kabuto Version's string tables, linked to `script/`, and its own lines. |
 | `glossary.md` | Binding names, terms and style rules. |
 | `tools/` | Python build chain: extract, insert, lint, QA, release. |
 | `tests/` | pytest suite (ROM-dependent tests skip when the ROM is absent). |
@@ -62,7 +76,12 @@ cd shingata-medarot-kuwagata-version-en
 #   (8388608 bytes, SHA-1 573e980dffdee50d53b6f2a79d1db2d650731558; the build refuses any other dump, see rom.sha1)
 python -X utf8 build.py                                # -> build/medarot_kuwagata_en.gba
 python -X utf8 tools/check.py                          # tests + text lint
+# Kabuto Version: copy your dump to rom/Shingata Medarot - Kabuto Version (Japan).gba (SHA-1 in rom_kabuto.sha1)
+python -X utf8 build.py --version kabuto               # -> build/medarot_kabuto_en.gba
 ```
+
+The Kabuto build uses the same sources: `script_kabuto/` lists the Kabuto ROM's strings, each linked to the identical
+Kuwagata string in `script/` (so one fix reaches both), plus the 11 lines only the Kabuto Version has.
 
 ## Support
 

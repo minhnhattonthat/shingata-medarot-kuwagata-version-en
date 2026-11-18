@@ -14,6 +14,11 @@ The hero's default name ガンマ (FE string at 0x50C620, pointed to only by the
 literal at 0x62FC4 by 0x08062FA0) becomes "Gamma" (glossary.md), written past 8 MiB.
 """
 import struct
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from version import at  # noqa: E402  (Kuwagata offset -> the build's version; constants here are Kuwagata)
 
 TABLE = 0x0C1414
 DEFAULT_JP, DEFAULT_PTR, DEFAULT_EN = 0x50C620, 0x50C624, "Gamma"
@@ -70,14 +75,15 @@ def stage(rom, free):
     """Rewrite the grid table in place; write the default name at `free` and repoint it. Returns the new end."""
     import rombuild
     new = table_bytes()
-    old = rom.orig[TABLE:TABLE + len(new)]
+    table, jp, ptr = at(TABLE), at(DEFAULT_JP), at(DEFAULT_PTR)
+    old = rom.orig[table:table + len(new)]
     if len(new) != 3 * ROWS * (COLS + 1) or old[COLS::COLS + 1] != b"\xfe" * (3 * ROWS):
         raise ValueError("nameentry: the original grid table is not where expected")
-    rom.write(TABLE, new, "nameentry grid")
-    if rom.orig[DEFAULT_PTR:DEFAULT_PTR + 4] != struct.pack("<I", 0x08000000 + DEFAULT_JP) or \
-            rom.orig[DEFAULT_JP:DEFAULT_JP + 4] != b"\x38\x2e\x1f\xfe":
+    rom.write(table, new, "nameentry grid")
+    if rom.orig[ptr:ptr + 4] != struct.pack("<I", 0x08000000 + jp) or \
+            rom.orig[jp:jp + 4] != b"\x38\x2e\x1f\xfe":
         raise ValueError("nameentry: the default name ガンマ is not where expected")
     name = rombuild.en_table().encode(DEFAULT_EN) + b"\xfe"
     rom.write(free, name, "nameentry default name")
-    rom.write(DEFAULT_PTR, struct.pack("<I", 0x08000000 + free), "nameentry default name ptr")
+    rom.write(ptr, struct.pack("<I", 0x08000000 + free), "nameentry default name ptr")
     return free + len(name)
