@@ -176,8 +176,9 @@ L.on_frame(function(f)
   elseif phase == "arrive" and not WARP.pending and L.route_done() and f - at >= (spec.hold or HOLD or 120) then
     -- spec.expect = {[addr]=byte, ...} (and expect_mode/expect_sub): the RAM that proves the scene; a mismatch
     -- logs NOTARRIVED instead, so prove.py fails rather than saving a state of the wrong screen.
+    -- expect_kabuto replaces expect on the Kabuto Version (its starter's parts are id 22, Kuwagata's 21).
     local bad = {}
-    for a, v in pairs(spec.expect or {}) do if rd(a) ~= v then bad[#bad + 1] = string.format("%08X=%02X", a, rd(a)) end end
+    for a, v in pairs((KABUTO and spec.expect_kabuto) or spec.expect or {}) do if rd(a) ~= v then bad[#bad + 1] = string.format("%08X=%02X", a, rd(a)) end end
     if spec.expect_mode and rd32(MODE) ~= spec.expect_mode then bad[#bad + 1] = "mode=" .. rd32(MODE) end
     if spec.expect_sub and rd32(SUBM) ~= spec.expect_sub then bad[#bad + 1] = "sub=" .. rd32(SUBM) end
     L.log(string.format("%s %s f%d mode=%d sub=%d map=%d %s", #bad == 0 and "ARRIVED" or "NOTARRIVED", SCENE or "adhoc",

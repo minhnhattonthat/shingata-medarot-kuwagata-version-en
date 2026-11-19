@@ -19,7 +19,7 @@ robattle_intro	{mode=0, sub=6, extra={[0x030051F5]=0}, hold=240}	random robattle
 # --- with the story's first medal (event 0x1CB from pc 2: cmd 11 00) and first Medabot (event 0x1D2 from pc 8)
 party_setup	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=3, expect={[0x03001790]=3,[0x03000BE0]=0xC0}}	Medabot setup with the first Medabot
 party_medals	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=4, expect={[0x03001790]=3,[0x03000BE0]=0xC0}}	medal list: the Kuwagata medal
-party_parts	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=5, expect={[0x03001790]=3,[0x03003E1A]=1}}	parts list: the first Medabot's head
+party_parts	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=5, expect={[0x03001790]=3,[0x03003E1A]=1}, expect_kabuto={[0x03001790]=3,[0x03003E1C]=1}}	parts list: the first Medabot's head
 robattle_prep	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, wait={mode=0,sub=3}, hold=20}	robattle (team 1, +0x945 story path): pre-battle Medabot check screen
 robattle	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, wait={mode=0,sub=7}, hold=40}	robattle: battle field, command phase
 robattle_menu	{events={{0x1CB,2},{0x1D2,8}}, mode=0, sub=6, extra={[0x030051F5]=1,[0x030051F2]=1}, mash=20, wait={mode=0,sub=7,stopmash=true}, hold=700}	robattle: field with A no longer mashed, so the next command menu stays open (width gate: battle menu, part slots)

@@ -22,11 +22,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Kuwagata en13): only version art (Beat / Kabuto Medal / starter) and timing; no Japanese, garble or overflow.
     Smoke ok; title shot `work/qa/kabuto/title_cmp.png`. The Japanese Kabuto tour (`scenes_jp`) was reaped for low
     memory at 19/77.
-  - **Next (Kabuto):** when memory allows, re-run `prove.py build/medarot_kabuto_en.gba --no-states --qa
-    work/qa/kabuto/scenes_en --jobs 1` on the final build, retry `--only party_parts`, warp to the Weekly Medabot
-    parts tutorial and the beetle item to see the Kabuto-only lines; `qa_gate.py init work/qa/kabuto/manifest.tsv
-    <pair sheets> --build build/medarot_kabuto_en.gba` + verdicts in `work/qa/kabuto/verdicts_final`; then
-    `tools/release.py --game kabuto --version 1.0` (never publish without the user).
+  - **Kabuto v1.0 released (user: "prepare release and publish"), tag kabuto-v1.0.** Final tour 77/77 on build
+    43e777c3 (`work/qa/kabuto/scenes_en`) and on the Japanese Kabuto ROM (`scenes_jp`); `party_parts` needed
+    `expect_kabuto` (Kabuto's starter parts are id 22, Kuwagata's 21; warp.lua). Pair sheets `work/qa/kabuto/tour`
+    (13), codex read-only verdicts `work/qa/kabuto/verdicts_final` 13/13 ok (qa_verdicts.py now takes qa_gate's
+    `id<TAB>path` chunk lines). The Kabuto-only tutorial lines seen in game: `work/qa/kabuto/weekly_parts.png`.
+    `tools/release.py --game kabuto --version 1.0`: every gate passed; zip 337431 bytes, .bps SHA-1
+    b5ca91e1f3bcc08618f5b225149f27271c70ca66. Not seen in game yet: the rhino beetle item/message and the Kabuto
+    Medal / Devil / Ninja lines (lint + glossary checked).
 - **2026-11-19: emulator swapped to the MesenCE QA fork** (qa-1, `fetch_emu.py mesen --force`; settings, saves and
   GBA BIOS kept). Boot smoke ok (options screen), the 2.2.1 savestate `work/states/baseball.mss` loads and renders.
   States in `work/states/` predate the logo build; regen with `prove.py` when next needed.

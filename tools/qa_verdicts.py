@@ -44,7 +44,9 @@ def main():
         tsv = out / (chunk.stem + ".tsv")
         if tsv.exists():
             continue
-        paths = [Path(p.strip()).as_posix() for p in chunk.read_text(encoding="utf-8").splitlines() if p.strip()]
+        # chunk lines: "path" or qa_gate todo's "id<TAB>path"
+        paths = [Path(p.strip().split("\t")[-1]).as_posix() for p in chunk.read_text(encoding="utf-8").splitlines()
+                 if p.strip()]
         want = {ids.get(p, Path(p).stem): p for p in paths}
         table = "\n".join(f"{i}\t{p}" for i, p in want.items())
         answer = out / (chunk.stem + ".answer.txt")
