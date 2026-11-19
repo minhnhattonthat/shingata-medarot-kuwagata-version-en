@@ -35,8 +35,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (13), codex read-only verdicts `work/qa/kabuto/verdicts_final` 13/13 ok (qa_verdicts.py now takes qa_gate's
     `id<TAB>path` chunk lines). The Kabuto-only tutorial lines seen in game: `work/qa/kabuto/weekly_parts.png`.
     `tools/release.py --game kabuto --version 1.0`: every gate passed; zip 337431 bytes, .bps SHA-1
-    b5ca91e1f3bcc08618f5b225149f27271c70ca66. Not seen in game yet: the rhino beetle item/message and the Kabuto
-    Medal / Devil / Ninja lines (lint + glossary checked).
+    b5ca91e1f3bcc08618f5b225149f27271c70ca66. All 11 Kabuto-only lines now seen in game on build 43e777c3:
+    item 13 "Rhino Beetle" + description via `RAWMODE=2 RAWSUB=4` items poke (`work/qa/kabuto/beetle_item`);
+    the Kabuto Medal grunt, Devil / Ninja Medal, beetle knock-down and M-PK park-Medal lines (Kabuto Medal face)
+    through `tools/lua/sweep.lua` with a 5-address LIST (`work/qa/kabuto/own_lines/sheet1.png`, `sheet2.png`):
+    all fit, no overflow. No event script names those slots (`01 a? ??` absent from events.txt).
 - **2026-11-19: emulator swapped to the MesenCE QA fork** (qa-1, `fetch_emu.py mesen --force`; settings, saves and
   GBA BIOS kept). Boot smoke ok (options screen), the 2.2.1 savestate `work/states/baseball.mss` loads and renders.
   States in `work/states/` predate the logo build; regen with `prove.py` when next needed.
