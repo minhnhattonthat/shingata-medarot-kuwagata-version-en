@@ -22,6 +22,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Kuwagata en13): only version art (Beat / Kabuto Medal / starter) and timing; no Japanese, garble or overflow.
     Smoke ok; title shot `work/qa/kabuto/title_cmp.png`. The Japanese Kabuto tour (`scenes_jp`) was reaped for low
     memory at 19/77.
+  - **Kabuto v1.0 published 2026-11-19**: https://github.com/minhnhattonthat/shingata-medarot-kuwagata-version-en/releases/tag/kabuto-v1.0
+    (tag kabuto-v1.0 = 8f18b9b, not marked Latest so Kuwagata v1.0 stays the repo's Latest; the release guard
+    reads `verdicts/` beside a manifest: `work/qa/kabuto/verdicts` = a copy of `verdicts_final`).
   - **Kabuto v1.0 released (user: "prepare release and publish"), tag kabuto-v1.0.** Final tour 77/77 on build
     43e777c3 (`work/qa/kabuto/scenes_en`) and on the Japanese Kabuto ROM (`scenes_jp`); `party_parts` needed
     `expect_kabuto` (Kabuto's starter parts are id 22, Kuwagata's 21; warp.lua). Pair sheets `work/qa/kabuto/tour`
